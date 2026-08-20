@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Deportv — Deporte en TV</title>
+<style>
+  :root{
+    --bg:#0f1420; --bg2:#161d2e; --card:#1b2436; --line:#2a344a;
+    --txt:#e8ecf4; --muted:#9aa6be; --accent:#3d7bff; --accent2:#00c2a8;
+    --chip:#243049; --chip-on:#134e46; --chip-on-b:#1fd1b0; --shadow:0 2px 10px rgba(0,0,0,.35);
+    --radius:14px;
+  }
+  @media (prefers-color-scheme: light){
+    :root{ --bg:#f4f6fb; --bg2:#ffffff; --card:#ffffff; --line:#e4e8f0;
+      --txt:#1a2233; --muted:#5c6883; --chip:#eef1f7; --chip-on:#d8f5ee;
+      --chip-on-b:#0a9e86; --shadow:0 2px 10px rgba(20,30,60,.08); }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    background:var(--bg);color:var(--txt);line-height:1.45}
+  header{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;
+    padding:22px 20px 26px}
+  header .wrap{max-width:1080px;margin:0 auto}
+  h1{margin:0;font-size:1.5rem;letter-spacing:.2px}
+  .sub{opacity:.92;font-size:.9rem;margin-top:4px}
+  .src{opacity:.8;font-size:.78rem;margin-top:8px}
+  .src a{color:#fff;text-decoration:underline}
+  main{max-width:1080px;margin:0 auto;padding:18px 16px 60px}
+
+  .panel{background:var(--bg2);border:1px solid var(--line);border-radius:var(--radius);
+    padding:14px;margin:-18px 0 18px;box-shadow:var(--shadow);position:sticky;top:8px;z-index:5}
+  .filtros{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr 1fr;gap:10px}
+  @media(max-width:820px){.filtros{grid-template-columns:1fr 1fr}}
+  @media(max-width:520px){.filtros{grid-template-columns:1fr}}
+  .campo{display:flex;flex-direction:column;gap:4px;min-width:0}
+  .campo label{font-size:.72rem;color:var(--muted);text-transform:uppercase;letter-spacing:.5px}
+  input,select{background:var(--card);color:var(--txt);border:1px solid var(--line);
+    border-radius:9px;padding:9px 10px;font-size:.9rem;width:100%}
+  input:focus,select:focus{outline:2px solid var(--accent);outline-offset:0}
+  .barra2{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:10px}
+  .btn{background:var(--chip);color:var(--txt);border:1px solid var(--line);border-radius:9px;
+    padding:8px 12px;font-size:.85rem;cursor:pointer}
+  .btn:hover{border-color:var(--accent)}
+  .btn-act{background:var(--accent);color:#fff;border-color:var(--accent);font-weight:600}
+  .btn-act:hover{filter:brightness(1.08)}
+  .btn-act.cargando{opacity:.6;pointer-events:none}
+  .ultact{margin-top:8px;font-size:.78rem;color:var(--muted)}
+  .ultact b{color:var(--txt)}
+  .switch{display:flex;align-items:center;gap:7px;font-size:.85rem;color:var(--muted);cursor:pointer;user-select:none}
+  .conteo{margin-left:auto;font-size:.85rem;color:var(--muted)}
+  .conteo b{color:var(--txt)}
+
+  details.plats{margin-top:10px;border:1px dashed var(--line);border-radius:10px;padding:6px 10px}
+  details.plats summary{cursor:pointer;font-size:.85rem;color:var(--muted)}
+  .plats-grid{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+  .plat{font-size:.78rem;background:var(--chip);border:1px solid var(--line);border-radius:999px;
+    padding:5px 10px;cursor:pointer;user-select:none}
+  .plat.on{background:var(--chip-on);border-color:var(--chip-on-b);color:var(--chip-on-b);font-weight:600}
+
+  .dia{margin:22px 0 10px;font-size:1.05rem;font-weight:700;display:flex;align-items:center;gap:10px}
+  .dia .badge{font-size:.72rem;font-weight:600;color:var(--muted);background:var(--chip);
+    border:1px solid var(--line);border-radius:999px;padding:3px 9px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;
+    margin:8px 0;display:grid;grid-template-columns:60px 1fr;gap:12px;box-shadow:var(--shadow)}
+  .card.match{border-color:var(--chip-on-b);box-shadow:0 0 0 1px var(--chip-on-b) inset}
+  .hora{font-size:1.15rem;font-weight:700;text-align:center;align-self:center}
+  .meta{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-bottom:4px}
+  .sport{font-size:.72rem;font-weight:700;color:#fff;background:var(--accent);border-radius:6px;padding:2px 7px}
+  .comp{font-size:.78rem;color:var(--muted)}
+  .ronda{font-size:.7rem;color:var(--accent2);border:1px solid var(--accent2);border-radius:6px;padding:1px 6px}
+  .evento{font-weight:600;font-size:1rem;margin:1px 0 6px}
+  .canales{display:flex;flex-wrap:wrap;gap:5px}
+  .canal{font-size:.75rem;background:var(--chip);border:1px solid var(--line);border-radius:6px;padding:3px 8px}
+  .canal.mia{background:var(--chip-on);border-color:var(--chip-on-b);color:var(--chip-on-b);font-weight:600}
+  .vacio{text-align:center;color:var(--muted);padding:50px 10px}
+  footer{max-width:1080px;margin:0 auto;padding:0 16px 40px;color:var(--muted);font-size:.78rem}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>⚽ Deportv — Deporte en TV</h1>
+    <div class="sub">Consulta y filtra la programación deportiva en televisión y streaming.</div>
+    <div class="src">Fuente: <a href="https://www.futbolenlatv.es/deporte" target="_blank" rel="noopener">futbolenlatv.es/deporte</a> · MVP 0.1</div>
+  </div>
+</header>
+
+<main>
+  <div class="panel">
+    <div class="filtros">
+      <div class="campo"><label for="q">Buscar</label>
+        <input id="q" type="search" placeholder="Equipo, evento, competición..."></div>
+      <div class="campo"><label for="fDep">Deporte</label><select id="fDep"></select></div>
+      <div class="campo"><label for="fComp">Competición</label><select id="fComp"></select></div>
+      <div class="campo"><label for="fCanal">Canal / Plataforma</label><select id="fCanal"></select></div>
+      <div class="campo"><label for="fFecha">Fecha</label><select id="fFecha"></select></div>
+    </div>
+
+    <details class="plats">
+      <summary>🎯 Mis plataformas contratadas (personalización)</summary>
+      <div class="plats-grid" id="platsGrid"></div>
+    </details>
+
+    <div class="barra2">
+      <label class="switch"><input type="checkbox" id="soloMias"> Ver solo lo disponible en mis plataformas</label>
+      <button class="btn" id="limpiar">Limpiar filtros</button>
+      <button class="btn btn-act" id="actualizar">🔄 Actualizar eventos</button>
+      <span class="conteo" id="conteo"></span>
+    </div>
+    <div class="ultact" id="ultact">Fuente actualizada: —</div>
+  </div>
+
+  <div id="lista"></div>
+  <div class="vacio" id="vacio" style="display:none">No hay eventos que coincidan con los filtros.</div>
+</main>
+
+<footer id="pie"></footer>
+
+<script>
+/* ---- Datos: se intenta cargar events.json; si no, se usa el snapshot embebido ---- */
+const DATA_EMBEBIDA = /*__DATA__*/{"meta":{},"eventos":[]}/*__END__*/;
+let DOC = DATA_EMBEBIDA;
+
+/* ============================================================
+   CONFIGURA AQUÍ tu repositorio de GitHub.
+   Los datos se sirven desde la CDN de GitHub (raw), de modo que se
+   actualizan sin necesidad de redesplegar Netlify.
+   Sustituye USUARIO y REPO por los tuyos; GH_RAMA suele ser "main".
+   ============================================================ */
+const GH_USUARIO = "USUARIO";
+const GH_REPO    = "REPO";
+const GH_RAMA    = "main";
+
+const $ = s => document.querySelector(s);
+const norm = t => (t||"").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"");
+let misPlataformas = new Set();
+
+function diaLargo(iso){
+  if(!iso) return "Sin fecha";
+  const d = new Date(iso+"T00:00:00");
+  const s = d.toLocaleDateString("es-ES",{weekday:"long",day:"numeric",month:"long"});
+  return s.charAt(0).toUpperCase()+s.slice(1);
+}
+function unicos(arr){ return [...new Set(arr)].sort((a,b)=>a.localeCompare(b,"es")); }
+
+function fmtSello(iso){
+  if(!iso) return "—";
+  const d = new Date(iso);
+  if(isNaN(d)) return iso;
+  return d.toLocaleString("es-ES",{weekday:"long",day:"numeric",month:"long",
+    year:"numeric",hour:"2-digit",minute:"2-digit"});
+}
+
+function poblarFiltros(){
+  const ev = DOC.eventos;
+  const deps = unicos(ev.map(e=>e.deporte).filter(Boolean));
+  const comps = unicos(ev.map(e=>e.competicion).filter(Boolean));
+  const canales = unicos(ev.flatMap(e=>e.canales||[]));
+  const fechas = unicos(ev.map(e=>e.fecha).filter(Boolean));
+
+  // Preserva la seleccion actual al repoblar (util tras "Actualizar eventos").
+  const prev = {dep:$("#fDep").value,comp:$("#fComp").value,
+    canal:$("#fCanal").value,fecha:$("#fFecha").value};
+  const opt = (v,txt)=>`<option value="${v}">${txt}</option>`;
+  $("#fDep").innerHTML = opt("","Todos") + deps.map(d=>opt(d,d)).join("");
+  $("#fComp").innerHTML = opt("","Todas") + comps.map(c=>opt(c,c)).join("");
+  $("#fCanal").innerHTML = opt("","Todos") + canales.map(c=>opt(c,c)).join("");
+  $("#fFecha").innerHTML = opt("","Todas") + fechas.map(f=>opt(f,diaLargo(f))).join("");
+  const set=(id,v,lista)=>{ if(lista.includes(v)) $(id).value=v; };
+  set("#fDep",prev.dep,deps); set("#fComp",prev.comp,comps);
+  set("#fCanal",prev.canal,canales); set("#fFecha",prev.fecha,fechas);
+
+  $("#platsGrid").innerHTML = canales.map(c=>
+    `<span class="plat${misPlataformas.has(c)?" on":""}" data-c="${c.replace(/"/g,'&quot;')}">${c}</span>`).join("");
+  $("#platsGrid").querySelectorAll(".plat").forEach(el=>{
+    el.addEventListener("click",()=>{
+      const c = el.dataset.c;
+      if(misPlataformas.has(c)){ misPlataformas.delete(c); el.classList.remove("on"); }
+      else { misPlataformas.add(c); el.classList.add("on"); }
+      render();
+    });
+  });
+
+  const m = DOC.meta||{};
+  $("#ultact").innerHTML = `Fuente actualizada: <b>${fmtSello(m.generado)}</b>`;
+}
+
+function pasaFiltros(e){
+  const q = norm($("#q").value);
+  const dep = $("#fDep").value, comp = $("#fComp").value,
+        canal = $("#fCanal").value, fecha = $("#fFecha").value;
+  if(dep && e.deporte!==dep) return false;
+  if(comp && e.competicion!==comp) return false;
+  if(fecha && e.fecha!==fecha) return false;
+  if(canal && !(e.canales||[]).includes(canal)) return false;
+  if($("#soloMias").checked){
+    if(misPlataformas.size===0) return false;
+    if(!(e.canales||[]).some(c=>misPlataformas.has(c))) return false;
+  }
+  if(q){
+    const blob = norm([e.evento,e.competicion,e.deporte,e.local,e.visitante,
+      ...(e.canales||[])].join(" "));
+    if(!blob.includes(q)) return false;
+  }
+  return true;
+}
+
+function render(){
+  const ev = DOC.eventos.filter(pasaFiltros)
+    .sort((a,b)=>(a.fecha+a.hora).localeCompare(b.fecha+b.hora));
+  const lista = $("#lista"); lista.innerHTML="";
+  $("#vacio").style.display = ev.length? "none":"block";
+
+  let fechaPrev=null;
+  for(const e of ev){
+    if(e.fecha!==fechaPrev){
+      fechaPrev=e.fecha;
+      const n = ev.filter(x=>x.fecha===e.fecha).length;
+      const h = document.createElement("div");
+      h.className="dia";
+      h.innerHTML = `${diaLargo(e.fecha)} <span class="badge">${n} eventos</span>`;
+      lista.appendChild(h);
+    }
+    const mia = (e.canales||[]).some(c=>misPlataformas.has(c));
+    const card = document.createElement("div");
+    card.className = "card" + (mia && misPlataformas.size? " match":"");
+    const canalesHtml = (e.canales||[]).map(c=>
+      `<span class="canal${misPlataformas.has(c)?" mia":""}">${c}</span>`).join("");
+    card.innerHTML = `
+      <div class="hora">${e.hora||"--:--"}</div>
+      <div>
+        <div class="meta">
+          <span class="sport">${e.deporte||"?"}</span>
+          <span class="comp">${e.competicion||""}</span>
+          ${e.ronda?`<span class="ronda">${e.ronda}</span>`:""}
+        </div>
+        <div class="evento">${e.evento||"—"}</div>
+        <div class="canales">${canalesHtml||'<span class="canal">Sin canal</span>'}</div>
+      </div>`;
+    lista.appendChild(card);
+  }
+  $("#conteo").innerHTML = `<b>${ev.length}</b> de ${DOC.eventos.length} eventos`;
+}
+
+function actualizarPie(){
+  const m = DOC.meta||{};
+  $("#pie").textContent =
+    `Datos de ${m.fuente||"futbolenlatv.es"} · ${DOC.eventos.length} eventos · `+
+    `fuente actualizada ${fmtSello(m.generado)}. Proyecto Deportv MVP 0.1 — visor de validación.`;
+}
+
+/* Lista de fuentes de datos por orden de preferencia:
+   1) CDN de GitHub (raw) si el repo está configurado — se actualiza sin redeploy.
+   2) events.json local (mismo origen) como respaldo.
+   Si todo falla, se mantiene el snapshot embebido. */
+function fuentesDatos(){
+  const fuentes = [];
+  if(GH_USUARIO !== "USUARIO" && GH_REPO !== "REPO"){
+    fuentes.push(`https://raw.githubusercontent.com/${GH_USUARIO}/${GH_REPO}/${GH_RAMA}/events.json`);
+  }
+  fuentes.push("events.json");
+  return fuentes;
+}
+
+/* Recarga los datos evitando caché. Devuelve true si trajo datos frescos. */
+async function cargarDatos(){
+  for(const base of fuentesDatos()){
+    try{
+      const url = base + (base.includes("?") ? "&" : "?") + "ts=" + Date.now();
+      const r = await fetch(url, {cache:"no-store"});
+      if(!r.ok) continue;
+      const j = await r.json();
+      if(j && j.eventos && j.eventos.length){ DOC = j; return true; }
+    }catch(e){ /* prueba la siguiente fuente */ }
+  }
+  return false;
+}
+
+function pintarTodo(){ poblarFiltros(); render(); actualizarPie(); }
+
+function initEventos(){
+  ["q","fDep","fComp","fCanal","fFecha","soloMias"].forEach(id=>{
+    const el=$("#"+id);
+    el.addEventListener(id==="q"?"input":"change",render);
+  });
+  $("#limpiar").addEventListener("click",()=>{
+    $("#q").value=""; $("#fDep").value=""; $("#fComp").value="";
+    $("#fCanal").value=""; $("#fFecha").value=""; $("#soloMias").checked=false;
+    misPlataformas.clear();
+    $("#platsGrid").querySelectorAll(".plat.on").forEach(el=>el.classList.remove("on"));
+    render();
+  });
+  $("#actualizar").addEventListener("click", async ()=>{
+    const btn=$("#actualizar"); const txt=btn.textContent;
+    btn.classList.add("cargando"); btn.textContent="⏳ Actualizando...";
+    const ok = await cargarDatos();
+    pintarTodo();
+    btn.classList.remove("cargando");
+    btn.textContent = ok ? "✓ Actualizado" : "Sin conexión a datos";
+    setTimeout(()=>{ btn.textContent=txt; }, 2000);
+  });
+}
+
+async function arranca(){
+  initEventos();
+  await cargarDatos();   // intenta datos frescos; si falla usa el snapshot embebido
+  pintarTodo();
+}
+
+arranca();
+</script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+# Configuracion de Netlify para Deportv.
+# El sitio es estatico: no necesita paso de build. Netlify sirve los ficheros
+# de la raiz del repositorio (index.html). Los DATOS (events.json) se sirven
+# desde la CDN de GitHub (raw), por lo que las actualizaciones de datos NO
+# requieren redesplegar Netlify.
+
+[build]
+  publish = "."
+  command = ""
+  # Cancela el despliegue cuando el unico cambio del commit es events.json.
+  # (El scraper solo toca events.json, asi no se gastan minutos de build de
+  #  Netlify en cada actualizacion de datos.)
+  # Netlify: exit 0 = cancelar build; exit != 0 = desplegar.
+  ignore = "git diff --quiet HEAD^ HEAD ':(exclude)events.json'"
+
+# events.json local queda solo como respaldo; aun asi evitamos que se cachee.
+[[headers]]
+  for = "/events.json"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
