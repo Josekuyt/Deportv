@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-08-20T10:31:14",
+    "generado": "2026-08-20T16:33:09",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 305
+    "total_eventos": 314
   },
   "eventos": [
     {
@@ -729,34 +729,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "Masters Cincinnati",
-      "ronda": null,
-      "evento": "1/4 de Final ATP Masters 1000",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-08-20",
-      "hora": "17:05",
-      "canales": [
-        "ATP Tennis TV",
-        "Movistar+"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Cincinnati",
-      "ronda": null,
-      "evento": "1/4 de Final WTA 1000",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-08-20",
-      "hora": "17:05",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "Europa League",
       "ronda": "Playoffs",
@@ -795,6 +767,20 @@
         "HBO MAX",
         "Teledeporte",
         "RTVE Play"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Cincinnati",
+      "ronda": "1/4 de Final",
+      "evento": "A. Anisimova vs J. Pegula",
+      "local": "A. Anisimova",
+      "visitante": "J. Pegula",
+      "fecha": "2026-08-20",
+      "hora": "19:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -968,6 +954,22 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Masters Cincinnati",
+      "ronda": "1/4 de Final",
+      "evento": "T. Paul vs F. Cobolli",
+      "local": "T. Paul",
+      "visitante": "F. Cobolli",
+      "fecha": "2026-08-20",
+      "hora": "21:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Vamos (8 y 50)",
+        "M+ #Vamos Bar (307)",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Liga Pro Serie B",
       "ronda": null,
@@ -1115,6 +1117,20 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "WTA Cincinnati",
+      "ronda": "1/4 de Final",
+      "evento": "I. Swiatek vs E. Rybakina",
+      "local": "I. Swiatek",
+      "visitante": "E. Rybakina",
+      "fecha": "2026-08-21",
+      "hora": "01:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "Preolímpico Femenino",
       "ronda": null,
@@ -1179,6 +1195,20 @@
       "hora": "02:30",
       "canales": [
         "M+ Liga de Campeones (M60 O115)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Cincinnati",
+      "ronda": "1/4 de Final",
+      "evento": "TA. Tirante vs A. Fils",
+      "local": "TA. Tirante",
+      "visitante": "A. Fils",
+      "fecha": "2026-08-21",
+      "hora": "02:30",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -1477,6 +1507,62 @@
       "canales": [
         "DAZN (Ver en directo)",
         "DAZN F1 (M70 O104)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Cincinnati",
+      "ronda": "1/4 de Final",
+      "evento": "T. Fritz vs B. Nakashima",
+      "local": "T. Fritz",
+      "visitante": "B. Nakashima",
+      "fecha": "2026-08-21",
+      "hora": "17:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Cincinnati",
+      "ronda": "1/4 de Final",
+      "evento": "L. Musetti vs F. Tiafoe",
+      "local": "L. Musetti",
+      "visitante": "F. Tiafoe",
+      "fecha": "2026-08-21",
+      "hora": "17:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Cincinnati",
+      "ronda": "1/4 de Final",
+      "evento": "C. Gauff vs M. Kostyuk",
+      "local": "C. Gauff",
+      "visitante": "M. Kostyuk",
+      "fecha": "2026-08-21",
+      "hora": "17:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Cincinnati",
+      "ronda": "1/4 de Final",
+      "evento": "S. Bejlek vs M. Keys",
+      "local": "S. Bejlek",
+      "visitante": "M. Keys",
+      "fecha": "2026-08-21",
+      "hora": "17:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -2220,6 +2306,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Juegos Mediterráneos",
+      "ronda": null,
+      "evento": "Argelia vs Kosovo",
+      "local": "Argelia",
+      "visitante": "Kosovo",
+      "fecha": "2026-08-22",
+      "hora": "10:30",
+      "canales": [
+        "Eurovision Sports TV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Amistoso",
       "ronda": null,
       "evento": "Cristo Atlético vs At. Tordesillas",
@@ -2257,19 +2356,6 @@
       "canales": [
         "DAZN (Ver en directo)",
         "DAZN App Gratis (Ver gratis)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Veikkausliiga",
-      "ronda": null,
-      "evento": "TPS vs FC Inter Turku",
-      "local": "TPS",
-      "visitante": "FC Inter Turku",
-      "fecha": "2026-08-22",
-      "hora": "13:00",
-      "canales": [
-        "OneFootball PPV"
       ]
     },
     {
@@ -3865,6 +3951,45 @@
       "hora": "21:00",
       "canales": [
         "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Juegos Mediterráneos",
+      "ronda": null,
+      "evento": "Túnez vs Macedonia Norte",
+      "local": "Túnez",
+      "visitante": "Macedonia Norte",
+      "fecha": "2026-08-22",
+      "hora": "21:00",
+      "canales": [
+        "Eurovision Sports TV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Juegos Mediterráneos",
+      "ronda": null,
+      "evento": "Marruecos vs Turquía",
+      "local": "Marruecos",
+      "visitante": "Turquía",
+      "fecha": "2026-08-22",
+      "hora": "21:00",
+      "canales": [
+        "Eurovision Sports TV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Juegos Mediterráneos",
+      "ronda": null,
+      "evento": "Italia vs Albania",
+      "local": "Italia",
+      "visitante": "Albania",
+      "fecha": "2026-08-22",
+      "hora": "21:00",
+      "canales": [
+        "Eurovision Sports TV"
       ]
     },
     {
