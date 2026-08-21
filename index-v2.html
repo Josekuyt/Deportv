@@ -47,7 +47,9 @@
     border-radius:9px;padding:9px 10px;font-size:.9rem;width:100%}
   input::placeholder{color:var(--muted);opacity:.8}
   input:focus,select:focus{outline:2px solid var(--accent);outline-offset:0}
-  .switch{display:flex;align-items:center;gap:8px;font-size:.88rem;color:var(--muted);cursor:pointer;user-select:none}
+  input[type="checkbox"]{width:auto;flex:0 0 auto;margin:0;accent-color:var(--accent)}
+  .switch{display:flex;align-items:center;justify-content:flex-start;gap:8px;
+    font-size:.88rem;color:var(--muted);cursor:pointer;user-select:none}
   .acciones{display:flex;gap:10px;flex-wrap:wrap}
   .btn{background:var(--chip);color:var(--txt);border:1px solid var(--line);border-radius:9px;
     padding:9px 12px;font-size:.85rem;cursor:pointer}
@@ -196,7 +198,7 @@
 
 <script>
 /* ===== Datos ===== */
-const DATA_EMBEBIDA  = /*__DATA__*/{
+const DATA_EMBEBIDA    = /*__DATA__*/{
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
     "generado": "2026-08-21T09:56:39",
@@ -2736,7 +2738,7 @@ const DATA_EMBEBIDA  = /*__DATA__*/{
     }
   ]
 }/*__END__*/;
-const TIERS_EMBEBIDA = /*__TIERS__*/{
+const TIERS_EMBEBIDA   = /*__TIERS__*/{
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
@@ -2984,18 +2986,56 @@ const TIERS_EMBEBIDA = /*__TIERS__*/{
     }
   }
 }/*__ENDTIERS__*/;
-let DOC   = DATA_EMBEBIDA;
-let TIERS = TIERS_EMBEBIDA;
+const CANALES_EMBEBIDA = /*__CANALES__*/{
+  "meta": {
+    "descripcion": "Canales/plataformas emitidos EN ABIERTO (gratuitos). Editable a mano.",
+    "instrucciones": "La coincidencia es por texto contenido, sin acentos ni mayúsculas (p.ej. 'teledeporte' casa con 'Teledeporte'). Un canal cuenta como abierto si contiene alguna palabra de 'abiertos' Y no contiene ninguna de 'de_pago'. Añade o quita términos con libertad."
+  },
+  "abiertos": [
+    "teledeporte",
+    "rtve play",
+    "la 1",
+    "la 2",
+    "la 8",
+    "aragon",
+    "etb",
+    "tv3",
+    "à punt",
+    "a punt",
+    "canal sur",
+    "telemadrid",
+    "tvg",
+    "tv canaria",
+    "telecartagena",
+    "real madrid tv",
+    "dazn app gratis",
+    "ver gratis",
+    "gratis",
+    "youtube",
+    "twitch"
+  ],
+  "de_pago": [
+    "ppv",
+    "de pago",
+    "premium"
+  ]
+}/*__ENDCANALES__*/;
+let DOC     = DATA_EMBEBIDA;
+let TIERS   = TIERS_EMBEBIDA;
+let CANALES = CANALES_EMBEBIDA;
 
 const GH_USUARIO = "Josekuyt";
 const GH_REPO    = "Deportv";
 const GH_RAMA    = "main";
 
-/* Canales "en abierto" (gratuitos / TDT / free streaming). Editable. */
-const ABIERTO_KEYS = ["la 1","la 2","teledeporte","rtve","gol","youtube","twitch",
-  "gratis","en abierto","tv3","etb","à punt","a punt","aragón","aragon","canal sur",
-  "telemadrid","tvg","la 8","real madrid tv","barça","sevilla fc +","concacaf",
-  "fiba","onefootball"];
+/* Canales "en abierto": la lista vive en canales-abierto.json (editable).
+   Respaldo por defecto si el fichero no está disponible. */
+const CANALES_DEFECTO = {
+  abiertos:["teledeporte","rtve play","la 1","la 2","la 8","aragon","etb","tv3",
+    "à punt","a punt","canal sur","telemadrid","tvg","tv canaria","telecartagena",
+    "real madrid tv","dazn app gratis","ver gratis","gratis","youtube","twitch"],
+  de_pago:["ppv","de pago","premium"],
+};
 
 /* Fondos por deporte para el hero. Si el archivo existe en /assets se usa la
    foto; si no, cae automáticamente al degradado (no se rompe). */
@@ -3246,7 +3286,12 @@ function poblarFiltros(){
   const m=DOC.meta||{};
   $("#metaSrc").innerHTML=`Fuente actualizada: <b>${fmtSello(m.generado)}</b><br>Número de eventos: <b>${(DOC.eventos||[]).length}</b>`;
 }
-function canalAbierto(c){ const n=norm(c); return ABIERTO_KEYS.some(k=>n.includes(norm(k))); }
+function canalAbierto(c){
+  const n=norm(c);
+  const src=(CANALES&&CANALES.abiertos&&CANALES.abiertos.length)?CANALES:CANALES_DEFECTO;
+  if((src.de_pago||[]).some(k=>n.includes(norm(k)))) return false;   // PPV/premium anula
+  return (src.abiertos||[]).some(k=>n.includes(norm(k)));
+}
 function eventoAbierto(e){ return (e.canales||[]).some(canalAbierto); }
 function pasaFiltros(e){
   const q=norm($("#q").value), dep=$("#fDep").value, comp=$("#fComp").value, canal=$("#fCanal").value;
@@ -3320,9 +3365,11 @@ async function fetchJSON(f){ for(const base of fuentes(f)){ try{
   }catch(e){} } return null; }
 async function cargarDatos(){
   let ok=false;
-  const [datos,tiers]=await Promise.all([fetchJSON("events.json"),fetchJSON("competiciones.json")]);
+  const [datos,tiers,canales]=await Promise.all([
+    fetchJSON("events.json"), fetchJSON("competiciones.json"), fetchJSON("canales-abierto.json")]);
   if(datos&&datos.eventos&&datos.eventos.length){ DOC=datos; ok=true; }
   if(tiers&&tiers.competiciones){ TIERS=tiers; }
+  if(canales&&canales.abiertos){ CANALES=canales; }
   return ok;
 }
 

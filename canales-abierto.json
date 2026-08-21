@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "descripcion": "Canales/plataformas emitidos EN ABIERTO (gratuitos). Editable a mano.",
+    "instrucciones": "La coincidencia es por texto contenido, sin acentos ni mayúsculas (p.ej. 'teledeporte' casa con 'Teledeporte'). Un canal cuenta como abierto si contiene alguna palabra de 'abiertos' Y no contiene ninguna de 'de_pago'. Añade o quita términos con libertad."
+  },
+  "abiertos": [
+    "teledeporte",
+    "rtve play",
+    "la 1",
+    "la 2",
+    "la 8",
+    "aragon",
+    "etb",
+    "tv3",
+    "à punt",
+    "a punt",
+    "canal sur",
+    "telemadrid",
+    "tvg",
+    "tv canaria",
+    "telecartagena",
+    "real madrid tv",
+    "dazn app gratis",
+    "ver gratis",
+    "gratis",
+    "youtube",
+    "twitch"
+  ],
+  "de_pago": [
+    "ppv",
+    "de pago",
+    "premium"
+  ]
+}

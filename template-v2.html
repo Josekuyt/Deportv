@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Deportv — Deporte en TV</title>
+<style>
+  :root{
+    --bg:#0f1420; --panel:#161d2e; --card:#1b2436; --line:#2a344a;
+    --txt:#e8ecf4; --muted:#9aa6be; --accent:#3d7bff; --accent2:#00c2a8;
+    --chip:#243049; --input:#1b2436; --shadow:0 2px 12px rgba(0,0,0,.35);
+    --radius:14px; --maxw:1470px;
+  }
+  @media (prefers-color-scheme: light){
+    :root{ --bg:#f4f6fb; --panel:#ffffff; --card:#ffffff; --line:#e4e8f0;
+      --txt:#1a2233; --muted:#5c6883; --chip:#eef1f7; --input:#ffffff;
+      --shadow:0 2px 12px rgba(20,30,60,.08); }
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    background:var(--bg);color:var(--txt);line-height:1.45}
+
+  /* Header */
+  header{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff}
+  .head-wrap{max-width:var(--maxw);margin:0 auto;padding:20px 24px;display:flex;
+    align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}
+  h1{margin:0;font-size:1.5rem;letter-spacing:.2px}
+  .sub{opacity:.92;font-size:.9rem;margin-top:4px}
+  nav.top{display:flex;gap:22px}
+  nav.top a{color:#fff;text-decoration:none;font-weight:600;font-size:.95rem;opacity:.95}
+  nav.top a:hover{text-decoration:underline}
+  @media(max-width:640px){ nav.top{display:none} }
+
+  /* Layout */
+  main{max-width:var(--maxw);margin:0 auto;padding:22px 24px 60px;
+    display:grid;grid-template-columns:400px 1fr;gap:22px;align-items:start}
+  @media(max-width:960px){ main{grid-template-columns:1fr} }
+
+  /* Aside filtros */
+  aside .panel{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);
+    padding:16px;box-shadow:var(--shadow);position:sticky;top:16px;display:flex;flex-direction:column;gap:14px}
+  @media(max-width:960px){ aside .panel{position:static} }
+  .campo{display:flex;flex-direction:column;gap:5px}
+  .campo label{font-size:.72rem;color:var(--muted);text-transform:uppercase;letter-spacing:.5px}
+  input,select{background:var(--input);color:var(--txt);border:1px solid var(--line);
+    border-radius:9px;padding:9px 10px;font-size:.9rem;width:100%}
+  input::placeholder{color:var(--muted);opacity:.8}
+  input:focus,select:focus{outline:2px solid var(--accent);outline-offset:0}
+  input[type="checkbox"]{width:auto;flex:0 0 auto;margin:0;accent-color:var(--accent)}
+  .switch{display:flex;align-items:center;justify-content:flex-start;gap:8px;
+    font-size:.88rem;color:var(--muted);cursor:pointer;user-select:none}
+  .acciones{display:flex;gap:10px;flex-wrap:wrap}
+  .btn{background:var(--chip);color:var(--txt);border:1px solid var(--line);border-radius:9px;
+    padding:9px 12px;font-size:.85rem;cursor:pointer}
+  .btn:hover{border-color:var(--accent)}
+  .btn-act{background:var(--accent);color:#fff;border-color:var(--accent);font-weight:700}
+  .btn-act:hover{filter:brightness(1.08)}
+  .btn-act.cargando{opacity:.6;pointer-events:none}
+  .meta-src{font-size:.78rem;color:var(--muted);border-top:1px solid var(--line);padding-top:10px}
+  .meta-src b{color:var(--txt)}
+
+  .col-main{display:flex;flex-direction:column;gap:22px;min-width:0}
+
+  /* Destacados hero */
+  .dest-head{font-size:1.05rem;font-weight:800;display:flex;align-items:center;gap:10px;margin:0 0 8px}
+  .hero-wrap{position:relative}
+  .hero-track{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;
+    scrollbar-width:none}
+  .hero-track::-webkit-scrollbar{display:none}
+  .hero{position:relative;flex:0 0 100%;scroll-snap-align:center;min-height:280px;
+    border-radius:12px;border:1px solid var(--accent2);overflow:hidden;
+    background-size:cover;background-position:center;color:#fff;
+    display:flex;flex-direction:column;justify-content:space-between;padding:16px}
+  .hero::after{content:"";position:absolute;inset:0;
+    background:linear-gradient(90deg,rgba(6,10,18,.86) 0%,rgba(6,10,18,.55) 45%,rgba(6,10,18,.25) 100%);z-index:0}
+  .hero > *{position:relative;z-index:1}
+  .hero-top{display:flex;align-items:center;justify-content:space-between}
+  .hero-dots{display:flex;gap:8px}
+  .hero-dots i{width:8px;height:8px;border-radius:50%;background:#e8ecf4;opacity:.6;cursor:pointer}
+  .hero-dots i.on{background:var(--accent2);opacity:1}
+  .hero-body{display:flex;gap:16px;align-items:flex-end;flex-wrap:wrap}
+  .hero-details{flex:1 1 380px;min-width:0}
+  .hero-comp{font-size:.78rem;color:#cdd6e6}
+  .hero-ev{font-size:1.25rem;font-weight:800;margin:2px 0 6px;text-shadow:0 1px 8px rgba(0,0,0,.4)}
+  .hero-hora{font-size:1rem;font-weight:700}
+  .hero-canales{font-size:.8rem;color:var(--accent2);font-weight:700;margin-top:6px}
+  .quiniela{flex:0 0 auto;max-width:60%}
+  .quiniela .q-label{font-size:.75rem;color:#cdd6e6;margin-bottom:6px}
+  .quiniela .q-btns{display:flex;flex-wrap:wrap;gap:6px}
+  .qbtn{background:rgba(36,48,73,.85);color:#e8ecf4;border:1px solid var(--line);border-radius:9px;
+    padding:7px 11px;font-size:.85rem;cursor:pointer;backdrop-filter:blur(2px)}
+  .qbtn:hover{border-color:var(--accent)}
+  .qbtn.sel{background:var(--accent);border-color:var(--accent);color:#fff;font-weight:700}
+  .badge-sport{font-size:.72rem;font-weight:700;color:#fff;background:var(--accent);border-radius:6px;padding:3px 9px}
+
+  /* Pestañas de día */
+  .tabs{display:flex;gap:10px;margin-bottom:6px}
+  .tab{background:var(--chip);color:var(--txt);border:1px solid var(--line);border-radius:9px;
+    padding:8px 14px;font-size:.9rem;cursor:pointer}
+  .tab.on{background:var(--accent);border-color:var(--accent);color:#fff;font-weight:700}
+  .dia-head{display:flex;align-items:center;gap:10px;margin:6px 0 4px}
+  .dia-head h2{font-size:1.05rem;font-weight:700;margin:0}
+  .pill{font-size:.72rem;font-weight:600;color:var(--muted);background:var(--chip);
+    border:1px solid var(--line);border-radius:999px;padding:3px 10px}
+
+  /* Tarjetas de evento */
+  .lista{display:flex;flex-direction:column;gap:12px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;
+    display:grid;grid-template-columns:64px 1fr;gap:12px;box-shadow:var(--shadow)}
+  .card.dest{border-color:var(--accent2);box-shadow:0 0 0 1px var(--accent2) inset}
+  .hora{font-size:1.15rem;font-weight:700;align-self:center}
+  .meta{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-bottom:4px}
+  .star{font-size:.85rem}
+  .sport{font-size:.72rem;font-weight:700;color:#fff;background:var(--accent);border-radius:6px;padding:2px 7px}
+  .comp{font-size:.78rem;color:var(--muted)}
+  .ronda{font-size:.7rem;color:var(--accent2);border:1px solid var(--accent2);border-radius:6px;padding:1px 6px}
+  .evento{font-weight:600;font-size:1rem;margin:1px 0 6px}
+  .canales{display:flex;flex-wrap:wrap;gap:5px}
+  .canal{font-size:.75rem;background:var(--chip);border:1px solid var(--line);border-radius:6px;padding:3px 8px}
+  .canal.mia{background:#134e46;border-color:var(--accent2);color:var(--accent2);font-weight:600}
+  .canal.abierto{border-color:var(--accent2)}
+  .vacio{text-align:center;color:var(--muted);padding:40px 10px}
+
+  /* Panel plataformas */
+  .plats-panel{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);
+    padding:14px 16px;box-shadow:var(--shadow)}
+  .plats-panel summary{cursor:pointer;font-size:.95rem;color:var(--txt);font-weight:600}
+  .plats-grid{display:flex;flex-wrap:wrap;gap:7px;margin:12px 0}
+  .plat{font-size:.78rem;background:var(--chip);border:1px solid var(--line);border-radius:999px;
+    padding:5px 11px;cursor:pointer;user-select:none}
+  .plat.on{background:#134e46;border-color:var(--accent2);color:var(--accent2);font-weight:600}
+
+  footer{max-width:var(--maxw);margin:0 auto;padding:0 24px 40px;color:var(--muted);font-size:.78rem}
+</style>
+</head>
+<body>
+<header>
+  <div class="head-wrap">
+    <div>
+      <h1>⚽ Deportv — Deporte en TV</h1>
+      <div class="sub">Consulta y filtra la programación deportiva en televisión y streaming.</div>
+    </div>
+    <nav class="top">
+      <a href="#lista">Eventos</a>
+      <a href="#destacados">Destacados</a>
+      <a href="#plataformas">Mis plataformas</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- Aside: filtros -->
+  <aside>
+    <div class="panel">
+      <div class="campo"><label for="q">Buscar</label>
+        <input id="q" type="search" placeholder="Equipo, evento, competición..."></div>
+      <div class="campo"><label for="fDep">Deporte</label><select id="fDep"></select></div>
+      <div class="campo"><label for="fComp">Competición</label><select id="fComp"></select></div>
+      <div class="campo"><label for="fCanal">Canal / Plataforma</label><select id="fCanal"></select></div>
+      <label class="switch"><input type="checkbox" id="soloAbierto"> Mostrar sólo eventos en abierto</label>
+      <div class="acciones">
+        <button class="btn" id="limpiar">Limpiar filtros</button>
+        <button class="btn btn-act" id="actualizar">🔄 Actualizar eventos</button>
+      </div>
+      <div class="meta-src" id="metaSrc">Fuente actualizada: —</div>
+    </div>
+  </aside>
+
+  <!-- Columna principal -->
+  <div class="col-main">
+    <!-- Destacados -->
+    <section id="destacados">
+      <div class="dest-head">⭐ Destacados de hoy <span class="pill" id="destCount"></span></div>
+      <div class="hero-wrap">
+        <div class="hero-track" id="heroTrack"></div>
+      </div>
+    </section>
+
+    <!-- Listado con pestañas -->
+    <section>
+      <div class="tabs" id="tabs"></div>
+      <div class="dia-head"><h2 id="diaTitulo">—</h2><span class="pill" id="diaCount"></span></div>
+      <div class="lista" id="lista"></div>
+      <div class="vacio" id="vacio" style="display:none">No hay eventos para este día con los filtros actuales.</div>
+    </section>
+
+    <!-- Mis plataformas -->
+    <details class="plats-panel" id="plataformas">
+      <summary>🎯 Mis plataformas contratadas (personalización)</summary>
+      <div class="plats-grid" id="platsGrid"></div>
+      <label class="switch"><input type="checkbox" id="soloMias"> Ver solo lo disponible en mis plataformas</label>
+    </details>
+  </div>
+</main>
+
+<footer id="pie"></footer>
+
+<script>
+/* ===== Datos ===== */
+const DATA_EMBEBIDA    = /*__DATA__*/{"meta":{},"eventos":[]}/*__END__*/;
+const TIERS_EMBEBIDA   = /*__TIERS__*/{"config":{},"competiciones":{}}/*__ENDTIERS__*/;
+const CANALES_EMBEBIDA = /*__CANALES__*/{"abiertos":[],"de_pago":[]}/*__ENDCANALES__*/;
+let DOC     = DATA_EMBEBIDA;
+let TIERS   = TIERS_EMBEBIDA;
+let CANALES = CANALES_EMBEBIDA;
+
+const GH_USUARIO = "Josekuyt";
+const GH_REPO    = "Deportv";
+const GH_RAMA    = "main";
+
+/* Canales "en abierto": la lista vive en canales-abierto.json (editable).
+   Respaldo por defecto si el fichero no está disponible. */
+const CANALES_DEFECTO = {
+  abiertos:["teledeporte","rtve play","la 1","la 2","la 8","aragon","etb","tv3",
+    "à punt","a punt","canal sur","telemadrid","tvg","tv canaria","telecartagena",
+    "real madrid tv","dazn app gratis","ver gratis","gratis","youtube","twitch"],
+  de_pago:["ppv","de pago","premium"],
+};
+
+/* Fondos por deporte para el hero. Si el archivo existe en /assets se usa la
+   foto; si no, cae automáticamente al degradado (no se rompe). */
+const FONDOS_IMG = {
+  "Fútbol":"assets/futbol.jpg",
+  "Fútbol Sala":"assets/futbol.jpg",
+  "Baloncesto":"assets/baloncesto.jpg",
+  "Tenis":"assets/tenis.jpg",
+  "Automovilismo":"assets/automovilismo.jpg",
+  "Fórmula 1":"assets/automovilismo.jpg",
+  "MotoGP":"assets/motogp.jpg",
+  "Ciclismo":"assets/ciclismo.jpg",
+  "Golf":"assets/golf.jpg",
+  "Hockey Hierba":"assets/hockey.jpg",
+  "MMA":"assets/mma.jpg",
+  "Atletismo":"assets/atletismo.jpg",
+  "Fútbol Americano":"assets/futbol-americano.jpg",
+};
+const FONDOS_DEG = {
+  "Fútbol":"linear-gradient(135deg,#0b3d2e,#0f7a53)",
+  "Baloncesto":"linear-gradient(135deg,#5a2a0b,#c2610f)",
+  "Tenis":"linear-gradient(135deg,#2f4a0b,#7ea01f)",
+  "Automovilismo":"linear-gradient(135deg,#4a0b12,#c21f2f)",
+  "Fórmula 1":"linear-gradient(135deg,#4a0b12,#c21f2f)",
+  "MotoGP":"linear-gradient(135deg,#4a0b12,#c21f2f)",
+  "Ciclismo":"linear-gradient(135deg,#0b3a4a,#0f8aa0)",
+  "Golf":"linear-gradient(135deg,#123a12,#2f8a2f)",
+  "Hockey Hierba":"linear-gradient(135deg,#0b2a4a,#1f5fc2)",
+  "MMA":"linear-gradient(135deg,#3a0b0b,#7a1f1f)",
+  "Fútbol Sala":"linear-gradient(135deg,#0b3d2e,#0f7a53)",
+  "Atletismo":"linear-gradient(135deg,#3a2a0b,#a0781f)",
+  "Fútbol Americano":"linear-gradient(135deg,#2a0b3a,#6a1fa0)",
+};
+function fondoHero(dep){
+  const deg = FONDOS_DEG[dep] || "linear-gradient(135deg,#1b2436,#2a344a)";
+  const img = FONDOS_IMG[dep];
+  // La foto va encima del degradado: si el archivo falta (404), queda el degradado.
+  // Comillas simples: el style="..." usa dobles y no debe romperse.
+  return img ? `url('${img}'), ${deg}` : deg;
+}
+
+/* Configuración por defecto si competiciones.json no trae "config". */
+const CONFIG_DEFECTO = {
+  puntos_por_tier:{S:100,A:70,B:45,C:25,D:10},
+  bonus_fase:{final:40,semifinal:25,cuartos:12,octavos:4,otro:0,ninguno:0},
+  bonus_espana:30, tier_por_defecto:"C",
+  excluir:["reserva","proyeccion","proyección","academy","sub-","sub ","juvenil",
+    "hypermotion","euskadi","amistoso","trofeo","admiral","regional"],
+  max_destacados:5, max_por_competicion:2,
+};
+function cfg(){
+  const c=(TIERS&&TIERS.config)?TIERS.config:{};
+  return {
+    puntos_por_tier:c.puntos_por_tier||CONFIG_DEFECTO.puntos_por_tier,
+    bonus_fase:c.bonus_fase||CONFIG_DEFECTO.bonus_fase,
+    bonus_espana:(c.bonus_espana!=null)?c.bonus_espana:CONFIG_DEFECTO.bonus_espana,
+    tier_por_defecto:c.tier_por_defecto||CONFIG_DEFECTO.tier_por_defecto,
+    excluir:c.excluir||CONFIG_DEFECTO.excluir,
+    max_destacados:c.max_destacados||CONFIG_DEFECTO.max_destacados,
+    max_por_competicion:c.max_por_competicion||CONFIG_DEFECTO.max_por_competicion,
+  };
+}
+
+const $ = s => document.querySelector(s);
+const norm = t => (t||"").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"");
+let misPlataformas = new Set();
+let diaActivo = 0;               // índice de pestaña (0=Hoy)
+const MOTOR_KEYS = ["formula 1","motogp"];
+
+/* ===== Utilidades de fecha ===== */
+function hoyISO(){ const d=new Date(),z=n=>String(n).padStart(2,"0");
+  return `${d.getFullYear()}-${z(d.getMonth()+1)}-${z(d.getDate())}`; }
+function addDias(iso,n){ const d=new Date(iso+"T00:00:00"); d.setDate(d.getDate()+n);
+  const z=x=>String(x).padStart(2,"0"); return `${d.getFullYear()}-${z(d.getMonth()+1)}-${z(d.getDate())}`; }
+function diaLargo(iso){ if(!iso)return "Sin fecha"; const d=new Date(iso+"T00:00:00");
+  const s=d.toLocaleDateString("es-ES",{weekday:"long",day:"numeric",month:"long"});
+  return s.charAt(0).toUpperCase()+s.slice(1); }
+function unicos(a){ return [...new Set(a)].sort((x,y)=>x.localeCompare(y,"es")); }
+
+/* Fechas de las pestañas: hoy, +1, +2; si no hay datos de hoy, las 3 primeras disponibles. */
+function fechasTabs(){
+  const hoy=hoyISO();
+  const todas=unicos((DOC.eventos||[]).map(e=>e.fecha).filter(Boolean));
+  let base=todas.filter(f=>f>=hoy);
+  if(!base.length) base=todas;
+  return base.slice(0,3);
+}
+function etiquetaTab(f){
+  const hoy=hoyISO();
+  if(f===hoy) return "Hoy";
+  if(f===addDias(hoy,1)) return "Mañana";
+  if(f===addDias(hoy,2)) return "Pasado";
+  const d=new Date(f+"T00:00:00");
+  return d.toLocaleDateString("es-ES",{weekday:"short",day:"numeric"});
+}
+
+/* ===== Puntuación / Destacados (tier list) ===== */
+function fmtSello(iso){ if(!iso)return "—"; const d=new Date(iso); if(isNaN(d))return iso;
+  return d.toLocaleString("es-ES",{weekday:"long",day:"numeric",month:"long",year:"numeric",hour:"2-digit",minute:"2-digit"}); }
+function casaComp(comp,keyword){ const k=norm(keyword).replace(/[.*+?^${}()|[\]\\]/g,"\\$&");
+  return new RegExp("(^|[^a-z0-9])"+k+"([^a-z0-9]|$)").test(comp); }
+function nivelFase(ronda){ const r=norm(ronda||"");
+  if(!r)return "ninguno";
+  if(r.includes("semifinal"))return "semifinal";
+  if(r.includes("cuartos")||r.includes("1/4"))return "cuartos";
+  if(r.includes("octavos")||r.includes("1/8")||r.includes("dieciseisavos")||r.includes("1/16"))return "octavos";
+  if(r.includes("final"))return "final";
+  return "otro"; }
+function esFasePreliminar(e){ const r=norm(e.ronda||"");
+  if(!r)return false;
+  if(/previa|clasificaci|qualy|qualifying/.test(r))return true;
+  if(/playoff|play-off/.test(r)){ const mes=parseInt((e.fecha||"0000-00").slice(5,7),10); return (mes>=6&&mes<=8); }
+  return false; }
+function esMotorLibres(e){ const comp=norm(e.competicion||"");
+  if(!MOTOR_KEYS.some(k=>casaComp(comp,k)))return false;
+  return /libres|entrenamient|practice|warm|shakedown/.test(norm((e.evento||"")+" "+(e.ronda||""))); }
+function esEspana(e){ const re=/(^|[^a-z0-9])espana([^a-z0-9]|$)/;
+  return re.test(norm(e.local||""))||re.test(norm(e.visitante||"")); }
+function tierDe(comp){ const m=(TIERS&&TIERS.competiciones)?TIERS.competiciones:{};
+  const e=m[comp]; return (e&&e.tier)?e.tier:cfg().tier_por_defecto; }
+function relevancia(e){
+  const C=cfg(), comp=norm(e.competicion||"");
+  if((C.excluir||[]).some(k=>comp.includes(norm(k))))return 0;
+  if(esMotorLibres(e))return 0;
+  if(esFasePreliminar(e))return 0;
+  const tier=tierDe(e.competicion);
+  const base=(C.puntos_por_tier[tier]!=null)?C.puntos_por_tier[tier]:0;
+  const nf=nivelFase((e.ronda||"")+" "+(e.evento||""));
+  const bfase=(C.bonus_fase[nf]!=null)?C.bonus_fase[nf]:0;
+  const besp=esEspana(e)?(C.bonus_espana||0):0;
+  return base+bfase+besp;
+}
+function nCanales(e){ return (e.canales||[]).length; }
+function puntPrime(e){ const h=parseInt((e.hora||"00:00").slice(0,2),10);
+  if(h>=19&&h<=23)return 3-Math.abs(21-h)*0.3; return h>=14?1:0; }
+function cmpMejor(a,b){ if(b.s!==a.s)return b.s-a.s;
+  const nc=nCanales(b.e)-nCanales(a.e); if(nc)return nc;
+  const pp=puntPrime(b.e)-puntPrime(a.e); if(pp)return pp;
+  return (a.e.hora||"").localeCompare(b.e.hora||""); }
+function seleccionDestacados(){
+  const C=cfg(), MAX=C.max_destacados, MAXCOMP=C.max_por_competicion;
+  const dia=fechasTabs()[0]||hoyISO();
+  const cand=(DOC.eventos||[]).filter(e=>e.fecha===dia).map(e=>({e,s:relevancia(e)})).filter(x=>x.s>0);
+  const grupos=new Map();
+  for(const c of cand){ const k=norm(c.e.competicion||""); if(!grupos.has(k))grupos.set(k,[]); grupos.get(k).push(c); }
+  for(const arr of grupos.values()) arr.sort(cmpMejor);
+  const sel=[...grupos.values()].map(a=>a[0]); sel.sort(cmpMejor);
+  let out=sel.slice(0,MAX);
+  if(out.length<MAX && MAXCOMP>1){
+    const seg=[]; for(const a of grupos.values()) for(let i=1;i<Math.min(a.length,MAXCOMP);i++) seg.push(a[i]);
+    seg.sort(cmpMejor); for(const c of seg){ if(out.length>=MAX)break; out.push(c); } out.sort(cmpMejor);
+  }
+  return out.map(x=>x.e);
+}
+function claveEvento(e){ return [e.fecha,e.hora,e.evento].join("|"); }
+function marcarDestacados(){
+  const sel=seleccionDestacados(); const claves=new Set(sel.map(claveEvento));
+  (DOC.eventos||[]).forEach(e=>{ e._dest=claves.has(claveEvento(e)); }); DOC._destacados=sel;
+}
+
+/* ===== Quiniela (visual; la lógica completa llegará en la fase UX) ===== */
+function abreviatura(nombre){
+  if(!nombre) return "";
+  const n=nombre.trim();
+  if(n.length<=4) return n.toUpperCase();
+  const palabras=n.split(/\s+/).filter(w=>w.length>2);
+  if(palabras.length>=2) return (palabras[0][0]+palabras[1][0]+(palabras[1][1]||"")).toUpperCase();
+  return n.slice(0,3).toUpperCase();
+}
+function quinielaHTML(e){
+  if(!(e.local&&e.visitante)) return "";   // solo partidos con dos participantes
+  const opts=[["L",abreviatura(e.local)],["X","X"],["V",abreviatura(e.visitante)]];
+  const btns=opts.map(([k,t])=>`<button class="qbtn" data-k="${k}" title="${k==='L'?e.local:(k==='V'?e.visitante:'Empate')}">${t}</button>`).join("");
+  return `<div class="quiniela"><div class="q-label">Quiniela — Pronostica el ganador</div>
+    <div class="q-btns">${btns}</div></div>`;
+}
+
+/* ===== Render hero ===== */
+function renderDestacados(){
+  const track=$("#heroTrack"), sec=$("#destacados"), dest=DOC._destacados||[];
+  if(!dest.length){ sec.style.display="none"; return; }
+  sec.style.display="block";
+  $("#destCount").textContent=dest.length;
+  track.innerHTML=dest.map((e,i)=>{
+    const canal=(e.canales&&e.canales[0])?e.canales[0]:"";
+    const extra=(e.canales&&e.canales.length>1)?` +${e.canales.length-1}`:"";
+    const dots=dest.map((_,j)=>`<i class="${j===i?'on':''}" data-go="${j}"></i>`).join("");
+    return `<article class="hero" style="background-image:${fondoHero(e.deporte)}">
+      <div class="hero-top">
+        <span class="badge-sport">${e.deporte||"?"}</span>
+        <div class="hero-dots">${dots}</div>
+      </div>
+      <div class="hero-body">
+        <div class="hero-details">
+          <div class="hero-comp">${e.competicion||""}${e.ronda?" · "+e.ronda:""}</div>
+          <div class="hero-ev">${e.evento||"—"}</div>
+          <div class="hero-hora">${e.hora||"--:--"}</div>
+          <div class="hero-canales">${canal}${extra}</div>
+        </div>
+        ${quinielaHTML(e)}
+      </div>
+    </article>`;
+  }).join("");
+  // Interacción dots + quiniela (selección visual, sin persistencia todavía)
+  track.querySelectorAll(".hero-dots i").forEach(d=>d.addEventListener("click",()=>{
+    const cards=track.querySelectorAll(".hero"); const j=+d.dataset.go;
+    if(cards[j]) cards[j].scrollIntoView({behavior:"smooth",inline:"center",block:"nearest"});
+  }));
+  track.querySelectorAll(".quiniela").forEach(q=>{
+    q.querySelectorAll(".qbtn").forEach(b=>b.addEventListener("click",()=>{
+      q.querySelectorAll(".qbtn").forEach(x=>x.classList.remove("sel")); b.classList.add("sel");
+    }));
+  });
+  // Actualiza los dots activos al hacer scroll del carrusel
+  track.onscroll=()=>{
+    const cards=[...track.querySelectorAll(".hero")];
+    const c=track.scrollLeft+track.clientWidth/2;
+    let idx=0,best=1e9;
+    cards.forEach((card,i)=>{ const mid=card.offsetLeft+card.clientWidth/2; const d=Math.abs(mid-c); if(d<best){best=d;idx=i;} });
+    track.querySelectorAll(".hero-dots").forEach(dg=>{
+      dg.querySelectorAll("i").forEach((i,k)=>i.classList.toggle("on",k===idx));
+    });
+  };
+}
+
+/* ===== Filtros ===== */
+function poblarFiltros(){
+  const ev=DOC.eventos;
+  const deps=unicos(ev.map(e=>e.deporte).filter(Boolean));
+  const comps=unicos(ev.map(e=>e.competicion).filter(Boolean));
+  const canales=unicos(ev.flatMap(e=>e.canales||[]));
+  const prev={dep:$("#fDep").value,comp:$("#fComp").value,canal:$("#fCanal").value};
+  const opt=(v,t)=>`<option value="${v}">${t}</option>`;
+  $("#fDep").innerHTML=opt("","Todos")+deps.map(d=>opt(d,d)).join("");
+  $("#fComp").innerHTML=opt("","Todas")+comps.map(c=>opt(c,c)).join("");
+  $("#fCanal").innerHTML=opt("","Todos")+canales.map(c=>opt(c,c)).join("");
+  const set=(id,v,l)=>{ if(l.includes(v))$(id).value=v; };
+  set("#fDep",prev.dep,deps); set("#fComp",prev.comp,comps); set("#fCanal",prev.canal,canales);
+
+  $("#platsGrid").innerHTML=canales.map(c=>
+    `<span class="plat${misPlataformas.has(c)?" on":""}" data-c="${c.replace(/"/g,'&quot;')}">${c}</span>`).join("");
+  $("#platsGrid").querySelectorAll(".plat").forEach(el=>el.addEventListener("click",()=>{
+    const c=el.dataset.c;
+    if(misPlataformas.has(c)){ misPlataformas.delete(c); el.classList.remove("on"); }
+    else { misPlataformas.add(c); el.classList.add("on"); }
+    render();
+  }));
+  const m=DOC.meta||{};
+  $("#metaSrc").innerHTML=`Fuente actualizada: <b>${fmtSello(m.generado)}</b><br>Número de eventos: <b>${(DOC.eventos||[]).length}</b>`;
+}
+function canalAbierto(c){
+  const n=norm(c);
+  const src=(CANALES&&CANALES.abiertos&&CANALES.abiertos.length)?CANALES:CANALES_DEFECTO;
+  if((src.de_pago||[]).some(k=>n.includes(norm(k)))) return false;   // PPV/premium anula
+  return (src.abiertos||[]).some(k=>n.includes(norm(k)));
+}
+function eventoAbierto(e){ return (e.canales||[]).some(canalAbierto); }
+function pasaFiltros(e){
+  const q=norm($("#q").value), dep=$("#fDep").value, comp=$("#fComp").value, canal=$("#fCanal").value;
+  if(dep&&e.deporte!==dep)return false;
+  if(comp&&e.competicion!==comp)return false;
+  if(canal&&!(e.canales||[]).includes(canal))return false;
+  if($("#soloAbierto").checked && !eventoAbierto(e))return false;
+  if($("#soloMias").checked){ if(!misPlataformas.size)return false;
+    if(!(e.canales||[]).some(c=>misPlataformas.has(c)))return false; }
+  if(q){ const blob=norm([e.evento,e.competicion,e.deporte,e.local,e.visitante,...(e.canales||[])].join(" "));
+    if(!blob.includes(q))return false; }
+  return true;
+}
+
+/* ===== Pestañas de día + listado ===== */
+function renderTabs(){
+  const fechas=fechasTabs();
+  if(diaActivo>=fechas.length) diaActivo=0;
+  $("#tabs").innerHTML=fechas.map((f,i)=>
+    `<button class="tab${i===diaActivo?' on':''}" data-i="${i}">${etiquetaTab(f)}</button>`).join("");
+  $("#tabs").querySelectorAll(".tab").forEach(t=>t.addEventListener("click",()=>{
+    diaActivo=+t.dataset.i; renderTabs(); render();
+  }));
+}
+function render(){
+  const fechas=fechasTabs();
+  const dia=fechas[diaActivo]||fechas[0];
+  const ev=(DOC.eventos||[]).filter(e=>e.fecha===dia).filter(pasaFiltros)
+    .sort((a,b)=>(a.hora||"").localeCompare(b.hora||""));
+  $("#diaTitulo").textContent=diaLargo(dia);
+  $("#diaCount").textContent=`${ev.length} eventos`;
+  const lista=$("#lista"); lista.innerHTML="";
+  $("#vacio").style.display=ev.length?"none":"block";
+  for(const e of ev){
+    const mia=(e.canales||[]).some(c=>misPlataformas.has(c));
+    const card=document.createElement("div");
+    card.className="card"+(e._dest?" dest":"");
+    const canalesHtml=(e.canales||[]).map(c=>{
+      const cls="canal"+(misPlataformas.has(c)?" mia":"")+(canalAbierto(c)?" abierto":"");
+      return `<span class="${cls}">${c}</span>`;
+    }).join("");
+    card.innerHTML=`
+      <div class="hora">${e.hora||"--:--"}</div>
+      <div>
+        <div class="meta">
+          ${e._dest?'<span class="star" title="Destacado">⭐</span>':''}
+          <span class="sport">${e.deporte||"?"}</span>
+          <span class="comp">${e.competicion||""}</span>
+          ${e.ronda?`<span class="ronda">${e.ronda}</span>`:""}
+        </div>
+        <div class="evento">${e.evento||"—"}</div>
+        <div class="canales">${canalesHtml||'<span class="canal">Sin canal</span>'}</div>
+      </div>`;
+    lista.appendChild(card);
+  }
+}
+
+function actualizarPie(){
+  const m=DOC.meta||{};
+  $("#pie").textContent=`Datos de ${m.fuente||"futbolenlatv.es"} · ${(DOC.eventos||[]).length} eventos · `+
+    `fuente actualizada ${fmtSello(m.generado)}. Proyecto Deportv — rediseño UI.`;
+}
+function pintarTodo(){ marcarDestacados(); renderDestacados(); poblarFiltros(); renderTabs(); render(); actualizarPie(); }
+
+/* ===== Carga de datos (CDN + respaldo) ===== */
+function fuentes(f){ const o=[]; if(GH_USUARIO!=="USUARIO"&&GH_REPO!=="REPO")
+    o.push(`https://raw.githubusercontent.com/${GH_USUARIO}/${GH_REPO}/${GH_RAMA}/${f}`); o.push(f); return o; }
+async function fetchJSON(f){ for(const base of fuentes(f)){ try{
+    const url=base+(base.includes("?")?"&":"?")+"ts="+Date.now();
+    const r=await fetch(url,{cache:"no-store"}); if(!r.ok)continue; return await r.json();
+  }catch(e){} } return null; }
+async function cargarDatos(){
+  let ok=false;
+  const [datos,tiers,canales]=await Promise.all([
+    fetchJSON("events.json"), fetchJSON("competiciones.json"), fetchJSON("canales-abierto.json")]);
+  if(datos&&datos.eventos&&datos.eventos.length){ DOC=datos; ok=true; }
+  if(tiers&&tiers.competiciones){ TIERS=tiers; }
+  if(canales&&canales.abiertos){ CANALES=canales; }
+  return ok;
+}
+
+function initEventos(){
+  ["q","fDep","fComp","fCanal","soloAbierto","soloMias"].forEach(id=>{
+    $("#"+id).addEventListener(id==="q"?"input":"change",render);
+  });
+  $("#limpiar").addEventListener("click",()=>{
+    $("#q").value="";$("#fDep").value="";$("#fComp").value="";$("#fCanal").value="";
+    $("#soloAbierto").checked=false;$("#soloMias").checked=false;
+    misPlataformas.clear(); $("#platsGrid").querySelectorAll(".plat.on").forEach(el=>el.classList.remove("on"));
+    render();
+  });
+  $("#actualizar").addEventListener("click",async()=>{
+    const btn=$("#actualizar"),txt=btn.textContent;
+    btn.classList.add("cargando"); btn.textContent="⏳ Actualizando...";
+    const ok=await cargarDatos(); pintarTodo();
+    btn.classList.remove("cargando"); btn.textContent=ok?"✓ Actualizado":"Sin conexión a datos";
+    setTimeout(()=>{ btn.textContent=txt; },2000);
+  });
+}
+async function arranca(){ initEventos(); await cargarDatos(); pintarTodo(); }
+arranca();
+</script>
+</body>
+</html>

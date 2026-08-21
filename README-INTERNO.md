@@ -16,6 +16,9 @@ Visor web de la programación deportiva en TV, con datos extraídos de
 - `competiciones.json` — **tier list editable** de competiciones + configuración de
   puntuación de los destacados.
 - `heuristica.py` — heurística de tier (compartida por el scraper y el sembrado).
+- `canales-abierto.json` — **lista editable** de canales/plataformas en abierto
+  (para el filtro "Mostrar sólo eventos en abierto"). Un canal es abierto si contiene
+  una palabra de `abiertos` y ninguna de `de_pago` (anula, p.ej. "ppv").
 - `requirements.txt` — dependencias del scraper.
 - `.github/workflows/actualizar-datos.yml` — cron gratuito que actualiza los datos.
 - `netlify.toml` — configuración de publicación en Netlify.
