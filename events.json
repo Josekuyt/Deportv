@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-08-21T01:11:30",
+    "generado": "2026-08-21T08:38:17",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 363
+    "total_eventos": 393
   },
   "eventos": [
     {
@@ -40,7 +40,7 @@
       "local": "I. Swiatek",
       "visitante": "E. Rybakina",
       "fecha": "2026-08-21",
-      "hora": "01:00",
+      "hora": "01:10",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -121,7 +121,7 @@
       "local": "TA. Tirante",
       "visitante": "A. Fils",
       "fecha": "2026-08-21",
-      "hora": "02:30",
+      "hora": "02:40",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 2 (64)"
@@ -302,6 +302,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "J1 League",
+      "ronda": null,
+      "evento": "FC Tokyo vs JEF United",
+      "local": "FC Tokyo",
+      "visitante": "JEF United",
+      "fecha": "2026-08-21",
+      "hora": "12:30",
+      "canales": [
+        "J.LEAGUE International YouTube"
+      ]
+    },
+    {
       "deporte": "Automovilismo",
       "competicion": "Fórmula 1",
       "ronda": null,
@@ -372,7 +385,7 @@
       "deporte": "Ciclismo",
       "competicion": "Tour de Alemania",
       "ronda": null,
-      "evento": "Etapa 2 Schwäbisch Hall › Offenbach an der Queich (197 km)",
+      "evento": "Etapa 2",
       "local": null,
       "visitante": null,
       "fecha": "2026-08-21",
@@ -423,62 +436,6 @@
       "canales": [
         "DAZN (Ver en directo)",
         "DAZN F1 (M70 O104)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Masters Cincinnati",
-      "ronda": "1/4 de Final",
-      "evento": "T. Fritz vs B. Nakashima",
-      "local": "T. Fritz",
-      "visitante": "B. Nakashima",
-      "fecha": "2026-08-21",
-      "hora": "17:00",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes 2 (64)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Masters Cincinnati",
-      "ronda": "1/4 de Final",
-      "evento": "L. Musetti vs F. Tiafoe",
-      "local": "L. Musetti",
-      "visitante": "F. Tiafoe",
-      "fecha": "2026-08-21",
-      "hora": "17:00",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes 2 (64)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Cincinnati",
-      "ronda": "1/4 de Final",
-      "evento": "C. Gauff vs M. Kostyuk",
-      "local": "C. Gauff",
-      "visitante": "M. Kostyuk",
-      "fecha": "2026-08-21",
-      "hora": "17:00",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Cincinnati",
-      "ronda": "1/4 de Final",
-      "evento": "S. Bejlek vs M. Keys",
-      "local": "S. Bejlek",
-      "visitante": "M. Keys",
-      "fecha": "2026-08-21",
-      "hora": "17:00",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -688,7 +645,22 @@
       "fecha": "2026-08-21",
       "hora": "19:00",
       "canales": [
-        "Fanatiz (Ver en directo)"
+        "Fanatiz (Ver en directo)",
+        "L1 Max YouTube"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Cincinnati",
+      "ronda": "1/4 de Final",
+      "evento": "S. Bejlek vs M. Keys",
+      "local": "S. Bejlek",
+      "visitante": "M. Keys",
+      "fecha": "2026-08-21",
+      "hora": "19:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -796,6 +768,32 @@
       "hora": "20:00",
       "canales": [
         "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera C",
+      "ronda": null,
+      "evento": "Muñiz vs General Lamadrid",
+      "local": "Muñiz",
+      "visitante": "General Lamadrid",
+      "fecha": "2026-08-21",
+      "hora": "20:00",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Uruguay",
+      "ronda": null,
+      "evento": "Miramar Misiones vs CA Rentistas",
+      "local": "Miramar Misiones",
+      "visitante": "CA Rentistas",
+      "fecha": "2026-08-21",
+      "hora": "20:00",
+      "canales": [
+        "Antel TV Internacional"
       ]
     },
     {
@@ -908,15 +906,15 @@
     {
       "deporte": "Tenis",
       "competicion": "Masters Cincinnati",
-      "ronda": null,
-      "evento": "Semifinal 1 ATP Masters 1000",
-      "local": null,
-      "visitante": null,
+      "ronda": "1/4 de Final",
+      "evento": "T. Fritz vs B. Nakashima",
+      "local": "T. Fritz",
+      "visitante": "B. Nakashima",
       "fecha": "2026-08-21",
       "hora": "21:00",
       "canales": [
         "ATP Tennis TV",
-        "Movistar+"
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -930,20 +928,6 @@
       "hora": "21:00",
       "canales": [
         "Antel TV Internacional"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Cincinnati",
-      "ronda": null,
-      "evento": "Semifinal 1 WTA 1000",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-08-21",
-      "hora": "21:00",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -1020,6 +1004,32 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Liga Futve",
+      "ronda": null,
+      "evento": "Anzoátegui FC vs Trujillanos",
+      "local": "Anzoátegui FC",
+      "visitante": "Trujillanos",
+      "fecha": "2026-08-21",
+      "hora": "22:00",
+      "canales": [
+        "LigaFUTVE App"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Colombiana",
+      "ronda": null,
+      "evento": "Jaguares FC vs Boyacá Chicó",
+      "local": "Jaguares FC",
+      "visitante": "Boyacá Chicó",
+      "fecha": "2026-08-21",
+      "hora": "23:05",
+      "canales": [
+        "RCN Nuestra Tele"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Primera B Argentina",
       "ronda": null,
       "evento": "Brown de Adrogué vs UAI Urquiza",
@@ -1071,31 +1081,43 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "Masters Cincinnati",
+      "deporte": "Fútbol",
+      "competicion": "Segunda Uruguay",
       "ronda": null,
-      "evento": "Semifinal 2 ATP Masters 1000",
-      "local": null,
-      "visitante": null,
+      "evento": "Plaza Colonia vs Colón FC",
+      "local": "Plaza Colonia",
+      "visitante": "Colón FC",
       "fecha": "2026-08-22",
-      "hora": "00:30",
+      "hora": "00:00",
       "canales": [
-        "ATP Tennis TV",
-        "Movistar+"
+        "Antel TV Internacional"
       ]
     },
     {
       "deporte": "Tenis",
-      "competicion": "WTA Cincinnati",
-      "ronda": null,
-      "evento": "Semifinal 2 WTA 1000",
-      "local": null,
-      "visitante": null,
+      "competicion": "Masters Cincinnati",
+      "ronda": "1/4 de Final",
+      "evento": "L. Musetti vs F. Tiafoe",
+      "local": "L. Musetti",
+      "visitante": "F. Tiafoe",
       "fecha": "2026-08-22",
-      "hora": "00:30",
+      "hora": "01:00",
       "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Futve",
+      "ronda": null,
+      "evento": "Caracas FC vs Carabobo",
+      "local": "Caracas FC",
+      "visitante": "Carabobo",
+      "fecha": "2026-08-22",
+      "hora": "01:00",
+      "canales": [
+        "LigaFUTVE App"
       ]
     },
     {
@@ -1140,6 +1162,32 @@
       ]
     },
     {
+      "deporte": "Fútbol Sala",
+      "competicion": "Primera División Futsal AFA",
+      "ronda": null,
+      "evento": "Racing Avellaneda Futsal vs Kimberley AC Futsal",
+      "local": "Racing Avellaneda Futsal",
+      "visitante": "Kimberley AC Futsal",
+      "fecha": "2026-08-22",
+      "hora": "01:30",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol Sala",
+      "competicion": "Primera División Futsal AFA",
+      "ronda": null,
+      "evento": "Independiente Futsal vs Deportivo Camioneros FS",
+      "local": "Independiente Futsal",
+      "visitante": "Deportivo Camioneros FS",
+      "fecha": "2026-08-22",
+      "hora": "01:30",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Torneo Federal A",
       "ronda": null,
@@ -1163,6 +1211,46 @@
       "hora": "02:00",
       "canales": [
         "Zapping Internacional"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Pro Ecuador",
+      "ronda": null,
+      "evento": "Leones del Norte vs Independiente del Valle",
+      "local": "Leones del Norte",
+      "visitante": "Independiente del Valle",
+      "fecha": "2026-08-22",
+      "hora": "02:00",
+      "canales": [
+        "Zapping Internacional"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Colombiana",
+      "ronda": null,
+      "evento": "Alianza vs Deportivo Pereira",
+      "local": "Alianza",
+      "visitante": "Deportivo Pereira",
+      "fecha": "2026-08-22",
+      "hora": "02:30",
+      "canales": [
+        "RCN Nuestra Tele"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Cincinnati",
+      "ronda": "1/4 de Final",
+      "evento": "C. Gauff vs M. Kostyuk",
+      "local": "C. Gauff",
+      "visitante": "M. Kostyuk",
+      "fecha": "2026-08-22",
+      "hora": "02:30",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -1724,6 +1812,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "ASEAN Cup",
+      "ronda": null,
+      "evento": "Tailandia vs Vietnam",
+      "local": "Tailandia",
+      "visitante": "Vietnam",
+      "fecha": "2026-08-22",
+      "hora": "15:00",
+      "canales": [
+        "OneFootball PPV"
+      ]
+    },
+    {
       "deporte": "Golf",
       "competicion": "BMW Championship",
       "ronda": null,
@@ -1859,7 +1960,7 @@
       "deporte": "Ciclismo",
       "competicion": "Vuelta a España",
       "ronda": null,
-      "evento": "Etapa 1 Monaco › Monaco (9,4 km)",
+      "evento": "Etapa 1",
       "local": null,
       "visitante": null,
       "fecha": "2026-08-22",
@@ -2116,6 +2217,33 @@
       "hora": "18:00",
       "canales": [
         "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Uruguay",
+      "ronda": null,
+      "evento": "Cerrito vs Uruguay Montevideo",
+      "local": "Cerrito",
+      "visitante": "Uruguay Montevideo",
+      "fecha": "2026-08-22",
+      "hora": "18:00",
+      "canales": [
+        "Antel TV Internacional"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Cincinnati",
+      "ronda": "WTA 1000",
+      "evento": "J. Pegula vs I. Swiatek",
+      "local": "J. Pegula",
+      "visitante": "I. Swiatek",
+      "fecha": "2026-08-22",
+      "hora": "18:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -2713,6 +2841,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Jupiler Pro League",
+      "ronda": null,
+      "evento": "Antwerp vs Genk",
+      "local": "Antwerp",
+      "visitante": "Genk",
+      "fecha": "2026-08-22",
+      "hora": "20:45",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Francia Ligue 1",
       "ronda": null,
       "evento": "Troyes vs Paris FC",
@@ -2818,6 +2959,20 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Masters Cincinnati",
+      "ronda": "ATP Masters 1000",
+      "evento": "F. Cobolli vs A. Fils",
+      "local": "F. Cobolli",
+      "visitante": "A. Fils",
+      "fecha": "2026-08-22",
+      "hora": "21:00",
+      "canales": [
+        "ATP Tennis TV",
+        "Movistar+"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Primera Nacional Argentina",
       "ronda": null,
@@ -2841,6 +2996,19 @@
       "hora": "21:00",
       "canales": [
         "Zapping Internacional"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Uruguay",
+      "ronda": null,
+      "evento": "Paysandú FC vs River Plate M.",
+      "local": "Paysandú FC",
+      "visitante": "River Plate M.",
+      "fecha": "2026-08-22",
+      "hora": "21:00",
+      "canales": [
+        "Antel TV Internacional"
       ]
     },
     {
@@ -2952,6 +3120,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Liga Futve",
+      "ronda": null,
+      "evento": "Rayo Zuliano vs La Guaira",
+      "local": "Rayo Zuliano",
+      "visitante": "La Guaira",
+      "fecha": "2026-08-22",
+      "hora": "21:30",
+      "canales": [
+        "LigaFUTVE App"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Liga portuguesa",
       "ronda": null,
       "evento": "Sporting CP vs Alverca",
@@ -2991,6 +3172,45 @@
         "LALIGA TV Hypermotion (M56 O120): VER PARTIDO",
         "DAZN (Ver en directo)",
         "LaLiga TV M2"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Futve",
+      "ronda": null,
+      "evento": "Zamora FC vs UCV",
+      "local": "Zamora FC",
+      "visitante": "UCV",
+      "fecha": "2026-08-22",
+      "hora": "22:00",
+      "canales": [
+        "LigaFUTVE App"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Futve",
+      "ronda": null,
+      "evento": "Monagas SC vs Portuguesa FC",
+      "local": "Monagas SC",
+      "visitante": "Portuguesa FC",
+      "fecha": "2026-08-22",
+      "hora": "22:00",
+      "canales": [
+        "LigaFUTVE App"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Futve",
+      "ronda": null,
+      "evento": "Estudiantes Mérida vs Puerto Cabello",
+      "local": "Estudiantes Mérida",
+      "visitante": "Puerto Cabello",
+      "fecha": "2026-08-22",
+      "hora": "22:00",
+      "canales": [
+        "LigaFUTVE App"
       ]
     },
     {
@@ -3035,6 +3255,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Liga Colombiana",
+      "ronda": null,
+      "evento": "Águilas Doradas Rionegro vs Millonarios",
+      "local": "Águilas Doradas Rionegro",
+      "visitante": "Millonarios",
+      "fecha": "2026-08-22",
+      "hora": "22:30",
+      "canales": [
+        "RCN Nuestra Tele"
+      ]
+    },
+    {
       "deporte": "Automovilismo",
       "competicion": "IndyCar",
       "ronda": null,
@@ -3058,6 +3291,19 @@
       "hora": "23:00",
       "canales": [
         "OneFootball"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Colombiana",
+      "ronda": null,
+      "evento": "Deportes Tolima vs Bucaramanga",
+      "local": "Deportes Tolima",
+      "visitante": "Bucaramanga",
+      "fecha": "2026-08-22",
+      "hora": "23:05",
+      "canales": [
+        "RCN Nuestra Tele"
       ]
     },
     {
@@ -3156,6 +3402,34 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Masters Cincinnati",
+      "ronda": null,
+      "evento": "Semifinal 2 ATP Masters 1000",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-08-23",
+      "hora": "00:30",
+      "canales": [
+        "ATP Tennis TV",
+        "Movistar+"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Cincinnati",
+      "ronda": null,
+      "evento": "Semifinal 2 WTA 1000",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-08-23",
+      "hora": "00:30",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "NWSL",
       "ronda": null,
@@ -3220,6 +3494,32 @@
       "hora": "01:07",
       "canales": [
         "OneFootball PPV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Colombiana",
+      "ronda": null,
+      "evento": "Santa Fe vs América de Cali",
+      "local": "Santa Fe",
+      "visitante": "América de Cali",
+      "fecha": "2026-08-23",
+      "hora": "01:10",
+      "canales": [
+        "RCN Nuestra Tele"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Uruguay",
+      "ronda": null,
+      "evento": "Tacuarembó vs CA Fénix",
+      "local": "Tacuarembó",
+      "visitante": "CA Fénix",
+      "fecha": "2026-08-23",
+      "hora": "01:30",
+      "canales": [
+        "Antel TV Internacional"
       ]
     },
     {
@@ -3380,6 +3680,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Liga Futve",
+      "ronda": null,
+      "evento": "Metropolitanos vs Deportivo Táchira",
+      "local": "Metropolitanos",
+      "visitante": "Deportivo Táchira",
+      "fecha": "2026-08-23",
+      "hora": "02:00",
+      "canales": [
+        "LigaFUTVE App"
+      ]
+    },
+    {
       "deporte": "Boxeo",
       "competicion": "Título Mundial",
       "ronda": "Peso Welter",
@@ -3507,6 +3820,19 @@
       "hora": "03:00",
       "canales": [
         "Amazon Prime Video (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Colombiana",
+      "ronda": null,
+      "evento": "Medellín vs Cúcuta",
+      "local": "Medellín",
+      "visitante": "Cúcuta",
+      "fecha": "2026-08-23",
+      "hora": "03:15",
+      "canales": [
+        "RCN Nuestra Tele"
       ]
     },
     {
@@ -3642,6 +3968,19 @@
       "canales": [
         "HBO MAX",
         "Tour of Britain YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "J1 League",
+      "ronda": null,
+      "evento": "Machida Zelvia vs Urawa Red Diamonds",
+      "local": "Machida Zelvia",
+      "visitante": "Urawa Red Diamonds",
+      "fecha": "2026-08-23",
+      "hora": "12:30",
+      "canales": [
+        "J.LEAGUE International YouTube"
       ]
     },
     {
@@ -3805,7 +4144,7 @@
       "deporte": "Ciclismo",
       "competicion": "Vuelta a España",
       "ronda": null,
-      "evento": "Etapa 2 Monaco › Manosque (214,3 km)",
+      "evento": "Etapa 2",
       "local": null,
       "visitante": null,
       "fecha": "2026-08-23",
@@ -4014,6 +4353,19 @@
       "evento": "Danubio vs Racing Club",
       "local": "Danubio",
       "visitante": "Racing Club",
+      "fecha": "2026-08-23",
+      "hora": "16:00",
+      "canales": [
+        "Antel TV Internacional"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Uruguay",
+      "ronda": null,
+      "evento": "La Luz FC vs Oriental",
+      "local": "La Luz FC",
+      "visitante": "Oriental",
       "fecha": "2026-08-23",
       "hora": "16:00",
       "canales": [
@@ -4364,6 +4716,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Primera División Argentina",
+      "ronda": "Torneo Clausura",
+      "evento": "Barracas Central vs Platense",
+      "local": "Barracas Central",
+      "visitante": "Platense",
+      "fecha": "2026-08-23",
+      "hora": "19:45",
+      "canales": [
+        "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "Amistoso",
       "ronda": null,
@@ -4409,6 +4774,19 @@
       "evento": "Montevideo City Torque vs Montevideo Wanderers",
       "local": "Montevideo City Torque",
       "visitante": "Montevideo Wanderers",
+      "fecha": "2026-08-23",
+      "hora": "20:00",
+      "canales": [
+        "Antel TV Internacional"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Uruguay",
+      "ronda": null,
+      "evento": "CA Atenas vs Huracán FC",
+      "local": "CA Atenas",
+      "visitante": "Huracán FC",
       "fecha": "2026-08-23",
       "hora": "20:00",
       "canales": [
@@ -4583,6 +4961,19 @@
       "hora": "21:00",
       "canales": [
         "Zapping Internacional"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Colombiana",
+      "ronda": null,
+      "evento": "Fortaleza vs Atlético Nacional",
+      "local": "Fortaleza",
+      "visitante": "Atlético Nacional",
+      "fecha": "2026-08-23",
+      "hora": "21:00",
+      "canales": [
+        "RCN Nuestra Tele"
       ]
     },
     {
@@ -4835,15 +5226,15 @@
     },
     {
       "deporte": "Fútbol",
-      "competicion": "Liga Pro Ecuador",
+      "competicion": "Liga Colombiana",
       "ronda": null,
-      "evento": "Leones del Norte vs Independiente del Valle",
-      "local": "Leones del Norte",
-      "visitante": "Independiente del Valle",
+      "evento": "Deportivo Pasto vs Llaneros",
+      "local": "Deportivo Pasto",
+      "visitante": "Llaneros",
       "fecha": "2026-08-23",
-      "hora": "23:15",
+      "hora": "23:05",
       "canales": [
-        "Zapping Internacional"
+        "RCN Nuestra Tele"
       ]
     },
     {
