@@ -3033,7 +3033,8 @@ function fondoHero(dep){
   const deg = FONDOS_DEG[dep] || "linear-gradient(135deg,#1b2436,#2a344a)";
   const img = FONDOS_IMG[dep];
   // La foto va encima del degradado: si el archivo falta (404), queda el degradado.
-  return img ? `url("${img}"), ${deg}` : deg;
+  // Comillas simples: el style="..." usa dobles y no debe romperse.
+  return img ? `url('${img}'), ${deg}` : deg;
 }
 
 /* Configuración por defecto si competiciones.json no trae "config". */
