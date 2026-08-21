@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-08-21T08:38:17",
+    "generado": "2026-08-21T16:32:27",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 393
+    "total_eventos": 399
   },
   "eventos": [
     {
@@ -385,7 +385,7 @@
       "deporte": "Ciclismo",
       "competicion": "Tour de Alemania",
       "ronda": null,
-      "evento": "Etapa 2",
+      "evento": "Etapa 2 Schwäbisch Hall › Offenbach an der Queich (197 km)",
       "local": null,
       "visitante": null,
       "fecha": "2026-08-21",
@@ -475,6 +475,20 @@
       "hora": "17:00",
       "canales": [
         "OneFootball PPV"
+      ]
+    },
+    {
+      "deporte": "Hockey Hierba",
+      "competicion": "FIH Copa Mundial Masculina",
+      "ronda": null,
+      "evento": "Alemania vs España",
+      "local": "Alemania",
+      "visitante": "España",
+      "fecha": "2026-08-21",
+      "hora": "17:05",
+      "canales": [
+        "Teledeporte",
+        "RTVE Play"
       ]
     },
     {
@@ -914,6 +928,7 @@
       "hora": "21:00",
       "canales": [
         "ATP Tennis TV",
+        "M+ Vamos 2 (51)",
         "M+ Deportes 2 (64)"
       ]
     },
@@ -1012,7 +1027,8 @@
       "fecha": "2026-08-21",
       "hora": "22:00",
       "canales": [
-        "LigaFUTVE App"
+        "LigaFUTVE App",
+        "Liga Futve YouTube"
       ]
     },
     {
@@ -1117,7 +1133,8 @@
       "fecha": "2026-08-22",
       "hora": "01:00",
       "canales": [
-        "LigaFUTVE App"
+        "LigaFUTVE App",
+        "Fanatiz (Ver en directo)"
       ]
     },
     {
@@ -1311,7 +1328,7 @@
     {
       "deporte": "Fútbol",
       "competicion": "Juegos Mediterráneos",
-      "ronda": null,
+      "ronda": "Fase de grupos",
       "evento": "Argelia vs Kosovo",
       "local": "Argelia",
       "visitante": "Kosovo",
@@ -1960,7 +1977,7 @@
       "deporte": "Ciclismo",
       "competicion": "Vuelta a España",
       "ronda": null,
-      "evento": "Etapa 1",
+      "evento": "Etapa 1 Monaco › Monaco (9,4 km)",
       "local": null,
       "visitante": null,
       "fecha": "2026-08-22",
@@ -2354,6 +2371,23 @@
       ]
     },
     {
+      "deporte": "Ciclismo",
+      "competicion": "Vuelta a España",
+      "ronda": null,
+      "evento": "Etapa 1 Monaco › Monaco (9,4 km)",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-08-22",
+      "hora": "18:25",
+      "canales": [
+        "HBO MAX",
+        "DAZN (Ver en directo)",
+        "La 2 TVE",
+        "RTVE Play",
+        "Eurosport 1"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Premier League",
       "ronda": null,
@@ -2393,6 +2427,7 @@
       "canales": [
         "DAZN (Ver en directo)",
         "Movistar Plus+ (M7): VER PARTIDO",
+        "Orange Fútbol 3 (109)",
         "M+ Liga de Campeones (M60 O115)"
       ]
     },
@@ -2476,7 +2511,9 @@
       "canales": [
         "LALIGA TV Hypermotion (M56 O120): VER PARTIDO",
         "DAZN (Ver en directo)",
+        "CayoTV YouTube (ver)",
         "GOL (Síguelo en directo)",
+        "TV Canaria",
         "LaLiga TV M3"
       ]
     },
@@ -2537,19 +2574,6 @@
     },
     {
       "deporte": "Fútbol",
-      "competicion": "Amistoso",
-      "ronda": null,
-      "evento": "Sevilla At. vs Antequera",
-      "local": "Sevilla At.",
-      "visitante": "Antequera",
-      "fecha": "2026-08-22",
-      "hora": "19:30",
-      "canales": [
-        "Sevilla FC +"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
       "competicion": "Admiral Bundesliga",
       "ronda": null,
       "evento": "Sturm Graz vs Austria Lustenau",
@@ -2587,6 +2611,7 @@
       "hora": "20:00",
       "canales": [
         "Aragón Deporte",
+        "TV FootballClub (Acceder)",
         "Aragón TV"
       ]
     },
@@ -2696,6 +2721,33 @@
       ]
     },
     {
+      "deporte": "Baloncesto",
+      "competicion": "Europeo Femenino Sub-16",
+      "ronda": null,
+      "evento": "Final",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-08-22",
+      "hora": "20:00",
+      "canales": [
+        "Teledeporte",
+        "RTVE Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Trofeo JCCM",
+      "ronda": null,
+      "evento": "Calvo Sotelo Puertollano vs CF Talavera",
+      "local": "Calvo Sotelo Puertollano",
+      "visitante": "CF Talavera",
+      "fecha": "2026-08-22",
+      "hora": "20:00",
+      "canales": [
+        "CMMPlay (Castilla-LM)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Liga 1 Perú",
       "ronda": null,
@@ -2706,6 +2758,19 @@
       "hora": "20:15",
       "canales": [
         "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Amistoso",
+      "ronda": null,
+      "evento": "Sevilla At. vs Antequera",
+      "local": "Sevilla At.",
+      "visitante": "Antequera",
+      "fecha": "2026-08-22",
+      "hora": "20:30",
+      "canales": [
+        "Sevilla FC +"
       ]
     },
     {
@@ -3027,7 +3092,7 @@
     {
       "deporte": "Fútbol",
       "competicion": "Juegos Mediterráneos",
-      "ronda": null,
+      "ronda": "Fase de grupos",
       "evento": "Túnez vs Macedonia Norte",
       "local": "Túnez",
       "visitante": "Macedonia Norte",
@@ -3040,7 +3105,7 @@
     {
       "deporte": "Fútbol",
       "competicion": "Juegos Mediterráneos",
-      "ronda": null,
+      "ronda": "Fase de grupos",
       "evento": "Marruecos vs Turquía",
       "local": "Marruecos",
       "visitante": "Turquía",
@@ -3053,7 +3118,7 @@
     {
       "deporte": "Fútbol",
       "competicion": "Juegos Mediterráneos",
-      "ronda": null,
+      "ronda": "Fase de grupos",
       "evento": "Italia vs Albania",
       "local": "Italia",
       "visitante": "Albania",
@@ -3119,6 +3184,20 @@
       ]
     },
     {
+      "deporte": "Hockey Hierba",
+      "competicion": "FIH Copa Mundial Femenina",
+      "ronda": null,
+      "evento": "Argentina vs España",
+      "local": "Argentina",
+      "visitante": "España",
+      "fecha": "2026-08-22",
+      "hora": "21:05",
+      "canales": [
+        "Teledeporte",
+        "RTVE Play"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Liga Futve",
       "ronda": null,
@@ -3128,7 +3207,8 @@
       "fecha": "2026-08-22",
       "hora": "21:30",
       "canales": [
-        "LigaFUTVE App"
+        "LigaFUTVE App",
+        "Liga Futve YouTube"
       ]
     },
     {
@@ -3184,7 +3264,8 @@
       "fecha": "2026-08-22",
       "hora": "22:00",
       "canales": [
-        "LigaFUTVE App"
+        "LigaFUTVE App",
+        "Liga Futve YouTube"
       ]
     },
     {
@@ -3197,7 +3278,8 @@
       "fecha": "2026-08-22",
       "hora": "22:00",
       "canales": [
-        "LigaFUTVE App"
+        "LigaFUTVE App",
+        "Liga Futve YouTube"
       ]
     },
     {
@@ -3210,7 +3292,8 @@
       "fecha": "2026-08-22",
       "hora": "22:00",
       "canales": [
-        "LigaFUTVE App"
+        "LigaFUTVE App",
+        "Fanatiz (Ver en directo)"
       ]
     },
     {
@@ -3689,7 +3772,8 @@
       "fecha": "2026-08-23",
       "hora": "02:00",
       "canales": [
-        "LigaFUTVE App"
+        "LigaFUTVE App",
+        "Fanatiz (Ver en directo)"
       ]
     },
     {
@@ -4144,7 +4228,7 @@
       "deporte": "Ciclismo",
       "competicion": "Vuelta a España",
       "ronda": null,
-      "evento": "Etapa 2",
+      "evento": "Etapa 2 Monaco › Manosque (214,3 km)",
       "local": null,
       "visitante": null,
       "fecha": "2026-08-23",
@@ -4370,6 +4454,23 @@
       "hora": "16:00",
       "canales": [
         "Antel TV Internacional"
+      ]
+    },
+    {
+      "deporte": "Ciclismo",
+      "competicion": "Vuelta a España",
+      "ronda": null,
+      "evento": "Etapa 2 Monaco › Manosque (214,3 km)",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-08-23",
+      "hora": "16:15",
+      "canales": [
+        "HBO MAX",
+        "DAZN (Ver en directo)",
+        "La 2 TVE",
+        "RTVE Play",
+        "Eurosport 1"
       ]
     },
     {
