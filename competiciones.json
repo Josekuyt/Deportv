@@ -1,0 +1,230 @@
+{
+  "meta": {
+    "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
+    "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
+    "actualizado": "2026-08-20"
+  },
+  "config": {
+    "puntos_por_tier": {
+      "S": 100,
+      "A": 70,
+      "B": 45,
+      "C": 25,
+      "D": 10
+    },
+    "bonus_fase": {
+      "final": 40,
+      "semifinal": 25,
+      "cuartos": 12,
+      "octavos": 4,
+      "otro": 0,
+      "ninguno": 0
+    },
+    "bonus_espana": 30,
+    "tier_por_defecto": "C",
+    "excluir": [
+      "reserva",
+      "proyeccion",
+      "proyección",
+      "academy",
+      "sub-",
+      "sub ",
+      "juvenil",
+      "amistoso",
+      "trofeo",
+      "regional",
+      "euskadi",
+      "admiral"
+    ],
+    "max_destacados": 5,
+    "max_por_competicion": 2
+  },
+  "competiciones": {
+    "2. Liga": {
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Admiral Bundesliga": {
+      "tier": "D"
+    },
+    "Amistoso": {
+      "tier": "D"
+    },
+    "Amistoso Femenino": {
+      "tier": "D"
+    },
+    "ASEAN Cup": {
+      "tier": "B"
+    },
+    "BMW Championship": {
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Bundesliga Femenina": {
+      "tier": "A"
+    },
+    "Bundesliga Sub-19": {
+      "tier": "D"
+    },
+    "Caribbean Club Championship": {
+      "tier": "B"
+    },
+    "Champions League": {
+      "tier": "S"
+    },
+    "CONCACAF Central American Cup": {
+      "tier": "B"
+    },
+    "Conference League": {
+      "tier": "B"
+    },
+    "Copa de Alemania": {
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Copa Euskadi Femenina": {
+      "tier": "D"
+    },
+    "Copa Libertadores": {
+      "tier": "A"
+    },
+    "Copa Sudamericana": {
+      "tier": "B"
+    },
+    "Damallsvenskan": {
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Dana White Contender Series": {
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Europa League": {
+      "tier": "A"
+    },
+    "Europeo Femenino Sub-16": {
+      "tier": "D"
+    },
+    "F1 Academy": {
+      "tier": "D"
+    },
+    "FIH Copa Mundial Femenina": {
+      "tier": "S"
+    },
+    "FIH Copa Mundial Masculina": {
+      "tier": "S"
+    },
+    "Francia Ligue 1": {
+      "tier": "A"
+    },
+    "Fórmula 1": {
+      "tier": "S"
+    },
+    "IAAF Diamond League": {
+      "tier": "C",
+      "por_revisar": true
+    },
+    "La Liga EA Sports": {
+      "tier": "S"
+    },
+    "LaLiga Hypermotion": {
+      "tier": "B"
+    },
+    "Liga 1 Perú": {
+      "tier": "D"
+    },
+    "Liga AUF Uruguaya": {
+      "tier": "C"
+    },
+    "Liga Colombiana": {
+      "tier": "B"
+    },
+    "Liga Femenina Dimayor": {
+      "tier": "B"
+    },
+    "LIV Golf": {
+      "tier": "C"
+    },
+    "Masters Cincinnati": {
+      "tier": "A"
+    },
+    "MLS": {
+      "tier": "B"
+    },
+    "MLS Next Pro": {
+      "tier": "B"
+    },
+    "Nexo Championship": {
+      "tier": "C"
+    },
+    "NFL Pretemporada": {
+      "tier": "C"
+    },
+    "NWSL": {
+      "tier": "B"
+    },
+    "Premier League": {
+      "tier": "S"
+    },
+    "Preolímpico Femenino": {
+      "tier": "A"
+    },
+    "Primera B Argentina": {
+      "tier": "C"
+    },
+    "Primera División Futsal AFA": {
+      "tier": "D"
+    },
+    "Primera Nacional Argentina": {
+      "tier": "B"
+    },
+    "Saudi Pro League": {
+      "tier": "C"
+    },
+    "Serie B Italiana": {
+      "tier": "C"
+    },
+    "Superliga de Letonia": {
+      "tier": "D"
+    },
+    "Torneo BetPlay DIMAYOR": {
+      "tier": "B"
+    },
+    "Torneo Proyección": {
+      "tier": "D"
+    },
+    "Tour de Alemania": {
+      "tier": "D"
+    },
+    "Tour de L'Avenir": {
+      "tier": "D"
+    },
+    "Tour del Benelux": {
+      "tier": "C"
+    },
+    "Tour del Limousin": {
+      "tier": "D"
+    },
+    "Tour Gran Bretaña Femenino": {
+      "tier": "D"
+    },
+    "Trofeo Joan Gamper": {
+      "tier": "C"
+    },
+    "Trofeo Joan Gamper Femenino": {
+      "tier": "D"
+    },
+    "Veikkausliiga": {
+      "tier": "D"
+    },
+    "Vuelta a España": {
+      "tier": "A"
+    },
+    "WNBA": {
+      "tier": "B"
+    },
+    "WTA Cincinnati": {
+      "tier": "C"
+    }
+  }
+}

@@ -16,6 +16,13 @@ def main():
     data = open("events.json", encoding="utf-8").read().strip()
     tpl = re.sub(r"/\*__DATA__\*/.*?/\*__END__\*/",
                  lambda m: "/*__DATA__*/" + data + "/*__END__*/", tpl, flags=re.S)
+    # Inyecta también el snapshot de la tier list (competiciones.json).
+    try:
+        tiers = open("competiciones.json", encoding="utf-8").read().strip()
+        tpl = re.sub(r"/\*__TIERS__\*/.*?/\*__ENDTIERS__\*/",
+                     lambda m: "/*__TIERS__*/" + tiers + "/*__ENDTIERS__*/", tpl, flags=re.S)
+    except FileNotFoundError:
+        pass
     # Normaliza el replace de acentos a rango unicode escrito con \u (robusto).
     tpl = re.sub(r'\.replace\(/\[[^\]]*\]/g,""\)',
                  lambda m: '.replace(/[\\u0300-\\u036f]/g,"")', tpl, count=1)

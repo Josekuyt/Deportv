@@ -11,7 +11,7 @@
   # (El scraper solo toca events.json, asi no se gastan minutos de build de
   #  Netlify en cada actualizacion de datos.)
   # Netlify: exit 0 = cancelar build; exit != 0 = desplegar.
-  ignore = "git diff --quiet HEAD^ HEAD ':(exclude)events.json'"
+  ignore = "git diff --quiet HEAD^ HEAD ':(exclude)events.json' ':(exclude)competiciones.json'"
 
 # events.json local queda solo como respaldo; aun asi evitamos que se cachee.
 [[headers]]

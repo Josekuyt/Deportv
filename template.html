@@ -58,6 +58,26 @@
     padding:5px 10px;cursor:pointer;user-select:none}
   .plat.on{background:var(--chip-on);border-color:var(--chip-on-b);color:var(--chip-on-b);font-weight:600}
 
+  /* Destacados */
+  .destacados{margin:20px 0 6px}
+  .dest-head{font-size:1.05rem;font-weight:800;display:flex;align-items:center;gap:10px;margin-bottom:10px}
+  .dest-head .badge{font-size:.72rem;font-weight:700;color:var(--muted);background:var(--chip);
+    border:1px solid var(--line);border-radius:999px;padding:3px 9px}
+  .dest-row{display:flex;gap:12px;overflow-x:auto;padding:4px 2px 12px;scroll-snap-type:x mandatory}
+  .dest-row::-webkit-scrollbar{height:8px}
+  .dest-row::-webkit-scrollbar-thumb{background:var(--line);border-radius:8px}
+  .dcard{flex:0 0 250px;scroll-snap-align:start;background:var(--card);
+    border:1px solid var(--accent2);border-radius:12px;padding:12px;box-shadow:var(--shadow);
+    position:relative}
+  .dcard::before{content:"⭐";position:absolute;top:10px;right:10px;font-size:.8rem;opacity:.85}
+  .dtop{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-bottom:6px}
+  .dcomp{font-size:.76rem;color:var(--muted);margin-bottom:2px}
+  .dev{font-weight:700;font-size:.95rem;line-height:1.25;margin-bottom:8px}
+  .dmeta{font-size:.8rem;color:var(--txt);margin-bottom:6px}
+  .dcanal{font-size:.74rem;color:var(--accent2);font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .card.dest{border-color:var(--accent2)}
+  .star{font-size:.85rem}
+
   .dia{margin:22px 0 10px;font-size:1.05rem;font-weight:700;display:flex;align-items:center;gap:10px}
   .dia .badge{font-size:.72rem;font-weight:600;color:var(--muted);background:var(--chip);
     border:1px solid var(--line);border-radius:999px;padding:3px 9px}
@@ -82,7 +102,7 @@
   <div class="wrap">
     <h1>⚽ Deportv — Deporte en TV</h1>
     <div class="sub">Consulta y filtra la programación deportiva en televisión y streaming.</div>
-    <div class="src">Fuente: <a href="https://www.futbolenlatv.es/deporte" target="_blank" rel="noopener">futbolenlatv.es/deporte</a> · MVP 0.1</div>
+    <div class="src">Fuente: <a href="https://www.futbolenlatv.es/deporte" target="_blank" rel="noopener">futbolenlatv.es/deporte</a> · MVP 0.5</div>
   </div>
 </header>
 
@@ -111,6 +131,11 @@
     <div class="ultact" id="ultact">Fuente actualizada: —</div>
   </div>
 
+  <section class="destacados" id="destacados" style="display:none">
+    <div class="dest-head">⭐ Destacados de hoy <span class="badge" id="destCount"></span></div>
+    <div class="dest-row" id="destRow"></div>
+  </section>
+
   <div id="lista"></div>
   <div class="vacio" id="vacio" style="display:none">No hay eventos que coincidan con los filtros.</div>
 </main>
@@ -118,19 +143,55 @@
 <footer id="pie"></footer>
 
 <script>
-/* ---- Datos: se intenta cargar events.json; si no, se usa el snapshot embebido ---- */
-const DATA_EMBEBIDA = /*__DATA__*/{"meta":{},"eventos":[]}/*__END__*/;
-let DOC = DATA_EMBEBIDA;
+/* ---- Datos: se intentan cargar desde la CDN; si no, se usa el snapshot embebido ---- */
+const DATA_EMBEBIDA  = /*__DATA__*/{"meta":{},"eventos":[]}/*__END__*/;
+const TIERS_EMBEBIDA = /*__TIERS__*/{"config":{},"competiciones":{}}/*__ENDTIERS__*/;
+let DOC   = DATA_EMBEBIDA;
+let TIERS = TIERS_EMBEBIDA;   // tier list + configuración de puntuación
 
 /* ============================================================
    CONFIGURA AQUÍ tu repositorio de GitHub.
-   Los datos se sirven desde la CDN de GitHub (raw), de modo que se
-   actualizan sin necesidad de redesplegar Netlify.
-   Sustituye USUARIO y REPO por los tuyos; GH_RAMA suele ser "main".
+   Los datos (events.json) y la tier list (competiciones.json) se sirven desde
+   la CDN de GitHub (raw), de modo que se actualizan sin redesplegar Netlify.
    ============================================================ */
-const GH_USUARIO = "USUARIO";
-const GH_REPO    = "REPO";
+const GH_USUARIO = "Josekuyt";
+const GH_REPO    = "Deportv";
 const GH_RAMA    = "main";
+
+/* ============================================================
+   DESTACADOS DE HOY (MVP 0.5) — modelo de tier list.
+   La lista de competiciones y TODA la configuración de puntuación viven en el
+   fichero editable "competiciones.json":
+     puntuación = puntos_por_tier[tier] + bonus_fase + bonus_España
+   Aquí solo quedan defaults de respaldo y la regla de sesiones de motor.
+   ============================================================ */
+const MOTOR_KEYS = ["formula 1", "motogp"];   // para descartar Libres/ensayos
+// Configuración por defecto si competiciones.json no trae "config".
+const CONFIG_DEFECTO = {
+  puntos_por_tier: {S:100, A:70, B:45, C:25, D:10},
+  bonus_fase: {final:40, semifinal:25, cuartos:12, octavos:4, otro:0, ninguno:0},
+  bonus_espana: 30,
+  tier_por_defecto: "C",
+  excluir: [
+  "reserva", "proyeccion", "proyección", "academy", "sub-", "sub ", "juvenil",
+  "hypermotion", "euskadi", "amistoso", "trofeo", "admiral", "regional",
+  ],
+  max_destacados: 5,
+  max_por_competicion: 2,
+};
+// Acceso a la configuración efectiva (la del fichero, con respaldo en los defaults).
+function cfg(){
+  const c = (TIERS && TIERS.config) ? TIERS.config : {};
+  return {
+    puntos_por_tier: c.puntos_por_tier || CONFIG_DEFECTO.puntos_por_tier,
+    bonus_fase:      c.bonus_fase      || CONFIG_DEFECTO.bonus_fase,
+    bonus_espana:    (c.bonus_espana != null) ? c.bonus_espana : CONFIG_DEFECTO.bonus_espana,
+    tier_por_defecto: c.tier_por_defecto || CONFIG_DEFECTO.tier_por_defecto,
+    excluir:         c.excluir || CONFIG_DEFECTO.excluir,
+    max_destacados:  c.max_destacados || CONFIG_DEFECTO.max_destacados,
+    max_por_competicion: c.max_por_competicion || CONFIG_DEFECTO.max_por_competicion,
+  };
+}
 
 const $ = s => document.querySelector(s);
 const norm = t => (t||"").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"");
@@ -150,6 +211,163 @@ function fmtSello(iso){
   if(isNaN(d)) return iso;
   return d.toLocaleString("es-ES",{weekday:"long",day:"numeric",month:"long",
     year:"numeric",hour:"2-digit",minute:"2-digit"});
+}
+
+/* ============================================================
+   DESTACADOS DE HOY (MVP 0.5)
+   Criterio: solo lo más importante del día actual, máx. MAX_DESTACADOS,
+   como mucho MAX_POR_COMPETICION por competición (el mejor partido).
+   ============================================================ */
+function hoyISO(){
+  const d=new Date(), z=n=>String(n).padStart(2,"0");
+  return `${d.getFullYear()}-${z(d.getMonth()+1)}-${z(d.getDate())}`;
+}
+// Coincidencia por palabra/frase completa (evita que "nba" case con "wnba").
+function casaComp(comp, keyword){
+  const k = norm(keyword).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  return new RegExp("(^|[^a-z0-9])" + k + "([^a-z0-9]|$)").test(comp);
+}
+function enLista(comp, lista){ return lista.some(k=>casaComp(comp, k)); }
+
+// Nivel de fase a partir del texto de ronda (claves de config.bonus_fase).
+function nivelFase(ronda){
+  const r = norm(ronda||"");
+  if(!r) return "ninguno";
+  if(r.includes("semifinal")) return "semifinal";
+  if(r.includes("cuartos") || r.includes("1/4")) return "cuartos";
+  if(r.includes("octavos") || r.includes("1/8") ||
+     r.includes("dieciseisavos") || r.includes("1/16")) return "octavos";
+  if(r.includes("final")) return "final";     // "final", "gran final"
+  return "otro";
+}
+// Fase preliminar (a excluir). Distingue la previa de pretemporada de la
+// eliminatoria de play-offs de febrero (esta última SÍ es importante):
+//  - "previa"/"clasificación"/"qualifying" => siempre es previa (excluir).
+//  - "play-off(s)" es ambiguo: en jun–ago es la previa de acceso (excluir);
+//    en el resto del año (p.ej. febrero en Champions) es eliminatoria (mantener).
+function esFasePreliminar(e){
+  const r = norm(e.ronda||"");
+  if(!r) return false;
+  if(/previa|clasificaci|qualy|qualifying/.test(r)) return true;
+  if(/playoff|play-off/.test(r)){
+    const mes = parseInt((e.fecha||"0000-00").slice(5,7), 10);   // 1..12
+    return (mes>=6 && mes<=8);   // junio, julio, agosto => previa de acceso
+  }
+  return false;
+}
+// Motor: descartar Libres/ensayos (sí cuentan Clasificación, Sprint y Carrera).
+function esMotorLibres(e){
+  const comp = norm(e.competicion||"");
+  if(!MOTOR_KEYS.some(k=>casaComp(comp, k))) return false;
+  return /libres|entrenamient|practice|warm|shakedown/.test(
+    norm((e.evento||"") + " " + (e.ronda||"")));
+}
+// ¿Participa España? (bonus para selecciones nacionales en cualquier deporte)
+function esEspana(e){
+  return /(^|[^a-z0-9])espana([^a-z0-9]|$)/.test(norm(e.local||"")) ||
+         /(^|[^a-z0-9])espana([^a-z0-9]|$)/.test(norm(e.visitante||""));
+}
+// Tier de una competición según la tier list (exacto; respaldo = tier_por_defecto).
+function tierDe(competicion){
+  const mapa = (TIERS && TIERS.competiciones) ? TIERS.competiciones : {};
+  const entry = mapa[competicion];
+  return (entry && entry.tier) ? entry.tier : cfg().tier_por_defecto;
+}
+
+/* Puntúa un evento con el modelo de tier list. 0 = no destacable. */
+function relevancia(e){
+  const C = cfg();
+  const comp = norm(e.competicion||"");
+  if((C.excluir||[]).some(k=>comp.includes(norm(k)))) return 0;   // exclusiones
+  if(esMotorLibres(e)) return 0;                                  // Libres de motor
+  if(esFasePreliminar(e)) return 0;                              // previa de acceso
+
+  const tier = tierDe(e.competicion);
+  const base = (C.puntos_por_tier[tier] != null) ? C.puntos_por_tier[tier] : 0;
+  // La fase puede venir en 'ronda' (partidos) o en 'evento' (tenis/golf/motor).
+  const nf   = nivelFase((e.ronda||"") + " " + (e.evento||""));
+  const bfase = (C.bonus_fase[nf] != null) ? C.bonus_fase[nf] : 0;
+  const besp  = esEspana(e) ? (C.bonus_espana||0) : 0;
+  return base + bfase + besp;
+}
+
+// Desempate dentro de una competición: mayor puntuación, luego más canales
+// (los partidos estelares se emiten en más señales), luego prime time.
+function nCanales(e){ return (e.canales||[]).length; }
+function puntPrime(e){
+  const h = parseInt((e.hora||"00:00").slice(0,2), 10);
+  if(h>=19 && h<=23) return 3 - Math.abs(21-h)*0.3;   // franja estelar
+  return h>=14 ? 1 : 0;
+}
+function cmpMejor(a, b){
+  if(b.s !== a.s) return b.s - a.s;
+  const nc = nCanales(b.e) - nCanales(a.e); if(nc) return nc;
+  const pp = puntPrime(b.e) - puntPrime(a.e); if(pp) return pp;
+  return (a.e.hora||"").localeCompare(b.e.hora||"");
+}
+
+/* Selecciona los destacados de HOY: mejor(es) por competición y tope global. */
+function seleccionDestacados(){
+  const C = cfg();
+  const MAX = C.max_destacados, MAXCOMP = C.max_por_competicion;
+  const hoy = hoyISO();
+  const cand = (DOC.eventos||[])
+    .filter(e => e.fecha === hoy)
+    .map(e => ({e, s: relevancia(e)}))
+    .filter(x => x.s > 0);
+
+  const grupos = new Map();
+  for(const c of cand){
+    const k = norm(c.e.competicion||"");
+    if(!grupos.has(k)) grupos.set(k, []);
+    grupos.get(k).push(c);
+  }
+  for(const arr of grupos.values()) arr.sort(cmpMejor);
+
+  // Pasada 1: el mejor de cada competición.
+  const sel = [...grupos.values()].map(arr => arr[0]);
+  sel.sort(cmpMejor);
+  let out = sel.slice(0, MAX);
+
+  // Pasada 2: si sobran huecos, añade segundos (hasta max_por_competicion).
+  if(out.length < MAX && MAXCOMP > 1){
+    const segundos = [];
+    for(const arr of grupos.values())
+      for(let i=1; i<Math.min(arr.length, MAXCOMP); i++) segundos.push(arr[i]);
+    segundos.sort(cmpMejor);
+    for(const c of segundos){ if(out.length>=MAX) break; out.push(c); }
+    out.sort(cmpMejor);
+  }
+  return out.map(x => x.e);
+}
+
+function claveEvento(e){ return [e.fecha, e.hora, e.evento].join("|"); }
+
+function marcarDestacados(){
+  const sel = seleccionDestacados();
+  const claves = new Set(sel.map(claveEvento));
+  (DOC.eventos||[]).forEach(e => { e._dest = claves.has(claveEvento(e)); });
+  DOC._destacados = sel;
+}
+
+function renderDestacados(){
+  const cont = $("#destacados"), row = $("#destRow");
+  const dest = DOC._destacados || [];
+  if(!dest.length){ cont.style.display="none"; return; }
+  cont.style.display="block";
+  $("#destCount").textContent = dest.length;
+  row.innerHTML = dest.map(e=>{
+    const canal = (e.canales&&e.canales[0]) ? e.canales[0] : "";
+    const extra = (e.canales&&e.canales.length>1) ? ` +${e.canales.length-1}` : "";
+    return `<article class="dcard">
+      <div class="dtop"><span class="sport">${e.deporte||"?"}</span>
+        ${e.ronda?`<span class="ronda">${e.ronda}</span>`:""}</div>
+      <div class="dcomp">${e.competicion||""}</div>
+      <div class="dev">${e.evento||"—"}</div>
+      <div class="dmeta"><b>${e.hora||"--:--"}</b></div>
+      <div class="dcanal">${canal}${extra}</div>
+    </article>`;
+  }).join("");
 }
 
 function poblarFiltros(){
@@ -224,13 +442,14 @@ function render(){
     }
     const mia = (e.canales||[]).some(c=>misPlataformas.has(c));
     const card = document.createElement("div");
-    card.className = "card" + (mia && misPlataformas.size? " match":"");
+    card.className = "card" + (mia && misPlataformas.size? " match":"") + (e._dest? " dest":"");
     const canalesHtml = (e.canales||[]).map(c=>
       `<span class="canal${misPlataformas.has(c)?" mia":""}">${c}</span>`).join("");
     card.innerHTML = `
       <div class="hora">${e.hora||"--:--"}</div>
       <div>
         <div class="meta">
+          ${e._dest?'<span class="star" title="Destacado">⭐</span>':''}
           <span class="sport">${e.deporte||"?"}</span>
           <span class="comp">${e.competicion||""}</span>
           ${e.ronda?`<span class="ronda">${e.ronda}</span>`:""}
@@ -247,37 +466,46 @@ function actualizarPie(){
   const m = DOC.meta||{};
   $("#pie").textContent =
     `Datos de ${m.fuente||"futbolenlatv.es"} · ${DOC.eventos.length} eventos · `+
-    `fuente actualizada ${fmtSello(m.generado)}. Proyecto Deportv MVP 0.1 — visor de validación.`;
+    `fuente actualizada ${fmtSello(m.generado)}. Proyecto Deportv MVP 0.5.`;
 }
 
 /* Lista de fuentes de datos por orden de preferencia:
    1) CDN de GitHub (raw) si el repo está configurado — se actualiza sin redeploy.
    2) events.json local (mismo origen) como respaldo.
    Si todo falla, se mantiene el snapshot embebido. */
-function fuentesDatos(){
-  const fuentes = [];
+function fuentes(fichero){
+  const f = [];
   if(GH_USUARIO !== "USUARIO" && GH_REPO !== "REPO"){
-    fuentes.push(`https://raw.githubusercontent.com/${GH_USUARIO}/${GH_REPO}/${GH_RAMA}/events.json`);
+    f.push(`https://raw.githubusercontent.com/${GH_USUARIO}/${GH_REPO}/${GH_RAMA}/${fichero}`);
   }
-  fuentes.push("events.json");
-  return fuentes;
+  f.push(fichero);   // copia local (mismo origen) como respaldo
+  return f;
 }
-
-/* Recarga los datos evitando caché. Devuelve true si trajo datos frescos. */
-async function cargarDatos(){
-  for(const base of fuentesDatos()){
+async function fetchJSON(fichero){
+  for(const base of fuentes(fichero)){
     try{
       const url = base + (base.includes("?") ? "&" : "?") + "ts=" + Date.now();
       const r = await fetch(url, {cache:"no-store"});
       if(!r.ok) continue;
-      const j = await r.json();
-      if(j && j.eventos && j.eventos.length){ DOC = j; return true; }
+      return await r.json();
     }catch(e){ /* prueba la siguiente fuente */ }
   }
-  return false;
+  return null;
 }
 
-function pintarTodo(){ poblarFiltros(); render(); actualizarPie(); }
+/* Recarga eventos + tier list evitando caché. true si trajo datos frescos. */
+async function cargarDatos(){
+  let ok = false;
+  const [datos, tiers] = await Promise.all([
+    fetchJSON("events.json"),
+    fetchJSON("competiciones.json"),
+  ]);
+  if(datos && datos.eventos && datos.eventos.length){ DOC = datos; ok = true; }
+  if(tiers && tiers.competiciones){ TIERS = tiers; }
+  return ok;
+}
+
+function pintarTodo(){ marcarDestacados(); renderDestacados(); poblarFiltros(); render(); actualizarPie(); }
 
 function initEventos(){
   ["q","fDep","fComp","fCanal","fFecha","soloMias"].forEach(id=>{

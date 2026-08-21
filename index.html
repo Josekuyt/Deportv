@@ -143,11 +143,11 @@
 <footer id="pie"></footer>
 
 <script>
-/* ---- Datos: se intenta cargar events.json; si no, se usa el snapshot embebido ---- */
-const DATA_EMBEBIDA = /*__DATA__*/{
+/* ---- Datos: se intentan cargar desde la CDN; si no, se usa el snapshot embebido ---- */
+const DATA_EMBEBIDA  = /*__DATA__*/{
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-08-19T18:53:54",
+    "generado": "2026-08-21T09:56:39",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
     "total_eventos": 188
   },
@@ -2684,57 +2684,300 @@ const DATA_EMBEBIDA = /*__DATA__*/{
     }
   ]
 }/*__END__*/;
-let DOC = DATA_EMBEBIDA;
+const TIERS_EMBEBIDA = /*__TIERS__*/{
+  "meta": {
+    "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
+    "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
+    "actualizado": "2026-08-20"
+  },
+  "config": {
+    "puntos_por_tier": {
+      "S": 100,
+      "A": 70,
+      "B": 45,
+      "C": 25,
+      "D": 10
+    },
+    "bonus_fase": {
+      "final": 40,
+      "semifinal": 25,
+      "cuartos": 12,
+      "octavos": 4,
+      "otro": 0,
+      "ninguno": 0
+    },
+    "bonus_espana": 30,
+    "tier_por_defecto": "C",
+    "excluir": [
+      "reserva",
+      "proyeccion",
+      "proyección",
+      "academy",
+      "sub-",
+      "sub ",
+      "juvenil",
+      "amistoso",
+      "trofeo",
+      "regional",
+      "euskadi",
+      "hypermotion",
+      "admiral"
+    ],
+    "max_destacados": 5,
+    "max_por_competicion": 2
+  },
+  "competiciones": {
+    "2. Liga": {
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Admiral Bundesliga": {
+      "tier": "D"
+    },
+    "Amistoso": {
+      "tier": "D"
+    },
+    "Amistoso Femenino": {
+      "tier": "D"
+    },
+    "ASEAN Cup": {
+      "tier": "B"
+    },
+    "BMW Championship": {
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Bundesliga Femenina": {
+      "tier": "A"
+    },
+    "Bundesliga Sub-19": {
+      "tier": "D"
+    },
+    "Caribbean Club Championship": {
+      "tier": "B"
+    },
+    "Champions League": {
+      "tier": "S"
+    },
+    "CONCACAF Central American Cup": {
+      "tier": "B"
+    },
+    "Conference League": {
+      "tier": "B"
+    },
+    "Copa de Alemania": {
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Copa Euskadi Femenina": {
+      "tier": "D"
+    },
+    "Copa Libertadores": {
+      "tier": "A"
+    },
+    "Copa Sudamericana": {
+      "tier": "B"
+    },
+    "Damallsvenskan": {
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Dana White Contender Series": {
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Europa League": {
+      "tier": "A"
+    },
+    "Europeo Femenino Sub-16": {
+      "tier": "D"
+    },
+    "F1 Academy": {
+      "tier": "D"
+    },
+    "FIH Copa Mundial Femenina": {
+      "tier": "S"
+    },
+    "FIH Copa Mundial Masculina": {
+      "tier": "S"
+    },
+    "Francia Ligue 1": {
+      "tier": "A"
+    },
+    "Fórmula 1": {
+      "tier": "S"
+    },
+    "IAAF Diamond League": {
+      "tier": "C",
+      "por_revisar": true
+    },
+    "La Liga EA Sports": {
+      "tier": "S"
+    },
+    "LaLiga Hypermotion": {
+      "tier": "D"
+    },
+    "Liga 1 Perú": {
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Liga AUF Uruguaya": {
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Liga Colombiana": {
+      "tier": "B"
+    },
+    "Liga Femenina Dimayor": {
+      "tier": "B"
+    },
+    "LIV Golf": {
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Masters Cincinnati": {
+      "tier": "A"
+    },
+    "MLS": {
+      "tier": "B"
+    },
+    "MLS Next Pro": {
+      "tier": "B"
+    },
+    "Nexo Championship": {
+      "tier": "C",
+      "por_revisar": true
+    },
+    "NFL Pretemporada": {
+      "tier": "C",
+      "por_revisar": true
+    },
+    "NWSL": {
+      "tier": "B"
+    },
+    "Premier League": {
+      "tier": "S"
+    },
+    "Preolímpico Femenino": {
+      "tier": "A"
+    },
+    "Primera B Argentina": {
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Primera División Futsal AFA": {
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Primera Nacional Argentina": {
+      "tier": "B"
+    },
+    "Saudi Pro League": {
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Serie B Italiana": {
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Superliga de Letonia": {
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Torneo BetPlay DIMAYOR": {
+      "tier": "B"
+    },
+    "Torneo Proyección": {
+      "tier": "D"
+    },
+    "Tour de Alemania": {
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Tour de L'Avenir": {
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Tour del Benelux": {
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Tour del Limousin": {
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Tour Gran Bretaña Femenino": {
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Trofeo Joan Gamper": {
+      "tier": "D"
+    },
+    "Trofeo Joan Gamper Femenino": {
+      "tier": "D"
+    },
+    "Veikkausliiga": {
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Vuelta a España": {
+      "tier": "A"
+    },
+    "WNBA": {
+      "tier": "B"
+    },
+    "WTA Cincinnati": {
+      "tier": "C",
+      "por_revisar": true
+    }
+  }
+}/*__ENDTIERS__*/;
+let DOC   = DATA_EMBEBIDA;
+let TIERS = TIERS_EMBEBIDA;   // tier list + configuración de puntuación
 
 /* ============================================================
    CONFIGURA AQUÍ tu repositorio de GitHub.
-   Los datos se sirven desde la CDN de GitHub (raw), de modo que se
-   actualizan sin necesidad de redesplegar Netlify.
-   Sustituye USUARIO y REPO por los tuyos; GH_RAMA suele ser "main".
+   Los datos (events.json) y la tier list (competiciones.json) se sirven desde
+   la CDN de GitHub (raw), de modo que se actualizan sin redesplegar Netlify.
    ============================================================ */
 const GH_USUARIO = "Josekuyt";
 const GH_REPO    = "Deportv";
 const GH_RAMA    = "main";
 
 /* ============================================================
-   DESTACADOS DE HOY (MVP 0.5) — configuración editable.
-   Se muestran SOLO los eventos más importantes del día actual.
-   - COMP_ELITE: competiciones relevantes siempre (salvo fase de
-     clasificación, p.ej. previa/playoffs de acceso a Champions).
-   - COMP_CONTINENTAL_TARDIA: solo destacan en semifinal o final.
-   - COMP_MOTOR: solo Clasificación, Sprint y Carrera (no Libres).
-   - Lo que no esté reconocido NO se destaca (aunque sea una final regional).
+   DESTACADOS DE HOY (MVP 0.5) — modelo de tier list.
+   La lista de competiciones y TODA la configuración de puntuación viven en el
+   fichero editable "competiciones.json":
+     puntuación = puntos_por_tier[tier] + bonus_fase + bonus_España
+   Aquí solo quedan defaults de respaldo y la regla de sesiones de motor.
    ============================================================ */
-const COMP_ELITE = [
-  // Ligas europeas top
-  "laliga", "la liga", "premier league", "serie a", "bundesliga", "ligue 1",
-  // Copas nacionales top y selecciones
-  "copa del rey", "supercopa", "mundial", "copa del mundo", "world cup",
-  "eurocopa", "nations league",
-  // Champions (fase de liga/eliminatorias; la previa se excluye por fase)
-  "champions league",
-  // Baloncesto
-  "nba", "euroliga", "euroleague",
-  // Tenis: Grand Slams (los Masters solo entran en semis/final)
-  "roland garros", "wimbledon", "us open", "australian open", "open de australia",
-  "atp finals", "wta finals",
-  // Motor
-  "formula 1", "motogp",
-];
-// Continentales/sudamericanas: relevantes en Europa solo en fases decisivas.
-const COMP_CONTINENTAL_TARDIA = [
-  "europa league", "conference league", "libertadores", "sudamericana",
-];
-const COMP_MOTOR = ["formula 1", "motogp"];
-
-// Nunca destacan (filiales, juveniles, 2ª división, trofeos regionales/amistosos…).
-const EXCLUIR_DESTACADO = [
+const MOTOR_KEYS = ["formula 1", "motogp"];   // para descartar Libres/ensayos
+// Configuración por defecto si competiciones.json no trae "config".
+const CONFIG_DEFECTO = {
+  puntos_por_tier: {S:100, A:70, B:45, C:25, D:10},
+  bonus_fase: {final:40, semifinal:25, cuartos:12, octavos:4, otro:0, ninguno:0},
+  bonus_espana: 30,
+  tier_por_defecto: "C",
+  excluir: [
   "reserva", "proyeccion", "proyección", "academy", "sub-", "sub ", "juvenil",
   "hypermotion", "euskadi", "amistoso", "trofeo", "admiral", "regional",
-];
-
-const MAX_DESTACADOS      = 5;   // tope de destacados de hoy
-const MAX_POR_COMPETICION = 2;   // como mucho, 2 partidos de la misma competición
+  ],
+  max_destacados: 5,
+  max_por_competicion: 2,
+};
+// Acceso a la configuración efectiva (la del fichero, con respaldo en los defaults).
+function cfg(){
+  const c = (TIERS && TIERS.config) ? TIERS.config : {};
+  return {
+    puntos_por_tier: c.puntos_por_tier || CONFIG_DEFECTO.puntos_por_tier,
+    bonus_fase:      c.bonus_fase      || CONFIG_DEFECTO.bonus_fase,
+    bonus_espana:    (c.bonus_espana != null) ? c.bonus_espana : CONFIG_DEFECTO.bonus_espana,
+    tier_por_defecto: c.tier_por_defecto || CONFIG_DEFECTO.tier_por_defecto,
+    excluir:         c.excluir || CONFIG_DEFECTO.excluir,
+    max_destacados:  c.max_destacados || CONFIG_DEFECTO.max_destacados,
+    max_por_competicion: c.max_por_competicion || CONFIG_DEFECTO.max_por_competicion,
+  };
+}
 
 const $ = s => document.querySelector(s);
 const norm = t => (t||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"");
@@ -2772,11 +3015,11 @@ function casaComp(comp, keyword){
 }
 function enLista(comp, lista){ return lista.some(k=>casaComp(comp, k)); }
 
-// Nivel de fase a partir del texto de ronda.
+// Nivel de fase a partir del texto de ronda (claves de config.bonus_fase).
 function nivelFase(ronda){
   const r = norm(ronda||"");
   if(!r) return "ninguno";
-  if(r.includes("semifinal")) return "semi";
+  if(r.includes("semifinal")) return "semifinal";
   if(r.includes("cuartos") || r.includes("1/4")) return "cuartos";
   if(r.includes("octavos") || r.includes("1/8") ||
      r.includes("dieciseisavos") || r.includes("1/16")) return "octavos";
@@ -2798,48 +3041,40 @@ function esFasePreliminar(e){
   }
   return false;
 }
-// Sesiones de motor: solo Clasificación, Sprint y Carrera (no Libres/ensayos).
-function pesoMotor(evento, ronda){
-  const t = norm((evento||"") + " " + (ronda||""));
-  if(/libres|entrenamient|practice|warm|shakedown/.test(t)) return 0;
-  if(/carrera|\bgran premio\b|\bgp\b/.test(t) && !/sprint|clasificaci/.test(t)) return 1.0;
-  if(/sprint/.test(t))      return 0.85;
-  if(/clasificaci/.test(t)) return 0.75;
-  return 0.6;   // sesión de motor no identificada: se asume principal
+// Motor: descartar Libres/ensayos (sí cuentan Clasificación, Sprint y Carrera).
+function esMotorLibres(e){
+  const comp = norm(e.competicion||"");
+  if(!MOTOR_KEYS.some(k=>casaComp(comp, k))) return false;
+  return /libres|entrenamient|practice|warm|shakedown/.test(
+    norm((e.evento||"") + " " + (e.ronda||"")));
+}
+// ¿Participa España? (bonus para selecciones nacionales en cualquier deporte)
+function esEspana(e){
+  return /(^|[^a-z0-9])espana([^a-z0-9]|$)/.test(norm(e.local||"")) ||
+         /(^|[^a-z0-9])espana([^a-z0-9]|$)/.test(norm(e.visitante||""));
+}
+// Tier de una competición según la tier list (exacto; respaldo = tier_por_defecto).
+function tierDe(competicion){
+  const mapa = (TIERS && TIERS.competiciones) ? TIERS.competiciones : {};
+  const entry = mapa[competicion];
+  return (entry && entry.tier) ? entry.tier : cfg().tier_por_defecto;
 }
 
-/* Puntúa un evento. 0 = no destacable. */
+/* Puntúa un evento con el modelo de tier list. 0 = no destacable. */
 function relevancia(e){
+  const C = cfg();
   const comp = norm(e.competicion||"");
-  if(EXCLUIR_DESTACADO.some(k=>comp.includes(k))) return 0;
+  if((C.excluir||[]).some(k=>comp.includes(norm(k)))) return 0;   // exclusiones
+  if(esMotorLibres(e)) return 0;                                  // Libres de motor
+  if(esFasePreliminar(e)) return 0;                              // previa de acceso
 
-  // Motor (F1 / MotoGP): solo Clasificación / Sprint / Carrera.
-  if(enLista(comp, COMP_MOTOR)){
-    const w = pesoMotor(e.evento, e.ronda);
-    return w>0 ? 3 + w : 0;
-  }
-
-  const nf = nivelFase(e.ronda);
-
-  // Competiciones continentales de rondas: solo semifinal o final.
-  if(enLista(comp, COMP_CONTINENTAL_TARDIA)){
-    if(nf==="final") return 3.6;
-    if(nf==="semi")  return 3.2;
-    return 0;
-  }
-
-  // Élite: relevante siempre, salvo fase de clasificación (p.ej. Champions playoffs).
-  if(enLista(comp, COMP_ELITE)){
-    if(esFasePreliminar(e)) return 0;
-    let s = 3;
-    if(nf==="final")   s += 1.0;
-    else if(nf==="semi")    s += 0.7;
-    else if(nf==="cuartos") s += 0.4;
-    return s;
-  }
-
-  // Competición no reconocida: NO se destaca (aunque sea una "final" regional).
-  return 0;
+  const tier = tierDe(e.competicion);
+  const base = (C.puntos_por_tier[tier] != null) ? C.puntos_por_tier[tier] : 0;
+  // La fase puede venir en 'ronda' (partidos) o en 'evento' (tenis/golf/motor).
+  const nf   = nivelFase((e.ronda||"") + " " + (e.evento||""));
+  const bfase = (C.bonus_fase[nf] != null) ? C.bonus_fase[nf] : 0;
+  const besp  = esEspana(e) ? (C.bonus_espana||0) : 0;
+  return base + bfase + besp;
 }
 
 // Desempate dentro de una competición: mayor puntuación, luego más canales
@@ -2859,6 +3094,8 @@ function cmpMejor(a, b){
 
 /* Selecciona los destacados de HOY: mejor(es) por competición y tope global. */
 function seleccionDestacados(){
+  const C = cfg();
+  const MAX = C.max_destacados, MAXCOMP = C.max_por_competicion;
   const hoy = hoyISO();
   const cand = (DOC.eventos||[])
     .filter(e => e.fecha === hoy)
@@ -2876,15 +3113,15 @@ function seleccionDestacados(){
   // Pasada 1: el mejor de cada competición.
   const sel = [...grupos.values()].map(arr => arr[0]);
   sel.sort(cmpMejor);
-  let out = sel.slice(0, MAX_DESTACADOS);
+  let out = sel.slice(0, MAX);
 
-  // Pasada 2: si sobran huecos, añade segundos (hasta MAX_POR_COMPETICION).
-  if(out.length < MAX_DESTACADOS && MAX_POR_COMPETICION > 1){
+  // Pasada 2: si sobran huecos, añade segundos (hasta max_por_competicion).
+  if(out.length < MAX && MAXCOMP > 1){
     const segundos = [];
     for(const arr of grupos.values())
-      for(let i=1; i<Math.min(arr.length, MAX_POR_COMPETICION); i++) segundos.push(arr[i]);
+      for(let i=1; i<Math.min(arr.length, MAXCOMP); i++) segundos.push(arr[i]);
     segundos.sort(cmpMejor);
-    for(const c of segundos){ if(out.length>=MAX_DESTACADOS) break; out.push(c); }
+    for(const c of segundos){ if(out.length>=MAX) break; out.push(c); }
     out.sort(cmpMejor);
   }
   return out.map(x => x.e);
@@ -3022,27 +3259,36 @@ function actualizarPie(){
    1) CDN de GitHub (raw) si el repo está configurado — se actualiza sin redeploy.
    2) events.json local (mismo origen) como respaldo.
    Si todo falla, se mantiene el snapshot embebido. */
-function fuentesDatos(){
-  const fuentes = [];
+function fuentes(fichero){
+  const f = [];
   if(GH_USUARIO !== "USUARIO" && GH_REPO !== "REPO"){
-    fuentes.push(`https://raw.githubusercontent.com/${GH_USUARIO}/${GH_REPO}/${GH_RAMA}/events.json`);
+    f.push(`https://raw.githubusercontent.com/${GH_USUARIO}/${GH_REPO}/${GH_RAMA}/${fichero}`);
   }
-  fuentes.push("events.json");
-  return fuentes;
+  f.push(fichero);   // copia local (mismo origen) como respaldo
+  return f;
 }
-
-/* Recarga los datos evitando caché. Devuelve true si trajo datos frescos. */
-async function cargarDatos(){
-  for(const base of fuentesDatos()){
+async function fetchJSON(fichero){
+  for(const base of fuentes(fichero)){
     try{
       const url = base + (base.includes("?") ? "&" : "?") + "ts=" + Date.now();
       const r = await fetch(url, {cache:"no-store"});
       if(!r.ok) continue;
-      const j = await r.json();
-      if(j && j.eventos && j.eventos.length){ DOC = j; return true; }
+      return await r.json();
     }catch(e){ /* prueba la siguiente fuente */ }
   }
-  return false;
+  return null;
+}
+
+/* Recarga eventos + tier list evitando caché. true si trajo datos frescos. */
+async function cargarDatos(){
+  let ok = false;
+  const [datos, tiers] = await Promise.all([
+    fetchJSON("events.json"),
+    fetchJSON("competiciones.json"),
+  ]);
+  if(datos && datos.eventos && datos.eventos.length){ DOC = datos; ok = true; }
+  if(tiers && tiers.competiciones){ TIERS = tiers; }
+  return ok;
 }
 
 function pintarTodo(){ marcarDestacados(); renderDestacados(); poblarFiltros(); render(); actualizarPie(); }
