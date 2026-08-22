@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-08-22T01:07:50",
+    "generado": "2026-08-22T08:26:48",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 372
+    "total_eventos": 378
   },
   "eventos": [
     {
@@ -72,20 +72,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "Masters Cincinnati",
-      "ronda": "1/4 de Final",
-      "evento": "L. Musetti vs F. Tiafoe",
-      "local": "L. Musetti",
-      "visitante": "F. Tiafoe",
-      "fecha": "2026-08-22",
-      "hora": "01:00",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes 2 (64)"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "Liga Futve",
       "ronda": null,
@@ -124,6 +110,20 @@
       "hora": "01:00",
       "canales": [
         "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Cincinnati",
+      "ronda": "1/4 de Final",
+      "evento": "L. Musetti vs F. Tiafoe",
+      "local": "L. Musetti",
+      "visitante": "F. Tiafoe",
+      "fecha": "2026-08-22",
+      "hora": "01:10",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -232,20 +232,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "WTA Cincinnati",
-      "ronda": "1/4 de Final",
-      "evento": "C. Gauff vs M. Kostyuk",
-      "local": "C. Gauff",
-      "visitante": "M. Kostyuk",
-      "fecha": "2026-08-22",
-      "hora": "02:30",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
       "deporte": "Fútbol Americano",
       "competicion": "NFL Pretemporada",
       "ronda": null,
@@ -257,6 +243,20 @@
       "canales": [
         "DAZN (Ver en directo)",
         "DAZN App Gratis (Ver gratis)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Cincinnati",
+      "ronda": "1/4 de Final",
+      "evento": "C. Gauff vs M. Kostyuk",
+      "local": "C. Gauff",
+      "visitante": "M. Kostyuk",
+      "fecha": "2026-08-22",
+      "hora": "03:50",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -1225,20 +1225,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "WTA Cincinnati",
-      "ronda": "WTA 1000",
-      "evento": "J. Pegula vs I. Swiatek",
-      "local": "J. Pegula",
-      "visitante": "I. Swiatek",
-      "fecha": "2026-08-22",
-      "hora": "18:00",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "Campeonato Femenino",
       "ronda": null,
@@ -1548,6 +1534,20 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Masters Cincinnati",
+      "ronda": "ATP Masters 1000",
+      "evento": "F. Cobolli vs A. Fils",
+      "local": "F. Cobolli",
+      "visitante": "A. Fils",
+      "fecha": "2026-08-22",
+      "hora": "19:30",
+      "canales": [
+        "ATP Tennis TV",
+        "Movistar+"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Admiral Bundesliga",
       "ronda": null,
@@ -1676,6 +1676,19 @@
       "evento": "Tristán Suárez vs Agropecuario",
       "local": "Tristán Suárez",
       "visitante": "Agropecuario",
+      "fecha": "2026-08-22",
+      "hora": "20:00",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera C",
+      "ronda": null,
+      "evento": "Leandro N. Alem vs CA Lugano",
+      "local": "Leandro N. Alem",
+      "visitante": "CA Lugano",
       "fecha": "2026-08-22",
       "hora": "20:00",
       "canales": [
@@ -2025,20 +2038,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "Masters Cincinnati",
-      "ronda": "ATP Masters 1000",
-      "evento": "F. Cobolli vs A. Fils",
-      "local": "F. Cobolli",
-      "visitante": "A. Fils",
-      "fecha": "2026-08-22",
-      "hora": "21:00",
-      "canales": [
-        "ATP Tennis TV",
-        "Movistar+"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "Primera Nacional Argentina",
       "ronda": null,
@@ -2075,6 +2074,20 @@
       "hora": "21:00",
       "canales": [
         "Antel TV Internacional"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Cincinnati",
+      "ronda": "WTA 1000",
+      "evento": "J. Pegula vs I. Swiatek",
+      "local": "J. Pegula",
+      "visitante": "I. Swiatek",
+      "fecha": "2026-08-22",
+      "hora": "21:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -2458,6 +2471,20 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Masters Cincinnati",
+      "ronda": "ATP Masters 1000",
+      "evento": "B. Nakashima vs F. Tiafoe",
+      "local": "B. Nakashima",
+      "visitante": "F. Tiafoe",
+      "fecha": "2026-08-23",
+      "hora": "00:00",
+      "canales": [
+        "ATP Tennis TV",
+        "Movistar+"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Primera B Argentina",
       "ronda": null,
@@ -2483,34 +2510,6 @@
         "HBO MAX",
         "DAZN (Ver en directo)",
         "Eurosport 2"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Masters Cincinnati",
-      "ronda": null,
-      "evento": "Semifinal 2 ATP Masters 1000",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-08-23",
-      "hora": "00:30",
-      "canales": [
-        "ATP Tennis TV",
-        "Movistar+"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Cincinnati",
-      "ronda": null,
-      "evento": "Semifinal 2 WTA 1000",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-08-23",
-      "hora": "00:30",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -2604,6 +2603,20 @@
       "hora": "01:30",
       "canales": [
         "Antel TV Internacional"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Cincinnati",
+      "ronda": "WTA 1000",
+      "evento": "S. Bejlek vs C. Gauff",
+      "local": "S. Bejlek",
+      "visitante": "C. Gauff",
+      "fecha": "2026-08-23",
+      "hora": "01:30",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -3858,6 +3871,58 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Torneo Federal A",
+      "ronda": null,
+      "evento": "Torneo Federal A",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-08-23",
+      "hora": "20:00",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Torneo Federal A",
+      "ronda": null,
+      "evento": "Guillermo Brown vs Santamarina",
+      "local": "Guillermo Brown",
+      "visitante": "Santamarina",
+      "fecha": "2026-08-23",
+      "hora": "20:00",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera C",
+      "ronda": null,
+      "evento": "Central Córdoba R vs Sportivo Barracas",
+      "local": "Central Córdoba R",
+      "visitante": "Sportivo Barracas",
+      "fecha": "2026-08-23",
+      "hora": "20:00",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera C",
+      "ronda": null,
+      "evento": "El Porvenir vs Central Ballester",
+      "local": "El Porvenir",
+      "visitante": "Central Ballester",
+      "fecha": "2026-08-23",
+      "hora": "20:00",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Liga 1 Perú",
       "ronda": null,
       "evento": "Sport Boys A. vs Cienciano",
@@ -3919,6 +3984,19 @@
       "hora": "20:00",
       "canales": [
         "NWSL+"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Torneo Promocional Amateur",
+      "ronda": null,
+      "evento": "Everton de La Plata vs Uribelarrea FC",
+      "local": "Everton de La Plata",
+      "visitante": "Uribelarrea FC",
+      "fecha": "2026-08-23",
+      "hora": "20:00",
+      "canales": [
+        "LPF Play"
       ]
     },
     {
