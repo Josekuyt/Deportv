@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-08-22T08:26:48",
+    "generado": "2026-08-22T16:21:12",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 378
+    "total_eventos": 396
   },
   "eventos": [
     {
@@ -314,6 +314,32 @@
       ]
     },
     {
+      "deporte": "Baloncesto",
+      "competicion": "Europeo Femenino Sub-16",
+      "ronda": null,
+      "evento": "Bulgaria vs Rumanía",
+      "local": "Bulgaria",
+      "visitante": "Rumanía",
+      "fecha": "2026-08-22",
+      "hora": "10:30",
+      "canales": [
+        "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Amistoso",
+      "ronda": null,
+      "evento": "Gernika vs Portugalete",
+      "local": "Gernika",
+      "visitante": "Portugalete",
+      "fecha": "2026-08-22",
+      "hora": "11:30",
+      "canales": [
+        "TV FootballClub (Acceder)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Amistoso",
       "ronda": null,
@@ -324,6 +350,19 @@
       "hora": "11:30",
       "canales": [
         "Elviphotoss YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Amistoso",
+      "ronda": null,
+      "evento": "Basconia vs Valladolid Promesas",
+      "local": "Basconia",
+      "visitante": "Valladolid Promesas",
+      "fecha": "2026-08-22",
+      "hora": "12:00",
+      "canales": [
+        "Athletic-club.eus"
       ]
     },
     {
@@ -352,6 +391,32 @@
       "canales": [
         "DAZN (Ver en directo)",
         "DAZN App Gratis (Ver gratis)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Europeo Femenino Sub-16",
+      "ronda": null,
+      "evento": "Alemania vs Serbia",
+      "local": "Alemania",
+      "visitante": "Serbia",
+      "fecha": "2026-08-22",
+      "hora": "12:00",
+      "canales": [
+        "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Europeo Femenino Sub-16",
+      "ronda": null,
+      "evento": "Italia vs Israel",
+      "local": "Italia",
+      "visitante": "Israel",
+      "fecha": "2026-08-22",
+      "hora": "13:00",
+      "canales": [
+        "FIBA YouTube"
       ]
     },
     {
@@ -750,6 +815,19 @@
       ]
     },
     {
+      "deporte": "Baloncesto",
+      "competicion": "Europeo Femenino Sub-16",
+      "ronda": null,
+      "evento": "Turquía vs Hungría",
+      "local": "Turquía",
+      "visitante": "Hungría",
+      "fecha": "2026-08-22",
+      "hora": "14:30",
+      "canales": [
+        "FIBA YouTube"
+      ]
+    },
+    {
       "deporte": "Automovilismo",
       "competicion": "F1 Academy",
       "ronda": null,
@@ -854,6 +932,19 @@
       "hora": "15:30",
       "canales": [
         "OneFootball PPV"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Europeo Femenino Sub-16",
+      "ronda": null,
+      "evento": "Croacia vs Lituania",
+      "local": "Croacia",
+      "visitante": "Lituania",
+      "fecha": "2026-08-22",
+      "hora": "15:30",
+      "canales": [
+        "FIBA YouTube"
       ]
     },
     {
@@ -1158,6 +1249,19 @@
       ]
     },
     {
+      "deporte": "Baloncesto",
+      "competicion": "Europeo Femenino Sub-16",
+      "ronda": "3er Puesto",
+      "evento": "Francia vs Letonia",
+      "local": "Francia",
+      "visitante": "Letonia",
+      "fecha": "2026-08-22",
+      "hora": "17:00",
+      "canales": [
+        "FIBA YouTube"
+      ]
+    },
+    {
       "deporte": "Rugby U",
       "competicion": "Test Match",
       "ronda": null,
@@ -1235,6 +1339,19 @@
       "hora": "18:00",
       "canales": [
         "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Europeo Femenino Sub-16",
+      "ronda": null,
+      "evento": "Polonia vs República Checa",
+      "local": "Polonia",
+      "visitante": "República Checa",
+      "fecha": "2026-08-22",
+      "hora": "18:00",
+      "canales": [
+        "FIBA YouTube"
       ]
     },
     {
@@ -1544,7 +1661,7 @@
       "hora": "19:30",
       "canales": [
         "ATP Tennis TV",
-        "Movistar+"
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -1724,13 +1841,14 @@
     {
       "deporte": "Baloncesto",
       "competicion": "Europeo Femenino Sub-16",
-      "ronda": null,
-      "evento": "Final",
-      "local": null,
-      "visitante": null,
+      "ronda": "Final",
+      "evento": "Eslovenia vs España",
+      "local": "Eslovenia",
+      "visitante": "España",
       "fecha": "2026-08-22",
       "hora": "20:00",
       "canales": [
+        "FIBA YouTube",
         "Teledeporte",
         "RTVE Play"
       ]
@@ -2445,6 +2563,19 @@
       ]
     },
     {
+      "deporte": "Fútbol Sala",
+      "competicion": "Primera División Futsal AFA",
+      "ronda": null,
+      "evento": "Estrella de Boedo Futsal vs CSD Pinocho",
+      "local": "Estrella de Boedo Futsal",
+      "visitante": "CSD Pinocho",
+      "fecha": "2026-08-22",
+      "hora": "23:30",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Primera División Argentina",
       "ronda": "Torneo Clausura",
@@ -2481,7 +2612,8 @@
       "hora": "00:00",
       "canales": [
         "ATP Tennis TV",
-        "Movistar+"
+        "M+ Vamos 2 (51)",
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -2567,6 +2699,19 @@
       ]
     },
     {
+      "deporte": "Fútbol Sala",
+      "competicion": "Primera División Futsal AFA",
+      "ronda": null,
+      "evento": "América del Sud FS vs Hebraica Futsal",
+      "local": "América del Sud FS",
+      "visitante": "Hebraica Futsal",
+      "fecha": "2026-08-23",
+      "hora": "01:00",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Liga MX",
       "ronda": "Torneo Apertura",
@@ -2630,6 +2775,19 @@
       "hora": "01:30",
       "canales": [
         "NWSL+"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Preolímpico Femenino",
+      "ronda": null,
+      "evento": "Canadá vs Nueva Zelanda",
+      "local": "Canadá",
+      "visitante": "Nueva Zelanda",
+      "fecha": "2026-08-23",
+      "hora": "01:30",
+      "canales": [
+        "FIBA YouTube"
       ]
     },
     {
@@ -2958,6 +3116,19 @@
       "canales": [
         "DAZN (Ver en directo)",
         "DAZN App Gratis (Ver gratis)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Preolímpico Femenino",
+      "ronda": null,
+      "evento": "México vs Brasil",
+      "local": "México",
+      "visitante": "Brasil",
+      "fecha": "2026-08-23",
+      "hora": "04:30",
+      "canales": [
+        "FIBA YouTube"
       ]
     },
     {
@@ -3557,6 +3728,19 @@
       ]
     },
     {
+      "deporte": "Fútbol Sala",
+      "competicion": "Primera División Futsal AFA",
+      "ronda": null,
+      "evento": "17 de Agosto Futsal vs Barracas Central FS",
+      "local": "17 de Agosto Futsal",
+      "visitante": "Barracas Central FS",
+      "fecha": "2026-08-23",
+      "hora": "17:00",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Francia Ligue 1",
       "ronda": null,
@@ -3803,6 +3987,19 @@
       ]
     },
     {
+      "deporte": "Fútbol Sala",
+      "competicion": "Primera División Futsal AFA",
+      "ronda": null,
+      "evento": "River Plate Futsal vs Club Glorias",
+      "local": "River Plate Futsal",
+      "visitante": "Club Glorias",
+      "fecha": "2026-08-23",
+      "hora": "19:00",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "La Liga EA Sports",
       "ronda": null,
@@ -3873,9 +4070,9 @@
       "deporte": "Fútbol",
       "competicion": "Torneo Federal A",
       "ronda": null,
-      "evento": "Torneo Federal A",
-      "local": null,
-      "visitante": null,
+      "evento": "Guillermo Brown vs Santamarina",
+      "local": "Guillermo Brown",
+      "visitante": "Santamarina",
       "fecha": "2026-08-23",
       "hora": "20:00",
       "canales": [
@@ -3886,9 +4083,9 @@
       "deporte": "Fútbol",
       "competicion": "Torneo Federal A",
       "ronda": null,
-      "evento": "Guillermo Brown vs Santamarina",
-      "local": "Guillermo Brown",
-      "visitante": "Santamarina",
+      "evento": "Atlético Escobar vs Gimnasia Concepción",
+      "local": "Atlético Escobar",
+      "visitante": "Gimnasia Concepción",
       "fecha": "2026-08-23",
       "hora": "20:00",
       "canales": [
@@ -4400,8 +4597,7 @@
       "fecha": "2026-08-23",
       "hora": "23:00",
       "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
+        "WTA TV"
       ]
     },
     {
@@ -4550,6 +4746,19 @@
       ]
     },
     {
+      "deporte": "Fútbol Sala",
+      "competicion": "Primera División Futsal AFA",
+      "ronda": null,
+      "evento": "Ferro Futsal vs Newell's Old Boys FS",
+      "local": "Ferro Futsal",
+      "visitante": "Newell's Old Boys FS",
+      "fecha": "2026-08-24",
+      "hora": "01:00",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "MLS",
       "ronda": null,
@@ -4573,6 +4782,19 @@
       "hora": "01:10",
       "canales": [
         "RCN Nuestra Tele"
+      ]
+    },
+    {
+      "deporte": "Fútbol Sala",
+      "competicion": "Primera División Futsal AFA",
+      "ronda": null,
+      "evento": "Boca Juniors FS vs Estudiantil Porteño FS",
+      "local": "Boca Juniors FS",
+      "visitante": "Estudiantil Porteño FS",
+      "fecha": "2026-08-24",
+      "hora": "01:15",
+      "canales": [
+        "LPF Play"
       ]
     },
     {
@@ -4652,6 +4874,19 @@
       "hora": "02:30",
       "canales": [
         "OneFootball"
+      ]
+    },
+    {
+      "deporte": "Fútbol Sala",
+      "competicion": "Primera División Futsal AFA",
+      "ronda": null,
+      "evento": "San Lorenzo Futsal vs Club Jorge Newbery FS",
+      "local": "San Lorenzo Futsal",
+      "visitante": "Club Jorge Newbery FS",
+      "fecha": "2026-08-24",
+      "hora": "02:30",
+      "canales": [
+        "LPF Play"
       ]
     },
     {
