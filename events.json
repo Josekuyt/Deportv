@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-08-23T08:27:35",
+    "generado": "2026-08-23T16:22:42",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 234
+    "total_eventos": 237
   },
   "eventos": [
     {
@@ -870,8 +870,7 @@
       "canales": [
         "DAZN (Ver en directo)",
         "DAZN 1 (M72)",
-        "DAZN 1 Bar (M148)",
-        "GOL (Síguelo en directo)"
+        "DAZN 1 Bar (M148)"
       ]
     },
     {
@@ -1581,19 +1580,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Winston-Salem",
-      "ronda": null,
-      "evento": "1ª Ronda ATP 250",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-08-23",
-      "hora": "20:00",
-      "canales": [
-        "ATP Tennis TV"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "NWSL",
       "ronda": null,
@@ -1788,6 +1774,19 @@
       "hora": "21:00",
       "canales": [
         "RCN Nuestra Tele"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Winston-Salem",
+      "ronda": "1ª Ronda",
+      "evento": "G. Mpetshi Perricard vs J. Brooksby",
+      "local": "G. Mpetshi Perricard",
+      "visitante": "J. Brooksby",
+      "fecha": "2026-08-23",
+      "hora": "21:00",
+      "canales": [
+        "ATP Tennis TV"
       ]
     },
     {
@@ -2011,19 +2010,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "WTA Torneo de Monterrey",
-      "ronda": null,
-      "evento": "1ª Ronda WTA 500",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-08-23",
-      "hora": "23:00",
-      "canales": [
-        "WTA TV"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "Liga Colombiana",
       "ronda": null,
@@ -2101,6 +2087,19 @@
         "Fanatiz (Ver en directo)",
         "M+ Vamos 2 (51)",
         "M+ Liga de Campeones (M60 O115)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Winston-Salem",
+      "ronda": "1ª Ronda",
+      "evento": "P. Carreño vs A.D. Vallejo",
+      "local": "P. Carreño",
+      "visitante": "A.D. Vallejo",
+      "fecha": "2026-08-24",
+      "hora": "00:30",
+      "canales": [
+        "ATP Tennis TV"
       ]
     },
     {
@@ -2261,6 +2260,19 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Winston-Salem",
+      "ronda": "1ª Ronda",
+      "evento": "R. Hijikata vs D. Blanch",
+      "local": "R. Hijikata",
+      "visitante": "D. Blanch",
+      "fecha": "2026-08-24",
+      "hora": "02:00",
+      "canales": [
+        "ATP Tennis TV"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "NWSL",
       "ronda": null,
@@ -2354,6 +2366,19 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Monterrey",
+      "ronda": "1ª Ronda",
+      "evento": "L. Tagger vs Y. Starodubtseva",
+      "local": "L. Tagger",
+      "visitante": "Y. Starodubtseva",
+      "fecha": "2026-08-24",
+      "hora": "03:30",
+      "canales": [
+        "WTA TV"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "MLS Next Pro",
       "ronda": null,
@@ -2364,6 +2389,19 @@
       "hora": "04:00",
       "canales": [
         "OneFootball"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Monterrey",
+      "ronda": "1ª Ronda",
+      "evento": "M. Sherif vs O. Oliynykova",
+      "local": "M. Sherif",
+      "visitante": "O. Oliynykova",
+      "fecha": "2026-08-24",
+      "hora": "05:00",
+      "canales": [
+        "WTA TV"
       ]
     },
     {
