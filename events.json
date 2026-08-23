@@ -1,26 +1,11 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-08-23T01:13:36",
+    "generado": "2026-08-23T08:27:35",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 232
+    "total_eventos": 234
   },
   "eventos": [
-    {
-      "deporte": "Tenis",
-      "competicion": "Masters Cincinnati",
-      "ronda": "ATP Masters 1000",
-      "evento": "B. Nakashima vs F. Tiafoe",
-      "local": "B. Nakashima",
-      "visitante": "F. Tiafoe",
-      "fecha": "2026-08-23",
-      "hora": "00:00",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Vamos 2 (51)",
-        "M+ Deportes 2 (64)"
-      ]
-    },
     {
       "deporte": "Fútbol",
       "competicion": "Primera B Argentina",
@@ -143,6 +128,21 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Masters Cincinnati",
+      "ronda": "ATP Masters 1000",
+      "evento": "B. Nakashima vs F. Tiafoe",
+      "local": "B. Nakashima",
+      "visitante": "F. Tiafoe",
+      "fecha": "2026-08-23",
+      "hora": "01:15",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Vamos 2 (51)",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Segunda Uruguay",
       "ronda": null,
@@ -153,20 +153,6 @@
       "hora": "01:30",
       "canales": [
         "Antel TV Internacional"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Cincinnati",
-      "ronda": "WTA 1000",
-      "evento": "S. Bejlek vs C. Gauff",
-      "local": "S. Bejlek",
-      "visitante": "C. Gauff",
-      "fecha": "2026-08-23",
-      "hora": "01:30",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -494,6 +480,20 @@
       "hora": "03:15",
       "canales": [
         "RCN Nuestra Tele"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Cincinnati",
+      "ronda": "WTA 1000",
+      "evento": "S. Bejlek vs C. Gauff",
+      "local": "S. Bejlek",
+      "visitante": "C. Gauff",
+      "fecha": "2026-08-23",
+      "hora": "03:20",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -869,7 +869,9 @@
       "hora": "15:00",
       "canales": [
         "DAZN (Ver en directo)",
-        "DAZN 1 (M72)"
+        "DAZN 1 (M72)",
+        "DAZN 1 Bar (M148)",
+        "GOL (Síguelo en directo)"
       ]
     },
     {
@@ -883,7 +885,8 @@
       "hora": "15:00",
       "canales": [
         "DAZN (Ver en directo)",
-        "DAZN 2 (M73)"
+        "DAZN 2 (M73)",
+        "DAZN 2 Bar (M149)"
       ]
     },
     {
@@ -1064,6 +1067,20 @@
       ]
     },
     {
+      "deporte": "Voleibol",
+      "competicion": "Campeonato de Europa Femenino",
+      "ronda": null,
+      "evento": "España vs Azerbaiyán",
+      "local": "España",
+      "visitante": "Azerbaiyán",
+      "fecha": "2026-08-23",
+      "hora": "16:30",
+      "canales": [
+        "Teledeporte",
+        "RTVE Play"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Eredivisie",
       "ronda": null,
@@ -1172,6 +1189,7 @@
         "Movistar Plus+ (M7): VER PARTIDO",
         "M+ #Vamos Bar 2 (308)",
         "DAZN 1 (M72)",
+        "DAZN 1 Bar (M148)",
         "M+ Liga de Campeones (M60 O115)"
       ]
     },
@@ -1677,7 +1695,8 @@
       "hora": "20:45",
       "canales": [
         "DAZN (Ver en directo)",
-        "LaLiga TV M4"
+        "LaLiga TV M4",
+        "LaLiga TV M5"
       ]
     },
     {
@@ -1734,6 +1753,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Torneo Federal A",
+      "ronda": null,
+      "evento": "Sarmiento La Banda vs Sportivo Belgrano",
+      "local": "Sarmiento La Banda",
+      "visitante": "Sportivo Belgrano",
+      "fecha": "2026-08-23",
+      "hora": "21:00",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Liga Pro Ecuador",
       "ronda": null,
       "evento": "Delfín SC vs Aucas",
@@ -1756,20 +1788,6 @@
       "hora": "21:00",
       "canales": [
         "RCN Nuestra Tele"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Cincinnati",
-      "ronda": null,
-      "evento": "Final WTA 1000",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-08-23",
-      "hora": "21:00",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -1953,10 +1971,10 @@
     {
       "deporte": "Tenis",
       "competicion": "Masters Cincinnati",
-      "ronda": null,
-      "evento": "Final ATP Masters 1000",
-      "local": null,
-      "visitante": null,
+      "ronda": "ATP Masters 1000",
+      "evento": "A. Fils vs F. Tiafoe",
+      "local": "A. Fils",
+      "visitante": "F. Tiafoe",
       "fecha": "2026-08-23",
       "hora": "22:30",
       "canales": [
@@ -2096,6 +2114,20 @@
       "hora": "00:30",
       "canales": [
         "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Cincinnati",
+      "ronda": "WTA 1000",
+      "evento": "C. Gauff vs J. Pegula",
+      "local": "C. Gauff",
+      "visitante": "J. Pegula",
+      "fecha": "2026-08-24",
+      "hora": "01:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -2603,7 +2635,8 @@
       "fecha": "2026-08-24",
       "hora": "20:45",
       "canales": [
-        "OneFootball PPV"
+        "OneFootball PPV",
+        "GOL (Síguelo en directo)"
       ]
     },
     {
@@ -2669,7 +2702,8 @@
       "hora": "21:00",
       "canales": [
         "DAZN (Ver en directo)",
-        "DAZN 1 (M72)"
+        "DAZN 1 (M72)",
+        "DAZN 1 Bar (M148)"
       ]
     },
     {
@@ -2873,7 +2907,8 @@
       "fecha": "2026-08-25",
       "hora": "18:45",
       "canales": [
-        "M+ Liga de Campeones 2 (M61 O117)"
+        "M+ Liga de Campeones 2 (M61 O117)",
+        "M+ Liga de Campeones 3 (M62 O118)"
       ]
     },
     {
