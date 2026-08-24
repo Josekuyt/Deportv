@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-08-24T08:45:19",
+    "generado": "2026-08-24T16:35:18",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 124
+    "total_eventos": 138
   },
   "eventos": [
     {
@@ -379,11 +379,11 @@
       "deporte": "Ciclismo",
       "competicion": "Vuelta a España",
       "ronda": null,
-      "evento": "Etapa 3",
+      "evento": "Etapa 3 Gruissan - Aude › Font Romeu (174 km)",
       "local": null,
       "visitante": null,
       "fecha": "2026-08-24",
-      "hora": "14:45",
+      "hora": "14:40",
       "canales": [
         "HBO MAX",
         "DAZN (Ver en directo)",
@@ -403,6 +403,37 @@
       "hora": "15:00",
       "canales": [
         "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Ciclismo",
+      "competicion": "Vuelta a España",
+      "ronda": null,
+      "evento": "Etapa 3 Gruissan - Aude › Font Romeu (174 km)",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-08-24",
+      "hora": "16:15",
+      "canales": [
+        "HBO MAX",
+        "DAZN (Ver en directo)",
+        "La 2 TVE",
+        "RTVE Play",
+        "Eurosport 1"
+      ]
+    },
+    {
+      "deporte": "Hockey Hierba",
+      "competicion": "FIH Copa Mundial Femenina",
+      "ronda": null,
+      "evento": "España vs Alemania",
+      "local": "España",
+      "visitante": "Alemania",
+      "fecha": "2026-08-24",
+      "hora": "17:05",
+      "canales": [
+        "Teledeporte",
+        "RTVE Play"
       ]
     },
     {
@@ -461,10 +492,10 @@
     {
       "deporte": "Balonmano",
       "competicion": "Supercopa Cataluña Femenina",
-      "ronda": null,
-      "evento": "Final",
-      "local": null,
-      "visitante": null,
+      "ronda": "Final",
+      "evento": "BM Granollers vs Lleida HC",
+      "local": "BM Granollers",
+      "visitante": "Lleida HC",
       "fecha": "2026-08-24",
       "hora": "18:15",
       "canales": [
@@ -569,6 +600,19 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Winston-Salem",
+      "ronda": "1ª Ronda",
+      "evento": "D. Suresh vs M. Giron",
+      "local": "D. Suresh",
+      "visitante": "M. Giron",
+      "fecha": "2026-08-24",
+      "hora": "20:00",
+      "canales": [
+        "ATP Tennis TV"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Campeonato Femenino",
       "ronda": null,
@@ -608,25 +652,12 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Winston-Salem",
-      "ronda": null,
-      "evento": "2ª Ronda ATP 250",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-08-24",
-      "hora": "20:05",
-      "canales": [
-        "ATP Tennis TV"
-      ]
-    },
-    {
       "deporte": "Balonmano",
       "competicion": "Supercopa de Cataluña",
-      "ronda": null,
-      "evento": "Final",
-      "local": null,
-      "visitante": null,
+      "ronda": "Final",
+      "evento": "Barça BM vs BM Granollers",
+      "local": "Barça BM",
+      "visitante": "BM Granollers",
       "fecha": "2026-08-24",
       "hora": "20:30",
       "canales": [
@@ -742,6 +773,19 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Winston-Salem",
+      "ronda": "1ª Ronda",
+      "evento": "S. Gorzny vs C. Hewitt",
+      "local": "S. Gorzny",
+      "visitante": "C. Hewitt",
+      "fecha": "2026-08-24",
+      "hora": "21:30",
+      "canales": [
+        "ATP Tennis TV"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "La Liga EA Sports",
       "ronda": null,
@@ -774,12 +818,12 @@
     {
       "deporte": "Tenis",
       "competicion": "WTA Torneo de Monterrey",
-      "ronda": null,
-      "evento": "1ª Ronda WTA 500",
-      "local": null,
-      "visitante": null,
+      "ronda": "1ª Ronda",
+      "evento": "MC. Osorio vs A. Li",
+      "local": "MC. Osorio",
+      "visitante": "A. Li",
       "fecha": "2026-08-24",
-      "hora": "23:05",
+      "hora": "23:00",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -796,6 +840,33 @@
       "hora": "00:00",
       "canales": [
         "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Monterrey",
+      "ronda": "1ª Ronda",
+      "evento": "J. Tjen vs D. Yastremska",
+      "local": "J. Tjen",
+      "visitante": "D. Yastremska",
+      "fecha": "2026-08-25",
+      "hora": "00:30",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Winston-Salem",
+      "ronda": "2ª Ronda",
+      "evento": "J. Brooksby vs S. Tsitsipas",
+      "local": "J. Brooksby",
+      "visitante": "S. Tsitsipas",
+      "fecha": "2026-08-25",
+      "hora": "00:30",
+      "canales": [
+        "ATP Tennis TV"
       ]
     },
     {
@@ -838,6 +909,19 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Winston-Salem",
+      "ronda": "2ª Ronda",
+      "evento": "D. Altmaier vs F. Comesana",
+      "local": "D. Altmaier",
+      "visitante": "F. Comesana",
+      "fecha": "2026-08-25",
+      "hora": "02:00",
+      "canales": [
+        "ATP Tennis TV"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Primera División Argentina",
       "ronda": "Torneo Clausura",
@@ -864,6 +948,20 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Monterrey",
+      "ronda": "1ª Ronda",
+      "evento": "C. Tauson vs R. Zarazúa",
+      "local": "C. Tauson",
+      "visitante": "R. Zarazúa",
+      "fecha": "2026-08-25",
+      "hora": "03:30",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "MLS Next Pro",
       "ronda": null,
@@ -874,6 +972,20 @@
       "hora": "04:00",
       "canales": [
         "OneFootball"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Monterrey",
+      "ronda": "1ª Ronda",
+      "evento": "D. Parry vs D. Vekic",
+      "local": "D. Parry",
+      "visitante": "D. Vekic",
+      "fecha": "2026-08-25",
+      "hora": "05:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -893,17 +1005,63 @@
       "deporte": "Ciclismo",
       "competicion": "Vuelta a España",
       "ronda": null,
-      "evento": "Etapa 4",
+      "evento": "Etapa 4 Andorra la Vella › Andorra la Vella (104,8 km)",
       "local": null,
       "visitante": null,
       "fecha": "2026-08-25",
-      "hora": "14:30",
+      "hora": "14:20",
       "canales": [
         "HBO MAX",
         "DAZN (Ver en directo)",
         "Teledeporte",
         "RTVE Play",
         "Eurosport 1"
+      ]
+    },
+    {
+      "deporte": "Ciclismo",
+      "competicion": "Vuelta a España",
+      "ronda": null,
+      "evento": "Etapa 4 Andorra la Vella › Andorra la Vella (104,8 km)",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-08-25",
+      "hora": "15:50",
+      "canales": [
+        "HBO MAX",
+        "DAZN (Ver en directo)",
+        "La 1 TVE",
+        "RTVE Play",
+        "Eurosport 1"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open",
+      "ronda": null,
+      "evento": "1ª Ronda Dobles Mixtos Grand Slam",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-08-25",
+      "hora": "16:00",
+      "canales": [
+        "Movistar Plus+ (M7): VER PARTIDO",
+        "M+ Deportes 2 (64)",
+        "M+ Deportes 3 (65)"
+      ]
+    },
+    {
+      "deporte": "Voleibol",
+      "competicion": "Campeonato de Europa Femenino",
+      "ronda": "Fase de grupos",
+      "evento": "Holanda vs España",
+      "local": "Holanda",
+      "visitante": "España",
+      "fecha": "2026-08-25",
+      "hora": "16:30",
+      "canales": [
+        "Teledeporte",
+        "RTVE Play"
       ]
     },
     {
@@ -1118,6 +1276,19 @@
       ]
     },
     {
+      "deporte": "Baloncesto",
+      "competicion": "Amistoso",
+      "ronda": null,
+      "evento": "Monbus Obradoiro vs Básquet Coruña",
+      "local": "Monbus Obradoiro",
+      "visitante": "Básquet Coruña",
+      "fecha": "2026-08-25",
+      "hora": "20:30",
+      "canales": [
+        "Canal por confirmar"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Champions League",
       "ronda": "Playoffs",
@@ -1317,10 +1488,24 @@
       ]
     },
     {
+      "deporte": "Voleibol",
+      "competicion": "Campeonato de Europa Femenino",
+      "ronda": "Fase de grupos",
+      "evento": "España vs Portugal",
+      "local": "España",
+      "visitante": "Portugal",
+      "fecha": "2026-08-26",
+      "hora": "13:30",
+      "canales": [
+        "Teledeporte",
+        "RTVE Play"
+      ]
+    },
+    {
       "deporte": "Ciclismo",
       "competicion": "Vuelta a España",
       "ronda": null,
-      "evento": "Etapa 5",
+      "evento": "Etapa 5 Falset. Costa Daurada › Roquetes. Terres de l'Ebre (173,3 km)",
       "local": null,
       "visitante": null,
       "fecha": "2026-08-26",
@@ -1357,6 +1542,21 @@
       "hora": "15:00",
       "canales": [
         "OneFootball PPV"
+      ]
+    },
+    {
+      "deporte": "Atletismo",
+      "competicion": "IAAF Diamond League",
+      "ronda": null,
+      "evento": "Zurich (Suiza) Pértiga Femenina",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-08-26",
+      "hora": "17:30",
+      "canales": [
+        "M+ Vamos (8 y 50)",
+        "M+ #Vamos Bar (307)",
+        "M+ Deportes (63)"
       ]
     },
     {
