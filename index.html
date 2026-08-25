@@ -2501,8 +2501,8 @@ const ICONO_DEPORTE = {
 function iconoDeporte(d){ return ICONO_DEPORTE[d] || "🏅"; }
 
 /* Logos de canal.
-   Se busca automáticamente la imagen en  assets/canales/<slug>.png
-   (el <slug> se calcula con slugCanal). Si el archivo no existe, se muestra un
+   Se busca automáticamente la imagen en  assets/canales/<marca>.png
+   (la <marca> se calcula con marcaCanal). Si el archivo no existe, se muestra un
    cuadradito con iniciales y color (no se rompe nada). Puedes forzar una ruta
    concreta en LOGOS_CANAL para casos especiales. */
 const LOGOS_CANAL = { /* "Nombre exacto del canal":"assets/canales/loquesea.png" */ };
@@ -2513,10 +2513,41 @@ function slugCanal(nombre){
   s=s.replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,"");
   return s || "canal";
 }
-// marca: colapsa las variantes de un mismo canal al MISMO logo. Quita del final
-// los números de feed / idioma / calidad (M+ Liga de Campeones 1/2/3/4 -> una sola
-// imagen; Eurosport 1 -> eurosport; M+ LALIGA HDR -> m-laliga; LaLiga TV M2 -> laliga-tv).
+/* Marca = nombre del archivo del logo. Se resuelve por palabra clave (agrupa
+   muchas variantes en un solo logo). Reglas clave pedidas:
+   - cualquier cosa "M+"/"Movistar" -> movistar-plus ; "DAZN" -> dazn ;
+     "Orange TV" -> orange ; "LaLiga" que no sea DAZN ni M+ -> laliga.
+   - "youtube" va AL FINAL: si la marca tiene logo propio (FIBA, Win Sports,
+     SeFutbol...) se usa ese; los feeds de YouTube genéricos caen en youtube. */
+const MARCAS_KW=[
+  [/\bdazn\b/,"dazn"],
+  [/movistar|(^|[^a-z])m\+/,"movistar-plus"],
+  [/orange/,"orange"],
+  [/laliga/,"laliga"],
+  [/\batp\b/,"atp"],
+  [/\bwta\b/,"wta"],
+  [/\bfiba\b/,"fiba"],
+  [/win sports/,"win-sports"],
+  [/sefutbol/,"sefutbol"],
+  [/\brcn\b/,"rcn"],
+  [/rfef/,"rfef"],
+  [/\bnwsl\b/,"nwsl"],
+  [/zapping/,"zapping"],
+  [/eurovision/,"eurovision-sports"],
+  [/eurosport/,"eurosport"],
+  [/onefootball/,"onefootball"],
+  [/hbo/,"hbo-max"],
+  [/fanatiz/,"fanatiz"],
+  [/teledeporte/,"teledeporte"],
+  [/rtve/,"rtve-play"],
+  [/lpf/,"lpf-play"],
+  [/\bla 1\b/,"la-1-tve"],
+  [/youtube/,"youtube"],
+];
 function marcaCanal(nombre){
+  const n=norm(nombre);
+  for(const [pat,br] of MARCAS_KW){ if(pat.test(n)) return br; }
+  // Sin regla conocida: slug con colapso de variantes de feed/calidad.
   let s=slugCanal(nombre), prev="";
   while(prev!==s){ prev=s; s=s.replace(/-(?:\d+|m\d+|hdr|bar|uhd|4k)$/,""); }
   return s || "canal";
