@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-08-20"
+    "actualizado": "2026-08-25T15:41:43"
   },
   "config": {
     "puntos_por_tier": {
@@ -225,6 +225,82 @@
     },
     "WTA Cincinnati": {
       "tier": "C"
+    },
+    "Amistoso Sub-18": {
+      "tier": "D",
+      "por_revisar": true
+    },
+    "British Masters": {
+      "tier": "A",
+      "por_revisar": true
+    },
+    "Campeonato de Europa Femenino": {
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Champions League Femenina": {
+      "tier": "S",
+      "por_revisar": true
+    },
+    "Copa do Brasil": {
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Eurobasket": {
+      "tier": "C",
+      "por_revisar": true
+    },
+    "FIBA Copa Mundial": {
+      "tier": "S",
+      "por_revisar": true
+    },
+    "Juegos Mediterráneos": {
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Liga Pro Ecuador": {
+      "tier": "C",
+      "por_revisar": true
+    },
+    "National League": {
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Primera C": {
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Primera División Argentina": {
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Serie A Brasil": {
+      "tier": "A",
+      "por_revisar": true
+    },
+    "The Tour Championship": {
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Torneo de Winston-Salem": {
+      "tier": "C",
+      "por_revisar": true
+    },
+    "US Open": {
+      "tier": "S",
+      "por_revisar": true
+    },
+    "WRC Rally": {
+      "tier": "C",
+      "por_revisar": true
+    },
+    "WTA Torneo de Monterrey": {
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Women's Irish Open": {
+      "tier": "C",
+      "por_revisar": true
     }
   }
 }
