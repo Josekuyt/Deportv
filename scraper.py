@@ -24,6 +24,7 @@ NOTA sobre el entorno:
 
 import argparse
 import json
+import os
 import re
 import sys
 import time
@@ -32,7 +33,14 @@ from datetime import datetime
 import requests
 from bs4 import BeautifulSoup
 
+try:
+    from heuristica import estimar_tier
+except Exception:                      # respaldo si no se encuentra el módulo
+    def estimar_tier(_nombre):
+        return "C", False
+
 URL = "https://www.futbolenlatv.es/deporte"
+COMPETICIONES_JSON = "competiciones.json"
 
 HEADERS = {
     "User-Agent": (
@@ -269,6 +277,52 @@ def construir_documento(eventos):
     }
 
 
+def actualizar_competiciones(eventos, ruta=COMPETICIONES_JSON):
+    """Autodescubrimiento: añade a la tier list las competiciones nuevas con un
+    tier estimado por heurística y marcadas 'por_revisar'. No modifica las que ya
+    existan (respeta tus ediciones manuales). Devuelve la lista de nuevas."""
+    if os.path.exists(ruta):
+        with open(ruta, encoding="utf-8") as fh:
+            doc = json.load(fh)
+    else:
+        # Estructura mínima por si no existiera todavía el fichero.
+        doc = {
+            "meta": {"descripcion": "Tier list de competiciones para Destacados."},
+            "config": {
+                "puntos_por_tier": {"S": 100, "A": 70, "B": 45, "C": 25, "D": 10},
+                "bonus_fase": {"final": 40, "semifinal": 25, "cuartos": 12,
+                               "octavos": 4, "otro": 0, "ninguno": 0},
+                "bonus_espana": 30, "tier_por_defecto": "C",
+                "excluir": ["reserva", "proyeccion", "academy", "sub-", "sub ",
+                            "juvenil", "amistoso", "trofeo", "regional", "euskadi",
+                            "hypermotion", "admiral"],
+                "max_destacados": 5, "max_por_competicion": 2,
+            },
+            "competiciones": {},
+        }
+
+    comp_map = doc.setdefault("competiciones", {})
+    vistas = sorted({e.get("competicion") for e in eventos if e.get("competicion")})
+    nuevas = []
+    for c in vistas:
+        if c not in comp_map:
+            tier, _conf = estimar_tier(c)
+            comp_map[c] = {"tier": tier, "por_revisar": True}
+            nuevas.append((c, tier))
+
+    if nuevas:
+        doc.setdefault("meta", {})["actualizado"] = datetime.now().isoformat(timespec="seconds")
+        with open(ruta, "w", encoding="utf-8") as fh:
+            json.dump(doc, fh, ensure_ascii=False, indent=2)
+        print(f"Tier list: {len(nuevas)} competición(es) nueva(s) añadida(s) "
+              f"(marcadas por_revisar):")
+        for c, t in nuevas:
+            print(f"   + [{t}] {c}")
+    else:
+        print("Tier list: sin competiciones nuevas.")
+    return nuevas
+
+
 def resumen(eventos):
     print(f"\n{'='*60}")
     print(f"  {len(eventos)} eventos capturados")
@@ -311,6 +365,9 @@ def main():
     with open(args.out, "w", encoding="utf-8") as fh:
         json.dump(doc, fh, ensure_ascii=False, indent=2)
     print(f"OK -> {len(eventos)} eventos guardados en {args.out}")
+
+    # Autodescubrimiento de competiciones nuevas en la tier list.
+    actualizar_competiciones(eventos)
 
     if args.imprimir:
         resumen(eventos)
