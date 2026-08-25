@@ -393,9 +393,27 @@ const ICONO_DEPORTE = {
 };
 function iconoDeporte(d){ return ICONO_DEPORTE[d] || "🏅"; }
 
-/* Logos de canal. Por defecto se genera un cuadradito con iniciales y color por
-   canal; si defines una imagen en LOGOS_CANAL se usa esa (p.ej. assets/canales/dazn.png). */
-const LOGOS_CANAL = { /* "DAZN (Ver en directo)":"assets/canales/dazn.png", ... */ };
+/* Logos de canal.
+   Se busca automáticamente la imagen en  assets/canales/<slug>.png
+   (el <slug> se calcula con slugCanal). Si el archivo no existe, se muestra un
+   cuadradito con iniciales y color (no se rompe nada). Puedes forzar una ruta
+   concreta en LOGOS_CANAL para casos especiales. */
+const LOGOS_CANAL = { /* "Nombre exacto del canal":"assets/canales/loquesea.png" */ };
+function slugCanal(nombre){
+  let s=norm(nombre);
+  s=s.replace(/\([^)]*\)/g," ");   // quita "(M54 O110)", "(Ver en directo)", etc.
+  s=s.replace(/:.*/,"");           // quita todo tras ":" (p.ej. ": VER PARTIDO")
+  s=s.replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,"");
+  return s || "canal";
+}
+// marca: colapsa las variantes de un mismo canal al MISMO logo. Quita del final
+// los números de feed / idioma / calidad (M+ Liga de Campeones 1/2/3/4 -> una sola
+// imagen; Eurosport 1 -> eurosport; M+ LALIGA HDR -> m-laliga; LaLiga TV M2 -> laliga-tv).
+function marcaCanal(nombre){
+  let s=slugCanal(nombre), prev="";
+  while(prev!==s){ prev=s; s=s.replace(/-(?:\d+|m\d+|hdr|bar|uhd|4k)$/,""); }
+  return s || "canal";
+}
 function inicialesCanal(nombre){
   const limpio=(nombre||"").replace(/\([^)]*\)/g,"").replace(/[:+].*$/,"").trim();
   const pal=limpio.split(/\s+/).filter(Boolean);
@@ -405,10 +423,17 @@ function inicialesCanal(nombre){
 function colorCanal(nombre){ let h=0; const s=norm(nombre);
   for(let i=0;i<s.length;i++) h=(h*31+s.charCodeAt(i))>>>0; return `hsl(${h%360},52%,42%)`; }
 function logoCanal(nombre){
-  const img=LOGOS_CANAL[nombre];
-  return img
-    ? `<img class="canal-logo" src="${img}" alt="" loading="lazy">`
-    : `<span class="canal-logo mono" style="background:${colorCanal(nombre)}">${esc(inicialesCanal(nombre))}</span>`;
+  const src=LOGOS_CANAL[nombre] || `assets/canales/${marcaCanal(nombre)}.png`;
+  return `<img class="canal-logo" src="${src}" alt="" loading="lazy" `+
+    `data-ini="${esc(inicialesCanal(nombre))}" data-col="${colorCanal(nombre)}" onerror="logoFallback(this)">`;
+}
+// Si el logo no existe (404), se sustituye por el cuadradito de iniciales.
+function logoFallback(img){
+  const s=document.createElement("span");
+  s.className="canal-logo mono";
+  s.style.background=img.dataset.col||"#555";
+  s.textContent=img.dataset.ini||"?";
+  img.replaceWith(s);
 }
 
 /* Aviso breve (toast). */
