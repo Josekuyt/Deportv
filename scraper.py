@@ -302,24 +302,70 @@ def actualizar_competiciones(eventos, ruta=COMPETICIONES_JSON):
         }
 
     comp_map = doc.setdefault("competiciones", {})
+
+    # Deporte(s) por competición según los eventos. Un mismo nombre (p.ej.
+    # "Amistoso") puede darse en varios deportes; guardamos la lista ordenada
+    # (sin repetir) de todos los deportes con los que aparece.
+    dep_de = {}
+    for e in eventos:
+        c, d = e.get("competicion"), e.get("deporte")
+        if c and d:
+            lst = dep_de.setdefault(c, [])
+            if d not in lst:
+                lst.append(d)
+
+    def como_lista(v):
+        """Normaliza el campo 'deporte' (texto o lista) a lista."""
+        if not v:
+            return []
+        return list(v) if isinstance(v, list) else [v]
+
+    def compacta(lst):
+        """Texto si hay un solo deporte; lista si hay varios."""
+        return lst[0] if len(lst) == 1 else lst
+
     vistas = sorted({e.get("competicion") for e in eventos if e.get("competicion")})
     nuevas = []
+    backfill = 0
     for c in vistas:
+        deps_vistos = dep_de.get(c, [])
         if c not in comp_map:
             tier, _conf = estimar_tier(c)
-            comp_map[c] = {"tier": tier, "por_revisar": True}
+            entrada = {}
+            if deps_vistos:
+                entrada["deporte"] = compacta(deps_vistos)   # deporte primero
+            entrada["tier"] = tier
+            entrada["por_revisar"] = True
+            comp_map[c] = entrada
             nuevas.append((c, tier))
+        elif deps_vistos:
+            # Fusiona los deportes nuevos con los ya guardados (respeta el orden y
+            # no toca tier ni el resto de campos). Cubre el caso de que un mismo
+            # nombre aparezca con un deporte adicional (p.ej. "Amistoso" de fútbol
+            # cuando estaba solo como baloncesto).
+            actuales = como_lista(comp_map[c].get("deporte"))
+            fusion = actuales + [d for d in deps_vistos if d not in actuales]
+            if fusion != actuales:
+                entrada = {"deporte": compacta(fusion)}
+                for k, v in comp_map[c].items():
+                    if k != "deporte":
+                        entrada[k] = v
+                comp_map[c] = entrada
+                backfill += 1
 
-    if nuevas:
+    if nuevas or backfill:
         doc.setdefault("meta", {})["actualizado"] = datetime.now().isoformat(timespec="seconds")
         with open(ruta, "w", encoding="utf-8") as fh:
             json.dump(doc, fh, ensure_ascii=False, indent=2)
+    if nuevas:
         print(f"Tier list: {len(nuevas)} competición(es) nueva(s) añadida(s) "
               f"(marcadas por_revisar):")
         for c, t in nuevas:
             print(f"   + [{t}] {c}")
     else:
         print("Tier list: sin competiciones nuevas.")
+    if backfill:
+        print(f"Tier list: deporte completado/fusionado en {backfill} entrada(s) existente(s).")
     return nuevas
 
 
