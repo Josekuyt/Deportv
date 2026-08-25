@@ -41,264 +41,346 @@
   },
   "competiciones": {
     "2. Liga": {
+      "deporte": "Fútbol",
       "tier": "C",
       "por_revisar": true
     },
     "Admiral Bundesliga": {
+      "deporte": "Fútbol",
       "tier": "D"
     },
     "Amistoso": {
+      "deporte": [
+        "Baloncesto",
+        "Fútbol"
+      ],
       "tier": "D"
     },
     "Amistoso Femenino": {
+      "deporte": "Fútbol",
       "tier": "D"
     },
     "ASEAN Cup": {
+      "deporte": "Fútbol",
       "tier": "B"
     },
     "BMW Championship": {
+      "deporte": "Golf",
       "tier": "C",
       "por_revisar": true
     },
     "Bundesliga Femenina": {
+      "deporte": "Fútbol",
       "tier": "A"
     },
     "Bundesliga Sub-19": {
+      "deporte": "Fútbol",
       "tier": "D"
     },
     "Caribbean Club Championship": {
+      "deporte": "Fútbol",
       "tier": "B"
     },
     "Champions League": {
+      "deporte": "Fútbol",
       "tier": "S"
     },
     "CONCACAF Central American Cup": {
+      "deporte": "Fútbol",
       "tier": "B"
     },
     "Conference League": {
+      "deporte": "Fútbol",
       "tier": "B"
     },
     "Copa de Alemania": {
+      "deporte": "Fútbol",
       "tier": "C",
       "por_revisar": true
     },
     "Copa Euskadi Femenina": {
+      "deporte": "Fútbol",
       "tier": "D"
     },
     "Copa Libertadores": {
+      "deporte": "Fútbol",
       "tier": "A"
     },
     "Copa Sudamericana": {
+      "deporte": "Fútbol",
       "tier": "B"
     },
     "Damallsvenskan": {
+      "deporte": "Fútbol",
       "tier": "C",
       "por_revisar": true
     },
     "Dana White Contender Series": {
+      "deporte": "MMA",
       "tier": "C",
       "por_revisar": true
     },
     "Europa League": {
+      "deporte": "Fútbol",
       "tier": "A"
     },
     "Europeo Femenino Sub-16": {
+      "deporte": "Fútbol",
       "tier": "D"
     },
     "F1 Academy": {
+      "deporte": "Automovilismo",
       "tier": "D"
     },
     "FIH Copa Mundial Femenina": {
+      "deporte": "Hockey Hierba",
       "tier": "S"
     },
     "FIH Copa Mundial Masculina": {
+      "deporte": "Hockey Hierba",
       "tier": "S"
     },
     "Francia Ligue 1": {
+      "deporte": "Fútbol",
       "tier": "A"
     },
     "Fórmula 1": {
+      "deporte": "Automovilismo",
       "tier": "S"
     },
     "IAAF Diamond League": {
+      "deporte": "Atletismo",
       "tier": "C",
       "por_revisar": true
     },
     "La Liga EA Sports": {
+      "deporte": "Fútbol",
       "tier": "S"
     },
     "LaLiga Hypermotion": {
+      "deporte": "Fútbol",
       "tier": "B"
     },
     "Liga 1 Perú": {
+      "deporte": "Fútbol",
       "tier": "D"
     },
     "Liga AUF Uruguaya": {
+      "deporte": "Fútbol",
       "tier": "C"
     },
     "Liga Colombiana": {
+      "deporte": "Fútbol",
       "tier": "B"
     },
     "Liga Femenina Dimayor": {
+      "deporte": "Fútbol",
       "tier": "B"
     },
     "LIV Golf": {
+      "deporte": "Golf",
       "tier": "C"
     },
     "Masters Cincinnati": {
+      "deporte": "Tenis",
       "tier": "A"
     },
     "MLS": {
+      "deporte": "Fútbol",
       "tier": "B"
     },
     "MLS Next Pro": {
+      "deporte": "Fútbol",
       "tier": "B"
     },
     "Nexo Championship": {
+      "deporte": "Golf",
       "tier": "C"
     },
     "NFL Pretemporada": {
+      "deporte": "Fútbol Americano",
       "tier": "C"
     },
     "NWSL": {
+      "deporte": "Fútbol",
       "tier": "B"
     },
     "Premier League": {
+      "deporte": "Fútbol",
       "tier": "S"
     },
     "Preolímpico Femenino": {
+      "deporte": "Fútbol",
       "tier": "A"
     },
     "Primera B Argentina": {
+      "deporte": "Fútbol",
       "tier": "C"
     },
     "Primera División Futsal AFA": {
+      "deporte": "Fútbol Sala",
       "tier": "D"
     },
     "Primera Nacional Argentina": {
+      "deporte": "Fútbol",
       "tier": "B"
     },
     "Saudi Pro League": {
+      "deporte": "Fútbol",
       "tier": "C"
     },
     "Serie B Italiana": {
+      "deporte": "Fútbol",
       "tier": "C"
     },
     "Superliga de Letonia": {
+      "deporte": "Fútbol",
       "tier": "D"
     },
     "Torneo BetPlay DIMAYOR": {
+      "deporte": "Fútbol",
       "tier": "B"
     },
     "Torneo Proyección": {
+      "deporte": "Fútbol",
       "tier": "D"
     },
     "Tour de Alemania": {
+      "deporte": "Ciclismo",
       "tier": "D"
     },
     "Tour de L'Avenir": {
+      "deporte": "Ciclismo",
       "tier": "D"
     },
     "Tour del Benelux": {
+      "deporte": "Ciclismo",
       "tier": "C"
     },
     "Tour del Limousin": {
+      "deporte": "Ciclismo",
       "tier": "D"
     },
     "Tour Gran Bretaña Femenino": {
+      "deporte": "Ciclismo",
       "tier": "D"
     },
     "Trofeo Joan Gamper": {
+      "deporte": "Fútbol",
       "tier": "C"
     },
     "Trofeo Joan Gamper Femenino": {
+      "deporte": "Fútbol",
       "tier": "D"
     },
     "Veikkausliiga": {
+      "deporte": "Fútbol",
       "tier": "D"
     },
     "Vuelta a España": {
+      "deporte": "Ciclismo",
       "tier": "A"
     },
     "WNBA": {
+      "deporte": "Baloncesto",
       "tier": "B"
     },
     "WTA Cincinnati": {
+      "deporte": "Tenis",
       "tier": "C"
     },
     "Amistoso Sub-18": {
+      "deporte": "Fútbol",
       "tier": "D",
       "por_revisar": true
     },
     "British Masters": {
+      "deporte": "Golf",
       "tier": "A",
       "por_revisar": true
     },
     "Campeonato de Europa Femenino": {
+      "deporte": "Voleibol",
       "tier": "C",
       "por_revisar": true
     },
     "Champions League Femenina": {
+      "deporte": "Fútbol",
       "tier": "S",
       "por_revisar": true
     },
     "Copa do Brasil": {
+      "deporte": "Fútbol",
       "tier": "C",
       "por_revisar": true
     },
     "Eurobasket": {
+      "deporte": "Baloncesto",
       "tier": "C",
       "por_revisar": true
     },
     "FIBA Copa Mundial": {
+      "deporte": "Baloncesto",
       "tier": "S",
       "por_revisar": true
     },
     "Juegos Mediterráneos": {
+      "deporte": "Fútbol",
       "tier": "C",
       "por_revisar": true
     },
     "Liga Pro Ecuador": {
+      "deporte": "Fútbol",
       "tier": "C",
       "por_revisar": true
     },
     "National League": {
+      "deporte": "Fútbol",
       "tier": "C",
       "por_revisar": true
     },
     "Primera C": {
+      "deporte": "Fútbol",
       "tier": "C",
       "por_revisar": true
     },
     "Primera División Argentina": {
+      "deporte": "Fútbol",
       "tier": "C",
       "por_revisar": true
     },
     "Serie A Brasil": {
+      "deporte": "Fútbol",
       "tier": "A",
       "por_revisar": true
     },
     "The Tour Championship": {
+      "deporte": "Golf",
       "tier": "C",
       "por_revisar": true
     },
     "Torneo de Winston-Salem": {
+      "deporte": "Tenis",
       "tier": "C",
       "por_revisar": true
     },
     "US Open": {
+      "deporte": "Tenis",
       "tier": "S",
       "por_revisar": true
     },
     "WRC Rally": {
+      "deporte": "Automovilismo",
       "tier": "C",
       "por_revisar": true
     },
     "WTA Torneo de Monterrey": {
+      "deporte": "Tenis",
       "tier": "C",
       "por_revisar": true
     },
     "Women's Irish Open": {
+      "deporte": "Golf",
       "tier": "C",
       "por_revisar": true
     }

@@ -684,12 +684,26 @@ function poblarFiltros(){
     canales.filter(c=>!misPlataformas.has(c)).map(c=>`<option value="${esc(c)}">${esc(c)}</option>`).join("");
   renderPlatList();
 
-  // Favoritos: desplegable de competiciones agrupado por deporte.
+  // Favoritos: desplegable con TODAS las competiciones conocidas, agrupado por deporte.
+  // Fuente: el catálogo completo de competiciones.json (TIERS) + las de los eventos
+  // actuales. El deporte se toma de los eventos; las que solo estén en el catálogo
+  // (sin deporte conocido) van al grupo "Otras competiciones".
   const porDepComp={};
-  for(const e of ev){
-    if(!e.deporte||!e.competicion) continue;
-    (porDepComp[e.deporte]=porDepComp[e.deporte]||new Set()).add(e.competicion);
-  }
+  const add=(dep,comp)=>{ (porDepComp[dep]=porDepComp[dep]||new Set()).add(comp); };
+  const depDeComp={};
+  for(const e of ev){ if(e.deporte&&e.competicion) depDeComp[e.competicion]=e.deporte; }
+  const cat=(TIERS&&TIERS.competiciones)?TIERS.competiciones:{};
+  // Deporte(s) de una competición: puede ser texto o lista (nombres multideporte
+  // como "Amistoso"). Devuelve siempre un array.
+  const depsDe=comp=>{
+    const d=(cat[comp]&&cat[comp].deporte)||depDeComp[comp];
+    if(Array.isArray(d)) return d.length?d:[GRUPO_OTRAS];
+    return [d||GRUPO_OTRAS];
+  };
+  // Catálogo completo: cada competición se añade a TODOS sus deportes.
+  for(const comp of Object.keys(cat)){ for(const d of depsDe(comp)) add(d, comp); }
+  // Respaldo: competiciones de los eventos que aún no estén en el catálogo.
+  for(const e of ev){ if(e.deporte&&e.competicion&&!cat[e.competicion]) add(e.deporte, e.competicion); }
   $("#addFavComp").innerHTML=`<option value="">Selecciona una competición para añadir</option>`+
     optgroupsHTML(porDepComp, favComps);
 
@@ -702,9 +716,14 @@ function poblarFiltros(){
 function esc(s){ return String(s==null?"":s).replace(/&/g,"&amp;").replace(/"/g,"&quot;")
   .replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
 
-// Opciones <optgroup> por deporte, excluyendo lo ya elegido.
+// Grupo de reserva para competiciones del catálogo sin deporte conocido.
+const GRUPO_OTRAS="Otras competiciones";
+// Opciones <optgroup> por deporte, excluyendo lo ya elegido. "Otras" siempre al final.
 function optgroupsHTML(mapa, excl){
-  return Object.keys(mapa).sort((a,b)=>a.localeCompare(b,"es")).map(dep=>{
+  return Object.keys(mapa).sort((a,b)=>{
+    if(a===GRUPO_OTRAS)return 1; if(b===GRUPO_OTRAS)return -1;
+    return a.localeCompare(b,"es");
+  }).map(dep=>{
     const items=[...mapa[dep]].filter(x=>!excl.has(x)).sort((a,b)=>a.localeCompare(b,"es"));
     if(!items.length) return "";
     return `<optgroup label="${esc(dep)}">`+
