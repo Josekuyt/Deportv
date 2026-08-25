@@ -215,6 +215,12 @@
     padding:9px 12px;font-size:.85rem;cursor:pointer;font-weight:600}
   .btn-danger:hover{background:rgba(229,72,77,.12)}
 
+  .notif-opts{display:flex;flex-direction:column;gap:8px;margin:8px 0 4px;
+    padding-left:12px;border-left:2px solid var(--line)}
+  .notif-opts[hidden]{display:none}
+  .notif-estado{font-size:.8rem;color:var(--muted);margin-top:10px}
+  .notif-estado.ok{color:var(--accent2)}
+  .notif-estado.warn{color:#e5a23d}
   .plats-grid{display:flex;flex-wrap:wrap;gap:7px;margin:12px 0}
   .plat{font-size:.78rem;background:var(--chip);border:1px solid var(--line);border-radius:999px;
     padding:5px 11px;cursor:pointer;user-select:none}
@@ -350,9 +356,31 @@
       </section>
 
       <section class="pref-sec">
+        <h3>🔔 Notificaciones</h3>
+        <p class="pref-nota">Avisos de próximos eventos <b>mientras Deportv está abierto</b>
+          en el navegador. (Los avisos con la web cerrada llegarán con la app.)</p>
+        <label class="switch"><input type="checkbox" id="notifOn"> Avisarme de próximos eventos</label>
+        <div id="notifOpts" class="notif-opts" hidden>
+          <div class="fav-label" style="margin-top:6px">Avisar de:</div>
+          <label class="switch"><input type="checkbox" id="notifFav" checked> Competiciones favoritas</label>
+          <label class="switch"><input type="checkbox" id="notifDest" checked> Eventos destacados</label>
+          <div class="campo" style="margin-top:8px;max-width:220px">
+            <label for="notifLead">Antelación del aviso</label>
+            <select id="notifLead">
+              <option value="5">5 minutos antes</option>
+              <option value="10">10 minutos antes</option>
+              <option value="15">15 minutos antes</option>
+              <option value="30">30 minutos antes</option>
+            </select>
+          </div>
+        </div>
+        <div class="notif-estado" id="notifEstado"></div>
+      </section>
+
+      <section class="pref-sec">
         <h3>🗃 Datos</h3>
-        <p class="pref-nota">Borra tus preferencias guardadas (favoritos, plataformas y
-          tema) en este navegador.</p>
+        <p class="pref-nota">Borra tus preferencias guardadas (favoritos, plataformas,
+          tema y notificaciones) en este navegador.</p>
         <button class="btn btn-danger" id="limpiarCache">🗑 Limpiar preferencias</button>
       </section>
 
@@ -557,6 +585,7 @@ const MOTOR_KEYS = ["formula 1","motogp"];
 const LS = {
   plat:"deportv:misPlataformas",
   favC:"deportv:favCompeticiones", tema:"deportv:tema",
+  notif:"deportv:notif", notifHechas:"deportv:notifHechas",
 };
 function lsGet(k, def){ try{ const v=localStorage.getItem(k); return v==null?def:JSON.parse(v); }catch(e){ return def; } }
 function lsSet(k, val){ try{ localStorage.setItem(k, JSON.stringify(val)); }catch(e){} }
@@ -564,9 +593,13 @@ function lsSet(k, val){ try{ localStorage.setItem(k, JSON.stringify(val)); }catc
 let misPlataformas = new Set(lsGet(LS.plat, []));
 let favComps       = new Set(lsGet(LS.favC, []));   // solo competiciones favoritas
 let tema           = lsGet(LS.tema, "auto");
+// Config de notificaciones (por defecto: apagadas, favoritas + destacados, 15 min).
+const NOTIF_DEF={on:false, favs:true, dest:true, lead:15};
+let notifCfg = Object.assign({}, NOTIF_DEF, lsGet(LS.notif, {}));
 
 function guardarPlataformas(){ lsSet(LS.plat, [...misPlataformas]); }
 function guardarFavoritos(){ lsSet(LS.favC, [...favComps]); }
+function guardarNotif(){ lsSet(LS.notif, notifCfg); }
 
 /* ===== Tema ===== */
 function aplicarTema(){
@@ -580,6 +613,63 @@ function setTema(t){ tema=t; lsSet(LS.tema, t); aplicarTema(); pintarSeg(); }
 function esFavorito(e){ return !!(e.competicion && favComps.has(e.competicion)); }
 function toggleFavComp(c){ if(!c)return; favComps.has(c)?favComps.delete(c):favComps.add(c);
   guardarFavoritos(); pintarTodo(); }
+
+/* ===== Notificaciones locales (solo con la web abierta) ===== */
+// Momento de inicio del evento en ms (a partir de fecha "YYYY-MM-DD" y hora "HH:MM").
+function inicioEventoMs(e){
+  if(!e.fecha||!e.hora||!/^\d{1,2}:\d{2}/.test(e.hora)) return NaN;
+  const d=new Date(e.fecha+"T"+e.hora.slice(0,5)+":00");
+  return d.getTime();
+}
+// ¿Este evento debe avisar, según la config y el disparador (favoritas o destacados)?
+function esNotificable(e){
+  if(!( (notifCfg.favs && esFavorito(e)) || (notifCfg.dest && e._dest) )) return false;
+  return !isNaN(inicioEventoMs(e));
+}
+// Registro (por día) de avisos ya lanzados, para no repetir al recargar.
+function notifHechasHoy(){
+  const r=lsGet(LS.notifHechas,{}); const hoy=hoyISO();
+  return (r&&r.fecha===hoy&&Array.isArray(r.ids)) ? new Set(r.ids) : new Set();
+}
+function marcarNotifHecha(clave){
+  const s=notifHechasHoy(); s.add(clave);
+  lsSet(LS.notifHechas,{fecha:hoyISO(), ids:[...s]});
+}
+// Chequeo periódico: lanza el aviso cuando el evento entra en la ventana de antelación.
+function comprobarAvisos(){
+  if(!notifCfg.on) return;
+  if(!("Notification" in window) || Notification.permission!=="granted") return;
+  const ahora=Date.now(), lead=(notifCfg.lead||15)*60000, ya=notifHechasHoy();
+  for(const e of (DOC.eventos||[])){
+    if(!esNotificable(e)) continue;
+    const ini=inicioEventoMs(e);
+    // Ventana: desde "lead" antes del inicio hasta el inicio (no avisa si ya empezó).
+    if(ahora>=ini-lead && ahora<ini){
+      const clave=claveEvento(e);
+      if(ya.has(clave)) continue;
+      lanzarAviso(e, ini-ahora); marcarNotifHecha(clave);
+    }
+  }
+}
+function lanzarAviso(e, restanteMs){
+  const mins=Math.max(0,Math.round(restanteMs/60000));
+  const quien=(e.local&&e.visitante)?`${e.local} vs ${e.visitante}`:(e.evento||e.competicion||"Evento");
+  const canal=(e.canales&&e.canales[0])?` · ${e.canales[0]}`:"";
+  const cuando=mins<=0?"empieza ya":`en ${mins} min`;
+  try{
+    const n=new Notification("⚽ "+quien, {
+      body:`${e.competicion||e.deporte||""} · ${e.hora} (${cuando})${canal}`,
+      tag:claveEvento(e),
+    });
+    n.onclick=()=>{ window.focus(); n.close(); };
+  }catch(err){}
+}
+let notifTimer=null;
+function iniciarMotorAvisos(){
+  if(notifTimer) return;
+  notifTimer=setInterval(comprobarAvisos, 30000);   // cada 30 s
+  comprobarAvisos();                                 // y una comprobación inmediata
+}
 
 /* ===== Utilidades de fecha ===== */
 function hoyISO(){ const d=new Date(),z=n=>String(n).padStart(2,"0");
@@ -919,7 +1009,7 @@ function actualizarPie(){
   $("#pie").textContent=`Datos de ${m.fuente||"futbolenlatv.es"} · ${(DOC.eventos||[]).length} eventos · `+
     `fuente actualizada ${fmtSello(m.generado)}. Proyecto Deportv.`;
 }
-function pintarTodo(){ marcarDestacados(); renderDestacados(); poblarFiltros(); renderTabs(); render(); actualizarPie(); }
+function pintarTodo(){ marcarDestacados(); renderDestacados(); poblarFiltros(); renderTabs(); render(); actualizarPie(); comprobarAvisos(); }
 
 /* ===== Carga de datos (CDN + respaldo) ===== */
 function fuentes(f){ const o=[]; if(GH_USUARIO!=="USUARIO"&&GH_REPO!=="REPO")
@@ -993,16 +1083,53 @@ function initEventos(){
   $("#addPlat").addEventListener("change",e=>{
     const v=e.target.value; if(v){ misPlataformas.add(v); guardarPlataformas(); pintarTodo(); } });
 
+  // ----- Notificaciones -----
+  $("#notifOn").addEventListener("change",e=>{
+    if(e.target.checked){
+      notifCfg.on=true; guardarNotif(); pintarNotif();
+      if(!("Notification" in window)){ pintarNotif(); return; }
+      if(Notification.permission==="granted"){ iniciarMotorAvisos(); comprobarAvisos(); }
+      else if(Notification.permission!=="denied"){
+        Notification.requestPermission().then(p=>{
+          pintarNotif();
+          if(p==="granted"){ iniciarMotorAvisos(); toast("Notificaciones activadas"); }
+        });
+      }
+    } else { notifCfg.on=false; guardarNotif(); pintarNotif(); }
+  });
+  $("#notifFav").addEventListener("change",e=>{ notifCfg.favs=e.target.checked; guardarNotif(); comprobarAvisos(); });
+  $("#notifDest").addEventListener("change",e=>{ notifCfg.dest=e.target.checked; guardarNotif(); comprobarAvisos(); });
+  $("#notifLead").addEventListener("change",e=>{ notifCfg.lead=+e.target.value||15; guardarNotif(); pintarNotif(); comprobarAvisos(); });
+
   // Limpiar preferencias guardadas
   $("#limpiarCache").addEventListener("click",()=>{
-    if(!confirm("¿Borrar tus preferencias (favoritos, plataformas y tema) de este navegador?")) return;
-    [LS.plat,LS.favC,LS.tema].forEach(k=>{ try{localStorage.removeItem(k);}catch(e){} });
+    if(!confirm("¿Borrar tus preferencias (favoritos, plataformas, tema y notificaciones) de este navegador?")) return;
+    [LS.plat,LS.favC,LS.tema,LS.notif,LS.notifHechas].forEach(k=>{ try{localStorage.removeItem(k);}catch(e){} });
     misPlataformas=new Set(); favComps=new Set(); tema="auto";
-    aplicarTema(); pintarSeg(); pintarTodo();
+    notifCfg=Object.assign({},NOTIF_DEF);
+    aplicarTema(); pintarSeg(); pintarNotif(); pintarTodo();
     toast("Preferencias restablecidas");
   });
 }
-async function arranca(){ aplicarTema(); pintarSeg(); initEventos(); await cargarDatos(); pintarTodo(); }
+// Refleja la config de notificaciones en el modal y actualiza la línea de estado.
+function pintarNotif(){
+  const on=$("#notifOn"); if(!on) return;
+  on.checked=notifCfg.on;
+  $("#notifFav").checked=notifCfg.favs;
+  $("#notifDest").checked=notifCfg.dest;
+  $("#notifLead").value=String(notifCfg.lead||15);
+  $("#notifOpts").hidden=!notifCfg.on;
+  const est=$("#notifEstado"); est.className="notif-estado";
+  if(!("Notification" in window)){ est.textContent="Tu navegador no admite notificaciones."; est.classList.add("warn"); return; }
+  if(!notifCfg.on){ est.textContent="Desactivadas."; return; }
+  const p=Notification.permission;
+  if(p==="granted"){ est.textContent=`Activadas. Te avisaré ${notifCfg.lead||15} min antes (con Deportv abierto).`; est.classList.add("ok"); }
+  else if(p==="denied"){ est.textContent="Bloqueadas en el navegador. Actívalas en los ajustes del sitio para recibir avisos."; est.classList.add("warn"); }
+  else { est.textContent="Pendiente de permiso del navegador."; est.classList.add("warn"); }
+}
+async function arranca(){ aplicarTema(); pintarSeg(); initEventos(); pintarNotif();
+  if(notifCfg.on && ("Notification" in window) && Notification.permission==="granted") iniciarMotorAvisos();
+  await cargarDatos(); pintarTodo(); }
 arranca();
 </script>
 </body>
