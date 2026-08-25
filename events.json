@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-08-25T01:09:31",
+    "generado": "2026-08-25T08:39:55",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 120
+    "total_eventos": 125
   },
   "eventos": [
     {
@@ -41,7 +41,7 @@
       "local": "J. Brooksby",
       "visitante": "S. Tsitsipas",
       "fecha": "2026-08-25",
-      "hora": "00:30",
+      "hora": "00:40",
       "canales": [
         "ATP Tennis TV"
       ]
@@ -86,19 +86,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Winston-Salem",
-      "ronda": "2ª Ronda",
-      "evento": "D. Altmaier vs F. Comesana",
-      "local": "D. Altmaier",
-      "visitante": "F. Comesana",
-      "fecha": "2026-08-25",
-      "hora": "02:00",
-      "canales": [
-        "ATP Tennis TV"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "Primera División Argentina",
       "ronda": "Torneo Clausura",
@@ -126,13 +113,26 @@
     },
     {
       "deporte": "Tenis",
+      "competicion": "Torneo de Winston-Salem",
+      "ronda": "2ª Ronda",
+      "evento": "D. Altmaier vs F. Comesana",
+      "local": "D. Altmaier",
+      "visitante": "F. Comesana",
+      "fecha": "2026-08-25",
+      "hora": "02:50",
+      "canales": [
+        "ATP Tennis TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
       "competicion": "WTA Torneo de Monterrey",
       "ronda": "1ª Ronda",
       "evento": "C. Tauson vs R. Zarazúa",
       "local": "C. Tauson",
       "visitante": "R. Zarazúa",
       "fecha": "2026-08-25",
-      "hora": "03:30",
+      "hora": "03:40",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -159,7 +159,7 @@
       "local": "D. Parry",
       "visitante": "D. Vekic",
       "fecha": "2026-08-25",
-      "hora": "05:00",
+      "hora": "05:40",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -182,7 +182,7 @@
       "deporte": "Ciclismo",
       "competicion": "Vuelta a España",
       "ronda": null,
-      "evento": "Etapa 4 Andorra la Vella › Andorra la Vella (104,8 km)",
+      "evento": "Etapa 4",
       "local": null,
       "visitante": null,
       "fecha": "2026-08-25",
@@ -577,15 +577,15 @@
     },
     {
       "deporte": "Fútbol",
-      "competicion": "Liga Colombiana",
+      "competicion": "Liga Femenina Dimayor",
       "ronda": null,
-      "evento": "Deportivo Pereira vs Jaguares FC",
-      "local": "Deportivo Pereira",
-      "visitante": "Jaguares FC",
+      "evento": "Santa Fe Femenino vs Orsomarso Femenino",
+      "local": "Santa Fe Femenino",
+      "visitante": "Orsomarso Femenino",
       "fecha": "2026-08-26",
       "hora": "01:00",
       "canales": [
-        "RCN Nuestra Tele"
+        "Win Sports TV YouTube"
       ]
     },
     {
@@ -637,6 +637,19 @@
       "visitante": "Alianza",
       "fecha": "2026-08-26",
       "hora": "03:00",
+      "canales": [
+        "RCN Nuestra Tele"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Colombiana",
+      "ronda": null,
+      "evento": "Deportivo Pereira vs Jaguares FC",
+      "local": "Deportivo Pereira",
+      "visitante": "Jaguares FC",
+      "fecha": "2026-08-26",
+      "hora": "03:05",
       "canales": [
         "RCN Nuestra Tele"
       ]
@@ -711,7 +724,7 @@
       "deporte": "Ciclismo",
       "competicion": "Vuelta a España",
       "ronda": null,
-      "evento": "Etapa 5 Falset. Costa Daurada › Roquetes. Terres de l'Ebre (173,3 km)",
+      "evento": "Etapa 5",
       "local": null,
       "visitante": null,
       "fecha": "2026-08-26",
@@ -1367,6 +1380,19 @@
     },
     {
       "deporte": "Baloncesto",
+      "competicion": "Eurobasket",
+      "ronda": "Fase de Clasificación",
+      "evento": "Chipre vs Austria",
+      "local": "Chipre",
+      "visitante": "Austria",
+      "fecha": "2026-08-27",
+      "hora": "18:00",
+      "canales": [
+        "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
       "competicion": "FIBA Copa Mundial",
       "ronda": "Fase de Clasificación",
       "evento": "Hungría vs Estonia",
@@ -1376,6 +1402,19 @@
       "hora": "18:00",
       "canales": [
         "M+ Baloncesto 2 (M67)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Eurobasket",
+      "ronda": "Fase de Clasificación",
+      "evento": "Dinamarca vs Rumanía",
+      "local": "Dinamarca",
+      "visitante": "Rumanía",
+      "fecha": "2026-08-27",
+      "hora": "18:30",
+      "canales": [
+        "FIBA YouTube"
       ]
     },
     {
@@ -1389,6 +1428,19 @@
       "hora": "18:45",
       "canales": [
         "OneFootball PPV"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Eurobasket",
+      "ronda": "Fase de Clasificación",
+      "evento": "Suiza vs Gran Bretaña",
+      "local": "Suiza",
+      "visitante": "Gran Bretaña",
+      "fecha": "2026-08-27",
+      "hora": "19:00",
+      "canales": [
+        "FIBA YouTube"
       ]
     },
     {
@@ -1521,6 +1573,19 @@
       "hora": "20:05",
       "canales": [
         "ATP Tennis TV"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Eurobasket",
+      "ronda": "Fase de Clasificación",
+      "evento": "Bélgica vs República Checa",
+      "local": "Bélgica",
+      "visitante": "República Checa",
+      "fecha": "2026-08-27",
+      "hora": "20:30",
+      "canales": [
+        "FIBA YouTube"
       ]
     },
     {
