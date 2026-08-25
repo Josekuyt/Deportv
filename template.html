@@ -37,15 +37,45 @@
   nav.top a:hover{text-decoration:underline}
   @media(max-width:640px){ nav.top{display:none} }
 
-  /* Layout */
+  /* Layout — la columna de filtros usa ancho mínimo/máximo controlado (no fijo),
+     así en tablet horizontal y pantallas medias no se come tanto ancho. */
   main{max-width:var(--maxw);margin:0 auto;padding:22px 24px 60px;
-    display:grid;grid-template-columns:400px 1fr;gap:22px;align-items:start}
+    display:grid;grid-template-columns:clamp(260px,24vw,360px) 1fr;gap:22px;align-items:start}
   @media(max-width:960px){ main{grid-template-columns:1fr} }
 
   /* Aside filtros */
   aside .panel{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);
     padding:16px;box-shadow:var(--shadow);position:sticky;top:16px;display:flex;flex-direction:column;gap:14px}
-  @media(max-width:960px){ aside .panel{position:static} }
+  /* Cabecera del drawer (solo visible en móvil) */
+  .drawer-head{display:none;align-items:center;justify-content:space-between;
+    margin:-16px -16px 2px;padding:14px 16px;border-bottom:1px solid var(--line)}
+  .drawer-head strong{font-size:1rem}
+  .drawer-close{background:var(--chip);border:1px solid var(--line);color:var(--txt);border-radius:8px;
+    width:32px;height:32px;font-size:1rem;cursor:pointer}
+  .drawer-close:hover{border-color:var(--accent)}
+  /* Botón para abrir los filtros (solo visible en móvil) */
+  .filtros-toggle{display:none;align-items:center;gap:8px;align-self:flex-start;
+    background:var(--panel);color:var(--txt);border:1px solid var(--line);border-radius:10px;
+    padding:10px 14px;font-size:.92rem;font-weight:600;cursor:pointer;box-shadow:var(--shadow)}
+  .filtros-toggle:hover{border-color:var(--accent)}
+  .ft-count{background:var(--accent);color:#fff;font-size:.72rem;font-weight:700;
+    border-radius:999px;min-width:20px;height:20px;padding:0 6px;display:inline-flex;
+    align-items:center;justify-content:center}
+  .ft-count[hidden]{display:none}
+  .drawer-backdrop{position:fixed;inset:0;background:rgba(6,10,18,.6);backdrop-filter:blur(2px);z-index:55}
+  .drawer-backdrop[hidden]{display:none}
+
+  /* En móvil/tablet estrecha: el aside se convierte en panel lateral deslizante. */
+  @media(max-width:960px){
+    .filtros-toggle{display:inline-flex}
+    aside{position:fixed;top:0;left:0;height:100dvh;width:min(86vw,340px);z-index:60;
+      transform:translateX(-100%);transition:transform .25s ease;overflow-y:auto;
+      background:var(--panel);box-shadow:0 10px 40px rgba(0,0,0,.5)}
+    aside.open{transform:translateX(0)}
+    aside .panel{position:static;border:none;border-radius:0;box-shadow:none;
+      min-height:100%;padding:16px}
+    .drawer-head{display:flex}
+  }
   .campo{display:flex;flex-direction:column;gap:5px}
   .campo label{font-size:.72rem;color:var(--muted);text-transform:uppercase;letter-spacing:.5px}
   input,select{background:var(--input);color:var(--txt);border:1px solid var(--line);
@@ -227,9 +257,13 @@
 </header>
 
 <main>
-  <!-- Aside: filtros -->
-  <aside>
+  <!-- Aside: filtros (en móvil se abre como panel lateral) -->
+  <aside id="filtros" aria-label="Filtros">
     <div class="panel">
+      <div class="drawer-head">
+        <strong>Filtros</strong>
+        <button class="drawer-close" id="cerrarFiltros" aria-label="Cerrar filtros">✕</button>
+      </div>
       <div class="campo"><label for="q">Buscar</label>
         <input id="q" type="search" placeholder="Equipo, evento, competición..."></div>
       <div class="campo"><label for="fDep">Deporte</label><select id="fDep"></select></div>
@@ -249,6 +283,10 @@
 
   <!-- Columna principal -->
   <div class="col-main">
+    <!-- Botón de filtros (solo móvil) -->
+    <button class="filtros-toggle" id="abrirFiltros" aria-controls="filtros" aria-expanded="false">
+      <span>☰ Filtros</span><span class="ft-count" id="ftCount" hidden>0</span>
+    </button>
     <!-- Destacados -->
     <section id="destacados">
       <div class="dest-head">⭐ Destacados de hoy <span class="pill" id="destCount"></span></div>
@@ -267,6 +305,9 @@
 
   </div>
 </main>
+
+<!-- Fondo oscuro del drawer de filtros (móvil) -->
+<div class="drawer-backdrop" id="filtrosBackdrop" hidden></div>
 
 <!-- Modal de Preferencias -->
 <div class="modal-overlay" id="prefsOverlay" hidden>
@@ -818,7 +859,20 @@ function renderTabs(){
     diaActivo=+t.dataset.i; renderTabs(); render();
   }));
 }
+// Nº de filtros activos (para el badge del botón "Filtros" en móvil).
+function actualizarContadorFiltros(){
+  let n=0;
+  if($("#q").value.trim())n++;
+  if($("#fDep").value)n++;
+  if($("#fComp").value)n++;
+  if($("#fCanal").value)n++;
+  if($("#soloAbierto").checked)n++;
+  if($("#soloMias").checked)n++;
+  if($("#soloFav").checked)n++;
+  const b=$("#ftCount"); b.textContent=n; b.hidden=(n===0);
+}
 function render(){
+  actualizarContadorFiltros();
   const fechas=fechasTabs();
   const dia=fechas[diaActivo]||fechas[0];
   const ev=(DOC.eventos||[]).filter(e=>e.fecha===dia).filter(pasaFiltros)
@@ -906,6 +960,19 @@ function initEventos(){
     btn.classList.remove("cargando"); btn.textContent=ok?"✓ Actualizado":"Sin conexión a datos";
     setTimeout(()=>{ btn.textContent=txt; },2000);
   });
+
+  // ----- Drawer de filtros (móvil) -----
+  const aside=$("#filtros"), backdrop=$("#filtrosBackdrop"), btnFiltros=$("#abrirFiltros");
+  const abrirFiltros=()=>{ aside.classList.add("open"); backdrop.hidden=false;
+    document.body.style.overflow="hidden"; btnFiltros.setAttribute("aria-expanded","true"); };
+  const cerrarFiltros=()=>{ aside.classList.remove("open"); backdrop.hidden=true;
+    document.body.style.overflow=""; btnFiltros.setAttribute("aria-expanded","false"); };
+  btnFiltros.addEventListener("click",abrirFiltros);
+  $("#cerrarFiltros").addEventListener("click",cerrarFiltros);
+  backdrop.addEventListener("click",cerrarFiltros);
+  document.addEventListener("keydown",e=>{ if(e.key==="Escape"&&aside.classList.contains("open")) cerrarFiltros(); });
+  // Si se pasa a desktop con el drawer abierto, se restablece el estado.
+  window.addEventListener("resize",()=>{ if(window.innerWidth>960&&aside.classList.contains("open")) cerrarFiltros(); });
 
   // ----- Modal de Preferencias -----
   const overlay=$("#prefsOverlay");
