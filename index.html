@@ -11,11 +11,16 @@
     --chip:#243049; --input:#1b2436; --shadow:0 2px 12px rgba(0,0,0,.35);
     --radius:14px; --maxw:1470px;
   }
+  /* Tema claro: por preferencia del sistema (si no se ha forzado oscuro)
+     o cuando el usuario elige "Claro" en Preferencias. */
   @media (prefers-color-scheme: light){
-    :root{ --bg:#f4f6fb; --panel:#ffffff; --card:#ffffff; --line:#e4e8f0;
+    :root:not([data-tema="oscuro"]){ --bg:#f4f6fb; --panel:#ffffff; --card:#ffffff; --line:#e4e8f0;
       --txt:#1a2233; --muted:#5c6883; --chip:#eef1f7; --input:#ffffff;
       --shadow:0 2px 12px rgba(20,30,60,.08); }
   }
+  :root[data-tema="claro"]{ --bg:#f4f6fb; --panel:#ffffff; --card:#ffffff; --line:#e4e8f0;
+    --txt:#1a2233; --muted:#5c6883; --chip:#eef1f7; --input:#ffffff;
+    --shadow:0 2px 12px rgba(20,30,60,.08); }
   *{box-sizing:border-box}
   html{scroll-behavior:smooth}
   body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
@@ -106,9 +111,14 @@
 
   /* Tarjetas de evento */
   .lista{display:flex;flex-direction:column;gap:12px}
-  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;
-    display:grid;grid-template-columns:64px 1fr;gap:12px;box-shadow:var(--shadow)}
-  .card.dest{border-color:var(--accent2);box-shadow:0 0 0 1px var(--accent2) inset}
+  .card{position:relative;background:var(--card);border:1px solid var(--line);border-radius:12px;
+    padding:12px 40px 12px 14px;display:grid;grid-template-columns:64px 1fr;gap:12px;
+    box-shadow:var(--shadow);transition:border-color .15s}
+  .card:hover{border-color:#3a465f}
+  .card-fav{position:absolute;top:8px;right:10px;background:none;border:none;cursor:pointer;
+    font-size:1.05rem;line-height:1;color:var(--muted);opacity:.7;transition:transform .12s,color .12s,opacity .12s}
+  .card-fav:hover{opacity:1;transform:scale(1.12)}
+  .card-fav.on{color:#e5484d;opacity:1}
   .hora{font-size:1.15rem;font-weight:700;align-self:center}
   .meta{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-bottom:4px}
   .star{font-size:.85rem}
@@ -116,20 +126,91 @@
   .comp{font-size:.78rem;color:var(--muted)}
   .ronda{font-size:.7rem;color:var(--accent2);border:1px solid var(--accent2);border-radius:6px;padding:1px 6px}
   .evento{font-weight:600;font-size:1rem;margin:1px 0 6px}
+  .evento .vs{color:var(--muted);font-weight:400;margin:0 2px}
   .canales{display:flex;flex-wrap:wrap;gap:5px}
-  .canal{font-size:.75rem;background:var(--chip);border:1px solid var(--line);border-radius:6px;padding:3px 8px}
+  .canal{display:inline-flex;align-items:center;gap:6px;font-size:.75rem;background:var(--chip);
+    border:1px solid var(--line);border-radius:6px;padding:3px 8px 3px 4px}
   .canal.mia{background:#134e46;border-color:var(--accent2);color:var(--accent2);font-weight:600}
   .canal.abierto{border-color:var(--accent2)}
+  .canal-logo{width:18px;height:18px;border-radius:4px;flex:0 0 auto;object-fit:cover;display:block}
+  .canal-logo.mono{display:inline-flex;align-items:center;justify-content:center;
+    font-size:.58rem;font-weight:800;color:#fff;letter-spacing:.3px}
+  .canal-txt{line-height:1}
+
+  /* Toast (aviso breve) */
+  .toast{position:fixed;left:50%;bottom:26px;transform:translateX(-50%) translateY(8px);
+    background:var(--card);color:var(--txt);border:1px solid var(--accent2);border-radius:10px;
+    padding:11px 18px;font-size:.88rem;box-shadow:0 8px 30px rgba(0,0,0,.4);
+    z-index:100;opacity:0;pointer-events:none;transition:opacity .25s,transform .25s}
+  .toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
   .vacio{text-align:center;color:var(--muted);padding:40px 10px}
 
-  /* Panel plataformas */
-  .plats-panel{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);
-    padding:14px 16px;box-shadow:var(--shadow)}
-  .plats-panel summary{cursor:pointer;font-size:.95rem;color:var(--txt);font-weight:600}
+  /* Botón Preferencias (cabecera) */
+  .btn-prefs{background:rgba(255,255,255,.16);color:#fff;border:1px solid rgba(255,255,255,.35);
+    border-radius:9px;padding:8px 14px;font-size:.9rem;font-weight:600;cursor:pointer}
+  .btn-prefs:hover{background:rgba(255,255,255,.26)}
+
+  /* Modal Preferencias */
+  .modal-overlay{position:fixed;inset:0;background:rgba(6,10,18,.6);backdrop-filter:blur(2px);
+    display:flex;align-items:flex-start;justify-content:center;padding:40px 16px;z-index:50;overflow:auto}
+  .modal-overlay[hidden]{display:none}
+  .modal{background:var(--panel);border:1px solid var(--line);border-radius:16px;width:100%;
+    max-width:640px;box-shadow:0 20px 60px rgba(0,0,0,.5)}
+  .modal-head{display:flex;align-items:center;justify-content:space-between;
+    padding:16px 20px;border-bottom:1px solid var(--line)}
+  .modal-head h2{margin:0;font-size:1.15rem}
+  .modal-close{background:var(--chip);border:1px solid var(--line);color:var(--txt);border-radius:8px;
+    width:32px;height:32px;font-size:1rem;cursor:pointer}
+  .modal-close:hover{border-color:var(--accent)}
+  .modal-body{padding:8px 20px 20px}
+  .pref-sec{padding:16px 0;border-bottom:1px solid var(--line)}
+  .pref-sec:last-child{border-bottom:none}
+  .pref-sec h3{margin:0 0 6px;font-size:.95rem}
+  .pref-nota{margin:0 0 10px;font-size:.8rem;color:var(--muted)}
+  .seg{display:inline-flex;gap:0;border:1px solid var(--line);border-radius:9px;overflow:hidden}
+  .seg-btn{background:var(--chip);color:var(--txt);border:none;border-right:1px solid var(--line);
+    padding:8px 16px;font-size:.85rem;cursor:pointer}
+  .seg-btn:last-child{border-right:none}
+  .seg-btn.on{background:var(--accent);color:#fff;font-weight:700}
+  .fav-add{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:12px}
+  .fav-block{margin-top:10px}
+  .fav-label{font-size:.78rem;color:var(--muted);margin-bottom:6px}
+  .chips{display:flex;flex-wrap:wrap;gap:7px}
+  .chip-fav{display:inline-flex;align-items:center;gap:6px;font-size:.78rem;background:var(--chip);
+    border:1px solid var(--line);border-radius:999px;padding:5px 6px 5px 11px}
+  .chip-fav button{background:none;border:none;color:var(--muted);cursor:pointer;font-size:.9rem;line-height:1}
+  .chip-fav button:hover{color:#e5484d}
+  .chips-vacio{font-size:.8rem;color:var(--muted);opacity:.8}
+  .btn-danger{background:transparent;border:1px solid #e5484d;color:#e5484d;border-radius:9px;
+    padding:9px 12px;font-size:.85rem;cursor:pointer;font-weight:600}
+  .btn-danger:hover{background:rgba(229,72,77,.12)}
+
   .plats-grid{display:flex;flex-wrap:wrap;gap:7px;margin:12px 0}
   .plat{font-size:.78rem;background:var(--chip);border:1px solid var(--line);border-radius:999px;
     padding:5px 11px;cursor:pointer;user-select:none}
   .plat.on{background:#134e46;border-color:var(--accent2);color:var(--accent2);font-weight:600}
+
+  /* Pulido de interacciones y accesibilidad */
+  .btn,.tab,.plat,.seg-btn,.qbtn,.modal-close,.btn-prefs,.chip-fav button{
+    transition:background .15s,border-color .15s,color .15s,filter .15s}
+  button:focus-visible,a:focus-visible,select:focus-visible,input:focus-visible{
+    outline:2px solid var(--accent);outline-offset:2px}
+  .tabs{flex-wrap:wrap}
+  .hero-track{scroll-behavior:smooth}
+
+  /* Responsive fino */
+  @media(max-width:640px){
+    .head-wrap{padding:16px}
+    h1{font-size:1.25rem}
+    main{padding:16px 14px 48px}
+    .hero-ev{font-size:1.1rem}
+  }
+  @media(max-width:560px){
+    .hero{min-height:230px}
+    .quiniela{max-width:100%}
+    .modal-body{padding:8px 14px 16px}
+    .fav-add{gap:8px}
+  }
 
   footer{max-width:var(--maxw);margin:0 auto;padding:0 24px 40px;color:var(--muted);font-size:.78rem}
 </style>
@@ -141,11 +222,7 @@
       <h1>⚽ Deportv — Deporte en TV</h1>
       <div class="sub">Consulta y filtra la programación deportiva en televisión y streaming.</div>
     </div>
-    <nav class="top">
-      <a href="#lista">Eventos</a>
-      <a href="#destacados">Destacados</a>
-      <a href="#plataformas">Mis plataformas</a>
-    </nav>
+    <button class="btn-prefs" id="abrirPrefs" aria-label="Preferencias">⚙ Preferencias</button>
   </div>
 </header>
 
@@ -159,6 +236,9 @@
       <div class="campo"><label for="fComp">Competición</label><select id="fComp"></select></div>
       <div class="campo"><label for="fCanal">Canal / Plataforma</label><select id="fCanal"></select></div>
       <label class="switch"><input type="checkbox" id="soloAbierto"> Mostrar sólo eventos en abierto</label>
+      <label class="switch"><input type="checkbox" id="soloMias"> Mostrar sólo mis plataformas</label>
+      <label class="switch"><input type="checkbox" id="soloFav"> Mostrar sólo favoritos</label>
+      <label class="switch"><input type="checkbox" id="ocultarFin" checked> Ocultar eventos ya finalizados (hoy)</label>
       <div class="acciones">
         <button class="btn" id="limpiar">Limpiar filtros</button>
         <button class="btn btn-act" id="actualizar">🔄 Actualizar eventos</button>
@@ -185,14 +265,61 @@
       <div class="vacio" id="vacio" style="display:none">No hay eventos para este día con los filtros actuales.</div>
     </section>
 
-    <!-- Mis plataformas -->
-    <details class="plats-panel" id="plataformas">
-      <summary>🎯 Mis plataformas contratadas (personalización)</summary>
-      <div class="plats-grid" id="platsGrid"></div>
-      <label class="switch"><input type="checkbox" id="soloMias"> Ver solo lo disponible en mis plataformas</label>
-    </details>
   </div>
 </main>
+
+<!-- Modal de Preferencias -->
+<div class="modal-overlay" id="prefsOverlay" hidden>
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="prefsTitulo">
+    <div class="modal-head">
+      <h2 id="prefsTitulo">⚙ Preferencias</h2>
+      <button class="modal-close" id="cerrarPrefs" aria-label="Cerrar">✕</button>
+    </div>
+    <div class="modal-body">
+
+      <section class="pref-sec">
+        <h3>🎨 Tema</h3>
+        <div class="seg" id="temaSeg">
+          <button class="seg-btn" data-tema="auto">Automático</button>
+          <button class="seg-btn" data-tema="claro">Claro</button>
+          <button class="seg-btn" data-tema="oscuro">Oscuro</button>
+        </div>
+      </section>
+
+      <section class="pref-sec">
+        <h3>🎯 Mis plataformas contratadas</h3>
+        <p class="pref-nota">Añade las plataformas que tienes. Úsalo con el filtro
+          «Mostrar sólo mis plataformas».</p>
+        <select id="addPlat"><option value="">Selecciona una plataforma para añadir</option></select>
+        <div class="fav-block">
+          <div class="fav-label">Seleccionadas (<span id="nPlat">0</span>)</div>
+          <div class="chips" id="platList"></div>
+        </div>
+      </section>
+
+      <section class="pref-sec">
+        <h3>❤ Competiciones favoritas</h3>
+        <p class="pref-nota">Añade tus competiciones favoritas (organizadas por deporte).
+          Márcalas también con el corazón de cada tarjeta.</p>
+        <select id="addFavComp"><option value="">Selecciona una competición para añadir</option></select>
+        <div class="fav-block">
+          <div class="fav-label">Favoritas (<span id="nFavComp">0</span>)</div>
+          <div class="chips" id="favCompList"></div>
+        </div>
+      </section>
+
+      <section class="pref-sec">
+        <h3>🗃 Datos</h3>
+        <p class="pref-nota">Borra tus preferencias guardadas (favoritos, plataformas y
+          tema) en este navegador.</p>
+        <button class="btn btn-danger" id="limpiarCache">🗑 Limpiar preferencias</button>
+      </section>
+
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
 
 <footer id="pie"></footer>
 
@@ -3077,6 +3204,49 @@ function fondoHero(dep){
   return img ? `url('${img}'), ${deg}` : deg;
 }
 
+/* Iconos (emoji) por deporte, sencillos, para acompañar al texto. */
+const ICONO_DEPORTE = {
+  "Fútbol":"⚽","Fútbol Sala":"🥅","Fútbol Americano":"🏈","Baloncesto":"🏀",
+  "Tenis":"🎾","Ciclismo":"🚴","Golf":"⛳","Hockey Hierba":"🏑","MMA":"🥊",
+  "Atletismo":"🏃","Automovilismo":"🏎️","Fórmula 1":"🏎️","MotoGP":"🏍️","Balonmano":"🤾",
+};
+function iconoDeporte(d){ return ICONO_DEPORTE[d] || "🏅"; }
+
+/* Logos de canal. Por defecto se genera un cuadradito con iniciales y color por
+   canal; si defines una imagen en LOGOS_CANAL se usa esa (p.ej. assets/canales/dazn.png). */
+const LOGOS_CANAL = { /* "DAZN (Ver en directo)":"assets/canales/dazn.png", ... */ };
+function inicialesCanal(nombre){
+  const limpio=(nombre||"").replace(/\([^)]*\)/g,"").replace(/[:+].*$/,"").trim();
+  const pal=limpio.split(/\s+/).filter(Boolean);
+  if(!pal.length) return "?";
+  return (pal.length===1 ? pal[0].slice(0,2) : pal[0][0]+pal[1][0]).toUpperCase();
+}
+function colorCanal(nombre){ let h=0; const s=norm(nombre);
+  for(let i=0;i<s.length;i++) h=(h*31+s.charCodeAt(i))>>>0; return `hsl(${h%360},52%,42%)`; }
+function logoCanal(nombre){
+  const img=LOGOS_CANAL[nombre];
+  return img
+    ? `<img class="canal-logo" src="${img}" alt="" loading="lazy">`
+    : `<span class="canal-logo mono" style="background:${colorCanal(nombre)}">${esc(inicialesCanal(nombre))}</span>`;
+}
+
+/* Aviso breve (toast). */
+let _toastT=null;
+function toast(msg){
+  const el=$("#toast"); if(!el) return;
+  el.textContent=msg; el.classList.add("show");
+  clearTimeout(_toastT); _toastT=setTimeout(()=>el.classList.remove("show"),2600);
+}
+
+/* Evento ya finalizado (solo aplica a HOY; delay global de 3 h desde el inicio). */
+const DELAY_FIN_MS = 3*60*60*1000;
+function finalizado(e){
+  if(e.fecha!==hoyISO()) return false;
+  const dt=new Date(`${e.fecha}T${(e.hora||"00:00")}:00`);
+  if(isNaN(dt)) return false;
+  return (Date.now()-dt.getTime()) > DELAY_FIN_MS;
+}
+
 /* Configuración por defecto si competiciones.json no trae "config". */
 const CONFIG_DEFECTO = {
   puntos_por_tier:{S:100,A:70,B:45,C:25,D:10},
@@ -3101,9 +3271,37 @@ function cfg(){
 
 const $ = s => document.querySelector(s);
 const norm = t => (t||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"");
-let misPlataformas = new Set();
 let diaActivo = 0;               // índice de pestaña (0=Hoy)
 const MOTOR_KEYS = ["formula 1","motogp"];
+
+/* ===== Persistencia (localStorage) =====
+   Se guardan: plataformas contratadas, favoritos (equipos/competiciones) y tema. */
+const LS = {
+  plat:"deportv:misPlataformas",
+  favC:"deportv:favCompeticiones", tema:"deportv:tema",
+};
+function lsGet(k, def){ try{ const v=localStorage.getItem(k); return v==null?def:JSON.parse(v); }catch(e){ return def; } }
+function lsSet(k, val){ try{ localStorage.setItem(k, JSON.stringify(val)); }catch(e){} }
+
+let misPlataformas = new Set(lsGet(LS.plat, []));
+let favComps       = new Set(lsGet(LS.favC, []));   // solo competiciones favoritas
+let tema           = lsGet(LS.tema, "auto");
+
+function guardarPlataformas(){ lsSet(LS.plat, [...misPlataformas]); }
+function guardarFavoritos(){ lsSet(LS.favC, [...favComps]); }
+
+/* ===== Tema ===== */
+function aplicarTema(){
+  const r=document.documentElement;
+  if(tema==="claro"||tema==="oscuro") r.setAttribute("data-tema", tema);
+  else r.removeAttribute("data-tema");   // auto = preferencia del sistema
+}
+function setTema(t){ tema=t; lsSet(LS.tema, t); aplicarTema(); pintarSeg(); }
+
+/* ===== Favoritos (solo competiciones) ===== */
+function esFavorito(e){ return !!(e.competicion && favComps.has(e.competicion)); }
+function toggleFavComp(c){ if(!c)return; favComps.has(c)?favComps.delete(c):favComps.add(c);
+  guardarFavoritos(); pintarTodo(); }
 
 /* ===== Utilidades de fecha ===== */
 function hoyISO(){ const d=new Date(),z=n=>String(n).padStart(2,"0");
@@ -3225,7 +3423,7 @@ function renderDestacados(){
     const dots=dest.map((_,j)=>`<i class="${j===i?'on':''}" data-go="${j}"></i>`).join("");
     return `<article class="hero" style="background-image:${fondoHero(e.deporte)}">
       <div class="hero-top">
-        <span class="badge-sport">${e.deporte||"?"}</span>
+        <span class="badge-sport">${iconoDeporte(e.deporte)} ${esc(e.deporte||"?")}</span>
         <div class="hero-dots">${dots}</div>
       </div>
       <div class="hero-body">
@@ -3275,17 +3473,63 @@ function poblarFiltros(){
   const set=(id,v,l)=>{ if(l.includes(v))$(id).value=v; };
   set("#fDep",prev.dep,deps); set("#fComp",prev.comp,comps); set("#fCanal",prev.canal,canales);
 
-  $("#platsGrid").innerHTML=canales.map(c=>
-    `<span class="plat${misPlataformas.has(c)?" on":""}" data-c="${c.replace(/"/g,'&quot;')}">${c}</span>`).join("");
-  $("#platsGrid").querySelectorAll(".plat").forEach(el=>el.addEventListener("click",()=>{
-    const c=el.dataset.c;
-    if(misPlataformas.has(c)){ misPlataformas.delete(c); el.classList.remove("on"); }
-    else { misPlataformas.add(c); el.classList.add("on"); }
-    render();
-  }));
+  // Plataformas: desplegable para añadir + chips de las seleccionadas (compacto).
+  $("#addPlat").innerHTML=`<option value="">Selecciona una plataforma para añadir</option>`+
+    canales.filter(c=>!misPlataformas.has(c)).map(c=>`<option value="${esc(c)}">${esc(c)}</option>`).join("");
+  renderPlatList();
+
+  // Favoritos: desplegable de competiciones agrupado por deporte.
+  const porDepComp={};
+  for(const e of ev){
+    if(!e.deporte||!e.competicion) continue;
+    (porDepComp[e.deporte]=porDepComp[e.deporte]||new Set()).add(e.competicion);
+  }
+  $("#addFavComp").innerHTML=`<option value="">Selecciona una competición para añadir</option>`+
+    optgroupsHTML(porDepComp, favComps);
+
+  renderFavListas();
   const m=DOC.meta||{};
   $("#metaSrc").innerHTML=`Fuente actualizada: <b>${fmtSello(m.generado)}</b><br>Número de eventos: <b>${(DOC.eventos||[]).length}</b>`;
 }
+
+// Escapa texto para insertarlo en HTML/atributos.
+function esc(s){ return String(s==null?"":s).replace(/&/g,"&amp;").replace(/"/g,"&quot;")
+  .replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
+
+// Opciones <optgroup> por deporte, excluyendo lo ya elegido.
+function optgroupsHTML(mapa, excl){
+  return Object.keys(mapa).sort((a,b)=>a.localeCompare(b,"es")).map(dep=>{
+    const items=[...mapa[dep]].filter(x=>!excl.has(x)).sort((a,b)=>a.localeCompare(b,"es"));
+    if(!items.length) return "";
+    return `<optgroup label="${esc(dep)}">`+
+      items.map(x=>`<option value="${esc(x)}">${esc(x)}</option>`).join("")+`</optgroup>`;
+  }).join("");
+}
+// Chips de plataformas seleccionadas (con quitar).
+function renderPlatList(){
+  const arr=[...misPlataformas].sort((a,b)=>a.localeCompare(b,"es"));
+  $("#nPlat").textContent=arr.length;
+  $("#platList").innerHTML=arr.length
+    ? arr.map(c=>`<span class="chip-fav">${esc(c)}<button data-plat="${esc(c)}" title="Quitar">✕</button></span>`).join("")
+    : `<span class="chips-vacio">Sin plataformas seleccionadas.</span>`;
+  $("#platList").querySelectorAll(".chip-fav button").forEach(b=>
+    b.addEventListener("click",()=>{ misPlataformas.delete(b.dataset.plat); guardarPlataformas(); pintarTodo(); }));
+}
+
+// Lista de competiciones favoritas (chips con botón de quitar) dentro del modal.
+function renderFavListas(){
+  const comps=[...favComps].sort((a,b)=>a.localeCompare(b,"es"));
+  $("#nFavComp").textContent=comps.length;
+  $("#favCompList").innerHTML=comps.length
+    ? comps.map(c=>`<span class="chip-fav">${esc(c)}<button data-val="${esc(c)}" title="Quitar">✕</button></span>`).join("")
+    : `<span class="chips-vacio">Sin competiciones favoritas.</span>`;
+  $("#favCompList").querySelectorAll(".chip-fav button").forEach(b=>
+    b.addEventListener("click",()=>toggleFavComp(b.dataset.val)));
+}
+
+// Segmento de tema: marca el activo.
+function pintarSeg(){ document.querySelectorAll("#temaSeg .seg-btn").forEach(b=>
+  b.classList.toggle("on", b.dataset.tema===tema)); }
 function canalAbierto(c){
   const n=norm(c);
   const src=(CANALES&&CANALES.abiertos&&CANALES.abiertos.length)?CANALES:CANALES_DEFECTO;
@@ -3301,6 +3545,8 @@ function pasaFiltros(e){
   if($("#soloAbierto").checked && !eventoAbierto(e))return false;
   if($("#soloMias").checked){ if(!misPlataformas.size)return false;
     if(!(e.canales||[]).some(c=>misPlataformas.has(c)))return false; }
+  if($("#soloFav").checked && !esFavorito(e))return false;
+  if($("#ocultarFin").checked && finalizado(e))return false;
   if(q){ const blob=norm([e.evento,e.competicion,e.deporte,e.local,e.visitante,...(e.canales||[])].join(" "));
     if(!blob.includes(q))return false; }
   return true;
@@ -3326,23 +3572,32 @@ function render(){
   const lista=$("#lista"); lista.innerHTML="";
   $("#vacio").style.display=ev.length?"none":"block";
   for(const e of ev){
-    const mia=(e.canales||[]).some(c=>misPlataformas.has(c));
     const card=document.createElement("div");
-    card.className="card"+(e._dest?" dest":"");
+    card.className="card";
     const canalesHtml=(e.canales||[]).map(c=>{
       const cls="canal"+(misPlataformas.has(c)?" mia":"")+(canalAbierto(c)?" abierto":"");
-      return `<span class="${cls}">${c}</span>`;
+      return `<span class="${cls}">${logoCanal(c)}<span class="canal-txt">${esc(c)}</span></span>`;
     }).join("");
+    const eventoHtml=(e.local&&e.visitante)
+      ? `${esc(e.local)} <span class="vs">vs</span> ${esc(e.visitante)}`
+      : esc(e.evento||"—");
+    const compHtml=e.competicion?`<span class="comp">${esc(e.competicion)}</span>`:"";
+    const favOn=esFavorito(e);
+    const heart=e.competicion
+      ? `<button class="card-fav${favOn?" on":""}" data-comp="${esc(e.competicion)}" `+
+        `title="${favOn?"Quitar competición de favoritos":"Marcar competición como favorita"}" `+
+        `aria-label="Favorito">${favOn?"♥":"♡"}</button>`
+      : "";
     card.innerHTML=`
+      ${heart}
       <div class="hora">${e.hora||"--:--"}</div>
       <div>
         <div class="meta">
-          ${e._dest?'<span class="star" title="Destacado">⭐</span>':''}
-          <span class="sport">${e.deporte||"?"}</span>
-          <span class="comp">${e.competicion||""}</span>
-          ${e.ronda?`<span class="ronda">${e.ronda}</span>`:""}
+          <span class="sport">${iconoDeporte(e.deporte)} ${esc(e.deporte||"?")}</span>
+          ${compHtml}
+          ${e.ronda?`<span class="ronda">${esc(e.ronda)}</span>`:""}
         </div>
-        <div class="evento">${e.evento||"—"}</div>
+        <div class="evento">${eventoHtml}</div>
         <div class="canales">${canalesHtml||'<span class="canal">Sin canal</span>'}</div>
       </div>`;
     lista.appendChild(card);
@@ -3374,14 +3629,19 @@ async function cargarDatos(){
 }
 
 function initEventos(){
-  ["q","fDep","fComp","fCanal","soloAbierto","soloMias"].forEach(id=>{
+  ["q","fDep","fComp","fCanal","soloAbierto","soloMias","soloFav","ocultarFin"].forEach(id=>{
     $("#"+id).addEventListener(id==="q"?"input":"change",render);
   });
   $("#limpiar").addEventListener("click",()=>{
     $("#q").value="";$("#fDep").value="";$("#fComp").value="";$("#fCanal").value="";
-    $("#soloAbierto").checked=false;$("#soloMias").checked=false;
-    misPlataformas.clear(); $("#platsGrid").querySelectorAll(".plat.on").forEach(el=>el.classList.remove("on"));
-    render();
+    $("#soloAbierto").checked=false;$("#soloMias").checked=false;$("#soloFav").checked=false;
+    $("#ocultarFin").checked=true;   // vuelve al valor por defecto (activado)
+    render();   // Limpiar filtros NO borra tus plataformas ni favoritos (son preferencias)
+  });
+  // Corazón de favorito (competición) en las tarjetas del listado.
+  $("#lista").addEventListener("click",ev=>{
+    const b=ev.target.closest(".card-fav"); if(!b)return;
+    toggleFavComp(b.dataset.comp);
   });
   $("#actualizar").addEventListener("click",async()=>{
     const btn=$("#actualizar"),txt=btn.textContent;
@@ -3390,8 +3650,36 @@ function initEventos(){
     btn.classList.remove("cargando"); btn.textContent=ok?"✓ Actualizado":"Sin conexión a datos";
     setTimeout(()=>{ btn.textContent=txt; },2000);
   });
+
+  // ----- Modal de Preferencias -----
+  const overlay=$("#prefsOverlay");
+  const abrir=()=>{ overlay.hidden=false; document.body.style.overflow="hidden"; };
+  const cerrar=()=>{ overlay.hidden=true; document.body.style.overflow=""; };
+  $("#abrirPrefs").addEventListener("click",abrir);
+  $("#cerrarPrefs").addEventListener("click",cerrar);
+  overlay.addEventListener("click",e=>{ if(e.target===overlay) cerrar(); });
+  document.addEventListener("keydown",e=>{ if(e.key==="Escape"&&!overlay.hidden) cerrar(); });
+
+  // Tema
+  document.querySelectorAll("#temaSeg .seg-btn").forEach(b=>
+    b.addEventListener("click",()=>setTema(b.dataset.tema)));
+
+  // Añadir favoritos / plataformas desde el menú (al seleccionar, sin botón).
+  $("#addFavComp").addEventListener("change",e=>{
+    const v=e.target.value; if(v){ favComps.add(v); guardarFavoritos(); pintarTodo(); } });
+  $("#addPlat").addEventListener("change",e=>{
+    const v=e.target.value; if(v){ misPlataformas.add(v); guardarPlataformas(); pintarTodo(); } });
+
+  // Limpiar preferencias guardadas
+  $("#limpiarCache").addEventListener("click",()=>{
+    if(!confirm("¿Borrar tus preferencias (favoritos, plataformas y tema) de este navegador?")) return;
+    [LS.plat,LS.favC,LS.tema].forEach(k=>{ try{localStorage.removeItem(k);}catch(e){} });
+    misPlataformas=new Set(); favComps=new Set(); tema="auto";
+    aplicarTema(); pintarSeg(); pintarTodo();
+    toast("Preferencias restablecidas");
+  });
 }
-async function arranca(){ initEventos(); await cargarDatos(); pintarTodo(); }
+async function arranca(){ aplicarTema(); pintarSeg(); initEventos(); await cargarDatos(); pintarTodo(); }
 arranca();
 </script>
 </body>
