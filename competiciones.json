@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-08-25T15:41:43"
+    "actualizado": "2026-08-25T16:35:13"
   },
   "config": {
     "puntos_por_tier": {
@@ -381,6 +381,11 @@
     },
     "Women's Irish Open": {
       "deporte": "Golf",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "FIFA Copa Intercontinental": {
+      "deporte": "Fútbol",
       "tier": "C",
       "por_revisar": true
     }

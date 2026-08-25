@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-08-25T08:39:55",
+    "generado": "2026-08-25T16:35:13",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 125
+    "total_eventos": 144
   },
   "eventos": [
     {
@@ -182,7 +182,7 @@
       "deporte": "Ciclismo",
       "competicion": "Vuelta a España",
       "ronda": null,
-      "evento": "Etapa 4",
+      "evento": "Etapa 4 Andorra la Vella › Andorra la Vella (104,8 km)",
       "local": null,
       "visitante": null,
       "fecha": "2026-08-25",
@@ -215,15 +215,13 @@
     {
       "deporte": "Tenis",
       "competicion": "US Open",
-      "ronda": null,
-      "evento": "1ª Ronda Dobles Mixtos Grand Slam",
-      "local": null,
-      "visitante": null,
+      "ronda": "1ª Ronda Dobles Mixtos",
+      "evento": "E. Svitolina | G. Monfils vs A. Eala | F. Auger-Aliassime",
+      "local": "E. Svitolina | G. Monfils",
+      "visitante": "A. Eala | F. Auger-Aliassime",
       "fecha": "2026-08-25",
       "hora": "16:00",
       "canales": [
-        "Movistar Plus+ (M7): VER PARTIDO",
-        "M+ Deportes 2 (64)",
         "M+ Deportes 3 (65)"
       ]
     },
@@ -239,6 +237,60 @@
       "canales": [
         "Teledeporte",
         "RTVE Play"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open",
+      "ronda": "1ª Ronda Dobles Mixtos",
+      "evento": "A. Sabalenka | N. Djokovic vs K. Siniakova | H. Patten",
+      "local": "A. Sabalenka | N. Djokovic",
+      "visitante": "K. Siniakova | H. Patten",
+      "fecha": "2026-08-25",
+      "hora": "17:00",
+      "canales": [
+        "Movistar Plus+ (M7): VER PARTIDO",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open",
+      "ronda": "1ª Ronda Dobles Mixtos",
+      "evento": "K. Muchova | J. Mensik vs K. Mladenovic | M. Arevalo",
+      "local": "K. Muchova | J. Mensik",
+      "visitante": "K. Mladenovic | M. Arevalo",
+      "fecha": "2026-08-25",
+      "hora": "17:00",
+      "canales": [
+        "M+ Deportes 3 (65)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open",
+      "ronda": "1ª Ronda Dobles Mixtos",
+      "evento": "E. Navarro | T. Paul vs A. Anisimova | L. Tien",
+      "local": "E. Navarro | T. Paul",
+      "visitante": "A. Anisimova | L. Tien",
+      "fecha": "2026-08-25",
+      "hora": "17:45",
+      "canales": [
+        "M+ Deportes 3 (65)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open",
+      "ronda": null,
+      "evento": "2ª Ronda Dobles Mixtos Grand Slam",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-08-25",
+      "hora": "18:00",
+      "canales": [
+        "Movistar Plus+ (M7): VER PARTIDO",
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -271,6 +323,19 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "US Open",
+      "ronda": null,
+      "evento": "2ª Ronda Dobles Mixtos Grand Slam",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-08-25",
+      "hora": "18:30",
+      "canales": [
+        "M+ Deportes 3 (65)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Champions League",
       "ronda": "Playoffs",
@@ -282,6 +347,47 @@
       "canales": [
         "M+ Liga de Campeones 2 (M61 O117)",
         "M+ Liga de Campeones 3 (M62 O118)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open",
+      "ronda": "1ª Ronda Dobles Mixtos",
+      "evento": "B. Bencic | F. Cobolli vs T. Townsend | A. Zverev",
+      "local": "B. Bencic | F. Cobolli",
+      "visitante": "T. Townsend | A. Zverev",
+      "fecha": "2026-08-25",
+      "hora": "19:00",
+      "canales": [
+        "Movistar Plus+ (M7): VER PARTIDO",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open",
+      "ronda": "1ª Ronda Dobles Mixtos",
+      "evento": "M. Andreeva | A. Rublev vs S. Errani | A. Vavassori",
+      "local": "M. Andreeva | A. Rublev",
+      "visitante": "S. Errani | A. Vavassori",
+      "fecha": "2026-08-25",
+      "hora": "19:30",
+      "canales": [
+        "M+ Deportes 3 (65)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open",
+      "ronda": "1ª Ronda Dobles Mixtos",
+      "evento": "S. Williams | C. Alcaraz vs E. Routlife | L. Glasspool",
+      "local": "S. Williams | C. Alcaraz",
+      "visitante": "E. Routlife | L. Glasspool",
+      "fecha": "2026-08-25",
+      "hora": "20:00",
+      "canales": [
+        "Movistar Plus+ (M7): VER PARTIDO",
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -389,6 +495,19 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Winston-Salem",
+      "ronda": "2ª Ronda",
+      "evento": "M. Bellucci vs L. Darderi",
+      "local": "M. Bellucci",
+      "visitante": "L. Darderi",
+      "fecha": "2026-08-25",
+      "hora": "20:00",
+      "canales": [
+        "ATP Tennis TV"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Torneo Proyección",
       "ronda": null,
@@ -470,28 +589,15 @@
     },
     {
       "deporte": "Tenis",
-      "competicion": "Torneo de Winston-Salem",
-      "ronda": null,
-      "evento": "2ª Ronda ATP 250",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-08-25",
-      "hora": "20:05",
-      "canales": [
-        "ATP Tennis TV"
-      ]
-    },
-    {
-      "deporte": "Baloncesto",
-      "competicion": "Amistoso",
-      "ronda": null,
-      "evento": "Monbus Obradoiro vs Básquet Coruña",
-      "local": "Monbus Obradoiro",
-      "visitante": "Básquet Coruña",
+      "competicion": "US Open",
+      "ronda": "1ª Ronda Dobles Mixtos",
+      "evento": "D. Shnaider | C. Ruud vs J. Pegula | T. Fritz",
+      "local": "D. Shnaider | C. Ruud",
+      "visitante": "J. Pegula | T. Fritz",
       "fecha": "2026-08-25",
       "hora": "20:30",
       "canales": [
-        "Canal por confirmar"
+        "M+ Deportes 3 (65)"
       ]
     },
     {
@@ -521,6 +627,20 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "US Open",
+      "ronda": null,
+      "evento": "2ª Ronda Dobles Mixtos Grand Slam",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-08-25",
+      "hora": "21:00",
+      "canales": [
+        "Movistar Plus+ (M7): VER PARTIDO",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "La Liga EA Sports",
       "ronda": null,
@@ -537,13 +657,39 @@
     },
     {
       "deporte": "Tenis",
-      "competicion": "WTA Torneo de Monterrey",
+      "competicion": "US Open",
       "ronda": null,
-      "evento": "2ª Ronda WTA 500",
+      "evento": "2ª Ronda Dobles Mixtos Grand Slam",
       "local": null,
       "visitante": null,
       "fecha": "2026-08-25",
-      "hora": "23:05",
+      "hora": "21:30",
+      "canales": [
+        "M+ Deportes 3 (65)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Winston-Salem",
+      "ronda": "2ª Ronda",
+      "evento": "A. Fery vs C. Hewitt",
+      "local": "A. Fery",
+      "visitante": "C. Hewitt",
+      "fecha": "2026-08-25",
+      "hora": "22:00",
+      "canales": [
+        "ATP Tennis TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Monterrey",
+      "ronda": "1ª Ronda",
+      "evento": "C. Bucsa vs A. Bondar",
+      "local": "C. Bucsa",
+      "visitante": "A. Bondar",
+      "fecha": "2026-08-25",
+      "hora": "23:00",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -560,6 +706,33 @@
       "hora": "00:00",
       "canales": [
         "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Monterrey",
+      "ronda": "2ª Ronda",
+      "evento": "J. Tjen vs Y. Starodubtseva",
+      "local": "J. Tjen",
+      "visitante": "Y. Starodubtseva",
+      "fecha": "2026-08-26",
+      "hora": "00:30",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Winston-Salem",
+      "ronda": "2ª Ronda",
+      "evento": "D. Medvedev vs M. Damm",
+      "local": "D. Medvedev",
+      "visitante": "M. Damm",
+      "fecha": "2026-08-26",
+      "hora": "00:30",
+      "canales": [
+        "ATP Tennis TV"
       ]
     },
     {
@@ -600,6 +773,19 @@
       "canales": [
         "OneFootball PPV",
         "OneFootball"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Winston-Salem",
+      "ronda": "2ª Ronda",
+      "evento": "M. Kecmanovic vs F. Marozsan",
+      "local": "M. Kecmanovic",
+      "visitante": "F. Marozsan",
+      "fecha": "2026-08-26",
+      "hora": "02:00",
+      "canales": [
+        "ATP Tennis TV"
       ]
     },
     {
@@ -655,6 +841,20 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Monterrey",
+      "ronda": "2ª Ronda",
+      "evento": "O. Oliynykova vs D. Parry",
+      "local": "O. Oliynykova",
+      "visitante": "D. Parry",
+      "fecha": "2026-08-26",
+      "hora": "03:30",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "CONCACAF Central American Cup",
       "ronda": null,
@@ -678,6 +878,20 @@
       "hora": "04:30",
       "canales": [
         "CONCACAF YouTube"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Monterrey",
+      "ronda": "2ª Ronda",
+      "evento": "N. Bartunkova vs A. Potapova",
+      "local": "N. Bartunkova",
+      "visitante": "A. Potapova",
+      "fecha": "2026-08-26",
+      "hora": "05:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -724,7 +938,7 @@
       "deporte": "Ciclismo",
       "competicion": "Vuelta a España",
       "ronda": null,
-      "evento": "Etapa 5",
+      "evento": "Etapa 5 Falset. Costa Daurada › Roquetes. Terres de l'Ebre (173,3 km)",
       "local": null,
       "visitante": null,
       "fecha": "2026-08-26",
@@ -761,6 +975,23 @@
       "hora": "15:00",
       "canales": [
         "OneFootball PPV"
+      ]
+    },
+    {
+      "deporte": "Ciclismo",
+      "competicion": "Vuelta a España",
+      "ronda": null,
+      "evento": "Etapa 5 Falset. Costa Daurada › Roquetes. Terres de l'Ebre (173,3 km)",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-08-26",
+      "hora": "16:15",
+      "canales": [
+        "HBO MAX",
+        "DAZN (Ver en directo)",
+        "La 2 TVE",
+        "RTVE Play",
+        "Eurosport 1"
       ]
     },
     {
@@ -945,6 +1176,20 @@
       "hora": "20:00",
       "canales": [
         "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "FIFA Copa Intercontinental",
+      "ronda": "1ª Ronda",
+      "evento": "Al Ahli vs Auckland FC",
+      "local": "Al Ahli",
+      "visitante": "Auckland FC",
+      "fecha": "2026-08-26",
+      "hora": "20:00",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
@@ -1349,6 +1594,20 @@
       "canales": [
         "HBO MAX",
         "Movistar Golf (M68)"
+      ]
+    },
+    {
+      "deporte": "Hockey Hierba",
+      "competicion": "FIH Copa Mundial Femenina",
+      "ronda": "7º Puesto",
+      "evento": "España vs China",
+      "local": "España",
+      "visitante": "China",
+      "fecha": "2026-08-27",
+      "hora": "17:05",
+      "canales": [
+        "Teledeporte",
+        "RTVE Play"
       ]
     },
     {
