@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-08-25T16:35:13"
+    "actualizado": "2026-08-26T01:12:06"
   },
   "config": {
     "puntos_por_tier": {
@@ -387,6 +387,56 @@
     "FIFA Copa Intercontinental": {
       "deporte": "Fútbol",
       "tier": "C",
+      "por_revisar": true
+    },
+    "2. Bundesliga": {
+      "deporte": "Fútbol",
+      "tier": "A",
+      "por_revisar": true
+    },
+    "3. Liga": {
+      "deporte": "Fútbol",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Betfred Super League": {
+      "deporte": "Rugby L",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Bundesliga": {
+      "deporte": "Fútbol",
+      "tier": "A",
+      "por_revisar": true
+    },
+    "Copa Cataluña": {
+      "deporte": "Fútbol Sala",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Liga portuguesa": {
+      "deporte": "Fútbol",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "MotoGP": {
+      "deporte": "Motociclismo",
+      "tier": "S",
+      "por_revisar": true
+    },
+    "Primera Federación": {
+      "deporte": "Fútbol",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Regionalliga": {
+      "deporte": "Fútbol",
+      "tier": "D",
+      "por_revisar": true
+    },
+    "Serie A Italiana": {
+      "deporte": "Fútbol",
+      "tier": "A",
       "por_revisar": true
     }
   }
