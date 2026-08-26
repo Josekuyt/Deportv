@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-08-26T01:12:06",
+    "generado": "2026-08-26T08:40:44",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 165
+    "total_eventos": 194
   },
   "eventos": [
     {
@@ -21,29 +21,29 @@
     },
     {
       "deporte": "Tenis",
-      "competicion": "WTA Torneo de Monterrey",
-      "ronda": "2ª Ronda",
-      "evento": "J. Tjen vs Y. Starodubtseva",
-      "local": "J. Tjen",
-      "visitante": "Y. Starodubtseva",
-      "fecha": "2026-08-26",
-      "hora": "00:30",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
       "competicion": "Torneo de Winston-Salem",
       "ronda": "2ª Ronda",
       "evento": "D. Medvedev vs M. Damm",
       "local": "D. Medvedev",
       "visitante": "M. Damm",
       "fecha": "2026-08-26",
-      "hora": "00:30",
+      "hora": "00:40",
       "canales": [
         "ATP Tennis TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Monterrey",
+      "ronda": "2ª Ronda",
+      "evento": "J. Tjen vs Y. Starodubtseva",
+      "local": "J. Tjen",
+      "visitante": "Y. Starodubtseva",
+      "fecha": "2026-08-26",
+      "hora": "01:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -87,19 +87,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Winston-Salem",
-      "ronda": "2ª Ronda",
-      "evento": "M. Kecmanovic vs F. Marozsan",
-      "local": "M. Kecmanovic",
-      "visitante": "F. Marozsan",
-      "fecha": "2026-08-26",
-      "hora": "02:00",
-      "canales": [
-        "ATP Tennis TV"
-      ]
-    },
-    {
       "deporte": "MMA",
       "competicion": "Dana White Contender Series",
       "ronda": null,
@@ -110,6 +97,19 @@
       "hora": "02:00",
       "canales": [
         "HBO MAX"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Winston-Salem",
+      "ronda": "2ª Ronda",
+      "evento": "M. Kecmanovic vs F. Marozsan",
+      "local": "M. Kecmanovic",
+      "visitante": "F. Marozsan",
+      "fecha": "2026-08-26",
+      "hora": "02:20",
+      "canales": [
+        "ATP Tennis TV"
       ]
     },
     {
@@ -159,7 +159,7 @@
       "local": "O. Oliynykova",
       "visitante": "D. Parry",
       "fecha": "2026-08-26",
-      "hora": "03:30",
+      "hora": "03:40",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -195,11 +195,11 @@
       "deporte": "Tenis",
       "competicion": "WTA Torneo de Monterrey",
       "ronda": "2ª Ronda",
-      "evento": "N. Bartunkova vs A. Potapova",
+      "evento": "N. Bartunkova vs ES. Liang",
       "local": "N. Bartunkova",
-      "visitante": "A. Potapova",
+      "visitante": "ES. Liang",
       "fecha": "2026-08-26",
-      "hora": "05:00",
+      "hora": "05:50",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -331,6 +331,19 @@
       "hora": "18:00",
       "canales": [
         "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Conference League",
+      "ronda": "Playoffs",
+      "evento": "Rapid Wien vs Hearts",
+      "local": "Rapid Wien",
+      "visitante": "Hearts",
+      "fecha": "2026-08-26",
+      "hora": "18:45",
+      "canales": [
+        "OneFootball PPV"
       ]
     },
     {
@@ -851,6 +864,32 @@
       ]
     },
     {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Copa Mundial",
+      "ronda": "Fase de Clasificación",
+      "evento": "Guinea vs Sudán del Sur",
+      "local": "Guinea",
+      "visitante": "Sudán del Sur",
+      "fecha": "2026-08-27",
+      "hora": "14:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Copa Mundial",
+      "ronda": "Fase de Clasificación",
+      "evento": "Angola vs R.D. Congo",
+      "local": "Angola",
+      "visitante": "R.D. Congo",
+      "fecha": "2026-08-27",
+      "hora": "14:30",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
       "deporte": "Ciclismo",
       "competicion": "Vuelta a España",
       "ronda": null,
@@ -894,6 +933,19 @@
       ]
     },
     {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Copa Mundial",
+      "ronda": "Fase de Clasificación",
+      "evento": "Nigeria vs Camerún",
+      "local": "Nigeria",
+      "visitante": "Camerún",
+      "fecha": "2026-08-27",
+      "hora": "17:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
       "deporte": "Golf",
       "competicion": "The Tour Championship",
       "ronda": null,
@@ -925,13 +977,27 @@
       "deporte": "Baloncesto",
       "competicion": "FIBA Copa Mundial",
       "ronda": "Fase de Clasificación",
+      "evento": "Mali vs Costa de Marfil",
+      "local": "Mali",
+      "visitante": "Costa de Marfil",
+      "fecha": "2026-08-27",
+      "hora": "17:30",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Copa Mundial",
+      "ronda": "Fase de Clasificación",
       "evento": "Finlandia vs Suecia",
       "local": "Finlandia",
       "visitante": "Suecia",
       "fecha": "2026-08-27",
       "hora": "17:30",
       "canales": [
-        "M+ Baloncesto (M66)"
+        "M+ Baloncesto (M66)",
+        "DAZN (Ver en directo)"
       ]
     },
     {
@@ -965,13 +1031,27 @@
       "deporte": "Baloncesto",
       "competicion": "FIBA Copa Mundial",
       "ronda": "Fase de Clasificación",
+      "evento": "Catar vs China",
+      "local": "Catar",
+      "visitante": "China",
+      "fecha": "2026-08-27",
+      "hora": "18:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Copa Mundial",
+      "ronda": "Fase de Clasificación",
       "evento": "Hungría vs Estonia",
       "local": "Hungría",
       "visitante": "Estonia",
       "fecha": "2026-08-27",
       "hora": "18:00",
       "canales": [
-        "M+ Baloncesto 2 (M67)"
+        "M+ Baloncesto 2 (M67)",
+        "DAZN (Ver en directo)"
       ]
     },
     {
@@ -991,11 +1071,37 @@
       "deporte": "Fútbol",
       "competicion": "Conference League",
       "ronda": "Playoffs",
+      "evento": "Freiburg vs Motherwell",
+      "local": "Freiburg",
+      "visitante": "Motherwell",
+      "fecha": "2026-08-27",
+      "hora": "18:45",
+      "canales": [
+        "OneFootball PPV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Conference League",
+      "ronda": "Playoffs",
       "evento": "AS Monaco vs Górnik Zabrze",
       "local": "AS Monaco",
       "visitante": "Górnik Zabrze",
       "fecha": "2026-08-27",
       "hora": "18:45",
+      "canales": [
+        "OneFootball PPV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Europa League",
+      "ronda": "Playoffs",
+      "evento": "Red Bull Salzburg vs Mjällby AIF",
+      "local": "Red Bull Salzburg",
+      "visitante": "Mjällby AIF",
+      "fecha": "2026-08-27",
+      "hora": "19:00",
       "canales": [
         "OneFootball PPV"
       ]
@@ -1027,6 +1133,71 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Conference League",
+      "ronda": "Playoffs",
+      "evento": "Riga FC vs KÍ Klaksvík",
+      "local": "Riga FC",
+      "visitante": "KÍ Klaksvík",
+      "fecha": "2026-08-27",
+      "hora": "19:00",
+      "canales": [
+        "OneFootball PPV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Conference League",
+      "ronda": "Playoffs",
+      "evento": "Inter Club d'Escaldes vs FC Drita",
+      "local": "Inter Club d'Escaldes",
+      "visitante": "FC Drita",
+      "fecha": "2026-08-27",
+      "hora": "19:00",
+      "canales": [
+        "OneFootball PPV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Conference League",
+      "ronda": "Playoffs",
+      "evento": "Hradec Králové vs Panathinaikos",
+      "local": "Hradec Králové",
+      "visitante": "Panathinaikos",
+      "fecha": "2026-08-27",
+      "hora": "19:00",
+      "canales": [
+        "OneFootball PPV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Europa League",
+      "ronda": "Playoffs",
+      "evento": "FC Thun vs Lech Poznan",
+      "local": "FC Thun",
+      "visitante": "Lech Poznan",
+      "fecha": "2026-08-27",
+      "hora": "20:00",
+      "canales": [
+        "OneFootball PPV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Europa League",
+      "ronda": "Playoffs",
+      "evento": "AGF Aarhus vs Benfica",
+      "local": "AGF Aarhus",
+      "visitante": "Benfica",
+      "fecha": "2026-08-27",
+      "hora": "20:00",
+      "canales": [
+        "OneFootball PPV"
+      ]
+    },
+    {
       "deporte": "Atletismo",
       "competicion": "IAAF Diamond League",
       "ronda": null,
@@ -1045,13 +1216,27 @@
       "deporte": "Baloncesto",
       "competicion": "FIBA Copa Mundial",
       "ronda": "Fase de Clasificación",
+      "evento": "Túnez vs Cabo Verde",
+      "local": "Túnez",
+      "visitante": "Cabo Verde",
+      "fecha": "2026-08-27",
+      "hora": "20:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Copa Mundial",
+      "ronda": "Fase de Clasificación",
       "evento": "Alemania vs Holanda",
       "local": "Alemania",
       "visitante": "Holanda",
       "fecha": "2026-08-27",
       "hora": "20:00",
       "canales": [
-        "M+ Baloncesto (M66)"
+        "M+ Baloncesto (M66)",
+        "DAZN (Ver en directo)"
       ]
     },
     {
@@ -1064,7 +1249,8 @@
       "fecha": "2026-08-27",
       "hora": "20:00",
       "canales": [
-        "M+ Baloncesto 3 (M194)"
+        "M+ Baloncesto 3 (M194)",
+        "DAZN (Ver en directo)"
       ]
     },
     {
@@ -1077,7 +1263,21 @@
       "fecha": "2026-08-27",
       "hora": "20:00",
       "canales": [
-        "M+ Vamos 3 (53)"
+        "M+ Vamos 3 (53)",
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Copa Mundial",
+      "ronda": "Fase de Clasificación",
+      "evento": "Líbano vs Corea del Sur",
+      "local": "Líbano",
+      "visitante": "Corea del Sur",
+      "fecha": "2026-08-27",
+      "hora": "20:00",
+      "canales": [
+        "DAZN (Ver en directo)"
       ]
     },
     {
@@ -1133,6 +1333,32 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Conference League",
+      "ronda": "Playoffs",
+      "evento": "St. Gallen vs Nordsjælland",
+      "local": "St. Gallen",
+      "visitante": "Nordsjælland",
+      "fecha": "2026-08-27",
+      "hora": "20:00",
+      "canales": [
+        "OneFootball PPV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Conference League",
+      "ronda": "Playoffs",
+      "evento": "Hapoel Tel Aviv vs Atalanta",
+      "local": "Hapoel Tel Aviv",
+      "visitante": "Atalanta",
+      "fecha": "2026-08-27",
+      "hora": "20:00",
+      "canales": [
+        "OneFootball PPV"
+      ]
+    },
+    {
       "deporte": "Tenis",
       "competicion": "Torneo de Winston-Salem",
       "ronda": null,
@@ -1162,13 +1388,27 @@
       "deporte": "Baloncesto",
       "competicion": "FIBA Copa Mundial",
       "ronda": "Fase de Clasificación",
+      "evento": "Egipto vs Senegal",
+      "local": "Egipto",
+      "visitante": "Senegal",
+      "fecha": "2026-08-27",
+      "hora": "20:30",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Copa Mundial",
+      "ronda": "Fase de Clasificación",
       "evento": "Francia vs Eslovenia",
       "local": "Francia",
       "visitante": "Eslovenia",
       "fecha": "2026-08-27",
       "hora": "20:30",
       "canales": [
-        "M+ Baloncesto 2 (M67)"
+        "M+ Baloncesto 2 (M67)",
+        "DAZN (Ver en directo)"
       ]
     },
     {
@@ -1184,6 +1424,45 @@
         "M+ LALIGA (M54 O110)",
         "M+ LALIGA HDR (M440 O111)",
         "LaLiga TV M2"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Conference League",
+      "ronda": "Playoffs",
+      "evento": "Brighton vs Tromsø",
+      "local": "Brighton",
+      "visitante": "Tromsø",
+      "fecha": "2026-08-27",
+      "hora": "20:30",
+      "canales": [
+        "OneFootball PPV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Conference League",
+      "ronda": "Playoffs",
+      "evento": "Austria Wien vs SC Braga",
+      "local": "Austria Wien",
+      "visitante": "SC Braga",
+      "fecha": "2026-08-27",
+      "hora": "20:30",
+      "canales": [
+        "OneFootball PPV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Conference League",
+      "ronda": "Playoffs",
+      "evento": "Borac Banja Luka vs Víkingur R",
+      "local": "Borac Banja Luka",
+      "visitante": "Víkingur R",
+      "fecha": "2026-08-27",
+      "hora": "20:30",
+      "canales": [
+        "OneFootball PPV"
       ]
     },
     {
@@ -1252,6 +1531,19 @@
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Copa Mundial",
+      "ronda": "Fase de Clasificación",
+      "evento": "Argentina vs Puerto Rico",
+      "local": "Argentina",
+      "visitante": "Puerto Rico",
+      "fecha": "2026-08-28",
+      "hora": "00:10",
+      "canales": [
+        "DAZN (Ver en directo)"
       ]
     },
     {
@@ -1365,6 +1657,19 @@
       "deporte": "Baloncesto",
       "competicion": "FIBA Copa Mundial",
       "ronda": "Fase de Clasificación",
+      "evento": "México vs Colombia",
+      "local": "México",
+      "visitante": "Colombia",
+      "fecha": "2026-08-28",
+      "hora": "03:40",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Copa Mundial",
+      "ronda": "Fase de Clasificación",
       "evento": "Panamá vs Canadá",
       "local": "Panamá",
       "visitante": "Canadá",
@@ -1428,6 +1733,19 @@
       ]
     },
     {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Copa Mundial",
+      "ronda": "Fase de Clasificación",
+      "evento": "Irán vs Nueva Zelanda",
+      "local": "Irán",
+      "visitante": "Nueva Zelanda",
+      "fecha": "2026-08-28",
+      "hora": "08:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
       "deporte": "Motociclismo",
       "competicion": "MotoGP",
       "ronda": null,
@@ -1441,6 +1759,19 @@
         "DAZN (Ver en directo)",
         "DAZN MotoGP (M71 O105)",
         "Aragón Deporte"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Copa Mundial",
+      "ronda": "Fase de Clasificación",
+      "evento": "Siria vs Australia",
+      "local": "Siria",
+      "visitante": "Australia",
+      "fecha": "2026-08-28",
+      "hora": "11:00",
+      "canales": [
+        "DAZN (Ver en directo)"
       ]
     },
     {
@@ -1516,6 +1847,19 @@
       ]
     },
     {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Copa Mundial",
+      "ronda": "Fase de Clasificación",
+      "evento": "Sudán del Sur vs Nigeria",
+      "local": "Sudán del Sur",
+      "visitante": "Nigeria",
+      "fecha": "2026-08-28",
+      "hora": "14:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
       "deporte": "Automovilismo",
       "competicion": "WRC Rally",
       "ronda": null,
@@ -1524,6 +1868,19 @@
       "visitante": null,
       "fecha": "2026-08-28",
       "hora": "14:03",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Copa Mundial",
+      "ronda": "Fase de Clasificación",
+      "evento": "Jordania vs Filipinas",
+      "local": "Jordania",
+      "visitante": "Filipinas",
+      "fecha": "2026-08-28",
+      "hora": "14:30",
       "canales": [
         "DAZN (Ver en directo)"
       ]
@@ -1558,6 +1915,19 @@
       ]
     },
     {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Copa Mundial",
+      "ronda": "Fase de Clasificación",
+      "evento": "Cabo Verde vs Guinea",
+      "local": "Cabo Verde",
+      "visitante": "Guinea",
+      "fecha": "2026-08-28",
+      "hora": "17:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
       "deporte": "Golf",
       "competicion": "The Tour Championship",
       "ronda": null,
@@ -1581,7 +1951,8 @@
       "fecha": "2026-08-28",
       "hora": "17:30",
       "canales": [
-        "M+ Baloncesto 2 (M67)"
+        "M+ Baloncesto 2 (M67)",
+        "DAZN (Ver en directo)"
       ]
     },
     {
@@ -1594,7 +1965,8 @@
       "fecha": "2026-08-28",
       "hora": "18:00",
       "canales": [
-        "M+ Baloncesto (M66)"
+        "M+ Baloncesto (M66)",
+        "DAZN (Ver en directo)"
       ]
     },
     {
@@ -1824,7 +2196,8 @@
       "fecha": "2026-08-28",
       "hora": "20:00",
       "canales": [
-        "M+ Baloncesto 3 (M194)"
+        "M+ Baloncesto 3 (M194)",
+        "DAZN (Ver en directo)"
       ]
     },
     {
@@ -1837,7 +2210,8 @@
       "fecha": "2026-08-28",
       "hora": "20:00",
       "canales": [
-        "M+ Vamos 3 (53)"
+        "M+ Vamos 3 (53)",
+        "DAZN (Ver en directo)"
       ]
     },
     {
@@ -1851,6 +2225,19 @@
       "hora": "20:00",
       "canales": [
         "M+ Baloncesto 2 (M67)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Copa Mundial",
+      "ronda": "Fase de Clasificación",
+      "evento": "Camerún vs Túnez",
+      "local": "Camerún",
+      "visitante": "Túnez",
+      "fecha": "2026-08-28",
+      "hora": "20:00",
+      "canales": [
+        "DAZN (Ver en directo)"
       ]
     },
     {
