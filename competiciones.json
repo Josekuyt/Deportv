@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-08-26T01:12:06"
+    "actualizado": "2026-08-26T16:47:00"
   },
   "config": {
     "puntos_por_tier": {
@@ -437,6 +437,11 @@
     "Serie A Italiana": {
       "deporte": "Fútbol",
       "tier": "A",
+      "por_revisar": true
+    },
+    "Torneo de Playa de Aro": {
+      "deporte": "Baloncesto",
+      "tier": "C",
       "por_revisar": true
     }
   }

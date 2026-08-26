@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-08-26T08:40:44",
+    "generado": "2026-08-26T16:47:00",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 194
+    "total_eventos": 203
   },
   "eventos": [
     {
@@ -356,7 +356,7 @@
       "fecha": "2026-08-26",
       "hora": "19:30",
       "canales": [
-        "Canal por confirmar"
+        "Real Madrid TV"
       ]
     },
     {
@@ -369,7 +369,20 @@
       "fecha": "2026-08-26",
       "hora": "19:45",
       "canales": [
-        "Canal por confirmar"
+        "Real Sociedad TV YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Amistoso",
+      "ronda": null,
+      "evento": "Chiclana CF vs Cádiz CF",
+      "local": "Chiclana CF",
+      "visitante": "Cádiz CF",
+      "fecha": "2026-08-26",
+      "hora": "20:00",
+      "canales": [
+        "Plaiz"
       ]
     },
     {
@@ -422,6 +435,19 @@
       "hora": "20:00",
       "canales": [
         "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Winston-Salem",
+      "ronda": "3ª Ronda",
+      "evento": "B. Van de Zandschulp vs L. Darderi",
+      "local": "B. Van de Zandschulp",
+      "visitante": "L. Darderi",
+      "fecha": "2026-08-26",
+      "hora": "20:00",
+      "canales": [
+        "ATP Tennis TV"
       ]
     },
     {
@@ -514,19 +540,6 @@
       "canales": [
         "DAZN (Ver en directo)",
         "DAZN App Gratis (Ver gratis)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Winston-Salem",
-      "ronda": null,
-      "evento": "3ª Ronda ATP 250",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-08-26",
-      "hora": "20:05",
-      "canales": [
-        "ATP Tennis TV"
       ]
     },
     {
@@ -637,13 +650,26 @@
     },
     {
       "deporte": "Tenis",
-      "competicion": "WTA Torneo de Monterrey",
-      "ronda": null,
-      "evento": "2ª Ronda WTA 500",
-      "local": null,
-      "visitante": null,
+      "competicion": "Torneo de Winston-Salem",
+      "ronda": "3ª Ronda",
+      "evento": "A. Fery vs M. Rottgering",
+      "local": "A. Fery",
+      "visitante": "M. Rottgering",
       "fecha": "2026-08-26",
-      "hora": "23:05",
+      "hora": "21:30",
+      "canales": [
+        "ATP Tennis TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Monterrey",
+      "ronda": "2ª Ronda",
+      "evento": "M. Timofeeva vs A. Li",
+      "local": "M. Timofeeva",
+      "visitante": "A. Li",
+      "fecha": "2026-08-26",
+      "hora": "23:00",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -664,16 +690,56 @@
     },
     {
       "deporte": "Tenis",
+      "competicion": "WTA Torneo de Monterrey",
+      "ronda": "2ª Ronda",
+      "evento": "P. Udvardy vs E. Mertens",
+      "local": "P. Udvardy",
+      "visitante": "E. Mertens",
+      "fecha": "2026-08-27",
+      "hora": "00:30",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Winston-Salem",
+      "ronda": "3ª Ronda",
+      "evento": "A. Kovacevic vs S. Tsitsipas",
+      "local": "A. Kovacevic",
+      "visitante": "S. Tsitsipas",
+      "fecha": "2026-08-27",
+      "hora": "00:30",
+      "canales": [
+        "ATP Tennis TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
       "competicion": "US Open",
-      "ronda": null,
-      "evento": "Semifinal Dobles Mixtos Grand Slam",
-      "local": null,
-      "visitante": null,
+      "ronda": "Grand Slam",
+      "evento": "E. Svitolina | G. Monfils vs B. Bencic | F. Cobolli",
+      "local": "E. Svitolina | G. Monfils",
+      "visitante": "B. Bencic | F. Cobolli",
       "fecha": "2026-08-27",
       "hora": "01:00",
       "canales": [
         "Movistar Plus+ (M7): VER PARTIDO",
         "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Winston-Salem",
+      "ronda": "3ª Ronda",
+      "evento": "M. Damm vs F. Marozsan",
+      "local": "M. Damm",
+      "visitante": "F. Marozsan",
+      "fecha": "2026-08-27",
+      "hora": "02:00",
+      "canales": [
+        "ATP Tennis TV"
       ]
     },
     {
@@ -731,10 +797,10 @@
     {
       "deporte": "Tenis",
       "competicion": "US Open",
-      "ronda": null,
-      "evento": "Semifinal Dobles Mixtos Grand Slam",
-      "local": null,
-      "visitante": null,
+      "ronda": "Grand Slam",
+      "evento": "K. Muchova | J. Mensik vs M. Andreeva | A. Rublev",
+      "local": "K. Muchova | J. Mensik",
+      "visitante": "M. Andreeva | A. Rublev",
       "fecha": "2026-08-27",
       "hora": "02:30",
       "canales": [
@@ -796,6 +862,20 @@
     },
     {
       "deporte": "Tenis",
+      "competicion": "WTA Torneo de Monterrey",
+      "ronda": "2ª Ronda",
+      "evento": "M. Chwalinska vs A. Parks",
+      "local": "M. Chwalinska",
+      "visitante": "A. Parks",
+      "fecha": "2026-08-27",
+      "hora": "03:30",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
       "competicion": "US Open",
       "ronda": null,
       "evento": "Final Dobles Mixtos Grand Slam",
@@ -832,6 +912,20 @@
       "hora": "04:30",
       "canales": [
         "CONCACAF YouTube"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Monterrey",
+      "ronda": "2ª Ronda",
+      "evento": "E. Alexandrova vs C. Tauson",
+      "local": "E. Alexandrova",
+      "visitante": "C. Tauson",
+      "fecha": "2026-08-27",
+      "hora": "05:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -1372,6 +1466,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Amistoso",
+      "ronda": null,
+      "evento": "Sevilla At. vs Tomares",
+      "local": "Sevilla At.",
+      "visitante": "Tomares",
+      "fecha": "2026-08-27",
+      "hora": "20:30",
+      "canales": [
+        "Sevilla FC +"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "Eurobasket",
       "ronda": "Fase de Clasificación",
@@ -1503,7 +1610,7 @@
       "fecha": "2026-08-27",
       "hora": "21:00",
       "canales": [
-        "Canal por confirmar"
+        "Getafe CF YouTube"
       ]
     },
     {
@@ -1758,7 +1865,8 @@
         "MotoGP Videopass",
         "DAZN (Ver en directo)",
         "DAZN MotoGP (M71 O105)",
-        "Aragón Deporte"
+        "Aragón Deporte",
+        "Aragón TV"
       ]
     },
     {
@@ -1898,7 +2006,8 @@
         "MotoGP Videopass",
         "DAZN (Ver en directo)",
         "DAZN MotoGP (M71 O105)",
-        "Aragón Deporte"
+        "Aragón Deporte",
+        "Aragón TV"
       ]
     },
     {
@@ -2138,7 +2247,7 @@
       "fecha": "2026-08-28",
       "hora": "19:00",
       "canales": [
-        "DAZN LaLiga (M55 O113)",
+        "DAZN LaLiga 2 (M58 O114)",
         "DAZN (Ver en directo)",
         "DAZN App Gratis (Ver gratis)",
         "LaLiga TV Bar"
@@ -2251,7 +2360,21 @@
       "hora": "20:00",
       "canales": [
         "OneFootball",
-        "M+ Vamos 2 (51)"
+        "M+ Vamos 2 (51)",
+        "M+ Liga de Campeones 2 (M61 O117)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Torneo de Playa de Aro",
+      "ronda": "Final Femenina",
+      "evento": "Spar Girona vs Manresa CBF",
+      "local": "Spar Girona",
+      "visitante": "Manresa CBF",
+      "fecha": "2026-08-28",
+      "hora": "20:00",
+      "canales": [
+        "La Xarxa+"
       ]
     },
     {
@@ -2537,6 +2660,7 @@
         "DAZN (Ver en directo)",
         "Movistar Plus+ (M7): VER PARTIDO",
         "M+ #Vamos Bar 2 (308)",
+        "DAZN 1 (M72)",
         "DAZN 1 Bar (M148)",
         "M+ Liga de Campeones (M60 O115)"
       ]
