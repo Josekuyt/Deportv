@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-08-26T16:47:00"
+    "actualizado": "2026-08-27T07:23:37"
   },
   "config": {
     "puntos_por_tier": {
@@ -57,7 +57,10 @@
       "tier": "D"
     },
     "Amistoso Femenino": {
-      "deporte": "Fútbol",
+      "deporte": [
+        "Fútbol",
+        "Baloncesto"
+      ],
       "tier": "D"
     },
     "ASEAN Cup": {
@@ -441,6 +444,91 @@
     },
     "Torneo de Playa de Aro": {
       "deporte": "Baloncesto",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Coupe de la LFFP": {
+      "deporte": "Fútbol",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Eredivisie": {
+      "deporte": "Fútbol",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Futsal Masters Cup": {
+      "deporte": "Fútbol Sala",
+      "tier": "A",
+      "por_revisar": true
+    },
+    "IndyCar": {
+      "deporte": "Automovilismo",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Liga F": {
+      "deporte": "Fútbol",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Liga Pro Serie B": {
+      "deporte": "Fútbol",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Lorient Agglomération Trophée": {
+      "deporte": "Ciclismo",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Maratón Sidney": {
+      "deporte": "Atletismo",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Moto2": {
+      "deporte": "Motociclismo",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Moto3": {
+      "deporte": "Motociclismo",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "National League South": {
+      "deporte": "Fútbol",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Premier League Ucrania": {
+      "deporte": "Fútbol",
+      "tier": "S",
+      "por_revisar": true
+    },
+    "Test Match": {
+      "deporte": "Rugby U",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Torneo Baloncesto Gijón": {
+      "deporte": "Baloncesto",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Título Continental": {
+      "deporte": "Boxeo",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Título Mundial": {
+      "deporte": "Boxeo",
+      "tier": "S",
+      "por_revisar": true
+    },
+    "UFC": {
+      "deporte": "MMA",
       "tier": "C",
       "por_revisar": true
     }
