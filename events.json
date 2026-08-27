@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-08-27T07:23:37",
+    "generado": "2026-08-27T18:50:41",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 315
+    "total_eventos": 323
   },
   "eventos": [
     {
@@ -21,27 +21,13 @@
     },
     {
       "deporte": "Tenis",
-      "competicion": "WTA Torneo de Monterrey",
-      "ronda": "2ª Ronda",
-      "evento": "P. Udvardy vs E. Mertens",
-      "local": "P. Udvardy",
-      "visitante": "E. Mertens",
-      "fecha": "2026-08-27",
-      "hora": "00:30",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
       "competicion": "Torneo de Winston-Salem",
       "ronda": "3ª Ronda",
       "evento": "A. Kovacevic vs S. Tsitsipas",
       "local": "A. Kovacevic",
       "visitante": "S. Tsitsipas",
       "fecha": "2026-08-27",
-      "hora": "00:30",
+      "hora": "00:35",
       "canales": [
         "ATP Tennis TV"
       ]
@@ -62,15 +48,16 @@
     },
     {
       "deporte": "Tenis",
-      "competicion": "Torneo de Winston-Salem",
-      "ronda": "3ª Ronda",
-      "evento": "M. Damm vs F. Marozsan",
-      "local": "M. Damm",
-      "visitante": "F. Marozsan",
+      "competicion": "WTA Torneo de Monterrey",
+      "ronda": "2ª Ronda",
+      "evento": "P. Udvardy vs E. Mertens",
+      "local": "P. Udvardy",
+      "visitante": "E. Mertens",
       "fecha": "2026-08-27",
-      "hora": "02:00",
+      "hora": "01:40",
       "canales": [
-        "ATP Tennis TV"
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -179,6 +166,19 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Winston-Salem",
+      "ronda": "3ª Ronda",
+      "evento": "M. Damm vs F. Marozsan",
+      "local": "M. Damm",
+      "visitante": "F. Marozsan",
+      "fecha": "2026-08-27",
+      "hora": "02:35",
+      "canales": [
+        "ATP Tennis TV"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "MLS Next Pro",
       "ronda": null,
@@ -199,7 +199,7 @@
       "local": "M. Chwalinska",
       "visitante": "A. Parks",
       "fecha": "2026-08-27",
-      "hora": "03:30",
+      "hora": "03:50",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -253,7 +253,7 @@
       "local": "E. Alexandrova",
       "visitante": "C. Tauson",
       "fecha": "2026-08-27",
-      "hora": "05:00",
+      "hora": "05:55",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -723,6 +723,19 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Winston-Salem",
+      "ronda": "1/4 de Final",
+      "evento": "B. Bonzi vs B. Van de Zandschulp",
+      "local": "B. Bonzi",
+      "visitante": "B. Van de Zandschulp",
+      "fecha": "2026-08-27",
+      "hora": "20:00",
+      "canales": [
+        "ATP Tennis TV"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Torneo Proyección",
       "ronda": null,
@@ -798,19 +811,6 @@
       "hora": "20:00",
       "canales": [
         "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Winston-Salem",
-      "ronda": null,
-      "evento": "1/4 de Final ATP 250",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-08-27",
-      "hora": "20:05",
-      "canales": [
-        "ATP Tennis TV"
       ]
     },
     {
@@ -960,7 +960,21 @@
       "canales": [
         "Getafe CF YouTube",
         "Movistar Plus+ (M7): VER PARTIDO",
-        "M+ Liga de Campeones (M60 O115)"
+        "M+ Liga de Campeones (M60 O115)",
+        "LaLiga TV M3"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Winston-Salem",
+      "ronda": "1/4 de Final",
+      "evento": "JM. Cerúndolo vs I. Buse",
+      "local": "JM. Cerúndolo",
+      "visitante": "I. Buse",
+      "fecha": "2026-08-27",
+      "hora": "22:00",
+      "canales": [
+        "ATP Tennis TV"
       ]
     },
     {
@@ -992,12 +1006,12 @@
     {
       "deporte": "Tenis",
       "competicion": "WTA Torneo de Monterrey",
-      "ronda": null,
-      "evento": "1/4 de Final WTA 500",
-      "local": null,
-      "visitante": null,
+      "ronda": "1/4 de Final",
+      "evento": "A. Parks vs A. Li",
+      "local": "A. Parks",
+      "visitante": "A. Li",
       "fecha": "2026-08-27",
-      "hora": "23:05",
+      "hora": "23:00",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -1014,6 +1028,33 @@
       "hora": "00:10",
       "canales": [
         "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Monterrey",
+      "ronda": "1/4 de Final",
+      "evento": "D. Vidmanova vs N. Bartunkova",
+      "local": "D. Vidmanova",
+      "visitante": "N. Bartunkova",
+      "fecha": "2026-08-28",
+      "hora": "00:30",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Winston-Salem",
+      "ronda": "1/4 de Final",
+      "evento": "A. Fery vs A. Kovacevic",
+      "local": "A. Fery",
+      "visitante": "A. Kovacevic",
+      "fecha": "2026-08-28",
+      "hora": "00:30",
+      "canales": [
+        "ATP Tennis TV"
       ]
     },
     {
@@ -1096,6 +1137,19 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Winston-Salem",
+      "ronda": "1/4 de Final",
+      "evento": "F. Marozsan vs J. Duckworth",
+      "local": "F. Marozsan",
+      "visitante": "J. Duckworth",
+      "fecha": "2026-08-28",
+      "hora": "02:00",
+      "canales": [
+        "ATP Tennis TV"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "WNBA",
       "ronda": "Liga Regular",
@@ -1134,6 +1188,20 @@
       "canales": [
         "DAZN (Ver en directo)",
         "DAZN App Gratis (Ver gratis)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Monterrey",
+      "ronda": "1/4 de Final",
+      "evento": "C. Tauson vs D. Parry",
+      "local": "C. Tauson",
+      "visitante": "D. Parry",
+      "fecha": "2026-08-28",
+      "hora": "03:30",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -1216,6 +1284,20 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Monterrey",
+      "ronda": "1/4 de Final",
+      "evento": "Y. Starodubtseva vs E. Mertens",
+      "local": "Y. Starodubtseva",
+      "visitante": "E. Mertens",
+      "fecha": "2026-08-28",
+      "hora": "05:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "FIBA Copa Mundial",
       "ronda": "Fase de Clasificación",
@@ -1226,6 +1308,19 @@
       "hora": "08:00",
       "canales": [
         "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Juegos Mediterráneos",
+      "ronda": "Semifinales",
+      "evento": "Italia vs Túnez",
+      "local": "Italia",
+      "visitante": "Túnez",
+      "fecha": "2026-08-28",
+      "hora": "10:30",
+      "canales": [
+        "Eurovision Sports TV"
       ]
     },
     {
@@ -1290,11 +1385,11 @@
       "deporte": "Ciclismo",
       "competicion": "Vuelta a España",
       "ronda": null,
-      "evento": "Etapa 7",
+      "evento": "Etapa 7 Vall d'Alba › Aramón Valdelinares (149,8 km)",
       "local": null,
       "visitante": null,
       "fecha": "2026-08-28",
-      "hora": "13:30",
+      "hora": "13:20",
       "canales": [
         "HBO MAX",
         "DAZN (Ver en directo)",
@@ -1370,6 +1465,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Premier League Ucrania",
+      "ronda": null,
+      "evento": "FC Kolos Kovalivka vs FC Obolón-Brovar",
+      "local": "FC Kolos Kovalivka",
+      "visitante": "FC Obolón-Brovar",
+      "fecha": "2026-08-28",
+      "hora": "14:30",
+      "canales": [
+        "OneFootball PPV"
+      ]
+    },
+    {
       "deporte": "Motociclismo",
       "competicion": "MotoGP",
       "ronda": null,
@@ -1397,6 +1505,23 @@
       "hora": "15:00",
       "canales": [
         "Movistar Golf 2 (M68)"
+      ]
+    },
+    {
+      "deporte": "Ciclismo",
+      "competicion": "Vuelta a España",
+      "ronda": null,
+      "evento": "Etapa 7 Vall d'Alba › Aramón Valdelinares (149,8 km)",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-08-28",
+      "hora": "15:50",
+      "canales": [
+        "HBO MAX",
+        "DAZN (Ver en directo)",
+        "La 1 TVE",
+        "RTVE Play",
+        "Eurosport 1"
       ]
     },
     {
@@ -1492,6 +1617,20 @@
       "hora": "18:30",
       "canales": [
         "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Bundesliga Femenina",
+      "ronda": null,
+      "evento": "FC Köln Femenino vs Hoffenheim Femenino",
+      "local": "FC Köln Femenino",
+      "visitante": "Hoffenheim Femenino",
+      "fecha": "2026-08-28",
+      "hora": "18:30",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
@@ -2011,6 +2150,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Juegos Mediterráneos",
+      "ronda": "Semifinales",
+      "evento": "Argelia vs Marruecos",
+      "local": "Argelia",
+      "visitante": "Marruecos",
+      "fecha": "2026-08-28",
+      "hora": "21:00",
+      "canales": [
+        "Eurovision Sports TV"
+      ]
+    },
+    {
       "deporte": "Rugby L",
       "competicion": "Betfred Super League",
       "ronda": null,
@@ -2277,110 +2429,6 @@
     },
     {
       "deporte": "Fútbol",
-      "competicion": "Premier League Ucrania",
-      "ronda": null,
-      "evento": "Shakhtar Donetsk vs FC Polissya Zhytomyr",
-      "local": "Shakhtar Donetsk",
-      "visitante": "FC Polissya Zhytomyr",
-      "fecha": "2026-08-29",
-      "hora": "02:00",
-      "canales": [
-        "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Premier League Ucrania",
-      "ronda": null,
-      "evento": "Chernomorets Odessa vs FC Kryvbas",
-      "local": "Chernomorets Odessa",
-      "visitante": "FC Kryvbas",
-      "fecha": "2026-08-29",
-      "hora": "02:00",
-      "canales": [
-        "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Premier League Ucrania",
-      "ronda": null,
-      "evento": "Zorya vs Metalist 1925 Kharkiv",
-      "local": "Zorya",
-      "visitante": "Metalist 1925 Kharkiv",
-      "fecha": "2026-08-29",
-      "hora": "02:00",
-      "canales": [
-        "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Premier League Ucrania",
-      "ronda": null,
-      "evento": "FC Kolos Kovalivka vs FC Obolón-Brovar",
-      "local": "FC Kolos Kovalivka",
-      "visitante": "FC Obolón-Brovar",
-      "fecha": "2026-08-29",
-      "hora": "02:00",
-      "canales": [
-        "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Premier League Ucrania",
-      "ronda": null,
-      "evento": "LNZ Cherkasy vs NK Veres Rivne",
-      "local": "LNZ Cherkasy",
-      "visitante": "NK Veres Rivne",
-      "fecha": "2026-08-29",
-      "hora": "02:00",
-      "canales": [
-        "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Premier League Ucrania",
-      "ronda": null,
-      "evento": "Livyi Bereh vs Karpaty Lviv",
-      "local": "Livyi Bereh",
-      "visitante": "Karpaty Lviv",
-      "fecha": "2026-08-29",
-      "hora": "02:00",
-      "canales": [
-        "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Premier League Ucrania",
-      "ronda": null,
-      "evento": "FC Kudrivka vs FC Epitsentr",
-      "local": "FC Kudrivka",
-      "visitante": "FC Epitsentr",
-      "fecha": "2026-08-29",
-      "hora": "02:00",
-      "canales": [
-        "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Premier League Ucrania",
-      "ronda": null,
-      "evento": "FSC Bukovyna Chernivtsi vs Dynamo Kyiv",
-      "local": "FSC Bukovyna Chernivtsi",
-      "visitante": "Dynamo Kyiv",
-      "fecha": "2026-08-29",
-      "hora": "02:00",
-      "canales": [
-        "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
       "competicion": "Liga Pro Ecuador",
       "ronda": null,
       "evento": "Técnico Universitario vs Deportivo Cuenca",
@@ -2617,6 +2665,19 @@
         "DAZN MotoGP (M71 O105)",
         "Aragón Deporte",
         "Aragón TV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Premier League Ucrania",
+      "ronda": null,
+      "evento": "FC Kudrivka vs FC Epitsentr",
+      "local": "FC Kudrivka",
+      "visitante": "FC Epitsentr",
+      "fecha": "2026-08-29",
+      "hora": "12:00",
+      "canales": [
+        "OneFootball PPV"
       ]
     },
     {
@@ -2869,6 +2930,20 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Bundesliga Femenina",
+      "ronda": null,
+      "evento": "Stuttgart Frauen vs Hamburger SV Frauen",
+      "local": "Stuttgart Frauen",
+      "visitante": "Hamburger SV Frauen",
+      "fecha": "2026-08-29",
+      "hora": "14:00",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "3. Liga",
       "ronda": null,
       "evento": "Duisburg vs Würzburger Kickers",
@@ -2917,6 +2992,19 @@
       "hora": "14:30",
       "canales": [
         "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Premier League Ucrania",
+      "ronda": null,
+      "evento": "Livyi Bereh vs Karpaty Lviv",
+      "local": "Livyi Bereh",
+      "visitante": "Karpaty Lviv",
+      "fecha": "2026-08-29",
+      "hora": "14:30",
+      "canales": [
+        "OneFootball PPV"
       ]
     },
     {
@@ -3181,6 +3269,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Premier League Ucrania",
+      "ronda": null,
+      "evento": "Shakhtar Donetsk vs FC Polissya Zhytomyr",
+      "local": "Shakhtar Donetsk",
+      "visitante": "FC Polissya Zhytomyr",
+      "fecha": "2026-08-29",
+      "hora": "17:00",
+      "canales": [
+        "OneFootball PPV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Admiral Bundesliga",
       "ronda": null,
       "evento": "Grazer AK 1902 vs Wolfsberger AC",
@@ -3331,6 +3432,7 @@
       "hora": "18:05",
       "canales": [
         "M+ Vamos 2 (51)",
+        "M+ #Vamos Bar 2 (308)",
         "M+ Liga de Campeones 2 (M61 O117)"
       ]
     },
@@ -3592,6 +3694,19 @@
       "canales": [
         "DAZN (Ver en directo)",
         "DAZN App Gratis (Ver gratis)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Premier Islandia",
+      "ronda": null,
+      "evento": "ÍBV vs Thor Akureyri",
+      "local": "ÍBV",
+      "visitante": "Thor Akureyri",
+      "fecha": "2026-08-29",
+      "hora": "19:00",
+      "canales": [
+        "OneFootball PPV"
       ]
     },
     {
@@ -3890,6 +4005,7 @@
       "hora": "20:00",
       "canales": [
         "M+ Vamos 3 (53)",
+        "M+ #Vamos Bar 2 (308)",
         "M+ Liga de Campeones 3 (M62 O118)"
       ]
     },
@@ -3930,19 +4046,6 @@
       "hora": "20:30",
       "canales": [
         "Canal por confirmar"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Primera Nacional Argentina",
-      "ronda": null,
-      "evento": "Midland vs Nueva Chicago",
-      "local": "Midland",
-      "visitante": "Nueva Chicago",
-      "fecha": "2026-08-29",
-      "hora": "20:30",
-      "canales": [
-        "LPF Play"
       ]
     },
     {
@@ -4147,6 +4250,19 @@
         "DAZN (Ver en directo)",
         "DAZN 1 (M72)",
         "DAZN 1 Bar (M148)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera Nacional Argentina",
+      "ronda": null,
+      "evento": "Midland vs Nueva Chicago",
+      "local": "Midland",
+      "visitante": "Nueva Chicago",
+      "fecha": "2026-08-29",
+      "hora": "21:30",
+      "canales": [
+        "LPF Play"
       ]
     },
     {
