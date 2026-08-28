@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-08-27T18:50:41"
+    "actualizado": "2026-08-28T09:38:32"
   },
   "config": {
     "puntos_por_tier": {
@@ -534,6 +534,71 @@
     },
     "Liga Premier Islandia": {
       "deporte": "Fútbol",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Bretagne Classic": {
+      "deporte": "Ciclismo",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Campeonato Femenino": {
+      "deporte": "Fútbol",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Copa de Oro Futsal AFA": {
+      "deporte": "Fútbol Sala",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "DFB Pokal Junior": {
+      "deporte": "Fútbol",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "J1 League": {
+      "deporte": "Fútbol",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Jupiler Pro League": {
+      "deporte": "Fútbol",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Liga Futve": {
+      "deporte": "Fútbol",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "NASCAR Cup Series": {
+      "deporte": "Automovilismo",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Premier Liga rusa": {
+      "deporte": "Fútbol",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Segunda Uruguay": {
+      "deporte": "Fútbol",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Torneo Federal A": {
+      "deporte": "Fútbol",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Torneo Promocional Amateur": {
+      "deporte": "Fútbol",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Velada": {
+      "deporte": "Boxeo",
       "tier": "C",
       "por_revisar": true
     }
