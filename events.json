@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-08-29T00:24:28",
+    "generado": "2026-08-29T13:37:37",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 423
+    "total_eventos": 438
   },
   "eventos": [
     {
@@ -44,34 +44,6 @@
       "hora": "00:00",
       "canales": [
         "Fanatiz (Ver en directo)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Winston-Salem",
-      "ronda": "ATP 250",
-      "evento": "J. Duckworth vs A. Fery",
-      "local": "J. Duckworth",
-      "visitante": "A. Fery",
-      "fecha": "2026-08-29",
-      "hora": "00:30",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes 2 (64)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Torneo de Monterrey",
-      "ronda": "WTA 500",
-      "evento": "D. Parry vs A. Li",
-      "local": "D. Parry",
-      "visitante": "A. Li",
-      "fecha": "2026-08-29",
-      "hora": "01:00",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -139,6 +111,34 @@
       "hora": "01:00",
       "canales": [
         "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Monterrey",
+      "ronda": "WTA 500",
+      "evento": "D. Parry vs A. Li",
+      "local": "D. Parry",
+      "visitante": "A. Li",
+      "fecha": "2026-08-29",
+      "hora": "01:05",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Winston-Salem",
+      "ronda": "ATP 250",
+      "evento": "J. Duckworth vs A. Fery",
+      "local": "J. Duckworth",
+      "visitante": "A. Fery",
+      "fecha": "2026-08-29",
+      "hora": "01:10",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -307,20 +307,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "WTA Torneo de Monterrey",
-      "ronda": "WTA 500",
-      "evento": "N. Bartunkova vs E. Mertens",
-      "local": "N. Bartunkova",
-      "visitante": "E. Mertens",
-      "fecha": "2026-08-29",
-      "hora": "03:00",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "Primera Nacional Argentina",
       "ronda": null,
@@ -361,6 +347,20 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Monterrey",
+      "ronda": "WTA 500",
+      "evento": "N. Bartunkova vs E. Mertens",
+      "local": "N. Bartunkova",
+      "visitante": "E. Mertens",
+      "fecha": "2026-08-29",
+      "hora": "03:30",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "NWSL",
       "ronda": null,
@@ -371,6 +371,19 @@
       "hora": "04:00",
       "canales": [
         "NWSL+"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Amistoso",
+      "ronda": null,
+      "evento": "Cádiz Mirandilla vs Club Atlético Central",
+      "local": "Cádiz Mirandilla",
+      "visitante": "Club Atlético Central",
+      "fecha": "2026-08-29",
+      "hora": "10:00",
+      "canales": [
+        "Plaiz"
       ]
     },
     {
@@ -498,7 +511,8 @@
       "fecha": "2026-08-29",
       "hora": "12:00",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN 3 (M196)"
       ]
     },
     {
@@ -1090,10 +1104,10 @@
     {
       "deporte": "Hockey Hierba",
       "competicion": "FIH Copa Mundial Femenina",
-      "ronda": null,
-      "evento": "Final",
-      "local": null,
-      "visitante": null,
+      "ronda": "Final",
+      "evento": "Holanda vs Argentina",
+      "local": "Holanda",
+      "visitante": "Argentina",
       "fecha": "2026-08-29",
       "hora": "16:05",
       "canales": [
@@ -1128,20 +1142,6 @@
       "hora": "16:30",
       "canales": [
         "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Hockey Hierba",
-      "competicion": "FIH Copa Mundial Masculina",
-      "ronda": null,
-      "evento": "Final",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-08-29",
-      "hora": "16:35",
-      "canales": [
-        "Teledeporte",
-        "RTVE Play"
       ]
     },
     {
@@ -1446,7 +1446,8 @@
       "hora": "18:30",
       "canales": [
         "DAZN (Ver en directo)",
-        "Movistar Plus+ (M7): VER PARTIDO"
+        "Movistar Plus+ (M7): VER PARTIDO",
+        "M+ Liga de Campeones (M60 O115)"
       ]
     },
     {
@@ -2166,20 +2167,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Winston-Salem",
-      "ronda": null,
-      "evento": "Final ATP 250",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-08-29",
-      "hora": "21:00",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes 2 (64)"
-      ]
-    },
-    {
       "deporte": "Baloncesto",
       "competicion": "Torneo Baloncesto Gijón",
       "ronda": null,
@@ -2189,7 +2176,21 @@
       "fecha": "2026-08-29",
       "hora": "21:00",
       "canales": [
-        "Club Joventut Badalona YouTube"
+        "Club Joventut Badalona YouTube",
+        "VinxTV"
+      ]
+    },
+    {
+      "deporte": "Fútbol Sala",
+      "competicion": "Copa de Oro Futsal AFA",
+      "ronda": null,
+      "evento": "Jockey Club Rosario FS vs Barracas Central FS",
+      "local": "Jockey Club Rosario FS",
+      "visitante": "Barracas Central FS",
+      "fecha": "2026-08-29",
+      "hora": "21:00",
+      "canales": [
+        "LPF Play"
       ]
     },
     {
@@ -2278,6 +2279,20 @@
       "hora": "22:00",
       "canales": [
         "Antel TV Internacional"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Winston-Salem",
+      "ronda": "ATP 250",
+      "evento": "A. Fery vs I. Buse",
+      "local": "A. Fery",
+      "visitante": "I. Buse",
+      "fecha": "2026-08-29",
+      "hora": "22:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -2387,20 +2402,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "WTA Torneo de Monterrey",
-      "ronda": null,
-      "evento": "Final WTA 500",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-08-29",
-      "hora": "23:00",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "Liga Pro Ecuador",
       "ronda": null,
@@ -2411,6 +2412,19 @@
       "hora": "23:00",
       "canales": [
         "Zapping Internacional"
+      ]
+    },
+    {
+      "deporte": "Fútbol Sala",
+      "competicion": "Copa de Oro Futsal AFA",
+      "ronda": null,
+      "evento": "América del Sud FS vs Futsal Regatas Rosario",
+      "local": "América del Sud FS",
+      "visitante": "Futsal Regatas Rosario",
+      "fecha": "2026-08-29",
+      "hora": "23:00",
+      "canales": [
+        "LPF Play"
       ]
     },
     {
@@ -2581,6 +2595,20 @@
       "hora": "01:00",
       "canales": [
         "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Monterrey",
+      "ronda": "WTA 500",
+      "evento": "D. Parry vs E. Mertens",
+      "local": "D. Parry",
+      "visitante": "E. Mertens",
+      "fecha": "2026-08-30",
+      "hora": "01:30",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -3452,6 +3480,20 @@
       ]
     },
     {
+      "deporte": "Hockey Hierba",
+      "competicion": "FIH Copa Mundial Masculina",
+      "ronda": "Final",
+      "evento": "España vs Alemania",
+      "local": "España",
+      "visitante": "Alemania",
+      "fecha": "2026-08-30",
+      "hora": "16:35",
+      "canales": [
+        "Teledeporte",
+        "RTVE Play"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Eredivisie",
       "ronda": null,
@@ -3592,6 +3634,32 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "US Open WTA",
+      "ronda": "1ª Ronda",
+      "evento": "J. Paolini vs V. Erjavec",
+      "local": "J. Paolini",
+      "visitante": "V. Erjavec",
+      "fecha": "2026-08-30",
+      "hora": "17:00",
+      "canales": [
+        "M+ Deportes 3 (65)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open WTA",
+      "ronda": "1ª Ronda",
+      "evento": "K. Rakhimova vs B. Krejcikova",
+      "local": "K. Rakhimova",
+      "visitante": "B. Krejcikova",
+      "fecha": "2026-08-30",
+      "hora": "17:00",
+      "canales": [
+        "M+ Deportes 5 (192)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Liga F",
       "ronda": null,
@@ -3601,7 +3669,8 @@
       "fecha": "2026-08-30",
       "hora": "17:00",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN 4 (M197)"
       ]
     },
     {
@@ -3793,6 +3862,32 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "US Open WTA",
+      "ronda": "1ª Ronda",
+      "evento": "J. Pegula vs EG. Ruse",
+      "local": "J. Pegula",
+      "visitante": "EG. Ruse",
+      "fecha": "2026-08-30",
+      "hora": "18:00",
+      "canales": [
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open",
+      "ronda": "1ª Ronda",
+      "evento": "C. Wong vs T. Paul",
+      "local": "C. Wong",
+      "visitante": "T. Paul",
+      "fecha": "2026-08-30",
+      "hora": "18:30",
+      "canales": [
+        "M+ Deportes 3 (65)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "NWSL",
       "ronda": null,
@@ -3817,6 +3912,19 @@
       "canales": [
         "TV FootballClub (Acceder)",
         "FANPLAY TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open WTA",
+      "ronda": "1ª Ronda",
+      "evento": "S. Zhang vs L. Fernández",
+      "local": "S. Zhang",
+      "visitante": "L. Fernández",
+      "fecha": "2026-08-30",
+      "hora": "18:30",
+      "canales": [
+        "M+ Deportes 5 (192)"
       ]
     },
     {
@@ -4061,6 +4169,19 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "US Open",
+      "ronda": "1ª Ronda",
+      "evento": "D. Medvedev vs H. Gaston",
+      "local": "D. Medvedev",
+      "visitante": "H. Gaston",
+      "fecha": "2026-08-30",
+      "hora": "19:30",
+      "canales": [
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "3. Liga",
       "ronda": null,
@@ -4127,6 +4248,19 @@
       "canales": [
         "101 TV (Málaga)",
         "TV Melilla"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open",
+      "ronda": "1ª Ronda",
+      "evento": "J. Faria vs J. Brooksby",
+      "local": "J. Faria",
+      "visitante": "J. Brooksby",
+      "fecha": "2026-08-30",
+      "hora": "20:00",
+      "canales": [
+        "M+ Deportes 5 (192)"
       ]
     },
     {
@@ -4839,6 +4973,33 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "US Open",
+      "ronda": "1ª Ronda",
+      "evento": "M. Navone vs N. Djokovic",
+      "local": "M. Navone",
+      "visitante": "N. Djokovic",
+      "fecha": "2026-08-31",
+      "hora": "01:00",
+      "canales": [
+        "Movistar Plus+ (M7): VER PARTIDO",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open",
+      "ronda": "1ª Ronda",
+      "evento": "A. Michelsen vs F. Cina",
+      "local": "A. Michelsen",
+      "visitante": "F. Cina",
+      "fecha": "2026-08-31",
+      "hora": "01:00",
+      "canales": [
+        "M+ Deportes 5 (192)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Liga Pro Ecuador",
       "ronda": null,
@@ -4931,6 +5092,19 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "US Open WTA",
+      "ronda": "1ª Ronda",
+      "evento": "E. Svitolina vs S. Sierra",
+      "local": "E. Svitolina",
+      "visitante": "S. Sierra",
+      "fecha": "2026-08-31",
+      "hora": "01:00",
+      "canales": [
+        "M+ Deportes 3 (65)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "MLS",
       "ronda": null,
@@ -4971,6 +5145,19 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "US Open",
+      "ronda": "1ª Ronda",
+      "evento": "A. Bublik vs J. Wolf",
+      "local": "A. Bublik",
+      "visitante": "J. Wolf",
+      "fecha": "2026-08-31",
+      "hora": "02:30",
+      "canales": [
+        "M+ Deportes 3 (65)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Primera División Argentina",
       "ronda": "Torneo Clausura",
@@ -4981,6 +5168,19 @@
       "hora": "02:30",
       "canales": [
         "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open WTA",
+      "ronda": "1ª Ronda",
+      "evento": "V. Williams vs S. Kenin",
+      "local": "V. Williams",
+      "visitante": "S. Kenin",
+      "fecha": "2026-08-31",
+      "hora": "03:00",
+      "canales": [
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -5270,19 +5470,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "US Open",
-      "ronda": null,
-      "evento": "1ª Ronda Grand Slam",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-08-31",
-      "hora": "17:00",
-      "canales": [
-        "M+ Deportes 2 (64)"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "Premier League Ucrania",
       "ronda": null,
@@ -5297,13 +5484,26 @@
     },
     {
       "deporte": "Tenis",
+      "competicion": "US Open",
+      "ronda": null,
+      "evento": "1ª Ronda Grand Slam",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-08-31",
+      "hora": "17:05",
+      "canales": [
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
       "competicion": "US Open WTA",
       "ronda": null,
       "evento": "1ª Ronda Grand Slam",
       "local": null,
       "visitante": null,
       "fecha": "2026-08-31",
-      "hora": "17:00",
+      "hora": "17:05",
       "canales": [
         "M+ Deportes 2 (64)"
       ]
