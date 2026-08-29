@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-08-28T09:38:32"
+    "actualizado": "2026-08-29T00:24:28"
   },
   "config": {
     "puntos_por_tier": {
@@ -600,6 +600,21 @@
     "Velada": {
       "deporte": "Boxeo",
       "tier": "C",
+      "por_revisar": true
+    },
+    "NCAA": {
+      "deporte": "Fútbol Americano",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "National League North": {
+      "deporte": "Fútbol",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "US Open WTA": {
+      "deporte": "Tenis",
+      "tier": "S",
       "por_revisar": true
     }
   }
