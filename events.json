@@ -1,2458 +1,11 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-08-29T19:12:32",
+    "generado": "2026-08-30T03:44:43",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 438
+    "total_eventos": 314
   },
   "eventos": [
-    {
-      "deporte": "Fútbol",
-      "competicion": "Liga AUF Uruguaya",
-      "ronda": null,
-      "evento": "Montevideo Wanderers vs Central Español",
-      "local": "Montevideo Wanderers",
-      "visitante": "Central Español",
-      "fecha": "2026-08-29",
-      "hora": "00:00",
-      "canales": [
-        "Antel TV Internacional"
-      ]
-    },
-    {
-      "deporte": "Fútbol Americano",
-      "competicion": "NFL Pretemporada",
-      "ronda": null,
-      "evento": "Baltimore Ravens vs Washington Commanders",
-      "local": "Baltimore Ravens",
-      "visitante": "Washington Commanders",
-      "fecha": "2026-08-29",
-      "hora": "00:00",
-      "canales": [
-        "DAZN (Ver en directo)",
-        "DAZN App Gratis (Ver gratis)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Primera División Argentina",
-      "ronda": "Torneo Clausura",
-      "evento": "Unión Santa Fe vs Sarmiento",
-      "local": "Unión Santa Fe",
-      "visitante": "Sarmiento",
-      "fecha": "2026-08-29",
-      "hora": "00:00",
-      "canales": [
-        "Fanatiz (Ver en directo)"
-      ]
-    },
-    {
-      "deporte": "Fútbol Americano",
-      "competicion": "NFL Pretemporada",
-      "ronda": null,
-      "evento": "Miami Dolphins vs Atlanta Falcons",
-      "local": "Miami Dolphins",
-      "visitante": "Atlanta Falcons",
-      "fecha": "2026-08-29",
-      "hora": "01:00",
-      "canales": [
-        "DAZN (Ver en directo)",
-        "DAZN App Gratis (Ver gratis)"
-      ]
-    },
-    {
-      "deporte": "Fútbol Americano",
-      "competicion": "NFL Pretemporada",
-      "ronda": null,
-      "evento": "Carolina Panthers vs Houston Texans",
-      "local": "Carolina Panthers",
-      "visitante": "Houston Texans",
-      "fecha": "2026-08-29",
-      "hora": "01:00",
-      "canales": [
-        "DAZN (Ver en directo)",
-        "DAZN App Gratis (Ver gratis)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "MLS Next Pro",
-      "ronda": null,
-      "evento": "Toronto FC II vs New York City 2",
-      "local": "Toronto FC II",
-      "visitante": "New York City 2",
-      "fecha": "2026-08-29",
-      "hora": "01:00",
-      "canales": [
-        "OneFootball"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "MLS Next Pro",
-      "ronda": null,
-      "evento": "Inter Miami CF II vs Atlanta United 2",
-      "local": "Inter Miami CF II",
-      "visitante": "Atlanta United 2",
-      "fecha": "2026-08-29",
-      "hora": "01:00",
-      "canales": [
-        "OneFootball"
-      ]
-    },
-    {
-      "deporte": "Fútbol Sala",
-      "competicion": "Copa de Oro Futsal AFA",
-      "ronda": null,
-      "evento": "Barracas Central FS vs CSD Pinocho",
-      "local": "Barracas Central FS",
-      "visitante": "CSD Pinocho",
-      "fecha": "2026-08-29",
-      "hora": "01:00",
-      "canales": [
-        "LPF Play"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Torneo de Monterrey",
-      "ronda": "WTA 500",
-      "evento": "D. Parry vs A. Li",
-      "local": "D. Parry",
-      "visitante": "A. Li",
-      "fecha": "2026-08-29",
-      "hora": "01:05",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Winston-Salem",
-      "ronda": "ATP 250",
-      "evento": "J. Duckworth vs A. Fery",
-      "local": "J. Duckworth",
-      "visitante": "A. Fery",
-      "fecha": "2026-08-29",
-      "hora": "01:10",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes 2 (64)"
-      ]
-    },
-    {
-      "deporte": "Fútbol Americano",
-      "competicion": "NFL Pretemporada",
-      "ronda": null,
-      "evento": "New York Jets vs New York Giants",
-      "local": "New York Jets",
-      "visitante": "New York Giants",
-      "fecha": "2026-08-29",
-      "hora": "01:30",
-      "canales": [
-        "DAZN (Ver en directo)",
-        "DAZN App Gratis (Ver gratis)"
-      ]
-    },
-    {
-      "deporte": "Fútbol Americano",
-      "competicion": "NFL Pretemporada",
-      "ronda": null,
-      "evento": "Jacksonville Jaguars vs Tampa Bay Buccaneers",
-      "local": "Jacksonville Jaguars",
-      "visitante": "Tampa Bay Buccaneers",
-      "fecha": "2026-08-29",
-      "hora": "01:30",
-      "canales": [
-        "DAZN (Ver en directo)",
-        "DAZN App Gratis (Ver gratis)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Liga Pro Ecuador",
-      "ronda": null,
-      "evento": "Técnico Universitario vs Deportivo Cuenca",
-      "local": "Técnico Universitario",
-      "visitante": "Deportivo Cuenca",
-      "fecha": "2026-08-29",
-      "hora": "02:00",
-      "canales": [
-        "Zapping Internacional"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "NWSL",
-      "ronda": null,
-      "evento": "NJ/NY Gotham FC vs Portland Thorns",
-      "local": "NJ/NY Gotham FC",
-      "visitante": "Portland Thorns",
-      "fecha": "2026-08-29",
-      "hora": "02:00",
-      "canales": [
-        "NWSL+"
-      ]
-    },
-    {
-      "deporte": "Fútbol Americano",
-      "competicion": "NFL Pretemporada",
-      "ronda": null,
-      "evento": "Green Bay Packers vs Arizona Cardinals",
-      "local": "Green Bay Packers",
-      "visitante": "Arizona Cardinals",
-      "fecha": "2026-08-29",
-      "hora": "02:00",
-      "canales": [
-        "DAZN (Ver en directo)",
-        "DAZN App Gratis (Ver gratis)"
-      ]
-    },
-    {
-      "deporte": "Fútbol Americano",
-      "competicion": "NFL Pretemporada",
-      "ronda": null,
-      "evento": "Dallas Cowboys vs New Orleans Saints",
-      "local": "Dallas Cowboys",
-      "visitante": "New Orleans Saints",
-      "fecha": "2026-08-29",
-      "hora": "02:00",
-      "canales": [
-        "DAZN (Ver en directo)",
-        "DAZN App Gratis (Ver gratis)"
-      ]
-    },
-    {
-      "deporte": "Fútbol Americano",
-      "competicion": "NFL Pretemporada",
-      "ronda": null,
-      "evento": "Philadelphia Eagles vs Cincinnati Bengals",
-      "local": "Philadelphia Eagles",
-      "visitante": "Cincinnati Bengals",
-      "fecha": "2026-08-29",
-      "hora": "02:00",
-      "canales": [
-        "DAZN (Ver en directo)",
-        "DAZN App Gratis (Ver gratis)"
-      ]
-    },
-    {
-      "deporte": "Fútbol Americano",
-      "competicion": "NFL Pretemporada",
-      "ronda": null,
-      "evento": "Kansas City Chiefs vs Seattle Seahawks",
-      "local": "Kansas City Chiefs",
-      "visitante": "Seattle Seahawks",
-      "fecha": "2026-08-29",
-      "hora": "02:00",
-      "canales": [
-        "DAZN (Ver en directo)",
-        "DAZN App Gratis (Ver gratis)"
-      ]
-    },
-    {
-      "deporte": "Boxeo",
-      "competicion": "Título Continental",
-      "ronda": "Peso Ligero",
-      "evento": "C. Marksman vs C. Barreto",
-      "local": "C. Marksman",
-      "visitante": "C. Barreto",
-      "fecha": "2026-08-29",
-      "hora": "02:00",
-      "canales": [
-        "DAZN (Ver en directo)",
-        "DAZN 2 (M73)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "MLS Next Pro",
-      "ronda": null,
-      "evento": "St. Louis City SC 2 vs North Texas SC",
-      "local": "St. Louis City SC 2",
-      "visitante": "North Texas SC",
-      "fecha": "2026-08-29",
-      "hora": "02:00",
-      "canales": [
-        "OneFootball"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "MLS Next Pro",
-      "ronda": null,
-      "evento": "Colorado Rapids 2 vs Ventura County",
-      "local": "Colorado Rapids 2",
-      "visitante": "Ventura County",
-      "fecha": "2026-08-29",
-      "hora": "02:00",
-      "canales": [
-        "OneFootball"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Primera División Argentina",
-      "ronda": "Torneo Clausura",
-      "evento": "Boca Juniors vs Lanús",
-      "local": "Boca Juniors",
-      "visitante": "Lanús",
-      "fecha": "2026-08-29",
-      "hora": "02:30",
-      "canales": [
-        "M+ Vamos 2 (51)",
-        "Fanatiz (Ver en directo)",
-        "M+ Liga de Campeones (M60 O115)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Primera Nacional Argentina",
-      "ronda": null,
-      "evento": "Gimnasia y Tiro vs Chacarita Juniors",
-      "local": "Gimnasia y Tiro",
-      "visitante": "Chacarita Juniors",
-      "fecha": "2026-08-29",
-      "hora": "03:00",
-      "canales": [
-        "LPF Play"
-      ]
-    },
-    {
-      "deporte": "Fútbol Americano",
-      "competicion": "NFL Pretemporada",
-      "ronda": null,
-      "evento": "Denver Broncos vs Minnesota Vikings",
-      "local": "Denver Broncos",
-      "visitante": "Minnesota Vikings",
-      "fecha": "2026-08-29",
-      "hora": "03:00",
-      "canales": [
-        "DAZN (Ver en directo)",
-        "DAZN App Gratis (Ver gratis)"
-      ]
-    },
-    {
-      "deporte": "Fútbol Sala",
-      "competicion": "Copa de Oro Futsal AFA",
-      "ronda": null,
-      "evento": "Futsal Regatas Rosario vs CS Argentino Sirio FS",
-      "local": "Futsal Regatas Rosario",
-      "visitante": "CS Argentino Sirio FS",
-      "fecha": "2026-08-29",
-      "hora": "03:00",
-      "canales": [
-        "LPF Play"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Torneo de Monterrey",
-      "ronda": "WTA 500",
-      "evento": "N. Bartunkova vs E. Mertens",
-      "local": "N. Bartunkova",
-      "visitante": "E. Mertens",
-      "fecha": "2026-08-29",
-      "hora": "03:30",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "NWSL",
-      "ronda": null,
-      "evento": "San Diego Wave FC vs Racing Louisville",
-      "local": "San Diego Wave FC",
-      "visitante": "Racing Louisville",
-      "fecha": "2026-08-29",
-      "hora": "04:00",
-      "canales": [
-        "NWSL+"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Amistoso",
-      "ronda": null,
-      "evento": "Cádiz Mirandilla vs Club Atlético Central",
-      "local": "Cádiz Mirandilla",
-      "visitante": "Club Atlético Central",
-      "fecha": "2026-08-29",
-      "hora": "10:00",
-      "canales": [
-        "Plaiz"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Amistoso Sub-18",
-      "ronda": null,
-      "evento": "España vs Uruguay",
-      "local": "España",
-      "visitante": "Uruguay",
-      "fecha": "2026-08-29",
-      "hora": "10:00",
-      "canales": [
-        "SeFutbol YouTube",
-        "Twitter @SeFutbol",
-        "Facebook SeFutbol",
-        "RFEF.es"
-      ]
-    },
-    {
-      "deporte": "MMA",
-      "competicion": "UFC",
-      "ronda": "UFC Fight Night",
-      "evento": "U. Nurmagomedov vs Y. Song",
-      "local": "U. Nurmagomedov",
-      "visitante": "Y. Song",
-      "fecha": "2026-08-29",
-      "hora": "10:00",
-      "canales": [
-        "HBO MAX"
-      ]
-    },
-    {
-      "deporte": "Motociclismo",
-      "competicion": "MotoGP",
-      "ronda": null,
-      "evento": "G.P. Aragón (Motorland) Libres 2",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-08-29",
-      "hora": "10:10",
-      "canales": [
-        "MotoGP Videopass",
-        "DAZN (Ver en directo)",
-        "DAZN MotoGP (M71 O105)",
-        "Aragón Deporte",
-        "Aragón TV"
-      ]
-    },
-    {
-      "deporte": "Motociclismo",
-      "competicion": "MotoGP",
-      "ronda": null,
-      "evento": "G.P. Aragón (Motorland) Clasificación",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-08-29",
-      "hora": "10:50",
-      "canales": [
-        "MotoGP Videopass",
-        "DAZN (Ver en directo)",
-        "DAZN MotoGP (M71 O105)",
-        "Aragón Deporte",
-        "Aragón TV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Amistoso",
-      "ronda": null,
-      "evento": "Aurrera de Vitoria vs Amorebieta",
-      "local": "Aurrera de Vitoria",
-      "visitante": "Amorebieta",
-      "fecha": "2026-08-29",
-      "hora": "11:00",
-      "canales": [
-        "Elviphotoss YouTube"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "J1 League",
-      "ronda": null,
-      "evento": "Gamba Osaka vs Sanfrecce Hiroshima",
-      "local": "Gamba Osaka",
-      "visitante": "Sanfrecce Hiroshima",
-      "fecha": "2026-08-29",
-      "hora": "11:00",
-      "canales": [
-        "J.LEAGUE International YouTube"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Premier League Ucrania",
-      "ronda": null,
-      "evento": "FC Kudrivka vs FC Epitsentr",
-      "local": "FC Kudrivka",
-      "visitante": "FC Epitsentr",
-      "fecha": "2026-08-29",
-      "hora": "12:00",
-      "canales": [
-        "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Fútbol Sala",
-      "competicion": "Futsal Masters Cup",
-      "ronda": null,
-      "evento": "Sporting CP FS vs Palma Futsal",
-      "local": "Sporting CP FS",
-      "visitante": "Palma Futsal",
-      "fecha": "2026-08-29",
-      "hora": "12:00",
-      "canales": [
-        "Esports IB3 YouTube"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Liga F",
-      "ronda": null,
-      "evento": "Real Sociedad Femenino vs DUX Logroño Femenino",
-      "local": "Real Sociedad Femenino",
-      "visitante": "DUX Logroño Femenino",
-      "fecha": "2026-08-29",
-      "hora": "12:00",
-      "canales": [
-        "DAZN (Ver en directo)",
-        "DAZN 3 (M196)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Liga F",
-      "ronda": null,
-      "evento": "Deportivo Abanca vs Sevilla FC Femenino",
-      "local": "Deportivo Abanca",
-      "visitante": "Sevilla FC Femenino",
-      "fecha": "2026-08-29",
-      "hora": "12:00",
-      "canales": [
-        "DAZN (Ver en directo)",
-        "DAZN 2 (M73)",
-        "DAZN 2 Bar (M149)",
-        "Teledeporte",
-        "RTVE Play"
-      ]
-    },
-    {
-      "deporte": "Motociclismo",
-      "competicion": "Moto3",
-      "ronda": null,
-      "evento": "G.P. Aragón (Motorland) Clasificación",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-08-29",
-      "hora": "12:45",
-      "canales": [
-        "MotoGP Videopass",
-        "DAZN (Ver en directo)",
-        "DAZN MotoGP (M71 O105)",
-        "Aragón Deporte",
-        "Aragón TV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "2. Bundesliga",
-      "ronda": null,
-      "evento": "Karlsruher vs VfL Wolfsburg",
-      "local": "Karlsruher",
-      "visitante": "VfL Wolfsburg",
-      "fecha": "2026-08-29",
-      "hora": "13:00",
-      "canales": [
-        "DAZN (Ver en directo)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "DFB Pokal Junior",
-      "ronda": null,
-      "evento": "Bayer Leverkusen Academy vs Carl Zeiss Jena Academy",
-      "local": "Bayer Leverkusen Academy",
-      "visitante": "Carl Zeiss Jena Academy",
-      "fecha": "2026-08-29",
-      "hora": "13:00",
-      "canales": [
-        "German Football YouTube"
-      ]
-    },
-    {
-      "deporte": "Baloncesto",
-      "competicion": "Amistoso",
-      "ronda": null,
-      "evento": "San Pablo Burgos vs Movistar Estudiantes",
-      "local": "San Pablo Burgos",
-      "visitante": "Movistar Estudiantes",
-      "fecha": "2026-08-29",
-      "hora": "13:00",
-      "canales": [
-        "Canal por confirmar"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Damallsvenskan",
-      "ronda": null,
-      "evento": "AIK Fotboll Kvinnor vs Kristianstads DFF",
-      "local": "AIK Fotboll Kvinnor",
-      "visitante": "Kristianstads DFF",
-      "fecha": "2026-08-29",
-      "hora": "13:00",
-      "canales": [
-        "FANSEAT"
-      ]
-    },
-    {
-      "deporte": "Golf",
-      "competicion": "British Masters",
-      "ronda": null,
-      "evento": "Jornada 3",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-08-29",
-      "hora": "13:00",
-      "canales": [
-        "Movistar Golf (M68)"
-      ]
-    },
-    {
-      "deporte": "Automovilismo",
-      "competicion": "WRC Rally",
-      "ronda": null,
-      "evento": "Rally de Paraguay SS9 › SS17",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-08-29",
-      "hora": "13:19",
-      "canales": [
-        "DAZN (Ver en directo)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Premier League",
-      "ronda": null,
-      "evento": "Liverpool vs Nottingham Forest",
-      "local": "Liverpool",
-      "visitante": "Nottingham Forest",
-      "fecha": "2026-08-29",
-      "hora": "13:30",
-      "canales": [
-        "DAZN (Ver en directo)",
-        "DAZN 1 (M72)",
-        "DAZN 1 Bar (M148)"
-      ]
-    },
-    {
-      "deporte": "Motociclismo",
-      "competicion": "Moto2",
-      "ronda": null,
-      "evento": "G.P. Aragón (Motorland) Clasificación",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-08-29",
-      "hora": "13:40",
-      "canales": [
-        "MotoGP Videopass",
-        "DAZN (Ver en directo)",
-        "DAZN MotoGP (M71 O105)",
-        "Aragón Deporte",
-        "Aragón TV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Regionalliga",
-      "ronda": null,
-      "evento": "FC Homburg vs Stuttgarter Kickers",
-      "local": "FC Homburg",
-      "visitante": "Stuttgarter Kickers",
-      "fecha": "2026-08-29",
-      "hora": "14:00",
-      "canales": [
-        "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Regionalliga",
-      "ronda": null,
-      "evento": "Eintracht Trier vs Sandhausen",
-      "local": "Eintracht Trier",
-      "visitante": "Sandhausen",
-      "fecha": "2026-08-29",
-      "hora": "14:00",
-      "canales": [
-        "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Regionalliga",
-      "ronda": null,
-      "evento": "Mainz 05 II vs VfR Aalen",
-      "local": "Mainz 05 II",
-      "visitante": "VfR Aalen",
-      "fecha": "2026-08-29",
-      "hora": "14:00",
-      "canales": [
-        "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Regionalliga",
-      "ronda": null,
-      "evento": "Astoria Walldorf vs SSV Ulm 1846",
-      "local": "Astoria Walldorf",
-      "visitante": "SSV Ulm 1846",
-      "fecha": "2026-08-29",
-      "hora": "14:00",
-      "canales": [
-        "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Regionalliga",
-      "ronda": null,
-      "evento": "TSV Steinbach vs KSV Hessen Kassel",
-      "local": "TSV Steinbach",
-      "visitante": "KSV Hessen Kassel",
-      "fecha": "2026-08-29",
-      "hora": "14:00",
-      "canales": [
-        "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Regionalliga",
-      "ronda": null,
-      "evento": "SG Barockstadt vs FSV Frankfurt",
-      "local": "SG Barockstadt",
-      "visitante": "FSV Frankfurt",
-      "fecha": "2026-08-29",
-      "hora": "14:00",
-      "canales": [
-        "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Regionalliga",
-      "ronda": null,
-      "evento": "SGV Freiberg vs Eintracht Frankfurt II",
-      "local": "SGV Freiberg",
-      "visitante": "Eintracht Frankfurt II",
-      "fecha": "2026-08-29",
-      "hora": "14:00",
-      "canales": [
-        "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Bundesliga Femenina",
-      "ronda": null,
-      "evento": "Stuttgart Frauen vs Hamburger SV Frauen",
-      "local": "Stuttgart Frauen",
-      "visitante": "Hamburger SV Frauen",
-      "fecha": "2026-08-29",
-      "hora": "14:00",
-      "canales": [
-        "DAZN (Ver en directo)",
-        "DAZN App Gratis (Ver gratis)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "3. Liga",
-      "ronda": null,
-      "evento": "Duisburg vs Würzburger Kickers",
-      "local": "Duisburg",
-      "visitante": "Würzburger Kickers",
-      "fecha": "2026-08-29",
-      "hora": "14:00",
-      "canales": [
-        "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Superliga de Letonia",
-      "ronda": null,
-      "evento": "SC Grobiņa vs BFC Daugavpils",
-      "local": "SC Grobiņa",
-      "visitante": "BFC Daugavpils",
-      "fecha": "2026-08-29",
-      "hora": "14:00",
-      "canales": [
-        "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Damallsvenskan",
-      "ronda": null,
-      "evento": "FC Rosengard vs BK Häcken Femenino",
-      "local": "FC Rosengard",
-      "visitante": "BK Häcken Femenino",
-      "fecha": "2026-08-29",
-      "hora": "14:00",
-      "canales": [
-        "FANSEAT"
-      ]
-    },
-    {
-      "deporte": "Baloncesto",
-      "competicion": "FIBA Copa Mundial",
-      "ronda": "Fase de Clasificación",
-      "evento": "Costa de Marfil vs Egipto",
-      "local": "Costa de Marfil",
-      "visitante": "Egipto",
-      "fecha": "2026-08-29",
-      "hora": "14:30",
-      "canales": [
-        "DAZN (Ver en directo)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Premier League Ucrania",
-      "ronda": null,
-      "evento": "Livyi Bereh vs Karpaty Lviv",
-      "local": "Livyi Bereh",
-      "visitante": "Karpaty Lviv",
-      "fecha": "2026-08-29",
-      "hora": "14:30",
-      "canales": [
-        "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Ciclismo",
-      "competicion": "Vuelta a España",
-      "ronda": null,
-      "evento": "Etapa 8 Puçol › Xeraco (171 km)",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-08-29",
-      "hora": "14:45",
-      "canales": [
-        "HBO MAX",
-        "DAZN (Ver en directo)",
-        "Teledeporte",
-        "RTVE Play",
-        "Eurosport 1"
-      ]
-    },
-    {
-      "deporte": "Motociclismo",
-      "competicion": "MotoGP",
-      "ronda": null,
-      "evento": "G.P. Aragón (Motorland) Sprint",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-08-29",
-      "hora": "15:00",
-      "canales": [
-        "MotoGP Videopass",
-        "DAZN (Ver en directo)",
-        "DAZN MotoGP (M71 O105)",
-        "Aragón Deporte",
-        "Aragón TV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Segunda Uruguay",
-      "ronda": null,
-      "evento": "Colón FC vs Tacuarembó",
-      "local": "Colón FC",
-      "visitante": "Tacuarembó",
-      "fecha": "2026-08-29",
-      "hora": "15:00",
-      "canales": [
-        "Antel TV Internacional"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Damallsvenskan",
-      "ronda": null,
-      "evento": "Växjö DFF vs Malmö FF Women",
-      "local": "Växjö DFF",
-      "visitante": "Malmö FF Women",
-      "fecha": "2026-08-29",
-      "hora": "15:00",
-      "canales": [
-        "FANSEAT"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Damallsvenskan",
-      "ronda": null,
-      "evento": "Hammarby Kvinnor vs Vittsjö GIK",
-      "local": "Hammarby Kvinnor",
-      "visitante": "Vittsjö GIK",
-      "fecha": "2026-08-29",
-      "hora": "15:00",
-      "canales": [
-        "FANSEAT"
-      ]
-    },
-    {
-      "deporte": "Golf",
-      "competicion": "Women's Irish Open",
-      "ronda": null,
-      "evento": "Jornada 3",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-08-29",
-      "hora": "15:00",
-      "canales": [
-        "Movistar Golf 2 (M68)"
-      ]
-    },
-    {
-      "deporte": "Ciclismo",
-      "competicion": "Lorient Agglomération Trophée",
-      "ronda": null,
-      "evento": "UCI Women's World Tour",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-08-29",
-      "hora": "15:10",
-      "canales": [
-        "HBO MAX"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Bundesliga",
-      "ronda": null,
-      "evento": "Mainz 05 vs Paderborn 07",
-      "local": "Mainz 05",
-      "visitante": "Paderborn 07",
-      "fecha": "2026-08-29",
-      "hora": "15:30",
-      "canales": [
-        "DAZN (Ver en directo)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Bundesliga",
-      "ronda": null,
-      "evento": "1. FC Union Berlin vs Eintracht Frankfurt",
-      "local": "1. FC Union Berlin",
-      "visitante": "Eintracht Frankfurt",
-      "fecha": "2026-08-29",
-      "hora": "15:30",
-      "canales": [
-        "DAZN (Ver en directo)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Bundesliga",
-      "ronda": null,
-      "evento": "FC Köln vs Hoffenheim",
-      "local": "FC Köln",
-      "visitante": "Hoffenheim",
-      "fecha": "2026-08-29",
-      "hora": "15:30",
-      "canales": [
-        "DAZN (Ver en directo)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Bundesliga",
-      "ronda": null,
-      "evento": "RB Leipzig vs Borussia M'gladbach",
-      "local": "RB Leipzig",
-      "visitante": "Borussia M'gladbach",
-      "fecha": "2026-08-29",
-      "hora": "15:30",
-      "canales": [
-        "DAZN (Ver en directo)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Bundesliga",
-      "ronda": null,
-      "evento": "SV Elversberg vs Bayer Leverkusen",
-      "local": "SV Elversberg",
-      "visitante": "Bayer Leverkusen",
-      "fecha": "2026-08-29",
-      "hora": "15:30",
-      "canales": [
-        "DAZN (Ver en directo)"
-      ]
-    },
-    {
-      "deporte": "Fútbol Sala",
-      "competicion": "Copa Cataluña",
-      "ronda": "Final Femenina",
-      "evento": "Rubí FS vs Les Corts AE",
-      "local": "Rubí FS",
-      "visitante": "Les Corts AE",
-      "fecha": "2026-08-29",
-      "hora": "16:00",
-      "canales": [
-        "Esport3 (Cataluña)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Liga AUF Uruguaya",
-      "ronda": null,
-      "evento": "Progreso vs Danubio",
-      "local": "Progreso",
-      "visitante": "Danubio",
-      "fecha": "2026-08-29",
-      "hora": "16:00",
-      "canales": [
-        "Antel TV Internacional"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Campeonato Femenino",
-      "ronda": null,
-      "evento": "CA Huracán Femenino vs San Luis FC",
-      "local": "CA Huracán Femenino",
-      "visitante": "San Luis FC",
-      "fecha": "2026-08-29",
-      "hora": "16:00",
-      "canales": [
-        "LPF Play"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Superliga de Letonia",
-      "ronda": null,
-      "evento": "FK Tukums 2000 vs FK Jelgava",
-      "local": "FK Tukums 2000",
-      "visitante": "FK Jelgava",
-      "fecha": "2026-08-29",
-      "hora": "16:00",
-      "canales": [
-        "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "National League South",
-      "ronda": null,
-      "evento": "Truro City vs Dagenham & Redbridge",
-      "local": "Truro City",
-      "visitante": "Dagenham & Redbridge",
-      "fecha": "2026-08-29",
-      "hora": "16:00",
-      "canales": [
-        "DAZN (Ver en directo)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Torneo Promocional Amateur",
-      "ronda": null,
-      "evento": "SAT vs Deportivo Metalúrgico",
-      "local": "SAT",
-      "visitante": "Deportivo Metalúrgico",
-      "fecha": "2026-08-29",
-      "hora": "16:00",
-      "canales": [
-        "LPF Play"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Premier League",
-      "ronda": null,
-      "evento": "Bournemouth vs Everton",
-      "local": "Bournemouth",
-      "visitante": "Everton",
-      "fecha": "2026-08-29",
-      "hora": "16:00",
-      "canales": [
-        "DAZN (Ver en directo)",
-        "DAZN 1 (M72)",
-        "DAZN 1 Bar (M148)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Premier League",
-      "ronda": null,
-      "evento": "Coventry City vs Hull City",
-      "local": "Coventry City",
-      "visitante": "Hull City",
-      "fecha": "2026-08-29",
-      "hora": "16:00",
-      "canales": [
-        "DAZN (Ver en directo)",
-        "DAZN 2 (M73)",
-        "DAZN 2 Bar (M149)"
-      ]
-    },
-    {
-      "deporte": "Hockey Hierba",
-      "competicion": "FIH Copa Mundial Femenina",
-      "ronda": "Final",
-      "evento": "Holanda vs Argentina",
-      "local": "Holanda",
-      "visitante": "Argentina",
-      "fecha": "2026-08-29",
-      "hora": "16:05",
-      "canales": [
-        "RTVE Play"
-      ]
-    },
-    {
-      "deporte": "Ciclismo",
-      "competicion": "Vuelta a España",
-      "ronda": null,
-      "evento": "Etapa 8 Puçol › Xeraco (171 km)",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-08-29",
-      "hora": "16:15",
-      "canales": [
-        "HBO MAX",
-        "DAZN (Ver en directo)",
-        "La 2 TVE",
-        "RTVE Play",
-        "Eurosport 1"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "3. Liga",
-      "ronda": null,
-      "evento": "Hoffenheim II vs Jahn Regensburg",
-      "local": "Hoffenheim II",
-      "visitante": "Jahn Regensburg",
-      "fecha": "2026-08-29",
-      "hora": "16:30",
-      "canales": [
-        "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Premier League Ucrania",
-      "ronda": null,
-      "evento": "Shakhtar Donetsk vs FC Polissya Zhytomyr",
-      "local": "Shakhtar Donetsk",
-      "visitante": "FC Polissya Zhytomyr",
-      "fecha": "2026-08-29",
-      "hora": "17:00",
-      "canales": [
-        "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Admiral Bundesliga",
-      "ronda": null,
-      "evento": "Grazer AK 1902 vs Wolfsberger AC",
-      "local": "Grazer AK 1902",
-      "visitante": "Wolfsberger AC",
-      "fecha": "2026-08-29",
-      "hora": "17:00",
-      "canales": [
-        "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "La Liga EA Sports",
-      "ronda": null,
-      "evento": "Levante vs Real Betis",
-      "local": "Levante",
-      "visitante": "Real Betis",
-      "fecha": "2026-08-29",
-      "hora": "17:00",
-      "canales": [
-        "DAZN LaLiga (M55 O113)",
-        "DAZN (Ver en directo)",
-        "LaLiga TV Bar"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "LaLiga Hypermotion",
-      "ronda": null,
-      "evento": "Sabadell vs UD Almería",
-      "local": "Sabadell",
-      "visitante": "UD Almería",
-      "fecha": "2026-08-29",
-      "hora": "17:00",
-      "canales": [
-        "LALIGA TV Hypermotion (M56 O120): VER PARTIDO",
-        "DAZN (Ver en directo)",
-        "LaLiga TV M2"
-      ]
-    },
-    {
-      "deporte": "Automovilismo",
-      "competicion": "IndyCar",
-      "ronda": null,
-      "evento": "Grand Prix of Milwaukee Clasificación 1",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-08-29",
-      "hora": "17:00",
-      "canales": [
-        "M+ Deportes 3 (65)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Primera Federación",
-      "ronda": "Grupo 1",
-      "evento": "UD Ourense vs Ponferradina",
-      "local": "UD Ourense",
-      "visitante": "Ponferradina",
-      "fecha": "2026-08-29",
-      "hora": "17:00",
-      "canales": [
-        "TV FootballClub (Acceder)",
-        "FANPLAY TV",
-        "Primera Federación (M53 O125)",
-        "DAZN (Ver en directo)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Liga F",
-      "ronda": null,
-      "evento": "Eibar Femenino vs Espanyol Femenino",
-      "local": "Eibar Femenino",
-      "visitante": "Espanyol Femenino",
-      "fecha": "2026-08-29",
-      "hora": "17:00",
-      "canales": [
-        "DAZN (Ver en directo)",
-        "RTVE Play",
-        "Esport3 Web"
-      ]
-    },
-    {
-      "deporte": "Rugby U",
-      "competicion": "Test Match",
-      "ronda": null,
-      "evento": "Sudáfrica vs Nueva Zelanda",
-      "local": "Sudáfrica",
-      "visitante": "Nueva Zelanda",
-      "fecha": "2026-08-29",
-      "hora": "17:10",
-      "canales": [
-        "M+ Vamos (8 y 50)",
-        "M+ #Vamos Bar (307)",
-        "M+ Deportes (63)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Francia Ligue 1",
-      "ronda": null,
-      "evento": "Strasbourg Alsace vs Lens",
-      "local": "Strasbourg Alsace",
-      "visitante": "Lens",
-      "fecha": "2026-08-29",
-      "hora": "17:15",
-      "canales": [
-        "DAZN (Ver en directo)"
-      ]
-    },
-    {
-      "deporte": "Baloncesto",
-      "competicion": "FIBA Copa Mundial",
-      "ronda": "Fase de Clasificación",
-      "evento": "R.D. Congo vs Mali",
-      "local": "R.D. Congo",
-      "visitante": "Mali",
-      "fecha": "2026-08-29",
-      "hora": "17:30",
-      "canales": [
-        "DAZN (Ver en directo)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "2. Liga",
-      "ronda": null,
-      "evento": "FAC Wien vs Wacker Innsbruck",
-      "local": "FAC Wien",
-      "visitante": "Wacker Innsbruck",
-      "fecha": "2026-08-29",
-      "hora": "17:30",
-      "canales": [
-        "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Segunda Uruguay",
-      "ronda": null,
-      "evento": "Uruguay Montevideo vs La Luz FC",
-      "local": "Uruguay Montevideo",
-      "visitante": "La Luz FC",
-      "fecha": "2026-08-29",
-      "hora": "18:00",
-      "canales": [
-        "Antel TV Internacional"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Saudi Pro League",
-      "ronda": null,
-      "evento": "Al Kholood vs Al Ahli",
-      "local": "Al Kholood",
-      "visitante": "Al Ahli",
-      "fecha": "2026-08-29",
-      "hora": "18:05",
-      "canales": [
-        "M+ Vamos 2 (51)",
-        "M+ #Vamos Bar 2 (308)",
-        "M+ Liga de Campeones 2 (M61 O117)"
-      ]
-    },
-    {
-      "deporte": "Golf",
-      "competicion": "The Tour Championship",
-      "ronda": null,
-      "evento": "Jornada 3",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-08-29",
-      "hora": "18:15",
-      "canales": [
-        "HBO MAX",
-        "Movistar Golf (M68)"
-      ]
-    },
-    {
-      "deporte": "Fútbol Sala",
-      "competicion": "Copa Cataluña",
-      "ronda": null,
-      "evento": "Final",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-08-29",
-      "hora": "18:30",
-      "canales": [
-        "Esport3 (Cataluña)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "2. Liga",
-      "ronda": null,
-      "evento": "Young Violets Austria Wien vs SC Bregenz",
-      "local": "Young Violets Austria Wien",
-      "visitante": "SC Bregenz",
-      "fecha": "2026-08-29",
-      "hora": "18:30",
-      "canales": [
-        "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Primera Federación",
-      "ronda": "Grupo 1",
-      "evento": "Arenas Club vs Racing Ferrol",
-      "local": "Arenas Club",
-      "visitante": "Racing Ferrol",
-      "fecha": "2026-08-29",
-      "hora": "18:30",
-      "canales": [
-        "TV FootballClub (Acceder)",
-        "FANPLAY TV",
-        "TVG2 (Galicia)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Premier League",
-      "ronda": null,
-      "evento": "Tottenham vs Newcastle",
-      "local": "Tottenham",
-      "visitante": "Newcastle",
-      "fecha": "2026-08-29",
-      "hora": "18:30",
-      "canales": [
-        "DAZN (Ver en directo)",
-        "DAZN 1 (M72)",
-        "DAZN 1 Bar (M148)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Serie A Italiana",
-      "ronda": null,
-      "evento": "Fiorentina vs Frosinone",
-      "local": "Fiorentina",
-      "visitante": "Frosinone",
-      "fecha": "2026-08-29",
-      "hora": "18:30",
-      "canales": [
-        "DAZN (Ver en directo)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Serie A Italiana",
-      "ronda": null,
-      "evento": "Sassuolo vs Torino",
-      "local": "Sassuolo",
-      "visitante": "Torino",
-      "fecha": "2026-08-29",
-      "hora": "18:30",
-      "canales": [
-        "DAZN (Ver en directo)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Serie A Italiana",
-      "ronda": null,
-      "evento": "Monza vs Udinese",
-      "local": "Monza",
-      "visitante": "Udinese",
-      "fecha": "2026-08-29",
-      "hora": "18:30",
-      "canales": [
-        "DAZN (Ver en directo)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Bundesliga",
-      "ronda": null,
-      "evento": "Borussia Dortmund vs Hamburger SV",
-      "local": "Borussia Dortmund",
-      "visitante": "Hamburger SV",
-      "fecha": "2026-08-29",
-      "hora": "18:30",
-      "canales": [
-        "DAZN (Ver en directo)",
-        "Movistar Plus+ (M7): VER PARTIDO",
-        "M+ Liga de Campeones (M60 O115)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Eredivisie",
-      "ronda": null,
-      "evento": "AZ Alkmaar vs Go Ahead Eagles",
-      "local": "AZ Alkmaar",
-      "visitante": "Go Ahead Eagles",
-      "fecha": "2026-08-29",
-      "hora": "18:45",
-      "canales": [
-        "DAZN (Ver en directo)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Serie B Italiana",
-      "ronda": null,
-      "evento": "Sampdoria vs Juve Stabia",
-      "local": "Sampdoria",
-      "visitante": "Juve Stabia",
-      "fecha": "2026-08-29",
-      "hora": "19:00",
-      "canales": [
-        "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Serie B Italiana",
-      "ronda": null,
-      "evento": "Virtus Entella vs AC Cesena",
-      "local": "Virtus Entella",
-      "visitante": "AC Cesena",
-      "fecha": "2026-08-29",
-      "hora": "19:00",
-      "canales": [
-        "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Liga AUF Uruguaya",
-      "ronda": null,
-      "evento": "CA Juventud vs Deportivo Maldonado",
-      "local": "CA Juventud",
-      "visitante": "Deportivo Maldonado",
-      "fecha": "2026-08-29",
-      "hora": "19:00",
-      "canales": [
-        "Antel TV Internacional"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Liga AUF Uruguaya",
-      "ronda": null,
-      "evento": "Boston River vs CA Cerro",
-      "local": "Boston River",
-      "visitante": "CA Cerro",
-      "fecha": "2026-08-29",
-      "hora": "19:00",
-      "canales": [
-        "Antel TV Internacional"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Liga portuguesa",
-      "ronda": null,
-      "evento": "Académico Viseu vs FC Porto",
-      "local": "Académico Viseu",
-      "visitante": "FC Porto",
-      "fecha": "2026-08-29",
-      "hora": "19:00",
-      "canales": [
-        "DAZN (Ver en directo)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "La Liga EA Sports",
-      "ronda": null,
-      "evento": "Real Sociedad vs Espanyol",
-      "local": "Real Sociedad",
-      "visitante": "Espanyol",
-      "fecha": "2026-08-29",
-      "hora": "19:00",
-      "canales": [
-        "M+ LALIGA (M54 O110)",
-        "M+ LALIGA HDR (M440 O111)",
-        "LaLiga TV Bar"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "LaLiga Hypermotion",
-      "ronda": null,
-      "evento": "Leganés vs Eldense",
-      "local": "Leganés",
-      "visitante": "Eldense",
-      "fecha": "2026-08-29",
-      "hora": "19:00",
-      "canales": [
-        "LALIGA TV Hypermotion 2 (M59 O121): VER PARTIDO",
-        "DAZN (Ver en directo)",
-        "LaLiga TV M4"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "LaLiga Hypermotion",
-      "ronda": null,
-      "evento": "Albacete vs Real Oviedo",
-      "local": "Albacete",
-      "visitante": "Real Oviedo",
-      "fecha": "2026-08-29",
-      "hora": "19:00",
-      "canales": [
-        "LALIGA TV Hypermotion (M56 O120): VER PARTIDO",
-        "DAZN (Ver en directo)",
-        "LaLiga TV M3"
-      ]
-    },
-    {
-      "deporte": "Fútbol Americano",
-      "competicion": "NFL Pretemporada",
-      "ronda": null,
-      "evento": "Indianápolis Colts vs Detroit Lions",
-      "local": "Indianápolis Colts",
-      "visitante": "Detroit Lions",
-      "fecha": "2026-08-29",
-      "hora": "19:00",
-      "canales": [
-        "DAZN (Ver en directo)",
-        "DAZN App Gratis (Ver gratis)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Liga Premier Islandia",
-      "ronda": null,
-      "evento": "ÍBV vs Thor Akureyri",
-      "local": "ÍBV",
-      "visitante": "Thor Akureyri",
-      "fecha": "2026-08-29",
-      "hora": "19:00",
-      "canales": [
-        "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Coupe de la LFFP",
-      "ronda": null,
-      "evento": "Montpellier Femenino vs O. Marseille Femenino",
-      "local": "Montpellier Femenino",
-      "visitante": "O. Marseille Femenino",
-      "fecha": "2026-08-29",
-      "hora": "19:00",
-      "canales": [
-        "Arkema Première Ligue YouTube"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Premier Liga rusa",
-      "ronda": null,
-      "evento": "Lokomotiv Moskva vs Dynamo Moskva",
-      "local": "Lokomotiv Moskva",
-      "visitante": "Dynamo Moskva",
-      "fecha": "2026-08-29",
-      "hora": "19:00",
-      "canales": [
-        "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Primera Federación",
-      "ronda": "Grupo 2",
-      "evento": "Huesca vs Sant Andreu",
-      "local": "Huesca",
-      "visitante": "Sant Andreu",
-      "fecha": "2026-08-29",
-      "hora": "19:15",
-      "canales": [
-        "TV FootballClub (Acceder)",
-        "FANPLAY TV",
-        "Primera Federación (M53 O125)",
-        "DAZN (Ver en directo)",
-        "Aragón Deporte",
-        "Aragón TV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Primera Federación",
-      "ronda": "Grupo 1",
-      "evento": "Zamora vs Bilbao Athletic",
-      "local": "Zamora",
-      "visitante": "Bilbao Athletic",
-      "fecha": "2026-08-29",
-      "hora": "19:15",
-      "canales": [
-        "TV FootballClub (Acceder)",
-        "FANPLAY TV",
-        "LaLiga TV M2"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Primera Federación",
-      "ronda": "Grupo 2",
-      "evento": "Algeciras CF vs FC Cartagena",
-      "local": "Algeciras CF",
-      "visitante": "FC Cartagena",
-      "fecha": "2026-08-29",
-      "hora": "19:15",
-      "canales": [
-        "TV FootballClub (Acceder)",
-        "FANPLAY TV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Primera Federación",
-      "ronda": "Grupo 2",
-      "evento": "Rayo Majadahonda vs Villarreal B",
-      "local": "Rayo Majadahonda",
-      "visitante": "Villarreal B",
-      "fecha": "2026-08-29",
-      "hora": "19:15",
-      "canales": [
-        "TV FootballClub (Acceder)",
-        "FANPLAY TV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Primera Federación",
-      "ronda": "Grupo 1",
-      "evento": "AD Mérida vs Deportivo Fabril",
-      "local": "AD Mérida",
-      "visitante": "Deportivo Fabril",
-      "fecha": "2026-08-29",
-      "hora": "19:15",
-      "canales": [
-        "TV FootballClub (Acceder)",
-        "FANPLAY TV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Admiral Bundesliga",
-      "ronda": null,
-      "evento": "LASK Linz vs SCR Altach",
-      "local": "LASK Linz",
-      "visitante": "SCR Altach",
-      "fecha": "2026-08-29",
-      "hora": "19:30",
-      "canales": [
-        "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Primera División Argentina",
-      "ronda": "Torneo Clausura",
-      "evento": "Deportivo Riestra vs Vélez Sarsfield",
-      "local": "Deportivo Riestra",
-      "visitante": "Vélez Sarsfield",
-      "fecha": "2026-08-29",
-      "hora": "19:45",
-      "canales": [
-        "Fanatiz (Ver en directo)"
-      ]
-    },
-    {
-      "deporte": "Baloncesto",
-      "competicion": "Amistoso",
-      "ronda": null,
-      "evento": "Río Breogán vs Real Madrid Baloncesto",
-      "local": "Río Breogán",
-      "visitante": "Real Madrid Baloncesto",
-      "fecha": "2026-08-29",
-      "hora": "20:00",
-      "canales": [
-        "Real Madrid TV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Primera B Argentina",
-      "ronda": null,
-      "evento": "Arsenal Sarandí vs Excursionistas",
-      "local": "Arsenal Sarandí",
-      "visitante": "Excursionistas",
-      "fecha": "2026-08-29",
-      "hora": "20:00",
-      "canales": [
-        "LPF Play"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Primera B Argentina",
-      "ronda": null,
-      "evento": "Brown de Adrogué vs CSD Liniers",
-      "local": "Brown de Adrogué",
-      "visitante": "CSD Liniers",
-      "fecha": "2026-08-29",
-      "hora": "20:00",
-      "canales": [
-        "LPF Play"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Primera B Argentina",
-      "ronda": null,
-      "evento": "Laferrere vs Real Pilar",
-      "local": "Laferrere",
-      "visitante": "Real Pilar",
-      "fecha": "2026-08-29",
-      "hora": "20:00",
-      "canales": [
-        "LPF Play"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Primera B Argentina",
-      "ronda": null,
-      "evento": "CA Talleres vs UAI Urquiza",
-      "local": "CA Talleres",
-      "visitante": "UAI Urquiza",
-      "fecha": "2026-08-29",
-      "hora": "20:00",
-      "canales": [
-        "LPF Play"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Primera B Argentina",
-      "ronda": null,
-      "evento": "Argentinos Quilmes vs Sportivo Italiano",
-      "local": "Argentinos Quilmes",
-      "visitante": "Sportivo Italiano",
-      "fecha": "2026-08-29",
-      "hora": "20:00",
-      "canales": [
-        "LPF Play"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Primera B Argentina",
-      "ronda": null,
-      "evento": "Ituzaingó vs Dock Sud",
-      "local": "Ituzaingó",
-      "visitante": "Dock Sud",
-      "fecha": "2026-08-29",
-      "hora": "20:00",
-      "canales": [
-        "LPF Play"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Primera B Argentina",
-      "ronda": null,
-      "evento": "Defensores Unidos vs Deportivo Camioneros",
-      "local": "Defensores Unidos",
-      "visitante": "Deportivo Camioneros",
-      "fecha": "2026-08-29",
-      "hora": "20:00",
-      "canales": [
-        "LPF Play"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Primera Nacional Argentina",
-      "ronda": null,
-      "evento": "Colegiales vs Deportivo Maipú",
-      "local": "Colegiales",
-      "visitante": "Deportivo Maipú",
-      "fecha": "2026-08-29",
-      "hora": "20:00",
-      "canales": [
-        "LPF Play"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Primera C",
-      "ronda": null,
-      "evento": "Luján vs Muñiz",
-      "local": "Luján",
-      "visitante": "Muñiz",
-      "fecha": "2026-08-29",
-      "hora": "20:00",
-      "canales": [
-        "LPF Play"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Liga 1 Perú",
-      "ronda": null,
-      "evento": "CD Los Chankas vs ACD Juan Pablo II College",
-      "local": "CD Los Chankas",
-      "visitante": "ACD Juan Pablo II College",
-      "fecha": "2026-08-29",
-      "hora": "20:00",
-      "canales": [
-        "Fanatiz (Ver en directo)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Liga Pro Ecuador",
-      "ronda": null,
-      "evento": "Independiente del Valle vs U. Católica",
-      "local": "Independiente del Valle",
-      "visitante": "U. Católica",
-      "fecha": "2026-08-29",
-      "hora": "20:00",
-      "canales": [
-        "Zapping Internacional"
-      ]
-    },
-    {
-      "deporte": "Baloncesto",
-      "competicion": "Amistoso Femenino",
-      "ronda": null,
-      "evento": "España vs Mali",
-      "local": "España",
-      "visitante": "Mali",
-      "fecha": "2026-08-29",
-      "hora": "20:00",
-      "canales": [
-        "Aragón Deporte",
-        "Teledeporte",
-        "RTVE Play"
-      ]
-    },
-    {
-      "deporte": "Boxeo",
-      "competicion": "Título Mundial",
-      "ronda": "Peso Pesado",
-      "evento": "M. Itauma vs F. Hrgovic",
-      "local": "M. Itauma",
-      "visitante": "F. Hrgovic",
-      "fecha": "2026-08-29",
-      "hora": "20:00",
-      "canales": [
-        "DAZN (Ver en directo)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Saudi Pro League",
-      "ronda": null,
-      "evento": "Al Fateh vs Al-Ittihad Jeddah Club",
-      "local": "Al Fateh",
-      "visitante": "Al-Ittihad Jeddah Club",
-      "fecha": "2026-08-29",
-      "hora": "20:00",
-      "canales": [
-        "M+ Vamos 3 (53)",
-        "M+ #Vamos Bar 2 (308)",
-        "M+ Liga de Campeones 3 (M62 O118)"
-      ]
-    },
-    {
-      "deporte": "Baloncesto",
-      "competicion": "Torneo de Playa de Aro",
-      "ronda": null,
-      "evento": "Basquet Girona vs Cheshire Phoenix",
-      "local": "Basquet Girona",
-      "visitante": "Cheshire Phoenix",
-      "fecha": "2026-08-29",
-      "hora": "20:00",
-      "canales": [
-        "Canal por confirmar"
-      ]
-    },
-    {
-      "deporte": "Baloncesto",
-      "competicion": "FIBA Copa Mundial",
-      "ronda": "Fase de Clasificación",
-      "evento": "Senegal vs Angola",
-      "local": "Senegal",
-      "visitante": "Angola",
-      "fecha": "2026-08-29",
-      "hora": "20:30",
-      "canales": [
-        "DAZN (Ver en directo)"
-      ]
-    },
-    {
-      "deporte": "Baloncesto",
-      "competicion": "Amistoso",
-      "ronda": null,
-      "evento": "Súper Agropal Palencia vs Básquet Coruña",
-      "local": "Súper Agropal Palencia",
-      "visitante": "Básquet Coruña",
-      "fecha": "2026-08-29",
-      "hora": "20:30",
-      "canales": [
-        "Canal por confirmar"
-      ]
-    },
-    {
-      "deporte": "Automovilismo",
-      "competicion": "IndyCar",
-      "ronda": null,
-      "evento": "Grand Prix of Milwaukee Carrera 1",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-08-29",
-      "hora": "20:30",
-      "canales": [
-        "M+ Vamos (8 y 50)",
-        "M+ #Vamos Bar (307)",
-        "M+ Deportes 3 (65)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Serie A Italiana",
-      "ronda": null,
-      "evento": "Juventus vs Parma",
-      "local": "Juventus",
-      "visitante": "Parma",
-      "fecha": "2026-08-29",
-      "hora": "20:45",
-      "canales": [
-        "DAZN (Ver en directo)",
-        "Movistar Plus+ (M7): VER PARTIDO",
-        "Orange Fútbol 3 (109)",
-        "M+ Liga de Campeones (M60 O115)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Francia Ligue 1",
-      "ronda": null,
-      "evento": "O. Lyonnais vs Le Havre AC",
-      "local": "O. Lyonnais",
-      "visitante": "Le Havre AC",
-      "fecha": "2026-08-29",
-      "hora": "20:45",
-      "canales": [
-        "DAZN (Ver en directo)",
-        "TV5MONDE"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Francia Ligue 1",
-      "ronda": null,
-      "evento": "Lorient vs Troyes",
-      "local": "Lorient",
-      "visitante": "Troyes",
-      "fecha": "2026-08-29",
-      "hora": "20:45",
-      "canales": [
-        "DAZN (Ver en directo)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Francia Ligue 1",
-      "ronda": null,
-      "evento": "Stade Brestois vs Toulouse",
-      "local": "Stade Brestois",
-      "visitante": "Toulouse",
-      "fecha": "2026-08-29",
-      "hora": "20:45",
-      "canales": [
-        "DAZN (Ver en directo)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Francia Ligue 1",
-      "ronda": null,
-      "evento": "Auxerre vs Angers",
-      "local": "Auxerre",
-      "visitante": "Angers",
-      "fecha": "2026-08-29",
-      "hora": "20:45",
-      "canales": [
-        "DAZN (Ver en directo)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Serie B Italiana",
-      "ronda": null,
-      "evento": "Ascoli vs Carrarese",
-      "local": "Ascoli",
-      "visitante": "Carrarese",
-      "fecha": "2026-08-29",
-      "hora": "21:00",
-      "canales": [
-        "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Serie B Italiana",
-      "ronda": null,
-      "evento": "Padova vs Hellas Verona",
-      "local": "Padova",
-      "visitante": "Hellas Verona",
-      "fecha": "2026-08-29",
-      "hora": "21:00",
-      "canales": [
-        "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Serie B Italiana",
-      "ronda": null,
-      "evento": "Avellino vs L.R. Vicenza",
-      "local": "Avellino",
-      "visitante": "L.R. Vicenza",
-      "fecha": "2026-08-29",
-      "hora": "21:00",
-      "canales": [
-        "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Fútbol Americano",
-      "competicion": "NCAA",
-      "ronda": null,
-      "evento": "San José State vs USC",
-      "local": "San José State",
-      "visitante": "USC",
-      "fecha": "2026-08-29",
-      "hora": "21:00",
-      "canales": [
-        "DAZN (Ver en directo)"
-      ]
-    },
-    {
-      "deporte": "Rugby U",
-      "competicion": "Test Match",
-      "ronda": null,
-      "evento": "Argentina vs Australia",
-      "local": "Argentina",
-      "visitante": "Australia",
-      "fecha": "2026-08-29",
-      "hora": "21:00",
-      "canales": [
-        "M+ Deportes (63)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Primera Nacional Argentina",
-      "ronda": null,
-      "evento": "At. Rafaela vs Tristán Suárez",
-      "local": "At. Rafaela",
-      "visitante": "Tristán Suárez",
-      "fecha": "2026-08-29",
-      "hora": "21:00",
-      "canales": [
-        "LPF Play"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Primera Nacional Argentina",
-      "ronda": null,
-      "evento": "Ciudad de Bolivar vs Defensores Belgrano",
-      "local": "Ciudad de Bolivar",
-      "visitante": "Defensores Belgrano",
-      "fecha": "2026-08-29",
-      "hora": "21:00",
-      "canales": [
-        "LPF Play"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Segunda Uruguay",
-      "ronda": null,
-      "evento": "Huracán FC vs Cerrito",
-      "local": "Huracán FC",
-      "visitante": "Cerrito",
-      "fecha": "2026-08-29",
-      "hora": "21:00",
-      "canales": [
-        "Antel TV Internacional"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Torneo BetPlay DIMAYOR",
-      "ronda": null,
-      "evento": "Real Soacha Cundinamarca vs Patriotas",
-      "local": "Real Soacha Cundinamarca",
-      "visitante": "Patriotas",
-      "fecha": "2026-08-29",
-      "hora": "21:00",
-      "canales": [
-        "Win Sports TV YouTube"
-      ]
-    },
-    {
-      "deporte": "Baloncesto",
-      "competicion": "Torneo Baloncesto Gijón",
-      "ronda": null,
-      "evento": "Monbus Obradoiro vs Joventut Badalona",
-      "local": "Monbus Obradoiro",
-      "visitante": "Joventut Badalona",
-      "fecha": "2026-08-29",
-      "hora": "21:00",
-      "canales": [
-        "Club Joventut Badalona YouTube",
-        "VinxTV"
-      ]
-    },
-    {
-      "deporte": "Fútbol Sala",
-      "competicion": "Copa de Oro Futsal AFA",
-      "ronda": null,
-      "evento": "Jockey Club Rosario FS vs Barracas Central FS",
-      "local": "Jockey Club Rosario FS",
-      "visitante": "Barracas Central FS",
-      "fecha": "2026-08-29",
-      "hora": "21:00",
-      "canales": [
-        "LPF Play"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Liga F",
-      "ronda": null,
-      "evento": "Madrid CFF vs Granada Femenino",
-      "local": "Madrid CFF",
-      "visitante": "Granada Femenino",
-      "fecha": "2026-08-29",
-      "hora": "21:00",
-      "canales": [
-        "DAZN (Ver en directo)",
-        "DAZN 1 (M72)",
-        "DAZN 1 Bar (M148)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Primera Nacional Argentina",
-      "ronda": null,
-      "evento": "Midland vs Nueva Chicago",
-      "local": "Midland",
-      "visitante": "Nueva Chicago",
-      "fecha": "2026-08-29",
-      "hora": "21:30",
-      "canales": [
-        "LPF Play"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "La Liga EA Sports",
-      "ronda": null,
-      "evento": "Sevilla FC vs At. Madrid",
-      "local": "Sevilla FC",
-      "visitante": "At. Madrid",
-      "fecha": "2026-08-29",
-      "hora": "21:30",
-      "canales": [
-        "M+ LALIGA (M54 O110)",
-        "M+ LALIGA HDR (M440 O111)",
-        "LaLiga TV Bar"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "LaLiga Hypermotion",
-      "ronda": null,
-      "evento": "Girona vs UD Las Palmas",
-      "local": "Girona",
-      "visitante": "UD Las Palmas",
-      "fecha": "2026-08-29",
-      "hora": "21:30",
-      "canales": [
-        "LALIGA TV Hypermotion (M56 O120): VER PARTIDO",
-        "DAZN (Ver en directo)",
-        "Orange Fútbol 2 (108)",
-        "LaLiga TV M2"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Primera Federación",
-      "ronda": "Grupo 2",
-      "evento": "Hércules vs Real Murcia",
-      "local": "Hércules",
-      "visitante": "Real Murcia",
-      "fecha": "2026-08-29",
-      "hora": "21:30",
-      "canales": [
-        "TV FootballClub (Acceder)",
-        "FANPLAY TV",
-        "Primera Federación (M53 O125)",
-        "DAZN (Ver en directo)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Liga AUF Uruguaya",
-      "ronda": null,
-      "evento": "Defensor Sporting vs Montevideo City Torque",
-      "local": "Defensor Sporting",
-      "visitante": "Montevideo City Torque",
-      "fecha": "2026-08-29",
-      "hora": "22:00",
-      "canales": [
-        "Antel TV Internacional"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Winston-Salem",
-      "ronda": "ATP 250",
-      "evento": "A. Fery vs I. Buse",
-      "local": "A. Fery",
-      "visitante": "I. Buse",
-      "fecha": "2026-08-29",
-      "hora": "22:00",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes 2 (64)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Liga Femenina Dimayor",
-      "ronda": null,
-      "evento": "Orsomarso Femenino vs América de Cali Femenino",
-      "local": "Orsomarso Femenino",
-      "visitante": "América de Cali Femenino",
-      "fecha": "2026-08-29",
-      "hora": "22:00",
-      "canales": [
-        "Win Sports TV YouTube"
-      ]
-    },
-    {
-      "deporte": "Atletismo",
-      "competicion": "Maratón Sidney",
-      "ronda": null,
-      "evento": "World Athletics Label Road Races Elite",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-08-29",
-      "hora": "22:00",
-      "canales": [
-        "HBO MAX",
-        "DAZN (Ver en directo)",
-        "Eurosport 1"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Primera División Argentina",
-      "ronda": "Torneo Clausura",
-      "evento": "Rosario Central vs Gimnasia LP",
-      "local": "Rosario Central",
-      "visitante": "Gimnasia LP",
-      "fecha": "2026-08-29",
-      "hora": "22:00",
-      "canales": [
-        "Fanatiz (Ver en directo)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Liga 1 Perú",
-      "ronda": null,
-      "evento": "UTC Cajamarca vs Universitario",
-      "local": "UTC Cajamarca",
-      "visitante": "Universitario",
-      "fecha": "2026-08-29",
-      "hora": "22:30",
-      "canales": [
-        "Fanatiz (Ver en directo)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Liga Pro Serie B",
-      "ronda": null,
-      "evento": "Gualaceo vs El Nacional",
-      "local": "Gualaceo",
-      "visitante": "El Nacional",
-      "fecha": "2026-08-29",
-      "hora": "22:30",
-      "canales": [
-        "Zapping Internacional"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Torneo BetPlay DIMAYOR",
-      "ronda": null,
-      "evento": "Real Santander vs Internacional FC Palmira",
-      "local": "Real Santander",
-      "visitante": "Internacional FC Palmira",
-      "fecha": "2026-08-29",
-      "hora": "22:30",
-      "canales": [
-        "Win Sports TV YouTube"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Torneo BetPlay DIMAYOR",
-      "ronda": null,
-      "evento": "Atlético FC vs Bogotá",
-      "local": "Atlético FC",
-      "visitante": "Bogotá",
-      "fecha": "2026-08-29",
-      "hora": "22:30",
-      "canales": [
-        "Win Sports TV YouTube"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "MLS",
-      "ronda": null,
-      "evento": "Seattle Sounders vs Chicago Fire",
-      "local": "Seattle Sounders",
-      "visitante": "Chicago Fire",
-      "fecha": "2026-08-29",
-      "hora": "22:30",
-      "canales": [
-        "Apple TV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Liga Pro Ecuador",
-      "ronda": null,
-      "evento": "Guayaquil City vs LDU Quito",
-      "local": "Guayaquil City",
-      "visitante": "LDU Quito",
-      "fecha": "2026-08-29",
-      "hora": "23:00",
-      "canales": [
-        "Zapping Internacional"
-      ]
-    },
-    {
-      "deporte": "Fútbol Sala",
-      "competicion": "Copa de Oro Futsal AFA",
-      "ronda": null,
-      "evento": "América del Sud FS vs Futsal Regatas Rosario",
-      "local": "América del Sud FS",
-      "visitante": "Futsal Regatas Rosario",
-      "fecha": "2026-08-29",
-      "hora": "23:00",
-      "canales": [
-        "LPF Play"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Primera C",
-      "ronda": null,
-      "evento": "Cambaceres vs Deportivo Paraguayo",
-      "local": "Cambaceres",
-      "visitante": "Deportivo Paraguayo",
-      "fecha": "2026-08-29",
-      "hora": "23:30",
-      "canales": [
-        "LPF Play"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Serie A Brasil",
-      "ronda": null,
-      "evento": "Atlético Mineiro vs Vitória",
-      "local": "Atlético Mineiro",
-      "visitante": "Vitória",
-      "fecha": "2026-08-29",
-      "hora": "23:30",
-      "canales": [
-        "Fanatiz (Ver en directo)"
-      ]
-    },
     {
       "deporte": "Fútbol",
       "competicion": "Segunda Uruguay",
@@ -3259,6 +812,20 @@
       ]
     },
     {
+      "deporte": "Automovilismo",
+      "competicion": "IndyCar",
+      "ronda": null,
+      "evento": "Grand Prix of Milwaukee Carrera 1",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-08-30",
+      "hora": "15:00",
+      "canales": [
+        "M+ Vamos (8 y 50)",
+        "M+ #Vamos Bar (307)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Damallsvenskan",
       "ronda": null,
@@ -3547,6 +1114,71 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "US Open",
+      "ronda": "1ª Ronda",
+      "evento": "K. Majchrzak vs H. Medjedovic",
+      "local": "K. Majchrzak",
+      "visitante": "H. Medjedovic",
+      "fecha": "2026-08-30",
+      "hora": "17:00",
+      "canales": [
+        "M+ Deportes 6 (193)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open",
+      "ronda": "1ª Ronda",
+      "evento": "J. Lehecka vs P. Carreño",
+      "local": "J. Lehecka",
+      "visitante": "P. Carreño",
+      "fecha": "2026-08-30",
+      "hora": "17:00",
+      "canales": [
+        "M+ Deportes 5 (192)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open",
+      "ronda": "1ª Ronda",
+      "evento": "D. Prizmic vs A. Shevchenko",
+      "local": "D. Prizmic",
+      "visitante": "A. Shevchenko",
+      "fecha": "2026-08-30",
+      "hora": "17:00",
+      "canales": [
+        "M+ Deportes 8 (M195)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open",
+      "ronda": "1ª Ronda",
+      "evento": "S. Shimabukuro vs A. Rinderknech",
+      "local": "S. Shimabukuro",
+      "visitante": "A. Rinderknech",
+      "fecha": "2026-08-30",
+      "hora": "17:00",
+      "canales": [
+        "M+ Deportes 7 (194)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open",
+      "ronda": "1ª Ronda",
+      "evento": "D. Mérida vs M. Fucsovics",
+      "local": "D. Mérida",
+      "visitante": "M. Fucsovics",
+      "fecha": "2026-08-30",
+      "hora": "17:00",
+      "canales": [
+        "M+ Deportes (63)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Premier League Ucrania",
       "ronda": null,
@@ -3644,19 +1276,6 @@
       "hora": "17:00",
       "canales": [
         "M+ Deportes 3 (65)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "US Open WTA",
-      "ronda": "1ª Ronda",
-      "evento": "K. Rakhimova vs B. Krejcikova",
-      "local": "K. Rakhimova",
-      "visitante": "B. Krejcikova",
-      "fecha": "2026-08-30",
-      "hora": "17:00",
-      "canales": [
-        "M+ Deportes 5 (192)"
       ]
     },
     {
@@ -3915,19 +1534,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "US Open WTA",
-      "ronda": "1ª Ronda",
-      "evento": "S. Zhang vs L. Fernández",
-      "local": "S. Zhang",
-      "visitante": "L. Fernández",
-      "fecha": "2026-08-30",
-      "hora": "18:30",
-      "canales": [
-        "M+ Deportes 5 (192)"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "Serie A Italiana",
       "ronda": null,
@@ -3977,6 +1583,45 @@
       "hora": "19:00",
       "canales": [
         "OneFootball PPV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open",
+      "ronda": "1ª Ronda",
+      "evento": "J. Munar vs T. Atmane",
+      "local": "J. Munar",
+      "visitante": "T. Atmane",
+      "fecha": "2026-08-30",
+      "hora": "19:00",
+      "canales": [
+        "M+ Deportes (63)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open",
+      "ronda": "1ª Ronda",
+      "evento": "L. Harris vs J. Kennedy",
+      "local": "L. Harris",
+      "visitante": "J. Kennedy",
+      "fecha": "2026-08-30",
+      "hora": "19:00",
+      "canales": [
+        "M+ Deportes 6 (193)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open",
+      "ronda": "1ª Ronda",
+      "evento": "T. Samuel vs T. Machac",
+      "local": "T. Samuel",
+      "visitante": "T. Machac",
+      "fecha": "2026-08-30",
+      "hora": "19:00",
+      "canales": [
+        "M+ Deportes 8 (M195)"
       ]
     },
     {
@@ -4034,8 +1679,7 @@
       "hora": "19:00",
       "canales": [
         "M+ Vamos (8 y 50)",
-        "M+ #Vamos Bar (307)",
-        "M+ Deportes 5 (192)"
+        "M+ #Vamos Bar (307)"
       ]
     },
     {
@@ -4075,6 +1719,32 @@
       "hora": "19:00",
       "canales": [
         "OneFootball"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open WTA",
+      "ronda": "1ª Ronda",
+      "evento": "M. Kostyuk vs S. Hunter",
+      "local": "M. Kostyuk",
+      "visitante": "S. Hunter",
+      "fecha": "2026-08-30",
+      "hora": "19:00",
+      "canales": [
+        "M+ Deportes 5 (192)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open WTA",
+      "ronda": "1ª Ronda",
+      "evento": "L. Stefanini vs D. Yastremska",
+      "local": "L. Stefanini",
+      "visitante": "D. Yastremska",
+      "fecha": "2026-08-30",
+      "hora": "19:00",
+      "canales": [
+        "M+ Deportes 7 (194)"
       ]
     },
     {
@@ -4260,7 +1930,7 @@
       "fecha": "2026-08-30",
       "hora": "20:00",
       "canales": [
-        "M+ Deportes 5 (192)"
+        "M+ Deportes 4 (66)"
       ]
     },
     {
@@ -4392,6 +2062,32 @@
       "hora": "20:30",
       "canales": [
         "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open",
+      "ronda": "1ª Ronda",
+      "evento": "M. Kecmanovic vs D. Shapovalov",
+      "local": "M. Kecmanovic",
+      "visitante": "D. Shapovalov",
+      "fecha": "2026-08-30",
+      "hora": "20:30",
+      "canales": [
+        "M+ Deportes 5 (192)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open",
+      "ronda": "1ª Ronda",
+      "evento": "A. Vukic vs R. Sakamoto",
+      "local": "A. Vukic",
+      "visitante": "R. Sakamoto",
+      "fecha": "2026-08-30",
+      "hora": "20:30",
+      "canales": [
+        "M+ Deportes 7 (194)"
       ]
     },
     {
@@ -4580,6 +2276,19 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "US Open WTA",
+      "ronda": "1ª Ronda",
+      "evento": "H. Vandewinkel vs K. Pliskova",
+      "local": "H. Vandewinkel",
+      "visitante": "K. Pliskova",
+      "fecha": "2026-08-30",
+      "hora": "21:00",
+      "canales": [
+        "M+ Deportes 6 (193)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Liga F",
       "ronda": null,
@@ -4684,6 +2393,19 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "US Open",
+      "ronda": "1ª Ronda",
+      "evento": "M. Landaluce vs J. Fearnley",
+      "local": "M. Landaluce",
+      "visitante": "J. Fearnley",
+      "fecha": "2026-08-30",
+      "hora": "22:00",
+      "canales": [
+        "M+ Deportes (63)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Primera Nacional Argentina",
       "ronda": null,
@@ -4773,6 +2495,32 @@
       "canales": [
         "LigaFUTVE App",
         "Liga Futve YouTube"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open WTA",
+      "ronda": "1ª Ronda",
+      "evento": "K. Birrell vs P. Marcinko",
+      "local": "K. Birrell",
+      "visitante": "P. Marcinko",
+      "fecha": "2026-08-30",
+      "hora": "22:30",
+      "canales": [
+        "M+ Deportes 7 (194)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open WTA",
+      "ronda": "1ª Ronda",
+      "evento": "T. Preston vs A. Parks",
+      "local": "T. Preston",
+      "visitante": "A. Parks",
+      "fecha": "2026-08-30",
+      "hora": "22:30",
+      "canales": [
+        "M+ Deportes 6 (193)"
       ]
     },
     {
@@ -4996,7 +2744,7 @@
       "fecha": "2026-08-31",
       "hora": "01:00",
       "canales": [
-        "M+ Deportes 5 (192)"
+        "M+ Deportes 4 (66)"
       ]
     },
     {
@@ -5101,7 +2849,21 @@
       "fecha": "2026-08-31",
       "hora": "01:00",
       "canales": [
+        "M+ Deportes (63)",
         "M+ Deportes 3 (65)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open WTA",
+      "ronda": "1ª Ronda",
+      "evento": "E. Navarro vs L. Boisson",
+      "local": "E. Navarro",
+      "visitante": "L. Boisson",
+      "fecha": "2026-08-31",
+      "hora": "01:00",
+      "canales": [
+        "M+ Deportes 5 (192)"
       ]
     },
     {
@@ -5154,6 +2916,7 @@
       "fecha": "2026-08-31",
       "hora": "02:30",
       "canales": [
+        "M+ Deportes (63)",
         "M+ Deportes 3 (65)"
       ]
     },
@@ -5952,6 +3715,521 @@
       "hora": "22:00",
       "canales": [
         "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera B Argentina",
+      "ronda": null,
+      "evento": "Comunicaciones vs Deportivo Merlo",
+      "local": "Comunicaciones",
+      "visitante": "Deportivo Merlo",
+      "fecha": "2026-09-01",
+      "hora": "00:00",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera Nacional Argentina",
+      "ronda": null,
+      "evento": "Los Andes vs Acassuso",
+      "local": "Los Andes",
+      "visitante": "Acassuso",
+      "fecha": "2026-09-01",
+      "hora": "00:00",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera División Argentina",
+      "ronda": "Torneo Clausura",
+      "evento": "Estudiantes LP vs Newell's Old Boys",
+      "local": "Estudiantes LP",
+      "visitante": "Newell's Old Boys",
+      "fecha": "2026-09-01",
+      "hora": "00:00",
+      "canales": [
+        "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera División Argentina",
+      "ronda": "Torneo Clausura",
+      "evento": "Defensa y Justicia vs Platense",
+      "local": "Defensa y Justicia",
+      "visitante": "Platense",
+      "fecha": "2026-09-01",
+      "hora": "00:00",
+      "canales": [
+        "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Futve",
+      "ronda": null,
+      "evento": "UCV vs Rayo Zuliano",
+      "local": "UCV",
+      "visitante": "Rayo Zuliano",
+      "fecha": "2026-09-01",
+      "hora": "00:30",
+      "canales": [
+        "LigaFUTVE App",
+        "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Copa Mundial",
+      "ronda": "Fase de Clasificación",
+      "evento": "Estados Unidos vs Colombia",
+      "local": "Estados Unidos",
+      "visitante": "Colombia",
+      "fecha": "2026-09-01",
+      "hora": "01:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Serie A Brasil",
+      "ronda": null,
+      "evento": "Remo vs Coritiba",
+      "local": "Remo",
+      "visitante": "Coritiba",
+      "fecha": "2026-09-01",
+      "hora": "01:00",
+      "canales": [
+        "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Copa Mundial",
+      "ronda": "Fase de Clasificación",
+      "evento": "Uruguay vs Puerto Rico",
+      "local": "Uruguay",
+      "visitante": "Puerto Rico",
+      "fecha": "2026-09-01",
+      "hora": "01:10",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Copa Mundial",
+      "ronda": "Fase de Clasificación",
+      "evento": "Canadá vs Argentina",
+      "local": "Canadá",
+      "visitante": "Argentina",
+      "fecha": "2026-09-01",
+      "hora": "01:10",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Futve",
+      "ronda": null,
+      "evento": "Puerto Cabello vs Anzoátegui FC",
+      "local": "Puerto Cabello",
+      "visitante": "Anzoátegui FC",
+      "fecha": "2026-09-01",
+      "hora": "01:30",
+      "canales": [
+        "LigaFUTVE App",
+        "Liga Futve YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera Nacional Argentina",
+      "ronda": null,
+      "evento": "Gimnasia Jujuy vs Agropecuario",
+      "local": "Gimnasia Jujuy",
+      "visitante": "Agropecuario",
+      "fecha": "2026-09-01",
+      "hora": "02:00",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "NWSL",
+      "ronda": null,
+      "evento": "Boston Legacy FC vs Angel City FC",
+      "local": "Boston Legacy FC",
+      "visitante": "Angel City FC",
+      "fecha": "2026-09-01",
+      "hora": "02:00",
+      "canales": [
+        "NWSL+"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Copa Mundial",
+      "ronda": "Fase de Clasificación",
+      "evento": "República Dominicana vs Chile",
+      "local": "República Dominicana",
+      "visitante": "Chile",
+      "fecha": "2026-09-01",
+      "hora": "02:10",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Copa Mundial",
+      "ronda": "Fase de Clasificación",
+      "evento": "Bahamas vs Panamá",
+      "local": "Bahamas",
+      "visitante": "Panamá",
+      "fecha": "2026-09-01",
+      "hora": "02:10",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera División Argentina",
+      "ronda": "Torneo Clausura",
+      "evento": "Tigre vs Barracas Central",
+      "local": "Tigre",
+      "visitante": "Barracas Central",
+      "fecha": "2026-09-01",
+      "hora": "02:15",
+      "canales": [
+        "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera División Argentina",
+      "ronda": "Torneo Clausura",
+      "evento": "Instituto vs San Lorenzo",
+      "local": "Instituto",
+      "visitante": "San Lorenzo",
+      "fecha": "2026-09-01",
+      "hora": "02:15",
+      "canales": [
+        "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Copa Mundial",
+      "ronda": "Fase de Clasificación",
+      "evento": "México vs Brasil",
+      "local": "México",
+      "visitante": "Brasil",
+      "fecha": "2026-09-01",
+      "hora": "04:10",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Pádel",
+      "competicion": "Madrid Open",
+      "ronda": null,
+      "evento": "1ª Ronda Premier Padel Tour",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-09-01",
+      "hora": "09:00",
+      "canales": [
+        "Premier Padel YouTube"
+      ]
+    },
+    {
+      "deporte": "Ciclismo",
+      "competicion": "Vuelta a España",
+      "ronda": null,
+      "evento": "Etapa 10",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-09-01",
+      "hora": "14:45",
+      "canales": [
+        "HBO MAX",
+        "DAZN (Ver en directo)",
+        "Teledeporte",
+        "RTVE Play",
+        "Eurosport 1"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open",
+      "ronda": null,
+      "evento": "1ª Ronda Grand Slam",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-09-01",
+      "hora": "17:05",
+      "canales": [
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open WTA",
+      "ronda": null,
+      "evento": "1ª Ronda Grand Slam",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-09-01",
+      "hora": "17:05",
+      "canales": [
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Regionalliga",
+      "ronda": null,
+      "evento": "KSV Hessen Kassel vs Eintracht Trier",
+      "local": "KSV Hessen Kassel",
+      "visitante": "Eintracht Trier",
+      "fecha": "2026-09-01",
+      "hora": "19:00",
+      "canales": [
+        "OneFootball PPV"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Amistoso",
+      "ronda": null,
+      "evento": "Río Breogán vs Mega Soccerbet Belgrade",
+      "local": "Río Breogán",
+      "visitante": "Mega Soccerbet Belgrade",
+      "fecha": "2026-09-01",
+      "hora": "19:30",
+      "canales": [
+        "Canal por confirmar"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Admiral Bundesliga",
+      "ronda": null,
+      "evento": "Wolfsberger AC vs LASK Linz",
+      "local": "Wolfsberger AC",
+      "visitante": "LASK Linz",
+      "fecha": "2026-09-01",
+      "hora": "19:30",
+      "canales": [
+        "OneFootball PPV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Premier Islandia",
+      "ronda": null,
+      "evento": "KR Reykjavík vs Víkingur R",
+      "local": "KR Reykjavík",
+      "visitante": "Víkingur R",
+      "fecha": "2026-09-01",
+      "hora": "19:30",
+      "canales": [
+        "OneFootball PPV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Torneo Proyección",
+      "ronda": null,
+      "evento": "Aldosivi Reserva vs Racing Avellaneda Reserva",
+      "local": "Aldosivi Reserva",
+      "visitante": "Racing Avellaneda Reserva",
+      "fecha": "2026-09-01",
+      "hora": "20:00",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Torneo Proyección",
+      "ronda": null,
+      "evento": "Unión Santa Fe Reserva vs Vélez Sarsfield Reserva",
+      "local": "Unión Santa Fe Reserva",
+      "visitante": "Vélez Sarsfield Reserva",
+      "fecha": "2026-09-01",
+      "hora": "20:00",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Torneo Proyección",
+      "ronda": null,
+      "evento": "Gimnasia LP Reserva vs River Plate Reserva",
+      "local": "Gimnasia LP Reserva",
+      "visitante": "River Plate Reserva",
+      "fecha": "2026-09-01",
+      "hora": "20:00",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Torneo Proyección",
+      "ronda": null,
+      "evento": "Lanús Reserva vs Belgrano Reserva",
+      "local": "Lanús Reserva",
+      "visitante": "Belgrano Reserva",
+      "fecha": "2026-09-01",
+      "hora": "20:00",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Torneo Proyección",
+      "ronda": null,
+      "evento": "Argentinos Juniors Reserva vs Sarmiento Reserva",
+      "local": "Argentinos Juniors Reserva",
+      "visitante": "Sarmiento Reserva",
+      "fecha": "2026-09-01",
+      "hora": "20:00",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Torneo Proyección",
+      "ronda": null,
+      "evento": "At. Rafaela Reserva vs CA Colón Reserva",
+      "local": "At. Rafaela Reserva",
+      "visitante": "CA Colón Reserva",
+      "fecha": "2026-09-01",
+      "hora": "20:00",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Campeonato Femenino",
+      "ronda": null,
+      "evento": "Banfield Femenino vs Ferro Carril Oeste Femenino",
+      "local": "Banfield Femenino",
+      "visitante": "Ferro Carril Oeste Femenino",
+      "fecha": "2026-09-01",
+      "hora": "20:00",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Saudi Pro League",
+      "ronda": null,
+      "evento": "Al Hilal vs Al Ahli",
+      "local": "Al Hilal",
+      "visitante": "Al Ahli",
+      "fecha": "2026-09-01",
+      "hora": "20:00",
+      "canales": [
+        "M+ Vamos (8 y 50)",
+        "M+ #Vamos Bar (307)",
+        "M+ Liga de Campeones (M60 O115)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "National League",
+      "ronda": null,
+      "evento": "Halifax Town vs Hartlepool United",
+      "local": "Halifax Town",
+      "visitante": "Hartlepool United",
+      "fecha": "2026-09-01",
+      "hora": "20:45",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Copa de Alemania",
+      "ronda": "1ª Ronda",
+      "evento": "HEBC Hamburg vs Borussia Dortmund",
+      "local": "HEBC Hamburg",
+      "visitante": "Borussia Dortmund",
+      "fecha": "2026-09-01",
+      "hora": "20:45",
+      "canales": [
+        "OneFootball PPV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Coppa Italia",
+      "ronda": null,
+      "evento": "Torino vs Monza",
+      "local": "Torino",
+      "visitante": "Monza",
+      "fecha": "2026-09-01",
+      "hora": "21:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Torneo BetPlay DIMAYOR",
+      "ronda": null,
+      "evento": "Envigado vs Unión Magdalena",
+      "local": "Envigado",
+      "visitante": "Unión Magdalena",
+      "fecha": "2026-09-01",
+      "hora": "22:00",
+      "canales": [
+        "Win Sports TV YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Femenina Dimayor",
+      "ronda": null,
+      "evento": "Orsomarso Femenino vs Deportivo Cali Femenino",
+      "local": "Orsomarso Femenino",
+      "visitante": "Deportivo Cali Femenino",
+      "fecha": "2026-09-01",
+      "hora": "22:00",
+      "canales": [
+        "Win Sports TV YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Pro Ecuador",
+      "ronda": null,
+      "evento": "Delfín SC vs Técnico Universitario",
+      "local": "Delfín SC",
+      "visitante": "Técnico Universitario",
+      "fecha": "2026-09-01",
+      "hora": "23:30",
+      "canales": [
+        "Zapping Internacional"
       ]
     }
   ]

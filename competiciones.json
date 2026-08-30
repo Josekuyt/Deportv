@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-08-29T00:24:28"
+    "actualizado": "2026-08-30T03:44:43"
   },
   "config": {
     "puntos_por_tier": {
@@ -615,6 +615,16 @@
     "US Open WTA": {
       "deporte": "Tenis",
       "tier": "S",
+      "por_revisar": true
+    },
+    "Coppa Italia": {
+      "deporte": "Fútbol",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Madrid Open": {
+      "deporte": "Pádel",
+      "tier": "C",
       "por_revisar": true
     }
   }
