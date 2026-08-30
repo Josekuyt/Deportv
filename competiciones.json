@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-08-30T03:44:43"
+    "actualizado": "2026-08-30T13:33:23"
   },
   "config": {
     "puntos_por_tier": {
@@ -625,6 +625,16 @@
     "Madrid Open": {
       "deporte": "Pádel",
       "tier": "C",
+      "por_revisar": true
+    },
+    "Liga Polaca": {
+      "deporte": "Fútbol",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Mundial Clubes Juvenil": {
+      "deporte": "Fútbol",
+      "tier": "D",
       "por_revisar": true
     }
   }
