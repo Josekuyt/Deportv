@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-08-30T13:33:23"
+    "actualizado": "2026-08-31T03:46:14"
   },
   "config": {
     "puntos_por_tier": {
@@ -413,7 +413,10 @@
       "por_revisar": true
     },
     "Copa Cataluña": {
-      "deporte": "Fútbol Sala",
+      "deporte": [
+        "Fútbol Sala",
+        "Fútbol"
+      ],
       "tier": "C",
       "por_revisar": true
     },
@@ -635,6 +638,11 @@
     "Mundial Clubes Juvenil": {
       "deporte": "Fútbol",
       "tier": "D",
+      "por_revisar": true
+    },
+    "Tour Gran Bretaña": {
+      "deporte": "Ciclismo",
+      "tier": "C",
       "por_revisar": true
     }
   }
