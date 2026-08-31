@@ -1,7 +1,7 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-08-31T15:51:00",
+    "generado": "2026-08-31T21:18:31",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
     "total_eventos": 183
   },
@@ -612,45 +612,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "US Open",
-      "ronda": "1ª Ronda",
-      "evento": "M. Cilic vs A. Rublev",
-      "local": "M. Cilic",
-      "visitante": "A. Rublev",
-      "fecha": "2026-08-31",
-      "hora": "17:00",
-      "canales": [
-        "M+ Deportes 7 (194)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "US Open",
-      "ronda": "1ª Ronda",
-      "evento": "S. Tsitsipas vs A. Fils",
-      "local": "S. Tsitsipas",
-      "visitante": "A. Fils",
-      "fecha": "2026-08-31",
-      "hora": "17:00",
-      "canales": [
-        "M+ Deportes (63)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "US Open",
-      "ronda": "1ª Ronda",
-      "evento": "V. Vacherot vs A. Kovacevic",
-      "local": "V. Vacherot",
-      "visitante": "A. Kovacevic",
-      "fecha": "2026-08-31",
-      "hora": "17:00",
-      "canales": [
-        "M+ Deportes 8 (M195)"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "Premier League Ucrania",
       "ronda": null,
@@ -665,13 +626,65 @@
     },
     {
       "deporte": "Tenis",
+      "competicion": "US Open",
+      "ronda": "1ª Ronda",
+      "evento": "V. Vacherot vs A. Kovacevic",
+      "local": "V. Vacherot",
+      "visitante": "A. Kovacevic",
+      "fecha": "2026-08-31",
+      "hora": "17:05",
+      "canales": [
+        "M+ Deportes 8 (M195)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open WTA",
+      "ronda": "1ª Ronda",
+      "evento": "S. Bejlek vs C. Bucsa",
+      "local": "S. Bejlek",
+      "visitante": "C. Bucsa",
+      "fecha": "2026-08-31",
+      "hora": "17:05",
+      "canales": [
+        "M+ Deportes 4 (66)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open",
+      "ronda": "1ª Ronda",
+      "evento": "S. Tsitsipas vs A. Fils",
+      "local": "S. Tsitsipas",
+      "visitante": "A. Fils",
+      "fecha": "2026-08-31",
+      "hora": "17:10",
+      "canales": [
+        "M+ Deportes (63)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open",
+      "ronda": "1ª Ronda",
+      "evento": "O. Virtanen vs A. Rublev",
+      "local": "O. Virtanen",
+      "visitante": "A. Rublev",
+      "fecha": "2026-08-31",
+      "hora": "17:10",
+      "canales": [
+        "M+ Deportes 7 (194)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
       "competicion": "US Open WTA",
       "ronda": "1ª Ronda",
       "evento": "H. Dart vs P. Stearns",
       "local": "H. Dart",
       "visitante": "P. Stearns",
       "fecha": "2026-08-31",
-      "hora": "17:00",
+      "hora": "17:10",
       "canales": [
         "M+ Deportes 6 (193)"
       ]
@@ -684,7 +697,7 @@
       "local": "A. Kalinina",
       "visitante": "H. Sakatsume",
       "fecha": "2026-08-31",
-      "hora": "17:00",
+      "hora": "17:10",
       "canales": [
         "M+ Deportes 5 (192)"
       ]
@@ -697,22 +710,9 @@
       "local": "S. Kraus",
       "visitante": "K. Muchova",
       "fecha": "2026-08-31",
-      "hora": "17:00",
+      "hora": "17:10",
       "canales": [
         "M+ Deportes 3 (65)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "US Open WTA",
-      "ronda": "1ª Ronda",
-      "evento": "S. Bejlek vs C. Bucsa",
-      "local": "S. Bejlek",
-      "visitante": "C. Bucsa",
-      "fecha": "2026-08-31",
-      "hora": "17:00",
-      "canales": [
-        "M+ Deportes 4 (66)"
       ]
     },
     {
@@ -737,7 +737,7 @@
       "local": "A. Sabalenka",
       "visitante": "MC. Osorio",
       "fecha": "2026-08-31",
-      "hora": "17:30",
+      "hora": "17:40",
       "canales": [
         "M+ Deportes 2 (64)"
       ]
@@ -752,9 +752,8 @@
       "fecha": "2026-08-31",
       "hora": "18:00",
       "canales": [
-        "M+ Vamos (8 y 50)",
-        "M+ #Vamos Bar (307)",
         "DAZN (Ver en directo)",
+        "Movistar Plus+ (M7): VER PARTIDO",
         "M+ Baloncesto (M66)",
         "Teledeporte",
         "RTVE Play"
@@ -853,58 +852,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "US Open",
-      "ronda": "1ª Ronda",
-      "evento": "M. Landaluce vs J. Fearnley",
-      "local": "M. Landaluce",
-      "visitante": "J. Fearnley",
-      "fecha": "2026-08-31",
-      "hora": "18:30",
-      "canales": [
-        "M+ Deportes 6 (193)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "US Open WTA",
-      "ronda": "1ª Ronda",
-      "evento": "E. Navarro vs L. Boisson",
-      "local": "E. Navarro",
-      "visitante": "L. Boisson",
-      "fecha": "2026-08-31",
-      "hora": "18:30",
-      "canales": [
-        "M+ Deportes 3 (65)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "US Open WTA",
-      "ronda": "1ª Ronda",
-      "evento": "A. Blinkova vs A. Kalinskaya",
-      "local": "A. Blinkova",
-      "visitante": "A. Kalinskaya",
-      "fecha": "2026-08-31",
-      "hora": "18:30",
-      "canales": [
-        "M+ Deportes 4 (66)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "US Open WTA",
-      "ronda": "1ª Ronda",
-      "evento": "A. Ito vs O. Selekhmeteva",
-      "local": "A. Ito",
-      "visitante": "O. Selekhmeteva",
-      "fecha": "2026-08-31",
-      "hora": "18:30",
-      "canales": [
-        "M+ Deportes 5 (192)"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "Serie A Italiana",
       "ronda": null,
@@ -919,6 +866,32 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "US Open WTA",
+      "ronda": "1ª Ronda",
+      "evento": "E. Navarro vs L. Boisson",
+      "local": "E. Navarro",
+      "visitante": "L. Boisson",
+      "fecha": "2026-08-31",
+      "hora": "18:35",
+      "canales": [
+        "M+ Deportes 3 (65)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open WTA",
+      "ronda": "1ª Ronda",
+      "evento": "A. Ito vs O. Selekhmeteva",
+      "local": "A. Ito",
+      "visitante": "O. Selekhmeteva",
+      "fecha": "2026-08-31",
+      "hora": "18:45",
+      "canales": [
+        "M+ Deportes 5 (192)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Mundial Clubes Juvenil",
       "ronda": null,
@@ -929,47 +902,6 @@
       "hora": "19:00",
       "canales": [
         "GOL (Síguelo en directo)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "US Open",
-      "ronda": "1ª Ronda",
-      "evento": "A. Vukic vs R. Sakamoto",
-      "local": "A. Vukic",
-      "visitante": "R. Sakamoto",
-      "fecha": "2026-08-31",
-      "hora": "19:00",
-      "canales": [
-        "M+ Deportes 7 (194)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "US Open",
-      "ronda": "1ª Ronda",
-      "evento": "R. Safiullin vs C. Alcaraz",
-      "local": "R. Safiullin",
-      "visitante": "C. Alcaraz",
-      "fecha": "2026-08-31",
-      "hora": "19:00",
-      "canales": [
-        "M+ Vamos (8 y 50)",
-        "M+ #Vamos Bar (307)",
-        "M+ Deportes 2 (64)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "US Open",
-      "ronda": "1ª Ronda",
-      "evento": "S. Gorzny vs R. Collignon",
-      "local": "S. Gorzny",
-      "visitante": "R. Collignon",
-      "fecha": "2026-08-31",
-      "hora": "19:00",
-      "canales": [
-        "M+ Deportes 8 (M195)"
       ]
     },
     {
@@ -1005,15 +937,15 @@
     },
     {
       "deporte": "Tenis",
-      "competicion": "US Open WTA",
+      "competicion": "US Open",
       "ronda": "1ª Ronda",
-      "evento": "A. Krueger vs A. Anisimova",
-      "local": "A. Krueger",
-      "visitante": "A. Anisimova",
+      "evento": "S. Gorzny vs R. Collignon",
+      "local": "S. Gorzny",
+      "visitante": "R. Collignon",
       "fecha": "2026-08-31",
-      "hora": "19:00",
+      "hora": "19:20",
       "canales": [
-        "M+ Deportes (63)"
+        "M+ Deportes 8 (M195)"
       ]
     },
     {
@@ -1049,26 +981,41 @@
       "deporte": "Tenis",
       "competicion": "US Open WTA",
       "ronda": "1ª Ronda",
-      "evento": "M. Chwalinska vs T. Townsend",
-      "local": "M. Chwalinska",
-      "visitante": "T. Townsend",
+      "evento": "A. Blinkova vs A. Kalinskaya",
+      "local": "A. Blinkova",
+      "visitante": "A. Kalinskaya",
       "fecha": "2026-08-31",
       "hora": "19:30",
       "canales": [
-        "M+ Deportes 3 (65)"
+        "M+ Deportes 4 (66)"
       ]
     },
     {
       "deporte": "Tenis",
-      "competicion": "US Open WTA",
+      "competicion": "US Open",
       "ronda": "1ª Ronda",
-      "evento": "D. Snigur vs D. Shnaider",
-      "local": "D. Snigur",
-      "visitante": "D. Shnaider",
+      "evento": "R. Safiullin vs C. Alcaraz",
+      "local": "R. Safiullin",
+      "visitante": "C. Alcaraz",
       "fecha": "2026-08-31",
-      "hora": "19:30",
+      "hora": "19:35",
       "canales": [
-        "M+ Deportes 7 (194)"
+        "M+ Vamos (8 y 50)",
+        "M+ #Vamos Bar (307)",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open",
+      "ronda": "1ª Ronda",
+      "evento": "M. Landaluce vs J. Fearnley",
+      "local": "M. Landaluce",
+      "visitante": "J. Fearnley",
+      "fecha": "2026-08-31",
+      "hora": "19:50",
+      "canales": [
+        "M+ Deportes 6 (193)"
       ]
     },
     {
@@ -1083,32 +1030,6 @@
       "canales": [
         "M+ Baloncesto 2 (M67)",
         "DAZN (Ver en directo)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "US Open",
-      "ronda": "1ª Ronda",
-      "evento": "L. Darderi vs H. Wendelken",
-      "local": "L. Darderi",
-      "visitante": "H. Wendelken",
-      "fecha": "2026-08-31",
-      "hora": "20:00",
-      "canales": [
-        "M+ Deportes 4 (66)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "US Open",
-      "ronda": "1ª Ronda",
-      "evento": "D. Svrcina vs V. Royer",
-      "local": "D. Svrcina",
-      "visitante": "V. Royer",
-      "fecha": "2026-08-31",
-      "hora": "20:00",
-      "canales": [
-        "M+ Deportes 5 (192)"
       ]
     },
     {
@@ -1190,6 +1111,45 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "US Open WTA",
+      "ronda": "1ª Ronda",
+      "evento": "M. Chwalinska vs T. Townsend",
+      "local": "M. Chwalinska",
+      "visitante": "T. Townsend",
+      "fecha": "2026-08-31",
+      "hora": "20:05",
+      "canales": [
+        "M+ Deportes 3 (65)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open",
+      "ronda": "1ª Ronda",
+      "evento": "D. Svrcina vs V. Royer",
+      "local": "D. Svrcina",
+      "visitante": "V. Royer",
+      "fecha": "2026-08-31",
+      "hora": "20:25",
+      "canales": [
+        "M+ Deportes 5 (192)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open WTA",
+      "ronda": "1ª Ronda",
+      "evento": "A. Krueger vs A. Anisimova",
+      "local": "A. Krueger",
+      "visitante": "A. Anisimova",
+      "fecha": "2026-08-31",
+      "hora": "20:25",
+      "canales": [
+        "M+ Deportes (63)"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "FIBA Copa Mundial",
       "ronda": "Fase de Clasificación",
@@ -1230,19 +1190,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "US Open WTA",
-      "ronda": "1ª Ronda",
-      "evento": "A. Koevermans vs C. McNally",
-      "local": "A. Koevermans",
-      "visitante": "C. McNally",
-      "fecha": "2026-08-31",
-      "hora": "20:30",
-      "canales": [
-        "M+ Deportes 8 (M195)"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "Serie A Italiana",
       "ronda": null,
@@ -1254,32 +1201,6 @@
       "canales": [
         "DAZN (Ver en directo)",
         "LaLiga TV M4"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "US Open",
-      "ronda": "1ª Ronda",
-      "evento": "M. Berrettini vs S. Wawrinka",
-      "local": "M. Berrettini",
-      "visitante": "S. Wawrinka",
-      "fecha": "2026-08-31",
-      "hora": "21:00",
-      "canales": [
-        "M+ Deportes 3 (65)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "US Open",
-      "ronda": "1ª Ronda",
-      "evento": "A. Blockx vs MT. Barrios Vera",
-      "local": "A. Blockx",
-      "visitante": "MT. Barrios Vera",
-      "fecha": "2026-08-31",
-      "hora": "21:00",
-      "canales": [
-        "M+ Deportes 7 (194)"
       ]
     },
     {
@@ -1295,6 +1216,19 @@
         "DAZN (Ver en directo)",
         "DAZN 1 (M72)",
         "DAZN 1 Bar (M148)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open",
+      "ronda": "1ª Ronda",
+      "evento": "A. Vukic vs R. Sakamoto",
+      "local": "A. Vukic",
+      "visitante": "R. Sakamoto",
+      "fecha": "2026-08-31",
+      "hora": "21:05",
+      "canales": [
+        "M+ Deportes 7 (194)"
       ]
     },
     {
@@ -1337,6 +1271,19 @@
       "hora": "21:15",
       "canales": [
         "OneFootball PPV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open",
+      "ronda": "1ª Ronda",
+      "evento": "L. Darderi vs H. Wendelken",
+      "local": "L. Darderi",
+      "visitante": "H. Wendelken",
+      "fecha": "2026-08-31",
+      "hora": "21:20",
+      "canales": [
+        "M+ Deportes 4 (66)"
       ]
     },
     {
@@ -1387,15 +1334,41 @@
     },
     {
       "deporte": "Tenis",
+      "competicion": "US Open WTA",
+      "ronda": "1ª Ronda",
+      "evento": "D. Snigur vs D. Shnaider",
+      "local": "D. Snigur",
+      "visitante": "D. Shnaider",
+      "fecha": "2026-08-31",
+      "hora": "21:30",
+      "canales": [
+        "M+ Deportes 7 (194)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open WTA",
+      "ronda": "1ª Ronda",
+      "evento": "A. Koevermans vs C. McNally",
+      "local": "A. Koevermans",
+      "visitante": "C. McNally",
+      "fecha": "2026-08-31",
+      "hora": "21:35",
+      "canales": [
+        "M+ Deportes 8 (M195)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
       "competicion": "US Open",
       "ronda": "1ª Ronda",
-      "evento": "J. Mensik vs S. Mochizuki",
-      "local": "J. Mensik",
-      "visitante": "S. Mochizuki",
+      "evento": "M. Berrettini vs S. Wawrinka",
+      "local": "M. Berrettini",
+      "visitante": "S. Wawrinka",
       "fecha": "2026-08-31",
-      "hora": "22:00",
+      "hora": "21:50",
       "canales": [
-        "M+ Deportes 4 (66)"
+        "M+ Deportes 3 (65)"
       ]
     },
     {
@@ -1415,19 +1388,6 @@
       "deporte": "Tenis",
       "competicion": "US Open WTA",
       "ronda": "1ª Ronda",
-      "evento": "A. Li vs A. Ruzic",
-      "local": "A. Li",
-      "visitante": "A. Ruzic",
-      "fecha": "2026-08-31",
-      "hora": "22:00",
-      "canales": [
-        "M+ Deportes 6 (193)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "US Open WTA",
-      "ronda": "1ª Ronda",
       "evento": "K. Volynets vs L. Noskova",
       "local": "K. Volynets",
       "visitante": "L. Noskova",
@@ -1441,24 +1401,24 @@
       "deporte": "Tenis",
       "competicion": "US Open",
       "ronda": "1ª Ronda",
-      "evento": "F. Auger-Aliassime vs R. Hijikata",
-      "local": "F. Auger-Aliassime",
-      "visitante": "R. Hijikata",
+      "evento": "A. Blockx vs MT. Barrios Vera",
+      "local": "A. Blockx",
+      "visitante": "MT. Barrios Vera",
       "fecha": "2026-08-31",
-      "hora": "23:00",
+      "hora": "22:50",
       "canales": [
-        "M+ Deportes 3 (65)"
+        "M+ Deportes 7 (194)"
       ]
     },
     {
       "deporte": "Tenis",
-      "competicion": "US Open",
+      "competicion": "US Open WTA",
       "ronda": "1ª Ronda",
-      "evento": "G. Dimitrov vs A. Popyrin",
-      "local": "G. Dimitrov",
-      "visitante": "A. Popyrin",
+      "evento": "A. Li vs A. Ruzic",
+      "local": "A. Li",
+      "visitante": "A. Ruzic",
       "fecha": "2026-08-31",
-      "hora": "23:30",
+      "hora": "23:00",
       "canales": [
         "M+ Deportes 6 (193)"
       ]
@@ -1467,13 +1427,26 @@
       "deporte": "Tenis",
       "competicion": "US Open",
       "ronda": "1ª Ronda",
-      "evento": "RA. Burruchaga vs K. Khachanov",
-      "local": "RA. Burruchaga",
-      "visitante": "K. Khachanov",
+      "evento": "F. Auger-Aliassime vs R. Hijikata",
+      "local": "F. Auger-Aliassime",
+      "visitante": "R. Hijikata",
       "fecha": "2026-08-31",
-      "hora": "23:30",
+      "hora": "23:45",
       "canales": [
-        "M+ Deportes 8 (M195)"
+        "M+ Deportes 3 (65)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open",
+      "ronda": "1ª Ronda",
+      "evento": "J. Mensik vs S. Mochizuki",
+      "local": "J. Mensik",
+      "visitante": "S. Mochizuki",
+      "fecha": "2026-09-01",
+      "hora": "00:00",
+      "canales": [
+        "M+ Deportes 4 (66)"
       ]
     },
     {
@@ -1529,6 +1502,19 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "US Open",
+      "ronda": "1ª Ronda",
+      "evento": "G. Dimitrov vs A. Popyrin",
+      "local": "G. Dimitrov",
+      "visitante": "A. Popyrin",
+      "fecha": "2026-09-01",
+      "hora": "00:30",
+      "canales": [
+        "M+ Deportes 6 (193)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Liga Futve",
       "ronda": null,
@@ -1540,6 +1526,19 @@
       "canales": [
         "LigaFUTVE App",
         "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open",
+      "ronda": "1ª Ronda",
+      "evento": "RA. Burruchaga vs K. Khachanov",
+      "local": "RA. Burruchaga",
+      "visitante": "K. Khachanov",
+      "fecha": "2026-09-01",
+      "hora": "00:40",
+      "canales": [
+        "M+ Deportes 8 (M195)"
       ]
     },
     {
