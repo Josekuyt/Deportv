@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-09-01T13:07:06",
+    "generado": "2026-09-01T19:12:36",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 124
+    "total_eventos": 128
   },
   "eventos": [
     {
@@ -363,7 +363,7 @@
       "deporte": "Ciclismo",
       "competicion": "Vuelta a España",
       "ronda": null,
-      "evento": "Etapa 10",
+      "evento": "Etapa 10 Alcaraz › Elche de la Sierra (184,7 km)",
       "local": null,
       "visitante": null,
       "fecha": "2026-09-01",
@@ -485,6 +485,19 @@
       ]
     },
     {
+      "deporte": "Voleibol",
+      "competicion": "Campeonato de Europa Femenino",
+      "ronda": "1/8 de final",
+      "evento": "Turquía vs Azerbaiyán",
+      "local": "Turquía",
+      "visitante": "Azerbaiyán",
+      "fecha": "2026-09-01",
+      "hora": "18:00",
+      "canales": [
+        "RTVE Play"
+      ]
+    },
+    {
       "deporte": "Tenis",
       "competicion": "US Open",
       "ronda": "1ª Ronda",
@@ -590,19 +603,6 @@
       ]
     },
     {
-      "deporte": "Baloncesto",
-      "competicion": "Amistoso",
-      "ronda": null,
-      "evento": "Río Breogán vs Mega Soccerbet Belgrade",
-      "local": "Río Breogán",
-      "visitante": "Mega Soccerbet Belgrade",
-      "fecha": "2026-09-01",
-      "hora": "19:30",
-      "canales": [
-        "Canal por confirmar"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "Admiral Bundesliga",
       "ronda": null,
@@ -632,9 +632,9 @@
       "deporte": "Tenis",
       "competicion": "US Open",
       "ronda": "1ª Ronda",
-      "evento": "R. Jódar vs T. Kokkinakis",
+      "evento": "R. Jódar vs Y. Bu",
       "local": "R. Jódar",
-      "visitante": "T. Kokkinakis",
+      "visitante": "Y. Bu",
       "fecha": "2026-09-01",
       "hora": "20:00",
       "canales": [
@@ -840,6 +840,19 @@
       "hora": "22:00",
       "canales": [
         "M+ Deportes 5 (192)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga 1 Perú",
+      "ronda": null,
+      "evento": "Atlético Grau vs Melgar",
+      "local": "Atlético Grau",
+      "visitante": "Melgar",
+      "fecha": "2026-09-01",
+      "hora": "22:00",
+      "canales": [
+        "Fanatiz (Ver en directo)"
       ]
     },
     {
@@ -1067,7 +1080,7 @@
       "deporte": "Ciclismo",
       "competicion": "Tour Gran Bretaña",
       "ronda": null,
-      "evento": "Etapa 1",
+      "evento": "Etapa 1 Lincoln › Lincoln (182,5 km)",
       "local": null,
       "visitante": null,
       "fecha": "2026-09-02",
@@ -1080,7 +1093,7 @@
       "deporte": "Ciclismo",
       "competicion": "Vuelta a España",
       "ronda": null,
-      "evento": "Etapa 11",
+      "evento": "Etapa 11 Cartagena › Lorca (151,3 km)",
       "local": null,
       "visitante": null,
       "fecha": "2026-09-02",
@@ -1089,6 +1102,23 @@
         "HBO MAX",
         "DAZN (Ver en directo)",
         "Teledeporte",
+        "RTVE Play",
+        "Eurosport 1"
+      ]
+    },
+    {
+      "deporte": "Ciclismo",
+      "competicion": "Vuelta a España",
+      "ronda": null,
+      "evento": "Etapa 11 Cartagena › Lorca (151,3 km)",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-09-02",
+      "hora": "16:15",
+      "canales": [
+        "HBO MAX",
+        "DAZN (Ver en directo)",
+        "La 2 TVE",
         "RTVE Play",
         "Eurosport 1"
       ]
@@ -1156,6 +1186,19 @@
       "hora": "19:00",
       "canales": [
         "ETB1 (País Vasco)"
+      ]
+    },
+    {
+      "deporte": "Voleibol",
+      "competicion": "Campeonato de Europa Femenino",
+      "ronda": "1/4 de Final",
+      "evento": "Italia vs Suecia",
+      "local": "Italia",
+      "visitante": "Suecia",
+      "fecha": "2026-09-02",
+      "hora": "19:00",
+      "canales": [
+        "RTVE Play"
       ]
     },
     {
@@ -1422,7 +1465,7 @@
       "deporte": "Ciclismo",
       "competicion": "Tour Gran Bretaña",
       "ronda": null,
-      "evento": "Etapa 2",
+      "evento": "Etapa 2 Boston › Skegness (181,1 km)",
       "local": null,
       "visitante": null,
       "fecha": "2026-09-03",
@@ -1435,7 +1478,7 @@
       "deporte": "Ciclismo",
       "competicion": "Vuelta a España",
       "ronda": null,
-      "evento": "Etapa 12",
+      "evento": "Etapa 12 Vera › Calar Alto (166,6 km)",
       "local": null,
       "visitante": null,
       "fecha": "2026-09-03",
@@ -1459,6 +1502,23 @@
       "hora": "13:30",
       "canales": [
         "Movistar Golf (M68)"
+      ]
+    },
+    {
+      "deporte": "Ciclismo",
+      "competicion": "Vuelta a España",
+      "ronda": null,
+      "evento": "Etapa 12 Vera › Calar Alto (166,6 km)",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-09-03",
+      "hora": "15:50",
+      "canales": [
+        "HBO MAX",
+        "DAZN (Ver en directo)",
+        "La 1 TVE",
+        "RTVE Play",
+        "Eurosport 1"
       ]
     },
     {
