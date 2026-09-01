@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-08-31T03:46:14"
+    "actualizado": "2026-09-01T03:39:54"
   },
   "config": {
     "puntos_por_tier": {
@@ -642,6 +642,16 @@
     },
     "Tour Gran Bretaña": {
       "deporte": "Ciclismo",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "European Omega Masters": {
+      "deporte": "Golf",
+      "tier": "A",
+      "por_revisar": true
+    },
+    "Torneo Sant Juliá": {
+      "deporte": "Baloncesto",
       "tier": "C",
       "por_revisar": true
     }
