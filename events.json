@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-09-02T12:33:48",
+    "generado": "2026-09-02T19:13:22",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 159
+    "total_eventos": 161
   },
   "eventos": [
     {
@@ -1350,6 +1350,20 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Liga Futve",
+      "ronda": null,
+      "evento": "Metropolitanos vs Trujillanos",
+      "local": "Metropolitanos",
+      "visitante": "Trujillanos",
+      "fecha": "2026-09-04",
+      "hora": "01:00",
+      "canales": [
+        "LigaFUTVE App",
+        "Liga Futve YouTube"
+      ]
+    },
+    {
       "deporte": "Béisbol",
       "competicion": "MLB",
       "ronda": null,
@@ -1486,6 +1500,19 @@
       "canales": [
         "HBO MAX",
         "Tour of Britain YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Champions League Femenina",
+      "ronda": null,
+      "evento": "Sorteo de Fase Liga",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-09-04",
+      "hora": "12:00",
+      "canales": [
+        "Disney+"
       ]
     },
     {
@@ -2087,7 +2114,9 @@
       "fecha": "2026-09-04",
       "hora": "21:00",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN 1 (M72)",
+        "DAZN 1 Bar (M148)"
       ]
     },
     {
