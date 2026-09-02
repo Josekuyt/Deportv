@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-09-01T03:39:54"
+    "actualizado": "2026-09-02T02:58:27"
   },
   "config": {
     "puntos_por_tier": {
@@ -652,6 +652,51 @@
     },
     "Torneo Sant Juliá": {
       "deporte": "Baloncesto",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "ASEAN Club Championship": {
+      "deporte": "Fútbol",
+      "tier": "B",
+      "por_revisar": true
+    },
+    "Copa Argentina Futsal": {
+      "deporte": "Fútbol Sala",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "FIA Fórmula 2": {
+      "deporte": "Automovilismo",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "FIA Fórmula 3": {
+      "deporte": "Automovilismo",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "FIBA Copa Mundial Femenina": {
+      "deporte": "Baloncesto",
+      "tier": "S",
+      "por_revisar": true
+    },
+    "MLB": {
+      "deporte": "Béisbol",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Sportbike": {
+      "deporte": "Motociclismo",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Supercopa Ibérica": {
+      "deporte": "Balonmano",
+      "tier": "A",
+      "por_revisar": true
+    },
+    "Supersport": {
+      "deporte": "Motociclismo",
       "tier": "C",
       "por_revisar": true
     }
