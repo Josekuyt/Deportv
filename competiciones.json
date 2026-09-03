@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-09-02T02:58:27"
+    "actualizado": "2026-09-03T03:00:43"
   },
   "config": {
     "puntos_por_tier": {
@@ -697,6 +697,61 @@
     },
     "Supersport": {
       "deporte": "Motociclismo",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Copa Andalucía": {
+      "deporte": "Baloncesto",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Copa Galicia": {
+      "deporte": "Baloncesto",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "División Honor Juvenil": {
+      "deporte": "Fútbol",
+      "tier": "D",
+      "por_revisar": true
+    },
+    "FIFA Mundial Femenino Sub-20": {
+      "deporte": "Fútbol",
+      "tier": "D",
+      "por_revisar": true
+    },
+    "Primera Federación Femenina": {
+      "deporte": "Fútbol Sala",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Segunda Federación": {
+      "deporte": "Fútbol",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Superbike": {
+      "deporte": "Motociclismo",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Supercopa España Femenina": {
+      "deporte": "Balonmano",
+      "tier": "A",
+      "por_revisar": true
+    },
+    "Supercopa de España": {
+      "deporte": "Fútbol Sala",
+      "tier": "A",
+      "por_revisar": true
+    },
+    "Tercera Federación": {
+      "deporte": "Fútbol",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "The Walker Cup": {
+      "deporte": "Golf",
       "tier": "C",
       "por_revisar": true
     }
