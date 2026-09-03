@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-09-03T03:00:43"
+    "actualizado": "2026-09-03T12:36:43"
   },
   "config": {
     "puntos_por_tier": {
@@ -753,6 +753,11 @@
     "The Walker Cup": {
       "deporte": "Golf",
       "tier": "C",
+      "por_revisar": true
+    },
+    "EHF Women's Champions League": {
+      "deporte": "Balonmano",
+      "tier": "S",
       "por_revisar": true
     }
   }
