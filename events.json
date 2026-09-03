@@ -1,7 +1,7 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-09-03T12:36:43",
+    "generado": "2026-09-03T19:06:14",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
     "total_eventos": 299
   },
@@ -577,7 +577,9 @@
       "hora": "20:00",
       "canales": [
         "OneFootball",
-        "M+ #Vamos Bar (307)"
+        "M+ Vamos (8 y 50)",
+        "M+ #Vamos Bar (307)",
+        "M+ Liga de Campeones (M60 O115)"
       ]
     },
     {
@@ -3766,6 +3768,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Primera Nacional Argentina",
+      "ronda": null,
+      "evento": "Acassuso vs All Boys",
+      "local": "Acassuso",
+      "visitante": "All Boys",
+      "fecha": "2026-09-05",
+      "hora": "20:30",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "Copa Galicia",
       "ronda": "Semifinales",
@@ -3877,19 +3892,6 @@
       "hora": "20:45",
       "canales": [
         "DAZN (Ver en directo)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Primera Nacional Argentina",
-      "ronda": null,
-      "evento": "Temperley vs Colegiales",
-      "local": "Temperley",
-      "visitante": "Colegiales",
-      "fecha": "2026-09-05",
-      "hora": "21:00",
-      "canales": [
-        "LPF Play"
       ]
     },
     {
