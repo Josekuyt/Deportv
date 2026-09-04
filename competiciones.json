@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-09-04T12:30:44"
+    "actualizado": "2026-09-04T18:48:56"
   },
   "config": {
     "puntos_por_tier": {
@@ -701,7 +701,10 @@
       "por_revisar": true
     },
     "Copa Andalucía": {
-      "deporte": "Baloncesto",
+      "deporte": [
+        "Baloncesto",
+        "Balonmano"
+      ],
       "tier": "C",
       "por_revisar": true
     },
@@ -797,6 +800,11 @@
     },
     "Rafa Nadal Open": {
       "deporte": "Tenis",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Título Intercontinental": {
+      "deporte": "Boxeo",
       "tier": "C",
       "por_revisar": true
     }

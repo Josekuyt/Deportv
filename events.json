@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-09-04T12:30:44",
+    "generado": "2026-09-04T18:48:56",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 490
+    "total_eventos": 522
   },
   "eventos": [
     {
@@ -473,7 +473,7 @@
       "deporte": "Ciclismo",
       "competicion": "Vuelta a España",
       "ronda": null,
-      "evento": "Etapa 13",
+      "evento": "Etapa 13 Almuñécar › Loja (192,8 km)",
       "local": null,
       "visitante": null,
       "fecha": "2026-09-04",
@@ -969,6 +969,20 @@
       ]
     },
     {
+      "deporte": "Balonmano",
+      "competicion": "Supercopa Ibérica",
+      "ronda": "Semifinales",
+      "evento": "Sporting CP HB vs Bidasoa Irún",
+      "local": "Sporting CP HB",
+      "visitante": "Bidasoa Irún",
+      "fecha": "2026-09-04",
+      "hora": "20:00",
+      "canales": [
+        "Teledeporte",
+        "RTVE Play"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Saudi Pro League",
       "ronda": null,
@@ -1173,6 +1187,19 @@
         "M+ LALIGA (M54 O110)",
         "M+ LALIGA HDR (M440 O111)",
         "LaLiga TV Bar"
+      ]
+    },
+    {
+      "deporte": "Fútbol Sala",
+      "competicion": "Primera Federación Femenina",
+      "ronda": null,
+      "evento": "Estrela FS vs FSF O Castro",
+      "local": "Estrela FS",
+      "visitante": "FSF O Castro",
+      "fecha": "2026-09-04",
+      "hora": "21:00",
+      "canales": [
+        "FutsalRFEF YouTube"
       ]
     },
     {
@@ -1481,6 +1508,20 @@
       ]
     },
     {
+      "deporte": "Boxeo",
+      "competicion": "Velada",
+      "ronda": null,
+      "evento": "A. Ruiz Jr vs D. Knyba",
+      "local": "A. Ruiz Jr",
+      "visitante": "D. Knyba",
+      "fecha": "2026-09-05",
+      "hora": "01:30",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN 2 (M73)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "MLS",
       "ronda": null,
@@ -1686,7 +1727,7 @@
       "deporte": "Ciclismo",
       "competicion": "Tour Gran Bretaña",
       "ronda": null,
-      "evento": "Etapa 4",
+      "evento": "Etapa 4 Helmsley › Leyburn (165,8 km)",
       "local": null,
       "visitante": null,
       "fecha": "2026-09-05",
@@ -1755,6 +1796,19 @@
       ]
     },
     {
+      "deporte": "Balonmano",
+      "competicion": "Copa Andalucía",
+      "ronda": "Final",
+      "evento": "Ángel Ximénez Puente Genil vs Balonmano Proin Sevilla",
+      "local": "Ángel Ximénez Puente Genil",
+      "visitante": "Balonmano Proin Sevilla",
+      "fecha": "2026-09-05",
+      "hora": "12:00",
+      "canales": [
+        "Canal Sur Más"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Liga F",
       "ronda": null,
@@ -1800,6 +1854,19 @@
       ]
     },
     {
+      "deporte": "Fútbol Sala",
+      "competicion": "Primera Federación Femenina",
+      "ronda": null,
+      "evento": "LBTL Alcantarilla FS vs AD Ceuta FS",
+      "local": "LBTL Alcantarilla FS",
+      "visitante": "AD Ceuta FS",
+      "fecha": "2026-09-05",
+      "hora": "12:30",
+      "canales": [
+        "FutsalRFEF YouTube"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Damallsvenskan",
       "ronda": null,
@@ -1839,6 +1906,20 @@
       ]
     },
     {
+      "deporte": "Fútbol Sala",
+      "competicion": "Primera Federación Femenina",
+      "ronda": null,
+      "evento": "Torreblanca Melilla vs Atlético Torcal FS",
+      "local": "Torreblanca Melilla",
+      "visitante": "Atlético Torcal FS",
+      "fecha": "2026-09-05",
+      "hora": "13:00",
+      "canales": [
+        "FutsalRFEF YouTube",
+        "TV Melilla"
+      ]
+    },
+    {
       "deporte": "Motociclismo",
       "competicion": "Sportbike",
       "ronda": null,
@@ -1862,6 +1943,7 @@
       "fecha": "2026-09-05",
       "hora": "13:30",
       "canales": [
+        "Teledeporte",
         "RTVE Play",
         "Esport3 (Cataluña)"
       ]
@@ -2152,7 +2234,7 @@
       "deporte": "Ciclismo",
       "competicion": "Vuelta a España",
       "ronda": null,
-      "evento": "Etapa 14",
+      "evento": "Etapa 14 Jaén › Sierra de la Pandera (154,5 km)",
       "local": null,
       "visitante": null,
       "fecha": "2026-09-05",
@@ -2176,6 +2258,19 @@
       "hora": "15:00",
       "canales": [
         "OneFootball PPV"
+      ]
+    },
+    {
+      "deporte": "Voleibol",
+      "competicion": "Campeonato de Europa Femenino",
+      "ronda": "Semifinales",
+      "evento": "Turquía vs Serbia",
+      "local": "Turquía",
+      "visitante": "Serbia",
+      "fecha": "2026-09-05",
+      "hora": "15:00",
+      "canales": [
+        "RTVE Play"
       ]
     },
     {
@@ -2324,6 +2419,23 @@
       "hora": "15:30",
       "canales": [
         "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Ciclismo",
+      "competicion": "Vuelta a España",
+      "ronda": null,
+      "evento": "Etapa 14 Jaén › Sierra de la Pandera (154,5 km)",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-09-05",
+      "hora": "15:55",
+      "canales": [
+        "HBO MAX",
+        "DAZN (Ver en directo)",
+        "La 1 TVE",
+        "RTVE Play",
+        "Eurosport 1"
       ]
     },
     {
@@ -2667,6 +2779,7 @@
       "fecha": "2026-09-05",
       "hora": "16:15",
       "canales": [
+        "Teledeporte",
         "RTVE Play",
         "Esport3 (Cataluña)"
       ]
@@ -2715,6 +2828,19 @@
       "hora": "16:30",
       "canales": [
         "OneFootball PPV"
+      ]
+    },
+    {
+      "deporte": "Fútbol Sala",
+      "competicion": "Primera Federación Femenina",
+      "ronda": null,
+      "evento": "Alcorcón FS vs Guadalcacin FSF",
+      "local": "Alcorcón FS",
+      "visitante": "Guadalcacin FSF",
+      "fecha": "2026-09-05",
+      "hora": "16:30",
+      "canales": [
+        "FutsalRFEF YouTube"
       ]
     },
     {
@@ -2771,6 +2897,19 @@
       "hora": "17:00",
       "canales": [
         "M+ Deportes 4 (66)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Sala",
+      "competicion": "Primera Federación Femenina",
+      "ronda": null,
+      "evento": "Ourense FSF vs Les Corts AE",
+      "local": "Ourense FSF",
+      "visitante": "Les Corts AE",
+      "fecha": "2026-09-05",
+      "hora": "17:00",
+      "canales": [
+        "FutsalRFEF YouTube"
       ]
     },
     {
@@ -2879,6 +3018,19 @@
       ]
     },
     {
+      "deporte": "Rugby L",
+      "competicion": "Betfred Super League",
+      "ronda": null,
+      "evento": "Dragons Catalans vs York City Knights",
+      "local": "Dragons Catalans",
+      "visitante": "York City Knights",
+      "fecha": "2026-09-05",
+      "hora": "18:00",
+      "canales": [
+        "Esport3 Web"
+      ]
+    },
+    {
       "deporte": "Balonmano",
       "competicion": "EHF Women's Champions League",
       "ronda": null,
@@ -2905,6 +3057,19 @@
       ]
     },
     {
+      "deporte": "Boxeo",
+      "competicion": "Título Intercontinental",
+      "ronda": "Peso Superwelter",
+      "evento": "S. Spomer vs F. Abubakari",
+      "local": "S. Spomer",
+      "visitante": "F. Abubakari",
+      "fecha": "2026-09-05",
+      "hora": "18:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
       "deporte": "Fútbol Sala",
       "competicion": "Primera Federación Femenina",
       "ronda": null,
@@ -2914,7 +3079,8 @@
       "fecha": "2026-09-05",
       "hora": "18:00",
       "canales": [
-        "Aragón Deporte"
+        "Aragón Deporte",
+        "FutsalRFEF YouTube"
       ]
     },
     {
@@ -2944,6 +3110,19 @@
         "TV FootballClub (Acceder)",
         "FANPLAY TV",
         "LaLiga TV M4"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": null,
+      "evento": "Cristo Atlético vs At. Bembibre",
+      "local": "Cristo Atlético",
+      "visitante": "At. Bembibre",
+      "fecha": "2026-09-05",
+      "hora": "18:00",
+      "canales": [
+        "Elviphotoss YouTube"
       ]
     },
     {
@@ -3013,6 +3192,7 @@
       "fecha": "2026-09-05",
       "hora": "18:30",
       "canales": [
+        "Teledeporte",
         "RTVE Play"
       ]
     },
@@ -3072,6 +3252,19 @@
         "LALIGA TV Hypermotion 2 (M59 O121): VER PARTIDO",
         "DAZN (Ver en directo)",
         "LaLiga TV M3"
+      ]
+    },
+    {
+      "deporte": "Fútbol Sala",
+      "competicion": "Primera Federación Femenina",
+      "ronda": null,
+      "evento": "Rodiles FS vs At. Navalcarnero FS",
+      "local": "Rodiles FS",
+      "visitante": "At. Navalcarnero FS",
+      "fecha": "2026-09-05",
+      "hora": "18:30",
+      "canales": [
+        "FutsalRFEF YouTube"
       ]
     },
     {
@@ -3224,6 +3417,19 @@
       "hora": "19:00",
       "canales": [
         "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": null,
+      "evento": "Tarancón vs AD Illescas",
+      "local": "Tarancón",
+      "visitante": "AD Illescas",
+      "fecha": "2026-09-05",
+      "hora": "19:00",
+      "canales": [
+        "CMMPlay (Castilla-LM)"
       ]
     },
     {
@@ -3439,14 +3645,15 @@
     {
       "deporte": "Baloncesto",
       "competicion": "Copa Andalucía",
-      "ronda": null,
-      "evento": "Unicaja Málaga vs TBD",
+      "ronda": "Final",
+      "evento": "Unicaja Málaga vs Caja 87 Basket",
       "local": "Unicaja Málaga",
-      "visitante": "TBD",
+      "visitante": "Caja 87 Basket",
       "fecha": "2026-09-05",
       "hora": "20:00",
       "canales": [
-        "Canal por confirmar"
+        "Federación Andaluza Baloncesto YouTube",
+        "Canal Sur Más"
       ]
     },
     {
@@ -3607,8 +3814,9 @@
       "fecha": "2026-09-05",
       "hora": "20:30",
       "canales": [
+        "Teledeporte",
         "RTVE Play",
-        "Esport3 Web"
+        "Esport3 (Cataluña)"
       ]
     },
     {
@@ -3784,6 +3992,19 @@
       "hora": "21:00",
       "canales": [
         "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": "Regular Season",
+      "evento": "Boston College vs Cincinnati Bearcats",
+      "local": "Boston College",
+      "visitante": "Cincinnati Bearcats",
+      "fecha": "2026-09-05",
+      "hora": "21:30",
+      "canales": [
+        "DAZN (Ver en directo)"
       ]
     },
     {
@@ -4389,6 +4610,20 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
+      "ronda": "Grupo 5",
+      "evento": "Real Madrid C vs Atlético Albacete",
+      "local": "Real Madrid C",
+      "visitante": "Atlético Albacete",
+      "fecha": "2026-09-06",
+      "hora": "11:00",
+      "canales": [
+        "CMMPlay (Castilla-LM)",
+        "Real Madrid TV"
+      ]
+    },
+    {
       "deporte": "Motociclismo",
       "competicion": "Superbike",
       "ronda": null,
@@ -4413,7 +4648,9 @@
       "hora": "11:30",
       "canales": [
         "DAZN (Ver en directo)",
-        "M+ Baloncesto (M66)"
+        "M+ Baloncesto (M66)",
+        "Teledeporte",
+        "RTVE Play"
       ]
     },
     {
@@ -4462,7 +4699,7 @@
       "deporte": "Ciclismo",
       "competicion": "Tour Gran Bretaña",
       "ronda": null,
-      "evento": "Etapa 5",
+      "evento": "Etapa 5 Earlston › Earlston (156,1 km)",
       "local": null,
       "visitante": null,
       "fecha": "2026-09-06",
@@ -4523,7 +4760,8 @@
       "fecha": "2026-09-06",
       "hora": "12:00",
       "canales": [
-        "TV FootballClub (Acceder)"
+        "TV FootballClub (Acceder)",
+        "CMMPlay (Castilla-LM)"
       ]
     },
     {
@@ -4562,7 +4800,8 @@
       "fecha": "2026-09-06",
       "hora": "12:00",
       "canales": [
-        "TV FootballClub (Acceder)"
+        "TV FootballClub (Acceder)",
+        "La 8 Valladolid"
       ]
     },
     {
@@ -4572,6 +4811,19 @@
       "evento": "Gernika vs Bergantiños",
       "local": "Gernika",
       "visitante": "Bergantiños",
+      "fecha": "2026-09-06",
+      "hora": "12:00",
+      "canales": [
+        "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
+      "ronda": "Grupo 4",
+      "evento": "CD Badajoz vs CD Tenerife B",
+      "local": "CD Badajoz",
+      "visitante": "CD Tenerife B",
       "fecha": "2026-09-06",
       "hora": "12:00",
       "canales": [
@@ -4638,6 +4890,20 @@
       "deporte": "Fútbol",
       "competicion": "Tercera Federación",
       "ronda": null,
+      "evento": "Júpiter Leonés vs Colegios Diocesanos",
+      "local": "Júpiter Leonés",
+      "visitante": "Colegios Diocesanos",
+      "fecha": "2026-09-06",
+      "hora": "12:00",
+      "canales": [
+        "La 7 (Castilla y León)",
+        "9TV León"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": null,
       "evento": "CD Alhaurino vs Recreativo Granada",
       "local": "CD Alhaurino",
       "visitante": "Recreativo Granada",
@@ -4684,7 +4950,7 @@
       "fecha": "2026-09-06",
       "hora": "12:30",
       "canales": [
-        "Canal por confirmar"
+        "Esport3 (Cataluña)"
       ]
     },
     {
@@ -4727,7 +4993,6 @@
         "DAZN (Ver en directo)",
         "DAZN 2 (M73)",
         "DAZN 2 Bar (M149)",
-        "Teledeporte",
         "RTVE Play"
       ]
     },
@@ -4784,16 +5049,16 @@
       ]
     },
     {
-      "deporte": "Ciclismo",
-      "competicion": "GP Industria & Artigianato",
-      "ronda": null,
-      "evento": "UCI ProSeries",
-      "local": null,
-      "visitante": null,
+      "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
+      "ronda": "Grupo 4",
+      "evento": "Las Palmas At. vs Betis Deportivo",
+      "local": "Las Palmas At.",
+      "visitante": "Betis Deportivo",
       "fecha": "2026-09-06",
       "hora": "13:00",
       "canales": [
-        "HBO MAX"
+        "TV FootballClub (Acceder)"
       ]
     },
     {
@@ -4918,6 +5183,19 @@
       ]
     },
     {
+      "deporte": "Ciclismo",
+      "competicion": "GP Industria & Artigianato",
+      "ronda": null,
+      "evento": "UCI ProSeries Larciano › Larciano (196,5 km)",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-09-06",
+      "hora": "14:30",
+      "canales": [
+        "HBO MAX"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Eredivisie",
       "ronda": null,
@@ -4934,7 +5212,7 @@
       "deporte": "Ciclismo",
       "competicion": "Vuelta a España",
       "ronda": null,
-      "evento": "Etapa 15",
+      "evento": "Etapa 15 Palma del Río › Córdoba (189,7 km)",
       "local": null,
       "visitante": null,
       "fecha": "2026-09-06",
@@ -5375,6 +5653,38 @@
       ]
     },
     {
+      "deporte": "Ciclismo",
+      "competicion": "Vuelta a España",
+      "ronda": null,
+      "evento": "Etapa 15 Palma del Río › Córdoba (189,7 km)",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-09-06",
+      "hora": "16:15",
+      "canales": [
+        "HBO MAX",
+        "DAZN (Ver en directo)",
+        "La 2 TVE",
+        "RTVE Play",
+        "Eurosport 1"
+      ]
+    },
+    {
+      "deporte": "Fútbol Sala",
+      "competicion": "Supercopa de España",
+      "ronda": null,
+      "evento": "Final",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-09-06",
+      "hora": "16:15",
+      "canales": [
+        "Teledeporte",
+        "RTVE Play",
+        "Esport3 Web"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "La Liga EA Sports",
       "ronda": null,
@@ -5607,6 +5917,19 @@
       ]
     },
     {
+      "deporte": "Voleibol",
+      "competicion": "Campeonato de Europa Femenino",
+      "ronda": null,
+      "evento": "Final",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-09-06",
+      "hora": "18:00",
+      "canales": [
+        "RTVE Play"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Primera B Argentina",
       "ronda": null,
@@ -5664,6 +5987,19 @@
     {
       "deporte": "Fútbol",
       "competicion": "Segunda Federación",
+      "ronda": "Grupo 5",
+      "evento": "Conquense vs Getafe B",
+      "local": "Conquense",
+      "visitante": "Getafe B",
+      "fecha": "2026-09-06",
+      "hora": "18:00",
+      "canales": [
+        "CMMPlay (Castilla-LM)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
       "ronda": "Grupo 2",
       "evento": "Peña Sport vs Utebo",
       "local": "Peña Sport",
@@ -5672,6 +6008,32 @@
       "hora": "18:00",
       "canales": [
         "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
+      "ronda": "Grupo 5",
+      "evento": "Calvo Sotelo Puertollano vs G. Segoviana",
+      "local": "Calvo Sotelo Puertollano",
+      "visitante": "G. Segoviana",
+      "fecha": "2026-09-06",
+      "hora": "18:00",
+      "canales": [
+        "CMMPlay (Castilla-LM)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": null,
+      "evento": "Mirandés B vs Palencia CF",
+      "local": "Mirandés B",
+      "visitante": "Palencia CF",
+      "fecha": "2026-09-06",
+      "hora": "18:00",
+      "canales": [
+        "Elviphotoss YouTube"
       ]
     },
     {
@@ -5925,17 +6287,16 @@
       ]
     },
     {
-      "deporte": "Fútbol Sala",
-      "competicion": "Supercopa de España",
-      "ronda": null,
-      "evento": "Final",
-      "local": null,
-      "visitante": null,
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 7",
+      "evento": "Leganés B vs Real Aranjuez",
+      "local": "Leganés B",
+      "visitante": "Real Aranjuez",
       "fecha": "2026-09-06",
       "hora": "18:45",
       "canales": [
-        "RTVE Play",
-        "Esport3 (Cataluña)"
+        "TV FootballClub (Acceder)"
       ]
     },
     {
@@ -5980,6 +6341,45 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
+      "ronda": "Grupo 5",
+      "evento": "Guadalajara vs Salamanca UDS",
+      "local": "Guadalajara",
+      "visitante": "Salamanca UDS",
+      "fecha": "2026-09-06",
+      "hora": "19:00",
+      "canales": [
+        "CMMPlay (Castilla-LM)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
+      "ronda": "Grupo 4",
+      "evento": "CA Antoniano vs Don Benito",
+      "local": "CA Antoniano",
+      "visitante": "Don Benito",
+      "fecha": "2026-09-06",
+      "hora": "19:00",
+      "canales": [
+        "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": null,
+      "evento": "CD Quintanar del Rey vs CD Toledo",
+      "local": "CD Quintanar del Rey",
+      "visitante": "CD Toledo",
+      "fecha": "2026-09-06",
+      "hora": "19:00",
+      "canales": [
+        "CMMPlay (Castilla-LM)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Tercera Federación",
       "ronda": null,
       "evento": "At. Porcuna vs Cantoria 2017 CF",
@@ -5994,13 +6394,53 @@
     {
       "deporte": "Fútbol",
       "competicion": "Tercera Federación",
+      "ronda": "Grupo 7",
+      "evento": "Colonia Moscardó vs AD Torrejón",
+      "local": "Colonia Moscardó",
+      "visitante": "AD Torrejón",
+      "fecha": "2026-09-06",
+      "hora": "19:00",
+      "canales": [
+        "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
       "ronda": null,
+      "evento": "CD Caspe vs At. Monzón",
+      "local": "CD Caspe",
+      "visitante": "At. Monzón",
+      "fecha": "2026-09-06",
+      "hora": "19:00",
+      "canales": [
+        "Lacronicadeportes.es"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 9",
+      "evento": "At. Marbella Bpié. vs Arenas de Armilla",
+      "local": "At. Marbella Bpié.",
+      "visitante": "Arenas de Armilla",
+      "fecha": "2026-09-06",
+      "hora": "19:00",
+      "canales": [
+        "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 10",
       "evento": "Real Betis C vs Sevilla C",
       "local": "Real Betis C",
       "visitante": "Sevilla C",
       "fecha": "2026-09-06",
       "hora": "19:00",
       "canales": [
+        "TV FootballClub (Acceder)",
         "Sevilla FC +"
       ]
     },
