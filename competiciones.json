@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-09-03T12:36:43"
+    "actualizado": "2026-09-04T02:59:46"
   },
   "config": {
     "puntos_por_tier": {
@@ -758,6 +758,36 @@
     "EHF Women's Champions League": {
       "deporte": "Balonmano",
       "tier": "S",
+      "por_revisar": true
+    },
+    "6 Horas de Austin": {
+      "deporte": "Automovilismo",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Eredivisie Vrouwen": {
+      "deporte": "Fútbol",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "GP Industria & Artigianato": {
+      "deporte": "Ciclismo",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Pointe du Raz Ladies Classic": {
+      "deporte": "Ciclismo",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Supercopa de Portugal Femenina": {
+      "deporte": "Fútbol",
+      "tier": "A",
+      "por_revisar": true
+    },
+    "Top 14": {
+      "deporte": "Rugby U",
+      "tier": "C",
       "por_revisar": true
     }
   }
