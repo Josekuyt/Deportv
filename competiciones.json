@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-09-04T18:48:56"
+    "actualizado": "2026-09-05T03:01:39"
   },
   "config": {
     "puntos_por_tier": {
@@ -805,6 +805,11 @@
     },
     "Título Intercontinental": {
       "deporte": "Boxeo",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "París Major": {
+      "deporte": "Pádel",
       "tier": "C",
       "por_revisar": true
     }
