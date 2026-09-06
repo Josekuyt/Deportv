@@ -1,0 +1,313 @@
+# Deportv — Documentación interna (desarrollo y despliegue)
+
+> Documento interno: instalación, arquitectura, actualización de datos y configuración.
+> Para la descripción pública del proyecto, ver `README.md`.
+
+Visor web de la programación deportiva en TV, con datos extraídos de
+[futbolenlatv.es/deporte](https://www.futbolenlatv.es/deporte). Diseñado para
+**publicarse en Netlify y actualizarse solo, sin servidor ni PC encendido.**
+
+## Rediseño visual (v1.3 — estilo editorial)
+
+El visor usa un estilo **editorial/brutalista** basado en el Figma (página
+«1.3 - REDESIGN»):
+
+- **Tipografías** (Google Fonts, cargadas en `<head>`): **Big Shoulders Display**
+  (titulares condensados en mayúsculas) y **Geist Mono** (etiquetas, datos, meta).
+- **Paleta** (tokens en `:root`, con variante oscura en `@media prefers-color-scheme`
+  y `[data-tema="oscuro"]`): fondo `#f5f3ef`, tinta `#1a1a1a`, amarillo `#ffd600`,
+  azul `#0055ff`, verde `#00b341`, naranja `#ff6b00`, rojo `#ff0000`. Bordes negros
+  gruesos (en oscuro se invierten a claros). **El selector de tema se mantiene**
+  (Automático / Claro / Oscuro).
+- **Hero de Destacados**: usa una **ilustración por deporte** en `assets/hero/<slug>.svg`
+  (exportadas del componente «Illustration» de Figma). El mapa `HERO_DEP` (en el script)
+  asocia cada deporte a su archivo; `ilustracionHero()` cae a `assets/hero-destacados.svg`
+  (genérica) para deportes sin ilustración propia, y el `onerror` de la imagen también
+  cae a la genérica. Slugs disponibles: futbol, baloncesto, tennis, ciclismo, atletismo,
+  automovilismo, football (fútbol americano), golf, hockey, mma, motogp. El hero es un
+  "póster" claro en ambos temas.
+- **Chips de canal**: son **oscuras en ambos temas** (tokens `--chip-bg`/`--chip-tx`
+  fijos, no se invierten en oscuro) para que los logos —pensados para fondo oscuro—
+  se lean siempre. Los badges/píldoras amarillas usan `--on-yellow` (texto oscuro fijo)
+  para no quedar ilegibles en modo oscuro.
+- **Listado en formato tabla** (Hora / Deporte / Evento+participantes / Canal) en
+  desktop; en tablet/móvil se apila (grid con `grid-template-areas`) y los filtros
+  pasan a **panel lateral** (botón «☰ Filtros»).
+- Cada deporte lleva una **barra de color** (`COLOR_DEP` en el script).
+- La cabecera muestra contador de eventos, fecha y **reloj** en vivo (`actualizarReloj`).
+
+## Contenido
+
+- `index.html` — visor web (marcado); enlaza `css/` y `js/`. **Fichero fuente**, ya no
+  se genera con build.
+- `css/tokens.css` — **núcleo compartido**: tokens de color (claro + oscuro), fuentes y
+  reset. Lo reutilizará también la futura interfaz de TV.
+- `css/app.css` — estilos de la web (usa los tokens).
+- `js/app.js` — lógica de la web (filtros, destacados, favoritos, preferencias,
+  notificaciones, carga de datos desde la CDN…).
+- `js/snapshot.js` — **datos incrustados** (respaldo de primera carga). **Lo genera
+  `build.py`**; no editar a mano.
+- `assets/` — ilustraciones del hero (`assets/hero/`) y logos de canal
+  (`assets/canales/`). Compartidos.
+- `events.json` — datos capturados.
+- `scraper.py` — scraper en Python (Requests + BeautifulSoup).
+- `build.py` — genera `js/snapshot.js` a partir de los JSON de datos.
+- `competiciones.json` — **tier list editable** de competiciones + configuración de
+  puntuación de los destacados.
+- `heuristica.py` — heurística de tier (compartida por el scraper y el sembrado).
+- `canales-abierto.json` — **lista editable** de canales/plataformas en abierto
+  (para el filtro "Mostrar sólo eventos en abierto"). Un canal es abierto si contiene
+  una palabra de `abiertos` y ninguna de `de_pago` (anula, p.ej. "ppv").
+- `requirements.txt` — dependencias del scraper.
+- `.github/workflows/actualizar-datos.yml` — cron gratuito que actualiza los datos.
+- `netlify.toml` — configuración de publicación en Netlify.
+- `actualizar.sh` — alternativa manual/cron local.
+- `estrategia-scraping.md` — análisis de la fuente y comparativa de herramientas.
+
+---
+
+## Cómo funciona la actualización automática (sin servidor)
+
+El visor es una página **estática** publicada en Netlify. Los **datos** (`events.json`)
+se sirven desde la **CDN de GitHub** (raw), de modo que se actualizan **sin
+redesplegar Netlify**. El scraping lo hace **GitHub Actions** de forma programada y
+gratuita (un navegador no puede scrapear futbolenlatv.es directamente por CORS):
+
+```
+   GitHub Actions (cron, cada 8 h)  ─►  scraper.py  ─►  commit de events.json
+                                                              │
+                          ┌───────────────────────────────────┤
+                          ▼                                   ▼
+   Netlify NO se redespliega            El visor lee events.json desde
+   (ignora commits de solo-datos)       la CDN de GitHub (raw) -> datos frescos
+```
+
+Ni servidor ni ordenador encendido. El visor muestra siempre **"Fuente actualizada:
+<fecha y hora>"** (campo `meta.generado` de `events.json`) y el botón
+**"🔄 Actualizar eventos"** recarga los datos desde la CDN sin recargar la página.
+
+> Por qué la CDN: al leer `events.json` desde `raw.githubusercontent.com`, las
+> actualizaciones de datos no tocan Netlify. Además, `netlify.toml` incluye una regla
+> `ignore` que **cancela el despliegue cuando el único cambio es `events.json`**, así
+> que los minutos de build de Netlify no se consumen con las actualizaciones de datos.
+
+### Coste: 0 €
+
+- **GitHub Actions**: gratis (ilimitado en repos públicos; 2.000 min/mes en privados).
+  Cada ejecución del scraper dura ~1 minuto; con 3 ejecuciones/día son ~90 min/mes.
+- **Netlify (plan Starter)**: gratis. El sitio solo se redespliega cuando cambias el
+  código (no con los datos), así que apenas consume build.
+- **CDN de GitHub (raw)**: gratis. La caché de `raw.githubusercontent.com` es de ~5
+  minutos, más que suficiente con un refresco cada 8 horas.
+
+> Cambiar la frecuencia: edita la línea `cron` en
+> `.github/workflows/actualizar-datos.yml`. Actualmente cada 8 horas (`0 */8 * * *`).
+
+---
+
+## Puesta en marcha (paso a paso)
+
+1. **Sube este proyecto a un repositorio de GitHub** (nuevo repo → subir los ficheros).
+2. **Repo en el visor (ya preconfigurado)**: `index.html` ya apunta a
+   `Josekuyt/Deportv` (rama `main`) para leer `events.json` desde la CDN de GitHub. Si
+   cambias de usuario/repo/rama, edita el bloque de configuración al principio del
+   `<script>` (`GH_USUARIO`/`GH_REPO`/`GH_RAMA`).
+3. **Conecta el repo a Netlify**: *Add new site → Import from Git →* elige el
+   repositorio. No hace falta configurar build; `netlify.toml` ya publica la raíz.
+4. **Activa el cron**: entra en la pestaña **Actions** de GitHub, habilita los
+   workflows si te lo pide, y usa *"Run workflow"* para lanzar el primero a mano y
+   comprobar que actualiza `events.json`.
+5. Listo: a partir de ahí el scraper corre cada 8 horas y el visor lee los datos desde
+   la CDN de GitHub, sin redesplegar Netlify.
+
+> Permisos: el workflow ya incluye `permissions: contents: write`. Si el push fallara,
+> revisa en *Settings → Actions → General → Workflow permissions* que esté marcado
+> **"Read and write permissions"**.
+>
+> Nota: para que la CDN raw funcione, el repositorio debe ser **público** (o servir el
+> dato por otra vía). Si lo quieres privado, dímelo y te preparo la variante.
+
+---
+
+## Uso local (opcional)
+
+```bash
+pip install -r requirements.txt
+
+python scraper.py --print          # scrapea y muestra un resumen
+python scraper.py --from-file x.html   # parsea un HTML guardado
+python build.py                    # genera js/snapshot.js (datos de primera carga)
+python -m http.server 8000         # prueba el visor en http://localhost:8000
+```
+
+## Destacados de hoy — sistema de tier list (MVP 0.5)
+
+El visor resalta **solo lo más importante del día actual** en una sección
+**"⭐ Destacados de hoy"** (máximo 5) y con una **estrella** en las tarjetas del
+listado. La selección se basa en una **tier list de competiciones** definida en el
+fichero editable `competiciones.json`.
+
+### Cómo se puntúa
+
+```
+puntuación = puntos_por_tier[tier] + bonus_fase + bonus_España
+```
+
+- **Tier de la competición** (S/A/B/C/D): se busca la competición por nombre exacto en
+  `competiciones.json`. Puntos por defecto: S=100, A=70, B=45, C=25, D=10.
+- **Bonus de fase** (progresivo, del campo `ronda` o del nombre del evento): final=40,
+  semifinal=25, cuartos=12, octavos=4, resto=0.
+- **Bonus España**: +30 si un participante es la selección de España (cualquier deporte).
+
+Se descartan (puntuación 0): competiciones cuyo nombre contenga un término de
+`config.excluir` (reservas, juveniles, 2ª división, amistosos, trofeos regionales…);
+las sesiones de **Libres/ensayos** de F1/MotoGP; y la **previa de clasificación** de
+Champions (los "play-offs" de acceso de jun–ago se excluyen, pero la eliminatoria de
+play-offs de febrero se mantiene, distinguido por fecha).
+
+Recorte final: como máximo `config.max_destacados` (5) y `config.max_por_competicion`
+(2) por competición, eligiendo el mejor evento de cada una (por puntuación, nº de
+canales y horario estelar). Solo cuenta la **fecha de hoy**.
+
+### El fichero `competiciones.json` (editable)
+
+Contiene `config` (puntos por tier, bonus, exclusiones, topes) y `competiciones`
+(mapa `"Nombre de competición": { "deporte": "Fútbol", "tier": "S" }`). **Edítalo a
+mano** para ajustar tiers, deporte o la configuración; el visor lo lee desde la CDN,
+así que los cambios se aplican en la siguiente carga (no hace falta re-scrapear ni
+redesplegar Netlify).
+
+El campo **`deporte`** sirve para agrupar las competiciones por deporte en el
+desplegable de **Competiciones favoritas** (Preferencias), que se nutre de este
+catálogo completo (no solo de los eventos del día). Puede ser **texto**
+(`"deporte": "Fútbol"`) o una **lista** (`"deporte": ["Baloncesto", "Fútbol"]`) para
+los nombres genéricos que la fuente usa en varios deportes (p.ej. **"Amistoso"**); en
+ese caso la competición aparece en el desplegable bajo **cada** uno de esos deportes.
+
+> Importante: este `deporte` es solo para agrupar el desplegable. El deporte que se
+> muestra en cada tarjeta, el filtro "Deporte" y el emoji salen del `deporte` propio
+> de **cada evento** (del scrape), así que un amistoso de fútbol siempre se ve como
+> Fútbol aunque el catálogo tenga "Amistoso" en varios deportes.
+
+El scraper lo mantiene solo: al autodescubrir una competición nueva guarda su(s)
+`deporte`(s); y si un nombre ya existente aparece con un deporte adicional (p.ej.
+"Amistoso" de fútbol cuando estaba solo como baloncesto), **fusiona** el nuevo deporte
+en la lista sin tocar su `tier`. Si alguna competición se quedara sin `deporte`, en el
+desplegable caería en un grupo **"Otras competiciones"** al final (no rompe nada).
+
+### Autodescubrimiento de competiciones nuevas
+
+Cuando el scraper encuentra una competición que no está en `competiciones.json`, la
+**añade automáticamente** con un tier estimado por heurística (`heuristica.py`) y
+marcada `"por_revisar": true`, sin tocar las que ya existan (respeta tus ediciones).
+El workflow commitea el fichero actualizado. Revisa periódicamente las entradas
+`por_revisar` para confirmar o corregir su tier.
+
+> El usuario/repositorio de GitHub (`GH_USUARIO`/`GH_REPO`) ya vienen preconfigurados
+> en `index.html`/`template.html`.
+
+## Preferencias, favoritos y persistencia (localStorage)
+
+Un botón **⚙ Preferencias** (cabecera, arriba a la derecha) abre un modal con:
+
+- **Tema**: Automático / Claro / Oscuro. "Automático" sigue el sistema; las otras
+  fuerzan el tema vía `data-tema` en `<html>`.
+- **Mis plataformas contratadas**: desplegable «Selecciona una plataforma para
+  añadir» + chips de las seleccionadas (quitar con ✕).
+- **Competiciones favoritas**: desplegable **agrupado por deporte** (`<optgroup>`);
+  se añade al seleccionar (sin botón) y se quita con la ✕ del chip. (Los favoritos
+  por equipo se retiraron.)
+- **Notificaciones**: interruptor «Avisarme de próximos eventos» + casillas de
+  disparador (**Competiciones favoritas** y **Eventos destacados**) + **antelación**
+  (5/10/15/30 min, por defecto 15) + línea de estado. Ver sección propia más abajo.
+- **Datos**: botón «Limpiar preferencias» (borra plataformas, favoritos, tema y
+  notificaciones); al hacerlo muestra un **toast** de confirmación.
+
+Cada tarjeta del listado lleva un **corazón** arriba a la derecha que marca/desmarca
+la **competición** del evento como favorita. Con **"Mostrar sólo favoritos"** (barra
+de filtros) se ven solo los eventos de competiciones favoritas.
+
+### Iconos, logos y "ocultar finalizados"
+
+- **Iconos de deporte**: emoji sencillos por deporte (`ICONO_DEPORTE` en el script),
+  junto al texto en las tarjetas y en el hero.
+- **Logos de canal**: el visor busca automáticamente la imagen de cada canal en
+  `assets/canales/<marca>.png`. Si el archivo no existe, muestra un cuadradito con
+  iniciales y color derivado del nombre (con `onerror` → `logoFallback`, no se rompe
+  nada). Basta con ir subiendo PNG a `assets/canales/` para que aparezcan sin tocar
+  código.
+  - El nombre de archivo lo calcula `marcaCanal(nombre)`, que resuelve la **marca**
+    por **palabra clave** (tabla `MARCAS_KW`, en orden de prioridad) para agrupar
+    muchas variantes en un solo logo. Reglas principales:
+    - `M+` / `Movistar` (incluye Movistar Golf) → **`movistar-plus.png`**
+    - `DAZN` (incluye "DAZN LaLiga") → **`dazn.png`**
+    - `Orange TV` (p.ej. "Tennis Channel - Orange TV") → **`orange.png`**
+    - `LaLiga` que **no** sea DAZN ni M+ (p.ej. "LaLiga TV Bar") → **`laliga.png`**
+    - `youtube` va **al final**: si la marca tiene logo propio (FIBA, Win Sports,
+      SeFutbol…) se usa ese; los feeds de YouTube genéricos (p.ej. "CONCACAF
+      YouTube") caen en **`youtube.png`**.
+    - Otras marcas por palabra clave: `atp`, `wta`, `fiba`, `win-sports`, `sefutbol`,
+      `rcn`, `rfef`, `nwsl`, `zapping`, `eurovision-sports`, `eurosport`,
+      `onefootball`, `hbo-max`, `fanatiz`, `teledeporte`, `rtve-play`, `lpf-play`,
+      `la-1-tve`.
+    - Si ninguna regla casa, cae a `slugCanal` con colapso de variantes de feed
+      (`-1/-2/-3…`, `-m2`, `-hdr`, `-bar`, `-uhd`, `-4k`).
+  - El mapeo canal→archivo vigente está en **`canales-logos.csv`** (columna
+    `logo_disponible` indica si ya existe el PNG o si se muestra el monograma).
+  - **Formato recomendado**: PNG cuadrado con fondo transparente, ~128×128 px
+    (el visor lo muestra a ~22 px). Un solo logo por marca cubre todos sus feeds.
+  - Para forzar una ruta concreta en un caso especial, añade una entrada en
+    `LOGOS_CANAL` con el **nombre exacto** del canal
+    (p.ej. `"DAZN (Ver en directo)":"assets/canales/dazn.png"`); tiene prioridad
+    sobre el nombre automático.
+- **Ocultar eventos finalizados (hoy)**: interruptor en la barra de filtros,
+  **activado por defecto**. Oculta los eventos de HOY cuya hora de inicio fue hace más
+  de `DELAY_FIN_MS` (3 h, editable). No persiste (vuelve a activarse en cada visita).
+
+**Persistencia**: se guarda en `localStorage` (claves `deportv:*`): plataformas
+contratadas, favoritos (equipos y competiciones) y tema. Los filtros y la búsqueda
+NO se recuerdan (se resetean en cada visita), y "Limpiar filtros" no borra las
+preferencias. Todas las lecturas/escrituras van con `try/catch` por si el navegador
+bloquea el almacenamiento.
+
+## Notificaciones locales (avisos en sesión)
+
+Avisos de próximos eventos **mientras la web está abierta** (sin backend). Los avisos
+con la web cerrada requieren Service Worker + Push (servidor VAPID) y quedan para la
+**PWA/app Android** de la v2.0.
+
+- **Disparador**: un evento avisa si es de **competición favorita** (`esFavorito`) o
+  **destacado** (`e._dest`), según las casillas activas. No usa «Mis plataformas».
+- **Motor**: `setInterval(comprobarAvisos, 30000)` (y una comprobación inmediata). En
+  cada tick recorre `DOC.eventos`, y cuando un evento notificable entra en la ventana
+  `[inicio − antelación, inicio)` lanza `new Notification(...)` y guarda su clave en
+  `deportv:notifHechas` (por día) para **no repetir** al recargar. No avisa de eventos
+  ya empezados.
+- **Permiso**: se solicita solo al activar el interruptor (no al cargar). Estados en la
+  línea de estado: activadas / pendiente / bloqueadas / no compatibles.
+- **Config** en `localStorage` (`deportv:notif`): `{on, favs, dest, lead}`
+  (por defecto `{false, true, true, 15}`). Se limpia con «Limpiar preferencias».
+- **Requisitos**: la API de Notificaciones exige **HTTPS** (Netlify lo es) o
+  `localhost`; en `file://` no funciona. Depende del **reloj del dispositivo**.
+
+## Responsive / móvil
+
+- **Ancho de la columna de filtros (desktop)**: no es fijo, usa
+  `grid-template-columns: clamp(260px,24vw,360px) 1fr`. Así en tablet horizontal y
+  pantallas medias ocupa un porcentaje razonable (≈25 %) en vez de un ancho fijo grande.
+- **Filtros en móvil (≤960 px)**: el `<aside id="filtros">` se convierte en un **panel
+  lateral deslizante** (off-canvas), oculto por defecto. Se abre con el botón
+  **«☰ Filtros»** (`#abrirFiltros`, solo visible en móvil), que muestra un **badge**
+  con el nº de filtros activos (`actualizarContadorFiltros`, se recalcula en `render`).
+  El drawer se cierra con su ✕ (`#cerrarFiltros`), tocando el fondo
+  (`#filtrosBackdrop`) o con **ESC**; mientras está abierto se bloquea el scroll del
+  body. Si se pasa a desktop con el drawer abierto, se restablece solo (evento
+  `resize`).
+- El resto (cabecera, hero, tarjetas, modal de Preferencias, footer) se revisó a
+  360/390/414/768/1024/1440 px sin desbordes horizontales.
+
+## Nota sobre los selectores
+
+El bloque `SEL` de `scraper.py` está ajustado al HTML real de la web y aislado a
+propósito: si la web cambia su maquetación, ese es el único punto a tocar. El parser
+incluye además una estrategia de respaldo por estructura de tablas.
