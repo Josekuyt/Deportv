@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es" data-tema="oscuro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Deportv TV</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=Geist+Mono:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/tokens.css">
+<link rel="stylesheet" href="css/tv.css">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+</head>
+<body>
+<div class="tv">
+  <header class="tv-head">
+    <div class="tv-brand"><span class="name">DEPORTV</span><span class="badge">200</span></div>
+    <div class="tv-meta">
+      <span class="count"><i class="dot"></i> Eventos: <b id="tvCount">—</b></span>
+      <span class="date" id="tvDate">—</span>
+      <span class="clock" id="tvClock">--:--</span>
+    </div>
+  </header>
+
+  <div class="tv-tabs" id="tvTabs"></div>
+
+  <section id="tvDestSec">
+    <div class="tv-sec"><span class="star">★</span> Destacados de hoy</div>
+    <div class="tv-rail" id="tvRail"></div>
+  </section>
+
+  <div class="tv-sec" id="tvDayTitle">—</div>
+  <div class="tv-list" id="tvList"></div>
+</div>
+<div class="tv-hint">Mando: flechas para moverte · OK para marcar favorito</div>
+
+<script src="js/snapshot.js"></script>
+<script src="js/core.js"></script>
+<script src="js/tv.js"></script>
+</body>
+</html>

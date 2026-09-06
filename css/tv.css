@@ -1,0 +1,85 @@
+/* Deportv — interfaz de TV (10-foot UI). Reutiliza css/tokens.css.
+   Pensada para pantalla de televisor y navegación con mando (D-pad). */
+
+/* Escala tipográfica relativa al ancho del televisor. */
+html{font-size:clamp(15px,1.15vw,24px)}
+html,body{height:100%;overflow:hidden}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-mono)}
+
+/* Contenedor con margen de seguridad (overscan). */
+.tv{height:100vh;display:flex;flex-direction:column;gap:1.6rem;padding:3.5vh 4vw}
+
+/* ===== Cabecera ===== */
+.tv-head{display:flex;align-items:center;justify-content:space-between;gap:1rem}
+.tv-brand{display:flex;align-items:center;gap:.6rem}
+.tv-brand .name{font-family:var(--f-display);font-weight:900;font-size:2.6rem;
+  text-transform:uppercase;letter-spacing:.5px;line-height:1}
+.tv-brand .badge{font-family:var(--f-mono);font-weight:700;font-size:1.1rem;
+  background:var(--accent);color:#fff;padding:.15em .5em;border-radius:3px;letter-spacing:1px}
+.tv-meta{display:flex;align-items:center;gap:1.4rem;font-size:1.05rem;letter-spacing:.5px;text-transform:uppercase}
+.tv-meta .count{display:inline-flex;align-items:center;gap:.5rem;font-weight:700}
+.tv-meta .dot{width:.6rem;height:.6rem;border-radius:50%;background:var(--red)}
+.tv-meta .date{color:var(--muted)}
+.tv-meta .clock{background:var(--yellow);color:var(--on-yellow);font-weight:700;padding:.15em .5em;border-radius:3px}
+
+/* ===== Pestañas de día ===== */
+.tv-tabs{display:flex;gap:1rem}
+.tv-tab{font-family:var(--f-mono);font-weight:700;font-size:1.15rem;text-transform:uppercase;letter-spacing:.5px;
+  background:var(--surface);color:var(--ink);border:2px solid var(--line-soft);border-radius:4px;
+  padding:.6rem 1.6rem}
+.tv-tab.on{background:var(--yellow);color:var(--on-yellow);border-color:var(--line)}
+
+/* ===== Título de sección ===== */
+.tv-sec{font-family:var(--f-display);font-weight:800;font-size:1.5rem;text-transform:uppercase;
+  letter-spacing:.5px;display:flex;align-items:center;gap:.6rem;margin:.2rem 0}
+.tv-sec .star{color:var(--yellow)}
+
+/* ===== Carrusel de destacados ===== */
+.tv-rail{display:flex;gap:1.2rem;overflow-x:auto;padding:.4rem;scrollbar-width:none}
+.tv-rail::-webkit-scrollbar{display:none}
+.tv-card{flex:0 0 32%;min-width:0;position:relative;display:grid;grid-template-columns:1fr 42%;
+  background:#edeae4;color:#1a1a1a;border:2px solid #1a1a1a;border-radius:4px;overflow:hidden;min-height:9.5rem}
+.tv-card::before{content:"";position:absolute;left:0;top:0;bottom:0;width:.4rem;z-index:2;
+  background:linear-gradient(#0055ff 0 50%,#ffd600 50% 100%)}
+.tv-card .c-info{padding:1rem 1rem 1rem 1.2rem;display:flex;flex-direction:column;gap:.35rem;justify-content:center;min-width:0}
+.tv-card .c-tag{align-self:flex-start;font-weight:700;font-size:.75rem;text-transform:uppercase;letter-spacing:1px;
+  background:#ffd600;color:#1a1a1a;padding:.15em .5em;border-radius:3px}
+.tv-card .c-ev{font-family:var(--f-display);font-weight:900;font-size:1.35rem;line-height:1;text-transform:uppercase;
+  overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.tv-card .c-hora{font-weight:700;font-size:1rem}
+.tv-card .c-media{background:#edeae4;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.tv-card .c-media img{width:100%;height:100%;object-fit:cover}
+
+/* ===== Listado ===== */
+.tv-list{flex:1;overflow-y:auto;display:flex;flex-direction:column;gap:.6rem;padding:.4rem;scrollbar-width:none}
+.tv-list::-webkit-scrollbar{display:none}
+.tv-row{display:grid;grid-template-columns:6.5rem 12rem 1fr minmax(0,26rem);gap:1.2rem;align-items:center;
+  background:var(--surface);border:2px solid var(--line-soft);border-radius:4px;padding:.9rem 1.2rem}
+.tv-row .hora{font-weight:700;font-size:1.5rem}
+.tv-row .dep{display:flex;align-items:center;gap:.6rem;min-width:0}
+.tv-row .dep .bar{width:.35rem;height:1.4rem;flex:0 0 auto;border-radius:1px}
+.tv-row .dep .name{font-weight:700;font-size:1rem;text-transform:uppercase;letter-spacing:.5px}
+.tv-row .ev{min-width:0}
+.tv-row .ev .part{font-family:var(--f-display);font-weight:700;font-size:1.5rem;line-height:1.05;text-transform:uppercase;
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.tv-row .ev .part .vs{color:var(--muted);font-family:var(--f-mono);font-size:1rem;margin:0 .3em}
+.tv-row .ev .sub{font-size:.85rem;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;margin-top:.15rem;
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.tv-row .canales{display:flex;flex-wrap:wrap;gap:.4rem;justify-content:flex-end;min-width:0}
+.tv-chip{display:inline-flex;align-items:center;gap:.4rem;font-size:.82rem;background:#1a1a1a;color:#f5f3ef;
+  border:1px solid rgba(255,255,255,.12);border-radius:3px;padding:.2rem .5rem .2rem .3rem;max-width:100%}
+.tv-chip img{width:1.2rem;height:1.2rem;border-radius:2px;flex:0 0 auto;object-fit:cover;background:#fff}
+.tv-chip .mono{display:inline-flex;align-items:center;justify-content:center;width:1.2rem;height:1.2rem;
+  font-size:.6rem;font-weight:800;color:#fff;border-radius:2px}
+.tv-chip .txt{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tv-row .fav{font-size:1.3rem;color:var(--muted)}
+.tv-row .fav.on{color:var(--accent)}
+
+/* ===== Foco (mando/D-pad) — MUY visible ===== */
+.focusable{outline:none;transition:transform .12s ease, box-shadow .12s ease}
+.focusable:focus{transform:scale(1.03);box-shadow:0 0 0 4px var(--bg),0 0 0 8px var(--yellow);
+  position:relative;z-index:5}
+.tv-tab.focusable:focus{transform:scale(1.06)}
+.tv-empty{color:var(--muted);text-transform:uppercase;letter-spacing:.5px;font-size:1.1rem;padding:2rem}
+.tv-hint{position:fixed;bottom:1.2vh;left:50%;transform:translateX(-50%);color:var(--muted);
+  font-size:.8rem;letter-spacing:.5px;text-transform:uppercase;opacity:.7}
