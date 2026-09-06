@@ -363,7 +363,8 @@ function renderDestacados(){
         ${canal?`<div class="hero-canal">${esc(canal)}${extra}</div>`:""}
       </div>
       <div class="hero-media">
-        <img class="hero-illu" src="${ilustracionHero(e.deporte)}" alt="" onerror="this.onerror=null;this.src='${HERO_ILU}'">
+        <img class="hero-illu light" src="${ilustracionHero(e.deporte)}" alt="" onerror="this.onerror=null;this.src='${HERO_ILU}'">
+        <img class="hero-illu dark" src="${ilustracionHero(e.deporte).replace(/\.svg$/,'-dark.svg')}" alt="" onerror="this.onerror=null;this.src='assets/hero-destacados-dark.svg'">
       </div>
     </article>`;
   }).join("");

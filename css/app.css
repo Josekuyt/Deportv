@@ -110,9 +110,17 @@
   .hero-time{align-self:flex-start;font-family:var(--f-mono);font-weight:700;font-size:1rem;
     background:#1a1a1a;color:#ffd600;padding:4px 10px;border-radius:var(--radius)}
   .hero-canal{font-family:var(--f-mono);font-weight:700;font-size:.78rem;color:var(--accent);text-transform:uppercase;letter-spacing:.5px}
-  .hero-media{position:relative;background:#edeae4;
+  .hero-media{position:relative;background:var(--surface);
     display:flex;align-items:center;justify-content:center;overflow:hidden}
   .hero-illu{width:100%;height:100%;object-fit:cover;object-position:center;display:block}
+  /* Ilustración: versión clara u oscura según el tema. */
+  .hero-illu.dark{display:none}
+  @media (prefers-color-scheme: dark){
+    :root:not([data-tema="claro"]) .hero-illu.light{display:none}
+    :root:not([data-tema="claro"]) .hero-illu.dark{display:block}
+  }
+  :root[data-tema="oscuro"] .hero-illu.light{display:none}
+  :root[data-tema="oscuro"] .hero-illu.dark{display:block}
   .hero-dots{display:flex;gap:7px}
   .hero-dots i{width:9px;height:9px;border:2px solid var(--line);background:transparent;cursor:pointer}
   .hero-dots i.on{background:var(--accent);border-color:var(--accent)}
