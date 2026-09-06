@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-09-06T03:01:16",
+    "generado": "2026-09-06T11:57:52",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 332
+    "total_eventos": 335
   },
   "eventos": [
     {
@@ -189,6 +189,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Liga Colombiana",
+      "ronda": null,
+      "evento": "Cúcuta vs Deportivo Pasto",
+      "local": "Cúcuta",
+      "visitante": "Deportivo Pasto",
+      "fecha": "2026-09-06",
+      "hora": "01:10",
+      "canales": [
+        "RCN Nuestra Tele"
+      ]
+    },
+    {
       "deporte": "Tenis",
       "competicion": "US Open WTA",
       "ronda": "3ª Ronda",
@@ -196,7 +209,7 @@
       "local": "N. Osaka",
       "visitante": "E. Mertens",
       "fecha": "2026-09-06",
-      "hora": "01:00",
+      "hora": "01:10",
       "canales": [
         "M+ Deportes (63)"
       ]
@@ -209,22 +222,9 @@
       "local": "I. Jovic",
       "visitante": "A. Eala",
       "fecha": "2026-09-06",
-      "hora": "01:00",
+      "hora": "01:20",
       "canales": [
         "M+ Deportes 2 (64)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Liga Colombiana",
-      "ronda": null,
-      "evento": "Cúcuta vs Deportivo Pasto",
-      "local": "Cúcuta",
-      "visitante": "Deportivo Pasto",
-      "fecha": "2026-09-06",
-      "hora": "01:10",
-      "canales": [
-        "RCN Nuestra Tele"
       ]
     },
     {
@@ -410,32 +410,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "US Open",
-      "ronda": "3ª Ronda",
-      "evento": "A. Zverev vs A. Tabilo",
-      "local": "A. Zverev",
-      "visitante": "A. Tabilo",
-      "fecha": "2026-09-06",
-      "hora": "02:30",
-      "canales": [
-        "M+ Deportes 2 (64)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "US Open",
-      "ronda": "3ª Ronda",
-      "evento": "J. Mensik vs L. Tien",
-      "local": "J. Mensik",
-      "visitante": "L. Tien",
-      "fecha": "2026-09-06",
-      "hora": "02:30",
-      "canales": [
-        "M+ Deportes (63)"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "MLS",
       "ronda": null,
@@ -472,6 +446,19 @@
       "hora": "02:30",
       "canales": [
         "Apple TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open WTA",
+      "ronda": "3ª Ronda",
+      "evento": "Y. Starodubtseva vs E. Rybakina",
+      "local": "Y. Starodubtseva",
+      "visitante": "E. Rybakina",
+      "fecha": "2026-09-06",
+      "hora": "03:05",
+      "canales": [
+        "M+ Deportes 5 (192)"
       ]
     },
     {
@@ -540,6 +527,19 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "US Open",
+      "ronda": "3ª Ronda",
+      "evento": "J. Mensik vs L. Tien",
+      "local": "J. Mensik",
+      "visitante": "L. Tien",
+      "fecha": "2026-09-06",
+      "hora": "04:10",
+      "canales": [
+        "M+ Deportes (63)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "MLS Next Pro",
       "ronda": null,
@@ -576,6 +576,19 @@
       "hora": "04:30",
       "canales": [
         "Apple TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open",
+      "ronda": "3ª Ronda",
+      "evento": "A. Zverev vs A. Tabilo",
+      "local": "A. Zverev",
+      "visitante": "A. Tabilo",
+      "fecha": "2026-09-06",
+      "hora": "04:45",
+      "canales": [
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -1017,6 +1030,7 @@
         "DAZN (Ver en directo)",
         "DAZN 2 (M73)",
         "DAZN 2 Bar (M149)",
+        "Teledeporte",
         "RTVE Play"
       ]
     },
@@ -1096,6 +1110,19 @@
       "hora": "13:30",
       "canales": [
         "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Chinese Super League",
+      "ronda": null,
+      "evento": "Henan FC vs Chengdu Rongcheng",
+      "local": "Henan FC",
+      "visitante": "Chengdu Rongcheng",
+      "fecha": "2026-09-06",
+      "hora": "13:35",
+      "canales": [
+        "GOL (Síguelo en directo)"
       ]
     },
     {
@@ -1893,6 +1920,19 @@
       "hora": "17:15",
       "canales": [
         "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Polaca",
+      "ronda": null,
+      "evento": "Lech Poznan vs Raków Częstochowa",
+      "local": "Lech Poznan",
+      "visitante": "Raków Częstochowa",
+      "fecha": "2026-09-06",
+      "hora": "17:30",
+      "canales": [
+        "GOL (Síguelo en directo)"
       ]
     },
     {
@@ -3137,7 +3177,8 @@
       "fecha": "2026-09-06",
       "hora": "23:00",
       "canales": [
-        "LigaFUTVE App"
+        "LigaFUTVE App",
+        "Fanatiz (Ver en directo)"
       ]
     },
     {
@@ -3176,7 +3217,8 @@
       "fecha": "2026-09-06",
       "hora": "23:30",
       "canales": [
-        "LigaFUTVE App"
+        "LigaFUTVE App",
+        "Liga Futve YouTube"
       ]
     },
     {
@@ -3244,7 +3286,8 @@
       "fecha": "2026-09-07",
       "hora": "01:00",
       "canales": [
-        "LigaFUTVE App"
+        "LigaFUTVE App",
+        "Liga Futve YouTube"
       ]
     },
     {
@@ -3805,7 +3848,8 @@
       "fecha": "2026-09-08",
       "hora": "00:00",
       "canales": [
-        "LigaFUTVE App"
+        "LigaFUTVE App",
+        "Fanatiz (Ver en directo)"
       ]
     },
     {
@@ -3844,7 +3888,8 @@
       "fecha": "2026-09-08",
       "hora": "01:00",
       "canales": [
-        "LigaFUTVE App"
+        "LigaFUTVE App",
+        "Liga Futve YouTube"
       ]
     },
     {
@@ -4417,7 +4462,8 @@
         "Movistar Plus+ (M7): VER PARTIDO",
         "Orange Fútbol 1 (107)",
         "M+ Liga de Campeones (M60 O115)",
-        "M+ Liga de Campeones 4 (M180 O119)"
+        "M+ Liga de Campeones 4 (M180 O119)",
+        "LaLiga TV Bar"
       ]
     },
     {
