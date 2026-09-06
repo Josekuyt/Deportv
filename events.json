@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-09-06T11:57:52",
+    "generado": "2026-09-06T18:01:23",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 335
+    "total_eventos": 342
   },
   "eventos": [
     {
@@ -863,7 +863,8 @@
       "fecha": "2026-09-06",
       "hora": "12:00",
       "canales": [
-        "TV FootballClub (Acceder)"
+        "TV FootballClub (Acceder)",
+        "Canal Deporte TV (Síguelo en directo)"
       ]
     },
     {
@@ -988,19 +989,6 @@
       "hora": "12:30",
       "canales": [
         "Esport3 (Cataluña)"
-      ]
-    },
-    {
-      "deporte": "Baloncesto",
-      "competicion": "Amistoso",
-      "ronda": null,
-      "evento": "GA Cantabria vs Bilbao Basket",
-      "local": "GA Cantabria",
-      "visitante": "Bilbao Basket",
-      "fecha": "2026-09-06",
-      "hora": "12:30",
-      "canales": [
-        "Canal por confirmar"
       ]
     },
     {
@@ -1721,21 +1709,6 @@
       ]
     },
     {
-      "deporte": "Fútbol Sala",
-      "competicion": "Supercopa de España",
-      "ronda": null,
-      "evento": "Final",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-09-06",
-      "hora": "16:15",
-      "canales": [
-        "Teledeporte",
-        "RTVE Play",
-        "Esport3 Web"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "La Liga EA Sports",
       "ronda": null,
@@ -1871,32 +1844,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "US Open",
-      "ronda": null,
-      "evento": "3ª Ronda Grand Slam",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-09-06",
-      "hora": "17:05",
-      "canales": [
-        "M+ Deportes 2 (64)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "US Open WTA",
-      "ronda": null,
-      "evento": "1/8 de final Grand Slam",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-09-06",
-      "hora": "17:05",
-      "canales": [
-        "M+ Deportes 2 (64)"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "Serie B Italiana",
       "ronda": null,
@@ -1949,6 +1896,19 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "US Open WTA",
+      "ronda": "1/8 de final",
+      "evento": "A. Sabalenka vs T. Townsend",
+      "local": "A. Sabalenka",
+      "visitante": "T. Townsend",
+      "fecha": "2026-09-06",
+      "hora": "17:30",
+      "canales": [
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Premier League",
       "ronda": null,
@@ -1996,14 +1956,27 @@
     {
       "deporte": "Voleibol",
       "competicion": "Campeonato de Europa Femenino",
-      "ronda": null,
-      "evento": "Final",
-      "local": null,
-      "visitante": null,
+      "ronda": "Final",
+      "evento": "Italia vs Turquía",
+      "local": "Italia",
+      "visitante": "Turquía",
       "fecha": "2026-09-06",
       "hora": "18:00",
       "canales": [
         "RTVE Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera B Argentina",
+      "ronda": null,
+      "evento": "Dock Sud vs Comunicaciones",
+      "local": "Dock Sud",
+      "visitante": "Comunicaciones",
+      "fecha": "2026-09-06",
+      "hora": "18:00",
+      "canales": [
+        "LPF Play"
       ]
     },
     {
@@ -2299,10 +2272,10 @@
     {
       "deporte": "Tenis",
       "competicion": "Rafa Nadal Open",
-      "ronda": null,
-      "evento": "Final ATP Challenger Tour",
-      "local": null,
-      "visitante": null,
+      "ronda": "ATP Challenger Tour",
+      "evento": "~I. Montes-De La Torre// vs F. Balshaw",
+      "local": "~I. Montes-De La Torre//",
+      "visitante": "F. Balshaw",
       "fecha": "2026-09-06",
       "hora": "18:30",
       "canales": [
@@ -2336,6 +2309,19 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "US Open WTA",
+      "ronda": "1/8 de final",
+      "evento": "M. Kostyuk vs L. Noskova",
+      "local": "M. Kostyuk",
+      "visitante": "L. Noskova",
+      "fecha": "2026-09-06",
+      "hora": "18:30",
+      "canales": [
+        "M+ Deportes 3 (65)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Liga F",
       "ronda": null,
@@ -2364,6 +2350,21 @@
       ]
     },
     {
+      "deporte": "Fútbol Sala",
+      "competicion": "Supercopa de España",
+      "ronda": "Final",
+      "evento": "ElPozo Murcia vs Barça FS",
+      "local": "ElPozo Murcia",
+      "visitante": "Barça FS",
+      "fecha": "2026-09-06",
+      "hora": "18:45",
+      "canales": [
+        "Teledeporte",
+        "RTVE Play",
+        "Esport3 Web"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Tercera Federación",
       "ronda": "Grupo 7",
@@ -2379,10 +2380,10 @@
     {
       "deporte": "Baloncesto",
       "competicion": "Copa Galicia",
-      "ronda": null,
-      "evento": "Final Masculina",
-      "local": null,
-      "visitante": null,
+      "ronda": "Final Masculina",
+      "evento": "Río Breogán vs Básquet Coruña",
+      "local": "Río Breogán",
+      "visitante": "Básquet Coruña",
       "fecha": "2026-09-06",
       "hora": "19:00",
       "canales": [
@@ -2577,6 +2578,20 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "US Open",
+      "ronda": "1/8 de final",
+      "evento": "T. Paul vs C. Alcaraz",
+      "local": "T. Paul",
+      "visitante": "C. Alcaraz",
+      "fecha": "2026-09-06",
+      "hora": "20:00",
+      "canales": [
+        "Movistar Plus+ (M7): VER PARTIDO",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Primera B Argentina",
       "ronda": null,
@@ -2669,6 +2684,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Primera C",
+      "ronda": null,
+      "evento": "Cañuelas vs Luján",
+      "local": "Cañuelas",
+      "visitante": "Luján",
+      "fecha": "2026-09-06",
+      "hora": "20:00",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "NWSL",
       "ronda": null,
       "evento": "Denver Summit FC vs NJ/NY Gotham FC",
@@ -2717,6 +2745,19 @@
       "hora": "20:00",
       "canales": [
         "Web Directo"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open",
+      "ronda": "1/8 de final",
+      "evento": "A. Michelsen vs TM. Etcheverry",
+      "local": "A. Michelsen",
+      "visitante": "TM. Etcheverry",
+      "fecha": "2026-09-06",
+      "hora": "20:30",
+      "canales": [
+        "M+ Deportes 5 (192)"
       ]
     },
     {
@@ -2856,6 +2897,19 @@
       "hora": "20:45",
       "canales": [
         "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open",
+      "ronda": "1/8 de final",
+      "evento": "D. Medvedev vs F. Tiafoe",
+      "local": "D. Medvedev",
+      "visitante": "F. Tiafoe",
+      "fecha": "2026-09-06",
+      "hora": "21:00",
+      "canales": [
+        "M+ Deportes 3 (65)"
       ]
     },
     {
@@ -3208,6 +3262,19 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "US Open WTA",
+      "ronda": "1/8 de final",
+      "evento": "J. Pegula vs S. Cirstea",
+      "local": "J. Pegula",
+      "visitante": "S. Cirstea",
+      "fecha": "2026-09-06",
+      "hora": "23:00",
+      "canales": [
+        "M+ Deportes 3 (65)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Liga Futve",
       "ronda": null,
@@ -3274,6 +3341,19 @@
       "hora": "00:30",
       "canales": [
         "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open",
+      "ronda": "1/8 de final",
+      "evento": "B. Shelton vs S. Tsitsipas",
+      "local": "B. Shelton",
+      "visitante": "S. Tsitsipas",
+      "fecha": "2026-09-07",
+      "hora": "01:00",
+      "canales": [
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -3405,6 +3485,19 @@
       "hora": "03:00",
       "canales": [
         "NWSL+"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open WTA",
+      "ronda": "1/8 de final",
+      "evento": "A. Kalinskaya vs E. Navarro",
+      "local": "A. Kalinskaya",
+      "visitante": "E. Navarro",
+      "fecha": "2026-09-07",
+      "hora": "03:00",
+      "canales": [
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -3634,19 +3727,6 @@
     },
     {
       "deporte": "Fútbol",
-      "competicion": "Primera B Argentina",
-      "ronda": null,
-      "evento": "Dock Sud vs Comunicaciones",
-      "local": "Dock Sud",
-      "visitante": "Comunicaciones",
-      "fecha": "2026-09-07",
-      "hora": "20:00",
-      "canales": [
-        "LPF Play"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
       "competicion": "Primera C",
       "ronda": null,
       "evento": "Muñiz vs Sportivo Barracas",
@@ -3656,6 +3736,19 @@
       "hora": "20:00",
       "canales": [
         "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga AUF Uruguaya",
+      "ronda": null,
+      "evento": "Albión vs Progreso",
+      "local": "Albión",
+      "visitante": "Progreso",
+      "fecha": "2026-09-07",
+      "hora": "20:00",
+      "canales": [
+        "Antel TV Internacional"
       ]
     },
     {
