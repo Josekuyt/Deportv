@@ -96,7 +96,7 @@
   .hero-track{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:14px;scrollbar-width:none}
   .hero-track::-webkit-scrollbar{display:none}
   .hero{position:relative;flex:0 0 100%;scroll-snap-align:center;display:grid;grid-template-columns:1fr minmax(0,46%);
-    background:#edeae4;color:#1a1a1a;border:2px solid #1a1a1a;border-radius:var(--radius);
+    background:var(--surface);color:var(--ink);border:2px solid var(--line);border-radius:var(--radius);
     overflow:hidden;min-height:250px}
   /* Barra de acento a la izquierda (azul arriba, amarillo abajo), como en el Figma. */
   .hero::before{content:"";position:absolute;left:0;top:0;bottom:0;width:8px;z-index:2;
@@ -105,11 +105,11 @@
   .hero-tagrow{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
   .hero-tag{font-family:var(--f-mono);font-weight:700;font-size:.7rem;text-transform:uppercase;letter-spacing:1px;
     background:#ffd600;color:#1a1a1a;padding:3px 9px;border-radius:var(--radius)}
-  .hero-comp{font-family:var(--f-mono);font-size:.72rem;color:#7a7770;text-transform:uppercase;letter-spacing:1px}
-  .hero-ev{font-family:var(--f-display);font-weight:900;font-size:2rem;line-height:1;text-transform:uppercase;margin:2px 0}
+  .hero-comp{font-family:var(--f-mono);font-size:.72rem;color:var(--muted);text-transform:uppercase;letter-spacing:1px}
+  .hero-ev{font-family:var(--f-display);font-weight:900;font-size:2rem;line-height:1;text-transform:uppercase;margin:2px 0;color:var(--ink)}
   .hero-time{align-self:flex-start;font-family:var(--f-mono);font-weight:700;font-size:1rem;
     background:#1a1a1a;color:#ffd600;padding:4px 10px;border-radius:var(--radius)}
-  .hero-canal{font-family:var(--f-mono);font-weight:700;font-size:.78rem;color:#0055ff;text-transform:uppercase;letter-spacing:.5px}
+  .hero-canal{font-family:var(--f-mono);font-weight:700;font-size:.78rem;color:var(--accent);text-transform:uppercase;letter-spacing:.5px}
   .hero-media{position:relative;background:#edeae4;
     display:flex;align-items:center;justify-content:center;overflow:hidden}
   .hero-illu{width:100%;height:100%;object-fit:cover;object-position:center;display:block}

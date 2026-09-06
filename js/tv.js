@@ -74,7 +74,7 @@
     if(!dest.length){ sec.style.display="none"; return; } sec.style.display="";
     $("#tvRail").innerHTML=dest.map(e=>{
       const comp=[e.competicion,e.ronda].filter(Boolean).map(C.esc).join(" — ");
-      return `<div class="tv-card focusable" tabindex="0" data-nav="card" data-comp="${C.esc(e.competicion||"")}">
+      return `<div class="tv-card focusable" tabindex="0" data-nav="card" data-clave="${C.esc(C.claveEvento(e))}">
         <div class="c-info">
           <span class="c-tag">${C.esc(e.deporte||"?")}</span>
           <div class="c-ev">${C.esc(e.evento||"—")}</div>
@@ -88,10 +88,13 @@
   function renderList(){
     const fechas=C.fechasTabs(DOC.eventos);
     const dia=fechas[diaActivo]||fechas[0];
-    const ev=(DOC.eventos||[]).filter(e=>e.fecha===dia).sort((a,b)=>(a.hora||"").localeCompare(b.hora||""));
-    $("#tvDayTitle").textContent=`${C.diaLargo(dia)} · ${ev.length} eventos`;
+    const q=C.norm(($("#tvSearch").value||"").trim());
+    let ev=(DOC.eventos||[]).filter(e=>e.fecha===dia);
+    if(q){ ev=ev.filter(e=>C.norm([e.evento,e.competicion,e.deporte,e.local,e.visitante,...(e.canales||[])].join(" ")).includes(q)); }
+    ev.sort((a,b)=>(a.hora||"").localeCompare(b.hora||""));
+    $("#tvDayTitle").textContent=`${C.diaLargo(dia)} · ${ev.length} eventos`+(q?` · "${$("#tvSearch").value.trim()}"`:"");
     const cont=$("#tvList");
-    if(!ev.length){ cont.innerHTML=`<div class="tv-empty">No hay eventos para este día.</div>`; return; }
+    if(!ev.length){ cont.innerHTML=`<div class="tv-empty">No hay eventos${q?" para esta búsqueda":" para este día"}.</div>`; return; }
     cont.innerHTML=ev.map((e,i)=>{
       const part=(e.local&&e.visitante)
         ? `${C.esc(e.local)} <span class="vs">vs</span> ${C.esc(e.visitante)}`
@@ -99,7 +102,7 @@
       const sub=[e.competicion,e.ronda].filter(Boolean).map(C.esc).join(" · ");
       const canales=(e.canales||[]).slice(0,4).map(chipHTML).join("") || `<span class="tv-chip"><span class="txt">Sin canal</span></span>`;
       const fav=esFav(e);
-      return `<div class="tv-row focusable" tabindex="0" data-nav="row" data-i="${i}" data-comp="${C.esc(e.competicion||"")}">
+      return `<div class="tv-row focusable" tabindex="0" data-nav="row" data-i="${i}" data-comp="${C.esc(e.competicion||"")}" data-clave="${C.esc(C.claveEvento(e))}">
         <div class="hora">${C.esc(e.hora||"--:--")}</div>
         <div class="dep"><span class="bar" style="background:${C.colorDep(e.deporte)}"></span><span class="name">${C.esc(e.deporte||"?")}</span></div>
         <div class="ev"><div class="part">${part}</div>${sub?`<div class="sub">${sub}</div>`:""}</div>
@@ -133,22 +136,40 @@
     }
     if(best){ best.focus(); best.scrollIntoView({block:"nearest",inline:"nearest",behavior:"smooth"}); }
   }
+  function filaPorClave(clave){ return [...document.querySelectorAll(".tv-row")].find(r=>r.dataset.clave===clave); }
   function activar(){
     const el=document.activeElement; if(!el||!el.classList.contains("focusable")) return;
     const nav=el.dataset.nav;
-    if(nav==="tab"){ diaActivo=+el.dataset.i; render(); const t=document.querySelector(`.tv-tab[data-i="${diaActivo}"]`); if(t)t.focus(); }
+    if(nav==="tab"){ diaActivo=+el.dataset.i; renderTabs(); renderList(); const t=document.querySelector(`.tv-tab[data-i="${diaActivo}"]`); if(t)t.focus(); }
     else if(nav==="row"){ toggleFav(el.dataset.comp); const idx=el.dataset.i; renderList();
       const again=document.querySelector(`.tv-row[data-i="${idx}"]`); if(again)again.focus(); }
-    else if(nav==="card"){ toggleFav(el.dataset.comp); renderList(); }
+    else if(nav==="card"){
+      // OK sobre un destacado: llevar al evento en el listado (día de hoy, sin filtro).
+      const clave=el.dataset.clave;
+      diaActivo=0; $("#tvSearch").value="";
+      renderTabs(); renderList();
+      const row=filaPorClave(clave);
+      if(row){ row.focus(); row.scrollIntoView({block:"center",behavior:"smooth"}); }
+    }
+    else if(nav==="search"){ mover("down"); }
   }
   document.addEventListener("keydown",ev=>{
+    const el=document.activeElement;
     const k=ev.key;
+    // En el buscador: dejar escribir y mover el cursor con izq/der; salir con arriba/abajo/OK.
+    if(el && el.id==="tvSearch"){
+      if(k==="ArrowDown"||k==="Enter"){ ev.preventDefault(); mover("down"); }
+      else if(k==="ArrowUp"){ ev.preventDefault(); mover("up"); }
+      return;
+    }
     if(k==="ArrowRight"){ ev.preventDefault(); mover("right"); }
     else if(k==="ArrowLeft"){ ev.preventDefault(); mover("left"); }
     else if(k==="ArrowUp"){ ev.preventDefault(); mover("up"); }
     else if(k==="ArrowDown"){ ev.preventDefault(); mover("down"); }
     else if(k==="Enter"||k===" "){ ev.preventDefault(); activar(); }
   });
+  // Filtrado en vivo del buscador.
+  document.addEventListener("input",ev=>{ if(ev.target && ev.target.id==="tvSearch") renderList(); });
 
   /* ===== Arranque ===== */
   async function arranca(){

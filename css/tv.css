@@ -22,6 +22,16 @@ body{background:var(--bg);color:var(--ink);font-family:var(--f-mono)}
 .tv-meta .date{color:var(--muted)}
 .tv-meta .clock{background:var(--yellow);color:var(--on-yellow);font-weight:700;padding:.15em .5em;border-radius:3px}
 
+/* ===== Barra superior: pestañas + buscador ===== */
+.tv-topbar{display:flex;align-items:center;justify-content:space-between;gap:1.2rem;flex-wrap:wrap}
+.tv-search{flex:1;min-width:14rem;max-width:32rem;font-family:var(--f-mono);font-size:1.05rem;
+  background:var(--input);color:var(--ink);border:2px solid var(--line-soft);border-radius:4px;padding:.6rem 1rem}
+.tv-search::placeholder{color:var(--muted)}
+
+/* ===== Contenedor con scroll (destacados + listado) ===== */
+.tv-scroll{flex:1;overflow-y:auto;display:flex;flex-direction:column;gap:1.2rem;padding:.4rem;scrollbar-width:none}
+.tv-scroll::-webkit-scrollbar{display:none}
+
 /* ===== Pestañas de día ===== */
 .tv-tabs{display:flex;gap:1rem}
 .tv-tab{font-family:var(--f-mono);font-weight:700;font-size:1.15rem;text-transform:uppercase;letter-spacing:.5px;
@@ -38,7 +48,7 @@ body{background:var(--bg);color:var(--ink);font-family:var(--f-mono)}
 .tv-rail{display:flex;gap:1.2rem;overflow-x:auto;padding:.4rem;scrollbar-width:none}
 .tv-rail::-webkit-scrollbar{display:none}
 .tv-card{flex:0 0 32%;min-width:0;position:relative;display:grid;grid-template-columns:1fr 42%;
-  background:#edeae4;color:#1a1a1a;border:2px solid #1a1a1a;border-radius:4px;overflow:hidden;min-height:9.5rem}
+  background:#edeae4;color:#1a1a1a;border:2px solid #1a1a1a;border-radius:4px;overflow:hidden;min-height:8rem}
 .tv-card::before{content:"";position:absolute;left:0;top:0;bottom:0;width:.4rem;z-index:2;
   background:linear-gradient(#0055ff 0 50%,#ffd600 50% 100%)}
 .tv-card .c-info{padding:1rem 1rem 1rem 1.2rem;display:flex;flex-direction:column;gap:.35rem;justify-content:center;min-width:0}
@@ -51,8 +61,7 @@ body{background:var(--bg);color:var(--ink);font-family:var(--f-mono)}
 .tv-card .c-media img{width:100%;height:100%;object-fit:cover}
 
 /* ===== Listado ===== */
-.tv-list{flex:1;overflow-y:auto;display:flex;flex-direction:column;gap:.6rem;padding:.4rem;scrollbar-width:none}
-.tv-list::-webkit-scrollbar{display:none}
+.tv-list{display:flex;flex-direction:column;gap:.6rem}
 .tv-row{display:grid;grid-template-columns:6.5rem 12rem 1fr minmax(0,26rem);gap:1.2rem;align-items:center;
   background:var(--surface);border:2px solid var(--line-soft);border-radius:4px;padding:.9rem 1.2rem}
 .tv-row .hora{font-weight:700;font-size:1.5rem}

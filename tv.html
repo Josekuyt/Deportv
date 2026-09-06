@@ -23,15 +23,21 @@
     </div>
   </header>
 
-  <div class="tv-tabs" id="tvTabs"></div>
+  <div class="tv-topbar">
+    <div class="tv-tabs" id="tvTabs"></div>
+    <input id="tvSearch" class="tv-search focusable" type="search" tabindex="0" data-nav="search"
+           placeholder="Buscar evento, equipo o competición..." aria-label="Buscar">
+  </div>
 
-  <section id="tvDestSec">
-    <div class="tv-sec"><span class="star">★</span> Destacados de hoy</div>
-    <div class="tv-rail" id="tvRail"></div>
-  </section>
+  <div class="tv-scroll" id="tvScroll">
+    <section id="tvDestSec">
+      <div class="tv-sec"><span class="star">★</span> Destacados de hoy</div>
+      <div class="tv-rail" id="tvRail"></div>
+    </section>
 
-  <div class="tv-sec" id="tvDayTitle">—</div>
-  <div class="tv-list" id="tvList"></div>
+    <div class="tv-sec" id="tvDayTitle">—</div>
+    <div class="tv-list" id="tvList"></div>
+  </div>
 </div>
 <div class="tv-hint">Mando: flechas para moverte · OK para marcar favorito</div>
 
