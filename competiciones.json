@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-09-06T11:57:52"
+    "actualizado": "2026-09-07T02:59:08"
   },
   "config": {
     "puntos_por_tier": {
@@ -821,6 +821,31 @@
     },
     "Chinese Super League": {
       "deporte": "Fútbol",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Australian FFA Cup": {
+      "deporte": "Fútbol",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "EHF Champions League": {
+      "deporte": "Balonmano",
+      "tier": "S",
+      "por_revisar": true
+    },
+    "Giro della Toscana": {
+      "deporte": "Ciclismo",
+      "tier": "A",
+      "por_revisar": true
+    },
+    "Liga Catalana ACB": {
+      "deporte": "Baloncesto",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Liga Guerreras Iberdrola": {
+      "deporte": "Balonmano",
       "tier": "C",
       "por_revisar": true
     }
