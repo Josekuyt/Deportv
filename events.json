@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-09-07T13:58:50",
+    "generado": "2026-09-07T19:35:40",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 148
+    "total_eventos": 150
   },
   "eventos": [
     {
@@ -449,7 +449,7 @@
       "fecha": "2026-09-07",
       "hora": "20:00",
       "canales": [
-        "Aragón Deporte",
+        "Aragón Play",
         "Aragón TV"
       ]
     },
@@ -505,7 +505,6 @@
         "OneFootball",
         "M+ Vamos 2 (51)",
         "M+ #Vamos Bar 2 (308)",
-        "M+ #Vamos Bar (307)",
         "M+ Liga de Campeones 2 (M61 O117)"
       ]
     },
@@ -988,26 +987,13 @@
     },
     {
       "deporte": "Tenis",
-      "competicion": "US Open",
-      "ronda": null,
-      "evento": "1/8 de final Grand Slam",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-09-08",
-      "hora": "17:05",
-      "canales": [
-        "M+ Deportes 2 (64)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
       "competicion": "US Open WTA",
-      "ronda": null,
-      "evento": "1/4 de Final Grand Slam",
-      "local": null,
-      "visitante": null,
+      "ronda": "1/4 de Final",
+      "evento": "A. Sabalenka vs L. Noskova",
+      "local": "A. Sabalenka",
+      "visitante": "L. Noskova",
       "fecha": "2026-09-08",
-      "hora": "17:05",
+      "hora": "17:30",
       "canales": [
         "M+ Deportes 2 (64)"
       ]
@@ -1156,6 +1142,19 @@
       "hora": "19:00",
       "canales": [
         "OneFootball PPV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open",
+      "ronda": "1/4 de Final",
+      "evento": "F. Tiafoe vs A. Michelsen",
+      "local": "F. Tiafoe",
+      "visitante": "A. Michelsen",
+      "fecha": "2026-09-08",
+      "hora": "19:00",
+      "canales": [
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -1469,6 +1468,19 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "US Open WTA",
+      "ronda": "1/4 de Final",
+      "evento": "J. Pegula vs E. Navarro",
+      "local": "J. Pegula",
+      "visitante": "E. Navarro",
+      "fecha": "2026-09-09",
+      "hora": "01:00",
+      "canales": [
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
       "deporte": "MMA",
       "competicion": "Dana White Contender Series",
       "ronda": null,
@@ -1494,6 +1506,20 @@
         "M+ Vamos (8 y 50)",
         "M+ #Vamos Bar (307)",
         "M+ Liga de Campeones (M60 O115)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open",
+      "ronda": "1/4 de Final",
+      "evento": "B. Shelton vs C. Alcaraz",
+      "local": "B. Shelton",
+      "visitante": "C. Alcaraz",
+      "fecha": "2026-09-09",
+      "hora": "02:30",
+      "canales": [
+        "Movistar Plus+ (M7): VER PARTIDO",
+        "M+ Deportes 2 (64)"
       ]
     },
     {
