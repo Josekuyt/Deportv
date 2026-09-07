@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-09-07T02:59:08",
+    "generado": "2026-09-07T13:58:50",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 139
+    "total_eventos": 148
   },
   "eventos": [
     {
@@ -46,19 +46,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "US Open",
-      "ronda": "1/8 de final",
-      "evento": "B. Shelton vs S. Tsitsipas",
-      "local": "B. Shelton",
-      "visitante": "S. Tsitsipas",
-      "fecha": "2026-09-07",
-      "hora": "01:00",
-      "canales": [
-        "M+ Deportes 2 (64)"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "Liga Futve",
       "ronda": null,
@@ -86,6 +73,19 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "US Open WTA",
+      "ronda": "1/8 de final",
+      "evento": "J. Pegula vs S. Cirstea",
+      "local": "J. Pegula",
+      "visitante": "S. Cirstea",
+      "fecha": "2026-09-07",
+      "hora": "01:00",
+      "canales": [
+        "M+ Deportes 3 (65)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Liga Colombiana",
       "ronda": null,
@@ -96,6 +96,19 @@
       "hora": "01:10",
       "canales": [
         "RCN Nuestra Tele"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open",
+      "ronda": "1/8 de final",
+      "evento": "B. Shelton vs S. Tsitsipas",
+      "local": "B. Shelton",
+      "visitante": "S. Tsitsipas",
+      "fecha": "2026-09-07",
+      "hora": "01:15",
+      "canales": [
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -197,7 +210,7 @@
       "local": "A. Kalinskaya",
       "visitante": "E. Navarro",
       "fecha": "2026-09-07",
-      "hora": "03:00",
+      "hora": "03:35",
       "canales": [
         "M+ Deportes 2 (64)"
       ]
@@ -273,26 +286,26 @@
     },
     {
       "deporte": "Tenis",
-      "competicion": "US Open",
-      "ronda": null,
-      "evento": "1/8 de final Grand Slam",
-      "local": null,
-      "visitante": null,
+      "competicion": "US Open WTA",
+      "ronda": "1/8 de final",
+      "evento": "M. Andreeva vs A. Potapova",
+      "local": "M. Andreeva",
+      "visitante": "A. Potapova",
       "fecha": "2026-09-07",
-      "hora": "17:05",
+      "hora": "17:00",
       "canales": [
-        "M+ Deportes 2 (64)"
+        "M+ Deportes (63)"
       ]
     },
     {
       "deporte": "Tenis",
       "competicion": "US Open WTA",
-      "ronda": null,
-      "evento": "1/8 de final Grand Slam",
-      "local": null,
-      "visitante": null,
+      "ronda": "1/8 de final",
+      "evento": "I. Swiatek vs Q. Zheng",
+      "local": "I. Swiatek",
+      "visitante": "Q. Zheng",
       "fecha": "2026-09-07",
-      "hora": "17:05",
+      "hora": "17:30",
       "canales": [
         "M+ Deportes 2 (64)"
       ]
@@ -380,6 +393,19 @@
       "hora": "18:30",
       "canales": [
         "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open",
+      "ronda": "1/8 de final",
+      "evento": "F. Cerúndolo vs A. Blockx",
+      "local": "F. Cerúndolo",
+      "visitante": "A. Blockx",
+      "fecha": "2026-09-07",
+      "hora": "19:00",
+      "canales": [
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -538,6 +564,19 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "US Open WTA",
+      "ronda": "1/8 de final",
+      "evento": "N. Osaka vs E. Rybakina",
+      "local": "N. Osaka",
+      "visitante": "E. Rybakina",
+      "fecha": "2026-09-07",
+      "hora": "20:30",
+      "canales": [
+        "M+ Deportes (63)"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "FIBA Copa Mundial Femenina",
       "ronda": "Fase de grupos",
@@ -595,6 +634,19 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "US Open",
+      "ronda": "1/8 de final",
+      "evento": "K. Khachanov vs L. Tien",
+      "local": "K. Khachanov",
+      "visitante": "L. Tien",
+      "fecha": "2026-09-07",
+      "hora": "22:00",
+      "canales": [
+        "M+ Deportes (63)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Primera Nacional Argentina",
       "ronda": null,
@@ -618,6 +670,19 @@
       "hora": "22:00",
       "canales": [
         "OneFootball"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open",
+      "ronda": "1/8 de final",
+      "evento": "A. Gea vs B. Van de Zandschulp",
+      "local": "A. Gea",
+      "visitante": "B. Van de Zandschulp",
+      "fecha": "2026-09-07",
+      "hora": "22:30",
+      "canales": [
+        "M+ Deportes 4 (66)"
       ]
     },
     {
@@ -701,6 +766,20 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "US Open WTA",
+      "ronda": "1/8 de final",
+      "evento": "I. Jovic vs C. Gauff",
+      "local": "I. Jovic",
+      "visitante": "C. Gauff",
+      "fecha": "2026-09-08",
+      "hora": "01:00",
+      "canales": [
+        "Movistar Plus+ (M7): VER PARTIDO",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Serie A Brasil",
       "ronda": null,
@@ -766,6 +845,20 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "US Open",
+      "ronda": "1/8 de final",
+      "evento": "A. Zverev vs L. Darderi",
+      "local": "A. Zverev",
+      "visitante": "L. Darderi",
+      "fecha": "2026-09-08",
+      "hora": "02:30",
+      "canales": [
+        "Movistar Plus+ (M7): VER PARTIDO",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
       "deporte": "Pádel",
       "competicion": "París Major",
       "ronda": null,
@@ -796,7 +889,7 @@
       "deporte": "Ciclismo",
       "competicion": "Vuelta a España",
       "ronda": null,
-      "evento": "Etapa 16",
+      "evento": "Etapa 16 Cortegana › La Rábida. Palos de la Frontera (181,1 km)",
       "local": null,
       "visitante": null,
       "fecha": "2026-09-08",
@@ -820,7 +913,25 @@
       "hora": "16:00",
       "canales": [
         "UEFA TV",
-        "M+ Liga de Campeones (M60 O115)"
+        "M+ Liga de Campeones (M60 O115)",
+        "Real Madrid TV"
+      ]
+    },
+    {
+      "deporte": "Ciclismo",
+      "competicion": "Vuelta a España",
+      "ronda": null,
+      "evento": "Etapa 16 Cortegana › La Rábida. Palos de la Frontera (181,1 km)",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-09-08",
+      "hora": "16:15",
+      "canales": [
+        "HBO MAX",
+        "DAZN (Ver en directo)",
+        "La 2 TVE",
+        "RTVE Play",
+        "Eurosport 1"
       ]
     },
     {
@@ -912,7 +1023,9 @@
       "hora": "17:35",
       "canales": [
         "DAZN (Ver en directo)",
-        "M+ Baloncesto (M66)"
+        "M+ Baloncesto (M66)",
+        "Teledeporte",
+        "RTVE Play"
       ]
     },
     {
@@ -1410,6 +1523,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "UEFA Youth League",
+      "ronda": "Fase Liga",
+      "evento": "FC Barcelona Academy vs Feyenoord Academy",
+      "local": "FC Barcelona Academy",
+      "visitante": "Feyenoord Academy",
+      "fecha": "2026-09-09",
+      "hora": "12:00",
+      "canales": [
+        "M+ Liga de Campeones (M60 O115)"
+      ]
+    },
+    {
       "deporte": "Ciclismo",
       "competicion": "Vuelta a España",
       "ronda": null,
@@ -1450,6 +1576,7 @@
       "hora": "16:00",
       "canales": [
         "UEFA TV",
+        "M+ Vamos (8 y 50)",
         "M+ #Vamos Bar (307)",
         "M+ Liga de Campeones 2 (M61 O117)"
       ]
@@ -1550,7 +1677,7 @@
     {
       "deporte": "Balonmano",
       "competicion": "EHF Champions League",
-      "ronda": null,
+      "ronda": "Fase de grupos",
       "evento": "KS Kielce vs HC Kriens-Luzern",
       "local": "KS Kielce",
       "visitante": "HC Kriens-Luzern",
@@ -1563,7 +1690,7 @@
     {
       "deporte": "Balonmano",
       "competicion": "EHF Champions League",
-      "ronda": null,
+      "ronda": "Fase de grupos",
       "evento": "HC Prvo Zagreb vs RK Celje",
       "local": "HC Prvo Zagreb",
       "visitante": "RK Celje",
@@ -1576,7 +1703,7 @@
     {
       "deporte": "Balonmano",
       "competicion": "EHF Champions League",
-      "ronda": null,
+      "ronda": "Fase de grupos",
       "evento": "Veszprém HC vs Porto HB",
       "local": "Veszprém HC",
       "visitante": "Porto HB",
@@ -1589,7 +1716,7 @@
     {
       "deporte": "Balonmano",
       "competicion": "EHF Champions League",
-      "ronda": null,
+      "ronda": "Fase de grupos",
       "evento": "Aalborg Handbold vs Paris Saint-Germain HB",
       "local": "Aalborg Handbold",
       "visitante": "Paris Saint-Germain HB",
@@ -1748,7 +1875,7 @@
     {
       "deporte": "Balonmano",
       "competicion": "EHF Champions League",
-      "ronda": null,
+      "ronda": "Fase de grupos",
       "evento": "SC Magdeburg vs Kolstad Håndball",
       "local": "SC Magdeburg",
       "visitante": "Kolstad Håndball",
@@ -1761,7 +1888,7 @@
     {
       "deporte": "Balonmano",
       "competicion": "EHF Champions League",
-      "ronda": null,
+      "ronda": "Fase de grupos",
       "evento": "HBC Nantes vs Wisla Plock HB",
       "local": "HBC Nantes",
       "visitante": "Wisla Plock HB",
@@ -1774,14 +1901,15 @@
     {
       "deporte": "Balonmano",
       "competicion": "EHF Champions League",
-      "ronda": null,
+      "ronda": "Fase de grupos",
       "evento": "Barça BM vs Skanderborg-Aarhus",
       "local": "Barça BM",
       "visitante": "Skanderborg-Aarhus",
       "fecha": "2026-09-09",
       "hora": "20:45",
       "canales": [
-        "EHF TV"
+        "EHF TV",
+        "Esport3 (Cataluña)"
       ]
     },
     {
