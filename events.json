@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-09-08T03:09:21",
+    "generado": "2026-09-08T12:37:41",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 163
+    "total_eventos": 171
   },
   "eventos": [
     {
@@ -87,20 +87,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "US Open WTA",
-      "ronda": "1/8 de final",
-      "evento": "I. Jovic vs C. Gauff",
-      "local": "I. Jovic",
-      "visitante": "C. Gauff",
-      "fecha": "2026-09-08",
-      "hora": "01:00",
-      "canales": [
-        "Movistar Plus+ (M7): VER PARTIDO",
-        "M+ Deportes 2 (64)"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "Serie A Brasil",
       "ronda": null,
@@ -111,6 +97,20 @@
       "hora": "01:00",
       "canales": [
         "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open WTA",
+      "ronda": "1/8 de final",
+      "evento": "I. Jovic vs C. Gauff",
+      "local": "I. Jovic",
+      "visitante": "C. Gauff",
+      "fecha": "2026-09-08",
+      "hora": "01:15",
+      "canales": [
+        "Movistar Plus+ (M7): VER PARTIDO",
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -173,7 +173,7 @@
       "local": "A. Zverev",
       "visitante": "L. Darderi",
       "fecha": "2026-09-08",
-      "hora": "02:30",
+      "hora": "03:15",
       "canales": [
         "Movistar Plus+ (M7): VER PARTIDO",
         "M+ Deportes 2 (64)"
@@ -210,7 +210,7 @@
       "deporte": "Ciclismo",
       "competicion": "Vuelta a España",
       "ronda": null,
-      "evento": "Etapa 16 Cortegana › La Rábida. Palos de la Frontera (181,1 km)",
+      "evento": "Etapa 16",
       "local": null,
       "visitante": null,
       "fecha": "2026-09-08",
@@ -227,6 +227,19 @@
       "deporte": "Fútbol",
       "competicion": "UEFA Youth League",
       "ronda": "Fase Liga",
+      "evento": "Lille Academy vs Real Betis Academy",
+      "local": "Lille Academy",
+      "visitante": "Real Betis Academy",
+      "fecha": "2026-09-08",
+      "hora": "15:00",
+      "canales": [
+        "* SIN TV EN DIRECTO *"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "UEFA Youth League",
+      "ronda": "Fase Liga",
       "evento": "Real Madrid Academy vs Inter Milan Academy",
       "local": "Real Madrid Academy",
       "visitante": "Inter Milan Academy",
@@ -236,6 +249,19 @@
         "UEFA TV",
         "M+ Liga de Campeones (M60 O115)",
         "Real Madrid TV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "UEFA Youth League",
+      "ronda": "Fase Liga",
+      "evento": "B. Dortmund Academy vs Villarreal Academy",
+      "local": "B. Dortmund Academy",
+      "visitante": "Villarreal Academy",
+      "fecha": "2026-09-08",
+      "hora": "16:00",
+      "canales": [
+        "Borussia Dortmund YouTube YouTube"
       ]
     },
     {
@@ -752,6 +778,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Liga Femenina Dimayor",
+      "ronda": null,
+      "evento": "Internacional FC Palmira Femenino vs Inter Bogotá Femenino",
+      "local": "Internacional FC Palmira Femenino",
+      "visitante": "Inter Bogotá Femenino",
+      "fecha": "2026-09-08",
+      "hora": "23:30",
+      "canales": [
+        "Win Sports TV YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Torneo Proyección",
       "ronda": null,
       "evento": "River Plate Reserva vs Aldosivi Reserva",
@@ -799,6 +838,7 @@
       "fecha": "2026-09-09",
       "hora": "01:00",
       "canales": [
+        "Movistar Plus+ (M7): VER PARTIDO",
         "M+ Deportes 2 (64)"
       ]
     },
@@ -985,10 +1025,10 @@
     {
       "deporte": "Baloncesto",
       "competicion": "FIBA Copa Mundial Femenina",
-      "ronda": null,
-      "evento": "1/8 de final",
-      "local": null,
-      "visitante": null,
+      "ronda": "1/8 de final",
+      "evento": "Puerto Rico vs China",
+      "local": "Puerto Rico",
+      "visitante": "China",
       "fecha": "2026-09-09",
       "hora": "17:45",
       "canales": [
@@ -1277,10 +1317,10 @@
     {
       "deporte": "Baloncesto",
       "competicion": "FIBA Copa Mundial Femenina",
-      "ronda": null,
-      "evento": "1/8 de final",
-      "local": null,
-      "visitante": null,
+      "ronda": "1/8 de final",
+      "evento": "Italia vs Australia",
+      "local": "Italia",
+      "visitante": "Australia",
       "fecha": "2026-09-09",
       "hora": "20:45",
       "canales": [
@@ -1386,6 +1426,45 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Liga Femenina Dimayor",
+      "ronda": null,
+      "evento": "América de Cali Femenino vs Orsomarso Femenino",
+      "local": "América de Cali Femenino",
+      "visitante": "Orsomarso Femenino",
+      "fecha": "2026-09-09",
+      "hora": "22:00",
+      "canales": [
+        "Win Sports TV YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Femenina Dimayor",
+      "ronda": null,
+      "evento": "Santa Fe Femenino vs Deportivo Cali Femenino",
+      "local": "Santa Fe Femenino",
+      "visitante": "Deportivo Cali Femenino",
+      "fecha": "2026-09-09",
+      "hora": "22:00",
+      "canales": [
+        "Win Sports TV YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Torneo BetPlay DIMAYOR",
+      "ronda": null,
+      "evento": "Independiente Valle del Cauca vs Quindio",
+      "local": "Independiente Valle del Cauca",
+      "visitante": "Quindio",
+      "fecha": "2026-09-09",
+      "hora": "22:30",
+      "canales": [
+        "Win Sports TV YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Copa Libertadores",
       "ronda": "1/4 de Final",
       "evento": "Palmeiras vs LDU Quito",
@@ -1423,6 +1502,19 @@
       "hora": "00:00",
       "canales": [
         "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Copa Colombia",
+      "ronda": null,
+      "evento": "Real Soacha Cundinamarca vs Inter Bogotá",
+      "local": "Real Soacha Cundinamarca",
+      "visitante": "Inter Bogotá",
+      "fecha": "2026-09-10",
+      "hora": "01:00",
+      "canales": [
+        "Win Sports TV YouTube"
       ]
     },
     {
@@ -1514,6 +1606,19 @@
       "hora": "01:30",
       "canales": [
         "Apple TV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Copa Colombia",
+      "ronda": null,
+      "evento": "Once Caldas vs Alianza",
+      "local": "Once Caldas",
+      "visitante": "Alianza",
+      "fecha": "2026-09-10",
+      "hora": "02:00",
+      "canales": [
+        "Win Sports TV YouTube"
       ]
     },
     {
