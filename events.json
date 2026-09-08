@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-09-08T12:37:41",
+    "generado": "2026-09-08T19:15:32",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 171
+    "total_eventos": 173
   },
   "eventos": [
     {
@@ -210,7 +210,7 @@
       "deporte": "Ciclismo",
       "competicion": "Vuelta a España",
       "ronda": null,
-      "evento": "Etapa 16",
+      "evento": "Etapa 16 Cortegana › La Rábida. Palos de la Frontera (181,1 km)",
       "local": null,
       "visitante": null,
       "fecha": "2026-09-08",
@@ -927,7 +927,7 @@
       "deporte": "Ciclismo",
       "competicion": "Vuelta a España",
       "ronda": null,
-      "evento": "Etapa 17",
+      "evento": "Etapa 17 Dos Hermanas › Sevilla (185 km)",
       "local": null,
       "visitante": null,
       "fecha": "2026-09-09",
@@ -944,7 +944,7 @@
       "deporte": "Ciclismo",
       "competicion": "Giro della Toscana",
       "ronda": null,
-      "evento": "UCI Europe Tour",
+      "evento": "UCI Europe Tour Pontedera › Pontedera (189,4 km)",
       "local": null,
       "visitante": null,
       "fecha": "2026-09-09",
@@ -967,6 +967,23 @@
         "M+ Vamos (8 y 50)",
         "M+ #Vamos Bar (307)",
         "M+ Liga de Campeones 2 (M61 O117)"
+      ]
+    },
+    {
+      "deporte": "Ciclismo",
+      "competicion": "Vuelta a España",
+      "ronda": null,
+      "evento": "Etapa 17 Dos Hermanas › Sevilla (185 km)",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-09-09",
+      "hora": "16:15",
+      "canales": [
+        "HBO MAX",
+        "DAZN (Ver en directo)",
+        "La 2 TVE",
+        "RTVE Play",
+        "Eurosport 1"
       ]
     },
     {
@@ -1177,7 +1194,6 @@
       "fecha": "2026-09-09",
       "hora": "20:00",
       "canales": [
-        "Teledeporte",
         "RTVE Play"
       ]
     },
@@ -1325,7 +1341,9 @@
       "hora": "20:45",
       "canales": [
         "DAZN (Ver en directo)",
-        "M+ Baloncesto (M66)"
+        "M+ Baloncesto (M66)",
+        "Teledeporte",
+        "RTVE Play"
       ]
     },
     {
@@ -1383,6 +1401,19 @@
       "canales": [
         "M+ Liga de Campeones 4 (M180 O119)",
         "M+ Liga de Campeones 6 (M182 O434)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "EFL Carabao Cup",
+      "ronda": null,
+      "evento": "Chelsea vs Leeds Utd",
+      "local": "Chelsea",
+      "visitante": "Leeds Utd",
+      "fecha": "2026-09-09",
+      "hora": "21:00",
+      "canales": [
+        "* SIN TV EN DIRECTO *"
       ]
     },
     {
