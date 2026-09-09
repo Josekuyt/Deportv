@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-09-09T03:10:51",
+    "generado": "2026-09-09T12:44:41",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 179
+    "total_eventos": 180
   },
   "eventos": [
     {
@@ -46,20 +46,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "US Open WTA",
-      "ronda": "1/4 de Final",
-      "evento": "J. Pegula vs E. Navarro",
-      "local": "J. Pegula",
-      "visitante": "E. Navarro",
-      "fecha": "2026-09-09",
-      "hora": "01:00",
-      "canales": [
-        "Movistar Plus+ (M7): VER PARTIDO",
-        "M+ Deportes 2 (64)"
-      ]
-    },
-    {
       "deporte": "MMA",
       "competicion": "Dana White Contender Series",
       "ronda": null,
@@ -70,6 +56,20 @@
       "hora": "02:00",
       "canales": [
         "HBO MAX"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open WTA",
+      "ronda": "1/4 de Final",
+      "evento": "J. Pegula vs E. Navarro",
+      "local": "J. Pegula",
+      "visitante": "E. Navarro",
+      "fecha": "2026-09-09",
+      "hora": "02:25",
+      "canales": [
+        "Movistar Plus+ (M7): VER PARTIDO",
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -95,7 +95,7 @@
       "local": "B. Shelton",
       "visitante": "C. Alcaraz",
       "fecha": "2026-09-09",
-      "hora": "02:30",
+      "hora": "05:05",
       "canales": [
         "Movistar Plus+ (M7): VER PARTIDO",
         "M+ Deportes 2 (64)"
@@ -125,19 +125,6 @@
       "hora": "11:30",
       "canales": [
         "Football Australia YouTube"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "UEFA Youth League",
-      "ronda": "Fase Liga",
-      "evento": "FC Barcelona Academy vs Feyenoord Academy",
-      "local": "FC Barcelona Academy",
-      "visitante": "Feyenoord Academy",
-      "fecha": "2026-09-09",
-      "hora": "12:00",
-      "canales": [
-        "M+ Liga de Campeones (M60 O115)"
       ]
     },
     {
@@ -217,32 +204,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "US Open",
-      "ronda": null,
-      "evento": "1/4 de Final Grand Slam",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-09-09",
-      "hora": "17:05",
-      "canales": [
-        "M+ Deportes 2 (64)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "US Open WTA",
-      "ronda": null,
-      "evento": "1/4 de Final Grand Slam",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-09-09",
-      "hora": "17:05",
-      "canales": [
-        "M+ Deportes 2 (64)"
-      ]
-    },
-    {
       "deporte": "Fútbol Sala",
       "competicion": "Amistoso Femenino",
       "ronda": null,
@@ -254,6 +215,19 @@
       "canales": [
         "Teledeporte",
         "RTVE Play"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open WTA",
+      "ronda": "1/4 de Final",
+      "evento": "Q. Zheng vs E. Rybakina",
+      "local": "Q. Zheng",
+      "visitante": "E. Rybakina",
+      "fecha": "2026-09-09",
+      "hora": "17:30",
+      "canales": [
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -389,16 +363,16 @@
       ]
     },
     {
-      "deporte": "Baloncesto",
-      "competicion": "Amistoso",
-      "ronda": null,
-      "evento": "Albacete Basket vs UCAM Murcia CB",
-      "local": "Albacete Basket",
-      "visitante": "UCAM Murcia CB",
+      "deporte": "Tenis",
+      "competicion": "US Open WTA",
+      "ronda": "1/4 de Final",
+      "evento": "M. Andreeva vs C. Gauff",
+      "local": "M. Andreeva",
+      "visitante": "C. Gauff",
       "fecha": "2026-09-09",
       "hora": "19:00",
       "canales": [
-        "Canal por confirmar"
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -482,16 +456,16 @@
       ]
     },
     {
-      "deporte": "Baloncesto",
-      "competicion": "Amistoso",
-      "ronda": null,
-      "evento": "Río Breogán vs Boca Juniors Básquet",
-      "local": "Río Breogán",
-      "visitante": "Boca Juniors Básquet",
+      "deporte": "Tenis",
+      "competicion": "US Open",
+      "ronda": "1/4 de Final",
+      "evento": "K. Khachanov vs A. Blockx",
+      "local": "K. Khachanov",
+      "visitante": "A. Blockx",
       "fecha": "2026-09-09",
       "hora": "20:30",
       "canales": [
-        "Canal por confirmar"
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -792,6 +766,20 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "US Open",
+      "ronda": "1/4 de Final",
+      "evento": "A. Zverev vs B. Van de Zandschulp",
+      "local": "A. Zverev",
+      "visitante": "B. Van de Zandschulp",
+      "fecha": "2026-09-10",
+      "hora": "01:30",
+      "canales": [
+        "Movistar Plus+ (M7): VER PARTIDO",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "MLS",
       "ronda": null,
@@ -1053,14 +1041,27 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "UEFA Youth League",
+      "ronda": "Fase Liga",
+      "evento": "FC Barcelona Academy vs Feyenoord Academy",
+      "local": "FC Barcelona Academy",
+      "visitante": "Feyenoord Academy",
+      "fecha": "2026-09-10",
+      "hora": "09:30",
+      "canales": [
+        "M+ Liga de Campeones (M60 O115)"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "FIBA Copa Mundial Femenina",
-      "ronda": null,
-      "evento": "1/4 de Final",
-      "local": null,
-      "visitante": null,
+      "ronda": "1/4 de Final",
+      "evento": "Estados Unidos vs Hungría",
+      "local": "Estados Unidos",
+      "visitante": "Hungría",
       "fecha": "2026-09-10",
-      "hora": "11:20",
+      "hora": "11:30",
       "canales": [
         "DAZN (Ver en directo)",
         "M+ Baloncesto (M66)"
@@ -1109,12 +1110,12 @@
     {
       "deporte": "Baloncesto",
       "competicion": "FIBA Copa Mundial Femenina",
-      "ronda": null,
-      "evento": "1/4 de Final",
-      "local": null,
-      "visitante": null,
+      "ronda": "1/4 de Final",
+      "evento": "TBD vs Francia",
+      "local": "TBD",
+      "visitante": "Francia",
       "fecha": "2026-09-10",
-      "hora": "14:20",
+      "hora": "14:30",
       "canales": [
         "DAZN (Ver en directo)",
         "M+ Baloncesto (M66)"
@@ -1192,27 +1193,14 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "US Open",
-      "ronda": null,
-      "evento": "1/4 de Final Grand Slam",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-09-10",
-      "hora": "17:05",
-      "canales": [
-        "M+ Deportes 2 (64)"
-      ]
-    },
-    {
       "deporte": "Baloncesto",
       "competicion": "FIBA Copa Mundial Femenina",
-      "ronda": null,
-      "evento": "1/4 de Final",
-      "local": null,
-      "visitante": null,
+      "ronda": "1/4 de Final",
+      "evento": "Bélgica vs Alemania",
+      "local": "Bélgica",
+      "visitante": "Alemania",
       "fecha": "2026-09-10",
-      "hora": "17:35",
+      "hora": "17:45",
       "canales": [
         "DAZN (Ver en directo)",
         "M+ Baloncesto (M66)"
@@ -1415,20 +1403,6 @@
       ]
     },
     {
-      "deporte": "Baloncesto",
-      "competicion": "FIBA Copa Mundial Femenina",
-      "ronda": null,
-      "evento": "1/4 de Final",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-09-10",
-      "hora": "20:35",
-      "canales": [
-        "DAZN (Ver en directo)",
-        "M+ Baloncesto (M66)"
-      ]
-    },
-    {
       "deporte": "Balonmano",
       "competicion": "EHF Champions League",
       "ronda": "Fase de grupos",
@@ -1452,6 +1426,24 @@
       "hora": "20:45",
       "canales": [
         "EHF TV"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Copa Mundial Femenina",
+      "ronda": "1/4 de Final",
+      "evento": "TBD vs España",
+      "local": "TBD",
+      "visitante": "España",
+      "fecha": "2026-09-10",
+      "hora": "20:45",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "M+ Baloncesto (M66)",
+        "M+ Vamos (8 y 50)",
+        "M+ #Vamos Bar (307)",
+        "Teledeporte",
+        "RTVE Play"
       ]
     },
     {
@@ -1527,7 +1519,7 @@
       "deporte": "Tenis",
       "competicion": "US Open WTA",
       "ronda": null,
-      "evento": "Semifinales Grand Slam",
+      "evento": "Semifinal 1 Grand Slam",
       "local": null,
       "visitante": null,
       "fecha": "2026-09-10",
@@ -1563,6 +1555,20 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "US Open WTA",
+      "ronda": null,
+      "evento": "Semifinal 2 Grand Slam",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-09-11",
+      "hora": "01:00",
+      "canales": [
+        "Movistar Plus+ (M7): VER PARTIDO",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Caribbean Club Championship",
       "ronda": null,
@@ -1573,19 +1579,6 @@
       "hora": "02:00",
       "canales": [
         "CONCACAF YouTube"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "US Open WTA",
-      "ronda": null,
-      "evento": "Semifinales Grand Slam",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-09-11",
-      "hora": "02:00",
-      "canales": [
-        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -2272,7 +2265,6 @@
       "hora": "20:45",
       "canales": [
         "DAZN (Ver en directo)",
-        "DAZN 1 Bar (M148)",
         "Teledeporte",
         "RTVE Play"
       ]
@@ -2436,6 +2428,32 @@
       "hora": "21:30",
       "canales": [
         "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga 1 Perú",
+      "ronda": null,
+      "evento": "UTC Cajamarca vs ACD Juan Pablo II College",
+      "local": "UTC Cajamarca",
+      "visitante": "ACD Juan Pablo II College",
+      "fecha": "2026-09-11",
+      "hora": "22:00",
+      "canales": [
+        "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera División Argentina",
+      "ronda": "Torneo Clausura",
+      "evento": "Newell's Old Boys vs Vélez Sarsfield",
+      "local": "Newell's Old Boys",
+      "visitante": "Vélez Sarsfield",
+      "fecha": "2026-09-11",
+      "hora": "22:00",
+      "canales": [
+        "Fanatiz (Ver en directo)"
       ]
     }
   ]
