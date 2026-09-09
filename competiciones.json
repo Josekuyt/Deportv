@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-09-08T19:15:32"
+    "actualizado": "2026-09-09T03:10:51"
   },
   "config": {
     "puntos_por_tier": {
@@ -881,6 +881,36 @@
     },
     "EFL Carabao Cup": {
       "deporte": "Fútbol",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "GP Quebec": {
+      "deporte": "Ciclismo",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Liga ASOBAL": {
+      "deporte": "Balonmano",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Liga Prime": {
+      "deporte": "Fútbol Sala",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "The Solheim Cup": {
+      "deporte": "Golf",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Torneo EncestaRías": {
+      "deporte": "Baloncesto",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Título Británico": {
+      "deporte": "Boxeo",
       "tier": "C",
       "por_revisar": true
     }
