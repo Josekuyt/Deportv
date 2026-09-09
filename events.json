@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-09-09T12:44:41",
+    "generado": "2026-09-09T19:04:51",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 180
+    "total_eventos": 192
   },
   "eventos": [
     {
@@ -204,6 +204,32 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Copa de la Reina",
+      "ronda": "1ª Ronda",
+      "evento": "CD Getafe Femenino vs CF Pozuelo Femenino",
+      "local": "CD Getafe Femenino",
+      "visitante": "CF Pozuelo Femenino",
+      "fecha": "2026-09-09",
+      "hora": "17:00",
+      "canales": [
+        "RFFM PLAY"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Copa RFEF",
+      "ronda": "1/16 de Final",
+      "evento": "Melilla vs Conil CF",
+      "local": "Melilla",
+      "visitante": "Conil CF",
+      "fecha": "2026-09-09",
+      "hora": "17:30",
+      "canales": [
+        "TV Melilla"
+      ]
+    },
+    {
       "deporte": "Fútbol Sala",
       "competicion": "Amistoso Femenino",
       "ronda": null,
@@ -218,6 +244,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Copa de la Reina",
+      "ronda": "1ª Ronda",
+      "evento": "Real Oviedo Femenino vs Sporting Femenino",
+      "local": "Real Oviedo Femenino",
+      "visitante": "Sporting Femenino",
+      "fecha": "2026-09-09",
+      "hora": "17:30",
+      "canales": [
+        "RealOviedo YouTube"
+      ]
+    },
+    {
       "deporte": "Tenis",
       "competicion": "US Open WTA",
       "ronda": "1/4 de Final",
@@ -225,7 +264,7 @@
       "local": "Q. Zheng",
       "visitante": "E. Rybakina",
       "fecha": "2026-09-09",
-      "hora": "17:30",
+      "hora": "17:40",
       "canales": [
         "M+ Deportes 2 (64)"
       ]
@@ -248,13 +287,13 @@
       "deporte": "Baloncesto",
       "competicion": "Liga Catalana ACB",
       "ronda": null,
-      "evento": "MoraBanc Andorra vs Kids&Us Manresa",
-      "local": "MoraBanc Andorra",
-      "visitante": "Kids&Us Manresa",
+      "evento": "Força Lleida vs Joventut Badalona",
+      "local": "Força Lleida",
+      "visitante": "Joventut Badalona",
       "fecha": "2026-09-09",
       "hora": "18:30",
       "canales": [
-        "Esport3 (Cataluña)"
+        "Esport3 Web"
       ]
     },
     {
@@ -363,6 +402,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Copa RFEF",
+      "ronda": "1/16 de Final",
+      "evento": "Mensajero vs Real Murcia",
+      "local": "Mensajero",
+      "visitante": "Real Murcia",
+      "fecha": "2026-09-09",
+      "hora": "19:00",
+      "canales": [
+        "TV FootballClub (Acceder)"
+      ]
+    },
+    {
       "deporte": "Tenis",
       "competicion": "US Open WTA",
       "ronda": "1/4 de Final",
@@ -373,6 +425,32 @@
       "hora": "19:00",
       "canales": [
         "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Copa de la Reina",
+      "ronda": "1ª Ronda",
+      "evento": "Celta Femenino vs Real Avilés Femenino",
+      "local": "Celta Femenino",
+      "visitante": "Real Avilés Femenino",
+      "fecha": "2026-09-09",
+      "hora": "19:00",
+      "canales": [
+        "RC Celta YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Copa RFEF",
+      "ronda": "1/16 de Final",
+      "evento": "CD Comillas vs L'Hospitalet",
+      "local": "CD Comillas",
+      "visitante": "L'Hospitalet",
+      "fecha": "2026-09-09",
+      "hora": "20:00",
+      "canales": [
+        "Elviphotoss YouTube"
       ]
     },
     {
@@ -469,6 +547,19 @@
       ]
     },
     {
+      "deporte": "Balonmano",
+      "competicion": "Liga Guerreras Iberdrola",
+      "ronda": null,
+      "evento": "CB Pozuelo CVA vs Costa del Sol Málaga",
+      "local": "CB Pozuelo CVA",
+      "visitante": "Costa del Sol Málaga",
+      "fecha": "2026-09-09",
+      "hora": "20:30",
+      "canales": [
+        "CMMPlay (Castilla-LM)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Primera Nacional Argentina",
       "ronda": null,
@@ -518,7 +609,7 @@
       "hora": "20:45",
       "canales": [
         "EHF TV",
-        "Esport3 (Cataluña)"
+        "Esport3 Web"
       ]
     },
     {
@@ -611,13 +702,27 @@
       "deporte": "Baloncesto",
       "competicion": "Liga Catalana ACB",
       "ronda": null,
-      "evento": "Força Lleida vs Joventut Badalona",
-      "local": "Força Lleida",
-      "visitante": "Joventut Badalona",
+      "evento": "MoraBanc Andorra vs Kids&Us Manresa",
+      "local": "MoraBanc Andorra",
+      "visitante": "Kids&Us Manresa",
       "fecha": "2026-09-09",
       "hora": "21:00",
       "canales": [
-        "Esport3 Web"
+        "Esport3 Web",
+        "Andorra TV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Copa RFEF",
+      "ronda": "1/16 de Final",
+      "evento": "CF Talavera vs Navalcarnero",
+      "local": "CF Talavera",
+      "visitante": "Navalcarnero",
+      "fecha": "2026-09-09",
+      "hora": "21:00",
+      "canales": [
+        "CMMPlay (Castilla-LM)"
       ]
     },
     {
@@ -1050,6 +1155,7 @@
       "fecha": "2026-09-10",
       "hora": "09:30",
       "canales": [
+        "FC Barcelona PPV YouTube",
         "M+ Liga de Campeones (M60 O115)"
       ]
     },
@@ -1125,7 +1231,7 @@
       "deporte": "Ciclismo",
       "competicion": "Vuelta a España",
       "ronda": null,
-      "evento": "Etapa 18",
+      "evento": "Etapa 18 El Puerto de Santa María › Jerez de la Frontera (32,1 km)",
       "local": null,
       "visitante": null,
       "fecha": "2026-09-10",
@@ -1148,7 +1254,6 @@
       "fecha": "2026-09-10",
       "hora": "15:00",
       "canales": [
-        "Teledeporte",
         "RTVE Play"
       ]
     },
@@ -1193,6 +1298,23 @@
       ]
     },
     {
+      "deporte": "Ciclismo",
+      "competicion": "Vuelta a España",
+      "ronda": null,
+      "evento": "Etapa 18 El Puerto de Santa María › Jerez de la Frontera (32,1 km)",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-09-10",
+      "hora": "16:15",
+      "canales": [
+        "HBO MAX",
+        "DAZN (Ver en directo)",
+        "La 2 TVE",
+        "RTVE Play",
+        "Eurosport 1"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "FIBA Copa Mundial Femenina",
       "ronda": "1/4 de Final",
@@ -1203,7 +1325,9 @@
       "hora": "17:45",
       "canales": [
         "DAZN (Ver en directo)",
-        "M+ Baloncesto (M66)"
+        "M+ Baloncesto (M66)",
+        "Teledeporte",
+        "RTVE Play"
       ]
     },
     {
@@ -1512,7 +1636,8 @@
       "fecha": "2026-09-10",
       "hora": "21:00",
       "canales": [
-        "Esport3 (Cataluña)"
+        "Esport3 (Cataluña)",
+        "Andorra TV"
       ]
     },
     {
@@ -1557,10 +1682,10 @@
     {
       "deporte": "Tenis",
       "competicion": "US Open WTA",
-      "ronda": null,
-      "evento": "Semifinal 2 Grand Slam",
-      "local": null,
-      "visitante": null,
+      "ronda": "Grand Slam",
+      "evento": "A. Sabalenka vs J. Pegula",
+      "local": "A. Sabalenka",
+      "visitante": "J. Pegula",
       "fecha": "2026-09-11",
       "hora": "01:00",
       "canales": [
@@ -2002,7 +2127,7 @@
       "fecha": "2026-09-11",
       "hora": "18:45",
       "canales": [
-        "Canal por confirmar"
+        "ADC EncestaRías YouTube"
       ]
     },
     {
@@ -2104,6 +2229,19 @@
       ]
     },
     {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Europe Cup 3x3",
+      "ronda": "Fase de grupos",
+      "evento": "España vs Italia",
+      "local": "España",
+      "visitante": "Italia",
+      "fecha": "2026-09-11",
+      "hora": "19:15",
+      "canales": [
+        "RTVE Play"
+      ]
+    },
+    {
       "deporte": "Fútbol Sala",
       "competicion": "Liga Prime",
       "ronda": "Torneo Apertura",
@@ -2131,6 +2269,19 @@
     },
     {
       "deporte": "Baloncesto",
+      "competicion": "FIBA Europe Cup 3x3 Femenino",
+      "ronda": "Fase de grupos",
+      "evento": "España vs Hungría",
+      "local": "España",
+      "visitante": "Hungría",
+      "fecha": "2026-09-11",
+      "hora": "19:40",
+      "canales": [
+        "RTVE Play"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
       "competicion": "Torneo Costa del Sol",
       "ronda": null,
       "evento": "Real Madrid Baloncesto vs La Laguna Tenerife",
@@ -2139,7 +2290,8 @@
       "fecha": "2026-09-11",
       "hora": "20:00",
       "canales": [
-        "Deportes TVCanaria YouTube"
+        "Deportes TVCanaria YouTube",
+        "Real Madrid TV"
       ]
     },
     {
@@ -2350,10 +2502,10 @@
     {
       "deporte": "Tenis",
       "competicion": "US Open",
-      "ronda": null,
-      "evento": "Semifinal 1 Grand Slam",
-      "local": null,
-      "visitante": null,
+      "ronda": "Grand Slam",
+      "evento": "F. Tiafoe vs B. Shelton",
+      "local": "F. Tiafoe",
+      "visitante": "B. Shelton",
       "fecha": "2026-09-11",
       "hora": "21:00",
       "canales": [
@@ -2389,6 +2541,19 @@
       ]
     },
     {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Europe Cup 3x3",
+      "ronda": "Fase de grupos",
+      "evento": "España vs Holanda",
+      "local": "España",
+      "visitante": "Holanda",
+      "fecha": "2026-09-11",
+      "hora": "21:05",
+      "canales": [
+        "RTVE Play"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Primera Federación",
       "ronda": "Grupo 2",
@@ -2414,7 +2579,7 @@
       "fecha": "2026-09-11",
       "hora": "21:15",
       "canales": [
-        "Canal por confirmar"
+        "ADC EncestaRías YouTube"
       ]
     },
     {
