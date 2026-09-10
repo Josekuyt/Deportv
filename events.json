@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-09-10T12:42:41",
+    "generado": "2026-09-10T18:57:06",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 337
+    "total_eventos": 338
   },
   "eventos": [
     {
@@ -566,9 +566,9 @@
       "deporte": "Baloncesto",
       "competicion": "Liga Catalana ACB",
       "ronda": null,
-      "evento": "Basquet Girona vs Força Lleida",
+      "evento": "Basquet Girona vs iLERNA Lleida",
       "local": "Basquet Girona",
-      "visitante": "Força Lleida",
+      "visitante": "iLERNA Lleida",
       "fecha": "2026-09-10",
       "hora": "18:30",
       "canales": [
@@ -1048,6 +1048,23 @@
       ]
     },
     {
+      "deporte": "Ciclismo",
+      "competicion": "Vuelta a España",
+      "ronda": null,
+      "evento": "Etapa 19 Vélez-Málaga › Peñas Blancas. Estepona (210,8 km)",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-09-11",
+      "hora": "12:20",
+      "canales": [
+        "HBO MAX",
+        "DAZN (Ver en directo)",
+        "Teledeporte",
+        "RTVE Play",
+        "Eurosport 1"
+      ]
+    },
+    {
       "deporte": "Pádel",
       "competicion": "París Major",
       "ronda": null,
@@ -1062,6 +1079,19 @@
         "M+ #Vamos Bar (307)",
         "M+ Deportes (63)",
         "M+ Deportes 3 (65)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Europe Cup 3x3 Femenino",
+      "ronda": "Fase de grupos",
+      "evento": "España vs Eslovenia",
+      "local": "España",
+      "visitante": "Eslovenia",
+      "fecha": "2026-09-11",
+      "hora": "13:25",
+      "canales": [
+        "RTVE Play"
       ]
     },
     {
@@ -1109,20 +1139,16 @@
       ]
     },
     {
-      "deporte": "Ciclismo",
-      "competicion": "Vuelta a España",
+      "deporte": "Fútbol",
+      "competicion": "Premier League Ucrania",
       "ronda": null,
-      "evento": "Etapa 19",
-      "local": null,
-      "visitante": null,
+      "evento": "FC Kolos Kovalivka vs Karpaty Lviv",
+      "local": "FC Kolos Kovalivka",
+      "visitante": "Karpaty Lviv",
       "fecha": "2026-09-11",
       "hora": "14:30",
       "canales": [
-        "HBO MAX",
-        "DAZN (Ver en directo)",
-        "Teledeporte",
-        "RTVE Play",
-        "Eurosport 1"
+        "OneFootball PPV"
       ]
     },
     {
@@ -1182,6 +1208,23 @@
         "M+ #Vamos Bar (307)",
         "M+ Deportes (63)",
         "M+ Deportes 3 (65)"
+      ]
+    },
+    {
+      "deporte": "Ciclismo",
+      "competicion": "Vuelta a España",
+      "ronda": null,
+      "evento": "Etapa 19 Vélez-Málaga › Peñas Blancas. Estepona (210,8 km)",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-09-11",
+      "hora": "15:50",
+      "canales": [
+        "HBO MAX",
+        "DAZN (Ver en directo)",
+        "La 1 TVE",
+        "RTVE Play",
+        "Eurosport 1"
       ]
     },
     {
@@ -1328,6 +1371,20 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Bundesliga Femenina",
+      "ronda": null,
+      "evento": "Werder Bremen Femenino vs Hamburger SV Frauen",
+      "local": "Werder Bremen Femenino",
+      "visitante": "Hamburger SV Frauen",
+      "fecha": "2026-09-11",
+      "hora": "18:30",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "Liga Catalana ACB",
       "ronda": null,
@@ -1460,6 +1517,8 @@
         "HBO MAX",
         "DAZN (Ver en directo)",
         "ASOBAL TV",
+        "Teledeporte",
+        "RTVE Play",
         "Esport3 Web",
         "Eurosport 2"
       ]
@@ -1753,9 +1812,9 @@
       "deporte": "Tenis",
       "competicion": "US Open",
       "ronda": "Grand Slam",
-      "evento": "F. Tiafoe vs B. Shelton",
-      "local": "F. Tiafoe",
-      "visitante": "B. Shelton",
+      "evento": "A. Zverev vs K. Khachanov",
+      "local": "A. Zverev",
+      "visitante": "K. Khachanov",
       "fecha": "2026-09-11",
       "hora": "21:00",
       "canales": [
@@ -1938,6 +1997,19 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "US Open",
+      "ronda": "Grand Slam",
+      "evento": "F. Tiafoe vs B. Shelton",
+      "local": "F. Tiafoe",
+      "visitante": "B. Shelton",
+      "fecha": "2026-09-12",
+      "hora": "01:00",
+      "canales": [
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Primera B Argentina",
       "ronda": null,
@@ -1948,123 +2020,6 @@
       "hora": "01:00",
       "canales": [
         "LPF Play"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "US Open",
-      "ronda": "Grand Slam",
-      "evento": "A. Zverev vs K. Khachanov",
-      "local": "A. Zverev",
-      "visitante": "K. Khachanov",
-      "fecha": "2026-09-12",
-      "hora": "01:30",
-      "canales": [
-        "M+ Deportes 2 (64)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Premier League Ucrania",
-      "ronda": null,
-      "evento": "Shakhtar Donetsk vs Chernomorets Odessa",
-      "local": "Shakhtar Donetsk",
-      "visitante": "Chernomorets Odessa",
-      "fecha": "2026-09-12",
-      "hora": "02:00",
-      "canales": [
-        "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Premier League Ucrania",
-      "ronda": null,
-      "evento": "Dynamo Kyiv vs FC Epitsentr",
-      "local": "Dynamo Kyiv",
-      "visitante": "FC Epitsentr",
-      "fecha": "2026-09-12",
-      "hora": "02:00",
-      "canales": [
-        "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Premier League Ucrania",
-      "ronda": null,
-      "evento": "NK Veres Rivne vs FC Kudrivka",
-      "local": "NK Veres Rivne",
-      "visitante": "FC Kudrivka",
-      "fecha": "2026-09-12",
-      "hora": "02:00",
-      "canales": [
-        "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Premier League Ucrania",
-      "ronda": null,
-      "evento": "FC Kryvbas vs Metalist 1925 Kharkiv",
-      "local": "FC Kryvbas",
-      "visitante": "Metalist 1925 Kharkiv",
-      "fecha": "2026-09-12",
-      "hora": "02:00",
-      "canales": [
-        "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Premier League Ucrania",
-      "ronda": null,
-      "evento": "FC Kolos Kovalivka vs Karpaty Lviv",
-      "local": "FC Kolos Kovalivka",
-      "visitante": "Karpaty Lviv",
-      "fecha": "2026-09-12",
-      "hora": "02:00",
-      "canales": [
-        "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Premier League Ucrania",
-      "ronda": null,
-      "evento": "LNZ Cherkasy vs FC Obolón-Brovar",
-      "local": "LNZ Cherkasy",
-      "visitante": "FC Obolón-Brovar",
-      "fecha": "2026-09-12",
-      "hora": "02:00",
-      "canales": [
-        "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Premier League Ucrania",
-      "ronda": null,
-      "evento": "Livyi Bereh vs FC Polissya Zhytomyr",
-      "local": "Livyi Bereh",
-      "visitante": "FC Polissya Zhytomyr",
-      "fecha": "2026-09-12",
-      "hora": "02:00",
-      "canales": [
-        "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Premier League Ucrania",
-      "ronda": null,
-      "evento": "FSC Bukovyna Chernivtsi vs Zorya",
-      "local": "FSC Bukovyna Chernivtsi",
-      "visitante": "Zorya",
-      "fecha": "2026-09-12",
-      "hora": "02:00",
-      "canales": [
-        "OneFootball PPV"
       ]
     },
     {
@@ -2181,6 +2136,7 @@
       "fecha": "2026-09-12",
       "hora": "10:00",
       "canales": [
+        "Teledeporte",
         "RTVE Play"
       ]
     },
@@ -2242,6 +2198,49 @@
       ]
     },
     {
+      "deporte": "Ciclismo",
+      "competicion": "Vuelta a España",
+      "ronda": null,
+      "evento": "Etapa 20 La Calahorra › Collado del Alguacil (186,8 km)",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-09-12",
+      "hora": "12:00",
+      "canales": [
+        "HBO MAX",
+        "DAZN (Ver en directo)",
+        "Teledeporte",
+        "RTVE Play",
+        "Eurosport 1"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Premier League Ucrania",
+      "ronda": null,
+      "evento": "FC Kryvbas vs Metalist 1925 Kharkiv",
+      "local": "FC Kryvbas",
+      "visitante": "Metalist 1925 Kharkiv",
+      "fecha": "2026-09-12",
+      "hora": "12:00",
+      "canales": [
+        "OneFootball PPV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Premier League Ucrania",
+      "ronda": null,
+      "evento": "LNZ Cherkasy vs FC Obolón-Brovar",
+      "local": "LNZ Cherkasy",
+      "visitante": "FC Obolón-Brovar",
+      "fecha": "2026-09-12",
+      "hora": "12:00",
+      "canales": [
+        "OneFootball PPV"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Liga F",
       "ronda": null,
@@ -2269,23 +2268,6 @@
       "hora": "12:00",
       "canales": [
         "Sevilla FC +"
-      ]
-    },
-    {
-      "deporte": "Ciclismo",
-      "competicion": "Vuelta a España",
-      "ronda": null,
-      "evento": "Etapa 20",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-09-12",
-      "hora": "12:15",
-      "canales": [
-        "HBO MAX",
-        "DAZN (Ver en directo)",
-        "Teledeporte",
-        "RTVE Play",
-        "Eurosport 1"
       ]
     },
     {
@@ -2549,6 +2531,20 @@
       "hora": "14:00",
       "canales": [
         "OneFootball PPV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Bundesliga Femenina",
+      "ronda": null,
+      "evento": "FC Köln Femenino vs 1. FC Union Berlin Frauen",
+      "local": "FC Köln Femenino",
+      "visitante": "1. FC Union Berlin Frauen",
+      "fecha": "2026-09-12",
+      "hora": "14:00",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
@@ -2915,6 +2911,23 @@
       ]
     },
     {
+      "deporte": "Ciclismo",
+      "competicion": "Vuelta a España",
+      "ronda": null,
+      "evento": "Etapa 20 La Calahorra › Collado del Alguacil (186,8 km)",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-09-12",
+      "hora": "15:55",
+      "canales": [
+        "HBO MAX",
+        "DAZN (Ver en directo)",
+        "La 1 TVE",
+        "RTVE Play",
+        "Eurosport 1"
+      ]
+    },
+    {
       "deporte": "Automovilismo",
       "competicion": "Fórmula 1",
       "ronda": null,
@@ -3216,7 +3229,9 @@
       "hora": "16:20",
       "canales": [
         "DAZN (Ver en directo)",
-        "M+ Baloncesto (M66)"
+        "M+ Baloncesto (M66)",
+        "Teledeporte",
+        "RTVE Play"
       ]
     },
     {
@@ -3346,6 +3361,19 @@
       "canales": [
         "M+ Vamos 3 (53)",
         "Movistar Golf (M68)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Premier League Ucrania",
+      "ronda": null,
+      "evento": "NK Veres Rivne vs FC Kudrivka",
+      "local": "NK Veres Rivne",
+      "visitante": "FC Kudrivka",
+      "fecha": "2026-09-12",
+      "hora": "17:00",
+      "canales": [
+        "OneFootball PPV"
       ]
     },
     {
@@ -3990,7 +4018,9 @@
       "hora": "19:50",
       "canales": [
         "DAZN (Ver en directo)",
-        "M+ Baloncesto (M66)"
+        "M+ Baloncesto (M66)",
+        "Teledeporte",
+        "RTVE Play"
       ]
     },
     {
