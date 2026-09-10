@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-09-09T19:04:51"
+    "actualizado": "2026-09-10T03:10:32"
   },
   "config": {
     "puntos_por_tier": {
@@ -931,6 +931,26 @@
     },
     "FIBA Europe Cup 3x3 Femenino": {
       "deporte": "Baloncesto",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "DTM": {
+      "deporte": "Automovilismo",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Memorial Marco Pantani": {
+      "deporte": "Ciclismo",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Red Bull MotoGP Rookies Cup": {
+      "deporte": "Motociclismo",
+      "tier": "S",
+      "por_revisar": true
+    },
+    "Título Norteamericano": {
+      "deporte": "Boxeo",
       "tier": "C",
       "por_revisar": true
     }
