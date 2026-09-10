@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-09-10T03:10:32",
+    "generado": "2026-09-10T12:42:41",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 333
+    "total_eventos": 337
   },
   "eventos": [
     {
@@ -87,20 +87,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "US Open",
-      "ronda": "1/4 de Final",
-      "evento": "A. Zverev vs B. Van de Zandschulp",
-      "local": "A. Zverev",
-      "visitante": "B. Van de Zandschulp",
-      "fecha": "2026-09-10",
-      "hora": "01:30",
-      "canales": [
-        "Movistar Plus+ (M7): VER PARTIDO",
-        "M+ Deportes 2 (64)"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "MLS",
       "ronda": null,
@@ -163,6 +149,20 @@
       "hora": "01:30",
       "canales": [
         "Apple TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open",
+      "ronda": "1/4 de Final",
+      "evento": "A. Zverev vs B. Van de Zandschulp",
+      "local": "A. Zverev",
+      "visitante": "B. Van de Zandschulp",
+      "fecha": "2026-09-10",
+      "hora": "02:00",
+      "canales": [
+        "Movistar Plus+ (M7): VER PARTIDO",
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -433,8 +433,8 @@
       "deporte": "Baloncesto",
       "competicion": "FIBA Copa Mundial Femenina",
       "ronda": "1/4 de Final",
-      "evento": "TBD vs Francia",
-      "local": "TBD",
+      "evento": "China vs Francia",
+      "local": "China",
       "visitante": "Francia",
       "fecha": "2026-09-10",
       "hora": "14:30",
@@ -470,6 +470,7 @@
       "fecha": "2026-09-10",
       "hora": "15:00",
       "canales": [
+        "Teledeporte",
         "RTVE Play"
       ]
     },
@@ -477,13 +478,14 @@
       "deporte": "Ciclismo",
       "competicion": "Coppa Sabatini",
       "ronda": null,
-      "evento": "UCI ProSeries",
+      "evento": "UCI ProSeries Peccioli › Peccioli (197,6 km)",
       "local": null,
       "visitante": null,
       "fecha": "2026-09-10",
       "hora": "15:10",
       "canales": [
-        "HBO MAX"
+        "HBO MAX",
+        "Lega Ciclismo Professionistico YouTube"
       ]
     },
     {
@@ -526,6 +528,7 @@
         "HBO MAX",
         "DAZN (Ver en directo)",
         "La 2 TVE",
+        "La 1 TVE",
         "RTVE Play",
         "Eurosport 1"
       ]
@@ -647,6 +650,7 @@
       "fecha": "2026-09-10",
       "hora": "20:00",
       "canales": [
+        "101 TV (Málaga)",
         "Deportes TVCanaria YouTube"
       ]
     },
@@ -772,8 +776,8 @@
       "deporte": "Baloncesto",
       "competicion": "FIBA Copa Mundial Femenina",
       "ronda": "1/4 de Final",
-      "evento": "TBD vs España",
-      "local": "TBD",
+      "evento": "Australia vs España",
+      "local": "Australia",
       "visitante": "España",
       "fecha": "2026-09-10",
       "hora": "20:45",
@@ -811,7 +815,8 @@
       "hora": "21:00",
       "canales": [
         "M+ Liga de Campeones (M60 O115)",
-        "M+ Liga de Campeones 4 (M180 O119)"
+        "M+ Liga de Campeones 4 (M180 O119)",
+        "LaLiga TV Bar"
       ]
     },
     {
@@ -854,19 +859,6 @@
       "canales": [
         "Esport3 (Cataluña)",
         "Andorra TV"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "US Open WTA",
-      "ronda": null,
-      "evento": "Semifinal 1 Grand Slam",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-09-10",
-      "hora": "21:00",
-      "canales": [
-        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -933,6 +925,32 @@
       "hora": "02:00",
       "canales": [
         "CONCACAF YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Copa Libertadores",
+      "ronda": "1/4 de Final",
+      "evento": "Independiente del Valle vs CR Flamengo",
+      "local": "Independiente del Valle",
+      "visitante": "CR Flamengo",
+      "fecha": "2026-09-11",
+      "hora": "02:30",
+      "canales": [
+        "M+ Liga de Campeones (M60 O115)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open WTA",
+      "ronda": "Grand Slam",
+      "evento": "C. Gauff vs E. Rybakina",
+      "local": "C. Gauff",
+      "visitante": "E. Rybakina",
+      "fecha": "2026-09-11",
+      "hora": "02:30",
+      "canales": [
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -1086,7 +1104,8 @@
       "fecha": "2026-09-11",
       "hora": "13:53",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
@@ -1131,7 +1150,6 @@
       "fecha": "2026-09-11",
       "hora": "15:00",
       "canales": [
-        "M+ Vamos 3 (53)",
         "Movistar Golf (M68)"
       ]
     },
@@ -1224,6 +1242,20 @@
       ]
     },
     {
+      "deporte": "Golf",
+      "competicion": "The Solheim Cup",
+      "ronda": null,
+      "evento": "Jornada 1",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-09-11",
+      "hora": "17:00",
+      "canales": [
+        "M+ Vamos 3 (53)",
+        "Movistar Golf (M68)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Superliga de Letonia",
       "ronda": null,
@@ -1248,6 +1280,7 @@
       "canales": [
         "OneFootball",
         "M+ Vamos 2 (51)",
+        "M+ #Vamos Bar 2 (308)",
         "M+ Liga de Campeones (M60 O115)"
       ]
     },
@@ -1255,7 +1288,7 @@
       "deporte": "Ciclismo",
       "competicion": "GP Quebec",
       "ronda": null,
-      "evento": "UCI World Tour",
+      "evento": "UCI World Tour Québec › Québec (206 km)",
       "local": null,
       "visitante": null,
       "fecha": "2026-09-11",
@@ -1383,19 +1416,6 @@
       "hora": "19:00",
       "canales": [
         "Canal por confirmar"
-      ]
-    },
-    {
-      "deporte": "Golf",
-      "competicion": "The Solheim Cup",
-      "ronda": null,
-      "evento": "Jornada 1",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-09-11",
-      "hora": "19:00",
-      "canales": [
-        "Movistar Golf (M68)"
       ]
     },
     {
@@ -1617,7 +1637,6 @@
       "canales": [
         "DAZN (Ver en directo)",
         "M+ Vamos (8 y 50)",
-        "M+ Liga de Campeones (M60 O115)",
         "M+ Liga de Campeones 2 (M61 O117)",
         "LaLiga TV M3"
       ]
@@ -1646,6 +1665,8 @@
       "hora": "20:45",
       "canales": [
         "DAZN (Ver en directo)",
+        "DAZN 1 (M72)",
+        "DAZN 1 Bar (M148)",
         "Teledeporte",
         "RTVE Play"
       ]
@@ -1738,7 +1759,21 @@
       "fecha": "2026-09-11",
       "hora": "21:00",
       "canales": [
+        "Movistar Plus+ (M7): VER PARTIDO",
         "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "D1 Féminine",
+      "ronda": null,
+      "evento": "PSG Femenino vs Strasbourg Alsace Feminine",
+      "local": "PSG Femenino",
+      "visitante": "Strasbourg Alsace Feminine",
+      "fecha": "2026-09-11",
+      "hora": "21:00",
+      "canales": [
+        "GOL (Síguelo en directo)"
       ]
     },
     {
@@ -1918,10 +1953,10 @@
     {
       "deporte": "Tenis",
       "competicion": "US Open",
-      "ronda": null,
-      "evento": "Semifinal 2 Grand Slam",
-      "local": null,
-      "visitante": null,
+      "ronda": "Grand Slam",
+      "evento": "A. Zverev vs K. Khachanov",
+      "local": "A. Zverev",
+      "visitante": "K. Khachanov",
       "fecha": "2026-09-12",
       "hora": "01:30",
       "canales": [
@@ -2217,6 +2252,8 @@
       "hora": "12:00",
       "canales": [
         "DAZN (Ver en directo)",
+        "DAZN 1 (M72)",
+        "DAZN 1 Bar (M148)",
         "RTVE Play",
         "Esport3 (Cataluña)"
       ]
@@ -2352,7 +2389,21 @@
       "hora": "13:30",
       "canales": [
         "DAZN (Ver en directo)",
-        "DAZN App Gratis (Ver gratis)"
+        "DAZN App Gratis (Ver gratis)",
+        "DAZN 4 (M197)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "D1 Féminine",
+      "ronda": null,
+      "evento": "O. Lyonnais Femenino vs Paris FC Femenino",
+      "local": "O. Lyonnais Femenino",
+      "visitante": "Paris FC Femenino",
+      "fecha": "2026-09-12",
+      "hora": "13:30",
+      "canales": [
+        "GOL (Síguelo en directo)"
       ]
     },
     {
@@ -2674,7 +2725,6 @@
       "fecha": "2026-09-12",
       "hora": "15:00",
       "canales": [
-        "M+ Vamos 3 (53)",
         "Movistar Golf (M68)"
       ]
     },
@@ -3061,6 +3111,7 @@
       "hora": "16:00",
       "canales": [
         "DAZN (Ver en directo)",
+        "DAZN 1 (M72)",
         "DAZN 1 Bar (M148)"
       ]
     },
@@ -3075,6 +3126,7 @@
       "hora": "16:00",
       "canales": [
         "DAZN (Ver en directo)",
+        "DAZN 2 (M73)",
         "DAZN 2 Bar (M149)"
       ]
     },
@@ -3088,7 +3140,8 @@
       "fecha": "2026-09-12",
       "hora": "16:00",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN 3 (M196)"
       ]
     },
     {
@@ -3101,7 +3154,8 @@
       "fecha": "2026-09-12",
       "hora": "16:00",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN 4 (M197)"
       ]
     },
     {
@@ -3131,6 +3185,7 @@
         "M+ LALIGA HDR (M440 O111)",
         "DAZN (Ver en directo)",
         "DAZN App Gratis (Ver gratis)",
+        "M+ LALIGA 2 (M57 O112)",
         "LaLiga TV Bar"
       ]
     },
@@ -3280,6 +3335,20 @@
       ]
     },
     {
+      "deporte": "Golf",
+      "competicion": "The Solheim Cup",
+      "ronda": null,
+      "evento": "Jornada 2",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-09-12",
+      "hora": "17:00",
+      "canales": [
+        "M+ Vamos 3 (53)",
+        "Movistar Golf (M68)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Admiral Bundesliga",
       "ronda": null,
@@ -3375,6 +3444,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Liga Polaca",
+      "ronda": null,
+      "evento": "Górnik Zabrze vs Lech Poznan",
+      "local": "Górnik Zabrze",
+      "visitante": "Lech Poznan",
+      "fecha": "2026-09-12",
+      "hora": "17:30",
+      "canales": [
+        "GOL (Síguelo en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Segunda Federación",
       "ronda": "Grupo 2",
       "evento": "CD Ebro vs Reus FC Reddis",
@@ -3398,6 +3480,7 @@
       "hora": "17:50",
       "canales": [
         "M+ Vamos 2 (51)",
+        "M+ #Vamos Bar 2 (308)",
         "M+ Liga de Campeones 2 (M61 O117)"
       ]
     },
@@ -3669,6 +3752,7 @@
       "hora": "18:30",
       "canales": [
         "DAZN (Ver en directo)",
+        "DAZN 1 (M72)",
         "DAZN 1 Bar (M148)"
       ]
     },
@@ -3732,19 +3816,6 @@
       ]
     },
     {
-      "deporte": "Golf",
-      "competicion": "The Solheim Cup",
-      "ronda": null,
-      "evento": "Jornada 2",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-09-12",
-      "hora": "19:00",
-      "canales": [
-        "Movistar Golf (M68)"
-      ]
-    },
-    {
       "deporte": "Baloncesto",
       "competicion": "Torneo Costa del Sol",
       "ronda": null,
@@ -3754,6 +3825,7 @@
       "fecha": "2026-09-12",
       "hora": "19:00",
       "canales": [
+        "101 TV (Málaga)",
         "Real Madrid TV"
       ]
     },
@@ -3837,7 +3909,9 @@
       "hora": "19:00",
       "canales": [
         "DAZN (Ver en directo)",
-        "M+ Vamos 3 (53)"
+        "M+ Vamos 3 (53)",
+        "DAZN 2 (M73)",
+        "DAZN 2 Bar (M149)"
       ]
     },
     {
@@ -4086,6 +4160,7 @@
       "hora": "20:00",
       "canales": [
         "M+ Vamos 2 (51)",
+        "M+ #Vamos Bar 2 (308)",
         "M+ Liga de Campeones (M60 O115)"
       ]
     },
@@ -4384,7 +4459,8 @@
       "fecha": "2026-09-12",
       "hora": "21:00",
       "canales": [
-        "Movistar Plus+ (M7): VER PARTIDO",
+        "M+ Vamos (8 y 50)",
+        "M+ #Vamos Bar (307)",
         "M+ Deportes 2 (64)"
       ]
     },
@@ -4399,6 +4475,7 @@
       "hora": "21:00",
       "canales": [
         "DAZN (Ver en directo)",
+        "DAZN 1 (M72)",
         "DAZN 1 Bar (M148)"
       ]
     },
@@ -4492,7 +4569,8 @@
       "fecha": "2026-09-12",
       "hora": "22:30",
       "canales": [
-        "Fanatiz (Ver en directo)"
+        "Fanatiz (Ver en directo)",
+        "M+ Liga de Campeones (M60 O115)"
       ]
     },
     {
