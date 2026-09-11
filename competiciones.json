@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-09-10T12:42:41"
+    "actualizado": "2026-09-11T03:05:59"
   },
   "config": {
     "puntos_por_tier": {
@@ -725,7 +725,10 @@
       "por_revisar": true
     },
     "Primera Federación Femenina": {
-      "deporte": "Fútbol Sala",
+      "deporte": [
+        "Fútbol Sala",
+        "Fútbol"
+      ],
       "tier": "C",
       "por_revisar": true
     },
@@ -957,6 +960,26 @@
     "D1 Féminine": {
       "deporte": "Fútbol",
       "tier": "C",
+      "por_revisar": true
+    },
+    "GP Fourmies": {
+      "deporte": "Ciclismo",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "GP Montreal": {
+      "deporte": "Ciclismo",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Great North Run": {
+      "deporte": "Atletismo",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Trofeo Matteotti": {
+      "deporte": "Ciclismo",
+      "tier": "D",
       "por_revisar": true
     }
   }
