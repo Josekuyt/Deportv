@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-09-11T12:37:11"
+    "actualizado": "2026-09-11T18:58:48"
   },
   "config": {
     "puntos_por_tier": {
@@ -985,6 +985,16 @@
     "Liga Nacional Juvenil": {
       "deporte": "Fútbol",
       "tier": "D",
+      "por_revisar": true
+    },
+    "Copa Sevilla": {
+      "deporte": "Tenis",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "World Athletics Ultimate Championship": {
+      "deporte": "Atletismo",
+      "tier": "C",
       "por_revisar": true
     }
   }

@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-09-11T12:37:11",
+    "generado": "2026-09-11T18:58:48",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 515
+    "total_eventos": 535
   },
   "eventos": [
     {
@@ -170,7 +170,7 @@
       "deporte": "Ciclismo",
       "competicion": "Vuelta a España",
       "ronda": null,
-      "evento": "Etapa 19",
+      "evento": "Etapa 19 Vélez-Málaga › Peñas Blancas. Estepona (210,8 km)",
       "local": null,
       "visitante": null,
       "fecha": "2026-09-11",
@@ -227,6 +227,7 @@
         "BE MAD",
         "Mediaset Infinity",
         "Movistar Plus+ (M7): VER PARTIDO",
+        "DAZN App Gratis (Ver gratis)",
         "DAZN F1 (M70 O104)"
       ]
     },
@@ -309,6 +310,7 @@
       "hora": "15:00",
       "canales": [
         "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)",
         "DAZN F1 (M70 O104)"
       ]
     },
@@ -357,6 +359,7 @@
       "hora": "15:55",
       "canales": [
         "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)",
         "DAZN F1 (M70 O104)"
       ]
     },
@@ -400,6 +403,7 @@
         "BE MAD",
         "Mediaset Infinity",
         "Movistar Plus+ (M7): VER PARTIDO",
+        "DAZN App Gratis (Ver gratis)",
         "DAZN F1 (M70 O104)"
       ]
     },
@@ -459,6 +463,19 @@
         "HBO MAX",
         "DAZN (Ver en directo)",
         "Eurosport 1"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Copa Sevilla",
+      "ronda": "ATP Challenger Tour",
+      "evento": "J. Munar vs R. Brancaccio",
+      "local": "J. Munar",
+      "visitante": "R. Brancaccio",
+      "fecha": "2026-09-11",
+      "hora": "18:00",
+      "canales": [
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -608,6 +625,20 @@
         "FANPLAY TV",
         "Primera Federación (M53 O125)",
         "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Atletismo",
+      "competicion": "World Athletics Ultimate Championship",
+      "ronda": null,
+      "evento": "Budapest 2026 Jornada 1",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-09-11",
+      "hora": "19:00",
+      "canales": [
+        "M+ Vamos 3 (53)",
+        "M+ Deportes 3 (65)"
       ]
     },
     {
@@ -773,6 +804,19 @@
       "hora": "20:00",
       "canales": [
         "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Copa Sevilla",
+      "ronda": "ATP Challenger Tour",
+      "evento": "H. Rocha vs D. Lajovic",
+      "local": "H. Rocha",
+      "visitante": "D. Lajovic",
+      "fecha": "2026-09-11",
+      "hora": "20:15",
+      "canales": [
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -1418,6 +1462,7 @@
       "hora": "11:05",
       "canales": [
         "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)",
         "DAZN F1 (M70 O104)"
       ]
     },
@@ -1451,7 +1496,7 @@
       "deporte": "Ciclismo",
       "competicion": "Vuelta a España",
       "ronda": null,
-      "evento": "Etapa 20",
+      "evento": "Etapa 20 La Calahorra › Collado del Alguacil (186,8 km)",
       "local": null,
       "visitante": null,
       "fecha": "2026-09-12",
@@ -1488,6 +1533,20 @@
       "hora": "12:00",
       "canales": [
         "OneFootball PPV"
+      ]
+    },
+    {
+      "deporte": "Fútbol Sala",
+      "competicion": "Primera Federación Femenina",
+      "ronda": null,
+      "evento": "Les Corts AE vs Torreblanca Melilla",
+      "local": "Les Corts AE",
+      "visitante": "Torreblanca Melilla",
+      "fecha": "2026-09-12",
+      "hora": "12:00",
+      "canales": [
+        "FutsalRFEF YouTube",
+        "TV Melilla"
       ]
     },
     {
@@ -1534,6 +1593,7 @@
         "BE MAD",
         "Mediaset Infinity",
         "Movistar Plus+ (M7): VER PARTIDO",
+        "DAZN App Gratis (Ver gratis)",
         "DAZN F1 (M70 O104)"
       ]
     },
@@ -1563,6 +1623,19 @@
       "hora": "13:00",
       "canales": [
         "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Sala",
+      "competicion": "Primera Federación Femenina",
+      "ronda": null,
+      "evento": "AD Ceuta FS vs FSF O Castro",
+      "local": "AD Ceuta FS",
+      "visitante": "FSF O Castro",
+      "fecha": "2026-09-12",
+      "hora": "13:00",
+      "canales": [
+        "FutsalRFEF YouTube"
       ]
     },
     {
@@ -1891,6 +1964,7 @@
       "hora": "14:15",
       "canales": [
         "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)",
         "DAZN F1 (M70 O104)"
       ]
     },
@@ -2033,7 +2107,7 @@
       "deporte": "Ciclismo",
       "competicion": "Memorial Marco Pantani",
       "ronda": null,
-      "evento": "UCI Europe Tour",
+      "evento": "UCI Europe Tour Riccione › Cesenatico (191,6 km)",
       "local": null,
       "visitante": null,
       "fecha": "2026-09-12",
@@ -2190,6 +2264,7 @@
         "DAZN (Ver en directo)",
         "Mediaset Infinity",
         "Movistar Plus+ (M7): VER PARTIDO",
+        "DAZN App Gratis (Ver gratis)",
         "Telecinco",
         "DAZN F1 (M70 O104)"
       ]
@@ -2374,6 +2449,19 @@
       "hora": "16:00",
       "canales": [
         "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 9",
+      "evento": "Melilla vs Huétor Vega",
+      "local": "Melilla",
+      "visitante": "Huétor Vega",
+      "fecha": "2026-09-12",
+      "hora": "16:00",
+      "canales": [
+        "TV FootballClub (Acceder)"
       ]
     },
     {
@@ -2665,6 +2753,19 @@
       ]
     },
     {
+      "deporte": "Fútbol Sala",
+      "competicion": "Primera Federación Femenina",
+      "ronda": null,
+      "evento": "Guadalcacin FSF vs Ourense FSF",
+      "local": "Guadalcacin FSF",
+      "visitante": "Ourense FSF",
+      "fecha": "2026-09-12",
+      "hora": "17:00",
+      "canales": [
+        "FutsalRFEF YouTube"
+      ]
+    },
+    {
       "deporte": "Pádel",
       "competicion": "París Major",
       "ronda": null,
@@ -2782,6 +2883,7 @@
       "fecha": "2026-09-12",
       "hora": "17:30",
       "canales": [
+        "FFCV YouTube",
         "La Ocho Mediterráneo"
       ]
     },
@@ -2840,6 +2942,19 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Copa Sevilla",
+      "ronda": null,
+      "evento": "Semifinal 1 ATP Challenger Tour",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-09-12",
+      "hora": "18:00",
+      "canales": [
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
       "deporte": "Balonmano",
       "competicion": "EHF Women's Champions League",
       "ronda": null,
@@ -2863,6 +2978,33 @@
       "hora": "18:00",
       "canales": [
         "EHF TV"
+      ]
+    },
+    {
+      "deporte": "Fútbol Sala",
+      "competicion": "Primera Federación Femenina",
+      "ronda": null,
+      "evento": "Roldán FSF vs AD Sala Zaragoza",
+      "local": "Roldán FSF",
+      "visitante": "AD Sala Zaragoza",
+      "fecha": "2026-09-12",
+      "hora": "18:00",
+      "canales": [
+        "FutsalRFEF YouTube",
+        "Aragón Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol Sala",
+      "competicion": "Primera Federación Femenina",
+      "ronda": null,
+      "evento": "Atlético Torcal FS vs Estrela FS",
+      "local": "Atlético Torcal FS",
+      "visitante": "Estrela FS",
+      "fecha": "2026-09-12",
+      "hora": "18:00",
+      "canales": [
+        "FutsalRFEF YouTube"
       ]
     },
     {
@@ -2915,6 +3057,19 @@
       "hora": "18:00",
       "canales": [
         "ADC EncestaRías YouTube"
+      ]
+    },
+    {
+      "deporte": "Atletismo",
+      "competicion": "World Athletics Ultimate Championship",
+      "ronda": null,
+      "evento": "Budapest 2026 Jornada 2",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-09-12",
+      "hora": "18:00",
+      "canales": [
+        "M+ Deportes 3 (65)"
       ]
     },
     {
@@ -3058,6 +3213,32 @@
       ]
     },
     {
+      "deporte": "Fútbol Sala",
+      "competicion": "Primera Federación Femenina",
+      "ronda": null,
+      "evento": "Poio Pescamar FS vs Rodiles FS",
+      "local": "Poio Pescamar FS",
+      "visitante": "Rodiles FS",
+      "fecha": "2026-09-12",
+      "hora": "18:30",
+      "canales": [
+        "FutsalRFEF YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol Sala",
+      "competicion": "Primera Federación Femenina",
+      "ronda": null,
+      "evento": "FSF Móstoles vs LBTL Alcantarilla FS",
+      "local": "FSF Móstoles",
+      "visitante": "LBTL Alcantarilla FS",
+      "fecha": "2026-09-12",
+      "hora": "18:30",
+      "canales": [
+        "FutsalRFEF YouTube"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Premier League",
       "ronda": null,
@@ -3083,6 +3264,19 @@
       "hora": "18:30",
       "canales": [
         "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "División Honor Juvenil",
+      "ronda": null,
+      "evento": "Huesca Academy vs At. Monzón Academy",
+      "local": "Huesca Academy",
+      "visitante": "At. Monzón Academy",
+      "fecha": "2026-09-12",
+      "hora": "18:30",
+      "canales": [
+        "Aragón Play"
       ]
     },
     {
@@ -3181,7 +3375,8 @@
       "fecha": "2026-09-12",
       "hora": "19:00",
       "canales": [
-        "La 8 Valladolid"
+        "La 8 Valladolid",
+        "CMMPlay (Castilla-LM)"
       ]
     },
     {
@@ -3241,6 +3436,19 @@
         "M+ Vamos 3 (53)",
         "DAZN 2 (M73)",
         "DAZN 2 Bar (M149)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 18",
+      "evento": "Manchego CR vs Villacañas",
+      "local": "Manchego CR",
+      "visitante": "Villacañas",
+      "fecha": "2026-09-12",
+      "hora": "19:00",
+      "canales": [
+        "CMMPlay (Castilla-LM)"
       ]
     },
     {
@@ -3506,6 +3714,19 @@
       "hora": "20:00",
       "canales": [
         "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Copa Sevilla",
+      "ronda": null,
+      "evento": "Semifinal 2 ATP Challenger Tour",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-09-12",
+      "hora": "20:00",
+      "canales": [
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -4429,6 +4650,7 @@
       "hora": "09:55",
       "canales": [
         "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)",
         "DAZN F1 (M70 O104)"
       ]
     },
@@ -4575,6 +4797,7 @@
       "hora": "11:25",
       "canales": [
         "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)",
         "DAZN F1 (M70 O104)"
       ]
     },
@@ -4761,6 +4984,19 @@
     {
       "deporte": "Fútbol",
       "competicion": "Segunda Federación",
+      "ronda": "Grupo 5",
+      "evento": "Calvo Sotelo Puertollano vs CD Atlético Paso",
+      "local": "Calvo Sotelo Puertollano",
+      "visitante": "CD Atlético Paso",
+      "fecha": "2026-09-13",
+      "hora": "12:00",
+      "canales": [
+        "CMMPlay (Castilla-LM)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
       "ronda": "Grupo 2",
       "evento": "UD Logroñés B vs Barcelona Atlétic",
       "local": "UD Logroñés B",
@@ -4769,6 +5005,7 @@
       "hora": "12:00",
       "canales": [
         "TV FootballClub (Acceder)",
+        "FC Barcelona PPV YouTube",
         "Esport3 (Cataluña)"
       ]
     },
@@ -4841,6 +5078,45 @@
       "hora": "12:00",
       "canales": [
         "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 18",
+      "evento": "AD Illescas vs Socuéllamos",
+      "local": "AD Illescas",
+      "visitante": "Socuéllamos",
+      "fecha": "2026-09-13",
+      "hora": "12:00",
+      "canales": [
+        "CMMPlay (Castilla-LM)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 8",
+      "evento": "CD Villaralbo vs Santa Marta",
+      "local": "CD Villaralbo",
+      "visitante": "Santa Marta",
+      "fecha": "2026-09-13",
+      "hora": "12:00",
+      "canales": [
+        "La 7 (Castilla y León)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "División Honor Juvenil",
+      "ronda": null,
+      "evento": "CF Talavera Academy vs Real Madrid Academy",
+      "local": "CF Talavera Academy",
+      "visitante": "Real Madrid Academy",
+      "fecha": "2026-09-13",
+      "hora": "12:00",
+      "canales": [
+        "Real Madrid TV"
       ]
     },
     {
@@ -5164,7 +5440,7 @@
       "deporte": "Ciclismo",
       "competicion": "Faun Tour Femenino",
       "ronda": null,
-      "evento": "Etapa 4",
+      "evento": "Etapa 4 Peyrus › Peyrus (134,7 km)",
       "local": null,
       "visitante": null,
       "fecha": "2026-09-13",
@@ -5251,6 +5527,7 @@
         "DAZN (Ver en directo)",
         "Mediaset Infinity",
         "Movistar Plus+ (M7): VER PARTIDO",
+        "DAZN App Gratis (Ver gratis)",
         "Telecinco",
         "DAZN F1 (M70 O104)"
       ]
@@ -5640,97 +5917,6 @@
       ]
     },
     {
-      "deporte": "Fútbol Sala",
-      "competicion": "Primera Federación Femenina",
-      "ronda": null,
-      "evento": "Poio Pescamar FS vs Rodiles FS",
-      "local": "Poio Pescamar FS",
-      "visitante": "Rodiles FS",
-      "fecha": "2026-09-13",
-      "hora": "17:00",
-      "canales": [
-        "FutsalRFEF YouTube"
-      ]
-    },
-    {
-      "deporte": "Fútbol Sala",
-      "competicion": "Primera Federación Femenina",
-      "ronda": null,
-      "evento": "Roldán FSF vs AD Sala Zaragoza",
-      "local": "Roldán FSF",
-      "visitante": "AD Sala Zaragoza",
-      "fecha": "2026-09-13",
-      "hora": "17:00",
-      "canales": [
-        "FutsalRFEF YouTube"
-      ]
-    },
-    {
-      "deporte": "Fútbol Sala",
-      "competicion": "Primera Federación Femenina",
-      "ronda": null,
-      "evento": "Les Corts AE vs Torreblanca Melilla",
-      "local": "Les Corts AE",
-      "visitante": "Torreblanca Melilla",
-      "fecha": "2026-09-13",
-      "hora": "17:00",
-      "canales": [
-        "FutsalRFEF YouTube"
-      ]
-    },
-    {
-      "deporte": "Fútbol Sala",
-      "competicion": "Primera Federación Femenina",
-      "ronda": null,
-      "evento": "Atlético Torcal FS vs Estrela FS",
-      "local": "Atlético Torcal FS",
-      "visitante": "Estrela FS",
-      "fecha": "2026-09-13",
-      "hora": "17:00",
-      "canales": [
-        "FutsalRFEF YouTube"
-      ]
-    },
-    {
-      "deporte": "Fútbol Sala",
-      "competicion": "Primera Federación Femenina",
-      "ronda": null,
-      "evento": "FSF Móstoles vs LBTL Alcantarilla FS",
-      "local": "FSF Móstoles",
-      "visitante": "LBTL Alcantarilla FS",
-      "fecha": "2026-09-13",
-      "hora": "17:00",
-      "canales": [
-        "FutsalRFEF YouTube"
-      ]
-    },
-    {
-      "deporte": "Fútbol Sala",
-      "competicion": "Primera Federación Femenina",
-      "ronda": null,
-      "evento": "Guadalcacin FSF vs Ourense FSF",
-      "local": "Guadalcacin FSF",
-      "visitante": "Ourense FSF",
-      "fecha": "2026-09-13",
-      "hora": "17:00",
-      "canales": [
-        "FutsalRFEF YouTube"
-      ]
-    },
-    {
-      "deporte": "Fútbol Sala",
-      "competicion": "Primera Federación Femenina",
-      "ronda": null,
-      "evento": "AD Ceuta FS vs FSF O Castro",
-      "local": "AD Ceuta FS",
-      "visitante": "FSF O Castro",
-      "fecha": "2026-09-13",
-      "hora": "17:00",
-      "canales": [
-        "FutsalRFEF YouTube"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "Segunda Federación",
       "ronda": "Grupo 1",
@@ -5741,6 +5927,19 @@
       "hora": "17:00",
       "canales": [
         "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
+      "ronda": "Grupo 5",
+      "evento": "CF Talavera vs Real Madrid C",
+      "local": "CF Talavera",
+      "visitante": "Real Madrid C",
+      "fecha": "2026-09-13",
+      "hora": "17:00",
+      "canales": [
+        "CMMPlay (Castilla-LM)"
       ]
     },
     {
@@ -5795,7 +5994,22 @@
       "fecha": "2026-09-13",
       "hora": "17:00",
       "canales": [
-        "TV FootballClub (Acceder)"
+        "TV FootballClub (Acceder)",
+        "Betevé Web",
+        "Twitch btvesports"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "División Honor Juvenil",
+      "ronda": null,
+      "evento": "UD Montecarlo vs FC Barcelona Academy",
+      "local": "UD Montecarlo",
+      "visitante": "FC Barcelona Academy",
+      "fecha": "2026-09-13",
+      "hora": "17:00",
+      "canales": [
+        "Aragón Play"
       ]
     },
     {
@@ -5939,6 +6153,19 @@
       "deporte": "Fútbol",
       "competicion": "Segunda Federación",
       "ronda": "Grupo 5",
+      "evento": "Guadalajara vs RSD Alcalá",
+      "local": "Guadalajara",
+      "visitante": "RSD Alcalá",
+      "fecha": "2026-09-13",
+      "hora": "18:00",
+      "canales": [
+        "CMMPlay (Castilla-LM)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
+      "ronda": "Grupo 5",
       "evento": "Navalcarnero vs Real Ávila",
       "local": "Navalcarnero",
       "visitante": "Real Ávila",
@@ -5959,6 +6186,20 @@
       "hora": "18:00",
       "canales": [
         "Web Directo"
+      ]
+    },
+    {
+      "deporte": "Atletismo",
+      "competicion": "World Athletics Ultimate Championship",
+      "ronda": null,
+      "evento": "Budapest 2026 Jornada 3",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-09-13",
+      "hora": "18:00",
+      "canales": [
+        "M+ Vamos 3 (53)",
+        "M+ Deportes 3 (65)"
       ]
     },
     {
@@ -6002,6 +6243,19 @@
       "hora": "18:00",
       "canales": [
         "La Xarxa+"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 10",
+      "evento": "Cádiz Mirandilla vs Dos Hermanas CF 1971",
+      "local": "Cádiz Mirandilla",
+      "visitante": "Dos Hermanas CF 1971",
+      "fecha": "2026-09-13",
+      "hora": "18:00",
+      "canales": [
+        "Plaiz"
       ]
     },
     {
@@ -6123,6 +6377,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 9",
+      "evento": "Cantoria 2017 CF vs At. Marbella Bpié.",
+      "local": "Cantoria 2017 CF",
+      "visitante": "At. Marbella Bpié.",
+      "fecha": "2026-09-13",
+      "hora": "18:30",
+      "canales": [
+        "TV FootballClub (Acceder)"
+      ]
+    },
+    {
       "deporte": "Fútbol Americano",
       "competicion": "NFL",
       "ronda": "Liga Regular",
@@ -6227,20 +6494,6 @@
       "hora": "19:00",
       "canales": [
         "DAZN (Ver en directo)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "US Open",
-      "ronda": null,
-      "evento": "Final Grand Slam",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-09-13",
-      "hora": "19:00",
-      "canales": [
-        "Movistar Plus+ (M7): VER PARTIDO",
-        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -6376,6 +6629,20 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Copa Sevilla",
+      "ronda": null,
+      "evento": "Final ATP Challenger Tour",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-09-13",
+      "hora": "19:30",
+      "canales": [
+        "Canal Sur Más",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Liga F",
       "ronda": null,
@@ -6432,6 +6699,20 @@
         "M+ Vamos (8 y 50)",
         "M+ #Vamos Bar (307)",
         "M+ Baloncesto (M66)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open",
+      "ronda": null,
+      "evento": "Final Grand Slam",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-09-13",
+      "hora": "20:00",
+      "canales": [
+        "Movistar Plus+ (M7): VER PARTIDO",
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -6555,7 +6836,7 @@
       "deporte": "Ciclismo",
       "competicion": "GP Montreal",
       "ronda": null,
-      "evento": "UCI World Tour Montréal › Montréal (214,4 km)",
+      "evento": "UCI World Tour",
       "local": null,
       "visitante": null,
       "fecha": "2026-09-13",
