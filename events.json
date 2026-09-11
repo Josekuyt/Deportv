@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-09-11T03:05:59",
+    "generado": "2026-09-11T12:37:11",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 487
+    "total_eventos": 515
   },
   "eventos": [
     {
@@ -27,7 +27,7 @@
       "local": "A. Sabalenka",
       "visitante": "J. Pegula",
       "fecha": "2026-09-11",
-      "hora": "01:00",
+      "hora": "01:15",
       "canales": [
         "Movistar Plus+ (M7): VER PARTIDO",
         "M+ Deportes 2 (64)"
@@ -60,19 +60,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "US Open WTA",
-      "ronda": "Grand Slam",
-      "evento": "C. Gauff vs E. Rybakina",
-      "local": "C. Gauff",
-      "visitante": "E. Rybakina",
-      "fecha": "2026-09-11",
-      "hora": "02:30",
-      "canales": [
-        "M+ Deportes 2 (64)"
-      ]
-    },
-    {
       "deporte": "Fútbol Americano",
       "competicion": "NFL",
       "ronda": "Liga Regular",
@@ -84,6 +71,19 @@
       "canales": [
         "DAZN (Ver en directo)",
         "Netflix"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open WTA",
+      "ronda": "Grand Slam",
+      "evento": "C. Gauff vs E. Rybakina",
+      "local": "C. Gauff",
+      "visitante": "E. Rybakina",
+      "fecha": "2026-09-11",
+      "hora": "03:00",
+      "canales": [
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -170,7 +170,7 @@
       "deporte": "Ciclismo",
       "competicion": "Vuelta a España",
       "ronda": null,
-      "evento": "Etapa 19 Vélez-Málaga › Peñas Blancas. Estepona (210,8 km)",
+      "evento": "Etapa 19",
       "local": null,
       "visitante": null,
       "fecha": "2026-09-11",
@@ -582,19 +582,6 @@
       ]
     },
     {
-      "deporte": "Baloncesto",
-      "competicion": "Amistoso",
-      "ronda": null,
-      "evento": "UCAM Murcia CB vs Boca Juniors Básquet",
-      "local": "UCAM Murcia CB",
-      "visitante": "Boca Juniors Básquet",
-      "fecha": "2026-09-11",
-      "hora": "19:00",
-      "canales": [
-        "Canal por confirmar"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "3. Liga",
       "ronda": null,
@@ -735,6 +722,32 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Campeonato Femenino",
+      "ronda": null,
+      "evento": "Belgrano Femenino vs Ferro Carril Oeste Femenino",
+      "local": "Belgrano Femenino",
+      "visitante": "Ferro Carril Oeste Femenino",
+      "fecha": "2026-09-11",
+      "hora": "20:00",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Campeonato Femenino",
+      "ronda": null,
+      "evento": "Independiente Femenino vs Lanús",
+      "local": "Independiente Femenino",
+      "visitante": "Lanús",
+      "fecha": "2026-09-11",
+      "hora": "20:00",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
       "deporte": "Pádel",
       "competicion": "París Major",
       "ronda": null,
@@ -763,16 +776,16 @@
       ]
     },
     {
-      "deporte": "Baloncesto",
-      "competicion": "Amistoso",
+      "deporte": "Fútbol",
+      "competicion": "Campeonato Femenino",
       "ronda": null,
-      "evento": "San Pablo Burgos vs Bilbao Basket",
-      "local": "San Pablo Burgos",
-      "visitante": "Bilbao Basket",
+      "evento": "Banfield Femenino vs San Lorenzo Femenino",
+      "local": "Banfield Femenino",
+      "visitante": "San Lorenzo Femenino",
       "fecha": "2026-09-11",
       "hora": "20:30",
       "canales": [
-        "Canal por confirmar"
+        "LPF Play"
       ]
     },
     {
@@ -1060,7 +1073,8 @@
       "fecha": "2026-09-11",
       "hora": "22:00",
       "canales": [
-        "Fanatiz (Ver en directo)"
+        "Fanatiz (Ver en directo)",
+        "L1 Max YouTube"
       ]
     },
     {
@@ -1155,6 +1169,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Liga Colombiana",
+      "ronda": null,
+      "evento": "Jaguares FC vs Fortaleza",
+      "local": "Jaguares FC",
+      "visitante": "Fortaleza",
+      "fecha": "2026-09-12",
+      "hora": "01:15",
+      "canales": [
+        "RCN Nuestra Tele"
+      ]
+    },
+    {
       "deporte": "Fútbol Sala",
       "competicion": "Primera División Futsal AFA",
       "ronda": null,
@@ -1191,6 +1218,19 @@
       "hora": "02:00",
       "canales": [
         "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Uruguay",
+      "ronda": null,
+      "evento": "Oriental vs Miramar Misiones",
+      "local": "Oriental",
+      "visitante": "Miramar Misiones",
+      "fecha": "2026-09-12",
+      "hora": "02:00",
+      "canales": [
+        "Antel TV Internacional"
       ]
     },
     {
@@ -1269,6 +1309,19 @@
       "hora": "03:00",
       "canales": [
         "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Colombiana",
+      "ronda": null,
+      "evento": "Santa Fe vs Deportes Tolima",
+      "local": "Santa Fe",
+      "visitante": "Deportes Tolima",
+      "fecha": "2026-09-12",
+      "hora": "03:30",
+      "canales": [
+        "RCN Nuestra Tele"
       ]
     },
     {
@@ -1369,10 +1422,36 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "J1 League",
+      "ronda": null,
+      "evento": "Gamba Osaka vs FC Tokyo",
+      "local": "Gamba Osaka",
+      "visitante": "FC Tokyo",
+      "fecha": "2026-09-12",
+      "hora": "12:00",
+      "canales": [
+        "J.LEAGUE International YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "J1 League",
+      "ronda": null,
+      "evento": "Machida Zelvia vs Yokohama F. Marinos",
+      "local": "Machida Zelvia",
+      "visitante": "Yokohama F. Marinos",
+      "fecha": "2026-09-12",
+      "hora": "12:00",
+      "canales": [
+        "J.LEAGUE International YouTube"
+      ]
+    },
+    {
       "deporte": "Ciclismo",
       "competicion": "Vuelta a España",
       "ronda": null,
-      "evento": "Etapa 20 La Calahorra › Collado del Alguacil (186,8 km)",
+      "evento": "Etapa 20",
       "local": null,
       "visitante": null,
       "fecha": "2026-09-12",
@@ -2220,6 +2299,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Campeonato Femenino",
+      "ronda": null,
+      "evento": "CA Huracán Femenino vs Boca Juniors Femenino",
+      "local": "CA Huracán Femenino",
+      "visitante": "Boca Juniors Femenino",
+      "fecha": "2026-09-12",
+      "hora": "16:00",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
       "deporte": "Balonmano",
       "competicion": "EHF Women's Champions League",
       "ronda": null,
@@ -2365,11 +2457,10 @@
       "fecha": "2026-09-12",
       "hora": "16:15",
       "canales": [
-        "M+ LALIGA (M54 O110)",
-        "M+ LALIGA HDR (M440 O111)",
         "DAZN (Ver en directo)",
         "DAZN App Gratis (Ver gratis)",
         "M+ LALIGA 2 (M57 O112)",
+        "M+ LALIGA HDR 2 (M441 O122)",
         "LaLiga TV Bar"
       ]
     },
@@ -2549,6 +2640,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Segunda Uruguay",
+      "ronda": null,
+      "evento": "Uruguay Montevideo vs Tacuarembó",
+      "local": "Uruguay Montevideo",
+      "visitante": "Tacuarembó",
+      "fecha": "2026-09-12",
+      "hora": "17:00",
+      "canales": [
+        "Antel TV Internacional"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Admiral Bundesliga",
       "ronda": null,
       "evento": "SCR Altach vs Grazer AK 1902",
@@ -2666,6 +2770,19 @@
       "canales": [
         "TV FootballClub (Acceder)",
         "Aragón Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 6",
+      "evento": "CD Utiel vs CD Acero",
+      "local": "CD Utiel",
+      "visitante": "CD Acero",
+      "fecha": "2026-09-12",
+      "hora": "17:30",
+      "canales": [
+        "La Ocho Mediterráneo"
       ]
     },
     {
@@ -3043,6 +3160,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Campeonato Femenino",
+      "ronda": null,
+      "evento": "Gimnasia LP Femenino vs Racing Avellaneda Femenino",
+      "local": "Gimnasia LP Femenino",
+      "visitante": "Racing Avellaneda Femenino",
+      "fecha": "2026-09-12",
+      "hora": "19:00",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Segunda Federación",
       "ronda": "Grupo 5",
       "evento": "Atlético Albacete vs At. Tordesillas",
@@ -3190,7 +3320,8 @@
       "canales": [
         "DAZN (Ver en directo)",
         "M+ Baloncesto (M66)",
-        "La 1 TVE",
+        "M+ Vamos (8 y 50)",
+        "M+ #Vamos Bar (307)",
         "Teledeporte",
         "RTVE Play"
       ]
@@ -3349,6 +3480,32 @@
       "hora": "20:00",
       "canales": [
         "Zapping Internacional"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Uruguay",
+      "ronda": null,
+      "evento": "Huracán FC vs Plaza Colonia",
+      "local": "Huracán FC",
+      "visitante": "Plaza Colonia",
+      "fecha": "2026-09-12",
+      "hora": "20:00",
+      "canales": [
+        "Antel TV Internacional"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Campeonato Femenino",
+      "ronda": null,
+      "evento": "Unión Santa Fe Femenino vs San Luis FC",
+      "local": "Unión Santa Fe Femenino",
+      "visitante": "San Luis FC",
+      "fecha": "2026-09-12",
+      "hora": "20:00",
+      "canales": [
+        "LPF Play"
       ]
     },
     {
@@ -3652,21 +3809,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "US Open WTA",
-      "ronda": null,
-      "evento": "Final Grand Slam",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-09-12",
-      "hora": "21:00",
-      "canales": [
-        "M+ Vamos (8 y 50)",
-        "M+ #Vamos Bar (307)",
-        "M+ Deportes 2 (64)"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "Premier League",
       "ronda": null,
@@ -3737,6 +3879,34 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Liga Futve",
+      "ronda": null,
+      "evento": "Anzoátegui FC vs Metropolitanos",
+      "local": "Anzoátegui FC",
+      "visitante": "Metropolitanos",
+      "fecha": "2026-09-12",
+      "hora": "22:00",
+      "canales": [
+        "LigaFUTVE App"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open WTA",
+      "ronda": "Grand Slam",
+      "evento": "A. Sabalenka vs E. Rybakina",
+      "local": "A. Sabalenka",
+      "visitante": "E. Rybakina",
+      "fecha": "2026-09-12",
+      "hora": "22:00",
+      "canales": [
+        "M+ Vamos (8 y 50)",
+        "M+ #Vamos Bar (307)",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Serie A Brasil",
       "ronda": null,
       "evento": "Chapecoense vs Internacional",
@@ -3791,6 +3961,32 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Segunda Uruguay",
+      "ronda": null,
+      "evento": "Paysandú FC vs La Luz FC",
+      "local": "Paysandú FC",
+      "visitante": "La Luz FC",
+      "fecha": "2026-09-12",
+      "hora": "23:00",
+      "canales": [
+        "Antel TV Internacional"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Futve",
+      "ronda": null,
+      "evento": "Estudiantes Mérida vs Deportivo Táchira",
+      "local": "Estudiantes Mérida",
+      "visitante": "Deportivo Táchira",
+      "fecha": "2026-09-12",
+      "hora": "23:00",
+      "canales": [
+        "LigaFUTVE App"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Liga Pro Ecuador",
       "ronda": null,
       "evento": "Guayaquil City vs Mushuc Runa",
@@ -3800,6 +3996,19 @@
       "hora": "23:30",
       "canales": [
         "Zapping Internacional"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Futve",
+      "ronda": null,
+      "evento": "La Guaira vs UCV",
+      "local": "La Guaira",
+      "visitante": "UCV",
+      "fecha": "2026-09-12",
+      "hora": "23:30",
+      "canales": [
+        "LigaFUTVE App"
       ]
     },
     {
@@ -3854,6 +4063,19 @@
       "hora": "01:00",
       "canales": [
         "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Futve",
+      "ronda": null,
+      "evento": "Puerto Cabello vs Carabobo",
+      "local": "Puerto Cabello",
+      "visitante": "Carabobo",
+      "fecha": "2026-09-13",
+      "hora": "01:00",
+      "canales": [
+        "LigaFUTVE App"
       ]
     },
     {
@@ -3997,6 +4219,19 @@
       "hora": "02:00",
       "canales": [
         "Zapping Internacional"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Uruguay",
+      "ronda": null,
+      "evento": "Colón FC vs CA Rentistas",
+      "local": "Colón FC",
+      "visitante": "CA Rentistas",
+      "fecha": "2026-09-13",
+      "hora": "02:00",
+      "canales": [
+        "Antel TV Internacional"
       ]
     },
     {
@@ -4224,6 +4459,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Bundesliga Sub-19",
+      "ronda": null,
+      "evento": "Oberhausen Academy vs Schalke 04 Academy",
+      "local": "Oberhausen Academy",
+      "visitante": "Schalke 04 Academy",
+      "fecha": "2026-09-13",
+      "hora": "11:00",
+      "canales": [
+        "German Football YouTube"
+      ]
+    },
+    {
       "deporte": "Motociclismo",
       "competicion": "Moto3",
       "ronda": null,
@@ -4288,6 +4536,19 @@
       "hora": "11:00",
       "canales": [
         "Web Directo"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Nacional Juvenil",
+      "ronda": "Grupo 14 (Andalucía)",
+      "evento": "Real Betis Academy vs At. Sanluqueño Academy",
+      "local": "Real Betis Academy",
+      "visitante": "At. Sanluqueño Academy",
+      "fecha": "2026-09-13",
+      "hora": "11:00",
+      "canales": [
+        "Real Betis TV"
       ]
     },
     {
@@ -5021,6 +5282,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Campeonato Femenino",
+      "ronda": null,
+      "evento": "SAT Femenino vs Newell's Old Boys Femenino",
+      "local": "SAT Femenino",
+      "visitante": "Newell's Old Boys Femenino",
+      "fecha": "2026-09-13",
+      "hora": "15:00",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
       "deporte": "Ciclismo",
       "competicion": "Trofeo Matteotti",
       "ronda": null,
@@ -5552,6 +5826,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Segunda Uruguay",
+      "ronda": null,
+      "evento": "River Plate M. vs CA Fénix",
+      "local": "River Plate M.",
+      "visitante": "CA Fénix",
+      "fecha": "2026-09-13",
+      "hora": "17:30",
+      "canales": [
+        "Antel TV Internacional"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Segunda Federación",
       "ronda": "Grupo 5",
       "evento": "Numancia vs At. Madrid C",
@@ -5574,6 +5861,19 @@
       "hora": "17:30",
       "canales": [
         "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 18",
+      "evento": "CD Torrijos vs Tarancón",
+      "local": "CD Torrijos",
+      "visitante": "Tarancón",
+      "fecha": "2026-09-13",
+      "hora": "17:30",
+      "canales": [
+        "Web Directo"
       ]
     },
     {
@@ -5646,6 +5946,19 @@
       "hora": "18:00",
       "canales": [
         "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
+      "ronda": "Grupo 5",
+      "evento": "G. Segoviana vs Conquense",
+      "local": "G. Segoviana",
+      "visitante": "Conquense",
+      "fecha": "2026-09-13",
+      "hora": "18:00",
+      "canales": [
+        "Web Directo"
       ]
     },
     {
@@ -5759,9 +6072,8 @@
       "fecha": "2026-09-13",
       "hora": "18:30",
       "canales": [
-        "M+ LALIGA (M54 O110)",
-        "M+ LALIGA HDR (M440 O111)",
         "M+ LALIGA 2 (M57 O112)",
+        "M+ LALIGA HDR 2 (M441 O122)",
         "LaLiga TV Bar"
       ]
     },
@@ -5874,7 +6186,8 @@
       "fecha": "2026-09-13",
       "hora": "19:00",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "CayoTV YouTube (ver)"
       ]
     },
     {
@@ -5992,7 +6305,9 @@
       "fecha": "2026-09-13",
       "hora": "19:00",
       "canales": [
-        "TV FootballClub (Acceder)"
+        "TV FootballClub (Acceder)",
+        "Real Betis Balompié YouTube",
+        "Real Betis TV"
       ]
     },
     {
@@ -6292,6 +6607,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Segunda Uruguay",
+      "ronda": null,
+      "evento": "CA Atenas vs Cerrito",
+      "local": "CA Atenas",
+      "visitante": "Cerrito",
+      "fecha": "2026-09-13",
+      "hora": "20:30",
+      "canales": [
+        "Antel TV Internacional"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Primera Federación",
       "ronda": "Grupo 2",
       "evento": "Atlético Madrileño vs Real Murcia",
@@ -6482,6 +6810,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Liga Futve",
+      "ronda": null,
+      "evento": "Rayo Zuliano vs Portuguesa FC",
+      "local": "Rayo Zuliano",
+      "visitante": "Portuguesa FC",
+      "fecha": "2026-09-13",
+      "hora": "21:30",
+      "canales": [
+        "LigaFUTVE App"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Liga portuguesa",
       "ronda": null,
       "evento": "FC Famalicão vs Sporting CP",
@@ -6491,6 +6832,19 @@
       "hora": "21:30",
       "canales": [
         "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Futve",
+      "ronda": null,
+      "evento": "Zamora FC vs Trujillanos",
+      "local": "Zamora FC",
+      "visitante": "Trujillanos",
+      "fecha": "2026-09-13",
+      "hora": "22:00",
+      "canales": [
+        "LigaFUTVE App"
       ]
     },
     {
@@ -6649,6 +7003,19 @@
       "hora": "23:30",
       "canales": [
         "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Futve",
+      "ronda": null,
+      "evento": "Caracas FC vs Monagas SC",
+      "local": "Caracas FC",
+      "visitante": "Monagas SC",
+      "fecha": "2026-09-13",
+      "hora": "23:30",
+      "canales": [
+        "LigaFUTVE App"
       ]
     },
     {
