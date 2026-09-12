@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-09-12T03:12:42",
+    "generado": "2026-09-12T11:58:15",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 496
+    "total_eventos": 504
   },
   "eventos": [
     {
@@ -43,19 +43,6 @@
       "hora": "00:30",
       "canales": [
         "NWSL+"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "US Open",
-      "ronda": "Grand Slam",
-      "evento": "F. Tiafoe vs B. Shelton",
-      "local": "F. Tiafoe",
-      "visitante": "B. Shelton",
-      "fecha": "2026-09-12",
-      "hora": "01:00",
-      "canales": [
-        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -121,6 +108,19 @@
       "hora": "01:30",
       "canales": [
         "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "US Open",
+      "ronda": "Grand Slam",
+      "evento": "F. Tiafoe vs B. Shelton",
+      "local": "F. Tiafoe",
+      "visitante": "B. Shelton",
+      "fecha": "2026-09-12",
+      "hora": "01:45",
+      "canales": [
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -1921,10 +1921,10 @@
     {
       "deporte": "Baloncesto",
       "competicion": "Torneo EncestaRías",
-      "ronda": null,
-      "evento": "3er Puesto",
-      "local": null,
-      "visitante": null,
+      "ronda": "3er Puesto",
+      "evento": "Monbus Obradoiro vs ALBA Berlin",
+      "local": "Monbus Obradoiro",
+      "visitante": "ALBA Berlin",
       "fecha": "2026-09-12",
       "hora": "18:00",
       "canales": [
@@ -2011,19 +2011,6 @@
       "canales": [
         "DAZN (Ver en directo)",
         "Esport3 (Cataluña)"
-      ]
-    },
-    {
-      "deporte": "Baloncesto",
-      "competicion": "Amistoso",
-      "ronda": null,
-      "evento": "Bilbao Basket vs Básquet Coruña",
-      "local": "Bilbao Basket",
-      "visitante": "Básquet Coruña",
-      "fecha": "2026-09-12",
-      "hora": "18:30",
-      "canales": [
-        "Canal por confirmar"
       ]
     },
     {
@@ -2698,10 +2685,10 @@
     {
       "deporte": "Tenis",
       "competicion": "Copa Sevilla",
-      "ronda": null,
-      "evento": "Semifinal 2 ATP Challenger Tour",
-      "local": null,
-      "visitante": null,
+      "ronda": "ATP Challenger Tour",
+      "evento": "M. Alcalá Gurri vs D. Lajovic",
+      "local": "M. Alcalá Gurri",
+      "visitante": "D. Lajovic",
       "fecha": "2026-09-12",
       "hora": "20:30",
       "canales": [
@@ -2711,10 +2698,10 @@
     {
       "deporte": "Baloncesto",
       "competicion": "Torneo EncestaRías",
-      "ronda": null,
-      "evento": "Final",
-      "local": null,
-      "visitante": null,
+      "ronda": "Final",
+      "evento": "Valencia Basket vs Baskonia",
+      "local": "Valencia Basket",
+      "visitante": "Baskonia",
       "fecha": "2026-09-12",
       "hora": "20:30",
       "canales": [
@@ -3039,6 +3026,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Torneo BetPlay DIMAYOR",
+      "ronda": null,
+      "evento": "Envigado vs Leones",
+      "local": "Envigado",
+      "visitante": "Leones",
+      "fecha": "2026-09-12",
+      "hora": "22:30",
+      "canales": [
+        "Win Sports TV YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Primera División Argentina",
       "ronda": "Torneo Clausura",
       "evento": "Atlético Tucumán vs River Plate",
@@ -3182,6 +3182,32 @@
       "hora": "01:00",
       "canales": [
         "LigaFUTVE App"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Torneo BetPlay DIMAYOR",
+      "ronda": null,
+      "evento": "Real Soacha Cundinamarca vs Unión Magdalena",
+      "local": "Real Soacha Cundinamarca",
+      "visitante": "Unión Magdalena",
+      "fecha": "2026-09-13",
+      "hora": "01:00",
+      "canales": [
+        "Win Sports TV YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Torneo BetPlay DIMAYOR",
+      "ronda": null,
+      "evento": "Internacional FC Palmira vs Real Cartagena",
+      "local": "Internacional FC Palmira",
+      "visitante": "Real Cartagena",
+      "fecha": "2026-09-13",
+      "hora": "01:00",
+      "canales": [
+        "Win Sports TV YouTube"
       ]
     },
     {
@@ -4199,7 +4225,7 @@
       "deporte": "Automovilismo",
       "competicion": "WRC Rally",
       "ronda": null,
-      "evento": "Rally de Chile SS13 › SS16",
+      "evento": "Rally de Chile",
       "local": null,
       "visitante": null,
       "fecha": "2026-09-13",
@@ -5620,10 +5646,10 @@
     {
       "deporte": "Tenis",
       "competicion": "US Open",
-      "ronda": null,
-      "evento": "Final Grand Slam",
-      "local": null,
-      "visitante": null,
+      "ronda": "Grand Slam",
+      "evento": "A. Zverev vs B. Shelton",
+      "local": "A. Zverev",
+      "visitante": "B. Shelton",
       "fecha": "2026-09-13",
       "hora": "20:00",
       "canales": [
@@ -5804,6 +5830,45 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Torneo Federal A",
+      "ronda": null,
+      "evento": "Cipolletti vs CA Alvarado",
+      "local": "Cipolletti",
+      "visitante": "CA Alvarado",
+      "fecha": "2026-09-13",
+      "hora": "20:30",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Torneo Federal A",
+      "ronda": null,
+      "evento": "CA Germinal vs Guillermo Brown",
+      "local": "CA Germinal",
+      "visitante": "Guillermo Brown",
+      "fecha": "2026-09-13",
+      "hora": "20:30",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Torneo Federal A",
+      "ronda": null,
+      "evento": "Defensores de Vilela vs Independiente Chivilcoy",
+      "local": "Defensores de Vilela",
+      "visitante": "Independiente Chivilcoy",
+      "fecha": "2026-09-13",
+      "hora": "20:30",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Segunda Uruguay",
       "ronda": null,
       "evento": "CA Atenas vs Cerrito",
@@ -5891,6 +5956,19 @@
       "evento": "Racing Córdoba vs Deportivo Morón",
       "local": "Racing Córdoba",
       "visitante": "Deportivo Morón",
+      "fecha": "2026-09-13",
+      "hora": "21:00",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Torneo Federal A",
+      "ronda": null,
+      "evento": "San Martín Formosa vs Sarmiento La Banda",
+      "local": "San Martín Formosa",
+      "visitante": "Sarmiento La Banda",
       "fecha": "2026-09-13",
       "hora": "21:00",
       "canales": [
@@ -6152,6 +6230,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Torneo BetPlay DIMAYOR",
+      "ronda": null,
+      "evento": "Boca Juniors Cali vs Real Santander",
+      "local": "Boca Juniors Cali",
+      "visitante": "Real Santander",
+      "fecha": "2026-09-13",
+      "hora": "22:30",
+      "canales": [
+        "Win Sports TV YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Serie A Brasil",
       "ronda": null,
       "evento": "CR Flamengo vs Corinthians",
@@ -6320,6 +6411,19 @@
       "hora": "01:00",
       "canales": [
         "Zapping Internacional"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Torneo BetPlay DIMAYOR",
+      "ronda": null,
+      "evento": "Quindio vs Patriotas",
+      "local": "Quindio",
+      "visitante": "Patriotas",
+      "fecha": "2026-09-14",
+      "hora": "01:00",
+      "canales": [
+        "Win Sports TV YouTube"
       ]
     },
     {
