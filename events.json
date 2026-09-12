@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-09-12T11:58:15",
+    "generado": "2026-09-12T18:05:57",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 504
+    "total_eventos": 512
   },
   "eventos": [
     {
@@ -1477,9 +1477,7 @@
       "hora": "16:30",
       "canales": [
         "DAZN (Ver en directo)",
-        "M+ Baloncesto (M66)",
-        "Teledeporte",
-        "RTVE Play"
+        "M+ Baloncesto (M66)"
       ]
     },
     {
@@ -1788,6 +1786,32 @@
       ]
     },
     {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Purdue vs Wake Forest",
+      "local": "Purdue",
+      "visitante": "Wake Forest",
+      "fecha": "2026-09-12",
+      "hora": "18:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Michigan Athletics vs Oklahoma Football",
+      "local": "Michigan Athletics",
+      "visitante": "Oklahoma Football",
+      "fecha": "2026-09-12",
+      "hora": "18:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
       "deporte": "Tenis",
       "competicion": "US Open",
       "ronda": null,
@@ -1941,6 +1965,7 @@
       "fecha": "2026-09-12",
       "hora": "18:00",
       "canales": [
+        "M+ Vamos 2 (51)",
         "M+ Deportes 3 (65)"
       ]
     },
@@ -2945,6 +2970,45 @@
       ]
     },
     {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Washington Athletics vs Utah State",
+      "local": "Washington Athletics",
+      "visitante": "Utah State",
+      "fecha": "2026-09-12",
+      "hora": "21:30",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Minnesota vs Mississippi State",
+      "local": "Minnesota",
+      "visitante": "Mississippi State",
+      "fecha": "2026-09-12",
+      "hora": "21:30",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Illinois vs Duke Athletics",
+      "local": "Illinois",
+      "visitante": "Duke Athletics",
+      "fecha": "2026-09-12",
+      "hora": "21:30",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Liga AUF Uruguaya",
       "ronda": null,
@@ -2980,7 +3044,8 @@
       "fecha": "2026-09-12",
       "hora": "22:00",
       "canales": [
-        "LigaFUTVE App"
+        "LigaFUTVE App",
+        "Liga Futve YouTube"
       ]
     },
     {
@@ -3088,7 +3153,8 @@
       "fecha": "2026-09-12",
       "hora": "23:00",
       "canales": [
-        "LigaFUTVE App"
+        "LigaFUTVE App",
+        "Fanatiz (Ver en directo)"
       ]
     },
     {
@@ -3114,7 +3180,8 @@
       "fecha": "2026-09-12",
       "hora": "23:30",
       "canales": [
-        "LigaFUTVE App"
+        "LigaFUTVE App",
+        "Liga Futve YouTube"
       ]
     },
     {
@@ -3143,6 +3210,19 @@
       "hora": "00:30",
       "canales": [
         "NWSL+"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Nebraska vs Bowling Green",
+      "local": "Nebraska",
+      "visitante": "Bowling Green",
+      "fecha": "2026-09-13",
+      "hora": "01:00",
+      "canales": [
+        "DAZN (Ver en directo)"
       ]
     },
     {
@@ -3181,7 +3261,8 @@
       "fecha": "2026-09-13",
       "hora": "01:00",
       "canales": [
-        "LigaFUTVE App"
+        "LigaFUTVE App",
+        "Fanatiz (Ver en directo)"
       ]
     },
     {
@@ -3247,6 +3328,19 @@
       "hora": "01:00",
       "canales": [
         "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Iowa vs Iowa State",
+      "local": "Iowa",
+      "visitante": "Iowa State",
+      "fecha": "2026-09-13",
+      "hora": "01:30",
+      "canales": [
+        "DAZN (Ver en directo)"
       ]
     },
     {
@@ -3510,6 +3604,19 @@
       ]
     },
     {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Air Force vs North Dakota State",
+      "local": "Air Force",
+      "visitante": "North Dakota State",
+      "fecha": "2026-09-13",
+      "hora": "04:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "MLS",
       "ronda": null,
@@ -3755,10 +3862,10 @@
     {
       "deporte": "Baloncesto",
       "competicion": "Liga Catalana ACB",
-      "ronda": null,
-      "evento": "Final",
-      "local": null,
-      "visitante": null,
+      "ronda": "Final",
+      "evento": "Barça Basket vs iLERNA Lleida",
+      "local": "Barça Basket",
+      "visitante": "iLERNA Lleida",
       "fecha": "2026-09-13",
       "hora": "12:00",
       "canales": [
