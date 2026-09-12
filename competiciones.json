@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-09-11T18:58:48"
+    "actualizado": "2026-09-12T03:12:42"
   },
   "config": {
     "puntos_por_tier": {
@@ -994,6 +994,31 @@
     },
     "World Athletics Ultimate Championship": {
       "deporte": "Atletismo",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Basketball Champions League": {
+      "deporte": "Baloncesto",
+      "tier": "S",
+      "por_revisar": true
+    },
+    "Liga MX": {
+      "deporte": "Fútbol",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Tour Armenia": {
+      "deporte": "Ciclismo",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "WTA Torneo de Guadalajara": {
+      "deporte": "Tenis",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "WTA Torneo de Sao Paulo": {
+      "deporte": "Tenis",
       "tier": "C",
       "por_revisar": true
     }
