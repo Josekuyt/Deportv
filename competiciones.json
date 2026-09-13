@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-09-12T03:12:42"
+    "actualizado": "2026-09-13T03:16:13"
   },
   "config": {
     "puntos_por_tier": {
@@ -1019,6 +1019,21 @@
     },
     "WTA Torneo de Sao Paulo": {
       "deporte": "Tenis",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Copa Euskadi": {
+      "deporte": "Baloncesto",
+      "tier": "D",
+      "por_revisar": true
+    },
+    "Giro d'Abruzzo": {
+      "deporte": "Ciclismo",
+      "tier": "A",
+      "por_revisar": true
+    },
+    "Tercera División Uruguay": {
+      "deporte": "Fútbol",
       "tier": "C",
       "por_revisar": true
     }
