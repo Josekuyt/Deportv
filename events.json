@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-09-13T03:16:13",
+    "generado": "2026-09-13T13:06:55",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 314
+    "total_eventos": 320
   },
   "eventos": [
     {
@@ -1263,6 +1263,19 @@
       ]
     },
     {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Europe Cup 3x3 Femenino",
+      "ronda": "1/4 de Final",
+      "evento": "España vs Bélgica",
+      "local": "España",
+      "visitante": "Bélgica",
+      "fecha": "2026-09-13",
+      "hora": "14:15",
+      "canales": [
+        "RTVE Play"
+      ]
+    },
+    {
       "deporte": "Ciclismo",
       "competicion": "Faun Tour Femenino",
       "ronda": null,
@@ -1285,6 +1298,7 @@
       "fecha": "2026-09-13",
       "hora": "14:30",
       "canales": [
+        "M+ Vamos 3 (53)",
         "Movistar Golf (M68)"
       ]
     },
@@ -1463,6 +1477,19 @@
       "hora": "15:00",
       "canales": [
         "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Europe Cup 3x3",
+      "ronda": "Fase de grupos",
+      "evento": "España vs Francia",
+      "local": "España",
+      "visitante": "Francia",
+      "fecha": "2026-09-13",
+      "hora": "15:30",
+      "canales": [
+        "RTVE Play"
       ]
     },
     {
@@ -2907,6 +2934,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Liga Colombiana",
+      "ronda": null,
+      "evento": "Deportivo Pereira vs Bucaramanga",
+      "local": "Deportivo Pereira",
+      "visitante": "Bucaramanga",
+      "fecha": "2026-09-13",
+      "hora": "21:00",
+      "canales": [
+        "RCN Nuestra Tele"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "La Liga EA Sports",
       "ronda": null,
       "evento": "Real Sociedad vs At. Madrid",
@@ -2984,7 +3024,8 @@
       "fecha": "2026-09-13",
       "hora": "21:05",
       "canales": [
-        "M+ Deportes (63)"
+        "M+ Deportes (63)",
+        "M+ Deportes 5 (192)"
       ]
     },
     {
@@ -3195,6 +3236,19 @@
       "hora": "23:00",
       "canales": [
         "OneFootball"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Colombiana",
+      "ronda": null,
+      "evento": "Atlético Nacional vs Águilas Doradas Rionegro",
+      "local": "Atlético Nacional",
+      "visitante": "Águilas Doradas Rionegro",
+      "fecha": "2026-09-13",
+      "hora": "23:05",
+      "canales": [
+        "RCN Nuestra Tele"
       ]
     },
     {
@@ -3423,6 +3477,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Liga Colombiana",
+      "ronda": null,
+      "evento": "Once Caldas vs Deportivo Cali",
+      "local": "Once Caldas",
+      "visitante": "Deportivo Cali",
+      "fecha": "2026-09-14",
+      "hora": "01:10",
+      "canales": [
+        "RCN Nuestra Tele"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "MLS Next Pro",
       "ronda": null,
       "evento": "Sporting KC II vs Los Angeles FC 2",
@@ -3526,6 +3593,19 @@
       "hora": "03:07",
       "canales": [
         "OneFootball PPV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Colombiana",
+      "ronda": null,
+      "evento": "Cúcuta vs Millonarios",
+      "local": "Cúcuta",
+      "visitante": "Millonarios",
+      "fecha": "2026-09-14",
+      "hora": "03:15",
+      "canales": [
+        "RCN Nuestra Tele"
       ]
     },
     {
@@ -3959,6 +4039,7 @@
       "canales": [
         "M+ LALIGA (M54 O110)",
         "M+ LALIGA HDR (M440 O111)",
+        "M+ LALIGA 2 (M57 O112)",
         "LaLiga TV Bar"
       ]
     },
