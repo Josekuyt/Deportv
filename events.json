@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-09-14T03:28:29",
+    "generado": "2026-09-14T14:44:09",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 123
+    "total_eventos": 134
   },
   "eventos": [
     {
@@ -205,6 +205,20 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Guadalajara",
+      "ronda": "1ª Ronda",
+      "evento": "C. Bucsa vs B. Andreescu",
+      "local": "C. Bucsa",
+      "visitante": "B. Andreescu",
+      "fecha": "2026-09-14",
+      "hora": "01:30",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "MLS Next Pro",
       "ronda": null,
@@ -377,19 +391,6 @@
       ]
     },
     {
-      "deporte": "Baloncesto",
-      "competicion": "Basketball Champions League",
-      "ronda": "1/8 de Final Clasificación",
-      "evento": "Río Breogán vs BC Rilski Sportist",
-      "local": "Río Breogán",
-      "visitante": "BC Rilski Sportist",
-      "fecha": "2026-09-14",
-      "hora": "17:45",
-      "canales": [
-        "Canal por confirmar"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "Bundesliga Femenina",
       "ronda": null,
@@ -401,6 +402,19 @@
       "canales": [
         "DAZN (Ver en directo)",
         "DAZN App Gratis (Ver gratis)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Basketball Champions League",
+      "ronda": "1/8 de Final Clasificación",
+      "evento": "Río Breogán vs BC Rilski Sportist",
+      "local": "Río Breogán",
+      "visitante": "BC Rilski Sportist",
+      "fecha": "2026-09-14",
+      "hora": "18:00",
+      "canales": [
+        "TVG2 (Galicia)"
       ]
     },
     {
@@ -419,10 +433,10 @@
     {
       "deporte": "Tenis",
       "competicion": "WTA Torneo de Sao Paulo",
-      "ronda": null,
-      "evento": "1ª Ronda WTA 250",
-      "local": null,
-      "visitante": null,
+      "ronda": "1ª Ronda",
+      "evento": "J. Bouzas vs D. Salkova",
+      "local": "J. Bouzas",
+      "visitante": "D. Salkova",
       "fecha": "2026-09-14",
       "hora": "18:00",
       "canales": [
@@ -530,6 +544,20 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Guadalajara",
+      "ronda": "1ª Ronda",
+      "evento": "C. Monnet vs S. Stephens",
+      "local": "C. Monnet",
+      "visitante": "S. Stephens",
+      "fecha": "2026-09-14",
+      "hora": "21:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Premier League",
       "ronda": null,
@@ -558,20 +586,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "WTA Torneo de Guadalajara",
-      "ronda": null,
-      "evento": "1ª Ronda WTA 500",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-09-14",
-      "hora": "22:00",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "MLS Next Pro",
       "ronda": null,
@@ -585,6 +599,33 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Guadalajara",
+      "ronda": "1ª Ronda",
+      "evento": "R. Zarazúa vs C. Dolehide",
+      "local": "R. Zarazúa",
+      "visitante": "C. Dolehide",
+      "fecha": "2026-09-14",
+      "hora": "22:30",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Sao Paulo",
+      "ronda": "1ª Ronda",
+      "evento": "D. Semenistaja vs P. Badosa",
+      "local": "D. Semenistaja",
+      "visitante": "P. Badosa",
+      "fecha": "2026-09-14",
+      "hora": "22:30",
+      "canales": [
+        "WTA TV"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Liga AUF Uruguaya",
       "ronda": null,
@@ -595,6 +636,19 @@
       "hora": "00:00",
       "canales": [
         "Antel TV Internacional"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Sao Paulo",
+      "ronda": "1ª Ronda",
+      "evento": "S. Lamens vs C. Alves",
+      "local": "S. Lamens",
+      "visitante": "C. Alves",
+      "fecha": "2026-09-15",
+      "hora": "00:00",
+      "canales": [
+        "WTA TV"
       ]
     },
     {
@@ -621,6 +675,20 @@
       "hora": "00:00",
       "canales": [
         "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Guadalajara",
+      "ronda": "1ª Ronda",
+      "evento": "Z. Sonmez vs I. Shymanovich",
+      "local": "Z. Sonmez",
+      "visitante": "I. Shymanovich",
+      "fecha": "2026-09-15",
+      "hora": "01:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -674,6 +742,33 @@
       "hora": "02:15",
       "canales": [
         "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Guadalajara",
+      "ronda": "1ª Ronda",
+      "evento": "E. Jacquemot vs L. Samsonova",
+      "local": "E. Jacquemot",
+      "visitante": "L. Samsonova",
+      "fecha": "2026-09-15",
+      "hora": "02:30",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Colombiana",
+      "ronda": null,
+      "evento": "América de Cali vs Deportivo Pasto",
+      "local": "América de Cali",
+      "visitante": "Deportivo Pasto",
+      "fecha": "2026-09-15",
+      "hora": "03:00",
+      "canales": [
+        "RCN Nuestra Tele"
       ]
     },
     {
@@ -753,9 +848,8 @@
       "fecha": "2026-09-15",
       "hora": "19:00",
       "canales": [
-        "M+ LALIGA (M54 O110)",
-        "M+ LALIGA HDR (M440 O111)",
         "M+ LALIGA 2 (M57 O112)",
+        "M+ LALIGA HDR 2 (M441 O122)",
         "LaLiga TV Bar"
       ]
     },
@@ -862,7 +956,7 @@
       "canales": [
         "DAZN LaLiga (M55 O113)",
         "DAZN (Ver en directo)",
-        "LaLiga TV Bar"
+        "LaLiga TV M2"
       ]
     },
     {
@@ -1005,7 +1099,34 @@
       "fecha": "2026-09-15",
       "hora": "21:00",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN 1 (M72)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "EFL Carabao Cup",
+      "ronda": null,
+      "evento": "Liverpool vs Tottenham",
+      "local": "Liverpool",
+      "visitante": "Tottenham",
+      "fecha": "2026-09-15",
+      "hora": "21:00",
+      "canales": [
+        "* SIN TV EN DIRECTO *"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "EFL Carabao Cup",
+      "ronda": null,
+      "evento": "Ipswich Town vs Arsenal",
+      "local": "Ipswich Town",
+      "visitante": "Arsenal",
+      "fecha": "2026-09-15",
+      "hora": "21:00",
+      "canales": [
+        "* SIN TV EN DIRECTO *"
       ]
     },
     {
@@ -1101,7 +1222,9 @@
       "fecha": "2026-09-16",
       "hora": "02:30",
       "canales": [
-        "M+ #Vamos Bar (307)"
+        "M+ Vamos (8 y 50)",
+        "M+ #Vamos Bar (307)",
+        "M+ Liga de Campeones (M60 O115)"
       ]
     },
     {
@@ -1190,6 +1313,20 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "FIFA Mundial Femenino Sub-20",
+      "ronda": "1/8 de final",
+      "evento": "España vs Portugal",
+      "local": "España",
+      "visitante": "Portugal",
+      "fecha": "2026-09-16",
+      "hora": "18:30",
+      "canales": [
+        "Teledeporte",
+        "RTVE Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Europa League",
       "ronda": "Fase Liga",
       "evento": "AC Omonia vs Celta",
@@ -1198,7 +1335,7 @@
       "fecha": "2026-09-16",
       "hora": "18:45",
       "canales": [
-        "Canal por confirmar"
+        "M+ Liga de Campeones (M60 O115)"
       ]
     },
     {
@@ -1289,10 +1426,10 @@
       "fecha": "2026-09-16",
       "hora": "19:00",
       "canales": [
-        "DAZN LaLiga (M55 O113)",
+        "DAZN LaLiga 2 (M58 O114)",
         "DAZN (Ver en directo)",
         "DAZN App Gratis (Ver gratis)",
-        "LaLiga TV Bar"
+        "LaLiga TV M2"
       ]
     },
     {
@@ -1516,7 +1653,8 @@
       "fecha": "2026-09-16",
       "hora": "21:00",
       "canales": [
-        "M+ Liga de Campeones 2 (M61 O117)"
+        "M+ Liga de Campeones 2 (M61 O117)",
+        "M+ Liga de Campeones 4 (M180 O119)"
       ]
     },
     {
@@ -1529,6 +1667,7 @@
       "fecha": "2026-09-16",
       "hora": "21:00",
       "canales": [
+        "M+ Liga de Campeones 4 (M180 O119)",
         "M+ Liga de Campeones 7 (M183 O435)"
       ]
     },
@@ -1542,7 +1681,8 @@
       "fecha": "2026-09-16",
       "hora": "21:00",
       "canales": [
-        "Canal por confirmar"
+        "M+ Liga de Campeones (M60 O115)",
+        "M+ Liga de Campeones 4 (M180 O119)"
       ]
     },
     {
@@ -1555,6 +1695,7 @@
       "fecha": "2026-09-16",
       "hora": "21:00",
       "canales": [
+        "M+ Liga de Campeones 4 (M180 O119)",
         "M+ Liga de Campeones 5 (M181 O433)"
       ]
     },
@@ -1568,7 +1709,8 @@
       "fecha": "2026-09-16",
       "hora": "21:00",
       "canales": [
-        "M+ Liga de Campeones 3 (M62 O118)"
+        "M+ Liga de Campeones 3 (M62 O118)",
+        "M+ Liga de Campeones 4 (M180 O119)"
       ]
     },
     {
@@ -1581,6 +1723,7 @@
       "fecha": "2026-09-16",
       "hora": "21:00",
       "canales": [
+        "M+ Liga de Campeones 4 (M180 O119)",
         "M+ Liga de Campeones 6 (M182 O434)"
       ]
     },
@@ -1594,7 +1737,21 @@
       "fecha": "2026-09-16",
       "hora": "21:00",
       "canales": [
+        "M+ Liga de Campeones 4 (M180 O119)",
         "M+ Liga de Campeones 8 (M184 O436)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "EFL Carabao Cup",
+      "ronda": null,
+      "evento": "Manchester Utd. vs Brighton",
+      "local": "Manchester Utd.",
+      "visitante": "Brighton",
+      "fecha": "2026-09-16",
+      "hora": "21:00",
+      "canales": [
+        "* SIN TV EN DIRECTO *"
       ]
     },
     {
@@ -1609,7 +1766,7 @@
       "canales": [
         "M+ LALIGA (M54 O110)",
         "M+ LALIGA HDR (M440 O111)",
-        "LaLiga TV Bar"
+        "LaLiga TV M2"
       ]
     },
     {
