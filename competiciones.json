@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-09-15T13:08:45"
+    "actualizado": "2026-09-15T19:31:43"
   },
   "config": {
     "puntos_por_tier": {
@@ -1064,6 +1064,21 @@
     },
     "Divisional C": {
       "deporte": "Fútbol",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Amistoso Sub-16": {
+      "deporte": "Fútbol",
+      "tier": "D",
+      "por_revisar": true
+    },
+    "Golden Cat": {
+      "deporte": "Hockey Patines",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Golden Cat Femenina": {
+      "deporte": "Hockey Patines",
       "tier": "C",
       "por_revisar": true
     }

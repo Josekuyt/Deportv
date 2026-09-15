@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-09-15T13:08:45",
+    "generado": "2026-09-15T19:31:43",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 144
+    "total_eventos": 147
   },
   "eventos": [
     {
@@ -169,6 +169,22 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Amistoso Sub-16",
+      "ronda": null,
+      "evento": "Italia vs España",
+      "local": "Italia",
+      "visitante": "España",
+      "fecha": "2026-09-15",
+      "hora": "17:00",
+      "canales": [
+        "SeFutbol YouTube",
+        "RFEF.es",
+        "Twitter @SeFutbol",
+        "Facebook SeFutbol"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Superliga de Letonia",
       "ronda": null,
       "evento": "SK Super Nova vs Riga FC",
@@ -245,7 +261,7 @@
       "fecha": "2026-09-15",
       "hora": "19:00",
       "canales": [
-        "Canal por confirmar"
+        "Baskonia YouTube"
       ]
     },
     {
@@ -980,20 +996,6 @@
       ]
     },
     {
-      "deporte": "Balonmano",
-      "competicion": "Liga Guerreras Iberdrola",
-      "ronda": null,
-      "evento": "BM Granollers vs BM Morvedre",
-      "local": "BM Granollers",
-      "visitante": "BM Morvedre",
-      "fecha": "2026-09-16",
-      "hora": "19:30",
-      "canales": [
-        "Teledeporte",
-        "RTVE Play"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "Primera Nacional Argentina",
       "ronda": null,
@@ -1095,6 +1097,20 @@
       "hora": "20:00",
       "canales": [
         "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Balonmano",
+      "competicion": "Liga Guerreras Iberdrola",
+      "ronda": null,
+      "evento": "BM Granollers vs BM Morvedre",
+      "local": "BM Granollers",
+      "visitante": "BM Morvedre",
+      "fecha": "2026-09-16",
+      "hora": "20:30",
+      "canales": [
+        "Teledeporte",
+        "RTVE Play"
       ]
     },
     {
@@ -1601,6 +1617,19 @@
       ]
     },
     {
+      "deporte": "Hockey Patines",
+      "competicion": "Golden Cat Femenina",
+      "ronda": null,
+      "evento": "Portugal vs Cataluña",
+      "local": "Portugal",
+      "visitante": "Cataluña",
+      "fecha": "2026-09-17",
+      "hora": "18:30",
+      "canales": [
+        "Esport3 (Cataluña)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Europa League",
       "ronda": "Fase Liga",
@@ -1809,6 +1838,19 @@
       "hora": "20:45",
       "canales": [
         "EHF TV"
+      ]
+    },
+    {
+      "deporte": "Hockey Patines",
+      "competicion": "Golden Cat",
+      "ronda": null,
+      "evento": "Cataluña vs Francia",
+      "local": "Cataluña",
+      "visitante": "Francia",
+      "fecha": "2026-09-17",
+      "hora": "20:45",
+      "canales": [
+        "Esport3 Web"
       ]
     },
     {
