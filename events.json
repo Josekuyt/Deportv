@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-09-15T03:29:37",
+    "generado": "2026-09-15T13:08:45",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 126
+    "total_eventos": 144
   },
   "eventos": [
     {
@@ -17,19 +17,6 @@
       "hora": "00:00",
       "canales": [
         "Antel TV Internacional"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Torneo de Sao Paulo",
-      "ronda": "1ª Ronda",
-      "evento": "S. Lamens vs C. Alves",
-      "local": "S. Lamens",
-      "visitante": "C. Alves",
-      "fecha": "2026-09-15",
-      "hora": "00:00",
-      "canales": [
-        "WTA TV"
       ]
     },
     {
@@ -59,20 +46,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "WTA Torneo de Guadalajara",
-      "ronda": "1ª Ronda",
-      "evento": "Z. Sonmez vs I. Shymanovich",
-      "local": "Z. Sonmez",
-      "visitante": "I. Shymanovich",
-      "fecha": "2026-09-15",
-      "hora": "01:00",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "Serie A Brasil",
       "ronda": null,
@@ -83,6 +56,20 @@
       "hora": "01:00",
       "canales": [
         "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Guadalajara",
+      "ronda": "1ª Ronda",
+      "evento": "Z. Sonmez vs I. Shymanovich",
+      "local": "Z. Sonmez",
+      "visitante": "I. Shymanovich",
+      "fecha": "2026-09-15",
+      "hora": "01:20",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -133,7 +120,7 @@
       "local": "E. Jacquemot",
       "visitante": "L. Samsonova",
       "fecha": "2026-09-15",
-      "hora": "02:30",
+      "hora": "02:35",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -168,6 +155,19 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Sao Paulo",
+      "ronda": "1ª Ronda",
+      "evento": "T. Kostovic vs VL Barros",
+      "local": "T. Kostovic",
+      "visitante": "VL Barros",
+      "fecha": "2026-09-15",
+      "hora": "15:30",
+      "canales": [
+        "WTA TV"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Superliga de Letonia",
       "ronda": null,
@@ -183,10 +183,10 @@
     {
       "deporte": "Tenis",
       "competicion": "WTA Torneo de Sao Paulo",
-      "ronda": null,
-      "evento": "1ª Ronda WTA 250",
-      "local": null,
-      "visitante": null,
+      "ronda": "1ª Ronda",
+      "evento": "E. Lys vs G. Ce",
+      "local": "E. Lys",
+      "visitante": "G. Ce",
       "fecha": "2026-09-15",
       "hora": "18:00",
       "canales": [
@@ -203,7 +203,8 @@
       "fecha": "2026-09-15",
       "hora": "19:00",
       "canales": [
-        "OneFootball PPV"
+        "OneFootball PPV",
+        "German Football YouTube"
       ]
     },
     {
@@ -245,6 +246,19 @@
       "hora": "19:00",
       "canales": [
         "Canal por confirmar"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Sao Paulo",
+      "ronda": "1ª Ronda",
+      "evento": "S. Lamens vs C. Alves",
+      "local": "S. Lamens",
+      "visitante": "C. Alves",
+      "fecha": "2026-09-15",
+      "hora": "19:30",
+      "canales": [
+        "WTA TV"
       ]
     },
     {
@@ -481,7 +495,8 @@
       "hora": "21:00",
       "canales": [
         "DAZN (Ver en directo)",
-        "DAZN 1 (M72)"
+        "DAZN 1 (M72)",
+        "DAZN 1 Bar (M148)"
       ]
     },
     {
@@ -508,6 +523,20 @@
       "hora": "21:00",
       "canales": [
         "* SIN TV EN DIRECTO *"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Guadalajara",
+      "ronda": "1ª Ronda",
+      "evento": "C. Bucsa vs P. Udvardy",
+      "local": "C. Bucsa",
+      "visitante": "P. Udvardy",
+      "fecha": "2026-09-15",
+      "hora": "21:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -543,12 +572,80 @@
     {
       "deporte": "Tenis",
       "competicion": "WTA Torneo de Guadalajara",
-      "ronda": null,
-      "evento": "1ª Ronda WTA 500",
-      "local": null,
-      "visitante": null,
+      "ronda": "1ª Ronda",
+      "evento": "A. Parks vs S. Bejlek",
+      "local": "A. Parks",
+      "visitante": "S. Bejlek",
       "fecha": "2026-09-15",
-      "hora": "22:00",
+      "hora": "22:30",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Sao Paulo",
+      "ronda": "1ª Ronda",
+      "evento": "J. Mikulskyte vs P. Badosa",
+      "local": "J. Mikulskyte",
+      "visitante": "P. Badosa",
+      "fecha": "2026-09-15",
+      "hora": "22:30",
+      "canales": [
+        "WTA TV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Futve",
+      "ronda": null,
+      "evento": "Carabobo vs La Guaira",
+      "local": "Carabobo",
+      "visitante": "La Guaira",
+      "fecha": "2026-09-16",
+      "hora": "00:00",
+      "canales": [
+        "LigaFUTVE App",
+        "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Sao Paulo",
+      "ronda": "1ª Ronda",
+      "evento": "V. Valdmannova vs L. Pigossi",
+      "local": "V. Valdmannova",
+      "visitante": "L. Pigossi",
+      "fecha": "2026-09-16",
+      "hora": "00:00",
+      "canales": [
+        "WTA TV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Futve",
+      "ronda": null,
+      "evento": "Deportivo Táchira vs Puerto Cabello",
+      "local": "Deportivo Táchira",
+      "visitante": "Puerto Cabello",
+      "fecha": "2026-09-16",
+      "hora": "00:30",
+      "canales": [
+        "LigaFUTVE App",
+        "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Guadalajara",
+      "ronda": "1ª Ronda",
+      "evento": "D. Parry vs P. Stearns",
+      "local": "D. Parry",
+      "visitante": "P. Stearns",
+      "fecha": "2026-09-16",
+      "hora": "01:00",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -581,6 +678,46 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Divisional C",
+      "ronda": null,
+      "evento": "Deutscher vs Deportivo Italiano",
+      "local": "Deutscher",
+      "visitante": "Deportivo Italiano",
+      "fecha": "2026-09-16",
+      "hora": "01:00",
+      "canales": [
+        "Antel TV Internacional"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Futve",
+      "ronda": null,
+      "evento": "UCV vs Anzoátegui FC",
+      "local": "UCV",
+      "visitante": "Anzoátegui FC",
+      "fecha": "2026-09-16",
+      "hora": "01:30",
+      "canales": [
+        "Liga Futve YouTube",
+        "LigaFUTVE App"
+      ]
+    },
+    {
+      "deporte": "Fútbol Sala",
+      "competicion": "Primera División Futsal AFA",
+      "ronda": null,
+      "evento": "Estudiantil Porteño FS vs Barracas Central FS",
+      "local": "Estudiantil Porteño FS",
+      "visitante": "Barracas Central FS",
+      "fecha": "2026-09-16",
+      "hora": "01:30",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
       "deporte": "MMA",
       "competicion": "Dana White Contender Series",
       "ronda": null,
@@ -606,6 +743,20 @@
         "M+ Vamos (8 y 50)",
         "M+ #Vamos Bar (307)",
         "M+ Liga de Campeones (M60 O115)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Guadalajara",
+      "ronda": "1ª Ronda",
+      "evento": "S. Stephens vs J. Tjen",
+      "local": "S. Stephens",
+      "visitante": "J. Tjen",
+      "fecha": "2026-09-16",
+      "hora": "02:30",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -1181,6 +1332,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Liga Futve",
+      "ronda": null,
+      "evento": "Portuguesa FC vs Estudiantes Mérida",
+      "local": "Portuguesa FC",
+      "visitante": "Estudiantes Mérida",
+      "fecha": "2026-09-16",
+      "hora": "23:00",
+      "canales": [
+        "LigaFUTVE App"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "MLS Next Pro",
       "ronda": null,
       "evento": "Real Monarchs vs Minnesota Utd. 2",
@@ -1222,6 +1386,61 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Liga Futve",
+      "ronda": null,
+      "evento": "Monagas SC vs Zamora FC",
+      "local": "Monagas SC",
+      "visitante": "Zamora FC",
+      "fecha": "2026-09-17",
+      "hora": "00:00",
+      "canales": [
+        "Liga Futve YouTube",
+        "LigaFUTVE App"
+      ]
+    },
+    {
+      "deporte": "Fútbol Sala",
+      "competicion": "Copa Argentina Futsal",
+      "ronda": null,
+      "evento": "Independiente Futsal vs Deportivo Metalúrgico",
+      "local": "Independiente Futsal",
+      "visitante": "Deportivo Metalúrgico",
+      "fecha": "2026-09-17",
+      "hora": "00:30",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Futve",
+      "ronda": null,
+      "evento": "Trujillanos vs Rayo Zuliano",
+      "local": "Trujillanos",
+      "visitante": "Rayo Zuliano",
+      "fecha": "2026-09-17",
+      "hora": "01:00",
+      "canales": [
+        "LigaFUTVE App",
+        "Liga Futve YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Futve",
+      "ronda": null,
+      "evento": "Metropolitanos vs Caracas FC",
+      "local": "Metropolitanos",
+      "visitante": "Caracas FC",
+      "fecha": "2026-09-17",
+      "hora": "01:30",
+      "canales": [
+        "LigaFUTVE App",
+        "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "CONCACAF Central American Cup",
       "ronda": null,
       "evento": "Cartaginés vs Saprissa",
@@ -1231,6 +1450,19 @@
       "hora": "02:30",
       "canales": [
         "CONCACAF YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol Sala",
+      "competicion": "Copa Argentina Futsal",
+      "ronda": null,
+      "evento": "América del Sud FS vs CSD Pinocho",
+      "local": "América del Sud FS",
+      "visitante": "CSD Pinocho",
+      "fecha": "2026-09-17",
+      "hora": "02:30",
+      "canales": [
+        "LPF Play"
       ]
     },
     {
@@ -1299,6 +1531,19 @@
         "HBO MAX",
         "DAZN (Ver en directo)",
         "Eurosport 1"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Basketball Champions League",
+      "ronda": "1/4 de Final Clasificación",
+      "evento": "Manchester Basketball vs Río Breogán",
+      "local": "Manchester Basketball",
+      "visitante": "Río Breogán",
+      "fecha": "2026-09-17",
+      "hora": "15:30",
+      "canales": [
+        "Canal por confirmar"
       ]
     },
     {
