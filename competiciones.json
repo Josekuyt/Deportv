@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-09-14T03:28:29"
+    "actualizado": "2026-09-15T03:29:37"
   },
   "config": {
     "puntos_por_tier": {
@@ -1044,6 +1044,21 @@
     },
     "Tour de Luxemburgo": {
       "deporte": "Ciclismo",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "BMW PGA Championship": {
+      "deporte": "Golf",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Biltmore Championship Asheville": {
+      "deporte": "Golf",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "La Sella Open": {
+      "deporte": "Golf",
       "tier": "C",
       "por_revisar": true
     }
