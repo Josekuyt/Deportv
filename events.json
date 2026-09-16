@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-09-16T03:25:51",
+    "generado": "2026-09-16T13:08:56",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 155
+    "total_eventos": 173
   },
   "eventos": [
     {
@@ -21,19 +21,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "WTA Torneo de Sao Paulo",
-      "ronda": "1ª Ronda",
-      "evento": "V. Valdmannova vs L. Pigossi",
-      "local": "V. Valdmannova",
-      "visitante": "L. Pigossi",
-      "fecha": "2026-09-16",
-      "hora": "00:00",
-      "canales": [
-        "WTA TV"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "Liga Futve",
       "ronda": null,
@@ -45,20 +32,6 @@
       "canales": [
         "LigaFUTVE App",
         "Fanatiz (Ver en directo)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Torneo de Guadalajara",
-      "ronda": "1ª Ronda",
-      "evento": "D. Parry vs P. Stearns",
-      "local": "D. Parry",
-      "visitante": "P. Stearns",
-      "fecha": "2026-09-16",
-      "hora": "01:00",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -98,6 +71,20 @@
       "hora": "01:00",
       "canales": [
         "Antel TV Internacional"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Guadalajara",
+      "ronda": "1ª Ronda",
+      "evento": "D. Parry vs P. Stearns",
+      "local": "D. Parry",
+      "visitante": "P. Stearns",
+      "fecha": "2026-09-16",
+      "hora": "01:20",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -163,10 +150,26 @@
       "local": "S. Stephens",
       "visitante": "J. Tjen",
       "fecha": "2026-09-16",
-      "hora": "02:30",
+      "hora": "03:15",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Amistoso Femenino Sub-17",
+      "ronda": null,
+      "evento": "España vs Francia",
+      "local": "España",
+      "visitante": "Francia",
+      "fecha": "2026-09-16",
+      "hora": "11:00",
+      "canales": [
+        "SeFutbol YouTube",
+        "RFEF.es",
+        "Twitter @SeFutbol",
+        "Facebook SeFutbol"
       ]
     },
     {
@@ -213,6 +216,19 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Sao Paulo",
+      "ronda": "1ª Ronda",
+      "evento": "S. Lamens vs C. Alves",
+      "local": "S. Lamens",
+      "visitante": "C. Alves",
+      "fecha": "2026-09-16",
+      "hora": "16:00",
+      "canales": [
+        "WTA TV"
+      ]
+    },
+    {
       "deporte": "Ciclismo",
       "competicion": "Tour de Luxemburgo",
       "ronda": null,
@@ -243,10 +259,10 @@
     {
       "deporte": "Tenis",
       "competicion": "WTA Torneo de Sao Paulo",
-      "ronda": null,
-      "evento": "2ª Ronda WTA 250",
-      "local": null,
-      "visitante": null,
+      "ronda": "1ª Ronda",
+      "evento": "NV Leme Da Silva vs A. Sharma",
+      "local": "NV Leme Da Silva",
+      "visitante": "A. Sharma",
       "fecha": "2026-09-16",
       "hora": "18:00",
       "canales": [
@@ -390,6 +406,19 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Sao Paulo",
+      "ronda": "1ª Ronda",
+      "evento": "E. Lys vs G. Ce",
+      "local": "E. Lys",
+      "visitante": "G. Ce",
+      "fecha": "2026-09-16",
+      "hora": "19:30",
+      "canales": [
+        "WTA TV"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Primera Nacional Argentina",
       "ronda": null,
@@ -494,6 +523,20 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "División Honor Juvenil",
+      "ronda": "Grupo 4",
+      "evento": "Real Betis Academy vs Granada Academy",
+      "local": "Real Betis Academy",
+      "visitante": "Granada Academy",
+      "fecha": "2026-09-16",
+      "hora": "20:00",
+      "canales": [
+        "Real Betis Balompié YouTube",
+        "Real Betis TV"
+      ]
+    },
+    {
       "deporte": "Balonmano",
       "competicion": "Liga Guerreras Iberdrola",
       "ronda": null,
@@ -505,6 +548,19 @@
       "canales": [
         "Teledeporte",
         "RTVE Play"
+      ]
+    },
+    {
+      "deporte": "Balonmano",
+      "competicion": "Liga Guerreras Iberdrola",
+      "ronda": null,
+      "evento": "CB Pozuelo CVA vs BM Bera Bera",
+      "local": "CB Pozuelo CVA",
+      "visitante": "BM Bera Bera",
+      "fecha": "2026-09-16",
+      "hora": "20:30",
+      "canales": [
+        "CMMPlay (Castilla-LM)"
       ]
     },
     {
@@ -697,6 +753,33 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Guadalajara",
+      "ronda": "2ª Ronda",
+      "evento": "M. Frech vs C. Dolehide",
+      "local": "M. Frech",
+      "visitante": "C. Dolehide",
+      "fecha": "2026-09-16",
+      "hora": "21:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Sao Paulo",
+      "ronda": "1ª Ronda",
+      "evento": "V. Valdmannova vs L. Pigossi",
+      "local": "V. Valdmannova",
+      "visitante": "L. Pigossi",
+      "fecha": "2026-09-16",
+      "hora": "21:00",
+      "canales": [
+        "WTA TV"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "La Liga EA Sports",
       "ronda": null,
@@ -729,15 +812,28 @@
     {
       "deporte": "Tenis",
       "competicion": "WTA Torneo de Guadalajara",
-      "ronda": null,
-      "evento": "2ª Ronda WTA 500",
-      "local": null,
-      "visitante": null,
+      "ronda": "2ª Ronda",
+      "evento": "Z. Sonmez vs I. Jovic",
+      "local": "Z. Sonmez",
+      "visitante": "I. Jovic",
       "fecha": "2026-09-16",
-      "hora": "22:00",
+      "hora": "22:30",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Sao Paulo",
+      "ronda": "1ª Ronda",
+      "evento": "J. Mikulskyte vs P. Badosa",
+      "local": "J. Mikulskyte",
+      "visitante": "P. Badosa",
+      "fecha": "2026-09-16",
+      "hora": "22:30",
+      "canales": [
+        "WTA TV"
       ]
     },
     {
@@ -836,6 +932,33 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Guadalajara",
+      "ronda": "2ª Ronda",
+      "evento": "M. Kostyuk vs T. Townsend",
+      "local": "M. Kostyuk",
+      "visitante": "T. Townsend",
+      "fecha": "2026-09-17",
+      "hora": "01:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Colombiana",
+      "ronda": null,
+      "evento": "Once Caldas vs Deportes Tolima",
+      "local": "Once Caldas",
+      "visitante": "Deportes Tolima",
+      "fecha": "2026-09-17",
+      "hora": "01:15",
+      "canales": [
+        "RCN Nuestra Tele"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Liga Futve",
       "ronda": null,
@@ -847,6 +970,20 @@
       "canales": [
         "LigaFUTVE App",
         "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Guadalajara",
+      "ronda": "2ª Ronda",
+      "evento": "K. Day vs L. Samsonova",
+      "local": "K. Day",
+      "visitante": "L. Samsonova",
+      "fecha": "2026-09-17",
+      "hora": "02:30",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -873,6 +1010,19 @@
       "hora": "02:30",
       "canales": [
         "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Colombiana",
+      "ronda": null,
+      "evento": "Inter Bogotá vs Atlético Nacional",
+      "local": "Inter Bogotá",
+      "visitante": "Atlético Nacional",
+      "fecha": "2026-09-17",
+      "hora": "03:20",
+      "canales": [
+        "RCN Nuestra Tele"
       ]
     },
     {
@@ -926,6 +1076,22 @@
       "canales": [
         "Movistar Golf 2 (M68)",
         "Movistar Golf (M68)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Amistoso Sub-16",
+      "ronda": null,
+      "evento": "Italia vs España",
+      "local": "Italia",
+      "visitante": "España",
+      "fecha": "2026-09-17",
+      "hora": "11:00",
+      "canales": [
+        "SeFutbol YouTube",
+        "RFEF.es",
+        "Twitter @SeFutbol",
+        "Facebook SeFutbol"
       ]
     },
     {
@@ -1553,6 +1719,19 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Copa Davis",
+      "ronda": "Partido 1",
+      "evento": "República Checa vs Estados Unidos",
+      "local": "República Checa",
+      "visitante": "Estados Unidos",
+      "fecha": "2026-09-18",
+      "hora": "15:00",
+      "canales": [
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
       "deporte": "Ciclismo",
       "competicion": "Kampioenschap van Vlaanderen",
       "ronda": null,
@@ -1593,6 +1772,19 @@
       "hora": "16:40",
       "canales": [
         "Esport3 (Cataluña)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Copa Davis",
+      "ronda": "Partido 2",
+      "evento": "República Checa vs Estados Unidos",
+      "local": "República Checa",
+      "visitante": "Estados Unidos",
+      "fecha": "2026-09-18",
+      "hora": "17:00",
+      "canales": [
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -1875,6 +2067,19 @@
       ]
     },
     {
+      "deporte": "Atletismo",
+      "competicion": "Athlos",
+      "ronda": null,
+      "evento": "Londres (Inglaterra)",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-09-18",
+      "hora": "20:00",
+      "canales": [
+        "Eurovision Sports TV"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Liga F",
       "ronda": null,
@@ -1999,6 +2204,20 @@
       ]
     },
     {
+      "deporte": "Fútbol Sala",
+      "competicion": "Liga Prime",
+      "ronda": "Torneo Apertura",
+      "evento": "Barça FS vs Servigroup Peñiscola FS",
+      "local": "Barça FS",
+      "visitante": "Servigroup Peñiscola FS",
+      "fecha": "2026-09-18",
+      "hora": "21:00",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "Esport3 (Cataluña)"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "Amistoso",
       "ronda": null,
@@ -2083,17 +2302,16 @@
       ]
     },
     {
-      "deporte": "Fútbol Sala",
-      "competicion": "Liga Prime",
-      "ronda": "Torneo Apertura",
-      "evento": "Barça FS vs Servigroup Peñiscola FS",
-      "local": "Barça FS",
-      "visitante": "Servigroup Peñiscola FS",
+      "deporte": "Fútbol",
+      "competicion": "Liga 1 Perú",
+      "ronda": null,
+      "evento": "Alianza Atlético vs Comerciantes Unidos",
+      "local": "Alianza Atlético",
+      "visitante": "Comerciantes Unidos",
       "fecha": "2026-09-18",
-      "hora": "21:30",
+      "hora": "22:00",
       "canales": [
-        "DAZN (Ver en directo)",
-        "Esport3 (Cataluña)"
+        "Fanatiz (Ver en directo)"
       ]
     },
     {
@@ -2108,6 +2326,32 @@
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Copa Davis",
+      "ronda": "Partido 1",
+      "evento": "Canadá vs Francia",
+      "local": "Canadá",
+      "visitante": "Francia",
+      "fecha": "2026-09-18",
+      "hora": "23:00",
+      "canales": [
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Colombiana",
+      "ronda": null,
+      "evento": "Águilas Doradas Rionegro vs Deportivo Pereira",
+      "local": "Águilas Doradas Rionegro",
+      "visitante": "Deportivo Pereira",
+      "fecha": "2026-09-18",
+      "hora": "23:00",
+      "canales": [
+        "RCN Nuestra Tele"
       ]
     }
   ]
