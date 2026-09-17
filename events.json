@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-09-17T13:03:09",
+    "generado": "2026-09-17T19:33:31",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 322
+    "total_eventos": 326
   },
   "eventos": [
     {
@@ -1054,6 +1054,20 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Open Internacional de Valencia",
+      "ronda": "WTA 125",
+      "evento": "I. Burillo vs A. Herrero Linana",
+      "local": "I. Burillo",
+      "visitante": "A. Herrero Linana",
+      "fecha": "2026-09-18",
+      "hora": "16:30",
+      "canales": [
+        "Teledeporte",
+        "RTVE Play"
+      ]
+    },
+    {
       "deporte": "Hockey Patines",
       "competicion": "Golden Cat Femenina",
       "ronda": null,
@@ -1144,6 +1158,19 @@
       "hora": "17:00",
       "canales": [
         "Movistar Golf 2 (M68)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Open Internacional de Valencia",
+      "ronda": "WTA 125",
+      "evento": "A. Lázaro García vs J. Steur",
+      "local": "A. Lázaro García",
+      "visitante": "J. Steur",
+      "fecha": "2026-09-18",
+      "hora": "18:00",
+      "canales": [
+        "RTVE Play"
       ]
     },
     {
@@ -1247,6 +1274,32 @@
       "visitante": "First Vienna 1894",
       "fecha": "2026-09-18",
       "hora": "18:30",
+      "canales": [
+        "OneFootball PPV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Regionalliga",
+      "ronda": null,
+      "evento": "FSV Frankfurt vs Stuttgarter Kickers",
+      "local": "FSV Frankfurt",
+      "visitante": "Stuttgarter Kickers",
+      "fecha": "2026-09-18",
+      "hora": "19:00",
+      "canales": [
+        "OneFootball PPV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Regionalliga",
+      "ronda": null,
+      "evento": "Eintracht Trier vs Kickers Offenbach",
+      "local": "Eintracht Trier",
+      "visitante": "Kickers Offenbach",
+      "fecha": "2026-09-18",
+      "hora": "19:00",
       "canales": [
         "OneFootball PPV"
       ]
@@ -2120,35 +2173,9 @@
       "deporte": "Fútbol",
       "competicion": "Regionalliga",
       "ronda": null,
-      "evento": "FSV Frankfurt vs Stuttgarter Kickers",
-      "local": "FSV Frankfurt",
-      "visitante": "Stuttgarter Kickers",
-      "fecha": "2026-09-19",
-      "hora": "14:00",
-      "canales": [
-        "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Regionalliga",
-      "ronda": null,
       "evento": "VfR Aalen vs SGV Freiberg",
       "local": "VfR Aalen",
       "visitante": "SGV Freiberg",
-      "fecha": "2026-09-19",
-      "hora": "14:00",
-      "canales": [
-        "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Regionalliga",
-      "ronda": null,
-      "evento": "Eintracht Trier vs Kickers Offenbach",
-      "local": "Eintracht Trier",
-      "visitante": "Kickers Offenbach",
       "fecha": "2026-09-19",
       "hora": "14:00",
       "canales": [
@@ -3024,6 +3051,19 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Open Internacional de Valencia",
+      "ronda": null,
+      "evento": "Semifinal 1 WTA 125",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-09-19",
+      "hora": "17:00",
+      "canales": [
+        "RTVE Play"
+      ]
+    },
+    {
       "deporte": "Balonmano",
       "competicion": "Liga ASOBAL",
       "ronda": null,
@@ -3466,6 +3506,19 @@
       "hora": "18:30",
       "canales": [
         "Aragón Play"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Open Internacional de Valencia",
+      "ronda": null,
+      "evento": "Semifinal 2 WTA 125",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-09-19",
+      "hora": "18:30",
+      "canales": [
+        "RTVE Play"
       ]
     },
     {
