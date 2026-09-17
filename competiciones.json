@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-09-16T13:08:56"
+    "actualizado": "2026-09-17T03:31:16"
   },
   "config": {
     "puntos_por_tier": {
@@ -1104,6 +1104,31 @@
     },
     "Copa Davis": {
       "deporte": "Tenis",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Campeonato Mundial Ruta": {
+      "deporte": "Atletismo",
+      "tier": "S",
+      "por_revisar": true
+    },
+    "Copa Intercontinental Sub-20": {
+      "deporte": "Fútbol",
+      "tier": "D",
+      "por_revisar": true
+    },
+    "SUPER 8 Classic": {
+      "deporte": "Ciclismo",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Supercopa Endesa": {
+      "deporte": "Baloncesto",
+      "tier": "A",
+      "por_revisar": true
+    },
+    "Título Commonwealth": {
+      "deporte": "Boxeo",
       "tier": "C",
       "por_revisar": true
     }
