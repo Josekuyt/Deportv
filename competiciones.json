@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-09-17T19:33:31"
+    "actualizado": "2026-09-18T03:17:06"
   },
   "config": {
     "puntos_por_tier": {
@@ -1139,6 +1139,21 @@
     },
     "Open Internacional de Valencia": {
       "deporte": "Tenis",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Memorial José Luis Abós": {
+      "deporte": "Baloncesto",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Mundial de Ciclismo en Ruta": {
+      "deporte": "Ciclismo",
+      "tier": "S",
+      "por_revisar": true
+    },
+    "Título Interino": {
+      "deporte": "Boxeo",
       "tier": "C",
       "por_revisar": true
     }
