@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-09-18T12:43:08",
+    "generado": "2026-09-18T18:52:35",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 551
+    "total_eventos": 571
   },
   "eventos": [
     {
@@ -1181,6 +1181,20 @@
       ]
     },
     {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Oregon vs Portland State",
+      "local": "Oregon",
+      "visitante": "Portland State",
+      "fecha": "2026-09-19",
+      "hora": "04:30",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
+      ]
+    },
+    {
       "deporte": "Motociclismo",
       "competicion": "MotoGP",
       "ronda": null,
@@ -1205,6 +1219,7 @@
       "fecha": "2026-09-19",
       "hora": "10:10",
       "canales": [
+        "Teledeporte",
         "RTVE Play"
       ]
     },
@@ -1332,6 +1347,19 @@
       "hora": "12:30",
       "canales": [
         "Real Madrid TV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 4",
+      "evento": "Aurrera de Vitoria vs Alavés C",
+      "local": "Aurrera de Vitoria",
+      "visitante": "Alavés C",
+      "fecha": "2026-09-19",
+      "hora": "12:30",
+      "canales": [
+        "Elviphotoss YouTube"
       ]
     },
     {
@@ -1691,6 +1719,19 @@
       ]
     },
     {
+      "deporte": "Hockey Patines",
+      "competicion": "Golden Cat Femenina",
+      "ronda": null,
+      "evento": "Semifinales",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-09-19",
+      "hora": "14:00",
+      "canales": [
+        "Esport3 (Cataluña)"
+      ]
+    },
+    {
       "deporte": "Atletismo",
       "competicion": "Campeonato Mundial Ruta",
       "ronda": null,
@@ -1700,6 +1741,7 @@
       "fecha": "2026-09-19",
       "hora": "14:10",
       "canales": [
+        "Teledeporte",
         "RTVE Play"
       ]
     },
@@ -2165,10 +2207,10 @@
     {
       "deporte": "Baloncesto",
       "competicion": "Supercopa Euroliga",
-      "ronda": null,
-      "evento": "3er Puesto",
-      "local": null,
-      "visitante": null,
+      "ronda": "3er Puesto",
+      "evento": "Fenerbahce Istanbul vs TBD",
+      "local": "Fenerbahce Istanbul",
+      "visitante": "TBD",
       "fecha": "2026-09-19",
       "hora": "16:00",
       "canales": [
@@ -2608,6 +2650,19 @@
       ]
     },
     {
+      "deporte": "Voleibol",
+      "competicion": "Campeonato de Europa Masculino",
+      "ronda": "1/8 de final",
+      "evento": "Alemania vs Bulgaria",
+      "local": "Alemania",
+      "visitante": "Bulgaria",
+      "fecha": "2026-09-19",
+      "hora": "18:00",
+      "canales": [
+        "RTVE Play"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "Supercopa Endesa",
       "ronda": "Semifinales",
@@ -2619,6 +2674,32 @@
       "canales": [
         "DAZN (Ver en directo)",
         "DAZN Baloncesto (M74 O126)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Penn State vs Buffalo Bulls",
+      "local": "Penn State",
+      "visitante": "Buffalo Bulls",
+      "fecha": "2026-09-19",
+      "hora": "18:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Ohio State vs Kent State",
+      "local": "Ohio State",
+      "visitante": "Kent State",
+      "fecha": "2026-09-19",
+      "hora": "18:00",
+      "canales": [
+        "DAZN (Ver en directo)"
       ]
     },
     {
@@ -2823,6 +2904,20 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "FIFA Mundial Femenino Sub-20",
+      "ronda": "1/4 de Final",
+      "evento": "Brasil vs España",
+      "local": "Brasil",
+      "visitante": "España",
+      "fecha": "2026-09-19",
+      "hora": "18:30",
+      "canales": [
+        "Teledeporte",
+        "RTVE Play"
+      ]
+    },
+    {
       "deporte": "Fútbol Americano",
       "competicion": "NCAA",
       "ronda": null,
@@ -2956,6 +3051,19 @@
       "hora": "18:30",
       "canales": [
         "RTVE Play"
+      ]
+    },
+    {
+      "deporte": "Hockey Patines",
+      "competicion": "Golden Cat",
+      "ronda": null,
+      "evento": "Semifinales",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-09-19",
+      "hora": "18:30",
+      "canales": [
+        "Esport3 (Cataluña)"
       ]
     },
     {
@@ -3145,10 +3253,10 @@
     {
       "deporte": "Baloncesto",
       "competicion": "Supercopa Euroliga",
-      "ronda": null,
-      "evento": "Final",
-      "local": null,
-      "visitante": null,
+      "ronda": "Final",
+      "evento": "Olympiacos Piraeus vs TBD",
+      "local": "Olympiacos Piraeus",
+      "visitante": "TBD",
       "fecha": "2026-09-19",
       "hora": "19:00",
       "canales": [
@@ -3877,7 +3985,8 @@
       "fecha": "2026-09-19",
       "hora": "21:30",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
@@ -4029,9 +4138,9 @@
       "deporte": "Fútbol",
       "competicion": "Liga AUF Uruguaya",
       "ronda": null,
-      "evento": "Deportivo Maldonado vs CA Juventud",
+      "evento": "Deportivo Maldonado vs Cerro Largo",
       "local": "Deportivo Maldonado",
-      "visitante": "CA Juventud",
+      "visitante": "Cerro Largo",
       "fecha": "2026-09-19",
       "hora": "23:30",
       "canales": [
@@ -4559,6 +4668,7 @@
       "fecha": "2026-09-20",
       "hora": "09:10",
       "canales": [
+        "Teledeporte",
         "RTVE Play"
       ]
     },
@@ -4655,6 +4765,19 @@
       "hora": "11:30",
       "canales": [
         "IB3 (Baleares)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
+      "ronda": "Grupo 4",
+      "evento": "Linares Deportivo vs Las Palmas At.",
+      "local": "Linares Deportivo",
+      "visitante": "Las Palmas At.",
+      "fecha": "2026-09-20",
+      "hora": "11:30",
+      "canales": [
+        "TV FootballClub (Acceder)"
       ]
     },
     {
@@ -4808,6 +4931,19 @@
       ]
     },
     {
+      "deporte": "Hockey Patines",
+      "competicion": "Golden Cat Femenina",
+      "ronda": null,
+      "evento": "Final",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-09-20",
+      "hora": "12:00",
+      "canales": [
+        "Esport3 (Cataluña)"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "Copa Andalucía Femenina",
       "ronda": null,
@@ -4867,6 +5003,71 @@
     {
       "deporte": "Fútbol",
       "competicion": "Tercera Federación",
+      "ronda": "Grupo 10",
+      "evento": "Tomares vs Córdoba B",
+      "local": "Tomares",
+      "visitante": "Córdoba B",
+      "fecha": "2026-09-20",
+      "hora": "12:00",
+      "canales": [
+        "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 8",
+      "evento": "Burgos Promesas vs Palencia CF",
+      "local": "Burgos Promesas",
+      "visitante": "Palencia CF",
+      "fecha": "2026-09-20",
+      "hora": "12:00",
+      "canales": [
+        "Burgos Club de Fútbol YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 17",
+      "evento": "CDJ Tamarite vs CF Épila",
+      "local": "CDJ Tamarite",
+      "visitante": "CF Épila",
+      "fecha": "2026-09-20",
+      "hora": "12:00",
+      "canales": [
+        "Lacronicadeportes.es"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 8",
+      "evento": "Salamanca UDS B vs Arandina",
+      "local": "Salamanca UDS B",
+      "visitante": "Arandina",
+      "fecha": "2026-09-20",
+      "hora": "12:00",
+      "canales": [
+        "La 7 (Castilla y León)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 9",
+      "evento": "Huétor Vega vs FC Marbellí",
+      "local": "Huétor Vega",
+      "visitante": "FC Marbellí",
+      "fecha": "2026-09-20",
+      "hora": "12:00",
+      "canales": [
+        "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
       "ronda": "Grupo 7",
       "evento": "Colonia Moscardó vs Siello FC",
       "local": "Colonia Moscardó",
@@ -4900,6 +5101,7 @@
       "fecha": "2026-09-20",
       "hora": "12:00",
       "canales": [
+        "TV FootballClub (Acceder)",
         "La Ocho Mediterráneo"
       ]
     },
@@ -5052,6 +5254,19 @@
       "hora": "12:30",
       "canales": [
         "ASOBAL TV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 8",
+      "evento": "At. Bembibre vs Atlético Mansillés",
+      "local": "At. Bembibre",
+      "visitante": "Atlético Mansillés",
+      "fecha": "2026-09-20",
+      "hora": "12:30",
+      "canales": [
+        "9TV León"
       ]
     },
     {
@@ -5352,6 +5567,7 @@
       "canales": [
         "HBO MAX",
         "DAZN (Ver en directo)",
+        "Teledeporte",
         "RTVE Play",
         "Eurosport 1"
       ]
@@ -5723,6 +5939,19 @@
       ]
     },
     {
+      "deporte": "Hockey Patines",
+      "competicion": "Golden Cat",
+      "ronda": null,
+      "evento": "Final",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-09-20",
+      "hora": "16:30",
+      "canales": [
+        "Esport3 (Cataluña)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Segunda Federación",
       "ronda": "Grupo 1",
@@ -5905,7 +6134,8 @@
       "fecha": "2026-09-20",
       "hora": "17:30",
       "canales": [
-        "Aragón Play"
+        "Aragón Play",
+        "TV FootballClub (Acceder)"
       ]
     },
     {
@@ -5924,7 +6154,7 @@
     {
       "deporte": "Fútbol",
       "competicion": "Tercera Federación",
-      "ronda": null,
+      "ronda": "Grupo 13",
       "evento": "Mazarrón vs Atlético Santa Cruz",
       "local": "Mazarrón",
       "visitante": "Atlético Santa Cruz",
@@ -6098,7 +6328,7 @@
     {
       "deporte": "Fútbol",
       "competicion": "Tercera Federación",
-      "ronda": null,
+      "ronda": "Grupo 16",
       "evento": "CD Alfaro vs Haro Deportivo",
       "local": "CD Alfaro",
       "visitante": "Haro Deportivo",
@@ -6179,8 +6409,8 @@
       "hora": "18:30",
       "canales": [
         "DAZN (Ver en directo)",
-        "CayoTV YouTube (ver)",
         "LALIGA TV Hypermotion 2 (M59 O121): VER PARTIDO",
+        "Replay YouTube",
         "GOL (Síguelo en directo)",
         "TVG2 (Galicia)",
         "LaLiga TV M4"
@@ -6213,6 +6443,19 @@
       "canales": [
         "Aragón Play",
         "Osasuna TV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 8",
+      "evento": "Cristo Atlético vs Guijuelo",
+      "local": "Cristo Atlético",
+      "visitante": "Guijuelo",
+      "fecha": "2026-09-20",
+      "hora": "18:30",
+      "canales": [
+        "Elviphotoss YouTube"
       ]
     },
     {
@@ -6253,6 +6496,7 @@
       "canales": [
         "HBO MAX",
         "DAZN (Ver en directo)",
+        "Teledeporte",
         "RTVE Play",
         "Eurosport 1"
       ]
@@ -6517,6 +6761,19 @@
     {
       "deporte": "Fútbol",
       "competicion": "Tercera Federación",
+      "ronda": "Grupo 17",
+      "evento": "At. Monzón vs UD Fraga",
+      "local": "At. Monzón",
+      "visitante": "UD Fraga",
+      "fecha": "2026-09-20",
+      "hora": "19:00",
+      "canales": [
+        "Lacronicadeportes.es"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
       "ronda": "Grupo 9",
       "evento": "At. Porcuna vs Recreativo Granada",
       "local": "At. Porcuna",
@@ -6543,6 +6800,19 @@
     {
       "deporte": "Fútbol",
       "competicion": "Tercera Federación",
+      "ronda": "Grupo 10",
+      "evento": "CD Egabrense vs RC Portuense",
+      "local": "CD Egabrense",
+      "visitante": "RC Portuense",
+      "fecha": "2026-09-20",
+      "hora": "19:00",
+      "canales": [
+        "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
       "ronda": "Grupo 9",
       "evento": "At. Marbella Bpié. vs At. Mancha Real",
       "local": "At. Marbella Bpié.",
@@ -6563,7 +6833,8 @@
       "fecha": "2026-09-20",
       "hora": "19:00",
       "canales": [
-        "La Xarxa+"
+        "La Xarxa+",
+        "TV FootballClub (Acceder)"
       ]
     },
     {
@@ -6874,9 +7145,9 @@
       "deporte": "Fútbol",
       "competicion": "Tercera Federación",
       "ronda": "Grupo 10",
-      "evento": "Conil CF vs Cádiz CF Academy",
+      "evento": "Conil CF vs Cádiz Mirandilla",
       "local": "Conil CF",
-      "visitante": "Cádiz CF Academy",
+      "visitante": "Cádiz Mirandilla",
       "fecha": "2026-09-20",
       "hora": "20:00",
       "canales": [
