@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-09-18T03:17:06"
+    "actualizado": "2026-09-18T12:43:08"
   },
   "config": {
     "puntos_por_tier": {
@@ -1155,6 +1155,31 @@
     "Título Interino": {
       "deporte": "Boxeo",
       "tier": "C",
+      "por_revisar": true
+    },
+    "Copa Andalucía Femenina": {
+      "deporte": "Baloncesto",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "GP del Lazio": {
+      "deporte": "Ciclismo",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Giro di Campania": {
+      "deporte": "Ciclismo",
+      "tier": "A",
+      "por_revisar": true
+    },
+    "Liga Élite Cataluña": {
+      "deporte": "Fútbol",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Trofeo Ciudad de Zaragoza": {
+      "deporte": "Baloncesto",
+      "tier": "D",
       "por_revisar": true
     }
   }
