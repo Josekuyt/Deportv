@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-09-19T12:17:01",
+    "generado": "2026-09-19T18:25:27",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 518
+    "total_eventos": 529
   },
   "eventos": [
     {
@@ -2644,6 +2644,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Torneo Federal A",
+      "ronda": null,
+      "evento": "Boca Unidos vs Defensores de Vilela",
+      "local": "Boca Unidos",
+      "visitante": "Defensores de Vilela",
+      "fecha": "2026-09-19",
+      "hora": "20:30",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Liga AUF Uruguaya",
       "ronda": null,
       "evento": "CA Cerro vs Peñarol",
@@ -2653,6 +2666,20 @@
       "hora": "20:30",
       "canales": [
         "Antel TV Internacional"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Futve",
+      "ronda": null,
+      "evento": "Rayo Zuliano vs Monagas SC",
+      "local": "Rayo Zuliano",
+      "visitante": "Monagas SC",
+      "fecha": "2026-09-19",
+      "hora": "20:30",
+      "canales": [
+        "LigaFUTVE App",
+        "Liga Futve YouTube"
       ]
     },
     {
@@ -2841,6 +2868,34 @@
       "hora": "21:00",
       "canales": [
         "Antel TV Internacional"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Futve",
+      "ronda": null,
+      "evento": "Zamora FC vs Metropolitanos",
+      "local": "Zamora FC",
+      "visitante": "Metropolitanos",
+      "fecha": "2026-09-19",
+      "hora": "21:00",
+      "canales": [
+        "LigaFUTVE App",
+        "Liga Futve YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Futve",
+      "ronda": null,
+      "evento": "UCV vs Carabobo",
+      "local": "UCV",
+      "visitante": "Carabobo",
+      "fecha": "2026-09-19",
+      "hora": "21:00",
+      "canales": [
+        "LigaFUTVE App",
+        "Fanatiz (Ver en directo)"
       ]
     },
     {
@@ -3053,6 +3108,20 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Liga Futve",
+      "ronda": null,
+      "evento": "Puerto Cabello vs Portuguesa FC",
+      "local": "Puerto Cabello",
+      "visitante": "Portuguesa FC",
+      "fecha": "2026-09-19",
+      "hora": "23:00",
+      "canales": [
+        "LigaFUTVE App",
+        "Liga Futve YouTube"
+      ]
+    },
+    {
       "deporte": "Tenis",
       "competicion": "WTA Torneo de Guadalajara",
       "ronda": "WTA 500",
@@ -3195,6 +3264,19 @@
       "hora": "01:00",
       "canales": [
         "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Futve",
+      "ronda": null,
+      "evento": "La Guaira vs Deportivo Táchira",
+      "local": "La Guaira",
+      "visitante": "Deportivo Táchira",
+      "fecha": "2026-09-20",
+      "hora": "01:00",
+      "canales": [
+        "LigaFUTVE App"
       ]
     },
     {
@@ -5915,6 +5997,45 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Torneo Federal A",
+      "ronda": null,
+      "evento": "Douglas Haig vs Gimnasia y Esgrima Chivilcoy",
+      "local": "Douglas Haig",
+      "visitante": "Gimnasia y Esgrima Chivilcoy",
+      "fecha": "2026-09-20",
+      "hora": "20:00",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Torneo Federal A",
+      "ronda": null,
+      "evento": "Juventud Unida SL vs San Martín Mendoza",
+      "local": "Juventud Unida SL",
+      "visitante": "San Martín Mendoza",
+      "fecha": "2026-09-20",
+      "hora": "20:00",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Torneo Federal A",
+      "ronda": null,
+      "evento": "CA Alvarado vs Olimpo",
+      "local": "CA Alvarado",
+      "visitante": "Olimpo",
+      "fecha": "2026-09-20",
+      "hora": "20:00",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Primera C",
       "ronda": null,
       "evento": "General Lamadrid vs Leones de Rosario",
@@ -6215,6 +6336,20 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Liga Futve",
+      "ronda": null,
+      "evento": "Anzoátegui FC vs Caracas FC",
+      "local": "Anzoátegui FC",
+      "visitante": "Caracas FC",
+      "fecha": "2026-09-20",
+      "hora": "21:00",
+      "canales": [
+        "LigaFUTVE App",
+        "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Liga Colombiana",
       "ronda": null,
       "evento": "Fortaleza vs Junior",
@@ -6412,6 +6547,20 @@
       "hora": "22:00",
       "canales": [
         "Antel TV Internacional"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Futve",
+      "ronda": null,
+      "evento": "Estudiantes Mérida vs Trujillanos",
+      "local": "Estudiantes Mérida",
+      "visitante": "Trujillanos",
+      "fecha": "2026-09-20",
+      "hora": "22:00",
+      "canales": [
+        "LigaFUTVE App",
+        "Liga Futve YouTube"
       ]
     },
     {
