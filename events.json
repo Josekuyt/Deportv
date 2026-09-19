@@ -1,11 +1,24 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-09-19T03:13:26",
+    "generado": "2026-09-19T12:17:01",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
     "total_eventos": 518
   },
   "eventos": [
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Sao Paulo",
+      "ronda": "1/4 de Final",
+      "evento": "N. Podoroska vs S. Lamens",
+      "local": "N. Podoroska",
+      "visitante": "S. Lamens",
+      "fecha": "2026-09-19",
+      "hora": "00:30",
+      "canales": [
+        "WTA TV"
+      ]
+    },
     {
       "deporte": "Tenis",
       "competicion": "Copa Davis",
@@ -17,20 +30,6 @@
       "hora": "01:00",
       "canales": [
         "M+ Deportes 2 (64)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Torneo de Guadalajara",
-      "ronda": "WTA 500",
-      "evento": "C. Bucsa vs I. Jovic",
-      "local": "C. Bucsa",
-      "visitante": "I. Jovic",
-      "fecha": "2026-09-19",
-      "hora": "01:00",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -48,15 +47,16 @@
     },
     {
       "deporte": "Tenis",
-      "competicion": "WTA Torneo de Sao Paulo",
-      "ronda": "1/4 de Final",
-      "evento": "N. Podoroska vs S. Lamens",
-      "local": "N. Podoroska",
-      "visitante": "S. Lamens",
+      "competicion": "WTA Torneo de Guadalajara",
+      "ronda": "WTA 500",
+      "evento": "C. Bucsa vs I. Jovic",
+      "local": "C. Bucsa",
+      "visitante": "I. Jovic",
       "fecha": "2026-09-19",
-      "hora": "01:00",
+      "hora": "01:10",
       "canales": [
-        "WTA TV"
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -99,20 +99,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "WTA Torneo de Guadalajara",
-      "ronda": "WTA 500",
-      "evento": "L. Samsonova vs P. Stearns",
-      "local": "L. Samsonova",
-      "visitante": "P. Stearns",
-      "fecha": "2026-09-19",
-      "hora": "02:30",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "Liga 1 Perú",
       "ronda": null,
@@ -123,6 +109,20 @@
       "hora": "03:00",
       "canales": [
         "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Guadalajara",
+      "ronda": "WTA 500",
+      "evento": "L. Samsonova vs P. Stearns",
+      "local": "L. Samsonova",
+      "visitante": "P. Stearns",
+      "fecha": "2026-09-19",
+      "hora": "03:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -1166,9 +1166,9 @@
       "deporte": "Baloncesto",
       "competicion": "Supercopa Euroliga",
       "ronda": "3er Puesto",
-      "evento": "Fenerbahce Istanbul vs TBD",
+      "evento": "Fenerbahce Istanbul vs Dubai Basketball",
       "local": "Fenerbahce Istanbul",
-      "visitante": "TBD",
+      "visitante": "Dubai Basketball",
       "fecha": "2026-09-19",
       "hora": "16:00",
       "canales": [
@@ -1463,10 +1463,10 @@
     {
       "deporte": "Tenis",
       "competicion": "Open Internacional de Valencia",
-      "ronda": null,
-      "evento": "Semifinal 1 WTA 125",
-      "local": null,
-      "visitante": null,
+      "ronda": "WTA 125",
+      "evento": "C. Burel vs J. Steur",
+      "local": "C. Burel",
+      "visitante": "J. Steur",
       "fecha": "2026-09-19",
       "hora": "17:00",
       "canales": [
@@ -1741,10 +1741,10 @@
     {
       "deporte": "Tenis",
       "competicion": "WTA Torneo de Sao Paulo",
-      "ronda": null,
-      "evento": "Semifinal 1 WTA 250",
-      "local": null,
-      "visitante": null,
+      "ronda": "WTA 250",
+      "evento": "K. Quevedo vs A. Blinkova",
+      "local": "K. Quevedo",
+      "visitante": "A. Blinkova",
       "fecha": "2026-09-19",
       "hora": "18:00",
       "canales": [
@@ -2001,10 +2001,10 @@
     {
       "deporte": "Tenis",
       "competicion": "Open Internacional de Valencia",
-      "ronda": null,
-      "evento": "Semifinal 2 WTA 125",
-      "local": null,
-      "visitante": null,
+      "ronda": "WTA 125",
+      "evento": "A. Herrero Linana vs Y. Kabbaj",
+      "local": "A. Herrero Linana",
+      "visitante": "Y. Kabbaj",
       "fecha": "2026-09-19",
       "hora": "18:30",
       "canales": [
@@ -2212,9 +2212,9 @@
       "deporte": "Baloncesto",
       "competicion": "Supercopa Euroliga",
       "ronda": "Final",
-      "evento": "Olympiacos Piraeus vs TBD",
+      "evento": "Olympiacos Piraeus vs Real Madrid Baloncesto",
       "local": "Olympiacos Piraeus",
-      "visitante": "TBD",
+      "visitante": "Real Madrid Baloncesto",
       "fecha": "2026-09-19",
       "hora": "19:00",
       "canales": [
@@ -2299,6 +2299,19 @@
       "hora": "19:30",
       "canales": [
         "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Sao Paulo",
+      "ronda": "WTA 250",
+      "evento": "N. Podoroska vs P. Badosa",
+      "local": "N. Podoroska",
+      "visitante": "P. Badosa",
+      "fecha": "2026-09-19",
+      "hora": "19:30",
+      "canales": [
+        "WTA TV"
       ]
     },
     {
@@ -2549,19 +2562,6 @@
       "hora": "20:00",
       "canales": [
         "LPF Play"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Torneo de Sao Paulo",
-      "ronda": null,
-      "evento": "Semifinal 2 WTA 250",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-09-19",
-      "hora": "20:00",
-      "canales": [
-        "WTA TV"
       ]
     },
     {
@@ -3055,10 +3055,10 @@
     {
       "deporte": "Tenis",
       "competicion": "WTA Torneo de Guadalajara",
-      "ronda": null,
-      "evento": "Final WTA 500",
-      "local": null,
-      "visitante": null,
+      "ronda": "WTA 500",
+      "evento": "P. Stearns vs I. Jovic",
+      "local": "P. Stearns",
+      "visitante": "I. Jovic",
       "fecha": "2026-09-19",
       "hora": "23:00",
       "canales": [
