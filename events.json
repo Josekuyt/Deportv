@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-09-20T03:30:31",
+    "generado": "2026-09-20T12:52:14",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 315
+    "total_eventos": 318
   },
   "eventos": [
     {
@@ -135,6 +135,20 @@
       "hora": "01:00",
       "canales": [
         "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Guadalajara",
+      "ronda": "WTA 500",
+      "evento": "P. Stearns vs I. Jovic",
+      "local": "P. Stearns",
+      "visitante": "I. Jovic",
+      "fecha": "2026-09-20",
+      "hora": "01:05",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -562,6 +576,19 @@
     {
       "deporte": "Fútbol",
       "competicion": "Segunda Federación",
+      "ronda": "Grupo 3",
+      "evento": "CD Minera vs Orihuela",
+      "local": "CD Minera",
+      "visitante": "Orihuela",
+      "fecha": "2026-09-20",
+      "hora": "11:00",
+      "canales": [
+        "Web Directo"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
       "ronda": "Grupo 4",
       "evento": "Sevilla At. vs At. Sanluqueño",
       "local": "Sevilla At.",
@@ -752,6 +779,19 @@
     {
       "deporte": "Fútbol",
       "competicion": "Segunda Federación",
+      "ronda": "Grupo 3",
+      "evento": "Lorca Deportiva vs Intercity",
+      "local": "Lorca Deportiva",
+      "visitante": "Intercity",
+      "fecha": "2026-09-20",
+      "hora": "12:00",
+      "canales": [
+        "Web Directo"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
       "ronda": "Grupo 2",
       "evento": "Calamocha vs UD Logroñés B",
       "local": "Calamocha",
@@ -793,9 +833,9 @@
       "deporte": "Baloncesto",
       "competicion": "Copa Andalucía Femenina",
       "ronda": null,
-      "evento": "CAB Estepona vs TBD",
+      "evento": "CAB Estepona vs CB Sevilla",
       "local": "CAB Estepona",
-      "visitante": "TBD",
+      "visitante": "CB Sevilla",
       "fecha": "2026-09-20",
       "hora": "12:00",
       "canales": [
@@ -1064,19 +1104,6 @@
       ]
     },
     {
-      "deporte": "Baloncesto",
-      "competicion": "Amistoso",
-      "ronda": null,
-      "evento": "Monbus Obradoiro vs Unicaja Málaga",
-      "local": "Monbus Obradoiro",
-      "visitante": "Unicaja Málaga",
-      "fecha": "2026-09-20",
-      "hora": "12:30",
-      "canales": [
-        "Canal por confirmar"
-      ]
-    },
-    {
       "deporte": "Balonmano",
       "competicion": "Liga ASOBAL",
       "ronda": null,
@@ -1129,6 +1156,7 @@
         "Movistar Plus+ (M7): VER PARTIDO",
         "Orange Fútbol 3 (109)",
         "M+ Liga de Campeones (M60 O115)",
+        "LaLiga TV M4",
         "LaLiga TV M5"
       ]
     },
@@ -1171,6 +1199,19 @@
       "canales": [
         "Movistar Golf 2 (M68)",
         "Movistar Golf (M68)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
+      "ronda": "Grupo 4",
+      "evento": "UD Tamaraceite vs Recreativo Huelva",
+      "local": "UD Tamaraceite",
+      "visitante": "Recreativo Huelva",
+      "fecha": "2026-09-20",
+      "hora": "13:00",
+      "canales": [
+        "Web Directo"
       ]
     },
     {
@@ -1602,7 +1643,8 @@
       "fecha": "2026-09-20",
       "hora": "15:00",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "LaLiga TV M4"
       ]
     },
     {
@@ -2258,6 +2300,7 @@
         "LALIGA TV Hypermotion 2 (M59 O121): VER PARTIDO",
         "Replay YouTube",
         "GOL (Síguelo en directo)",
+        "TV Galicia",
         "TVG2 (Galicia)",
         "LaLiga TV M4"
       ]
