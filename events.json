@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-09-20T12:52:14",
+    "generado": "2026-09-20T18:29:21",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 318
+    "total_eventos": 327
   },
   "eventos": [
     {
@@ -31,6 +31,20 @@
       "hora": "00:00",
       "canales": [
         "Antel TV Internacional"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Futve",
+      "ronda": null,
+      "evento": "Puerto Cabello vs Portuguesa FC",
+      "local": "Puerto Cabello",
+      "visitante": "Portuguesa FC",
+      "fecha": "2026-09-20",
+      "hora": "00:00",
+      "canales": [
+        "LigaFUTVE App",
+        "Liga Futve YouTube"
       ]
     },
     {
@@ -70,19 +84,6 @@
       "hora": "01:00",
       "canales": [
         "Fanatiz (Ver en directo)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Liga Futve",
-      "ronda": null,
-      "evento": "La Guaira vs Deportivo Táchira",
-      "local": "La Guaira",
-      "visitante": "Deportivo Táchira",
-      "fecha": "2026-09-20",
-      "hora": "01:00",
-      "canales": [
-        "LigaFUTVE App"
       ]
     },
     {
@@ -292,6 +293,19 @@
       "hora": "02:00",
       "canales": [
         "Zapping Internacional"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Futve",
+      "ronda": null,
+      "evento": "La Guaira vs Deportivo Táchira",
+      "local": "La Guaira",
+      "visitante": "Deportivo Táchira",
+      "fecha": "2026-09-20",
+      "hora": "02:00",
+      "canales": [
+        "LigaFUTVE App"
       ]
     },
     {
@@ -2947,9 +2961,7 @@
       "hora": "20:00",
       "canales": [
         "TV FootballClub (Acceder)",
-        "FANPLAY TV",
-        "Primera Federación (M53 O125)",
-        "DAZN (Ver en directo)"
+        "FANPLAY TV"
       ]
     },
     {
@@ -3185,20 +3197,6 @@
     },
     {
       "deporte": "Fútbol",
-      "competicion": "Liga Futve",
-      "ronda": null,
-      "evento": "Anzoátegui FC vs Caracas FC",
-      "local": "Anzoátegui FC",
-      "visitante": "Caracas FC",
-      "fecha": "2026-09-20",
-      "hora": "21:00",
-      "canales": [
-        "LigaFUTVE App",
-        "Fanatiz (Ver en directo)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
       "competicion": "Liga Colombiana",
       "ronda": null,
       "evento": "Fortaleza vs Junior",
@@ -3402,14 +3400,28 @@
       "deporte": "Fútbol",
       "competicion": "Liga Futve",
       "ronda": null,
-      "evento": "Estudiantes Mérida vs Trujillanos",
-      "local": "Estudiantes Mérida",
-      "visitante": "Trujillanos",
+      "evento": "Zamora FC vs Metropolitanos",
+      "local": "Zamora FC",
+      "visitante": "Metropolitanos",
       "fecha": "2026-09-20",
       "hora": "22:00",
       "canales": [
         "LigaFUTVE App",
         "Liga Futve YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Futve",
+      "ronda": null,
+      "evento": "Anzoátegui FC vs Caracas FC",
+      "local": "Anzoátegui FC",
+      "visitante": "Caracas FC",
+      "fecha": "2026-09-20",
+      "hora": "22:00",
+      "canales": [
+        "LigaFUTVE App",
+        "Fanatiz (Ver en directo)"
       ]
     },
     {
@@ -3532,6 +3544,20 @@
       "hora": "23:00",
       "canales": [
         "Zapping Internacional"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Futve",
+      "ronda": null,
+      "evento": "Estudiantes Mérida vs Trujillanos",
+      "local": "Estudiantes Mérida",
+      "visitante": "Trujillanos",
+      "fecha": "2026-09-20",
+      "hora": "23:00",
+      "canales": [
+        "LigaFUTVE App",
+        "Liga Futve YouTube"
       ]
     },
     {
@@ -3851,11 +3877,24 @@
     },
     {
       "deporte": "Tenis",
+      "competicion": "WTA Torneo de Seúl",
+      "ronda": "1ª Ronda",
+      "evento": "X. Yao vs M. Joint",
+      "local": "X. Yao",
+      "visitante": "M. Joint",
+      "fecha": "2026-09-21",
+      "hora": "05:00",
+      "canales": [
+        "WTA TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
       "competicion": "WTA Torneo de Singapur",
-      "ronda": null,
-      "evento": "1ª Ronda WTA 500",
-      "local": null,
-      "visitante": null,
+      "ronda": "1ª Ronda",
+      "evento": "D. Kasatkina vs A. Sasnovich",
+      "local": "D. Kasatkina",
+      "visitante": "A. Sasnovich",
       "fecha": "2026-09-21",
       "hora": "05:00",
       "canales": [
@@ -3865,15 +3904,84 @@
     },
     {
       "deporte": "Tenis",
+      "competicion": "WTA Torneo de Singapur",
+      "ronda": "1ª Ronda",
+      "evento": "K. Mladenovic vs N. Hibino",
+      "local": "K. Mladenovic",
+      "visitante": "N. Hibino",
+      "fecha": "2026-09-21",
+      "hora": "06:30",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
       "competicion": "WTA Torneo de Seúl",
-      "ronda": null,
-      "evento": "1ª Ronda WTA 250",
-      "local": null,
-      "visitante": null,
+      "ronda": "1ª Ronda",
+      "evento": "Y. Yuan vs D. Back",
+      "local": "Y. Yuan",
+      "visitante": "D. Back",
       "fecha": "2026-09-21",
       "hora": "07:00",
       "canales": [
         "WTA TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Singapur",
+      "ronda": "1ª Ronda",
+      "evento": "R. Sramkova vs M. Chwalinska",
+      "local": "R. Sramkova",
+      "visitante": "M. Chwalinska",
+      "fecha": "2026-09-21",
+      "hora": "08:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Seúl",
+      "ronda": "1ª Ronda",
+      "evento": "D. Astakhova vs M. Linette",
+      "local": "D. Astakhova",
+      "visitante": "M. Linette",
+      "fecha": "2026-09-21",
+      "hora": "08:30",
+      "canales": [
+        "WTA TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Singapur",
+      "ronda": "1ª Ronda",
+      "evento": "K. Okamura vs L. Fernández",
+      "local": "K. Okamura",
+      "visitante": "L. Fernández",
+      "fecha": "2026-09-21",
+      "hora": "12:30",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Singapur",
+      "ronda": "1ª Ronda",
+      "evento": "S. Hunter vs J. Garland",
+      "local": "S. Hunter",
+      "visitante": "J. Garland",
+      "fecha": "2026-09-21",
+      "hora": "14:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -4000,6 +4108,19 @@
       "hora": "20:00",
       "canales": [
         "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Pro Ecuador",
+      "ronda": null,
+      "evento": "Manta FC vs Orense SC",
+      "local": "Manta FC",
+      "visitante": "Orense SC",
+      "fecha": "2026-09-21",
+      "hora": "21:00",
+      "canales": [
+        "Zapping Internacional"
       ]
     },
     {
