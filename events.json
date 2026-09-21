@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-09-21T03:25:22",
+    "generado": "2026-09-21T14:50:48",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 81
+    "total_eventos": 82
   },
   "eventos": [
     {
@@ -186,7 +186,7 @@
       "local": "X. Yao",
       "visitante": "M. Joint",
       "fecha": "2026-09-21",
-      "hora": "05:00",
+      "hora": "05:05",
       "canales": [
         "WTA TV"
       ]
@@ -199,7 +199,7 @@
       "local": "D. Kasatkina",
       "visitante": "A. Sasnovich",
       "fecha": "2026-09-21",
-      "hora": "05:00",
+      "hora": "05:10",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -213,7 +213,7 @@
       "local": "K. Mladenovic",
       "visitante": "N. Hibino",
       "fecha": "2026-09-21",
-      "hora": "06:30",
+      "hora": "06:45",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -227,7 +227,7 @@
       "local": "Y. Yuan",
       "visitante": "D. Back",
       "fecha": "2026-09-21",
-      "hora": "07:00",
+      "hora": "08:10",
       "canales": [
         "WTA TV"
       ]
@@ -240,7 +240,7 @@
       "local": "R. Sramkova",
       "visitante": "M. Chwalinska",
       "fecha": "2026-09-21",
-      "hora": "08:00",
+      "hora": "09:25",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -254,7 +254,7 @@
       "local": "D. Astakhova",
       "visitante": "M. Linette",
       "fecha": "2026-09-21",
-      "hora": "08:30",
+      "hora": "11:00",
       "canales": [
         "WTA TV"
       ]
@@ -267,21 +267,7 @@
       "local": "K. Okamura",
       "visitante": "L. Fernández",
       "fecha": "2026-09-21",
-      "hora": "12:30",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Torneo de Singapur",
-      "ronda": "1ª Ronda",
-      "evento": "S. Hunter vs J. Garland",
-      "local": "S. Hunter",
-      "visitante": "J. Garland",
-      "fecha": "2026-09-21",
-      "hora": "14:00",
+      "hora": "12:40",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -302,6 +288,33 @@
         "Teledeporte",
         "RTVE Play",
         "Eurosport 1"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Singapur",
+      "ronda": "1ª Ronda",
+      "evento": "S. Hunter vs J. Garland",
+      "local": "S. Hunter",
+      "visitante": "J. Garland",
+      "fecha": "2026-09-21",
+      "hora": "15:15",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Sao Paulo",
+      "ronda": "WTA 250",
+      "evento": "K. Quevedo vs N. Podoroska",
+      "local": "K. Quevedo",
+      "visitante": "N. Podoroska",
+      "fecha": "2026-09-21",
+      "hora": "16:00",
+      "canales": [
+        "WTA TV"
       ]
     },
     {
@@ -562,7 +575,7 @@
       "deporte": "Ciclismo",
       "competicion": "Tour de Croacia",
       "ronda": null,
-      "evento": "Etapa 1",
+      "evento": "Etapa 1 Split › Seget Donji (167 km)",
       "local": null,
       "visitante": null,
       "fecha": "2026-09-22",
@@ -849,7 +862,7 @@
       "deporte": "Ciclismo",
       "competicion": "Tour de Croacia",
       "ronda": null,
-      "evento": "Etapa 2",
+      "evento": "Etapa 2 Biograd na Moru › Novalja (114,5 km)",
       "local": null,
       "visitante": null,
       "fecha": "2026-09-23",
