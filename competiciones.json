@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-09-20T03:30:31"
+    "actualizado": "2026-09-21T03:25:22"
   },
   "config": {
     "puntos_por_tier": {
@@ -1204,6 +1204,46 @@
     },
     "Tour de Croacia": {
       "deporte": "Ciclismo",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Billie Jean King Cup": {
+      "deporte": "Tenis",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Eurocup Women": {
+      "deporte": "Baloncesto",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "FIBA Europe Cup": {
+      "deporte": "Baloncesto",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Liga Catalana Femenina": {
+      "deporte": "Baloncesto",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Premier League International Cup": {
+      "deporte": "Fútbol",
+      "tier": "S",
+      "por_revisar": true
+    },
+    "Torneo de Chengdú": {
+      "deporte": "Tenis",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Torneo de Hangzhou": {
+      "deporte": "Tenis",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "UEFA Women's Europa Cup": {
+      "deporte": "Fútbol",
       "tier": "C",
       "por_revisar": true
     }
