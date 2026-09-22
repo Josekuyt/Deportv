@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-09-22T13:06:42",
+    "generado": "2026-09-22T19:34:18",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 116
+    "total_eventos": 120
   },
   "eventos": [
     {
@@ -176,7 +176,8 @@
       "fecha": "2026-09-22",
       "hora": "09:30",
       "canales": [
-        "FIBA YouTube"
+        "FIBA YouTube",
+        "DAZN (Ver en directo)"
       ]
     },
     {
@@ -216,7 +217,8 @@
       "fecha": "2026-09-22",
       "hora": "13:30",
       "canales": [
-        "FIBA YouTube"
+        "FIBA YouTube",
+        "DAZN (Ver en directo)"
       ]
     },
     {
@@ -565,12 +567,54 @@
     {
       "deporte": "Tenis",
       "competicion": "WTA Torneo de Singapur",
-      "ronda": null,
-      "evento": "2ª Ronda WTA 500",
-      "local": null,
-      "visitante": null,
+      "ronda": "2ª Ronda",
+      "evento": "E. Mertens vs B. Krejcikova",
+      "local": "E. Mertens",
+      "visitante": "B. Krejcikova",
       "fecha": "2026-09-23",
-      "hora": "05:00",
+      "hora": "04:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Singapur",
+      "ronda": "2ª Ronda",
+      "evento": "A. Parks vs L. Fernández",
+      "local": "A. Parks",
+      "visitante": "L. Fernández",
+      "fecha": "2026-09-23",
+      "hora": "04:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Singapur",
+      "ronda": "2ª Ronda",
+      "evento": "M. Andreeva vs A. Sasnovich",
+      "local": "M. Andreeva",
+      "visitante": "A. Sasnovich",
+      "fecha": "2026-09-23",
+      "hora": "04:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Singapur",
+      "ronda": "2ª Ronda",
+      "evento": "O. Oliynykova vs M. Chwalinska",
+      "local": "O. Oliynykova",
+      "visitante": "M. Chwalinska",
+      "fecha": "2026-09-23",
+      "hora": "04:00",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -586,7 +630,8 @@
       "fecha": "2026-09-23",
       "hora": "09:30",
       "canales": [
-        "FIBA YouTube"
+        "FIBA YouTube",
+        "DAZN (Ver en directo)"
       ]
     },
     {
@@ -601,6 +646,19 @@
       "canales": [
         "Teledeporte",
         "RTVE Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "División Honor Juvenil",
+      "ronda": null,
+      "evento": "Real Madrid Academy vs Getafe Academy",
+      "local": "Real Madrid Academy",
+      "visitante": "Getafe Academy",
+      "fecha": "2026-09-23",
+      "hora": "12:00",
+      "canales": [
+        "Real Madrid TV"
       ]
     },
     {
@@ -627,7 +685,8 @@
       "fecha": "2026-09-23",
       "hora": "13:30",
       "canales": [
-        "FIBA YouTube"
+        "FIBA YouTube",
+        "DAZN (Ver en directo)"
       ]
     },
     {
@@ -1109,7 +1168,8 @@
       "fecha": "2026-09-24",
       "hora": "09:30",
       "canales": [
-        "FIBA YouTube"
+        "FIBA YouTube",
+        "DAZN (Ver en directo)"
       ]
     },
     {
@@ -1164,7 +1224,8 @@
       "fecha": "2026-09-24",
       "hora": "13:30",
       "canales": [
-        "FIBA YouTube"
+        "FIBA YouTube",
+        "DAZN (Ver en directo)"
       ]
     },
     {
