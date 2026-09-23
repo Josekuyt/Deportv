@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-09-22T13:06:42"
+    "actualizado": "2026-09-23T03:25:16"
   },
   "config": {
     "puntos_por_tier": {
@@ -60,7 +60,8 @@
       "deporte": [
         "Fútbol",
         "Baloncesto",
-        "Fútbol Sala"
+        "Fútbol Sala",
+        "Balonmano"
       ],
       "tier": "D"
     },
@@ -1270,6 +1271,31 @@
     "CONCACAF Nations League": {
       "deporte": "Fútbol",
       "tier": "S",
+      "por_revisar": true
+    },
+    "Europeo Sub-21": {
+      "deporte": "Fútbol",
+      "tier": "D",
+      "por_revisar": true
+    },
+    "IHF Super Globe": {
+      "deporte": "Balonmano",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Laver Cup": {
+      "deporte": "Tenis",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Liga U": {
+      "deporte": "Baloncesto",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Primera FEB": {
+      "deporte": "Baloncesto",
+      "tier": "C",
       "por_revisar": true
     }
   }
