@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-09-23T13:21:52",
+    "generado": "2026-09-23T19:26:39",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 160
+    "total_eventos": 163
   },
   "eventos": [
     {
@@ -66,7 +66,7 @@
       "local": "D. Back",
       "visitante": "M. Joint",
       "fecha": "2026-09-23",
-      "hora": "07:00",
+      "hora": "07:05",
       "canales": [
         "WTA TV"
       ]
@@ -79,7 +79,7 @@
       "local": "O. Oliynykova",
       "visitante": "M. Chwalinska",
       "fecha": "2026-09-23",
-      "hora": "07:00",
+      "hora": "07:05",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -93,20 +93,7 @@
       "local": "S. Báez",
       "visitante": "J. Brooksby",
       "fecha": "2026-09-23",
-      "hora": "07:05",
-      "canales": [
-        "ATP Tennis TV"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Chengdú",
-      "ronda": "1ª Ronda",
-      "evento": "V. Kopriva vs J. Hu",
-      "local": "V. Kopriva",
-      "visitante": "J. Hu",
-      "fecha": "2026-09-23",
-      "hora": "08:30",
+      "hora": "07:10",
       "canales": [
         "ATP Tennis TV"
       ]
@@ -119,7 +106,7 @@
       "local": "A. Korneeva",
       "visitante": "D. Astakhova",
       "fecha": "2026-09-23",
-      "hora": "08:30",
+      "hora": "08:25",
       "canales": [
         "WTA TV"
       ]
@@ -132,10 +119,23 @@
       "local": "E. Mertens",
       "visitante": "B. Krejcikova",
       "fecha": "2026-09-23",
-      "hora": "08:30",
+      "hora": "08:35",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Chengdú",
+      "ronda": "1ª Ronda",
+      "evento": "V. Kopriva vs J. Hu",
+      "local": "V. Kopriva",
+      "visitante": "J. Hu",
+      "fecha": "2026-09-23",
+      "hora": "09:10",
+      "canales": [
+        "ATP Tennis TV"
       ]
     },
     {
@@ -160,7 +160,7 @@
       "local": "A. Vukic",
       "visitante": "K. Jacquet",
       "fecha": "2026-09-23",
-      "hora": "10:00",
+      "hora": "10:20",
       "canales": [
         "ATP Tennis TV"
       ]
@@ -214,7 +214,7 @@
       "local": "M. Andreeva",
       "visitante": "A. Sasnovich",
       "fecha": "2026-09-23",
-      "hora": "12:30",
+      "hora": "12:40",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -242,7 +242,7 @@
       "local": "V. Royer",
       "visitante": "A. Walton",
       "fecha": "2026-09-23",
-      "hora": "13:30",
+      "hora": "13:40",
       "canales": [
         "ATP Tennis TV"
       ]
@@ -272,7 +272,7 @@
       "local": "A. Parks",
       "visitante": "L. Fernández",
       "fecha": "2026-09-23",
-      "hora": "14:00",
+      "hora": "14:15",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -528,7 +528,7 @@
       "fecha": "2026-09-23",
       "hora": "20:00",
       "canales": [
-        "Canal por confirmar"
+        "* SIN TV EN DIRECTO *"
       ]
     },
     {
@@ -708,37 +708,11 @@
       "deporte": "Tenis",
       "competicion": "WTA Torneo de Seúl",
       "ronda": "2ª Ronda",
-      "evento": "J. Ostapenko vs T. Preston",
-      "local": "J. Ostapenko",
-      "visitante": "T. Preston",
-      "fecha": "2026-09-24",
-      "hora": "03:00",
-      "canales": [
-        "WTA TV"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Torneo de Seúl",
-      "ronda": "2ª Ronda",
-      "evento": "Y. Ku vs EG. Ruse",
-      "local": "Y. Ku",
-      "visitante": "EG. Ruse",
-      "fecha": "2026-09-24",
-      "hora": "03:00",
-      "canales": [
-        "WTA TV"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Torneo de Seúl",
-      "ronda": "2ª Ronda",
       "evento": "YX. Ma vs K. Birrell",
       "local": "YX. Ma",
       "visitante": "K. Birrell",
       "fecha": "2026-09-24",
-      "hora": "03:00",
+      "hora": "05:00",
       "canales": [
         "WTA TV"
       ]
@@ -751,33 +725,47 @@
       "local": "T. Griekspoor",
       "visitante": "D. Shapovalov",
       "fecha": "2026-09-24",
-      "hora": "04:00",
+      "hora": "07:00",
       "canales": [
         "ATP Tennis TV"
       ]
     },
     {
       "deporte": "Tenis",
-      "competicion": "Torneo de Chengdú",
-      "ronda": "1ª Ronda",
-      "evento": "JM. Cerúndolo vs Y. Zhou",
-      "local": "JM. Cerúndolo",
-      "visitante": "Y. Zhou",
+      "competicion": "WTA Torneo de Seúl",
+      "ronda": "2ª Ronda",
+      "evento": "Y. Ku vs EG. Ruse",
+      "local": "Y. Ku",
+      "visitante": "EG. Ruse",
       "fecha": "2026-09-24",
-      "hora": "04:00",
+      "hora": "07:00",
       "canales": [
-        "ATP Tennis TV"
+        "WTA TV"
       ]
     },
     {
       "deporte": "Tenis",
-      "competicion": "Torneo de Chengdú",
-      "ronda": "1ª Ronda",
-      "evento": "A. Shevchenko vs H. Hurkacz",
-      "local": "A. Shevchenko",
-      "visitante": "H. Hurkacz",
+      "competicion": "WTA Torneo de Singapur",
+      "ronda": "2ª Ronda",
+      "evento": "T. Gibson vs V. Morvayova",
+      "local": "T. Gibson",
+      "visitante": "V. Morvayova",
       "fecha": "2026-09-24",
-      "hora": "04:00",
+      "hora": "07:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Hangzhou",
+      "ronda": "1ª Ronda",
+      "evento": "J. Faria vs T. Atmane",
+      "local": "J. Faria",
+      "visitante": "T. Atmane",
+      "fecha": "2026-09-24",
+      "hora": "07:30",
       "canales": [
         "ATP Tennis TV"
       ]
@@ -790,9 +778,36 @@
       "local": "J. Shang",
       "visitante": "A. Mannarino",
       "fecha": "2026-09-24",
-      "hora": "04:00",
+      "hora": "08:30",
       "canales": [
         "ATP Tennis TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Singapur",
+      "ronda": "2ª Ronda",
+      "evento": "X. Wang vs J. Garland",
+      "local": "X. Wang",
+      "visitante": "J. Garland",
+      "fecha": "2026-09-24",
+      "hora": "08:30",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Seúl",
+      "ronda": "2ª Ronda",
+      "evento": "J. Ostapenko vs T. Preston",
+      "local": "J. Ostapenko",
+      "visitante": "T. Preston",
+      "fecha": "2026-09-24",
+      "hora": "09:00",
+      "canales": [
+        "WTA TV"
       ]
     },
     {
@@ -803,62 +818,9 @@
       "local": "Y. Bu",
       "visitante": "M. Zheng",
       "fecha": "2026-09-24",
-      "hora": "04:00",
+      "hora": "09:00",
       "canales": [
         "ATP Tennis TV"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Hangzhou",
-      "ronda": "1ª Ronda",
-      "evento": "Zh. Zhang vs C. Wong",
-      "local": "Zh. Zhang",
-      "visitante": "C. Wong",
-      "fecha": "2026-09-24",
-      "hora": "04:00",
-      "canales": [
-        "ATP Tennis TV"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Hangzhou",
-      "ronda": "1ª Ronda",
-      "evento": "J. Cui vs A.D. Vallejo",
-      "local": "J. Cui",
-      "visitante": "A.D. Vallejo",
-      "fecha": "2026-09-24",
-      "hora": "04:00",
-      "canales": [
-        "ATP Tennis TV"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Hangzhou",
-      "ronda": "1ª Ronda",
-      "evento": "J. Faria vs T. Atmane",
-      "local": "J. Faria",
-      "visitante": "T. Atmane",
-      "fecha": "2026-09-24",
-      "hora": "04:00",
-      "canales": [
-        "ATP Tennis TV"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Torneo de Singapur",
-      "ronda": null,
-      "evento": "2ª Ronda WTA 500",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-09-24",
-      "hora": "05:00",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -876,6 +838,19 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Chengdú",
+      "ronda": "1ª Ronda",
+      "evento": "A. Shevchenko vs H. Hurkacz",
+      "local": "A. Shevchenko",
+      "visitante": "H. Hurkacz",
+      "fecha": "2026-09-24",
+      "hora": "10:00",
+      "canales": [
+        "ATP Tennis TV"
+      ]
+    },
+    {
       "deporte": "Automovilismo",
       "competicion": "Fórmula 1",
       "ronda": null,
@@ -887,6 +862,19 @@
       "canales": [
         "DAZN (Ver en directo)",
         "DAZN F1 (M70 O104)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Hangzhou",
+      "ronda": "1ª Ronda",
+      "evento": "J. Cui vs A.D. Vallejo",
+      "local": "J. Cui",
+      "visitante": "A.D. Vallejo",
+      "fecha": "2026-09-24",
+      "hora": "10:30",
+      "canales": [
+        "ATP Tennis TV"
       ]
     },
     {
@@ -904,6 +892,19 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Chengdú",
+      "ronda": "1ª Ronda",
+      "evento": "JM. Cerúndolo vs Y. Zhou",
+      "local": "JM. Cerúndolo",
+      "visitante": "Y. Zhou",
+      "fecha": "2026-09-24",
+      "hora": "11:30",
+      "canales": [
+        "ATP Tennis TV"
+      ]
+    },
+    {
       "deporte": "Automovilismo",
       "competicion": "FIA Fórmula 2",
       "ronda": null,
@@ -915,6 +916,20 @@
       "canales": [
         "DAZN (Ver en directo)",
         "DAZN F1 (M70 O104)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Singapur",
+      "ronda": "2ª Ronda",
+      "evento": "T. Prozorova vs A. Eala",
+      "local": "T. Prozorova",
+      "visitante": "A. Eala",
+      "fecha": "2026-09-24",
+      "hora": "12:30",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -946,6 +961,19 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Hangzhou",
+      "ronda": "1ª Ronda",
+      "evento": "Zh. Zhang vs C. Wong",
+      "local": "Zh. Zhang",
+      "visitante": "C. Wong",
+      "fecha": "2026-09-24",
+      "hora": "13:30",
+      "canales": [
+        "ATP Tennis TV"
+      ]
+    },
+    {
       "deporte": "Automovilismo",
       "competicion": "Fórmula 1",
       "ronda": null,
@@ -974,6 +1002,20 @@
         "ETB1 (País Vasco)",
         "ETBK (País Vasco)",
         "Eurosport 1"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Singapur",
+      "ronda": "2ª Ronda",
+      "evento": "M. Sakkari vs N. Hibino",
+      "local": "M. Sakkari",
+      "visitante": "N. Hibino",
+      "fecha": "2026-09-24",
+      "hora": "14:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -1245,7 +1287,7 @@
       "hora": "20:45",
       "canales": [
         "DAZN (Ver en directo)",
-        "Teledeporte",
+        "La 1 TVE",
         "RTVE Play"
       ]
     },
@@ -1337,7 +1379,7 @@
       "fecha": "2026-09-24",
       "hora": "20:45",
       "canales": [
-        "Canal por confirmar"
+        "M+ Baloncesto 5 (M196)"
       ]
     },
     {
@@ -1402,7 +1444,8 @@
       "fecha": "2026-09-25",
       "hora": "02:15",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN 2 (M73)"
       ]
     },
     {
@@ -1515,10 +1558,10 @@
     {
       "deporte": "Tenis",
       "competicion": "Billie Jean King Cup",
-      "ronda": null,
-      "evento": "Semifinal 1",
-      "local": null,
-      "visitante": null,
+      "ronda": "Semifinal 1",
+      "evento": "República Checa vs España",
+      "local": "República Checa",
+      "visitante": "España",
       "fecha": "2026-09-25",
       "hora": "11:00",
       "canales": [
@@ -1696,7 +1739,7 @@
       "fecha": "2026-09-25",
       "hora": "17:00",
       "canales": [
-        "Canal por confirmar"
+        "Liga U YouTube"
       ]
     },
     {
@@ -1793,7 +1836,7 @@
       "fecha": "2026-09-25",
       "hora": "19:00",
       "canales": [
-        "Canal por confirmar"
+        "Liga U YouTube"
       ]
     },
     {
@@ -1887,7 +1930,8 @@
       "fecha": "2026-09-25",
       "hora": "20:00",
       "canales": [
-        "Canal por confirmar"
+        "BalONcesto TV",
+        "BalONcesto TV PPV"
       ]
     },
     {
@@ -1985,7 +2029,7 @@
       "fecha": "2026-09-25",
       "hora": "20:30",
       "canales": [
-        "Canal por confirmar"
+        "Liga U YouTube"
       ]
     },
     {
@@ -1998,6 +2042,7 @@
       "fecha": "2026-09-25",
       "hora": "20:30",
       "canales": [
+        "Liga U YouTube",
         "Aragón Play"
       ]
     },
@@ -2011,7 +2056,7 @@
       "fecha": "2026-09-25",
       "hora": "20:30",
       "canales": [
-        "Canal por confirmar"
+        "Liga U YouTube"
       ]
     },
     {
@@ -2024,7 +2069,8 @@
       "fecha": "2026-09-25",
       "hora": "20:45",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
@@ -2037,7 +2083,8 @@
       "fecha": "2026-09-25",
       "hora": "20:45",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
@@ -2050,7 +2097,8 @@
       "fecha": "2026-09-25",
       "hora": "20:45",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
@@ -2063,7 +2111,8 @@
       "fecha": "2026-09-25",
       "hora": "20:45",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
@@ -2076,7 +2125,8 @@
       "fecha": "2026-09-25",
       "hora": "20:45",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
@@ -2089,7 +2139,8 @@
       "fecha": "2026-09-25",
       "hora": "20:45",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
