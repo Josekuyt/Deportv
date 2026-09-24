@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-09-24T13:13:32",
+    "generado": "2026-09-24T19:47:51",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 271
+    "total_eventos": 293
   },
   "eventos": [
     {
@@ -380,7 +380,7 @@
       "local": null,
       "visitante": null,
       "fecha": "2026-09-24",
-      "hora": "16:00",
+      "hora": "14:55",
       "canales": [
         "HBO MAX",
         "DAZN (Ver en directo)",
@@ -895,15 +895,15 @@
     },
     {
       "deporte": "Tenis",
-      "competicion": "Torneo de Hangzhou",
-      "ronda": null,
-      "evento": "2ª Ronda ATP 250",
-      "local": null,
-      "visitante": null,
+      "competicion": "WTA Torneo de Seúl",
+      "ronda": "1/4 de Final",
+      "evento": "K. Volynets vs K. Birrell",
+      "local": "K. Volynets",
+      "visitante": "K. Birrell",
       "fecha": "2026-09-25",
       "hora": "05:00",
       "canales": [
-        "ATP Tennis TV"
+        "WTA TV"
       ]
     },
     {
@@ -936,11 +936,24 @@
     },
     {
       "deporte": "Tenis",
+      "competicion": "WTA Torneo de Seúl",
+      "ronda": "1/4 de Final",
+      "evento": "A. Bondar vs EG. Ruse",
+      "local": "A. Bondar",
+      "visitante": "EG. Ruse",
+      "fecha": "2026-09-25",
+      "hora": "06:30",
+      "canales": [
+        "WTA TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
       "competicion": "Torneo de Chengdú",
-      "ronda": null,
-      "evento": "2ª Ronda ATP 250",
-      "local": null,
-      "visitante": null,
+      "ronda": "2ª Ronda",
+      "evento": "V. Kopriva vs D. Shapovalov",
+      "local": "V. Kopriva",
+      "visitante": "D. Shapovalov",
       "fecha": "2026-09-25",
       "hora": "07:00",
       "canales": [
@@ -949,13 +962,65 @@
     },
     {
       "deporte": "Tenis",
-      "competicion": "WTA Torneo de Seúl",
-      "ronda": null,
-      "evento": "1/4 de Final WTA 250",
-      "local": null,
-      "visitante": null,
+      "competicion": "Torneo de Hangzhou",
+      "ronda": "2ª Ronda",
+      "evento": "K. Jacquet vs TM. Etcheverry",
+      "local": "K. Jacquet",
+      "visitante": "TM. Etcheverry",
       "fecha": "2026-09-25",
-      "hora": "07:00",
+      "hora": "07:30",
+      "canales": [
+        "ATP Tennis TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Seúl",
+      "ronda": "1/4 de Final",
+      "evento": "T. Preston vs A. Korneeva",
+      "local": "T. Preston",
+      "visitante": "A. Korneeva",
+      "fecha": "2026-09-25",
+      "hora": "08:00",
+      "canales": [
+        "WTA TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Chengdú",
+      "ronda": "2ª Ronda",
+      "evento": "A. Tabilo vs A. Mannarino",
+      "local": "A. Tabilo",
+      "visitante": "A. Mannarino",
+      "fecha": "2026-09-25",
+      "hora": "08:30",
+      "canales": [
+        "ATP Tennis TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Hangzhou",
+      "ronda": "2ª Ronda",
+      "evento": "F. Marozsan vs T. Daniel",
+      "local": "F. Marozsan",
+      "visitante": "T. Daniel",
+      "fecha": "2026-09-25",
+      "hora": "09:00",
+      "canales": [
+        "ATP Tennis TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Seúl",
+      "ronda": "1/4 de Final",
+      "evento": "L. Tararudee vs M. Joint",
+      "local": "L. Tararudee",
+      "visitante": "M. Joint",
+      "fecha": "2026-09-25",
+      "hora": "09:30",
       "canales": [
         "WTA TV"
       ]
@@ -976,14 +1041,41 @@
     },
     {
       "deporte": "Tenis",
+      "competicion": "Torneo de Chengdú",
+      "ronda": "2ª Ronda",
+      "evento": "N. Basilashvili vs B. Van de Zandschulp",
+      "local": "N. Basilashvili",
+      "visitante": "B. Van de Zandschulp",
+      "fecha": "2026-09-25",
+      "hora": "10:30",
+      "canales": [
+        "ATP Tennis TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Hangzhou",
+      "ronda": "2ª Ronda",
+      "evento": "R. Hijikata vs A. Rublev",
+      "local": "R. Hijikata",
+      "visitante": "A. Rublev",
+      "fecha": "2026-09-25",
+      "hora": "10:30",
+      "canales": [
+        "ATP Tennis TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
       "competicion": "Billie Jean King Cup",
-      "ronda": "Semifinal 1",
+      "ronda": "Partido 1",
       "evento": "República Checa vs España",
       "local": "República Checa",
       "visitante": "España",
       "fecha": "2026-09-25",
       "hora": "11:00",
       "canales": [
+        "Teledeporte",
         "RTVE Play"
       ]
     },
@@ -1015,6 +1107,20 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Billie Jean King Cup",
+      "ronda": "Partido 2",
+      "evento": "República Checa vs España",
+      "local": "República Checa",
+      "visitante": "España",
+      "fecha": "2026-09-25",
+      "hora": "12:30",
+      "canales": [
+        "Teledeporte",
+        "RTVE Play"
+      ]
+    },
+    {
       "deporte": "Golf",
       "competicion": "Open de France",
       "ronda": null,
@@ -1026,6 +1132,19 @@
       "canales": [
         "Movistar Golf 2 (M68)",
         "Movistar Golf (M68)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Hangzhou",
+      "ronda": "2ª Ronda",
+      "evento": "J. Faria vs H. Gaston",
+      "local": "J. Faria",
+      "visitante": "H. Gaston",
+      "fecha": "2026-09-25",
+      "hora": "13:30",
+      "canales": [
+        "ATP Tennis TV"
       ]
     },
     {
@@ -1071,6 +1190,7 @@
       "canales": [
         "HBO MAX",
         "DAZN (Ver en directo)",
+        "Teledeporte",
         "RTVE Play",
         "Eurosport 2"
       ]
@@ -1100,6 +1220,19 @@
       "hora": "14:30",
       "canales": [
         "Esport3 (Cataluña)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Billie Jean King Cup",
+      "ronda": "Partido 3 (Dobles)",
+      "evento": "República Checa vs España",
+      "local": "República Checa",
+      "visitante": "España",
+      "fecha": "2026-09-25",
+      "hora": "14:30",
+      "canales": [
+        "RTVE Play"
       ]
     },
     {
@@ -1143,6 +1276,7 @@
       "canales": [
         "HBO MAX",
         "DAZN (Ver en directo)",
+        "Teledeporte",
         "RTVE Play",
         "Eurosport 2"
       ]
@@ -1157,7 +1291,8 @@
       "fecha": "2026-09-25",
       "hora": "17:00",
       "canales": [
-        "Liga U YouTube"
+        "Liga U YouTube",
+        "Marca YouTube"
       ]
     },
     {
@@ -1254,7 +1389,8 @@
       "fecha": "2026-09-25",
       "hora": "19:00",
       "canales": [
-        "Liga U YouTube"
+        "Liga U YouTube",
+        "Marca YouTube"
       ]
     },
     {
@@ -1270,6 +1406,7 @@
         "ASOBAL TV",
         "HBO MAX",
         "DAZN (Ver en directo)",
+        "RTVE Play",
         "Eurosport 2"
       ]
     },
@@ -1404,6 +1541,7 @@
       "canales": [
         "HBO MAX",
         "DAZN (Ver en directo)",
+        "Teledeporte",
         "RTVE Play",
         "Eurosport 1"
       ]
@@ -1629,6 +1767,7 @@
       "canales": [
         "HBO MAX",
         "DAZN (Ver en directo)",
+        "Teledeporte",
         "RTVE Play",
         "Eurosport 1"
       ]
@@ -1709,6 +1848,19 @@
       "hora": "01:00",
       "canales": [
         "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Indiana Hoosiers vs Northwestern",
+      "local": "Indiana Hoosiers",
+      "visitante": "Northwestern",
+      "fecha": "2026-09-26",
+      "hora": "02:00",
+      "canales": [
+        "DAZN (Ver en directo)"
       ]
     },
     {
@@ -2012,6 +2164,33 @@
         "Twitch VillarrealCF",
         "Facebook Live Villarreal CF",
         "Twitter Villarreal CF"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 4",
+      "evento": "UD Aretxabaleta vs CD Derio",
+      "local": "UD Aretxabaleta",
+      "visitante": "CD Derio",
+      "fecha": "2026-09-26",
+      "hora": "12:00",
+      "canales": [
+        "Elviphotoss YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Serie A Femminile",
+      "ronda": null,
+      "evento": "Juventus Femminile vs Napoli Femenino",
+      "local": "Juventus Femminile",
+      "visitante": "Napoli Femenino",
+      "fecha": "2026-09-26",
+      "hora": "12:30",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
@@ -2343,6 +2522,20 @@
       "visitante": null,
       "fecha": "2026-09-26",
       "hora": "15:30",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Copa de Alemania Femenina",
+      "ronda": null,
+      "evento": "VfL Bochum Frauen vs Werder Bremen Femenino",
+      "local": "VfL Bochum Frauen",
+      "visitante": "Werder Bremen Femenino",
+      "fecha": "2026-09-26",
+      "hora": "16:00",
       "canales": [
         "DAZN (Ver en directo)",
         "DAZN App Gratis (Ver gratis)"
@@ -2755,6 +2948,20 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Eredivisie Vrouwen",
+      "ronda": null,
+      "evento": "Ajax Femenino vs ADO Den Haag Women",
+      "local": "Ajax Femenino",
+      "visitante": "ADO Den Haag Women",
+      "fecha": "2026-09-26",
+      "hora": "16:30",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Liga F",
       "ronda": null,
       "evento": "Logroño United Femenino vs FC Barcelona Femenino",
@@ -2822,6 +3029,7 @@
         "M+ Vamos 2 (51)",
         "M+ Baloncesto (M66)",
         "Aragón Play",
+        "FEB TV",
         "Teledeporte",
         "RTVE Play",
         "Aragón TV"
@@ -2851,6 +3059,19 @@
       "hora": "17:55",
       "canales": [
         "FANPLAY TV"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Ohio State vs Illinois",
+      "local": "Ohio State",
+      "visitante": "Illinois",
+      "fecha": "2026-09-26",
+      "hora": "18:00",
+      "canales": [
+        "DAZN (Ver en directo)"
       ]
     },
     {
@@ -3249,6 +3470,20 @@
       ]
     },
     {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Maryland vs UCLA",
+      "local": "Maryland",
+      "visitante": "UCLA",
+      "fecha": "2026-09-26",
+      "hora": "19:30",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "Liga Endesa",
       "ronda": "Liga Regular",
@@ -3263,6 +3498,19 @@
       ]
     },
     {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Purdue vs Notre Dame",
+      "local": "Purdue",
+      "visitante": "Notre Dame",
+      "fecha": "2026-09-26",
+      "hora": "20:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "Supercopa LF Femenina",
       "ronda": "Semifinales",
@@ -3274,6 +3522,7 @@
       "canales": [
         "M+ Vamos 2 (51)",
         "M+ Baloncesto (M66)",
+        "FEB TV",
         "Teledeporte",
         "RTVE Play"
       ]
@@ -3499,7 +3748,8 @@
       "fecha": "2026-09-26",
       "hora": "20:30",
       "canales": [
-        "ASOBAL TV"
+        "ASOBAL TV",
+        "Siroko TV"
       ]
     },
     {
@@ -3662,6 +3912,32 @@
       ]
     },
     {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "UCF Knights vs TCU",
+      "local": "UCF Knights",
+      "visitante": "TCU",
+      "fecha": "2026-09-26",
+      "hora": "21:30",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Iowa State vs Utah Utes",
+      "local": "Iowa State",
+      "visitante": "Utah Utes",
+      "fecha": "2026-09-26",
+      "hora": "21:30",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
       "deporte": "Tenis",
       "competicion": "Laver Cup",
       "ronda": null,
@@ -3688,6 +3964,32 @@
       "hora": "22:00",
       "canales": [
         "CONCACAF YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Michigan State vs Nebraska",
+      "local": "Michigan State",
+      "visitante": "Nebraska",
+      "fecha": "2026-09-26",
+      "hora": "23:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Penn State vs Wisconsin",
+      "local": "Penn State",
+      "visitante": "Wisconsin",
+      "fecha": "2026-09-26",
+      "hora": "23:00",
+      "canales": [
+        "DAZN (Ver en directo)"
       ]
     },
     {
