@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-09-23T13:21:52"
+    "actualizado": "2026-09-24T03:14:35"
   },
   "config": {
     "puntos_por_tier": {
@@ -1301,6 +1301,31 @@
     "UAE President's Cup": {
       "deporte": "Fútbol",
       "tier": "C",
+      "por_revisar": true
+    },
+    "EHF Euro Cup Women": {
+      "deporte": "Balonmano",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Gallagher Premiership": {
+      "deporte": "Rugby U",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Gulf Cup of Nations": {
+      "deporte": "Fútbol",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Liga Endesa": {
+      "deporte": "Baloncesto",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Supercopa LF Femenina": {
+      "deporte": "Baloncesto",
+      "tier": "A",
       "por_revisar": true
     }
   }
