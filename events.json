@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-09-24T03:14:35",
+    "generado": "2026-09-24T13:13:32",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 256
+    "total_eventos": 271
   },
   "eventos": [
     {
@@ -53,22 +53,9 @@
       "local": "YX. Ma",
       "visitante": "K. Birrell",
       "fecha": "2026-09-24",
-      "hora": "05:00",
+      "hora": "05:05",
       "canales": [
         "WTA TV"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Chengdú",
-      "ronda": "1ª Ronda",
-      "evento": "T. Griekspoor vs D. Shapovalov",
-      "local": "T. Griekspoor",
-      "visitante": "D. Shapovalov",
-      "fecha": "2026-09-24",
-      "hora": "07:00",
-      "canales": [
-        "ATP Tennis TV"
       ]
     },
     {
@@ -79,7 +66,7 @@
       "local": "Y. Ku",
       "visitante": "EG. Ruse",
       "fecha": "2026-09-24",
-      "hora": "07:00",
+      "hora": "07:10",
       "canales": [
         "WTA TV"
       ]
@@ -92,10 +79,23 @@
       "local": "T. Gibson",
       "visitante": "V. Morvayova",
       "fecha": "2026-09-24",
-      "hora": "07:00",
+      "hora": "07:10",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Chengdú",
+      "ronda": "1ª Ronda",
+      "evento": "T. Griekspoor vs D. Shapovalov",
+      "local": "T. Griekspoor",
+      "visitante": "D. Shapovalov",
+      "fecha": "2026-09-24",
+      "hora": "07:30",
+      "canales": [
+        "ATP Tennis TV"
       ]
     },
     {
@@ -113,19 +113,6 @@
     },
     {
       "deporte": "Tenis",
-      "competicion": "Torneo de Chengdú",
-      "ronda": "1ª Ronda",
-      "evento": "J. Shang vs A. Mannarino",
-      "local": "J. Shang",
-      "visitante": "A. Mannarino",
-      "fecha": "2026-09-24",
-      "hora": "08:30",
-      "canales": [
-        "ATP Tennis TV"
-      ]
-    },
-    {
-      "deporte": "Tenis",
       "competicion": "WTA Torneo de Singapur",
       "ronda": "2ª Ronda",
       "evento": "X. Wang vs J. Garland",
@@ -136,6 +123,19 @@
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Chengdú",
+      "ronda": "1ª Ronda",
+      "evento": "J. Shang vs A. Mannarino",
+      "local": "J. Shang",
+      "visitante": "A. Mannarino",
+      "fecha": "2026-09-24",
+      "hora": "08:50",
+      "canales": [
+        "ATP Tennis TV"
       ]
     },
     {
@@ -186,7 +186,7 @@
       "local": "A. Shevchenko",
       "visitante": "H. Hurkacz",
       "fecha": "2026-09-24",
-      "hora": "10:00",
+      "hora": "10:20",
       "canales": [
         "ATP Tennis TV"
       ]
@@ -240,7 +240,7 @@
       "local": "JM. Cerúndolo",
       "visitante": "Y. Zhou",
       "fecha": "2026-09-24",
-      "hora": "11:30",
+      "hora": "11:50",
       "canales": [
         "ATP Tennis TV"
       ]
@@ -257,6 +257,19 @@
       "canales": [
         "DAZN (Ver en directo)",
         "DAZN F1 (M70 O104)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Amistoso",
+      "ronda": null,
+      "evento": "Japón vs Uruguay",
+      "local": "Japón",
+      "visitante": "Uruguay",
+      "fecha": "2026-09-24",
+      "hora": "12:05",
+      "canales": [
+        "AUF TV Premium YouTube"
       ]
     },
     {
@@ -371,6 +384,7 @@
       "canales": [
         "HBO MAX",
         "DAZN (Ver en directo)",
+        "Teledeporte",
         "RTVE Play",
         "Eurosport 1"
       ]
@@ -468,7 +482,6 @@
       "canales": [
         "HBO MAX",
         "DAZN (Ver en directo)",
-        "RTVE Play",
         "Eurosport 1"
       ]
     },
@@ -751,6 +764,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Liga Pro Serie B",
+      "ronda": null,
+      "evento": "Atlético Fútbol Club vs Cuenca Juniors",
+      "local": "Atlético Fútbol Club",
+      "visitante": "Cuenca Juniors",
+      "fecha": "2026-09-24",
+      "hora": "21:00",
+      "canales": [
+        "Zapping Internacional"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "CONCACAF Nations League",
       "ronda": null,
       "evento": "Puerto Rico vs Guyana",
@@ -771,6 +797,19 @@
       "visitante": "Independiente Reserva",
       "fecha": "2026-09-25",
       "hora": "00:00",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol Sala",
+      "competicion": "Primera División Futsal AFA",
+      "ronda": null,
+      "evento": "Barracas Central vs Ferro Carril Oeste",
+      "local": "Barracas Central",
+      "visitante": "Ferro Carril Oeste",
+      "fecha": "2026-09-25",
+      "hora": "01:30",
       "canales": [
         "LPF Play"
       ]
@@ -826,6 +865,19 @@
       "hora": "02:20",
       "canales": [
         "CONCACAF YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Colombiana",
+      "ronda": null,
+      "evento": "Atlético Nacional vs Millonarios",
+      "local": "Atlético Nacional",
+      "visitante": "Millonarios",
+      "fecha": "2026-09-25",
+      "hora": "02:30",
+      "canales": [
+        "RCN Nuestra Tele"
       ]
     },
     {
@@ -1010,10 +1062,10 @@
     {
       "deporte": "Tenis",
       "competicion": "Laver Cup",
-      "ronda": null,
-      "evento": "Partido 1",
-      "local": null,
-      "visitante": null,
+      "ronda": "Partido 1",
+      "evento": "C. Ruud vs F. Cerúndolo",
+      "local": "C. Ruud",
+      "visitante": "F. Cerúndolo",
       "fecha": "2026-09-25",
       "hora": "14:00",
       "canales": [
@@ -1076,17 +1128,16 @@
       "canales": [
         "HBO MAX",
         "DAZN (Ver en directo)",
-        "RTVE Play",
         "Eurosport 1"
       ]
     },
     {
       "deporte": "Tenis",
       "competicion": "Laver Cup",
-      "ronda": null,
-      "evento": "Partido 2",
-      "local": null,
-      "visitante": null,
+      "ronda": "Partido 2",
+      "evento": "J. Mensik vs B. Nakashima",
+      "local": "J. Mensik",
+      "visitante": "B. Nakashima",
       "fecha": "2026-09-25",
       "hora": "16:00",
       "canales": [
@@ -1344,10 +1395,10 @@
     {
       "deporte": "Tenis",
       "competicion": "Laver Cup",
-      "ronda": null,
-      "evento": "Partido 3",
-      "local": null,
-      "visitante": null,
+      "ronda": "Partido 3",
+      "evento": "R. Jódar vs A. Bublik",
+      "local": "R. Jódar",
+      "visitante": "A. Bublik",
       "fecha": "2026-09-25",
       "hora": "20:00",
       "canales": [
@@ -1367,8 +1418,7 @@
       "fecha": "2026-09-25",
       "hora": "20:05",
       "canales": [
-        "HBO MAX",
-        "RTVE Play"
+        "HBO MAX"
       ]
     },
     {
@@ -1570,10 +1620,10 @@
     {
       "deporte": "Tenis",
       "competicion": "Laver Cup",
-      "ronda": null,
-      "evento": "Partido 4 (Dobles)",
-      "local": null,
-      "visitante": null,
+      "ronda": "Partido 4 (Dobles)",
+      "evento": "C. Alcaraz | J. Menšík vs A. Bublik | T. Fritz",
+      "local": "C. Alcaraz | J. Menšík",
+      "visitante": "A. Bublik | T. Fritz",
       "fecha": "2026-09-25",
       "hora": "22:00",
       "canales": [
@@ -1603,6 +1653,19 @@
       "evento": "Ituzaingó vs Defensores Unidos",
       "local": "Ituzaingó",
       "visitante": "Defensores Unidos",
+      "fecha": "2026-09-26",
+      "hora": "00:00",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera C",
+      "ronda": null,
+      "evento": "Club Mercedes vs Puerto Nuevo",
+      "local": "Club Mercedes",
+      "visitante": "Puerto Nuevo",
       "fecha": "2026-09-26",
       "hora": "00:00",
       "canales": [
@@ -1646,6 +1709,19 @@
       "hora": "01:00",
       "canales": [
         "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Pro Serie B",
+      "ronda": null,
+      "evento": "El Nacional vs Cumbayá FC",
+      "local": "El Nacional",
+      "visitante": "Cumbayá FC",
+      "fecha": "2026-09-26",
+      "hora": "02:00",
+      "canales": [
+        "Zapping Internacional"
       ]
     },
     {
@@ -2274,6 +2350,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Liga AUF Uruguaya",
+      "ronda": null,
+      "evento": "Progreso vs Racing Club",
+      "local": "Progreso",
+      "visitante": "Racing Club",
+      "fecha": "2026-09-26",
+      "hora": "16:00",
+      "canales": [
+        "Antel TV Internacional"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "National League",
       "ronda": null,
       "evento": "Carlisle Utd. vs Woking",
@@ -2762,6 +2851,19 @@
       "hora": "17:55",
       "canales": [
         "FANPLAY TV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Uruguay",
+      "ronda": null,
+      "evento": "Uruguay Montevideo vs CA Rentistas",
+      "local": "Uruguay Montevideo",
+      "visitante": "CA Rentistas",
+      "fecha": "2026-09-26",
+      "hora": "18:00",
+      "canales": [
+        "Antel TV Internacional"
       ]
     },
     {
@@ -3256,6 +3358,71 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Primera C",
+      "ronda": null,
+      "evento": "Central Córdoba R vs Claypole",
+      "local": "Central Córdoba R",
+      "visitante": "Claypole",
+      "fecha": "2026-09-26",
+      "hora": "20:00",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera C",
+      "ronda": null,
+      "evento": "Dep. Español vs Central Ballester",
+      "local": "Dep. Español",
+      "visitante": "Central Ballester",
+      "fecha": "2026-09-26",
+      "hora": "20:00",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera C",
+      "ronda": null,
+      "evento": "Deportivo Paraguayo vs CA Lugano",
+      "local": "Deportivo Paraguayo",
+      "visitante": "CA Lugano",
+      "fecha": "2026-09-26",
+      "hora": "20:00",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Pro Serie B",
+      "ronda": null,
+      "evento": "9 de Octubre vs San Antonio",
+      "local": "9 de Octubre",
+      "visitante": "San Antonio",
+      "fecha": "2026-09-26",
+      "hora": "20:00",
+      "canales": [
+        "Zapping Internacional"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga AUF Uruguaya",
+      "ronda": null,
+      "evento": "Cerro Largo vs Nacional",
+      "local": "Cerro Largo",
+      "visitante": "Nacional",
+      "fecha": "2026-09-26",
+      "hora": "20:00",
+      "canales": [
+        "Antel TV Internacional"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Gulf Cup of Nations",
       "ronda": "Fase de grupos",
       "evento": "Omán vs Arabia Saudí",
@@ -3456,6 +3623,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Segunda Uruguay",
+      "ronda": null,
+      "evento": "River Plate M. vs Colón FC",
+      "local": "River Plate M.",
+      "visitante": "Colón FC",
+      "fecha": "2026-09-26",
+      "hora": "21:00",
+      "canales": [
+        "Antel TV Internacional"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "CONCACAF Nations League",
       "ronda": null,
       "evento": "Montserrat vs Islas Vírgenes Británicas",
@@ -3521,6 +3701,19 @@
       "hora": "23:00",
       "canales": [
         "CONCACAF YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga AUF Uruguaya",
+      "ronda": null,
+      "evento": "Peñarol vs Boston River",
+      "local": "Peñarol",
+      "visitante": "Boston River",
+      "fecha": "2026-09-26",
+      "hora": "23:30",
+      "canales": [
+        "Antel TV Internacional"
       ]
     }
   ]
