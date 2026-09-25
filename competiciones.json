@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-09-25T03:32:05"
+    "actualizado": "2026-09-25T13:15:31"
   },
   "config": {
     "puntos_por_tier": {
@@ -1350,6 +1350,36 @@
     },
     "Tour de Langkawi": {
       "deporte": "Ciclismo",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "1ª Autonómica Juvenil": {
+      "deporte": "Fútbol",
+      "tier": "D",
+      "por_revisar": true
+    },
+    "Amistoso Sub-20": {
+      "deporte": "Fútbol",
+      "tier": "D",
+      "por_revisar": true
+    },
+    "División Honor Cadete": {
+      "deporte": "Fútbol",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "División Honor Infantil": {
+      "deporte": "Fútbol",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Liga Vasca Cadete": {
+      "deporte": "Fútbol",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Superliga Infantil": {
+      "deporte": "Fútbol",
       "tier": "C",
       "por_revisar": true
     }
