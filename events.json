@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-09-25T13:15:31",
+    "generado": "2026-09-25T19:49:50",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 468
+    "total_eventos": 482
   },
   "eventos": [
     {
@@ -17,6 +17,33 @@
       "hora": "00:00",
       "canales": [
         "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Torneo Proyección",
+      "ronda": null,
+      "evento": "Independiente Rivadavia Reserva vs Gimnasia Mendoza Reserva",
+      "local": "Independiente Rivadavia Reserva",
+      "visitante": "Gimnasia Mendoza Reserva",
+      "fecha": "2026-09-25",
+      "hora": "00:00",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Pádel",
+      "competicion": "Playa del Carmen Open",
+      "ronda": null,
+      "evento": "Round Robin Pro Padel League",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-09-25",
+      "hora": "00:00",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
@@ -109,19 +136,6 @@
       "hora": "04:00",
       "canales": [
         "CONCACAF YouTube"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Torneo de Seúl",
-      "ronda": "1/4 de Final",
-      "evento": "K. Volynets vs K. Birrell",
-      "local": "K. Volynets",
-      "visitante": "K. Birrell",
-      "fecha": "2026-09-25",
-      "hora": "05:10",
-      "canales": [
-        "WTA TV"
       ]
     },
     {
@@ -245,19 +259,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "WTA Torneo de Seúl",
-      "ronda": "1/4 de Final",
-      "evento": "L. Tararudee vs M. Joint",
-      "local": "L. Tararudee",
-      "visitante": "M. Joint",
-      "fecha": "2026-09-25",
-      "hora": "10:15",
-      "canales": [
-        "WTA TV"
-      ]
-    },
-    {
       "deporte": "Automovilismo",
       "competicion": "Fórmula 1",
       "ronda": null,
@@ -309,6 +310,20 @@
       "canales": [
         "Teledeporte",
         "RTVE Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "FIFA ASEAN Cup",
+      "ronda": "Division 1",
+      "evento": "Bangladesh vs Malasia",
+      "local": "Bangladesh",
+      "visitante": "Malasia",
+      "fecha": "2026-09-25",
+      "hora": "11:00",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
@@ -482,6 +497,20 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "FIFA ASEAN Cup",
+      "ronda": "Division 1",
+      "evento": "Indonesia vs Singapur",
+      "local": "Indonesia",
+      "visitante": "Singapur",
+      "fecha": "2026-09-25",
+      "hora": "15:00",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
+      ]
+    },
+    {
       "deporte": "Motociclismo",
       "competicion": "Supersport",
       "ronda": null,
@@ -539,7 +568,22 @@
       "canales": [
         "Liga U YouTube",
         "As.com",
+        "RTVE Play",
         "Marca YouTube"
+      ]
+    },
+    {
+      "deporte": "Pádel",
+      "competicion": "Playa del Carmen Open",
+      "ronda": null,
+      "evento": "Round Robin Pro Padel League",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-09-25",
+      "hora": "17:00",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
@@ -566,7 +610,9 @@
       "fecha": "2026-09-25",
       "hora": "17:30",
       "canales": [
-        "German Football YouTube"
+        "German Football YouTube",
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
@@ -1322,6 +1368,19 @@
     },
     {
       "deporte": "Tenis",
+      "competicion": "WTA Torneo de Seúl",
+      "ronda": "1/4 de Final",
+      "evento": "K. Volynets vs K. Birrell",
+      "local": "K. Volynets",
+      "visitante": "K. Birrell",
+      "fecha": "2026-09-26",
+      "hora": "04:00",
+      "canales": [
+        "WTA TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
       "competicion": "Torneo de Hangzhou",
       "ronda": "2ª Ronda",
       "evento": "D. Medvedev vs V. Royer",
@@ -1373,6 +1432,19 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Seúl",
+      "ronda": "1/4 de Final",
+      "evento": "L. Tararudee vs M. Joint",
+      "local": "L. Tararudee",
+      "visitante": "M. Joint",
+      "fecha": "2026-09-26",
+      "hora": "04:30",
+      "canales": [
+        "WTA TV"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "CONCACAF Nations League",
       "ronda": null,
@@ -1397,6 +1469,19 @@
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Seúl",
+      "ronda": null,
+      "evento": "Semifinal 1 WTA 250",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-09-26",
+      "hora": "08:00",
+      "canales": [
+        "WTA TV"
       ]
     },
     {
@@ -1431,13 +1516,27 @@
       "deporte": "Tenis",
       "competicion": "WTA Torneo de Seúl",
       "ronda": null,
-      "evento": "Semifinal 1 WTA 250",
+      "evento": "Semifinal 2 WTA 250",
       "local": null,
       "visitante": null,
       "fecha": "2026-09-26",
       "hora": "10:00",
       "canales": [
         "WTA TV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "FIFA ASEAN Cup",
+      "ronda": "Division 1",
+      "evento": "Pakistán vs Tailandia",
+      "local": "Pakistán",
+      "visitante": "Tailandia",
+      "fecha": "2026-09-26",
+      "hora": "10:00",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
@@ -1465,19 +1564,6 @@
       "canales": [
         "DAZN (Ver en directo)",
         "DAZN App Gratis (Ver gratis)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Torneo de Seúl",
-      "ronda": null,
-      "evento": "Semifinal 2 WTA 250",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-09-26",
-      "hora": "11:30",
-      "canales": [
-        "WTA TV"
       ]
     },
     {
@@ -1763,6 +1849,20 @@
       "hora": "13:15",
       "canales": [
         "EHF TV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "FIFA ASEAN Cup",
+      "ronda": "Division 1",
+      "evento": "Vietnam vs Filipinas",
+      "local": "Vietnam",
+      "visitante": "Filipinas",
+      "fecha": "2026-09-26",
+      "hora": "13:30",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
@@ -2531,6 +2631,20 @@
       ]
     },
     {
+      "deporte": "Pádel",
+      "competicion": "Playa del Carmen Open",
+      "ronda": null,
+      "evento": "Round Robin Pro Padel League",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-09-26",
+      "hora": "17:00",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
+      ]
+    },
+    {
       "deporte": "Balonmano",
       "competicion": "Liga ASOBAL",
       "ronda": null,
@@ -2570,7 +2684,6 @@
         "M+ Baloncesto (M66)",
         "Aragón Play",
         "FEB TV",
-        "Teledeporte",
         "RTVE Play",
         "Aragón TV"
       ]
@@ -2637,7 +2750,9 @@
       "fecha": "2026-09-26",
       "hora": "18:00",
       "canales": [
-        "German Football YouTube"
+        "German Football YouTube",
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
@@ -2647,6 +2762,19 @@
       "evento": "Ohio State vs Illinois",
       "local": "Ohio State",
       "visitante": "Illinois",
+      "fecha": "2026-09-26",
+      "hora": "18:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Boxeo",
+      "competicion": "Velada",
+      "ronda": "Peso Superwelter",
+      "evento": "K. Uskov vs SM. Naeemi",
+      "local": "K. Uskov",
+      "visitante": "SM. Naeemi",
       "fecha": "2026-09-26",
       "hora": "18:00",
       "canales": [
@@ -3170,8 +3298,20 @@
         "M+ Vamos 2 (51)",
         "M+ Baloncesto (M66)",
         "FEB TV",
-        "Teledeporte",
         "RTVE Play"
+      ]
+    },
+    {
+      "deporte": "Boxeo",
+      "competicion": "Título Europeo",
+      "ronda": "Peso Pluma",
+      "evento": "L. Davies vs N. Collins",
+      "local": "L. Davies",
+      "visitante": "N. Collins",
+      "fecha": "2026-09-26",
+      "hora": "20:00",
+      "canales": [
+        "DAZN (Ver en directo)"
       ]
     },
     {
@@ -3668,6 +3808,20 @@
       ]
     },
     {
+      "deporte": "Boxeo",
+      "competicion": "Velada",
+      "ronda": "Peso Welter",
+      "evento": "H. Cejudo vs J. Walton",
+      "local": "H. Cejudo",
+      "visitante": "J. Walton",
+      "fecha": "2026-09-27",
+      "hora": "00:00",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN 2 (M73)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Primera B Argentina",
       "ronda": null,
@@ -3758,20 +3912,6 @@
       "hora": "01:00",
       "canales": [
         "DAZN (Ver en directo)"
-      ]
-    },
-    {
-      "deporte": "Boxeo",
-      "competicion": "Velada",
-      "ronda": "Peso Welter",
-      "evento": "H. Cejudo vs J. Walton",
-      "local": "H. Cejudo",
-      "visitante": "J. Walton",
-      "fecha": "2026-09-27",
-      "hora": "01:00",
-      "canales": [
-        "DAZN (Ver en directo)",
-        "DAZN 2 (M73)"
       ]
     },
     {
@@ -4154,6 +4294,33 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "FIFA ASEAN Cup",
+      "ronda": "Division 2",
+      "evento": "Camboya vs Myanmar",
+      "local": "Camboya",
+      "visitante": "Myanmar",
+      "fecha": "2026-09-27",
+      "hora": "09:00",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
+      ]
+    },
+    {
+      "deporte": "Boxeo",
+      "competicion": "Título Mundial",
+      "ronda": "Peso Gallo",
+      "evento": "T. Inoue vs T. Nasukawa",
+      "local": "T. Inoue",
+      "visitante": "T. Nasukawa",
+      "fecha": "2026-09-27",
+      "hora": "10:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
       "deporte": "Tenis",
       "competicion": "WTA Torneo de Seúl",
       "ronda": null,
@@ -4450,6 +4617,20 @@
       "hora": "12:00",
       "canales": [
         "CMMPlay (Castilla-LM)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "FIFA ASEAN Cup",
+      "ronda": "Division 2",
+      "evento": "Hong Kong vs Laos",
+      "local": "Hong Kong",
+      "visitante": "Laos",
+      "fecha": "2026-09-27",
+      "hora": "12:00",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
@@ -4973,6 +5154,20 @@
       "competicion": "Superbike",
       "ronda": null,
       "evento": "G.P. Italia (Cremona) Carrera 2",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-09-27",
+      "hora": "15:30",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
+      ]
+    },
+    {
+      "deporte": "Pádel",
+      "competicion": "Playa del Carmen Open",
+      "ronda": null,
+      "evento": "Final Pro Padel League",
       "local": null,
       "visitante": null,
       "fecha": "2026-09-27",
