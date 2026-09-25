@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-09-24T19:47:51"
+    "actualizado": "2026-09-25T03:32:05"
   },
   "config": {
     "puntos_por_tier": {
@@ -1336,6 +1336,21 @@
     "Serie A Femminile": {
       "deporte": "Fútbol",
       "tier": "A",
+      "por_revisar": true
+    },
+    "6 Horas de Fuji": {
+      "deporte": "Automovilismo",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "División de Honor": {
+      "deporte": "Rugby U",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Tour de Langkawi": {
+      "deporte": "Ciclismo",
+      "tier": "C",
       "por_revisar": true
     }
   }
