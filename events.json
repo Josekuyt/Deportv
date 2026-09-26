@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-09-26T12:40:19",
+    "generado": "2026-09-26T19:00:50",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 436
+    "total_eventos": 437
   },
   "eventos": [
     {
@@ -222,7 +222,7 @@
       "local": "K. Volynets",
       "visitante": "K. Birrell",
       "fecha": "2026-09-26",
-      "hora": "04:00",
+      "hora": "04:10",
       "canales": [
         "WTA TV"
       ]
@@ -275,7 +275,7 @@
       "local": "JM. Cerúndolo",
       "visitante": "A. Davidovich",
       "fecha": "2026-09-26",
-      "hora": "07:00",
+      "hora": "07:10",
       "canales": [
         "ATP Tennis TV"
       ]
@@ -288,7 +288,7 @@
       "local": "Q. Halys",
       "visitante": "R. Safiullin",
       "fecha": "2026-09-26",
-      "hora": "07:30",
+      "hora": "07:40",
       "canales": [
         "ATP Tennis TV"
       ]
@@ -296,12 +296,12 @@
     {
       "deporte": "Tenis",
       "competicion": "WTA Torneo de Seúl",
-      "ronda": null,
-      "evento": "Semifinal 1 WTA 250",
-      "local": null,
-      "visitante": null,
+      "ronda": "WTA 250",
+      "evento": "A. Bondar vs K. Birrell",
+      "local": "A. Bondar",
+      "visitante": "K. Birrell",
       "fecha": "2026-09-26",
-      "hora": "08:00",
+      "hora": "08:50",
       "canales": [
         "WTA TV"
       ]
@@ -314,7 +314,7 @@
       "local": "M. Damm",
       "visitante": "H. Hurkacz",
       "fecha": "2026-09-26",
-      "hora": "08:30",
+      "hora": "08:55",
       "canales": [
         "ATP Tennis TV"
       ]
@@ -334,32 +334,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Hangzhou",
-      "ronda": "2ª Ronda",
-      "evento": "Y. Bu vs K. Majchrzak",
-      "local": "Y. Bu",
-      "visitante": "K. Majchrzak",
-      "fecha": "2026-09-26",
-      "hora": "09:00",
-      "canales": [
-        "ATP Tennis TV"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Torneo de Seúl",
-      "ronda": null,
-      "evento": "Semifinal 2 WTA 250",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-09-26",
-      "hora": "10:00",
-      "canales": [
-        "WTA TV"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "FIFA ASEAN Cup",
       "ronda": "Division 1",
@@ -371,6 +345,19 @@
       "canales": [
         "DAZN (Ver en directo)",
         "DAZN App Gratis (Ver gratis)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Hangzhou",
+      "ronda": "2ª Ronda",
+      "evento": "Y. Bu vs K. Majchrzak",
+      "local": "Y. Bu",
+      "visitante": "K. Majchrzak",
+      "fecha": "2026-09-26",
+      "hora": "10:20",
+      "canales": [
+        "ATP Tennis TV"
       ]
     },
     {
@@ -394,20 +381,7 @@
       "local": "V. Vacherot",
       "visitante": "L. Harris",
       "fecha": "2026-09-26",
-      "hora": "10:30",
-      "canales": [
-        "ATP Tennis TV"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Hangzhou",
-      "ronda": "2ª Ronda",
-      "evento": "D. Medvedev vs V. Royer",
-      "local": "D. Medvedev",
-      "visitante": "V. Royer",
-      "fecha": "2026-09-26",
-      "hora": "10:30",
+      "hora": "11:05",
       "canales": [
         "ATP Tennis TV"
       ]
@@ -424,6 +398,19 @@
       "canales": [
         "DAZN (Ver en directo)",
         "DAZN App Gratis (Ver gratis)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Seúl",
+      "ronda": "WTA 250",
+      "evento": "A. Korneeva vs M. Joint",
+      "local": "A. Korneeva",
+      "visitante": "M. Joint",
+      "fecha": "2026-09-26",
+      "hora": "11:40",
+      "canales": [
+        "WTA TV"
       ]
     },
     {
@@ -484,20 +471,6 @@
         "Osasuna TV",
         "RFEF.es",
         "RFEF TV YouTube"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Torneo de Singapur",
-      "ronda": "WTA 500",
-      "evento": "L. Fernández vs M. Chwalinska",
-      "local": "L. Fernández",
-      "visitante": "M. Chwalinska",
-      "fecha": "2026-09-26",
-      "hora": "12:00",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -600,6 +573,20 @@
       "hora": "12:00",
       "canales": [
         "Real Betis TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Singapur",
+      "ronda": "WTA 500",
+      "evento": "L. Fernández vs M. Chwalinska",
+      "local": "L. Fernández",
+      "visitante": "M. Chwalinska",
+      "fecha": "2026-09-26",
+      "hora": "12:10",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -728,19 +715,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Hangzhou",
-      "ronda": "2ª Ronda",
-      "evento": "C. Wong vs A.D. Vallejo",
-      "local": "C. Wong",
-      "visitante": "A.D. Vallejo",
-      "fecha": "2026-09-26",
-      "hora": "13:30",
-      "canales": [
-        "ATP Tennis TV"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "FIFA ASEAN Cup",
       "ronda": "Division 1",
@@ -752,6 +726,19 @@
       "canales": [
         "DAZN (Ver en directo)",
         "DAZN App Gratis (Ver gratis)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Hangzhou",
+      "ronda": "2ª Ronda",
+      "evento": "D. Medvedev vs V. Royer",
+      "local": "D. Medvedev",
+      "visitante": "V. Royer",
+      "fecha": "2026-09-26",
+      "hora": "13:35",
+      "canales": [
+        "ATP Tennis TV"
       ]
     },
     {
@@ -999,6 +986,19 @@
       "canales": [
         "DAZN (Ver en directo)",
         "DAZN App Gratis (Ver gratis)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Hangzhou",
+      "ronda": "2ª Ronda",
+      "evento": "C. Wong vs A.D. Vallejo",
+      "local": "C. Wong",
+      "visitante": "A.D. Vallejo",
+      "fecha": "2026-09-26",
+      "hora": "15:40",
+      "canales": [
+        "ATP Tennis TV"
       ]
     },
     {
@@ -1572,7 +1572,6 @@
         "M+ Vamos 2 (51)",
         "M+ Baloncesto (M66)",
         "Aragón Play",
-        "FEB TV",
         "RTVE Play",
         "Aragón TV"
       ]
@@ -2186,7 +2185,6 @@
       "canales": [
         "M+ Vamos 2 (51)",
         "M+ Baloncesto (M66)",
-        "FEB TV",
         "RTVE Play"
       ]
     },
@@ -3183,6 +3181,19 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Seúl",
+      "ronda": "WTA 250",
+      "evento": "M. Joint vs K. Birrell",
+      "local": "M. Joint",
+      "visitante": "K. Birrell",
+      "fecha": "2026-09-27",
+      "hora": "08:30",
+      "canales": [
+        "WTA TV"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "FIFA ASEAN Cup",
       "ronda": "Division 2",
@@ -3211,38 +3222,11 @@
     },
     {
       "deporte": "Tenis",
-      "competicion": "WTA Torneo de Seúl",
-      "ronda": null,
-      "evento": "Final WTA 250",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-09-27",
-      "hora": "10:00",
-      "canales": [
-        "WTA TV"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Torneo de Singapur",
-      "ronda": null,
-      "evento": "Final WTA 500",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-09-27",
-      "hora": "10:00",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
       "competicion": "Billie Jean King Cup",
-      "ronda": null,
-      "evento": "Final",
-      "local": null,
-      "visitante": null,
+      "ronda": "Final",
+      "evento": "Ucrania vs República Checa",
+      "local": "Ucrania",
+      "visitante": "República Checa",
       "fecha": "2026-09-27",
       "hora": "11:00",
       "canales": [
@@ -3260,6 +3244,20 @@
       "hora": "11:00",
       "canales": [
         "UEFA Youtube"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Singapur",
+      "ronda": "WTA 500",
+      "evento": "L. Fernández vs T. Gibson",
+      "local": "L. Fernández",
+      "visitante": "T. Gibson",
+      "fecha": "2026-09-27",
+      "hora": "11:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -4209,7 +4207,6 @@
         "M+ Vamos (8 y 50)",
         "M+ #Vamos Bar (307)",
         "M+ Baloncesto (M66)",
-        "FEB TV",
         "RTVE Play"
       ]
     },
@@ -5549,6 +5546,19 @@
       "hora": "01:00",
       "canales": [
         "CONCACAF YouTube"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "WNBA",
+      "ronda": "Playoffs",
+      "evento": "Atlanta Dream vs Washington Mystics",
+      "local": "Atlanta Dream",
+      "visitante": "Washington Mystics",
+      "fecha": "2026-09-28",
+      "hora": "01:00",
+      "canales": [
+        "Amazon Prime Video (Ver en directo)"
       ]
     },
     {
