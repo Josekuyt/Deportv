@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-09-27T13:32:17",
+    "generado": "2026-09-27T19:32:36",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 332
+    "total_eventos": 330
   },
   "eventos": [
     {
@@ -1668,22 +1668,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "Laver Cup",
-      "ronda": "Partido 11",
-      "evento": "C. Alcaraz vs A. De Miñaur",
-      "local": "C. Alcaraz",
-      "visitante": "A. De Miñaur",
-      "fecha": "2026-09-27",
-      "hora": "17:00",
-      "canales": [
-        "HBO MAX",
-        "DAZN (Ver en directo)",
-        "RTVE Play",
-        "Eurosport 2"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "Segunda Federación",
       "ronda": "Grupo 1",
@@ -2358,22 +2342,6 @@
       "canales": [
         "DAZN (Ver en directo)",
         "CayoTV YouTube (ver)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Laver Cup",
-      "ronda": "Partido 12",
-      "evento": "R. Jódar vs T. Fritz",
-      "local": "R. Jódar",
-      "visitante": "T. Fritz",
-      "fecha": "2026-09-27",
-      "hora": "19:00",
-      "canales": [
-        "HBO MAX",
-        "DAZN (Ver en directo)",
-        "RTVE Play",
-        "Eurosport 2"
       ]
     },
     {
@@ -3314,10 +3282,10 @@
     {
       "deporte": "Tenis",
       "competicion": "Torneo de Chengdú",
-      "ronda": null,
-      "evento": "Semifinal 2 ATP 250",
-      "local": null,
-      "visitante": null,
+      "ronda": "ATP 250",
+      "evento": "H. Hurkacz vs D. Shapovalov",
+      "local": "H. Hurkacz",
+      "visitante": "D. Shapovalov",
       "fecha": "2026-09-28",
       "hora": "13:00",
       "canales": [
