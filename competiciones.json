@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-09-26T03:37:42"
+    "actualizado": "2026-09-27T03:48:42"
   },
   "config": {
     "puntos_por_tier": {
@@ -1401,6 +1401,26 @@
     "Amistoso Sub-17": {
       "deporte": "Fútbol",
       "tier": "D",
+      "por_revisar": true
+    },
+    "Conmebol Sub-20 Futsal": {
+      "deporte": "Fútbol Sala",
+      "tier": "D",
+      "por_revisar": true
+    },
+    "EHF European League": {
+      "deporte": "Balonmano",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Rotterdam Open": {
+      "deporte": "Pádel",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "U20 Elite League": {
+      "deporte": "Fútbol",
+      "tier": "C",
       "por_revisar": true
     }
   }
