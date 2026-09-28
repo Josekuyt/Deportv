@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-09-28T03:46:01",
+    "generado": "2026-09-28T16:27:37",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 168
+    "total_eventos": 173
   },
   "eventos": [
     {
@@ -215,6 +215,19 @@
       "hora": "03:10",
       "canales": [
         "RCN Nuestra Tele"
+      ]
+    },
+    {
+      "deporte": "Ciclismo",
+      "competicion": "Tour de Langkawi",
+      "ronda": null,
+      "evento": "Etapa 2 Taiping › Gunung Jerai (145,6 km)",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-09-28",
+      "hora": "07:00",
+      "canales": [
+        "Le Tour De Langkawi YouTube"
       ]
     },
     {
@@ -679,6 +692,19 @@
       ]
     },
     {
+      "deporte": "Ciclismo",
+      "competicion": "Tour de Langkawi",
+      "ronda": null,
+      "evento": "Etapa 3 Sungai Petani › Kuala Kangsar (189,7 km)",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-09-29",
+      "hora": "03:00",
+      "canales": [
+        "Le Tour De Langkawi YouTube"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "CONCACAF Nations League",
       "ronda": null,
@@ -721,24 +747,25 @@
     {
       "deporte": "Tenis",
       "competicion": "Torneo de Chengdú",
-      "ronda": null,
-      "evento": "Final ATP 250",
-      "local": null,
-      "visitante": null,
+      "ronda": "ATP 250",
+      "evento": "H. Hurkacz vs A. Davidovich",
+      "local": "H. Hurkacz",
+      "visitante": "A. Davidovich",
       "fecha": "2026-09-29",
       "hora": "13:00",
       "canales": [
         "ATP Tennis TV",
+        "Movistar Plus+ (M7): VER PARTIDO",
         "M+ Deportes (63)"
       ]
     },
     {
       "deporte": "Tenis",
       "competicion": "Torneo de Hangzhou",
-      "ronda": null,
-      "evento": "Final ATP 250",
-      "local": null,
-      "visitante": null,
+      "ronda": "ATP 250",
+      "evento": "D. Medvedev vs A. Rublev",
+      "local": "D. Medvedev",
+      "visitante": "A. Rublev",
       "fecha": "2026-09-29",
       "hora": "13:30",
       "canales": [
@@ -931,6 +958,19 @@
       "hora": "19:00",
       "canales": [
         "Canal por confirmar"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Copa de la Reina",
+      "ronda": "2ª Ronda",
+      "evento": "Huesca Femenino vs Osasuna Femenino",
+      "local": "Huesca Femenino",
+      "visitante": "Osasuna Femenino",
+      "fecha": "2026-09-29",
+      "hora": "19:00",
+      "canales": [
+        "Aragón Play"
       ]
     },
     {
@@ -1482,19 +1522,6 @@
       ]
     },
     {
-      "deporte": "Fútbol",
-      "competicion": "Copa RFEF",
-      "ronda": "1/4 de Final",
-      "evento": "Navalcarnero vs Real Murcia",
-      "local": "Navalcarnero",
-      "visitante": "Real Murcia",
-      "fecha": "2026-09-30",
-      "hora": "02:00",
-      "canales": [
-        "Canal por confirmar"
-      ]
-    },
-    {
       "deporte": "MMA",
       "competicion": "Dana White Contender Series",
       "ronda": null,
@@ -1505,6 +1532,20 @@
       "hora": "02:00",
       "canales": [
         "HBO MAX"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "WNBA",
+      "ronda": "Playoffs",
+      "evento": "New York Liberty vs Minnesota Lynx",
+      "local": "New York Liberty",
+      "visitante": "Minnesota Lynx",
+      "fecha": "2026-09-30",
+      "hora": "02:30",
+      "canales": [
+        "Teledeporte",
+        "RTVE Play"
       ]
     },
     {
@@ -1545,6 +1586,19 @@
       "hora": "04:00",
       "canales": [
         "CONCACAF YouTube"
+      ]
+    },
+    {
+      "deporte": "Ciclismo",
+      "competicion": "Tour de Langkawi",
+      "ronda": null,
+      "evento": "Etapa 4 Meru Raya › Cameron Highlands (142,3 km)",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-09-30",
+      "hora": "04:30",
+      "canales": [
+        "Le Tour De Langkawi YouTube"
       ]
     },
     {
@@ -1788,7 +1842,8 @@
       "fecha": "2026-09-30",
       "hora": "18:45",
       "canales": [
-        "EHF TV"
+        "EHF TV",
+        "Esport3 (Cataluña)"
       ]
     },
     {
@@ -1927,9 +1982,22 @@
       "deporte": "Baloncesto",
       "competicion": "Euroliga Femenina",
       "ronda": "Fase de Clasificación",
-      "evento": "Spar Girona vs TBD",
+      "evento": "Spar Girona vs Emlak Konut SK",
       "local": "Spar Girona",
-      "visitante": "TBD",
+      "visitante": "Emlak Konut SK",
+      "fecha": "2026-09-30",
+      "hora": "20:00",
+      "canales": [
+        "Esport3 (Cataluña)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Copa RFEF",
+      "ronda": "1/4 de Final",
+      "evento": "Navalcarnero vs Real Murcia",
+      "local": "Navalcarnero",
+      "visitante": "Real Murcia",
       "fecha": "2026-09-30",
       "hora": "20:00",
       "canales": [
