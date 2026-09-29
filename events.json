@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-09-29T04:20:47",
+    "generado": "2026-09-29T14:37:33",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 182
+    "total_eventos": 187
   },
   "eventos": [
     {
@@ -231,7 +231,8 @@
       "hora": "17:30",
       "canales": [
         "DAZN (Ver en directo)",
-        "DAZN App Gratis (Ver gratis)"
+        "DAZN App Gratis (Ver gratis)",
+        "German Football YouTube"
       ]
     },
     {
@@ -517,6 +518,32 @@
       "evento": "At. Rafaela Reserva vs Ferro Carril Oeste Reserva",
       "local": "At. Rafaela Reserva",
       "visitante": "Ferro Carril Oeste Reserva",
+      "fecha": "2026-09-29",
+      "hora": "20:00",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Torneo Promocional Amateur",
+      "ronda": null,
+      "evento": "Deportivo Metalúrgico vs SAT",
+      "local": "Deportivo Metalúrgico",
+      "visitante": "SAT",
+      "fecha": "2026-09-29",
+      "hora": "20:00",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Torneo Promocional Amateur",
+      "ronda": null,
+      "evento": "Uribelarrea FC vs Defensores de Glew",
+      "local": "Uribelarrea FC",
+      "visitante": "Defensores de Glew",
       "fecha": "2026-09-29",
       "hora": "20:00",
       "canales": [
@@ -930,6 +957,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Torneo BetPlay DIMAYOR",
+      "ronda": null,
+      "evento": "Unión Magdalena vs Real Cartagena",
+      "local": "Unión Magdalena",
+      "visitante": "Real Cartagena",
+      "fecha": "2026-09-30",
+      "hora": "01:00",
+      "canales": [
+        "Win Sports TV YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "CONCACAF Nations League",
       "ronda": null,
       "evento": "Anguila vs Aruba",
@@ -939,6 +979,32 @@
       "hora": "01:00",
       "canales": [
         "CONCACAF YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol Sala",
+      "competicion": "Primera División Futsal AFA",
+      "ronda": null,
+      "evento": "América del Sud FS vs Newell's Old Boys FS",
+      "local": "América del Sud FS",
+      "visitante": "Newell's Old Boys FS",
+      "fecha": "2026-09-30",
+      "hora": "01:00",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol Sala",
+      "competicion": "Primera División Futsal AFA",
+      "ronda": null,
+      "evento": "Club Jorge Newbery FS vs Barracas Central FS",
+      "local": "Club Jorge Newbery FS",
+      "visitante": "Barracas Central FS",
+      "fecha": "2026-09-30",
+      "hora": "01:30",
+      "canales": [
+        "LPF Play"
       ]
     },
     {
@@ -1183,7 +1249,8 @@
       "canales": [
         "DAZN (Ver en directo)",
         "DAZN App Gratis (Ver gratis)",
-        "ProSieben MAXX (M+ Astra)"
+        "ProSieben MAXX (M+ Astra)",
+        "German Football YouTube"
       ]
     },
     {
@@ -1952,7 +2019,8 @@
       "hora": "16:00",
       "canales": [
         "DAZN (Ver en directo)",
-        "DAZN App Gratis (Ver gratis)"
+        "DAZN App Gratis (Ver gratis)",
+        "German Football YouTube"
       ]
     },
     {
@@ -2279,7 +2347,7 @@
     {
       "deporte": "Fútbol",
       "competicion": "UEFA Nations League",
-      "ronda": "Fase de grupos",
+      "ronda": "Das Spiel",
       "evento": "República Irlanda vs Austria",
       "local": "República Irlanda",
       "visitante": "Austria",
