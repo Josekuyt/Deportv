@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-09-28T03:46:01"
+    "actualizado": "2026-09-29T04:20:47"
   },
   "config": {
     "puntos_por_tier": {
@@ -1445,6 +1445,21 @@
     },
     "WTA Pekín": {
       "deporte": "Tenis",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Alfred Dunhill Links Championship": {
+      "deporte": "Golf",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Bank of Utah Championship": {
+      "deporte": "Golf",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Black Desert Champions": {
+      "deporte": "Golf",
       "tier": "C",
       "por_revisar": true
     }
