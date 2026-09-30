@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-09-29T04:20:47"
+    "actualizado": "2026-09-30T04:04:21"
   },
   "config": {
     "puntos_por_tier": {
@@ -1024,7 +1024,10 @@
       "por_revisar": true
     },
     "Copa Euskadi": {
-      "deporte": "Baloncesto",
+      "deporte": [
+        "Baloncesto",
+        "Fútbol"
+      ],
       "tier": "D",
       "por_revisar": true
     },
@@ -1461,6 +1464,21 @@
     "Black Desert Champions": {
       "deporte": "Golf",
       "tier": "C",
+      "por_revisar": true
+    },
+    "Campeonato de Europa": {
+      "deporte": "Ciclismo",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "LaLiga Futures": {
+      "deporte": "Fútbol",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Trofeo Antonio Puerta": {
+      "deporte": "Fútbol",
+      "tier": "D",
       "por_revisar": true
     }
   }
