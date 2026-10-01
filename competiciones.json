@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-09-30T04:04:21"
+    "actualizado": "2026-10-01T04:16:20"
   },
   "config": {
     "puntos_por_tier": {
@@ -1479,6 +1479,41 @@
     "Trofeo Antonio Puerta": {
       "deporte": "Fútbol",
       "tier": "D",
+      "por_revisar": true
+    },
+    "Cholet - Pays de la Loire": {
+      "deporte": "Ciclismo",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Giro dell'Emilia": {
+      "deporte": "Ciclismo",
+      "tier": "A",
+      "por_revisar": true
+    },
+    "Liga Femenina Endesa": {
+      "deporte": "Baloncesto",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Rafa Nadal Academy Slam": {
+      "deporte": "Tenis",
+      "tier": "D",
+      "por_revisar": true
+    },
+    "Sparkassen Münsterland Giro": {
+      "deporte": "Ciclismo",
+      "tier": "A",
+      "por_revisar": true
+    },
+    "Trofeo de Vallecas": {
+      "deporte": "Fútbol",
+      "tier": "D",
+      "por_revisar": true
+    },
+    "Título Norteamericano Femenino": {
+      "deporte": "Boxeo",
+      "tier": "C",
       "por_revisar": true
     }
   }
