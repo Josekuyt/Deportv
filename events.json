@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-10-01T04:16:20",
+    "generado": "2026-10-01T15:06:12",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 310
+    "total_eventos": 334
   },
   "eventos": [
     {
@@ -94,7 +94,7 @@
       "local": "T. Fritz",
       "visitante": "J. Munar",
       "fecha": "2026-10-01",
-      "hora": "04:00",
+      "hora": "04:10",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 2 (64)"
@@ -108,7 +108,7 @@
       "local": "L. Darderi",
       "visitante": "C. Ruud",
       "fecha": "2026-10-01",
-      "hora": "04:00",
+      "hora": "04:10",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 4 (66)"
@@ -135,10 +135,9 @@
       "local": "A. De Miñaur",
       "visitante": "M. Navone",
       "fecha": "2026-10-01",
-      "hora": "05:00",
+      "hora": "05:10",
       "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes 5 (192)"
+        "ATP Tennis TV"
       ]
     },
     {
@@ -149,24 +148,10 @@
       "local": "Q. Zheng",
       "visitante": "H. Shi",
       "fecha": "2026-10-01",
-      "hora": "05:00",
+      "hora": "05:10",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Tokio",
-      "ronda": "1ª Ronda",
-      "evento": "K. Nishikori vs F. Tiafoe",
-      "local": "K. Nishikori",
-      "visitante": "F. Tiafoe",
-      "fecha": "2026-10-01",
-      "hora": "05:30",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -177,7 +162,7 @@
       "local": "H. Rune",
       "visitante": "K. Jacquet",
       "fecha": "2026-10-01",
-      "hora": "05:30",
+      "hora": "06:15",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 4 (66)"
@@ -185,30 +170,16 @@
     },
     {
       "deporte": "Tenis",
-      "competicion": "Torneo de Pekín",
+      "competicion": "Torneo de Tokio",
       "ronda": "1ª Ronda",
-      "evento": "R. Safiullin vs F. Cobolli",
-      "local": "R. Safiullin",
-      "visitante": "F. Cobolli",
+      "evento": "K. Nishikori vs F. Tiafoe",
+      "local": "K. Nishikori",
+      "visitante": "F. Tiafoe",
       "fecha": "2026-10-01",
-      "hora": "06:30",
+      "hora": "07:30",
       "canales": [
         "ATP Tennis TV",
-        "M+ Deportes 3 (65)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Pekín",
-      "ronda": "1ª Ronda",
-      "evento": "P. Badosa vs D. Kasatkina",
-      "local": "P. Badosa",
-      "visitante": "D. Kasatkina",
-      "fecha": "2026-10-01",
-      "hora": "06:30",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -219,21 +190,7 @@
       "local": "J. Lehecka",
       "visitante": "Z. Bergs",
       "fecha": "2026-10-01",
-      "hora": "07:00",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes 4 (66)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Tokio",
-      "ronda": "1ª Ronda",
-      "evento": "D. Shapovalov vs S. Shimabukuro",
-      "local": "D. Shapovalov",
-      "visitante": "S. Shimabukuro",
-      "fecha": "2026-10-01",
-      "hora": "08:00",
+      "hora": "07:30",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 4 (66)"
@@ -243,11 +200,11 @@
       "deporte": "Tenis",
       "competicion": "WTA Pekín",
       "ronda": "1ª Ronda",
-      "evento": "Y. Shao vs A. Zakharova",
-      "local": "Y. Shao",
-      "visitante": "A. Zakharova",
+      "evento": "P. Badosa vs D. Kasatkina",
+      "local": "P. Badosa",
+      "visitante": "D. Kasatkina",
       "fecha": "2026-10-01",
-      "hora": "08:00",
+      "hora": "07:30",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -255,28 +212,13 @@
     },
     {
       "deporte": "Tenis",
-      "competicion": "Torneo de Tokio",
-      "ronda": "1ª Ronda",
-      "evento": "C. Alcaraz vs A. Michelsen",
-      "local": "C. Alcaraz",
-      "visitante": "A. Michelsen",
-      "fecha": "2026-10-01",
-      "hora": "09:00",
-      "canales": [
-        "ATP Tennis TV",
-        "Movistar Plus+ (M7): VER PARTIDO",
-        "M+ Deportes 2 (64)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
       "competicion": "Torneo de Pekín",
       "ronda": "1ª Ronda",
-      "evento": "A. Zverev vs C. Norrie",
-      "local": "A. Zverev",
-      "visitante": "C. Norrie",
+      "evento": "R. Safiullin vs F. Cobolli",
+      "local": "R. Safiullin",
+      "visitante": "F. Cobolli",
       "fecha": "2026-10-01",
-      "hora": "09:00",
+      "hora": "08:15",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 3 (65)"
@@ -299,11 +241,26 @@
       "deporte": "Tenis",
       "competicion": "Torneo de Tokio",
       "ronda": "1ª Ronda",
-      "evento": "A. Davidovich vs M. Berrettini",
-      "local": "A. Davidovich",
-      "visitante": "M. Berrettini",
+      "evento": "C. Alcaraz vs A. Michelsen",
+      "local": "C. Alcaraz",
+      "visitante": "A. Michelsen",
       "fecha": "2026-10-01",
-      "hora": "09:30",
+      "hora": "09:45",
+      "canales": [
+        "ATP Tennis TV",
+        "Movistar Plus+ (M7): VER PARTIDO",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Tokio",
+      "ronda": "1ª Ronda",
+      "evento": "D. Shapovalov vs S. Shimabukuro",
+      "local": "D. Shapovalov",
+      "visitante": "S. Shimabukuro",
+      "fecha": "2026-10-01",
+      "hora": "09:55",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 4 (66)"
@@ -311,16 +268,44 @@
     },
     {
       "deporte": "Tenis",
-      "competicion": "Torneo de Tokio",
+      "competicion": "Torneo de Pekín",
       "ronda": "1ª Ronda",
-      "evento": "A.D. Vallejo vs R. Jódar",
-      "local": "A.D. Vallejo",
-      "visitante": "R. Jódar",
+      "evento": "A. Zverev vs C. Norrie",
+      "local": "A. Zverev",
+      "visitante": "C. Norrie",
       "fecha": "2026-10-01",
-      "hora": "10:30",
+      "hora": "10:10",
       "canales": [
         "ATP Tennis TV",
-        "M+ Deportes 2 (64)"
+        "M+ Deportes 3 (65)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Pekín",
+      "ronda": "1ª Ronda",
+      "evento": "Y. Shao vs A. Zakharova",
+      "local": "Y. Shao",
+      "visitante": "A. Zakharova",
+      "fecha": "2026-10-01",
+      "hora": "10:25",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Tokio",
+      "ronda": "1ª Ronda",
+      "evento": "A. Davidovich vs M. Berrettini",
+      "local": "A. Davidovich",
+      "visitante": "M. Berrettini",
+      "fecha": "2026-10-01",
+      "hora": "11:30",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 4 (66)"
       ]
     },
     {
@@ -331,7 +316,7 @@
       "local": "A. Parks",
       "visitante": "L. Zhu",
       "fecha": "2026-10-01",
-      "hora": "11:00",
+      "hora": "11:45",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -352,16 +337,16 @@
     },
     {
       "deporte": "Tenis",
-      "competicion": "Torneo de Pekín",
+      "competicion": "Torneo de Tokio",
       "ronda": "1ª Ronda",
-      "evento": "L. Tien vs H. Hurkacz",
-      "local": "L. Tien",
-      "visitante": "H. Hurkacz",
+      "evento": "A.D. Vallejo vs R. Jódar",
+      "local": "A.D. Vallejo",
+      "visitante": "R. Jódar",
       "fecha": "2026-10-01",
-      "hora": "13:00",
+      "hora": "12:35",
       "canales": [
         "ATP Tennis TV",
-        "M+ Deportes 5 (192)"
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -385,10 +370,23 @@
       "local": "E. Lys",
       "visitante": "X. Sun",
       "fecha": "2026-10-01",
-      "hora": "13:00",
+      "hora": "13:10",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Pekín",
+      "ronda": "1ª Ronda",
+      "evento": "L. Tien vs H. Hurkacz",
+      "local": "L. Tien",
+      "visitante": "H. Hurkacz",
+      "fecha": "2026-10-01",
+      "hora": "13:30",
+      "canales": [
+        "ATP Tennis TV"
       ]
     },
     {
@@ -427,7 +425,7 @@
       "local": "A. Bublik",
       "visitante": "J. Mensik",
       "fecha": "2026-10-01",
-      "hora": "14:30",
+      "hora": "14:40",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 3 (65)"
@@ -994,6 +992,19 @@
       ]
     },
     {
+      "deporte": "Fútbol Sala",
+      "competicion": "Primera División Futsal AFA",
+      "ronda": null,
+      "evento": "CSD Pinocho vs San Lorenzo Futsal",
+      "local": "CSD Pinocho",
+      "visitante": "San Lorenzo Futsal",
+      "fecha": "2026-10-02",
+      "hora": "01:30",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "CONCACAF Nations League",
       "ronda": null,
@@ -1031,6 +1042,19 @@
       "canales": [
         "DAZN (Ver en directo)",
         "DAZN 2 (M73)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Colombiana",
+      "ronda": null,
+      "evento": "Inter Bogotá vs Once Caldas",
+      "local": "Inter Bogotá",
+      "visitante": "Once Caldas",
+      "fecha": "2026-10-02",
+      "hora": "03:00",
+      "canales": [
+        "RCN Nuestra Tele"
       ]
     },
     {
@@ -1512,6 +1536,20 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Bundesliga Femenina",
+      "ronda": null,
+      "evento": "Bayer Leverkusen Femenino vs Werder Bremen Femenino",
+      "local": "Bayer Leverkusen Femenino",
+      "visitante": "Werder Bremen Femenino",
+      "fecha": "2026-10-02",
+      "hora": "18:30",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "LaLiga Futures",
       "ronda": "Fase de grupos",
       "evento": "At. Madrid Academy vs Getafe Academy",
@@ -1661,7 +1699,7 @@
       "fecha": "2026-10-02",
       "hora": "19:00",
       "canales": [
-        "M+ Baloncesto 2 (M67)"
+        "M+ Baloncesto (M66)"
       ]
     },
     {
@@ -1676,6 +1714,32 @@
       "canales": [
         "DAZN (Ver en directo)",
         "DAZN App Gratis (Ver gratis)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Campeonato Femenino",
+      "ronda": null,
+      "evento": "Ferro Carril Oeste Femenino vs Unión Santa Fe Femenino",
+      "local": "Ferro Carril Oeste Femenino",
+      "visitante": "Unión Santa Fe Femenino",
+      "fecha": "2026-10-02",
+      "hora": "19:30",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Campeonato Femenino",
+      "ronda": null,
+      "evento": "Racing Avellaneda Femenino vs Belgrano Femenino",
+      "local": "Racing Avellaneda Femenino",
+      "visitante": "Belgrano Femenino",
+      "fecha": "2026-10-02",
+      "hora": "19:30",
+      "canales": [
+        "LPF Play"
       ]
     },
     {
@@ -1702,6 +1766,19 @@
       "hora": "19:45",
       "canales": [
         "M+ Baloncesto 4 (M195)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Campeonato Femenino",
+      "ronda": null,
+      "evento": "San Lorenzo Femenino vs CA Huracán Femenino",
+      "local": "San Lorenzo Femenino",
+      "visitante": "CA Huracán Femenino",
+      "fecha": "2026-10-02",
+      "hora": "20:00",
+      "canales": [
+        "LPF Play"
       ]
     },
     {
@@ -1838,6 +1915,7 @@
       "hora": "20:30",
       "canales": [
         "Movistar Plus+ (M7): VER PARTIDO",
+        "M+ Baloncesto 2 (M67)",
         "M+ Baloncesto (M66)"
       ]
     },
@@ -2021,45 +2099,6 @@
     },
     {
       "deporte": "Fútbol",
-      "competicion": "Campeonato Femenino",
-      "ronda": null,
-      "evento": "Ferro Carril Oeste Femenino vs Unión Santa Fe Femenino",
-      "local": "Ferro Carril Oeste Femenino",
-      "visitante": "Unión Santa Fe Femenino",
-      "fecha": "2026-10-02",
-      "hora": "22:00",
-      "canales": [
-        "LPF Play"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Campeonato Femenino",
-      "ronda": null,
-      "evento": "Racing Avellaneda Femenino vs Belgrano Femenino",
-      "local": "Racing Avellaneda Femenino",
-      "visitante": "Belgrano Femenino",
-      "fecha": "2026-10-02",
-      "hora": "22:00",
-      "canales": [
-        "LPF Play"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Campeonato Femenino",
-      "ronda": null,
-      "evento": "San Lorenzo Femenino vs CA Huracán Femenino",
-      "local": "San Lorenzo Femenino",
-      "visitante": "CA Huracán Femenino",
-      "fecha": "2026-10-02",
-      "hora": "22:00",
-      "canales": [
-        "LPF Play"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
       "competicion": "CONCACAF Nations League",
       "ronda": null,
       "evento": "San Cristóbal y Nieves vs Cuba",
@@ -2082,6 +2121,32 @@
       "hora": "23:00",
       "canales": [
         "Movistar Golf (M68)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Liga Sudamericana",
+      "ronda": null,
+      "evento": "Olimpia Kings vs Mogi das Cruzes Basquete",
+      "local": "Olimpia Kings",
+      "visitante": "Mogi das Cruzes Basquete",
+      "fecha": "2026-10-02",
+      "hora": "23:10",
+      "canales": [
+        "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera C",
+      "ronda": null,
+      "evento": "Cambaceres vs Victoriano Arenas",
+      "local": "Cambaceres",
+      "visitante": "Victoriano Arenas",
+      "fecha": "2026-10-02",
+      "hora": "23:30",
+      "canales": [
+        "LPF Play"
       ]
     },
     {
@@ -2120,6 +2185,7 @@
       "fecha": "2026-10-03",
       "hora": "00:15",
       "canales": [
+        "Fanatiz (Ver en directo)",
         "M+ Liga de Campeones (M60 O115)"
       ]
     },
@@ -2136,6 +2202,7 @@
         "M+ Vamos (8 y 50)",
         "M+ #Vamos Bar (307)",
         "M+ #Vamos Bar 2 (308)",
+        "M+ LALIGA 2 (M57 O112)",
         "M+ Liga de Campeones 2 (M61 O117)"
       ]
     },
@@ -2203,6 +2270,58 @@
       "hora": "02:00",
       "canales": [
         "CONCACAF YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera División Argentina",
+      "ronda": "Torneo Clausura",
+      "evento": "Boca Juniors vs Unión Santa Fe",
+      "local": "Boca Juniors",
+      "visitante": "Unión Santa Fe",
+      "fecha": "2026-10-03",
+      "hora": "02:30",
+      "canales": [
+        "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera División Argentina",
+      "ronda": "Torneo Clausura",
+      "evento": "Independiente Rivadavia vs Gimnasia LP",
+      "local": "Independiente Rivadavia",
+      "visitante": "Gimnasia LP",
+      "fecha": "2026-10-03",
+      "hora": "02:30",
+      "canales": [
+        "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Liga Sudamericana",
+      "ronda": null,
+      "evento": "Independiente de Oliva vs Club Importadora Alvarado",
+      "local": "Independiente de Oliva",
+      "visitante": "Club Importadora Alvarado",
+      "fecha": "2026-10-03",
+      "hora": "02:40",
+      "canales": [
+        "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Colombiana",
+      "ronda": null,
+      "evento": "Deportivo Cali vs Alianza",
+      "local": "Deportivo Cali",
+      "visitante": "Alianza",
+      "fecha": "2026-10-03",
+      "hora": "02:45",
+      "canales": [
+        "RCN Nuestra Tele"
       ]
     },
     {
@@ -2790,7 +2909,8 @@
       "fecha": "2026-10-03",
       "hora": "15:00",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
@@ -2851,6 +2971,19 @@
         "M+ Vamos (8 y 50)",
         "M+ #Vamos Bar (307)",
         "M+ Liga de Campeones (M60 O115)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga AUF Uruguaya",
+      "ronda": null,
+      "evento": "Liverpool FC vs Progreso",
+      "local": "Liverpool FC",
+      "visitante": "Progreso",
+      "fecha": "2026-10-03",
+      "hora": "16:00",
+      "canales": [
+        "Antel TV Internacional"
       ]
     },
     {
@@ -3333,6 +3466,20 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Bundesliga Femenina",
+      "ronda": null,
+      "evento": "Eintracht Frankfurt Femenino vs FC Bayern Femenino",
+      "local": "Eintracht Frankfurt Femenino",
+      "visitante": "FC Bayern Femenino",
+      "fecha": "2026-10-03",
+      "hora": "17:55",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "Liga Femenina Endesa",
       "ronda": "Liga Regular",
@@ -3360,6 +3507,19 @@
         "Siroko TV",
         "Teledeporte",
         "RTVE Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Uruguay",
+      "ronda": null,
+      "evento": "Miramar Misiones vs Paysandú FC",
+      "local": "Miramar Misiones",
+      "visitante": "Paysandú FC",
+      "fecha": "2026-10-03",
+      "hora": "18:00",
+      "canales": [
+        "Antel TV Internacional"
       ]
     },
     {
@@ -3471,7 +3631,8 @@
       "fecha": "2026-10-03",
       "hora": "18:00",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
@@ -3725,6 +3886,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "D1 Féminine",
+      "ronda": null,
+      "evento": "Nantes Féminines vs Montpellier Femenino",
+      "local": "Nantes Féminines",
+      "visitante": "Montpellier Femenino",
+      "fecha": "2026-10-03",
+      "hora": "18:30",
+      "canales": [
+        "GOL (Síguelo en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "LaLiga Hypermotion",
       "ronda": null,
       "evento": "Sabadell vs FC Andorra",
@@ -3894,6 +4068,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Primera División Argentina",
+      "ronda": "Torneo Clausura",
+      "evento": "Defensa y Justicia vs San Lorenzo",
+      "local": "Defensa y Justicia",
+      "visitante": "San Lorenzo",
+      "fecha": "2026-10-03",
+      "hora": "19:45",
+      "canales": [
+        "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
       "deporte": "Boxeo",
       "competicion": "Velada",
       "ronda": "Peso Semipesado",
@@ -4051,6 +4238,58 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Primera C",
+      "ronda": null,
+      "evento": "CDS Juventud Unida vs Berazategui",
+      "local": "CDS Juventud Unida",
+      "visitante": "Berazategui",
+      "fecha": "2026-10-03",
+      "hora": "20:00",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera C",
+      "ronda": null,
+      "evento": "El Porvenir vs Cañuelas",
+      "local": "El Porvenir",
+      "visitante": "Cañuelas",
+      "fecha": "2026-10-03",
+      "hora": "20:00",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga AUF Uruguaya",
+      "ronda": null,
+      "evento": "Albión vs Defensor Sporting",
+      "local": "Albión",
+      "visitante": "Defensor Sporting",
+      "fecha": "2026-10-03",
+      "hora": "20:00",
+      "canales": [
+        "Antel TV Internacional"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Campeonato Femenino",
+      "ronda": null,
+      "evento": "Newell's Old Boys Femenino vs River Plate Femenino",
+      "local": "Newell's Old Boys Femenino",
+      "visitante": "River Plate Femenino",
+      "fecha": "2026-10-03",
+      "hora": "20:00",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
       "deporte": "Fútbol Sala",
       "competicion": "Liga Prime",
       "ronda": "Torneo Apertura",
@@ -4062,6 +4301,19 @@
       "canales": [
         "DAZN (Ver en directo)",
         "DAZN App Gratis (Ver gratis)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Campeonato Femenino",
+      "ronda": null,
+      "evento": "Lanús Femenino vs SAT Femenino",
+      "local": "Lanús Femenino",
+      "visitante": "SAT Femenino",
+      "fecha": "2026-10-03",
+      "hora": "20:30",
+      "canales": [
+        "LPF Play"
       ]
     },
     {
@@ -4132,6 +4384,32 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Uruguay",
+      "ronda": null,
+      "evento": "CA Rentistas vs Huracán FC",
+      "local": "CA Rentistas",
+      "visitante": "Huracán FC",
+      "fecha": "2026-10-03",
+      "hora": "21:00",
+      "canales": [
+        "Antel TV Internacional"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Colombiana",
+      "ronda": null,
+      "evento": "Águilas Doradas Rionegro vs Jaguares FC",
+      "local": "Águilas Doradas Rionegro",
+      "visitante": "Jaguares FC",
+      "fecha": "2026-10-03",
+      "hora": "21:00",
+      "canales": [
+        "RCN Nuestra Tele"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "Liga Endesa",
       "ronda": "Liga Regular",
@@ -4174,32 +4452,6 @@
       "deporte": "Fútbol",
       "competicion": "Campeonato Femenino",
       "ronda": null,
-      "evento": "Lanús Femenino vs SAT Femenino",
-      "local": "Lanús Femenino",
-      "visitante": "SAT Femenino",
-      "fecha": "2026-10-03",
-      "hora": "22:00",
-      "canales": [
-        "LPF Play"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Campeonato Femenino",
-      "ronda": null,
-      "evento": "Newell's Old Boys Femenino vs River Plate Femenino",
-      "local": "Newell's Old Boys Femenino",
-      "visitante": "River Plate Femenino",
-      "fecha": "2026-10-03",
-      "hora": "22:00",
-      "canales": [
-        "LPF Play"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Campeonato Femenino",
-      "ronda": null,
       "evento": "Talleres Córdoba Femenino vs Independiente Femenino",
       "local": "Talleres Córdoba Femenino",
       "visitante": "Independiente Femenino",
@@ -4224,6 +4476,32 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Primera División Argentina",
+      "ronda": "Torneo Clausura",
+      "evento": "Newell's Old Boys vs Lanús",
+      "local": "Newell's Old Boys",
+      "visitante": "Lanús",
+      "fecha": "2026-10-03",
+      "hora": "22:00",
+      "canales": [
+        "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera División Argentina",
+      "ronda": "Torneo Clausura",
+      "evento": "Atlético Tucumán vs Barracas Central",
+      "local": "Atlético Tucumán",
+      "visitante": "Barracas Central",
+      "fecha": "2026-10-03",
+      "hora": "22:00",
+      "canales": [
+        "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "LaLiga Futures",
       "ronda": null,
       "evento": "1/4 de Final",
@@ -4233,6 +4511,19 @@
       "hora": "22:30",
       "canales": [
         "M+ Vamos 2 (51)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga AUF Uruguaya",
+      "ronda": null,
+      "evento": "Deportivo Maldonado vs Central Español",
+      "local": "Deportivo Maldonado",
+      "visitante": "Central Español",
+      "fecha": "2026-10-03",
+      "hora": "23:00",
+      "canales": [
+        "Antel TV Internacional"
       ]
     },
     {
@@ -4285,6 +4576,32 @@
       "hora": "23:00",
       "canales": [
         "Movistar Golf (M68)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Colombiana",
+      "ronda": null,
+      "evento": "Deportes Tolima vs Boyacá Chicó",
+      "local": "Deportes Tolima",
+      "visitante": "Boyacá Chicó",
+      "fecha": "2026-10-03",
+      "hora": "23:05",
+      "canales": [
+        "RCN Nuestra Tele"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Liga Sudamericana",
+      "ronda": null,
+      "evento": "Mogi das Cruzes Basquete vs Club Importadora Alvarado",
+      "local": "Mogi das Cruzes Basquete",
+      "visitante": "Club Importadora Alvarado",
+      "fecha": "2026-10-03",
+      "hora": "23:10",
+      "canales": [
+        "FIBA YouTube"
       ]
     },
     {
