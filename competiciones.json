@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-10-02T04:09:19"
+    "actualizado": "2026-10-02T14:27:38"
   },
   "config": {
     "puntos_por_tier": {
@@ -1538,6 +1538,36 @@
     },
     "WXV Global Series Women": {
       "deporte": "Rugby U",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "División de Honor Sénior": {
+      "deporte": "Fútbol",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Mundial Femenino": {
+      "deporte": "Hockey Patines",
+      "tier": "S",
+      "por_revisar": true
+    },
+    "Primera Catalana": {
+      "deporte": "Fútbol",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Superliga Alevín": {
+      "deporte": "Fútbol",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Superliga Cadete": {
+      "deporte": "Fútbol",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Título Internacional Femenino": {
+      "deporte": "Boxeo",
       "tier": "C",
       "por_revisar": true
     }

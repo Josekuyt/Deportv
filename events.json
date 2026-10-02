@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-10-02T04:09:19",
+    "generado": "2026-10-02T14:27:38",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 451
+    "total_eventos": 516
   },
   "eventos": [
     {
@@ -363,34 +363,6 @@
       ]
     },
     {
-      "deporte": "Fútbol",
-      "competicion": "FIFA ASEAN Cup",
-      "ronda": "Division 1",
-      "evento": "Tailandia vs Filipinas",
-      "local": "Tailandia",
-      "visitante": "Filipinas",
-      "fecha": "2026-10-02",
-      "hora": "10:00",
-      "canales": [
-        "DAZN (Ver en directo)",
-        "DAZN App Gratis (Ver gratis)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "FIFA ASEAN Cup",
-      "ronda": "Division 1",
-      "evento": "Vietnam vs Pakistán",
-      "local": "Vietnam",
-      "visitante": "Pakistán",
-      "fecha": "2026-10-02",
-      "hora": "10:00",
-      "canales": [
-        "DAZN (Ver en directo)",
-        "DAZN App Gratis (Ver gratis)"
-      ]
-    },
-    {
       "deporte": "Tenis",
       "competicion": "Torneo de Tokio",
       "ronda": "2ª Ronda",
@@ -432,6 +404,34 @@
         "M+ Vamos (8 y 50)",
         "M+ #Vamos Bar (307)",
         "M+ Deportes (63)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "FIFA ASEAN Cup",
+      "ronda": "Division 1",
+      "evento": "Tailandia vs Filipinas",
+      "local": "Tailandia",
+      "visitante": "Filipinas",
+      "fecha": "2026-10-02",
+      "hora": "11:00",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "FIFA ASEAN Cup",
+      "ronda": "Division 1",
+      "evento": "Vietnam vs Pakistán",
+      "local": "Vietnam",
+      "visitante": "Pakistán",
+      "fecha": "2026-10-02",
+      "hora": "11:00",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
@@ -535,7 +535,8 @@
         "M+ LALIGA (M54 O110)",
         "DAZN (Ver en directo)",
         "DAZN App Gratis (Ver gratis)",
-        "Replay"
+        "Replay",
+        "DAZN LaLiga (M55 O113)"
       ]
     },
     {
@@ -565,7 +566,8 @@
         "M+ LALIGA (M54 O110)",
         "DAZN (Ver en directo)",
         "DAZN App Gratis (Ver gratis)",
-        "Replay"
+        "Replay",
+        "DAZN LaLiga (M55 O113)"
       ]
     },
     {
@@ -607,7 +609,8 @@
         "M+ LALIGA (M54 O110)",
         "DAZN (Ver en directo)",
         "DAZN App Gratis (Ver gratis)",
-        "Replay"
+        "Replay",
+        "DAZN LaLiga (M55 O113)"
       ]
     },
     {
@@ -637,7 +640,8 @@
         "M+ LALIGA (M54 O110)",
         "DAZN (Ver en directo)",
         "DAZN App Gratis (Ver gratis)",
-        "Replay"
+        "Replay",
+        "DAZN LaLiga (M55 O113)"
       ]
     },
     {
@@ -653,7 +657,8 @@
         "M+ LALIGA (M54 O110)",
         "DAZN (Ver en directo)",
         "DAZN App Gratis (Ver gratis)",
-        "Replay"
+        "Replay",
+        "DAZN LaLiga (M55 O113)"
       ]
     },
     {
@@ -684,7 +689,8 @@
         "M+ LALIGA (M54 O110)",
         "DAZN (Ver en directo)",
         "DAZN App Gratis (Ver gratis)",
-        "Replay"
+        "Replay",
+        "DAZN LaLiga (M55 O113)"
       ]
     },
     {
@@ -700,7 +706,8 @@
         "M+ LALIGA (M54 O110)",
         "DAZN (Ver en directo)",
         "DAZN App Gratis (Ver gratis)",
-        "Replay"
+        "Replay",
+        "DAZN LaLiga (M55 O113)"
       ]
     },
     {
@@ -758,7 +765,8 @@
         "M+ LALIGA (M54 O110)",
         "DAZN (Ver en directo)",
         "DAZN App Gratis (Ver gratis)",
-        "Replay"
+        "Replay",
+        "DAZN LaLiga (M55 O113)"
       ]
     },
     {
@@ -799,7 +807,7 @@
       "fecha": "2026-10-02",
       "hora": "19:00",
       "canales": [
-        "Canal por confirmar"
+        "RCDeportivo TV YouTube"
       ]
     },
     {
@@ -842,6 +850,19 @@
       ]
     },
     {
+      "deporte": "Boxeo",
+      "competicion": "Velada",
+      "ronda": "Peso Superpluma",
+      "evento": "E. Faour vs N. Sachbazjan",
+      "local": "E. Faour",
+      "visitante": "N. Sachbazjan",
+      "fecha": "2026-10-02",
+      "hora": "19:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "LaLiga Futures",
       "ronda": "Fase de grupos",
@@ -854,7 +875,8 @@
         "M+ LALIGA (M54 O110)",
         "DAZN (Ver en directo)",
         "DAZN App Gratis (Ver gratis)",
-        "Replay"
+        "Replay",
+        "DAZN LaLiga (M55 O113)"
       ]
     },
     {
@@ -867,6 +889,8 @@
       "fecha": "2026-10-02",
       "hora": "19:00",
       "canales": [
+        "Athletic-club.eus",
+        "Real Sociedad TV YouTube",
         "ETB1 (País Vasco)"
       ]
     },
@@ -1017,7 +1041,8 @@
       "fecha": "2026-10-02",
       "hora": "20:00",
       "canales": [
-        "Liga U YouTube"
+        "Liga U YouTube",
+        "As.com"
       ]
     },
     {
@@ -1449,6 +1474,19 @@
       ]
     },
     {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Northwestern vs Penn State",
+      "local": "Northwestern",
+      "visitante": "Penn State",
+      "fecha": "2026-10-03",
+      "hora": "02:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
       "deporte": "Boxeo",
       "competicion": "Velada",
       "ronda": "Peso Superwelter",
@@ -1580,6 +1618,63 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Tokio",
+      "ronda": "2ª Ronda",
+      "evento": "D. Shapovalov vs A. Tabilo",
+      "local": "D. Shapovalov",
+      "visitante": "A. Tabilo",
+      "fecha": "2026-10-03",
+      "hora": "03:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Tokio",
+      "ronda": "2ª Ronda",
+      "evento": "M. Berrettini vs A.D. Vallejo",
+      "local": "M. Berrettini",
+      "visitante": "A.D. Vallejo",
+      "fecha": "2026-10-03",
+      "hora": "03:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Tokio",
+      "ronda": "2ª Ronda",
+      "evento": "U. Humbert vs J. Lehecka",
+      "local": "U. Humbert",
+      "visitante": "J. Lehecka",
+      "fecha": "2026-10-03",
+      "hora": "03:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Tokio",
+      "ronda": "2ª Ronda",
+      "evento": "C. Alcaraz vs M. Arnaldi",
+      "local": "C. Alcaraz",
+      "visitante": "M. Arnaldi",
+      "fecha": "2026-10-03",
+      "hora": "03:00",
+      "canales": [
+        "ATP Tennis TV",
+        "Movistar Plus+ (M7): VER PARTIDO",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "WNBA",
       "ronda": "Playoffs",
@@ -1664,20 +1759,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Tokio",
-      "ronda": null,
-      "evento": "2ª Ronda ATP 500",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-10-03",
-      "hora": "04:05",
-      "canales": [
-        "ATP Tennis TV",
-        "Movistar+"
-      ]
-    },
-    {
       "deporte": "Ciclismo",
       "competicion": "Tour de Langkawi",
       "ronda": null,
@@ -1692,6 +1773,76 @@
     },
     {
       "deporte": "Tenis",
+      "competicion": "WTA Pekín",
+      "ronda": "2ª Ronda",
+      "evento": "E. Rybakina vs A. Charaeva",
+      "local": "E. Rybakina",
+      "visitante": "A. Charaeva",
+      "fecha": "2026-10-03",
+      "hora": "05:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Pekín",
+      "ronda": "2ª Ronda",
+      "evento": "C. Gauff vs MC. Osorio",
+      "local": "C. Gauff",
+      "visitante": "MC. Osorio",
+      "fecha": "2026-10-03",
+      "hora": "05:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Pekín",
+      "ronda": "2ª Ronda",
+      "evento": "Q. Zheng vs A. Kalinskaya",
+      "local": "Q. Zheng",
+      "visitante": "A. Kalinskaya",
+      "fecha": "2026-10-03",
+      "hora": "05:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Pekín",
+      "ronda": "2ª Ronda",
+      "evento": "S. Kartal vs X. Wang",
+      "local": "S. Kartal",
+      "visitante": "X. Wang",
+      "fecha": "2026-10-03",
+      "hora": "05:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Pekín",
+      "ronda": "2ª Ronda",
+      "evento": "X. Gao vs I. Swiatek",
+      "local": "X. Gao",
+      "visitante": "I. Swiatek",
+      "fecha": "2026-10-03",
+      "hora": "05:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
       "competicion": "Torneo de Pekín",
       "ronda": null,
       "evento": "2ª Ronda ATP 500",
@@ -1702,20 +1853,6 @@
       "canales": [
         "ATP Tennis TV",
         "Movistar+"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Pekín",
-      "ronda": null,
-      "evento": "2ª Ronda WTA 1000",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-10-03",
-      "hora": "05:05",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -1791,19 +1928,6 @@
       ]
     },
     {
-      "deporte": "Ciclismo",
-      "competicion": "Campeonato de Europa",
-      "ronda": null,
-      "evento": "Carrera Junior Masculina Šencur › Šencur (110,5 km)",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-10-03",
-      "hora": "09:00",
-      "canales": [
-        "UEC Cyclisme YouTube"
-      ]
-    },
-    {
       "deporte": "Automovilismo",
       "competicion": "Fórmula 1",
       "ronda": null,
@@ -1819,6 +1943,32 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Superliga Alevín",
+      "ronda": "Grupo Único (Madrid)",
+      "evento": "Real Madrid Academy vs Las Rozas Academy",
+      "local": "Real Madrid Academy",
+      "visitante": "Las Rozas Academy",
+      "fecha": "2026-10-03",
+      "hora": "10:30",
+      "canales": [
+        "Real Madrid TV"
+      ]
+    },
+    {
+      "deporte": "Ciclismo",
+      "competicion": "Campeonato de Europa",
+      "ronda": null,
+      "evento": "Carrera Junior Masculina Šencur › Šencur (110,5 km)",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-10-03",
+      "hora": "10:50",
+      "canales": [
+        "UEC Cyclisme YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "División Honor Juvenil",
       "ronda": "Grupo 4",
       "evento": "Real Betis Academy vs Sevilla FC Academy",
@@ -1828,6 +1978,7 @@
       "hora": "11:00",
       "canales": [
         "Real Betis Balompié YouTube",
+        "Sevilla FC +",
         "Real Betis TV"
       ]
     },
@@ -1870,7 +2021,8 @@
       "fecha": "2026-10-03",
       "hora": "12:00",
       "canales": [
-        "Liga U YouTube"
+        "Liga U YouTube",
+        "Marca YouTube"
       ]
     },
     {
@@ -1904,6 +2056,45 @@
         "M+ Vamos 3 (53)",
         "DAZN 1 (M72)",
         "DAZN 1 Bar (M148)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Nacional Juvenil",
+      "ronda": "Grupo 7 (Cataluña)",
+      "evento": "FC Barcelona Academy vs UE Olot Academy",
+      "local": "FC Barcelona Academy",
+      "visitante": "UE Olot Academy",
+      "fecha": "2026-10-03",
+      "hora": "12:00",
+      "canales": [
+        "FC Barcelona PPV YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera Federación Femenina",
+      "ronda": null,
+      "evento": "Athletic B Femenino vs Osasuna Femenino",
+      "local": "Athletic B Femenino",
+      "visitante": "Osasuna Femenino",
+      "fecha": "2026-10-03",
+      "hora": "12:30",
+      "canales": [
+        "Athletic-club.eus"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Superliga Cadete",
+      "ronda": "Grupo Único (Madrid)",
+      "evento": "AD Torrejón Academy vs Real Madrid Academy",
+      "local": "AD Torrejón Academy",
+      "visitante": "Real Madrid Academy",
+      "fecha": "2026-10-03",
+      "hora": "12:45",
+      "canales": [
+        "Real Madrid TV"
       ]
     },
     {
@@ -2139,6 +2330,19 @@
       "hora": "14:30",
       "canales": [
         "M+ Deportes 5 (192)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "FA Women's Super League",
+      "ronda": null,
+      "evento": "Man Utd Femenino vs Liverpool Femenino",
+      "local": "Man Utd Femenino",
+      "visitante": "Liverpool Femenino",
+      "fecha": "2026-10-03",
+      "hora": "14:30",
+      "canales": [
+        "Barclays Women's Super League YouTube"
       ]
     },
     {
@@ -2500,6 +2704,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Liga Nacional Juvenil",
+      "ronda": "Grupo 4 (País Vasco)",
+      "evento": "Real Sociedad Academy vs CD Vasconia",
+      "local": "Real Sociedad Academy",
+      "visitante": "CD Vasconia",
+      "fecha": "2026-10-03",
+      "hora": "16:00",
+      "canales": [
+        "Real Sociedad TV YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "LaLiga Hypermotion",
       "ronda": null,
       "evento": "UD Almería vs Burgos CF",
@@ -2635,6 +2852,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Primera Catalana",
+      "ronda": "Grupo 3",
+      "evento": "Cambrils UCF vs El Catllar",
+      "local": "Cambrils UCF",
+      "visitante": "El Catllar",
+      "fecha": "2026-10-03",
+      "hora": "17:00",
+      "canales": [
+        "FCF TV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "LaLiga Futures",
       "ronda": "Fase de grupos",
       "evento": "Sevilla FC Academy vs Real Betis Academy",
@@ -2665,6 +2895,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
+      "ronda": "Grupo 1",
+      "evento": "Basconia vs UD Llanera",
+      "local": "Basconia",
+      "visitante": "UD Llanera",
+      "fecha": "2026-10-03",
+      "hora": "17:00",
+      "canales": [
+        "Athletic-club.eus"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Tercera Federación",
       "ronda": "Grupo 7",
       "evento": "México FC vs Parla Escuela",
@@ -2674,6 +2917,45 @@
       "hora": "17:00",
       "canales": [
         "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "División Honor Juvenil",
+      "ronda": "Grupo 4",
+      "evento": "Valle de Aranguren Academy vs Badalona Academy",
+      "local": "Valle de Aranguren Academy",
+      "visitante": "Badalona Academy",
+      "fecha": "2026-10-03",
+      "hora": "17:00",
+      "canales": [
+        "Osasuna TV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Nacional Juvenil",
+      "ronda": "Grupo 12 (Madrid)",
+      "evento": "Real Madrid Academy vs At. Chopera",
+      "local": "Real Madrid Academy",
+      "visitante": "At. Chopera",
+      "fecha": "2026-10-03",
+      "hora": "17:00",
+      "canales": [
+        "Real Madrid TV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 12",
+      "evento": "SD Villaverde Norte vs Mensajero",
+      "local": "SD Villaverde Norte",
+      "visitante": "Mensajero",
+      "fecha": "2026-10-03",
+      "hora": "17:15",
+      "canales": [
+        "Deportes TVCanaria YouTube"
       ]
     },
     {
@@ -2718,7 +3000,8 @@
       "hora": "17:30",
       "canales": [
         "DAZN (Ver en directo)",
-        "DAZN App Gratis (Ver gratis)"
+        "DAZN App Gratis (Ver gratis)",
+        "German Football YouTube"
       ]
     },
     {
@@ -2731,7 +3014,7 @@
       "fecha": "2026-10-03",
       "hora": "17:30",
       "canales": [
-        "ASOBAL TV"
+        "APLAZADO"
       ]
     },
     {
@@ -2745,6 +3028,19 @@
       "hora": "17:30",
       "canales": [
         "ASOBAL TV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 18",
+      "evento": "Villacañas vs CD Toledo",
+      "local": "Villacañas",
+      "visitante": "CD Toledo",
+      "fecha": "2026-10-03",
+      "hora": "17:30",
+      "canales": [
+        "CMMPlay (Castilla-LM)"
       ]
     },
     {
@@ -2772,6 +3068,19 @@
       "canales": [
         "DAZN (Ver en directo)",
         "DAZN App Gratis (Ver gratis)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Gulf Cup of Nations",
+      "ronda": "Semifinales",
+      "evento": "Arabia Saudí vs Catar",
+      "local": "Arabia Saudí",
+      "visitante": "Catar",
+      "fecha": "2026-10-03",
+      "hora": "17:55",
+      "canales": [
+        "FANPLAY TV"
       ]
     },
     {
@@ -2940,7 +3249,8 @@
       "fecha": "2026-10-03",
       "hora": "18:00",
       "canales": [
-        "TV FootballClub (Acceder)"
+        "TV FootballClub (Acceder)",
+        "CMMPlay (Castilla-LM)"
       ]
     },
     {
@@ -2954,6 +3264,19 @@
       "hora": "18:00",
       "canales": [
         "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
+      "ronda": "Grupo 5",
+      "evento": "Atlético Albacete vs CF Talavera",
+      "local": "Atlético Albacete",
+      "visitante": "CF Talavera",
+      "fecha": "2026-10-03",
+      "hora": "18:00",
+      "canales": [
+        "CMMPlay (Castilla-LM)"
       ]
     },
     {
@@ -3009,6 +3332,19 @@
       "hora": "18:00",
       "canales": [
         "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 8",
+      "evento": "SD Almazán vs Palencia CF",
+      "local": "SD Almazán",
+      "visitante": "Palencia CF",
+      "fecha": "2026-10-03",
+      "hora": "18:00",
+      "canales": [
+        "Elviphotoss YouTube"
       ]
     },
     {
@@ -3216,6 +3552,19 @@
       "canales": [
         "M+ Baloncesto 5 (M196)",
         "Siroko TV"
+      ]
+    },
+    {
+      "deporte": "Balonmano",
+      "competicion": "Liga Guerreras Iberdrola",
+      "ronda": "Liga Regular",
+      "evento": "Costa del Sol Málaga vs Rocasa Gran Canaria",
+      "local": "Costa del Sol Málaga",
+      "visitante": "Rocasa Gran Canaria",
+      "fecha": "2026-10-03",
+      "hora": "19:00",
+      "canales": [
+        "RTVE Play"
       ]
     },
     {
@@ -3568,6 +3917,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Gulf Cup of Nations",
+      "ronda": "Semifinales",
+      "evento": "EAU vs Omán",
+      "local": "EAU",
+      "visitante": "Omán",
+      "fecha": "2026-10-03",
+      "hora": "20:30",
+      "canales": [
+        "FANPLAY TV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Campeonato Femenino",
       "ronda": null,
       "evento": "Lanús Femenino vs SAT Femenino",
@@ -3699,6 +4061,111 @@
       ]
     },
     {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Nebraska vs Maryland",
+      "local": "Nebraska",
+      "visitante": "Maryland",
+      "fecha": "2026-10-03",
+      "hora": "22:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Iowa vs Ohio State",
+      "local": "Iowa",
+      "visitante": "Ohio State",
+      "fecha": "2026-10-03",
+      "hora": "22:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Wisconsin vs Michigan State",
+      "local": "Wisconsin",
+      "visitante": "Michigan State",
+      "fecha": "2026-10-03",
+      "hora": "22:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "USC vs Washington Athletics",
+      "local": "USC",
+      "visitante": "Washington Athletics",
+      "fecha": "2026-10-03",
+      "hora": "22:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Colorado Buffaloes vs Texas Tech",
+      "local": "Colorado Buffaloes",
+      "visitante": "Texas Tech",
+      "fecha": "2026-10-03",
+      "hora": "22:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Minnesota vs Michigan Athletics",
+      "local": "Minnesota",
+      "visitante": "Michigan Athletics",
+      "fecha": "2026-10-03",
+      "hora": "22:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Illinois vs Purdue",
+      "local": "Illinois",
+      "visitante": "Purdue",
+      "fecha": "2026-10-03",
+      "hora": "22:00",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Arizona vs Cincinnati Bearcats",
+      "local": "Arizona",
+      "visitante": "Cincinnati Bearcats",
+      "fecha": "2026-10-03",
+      "hora": "22:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "LaLiga Futures",
       "ronda": null,
@@ -3708,6 +4175,10 @@
       "fecha": "2026-10-03",
       "hora": "22:00",
       "canales": [
+        "M+ LALIGA (M54 O110)",
+        "DAZN LaLiga (M55 O113)",
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)",
         "M+ Vamos 2 (51)",
         "Replay"
       ]
@@ -3787,8 +4258,38 @@
       "fecha": "2026-10-03",
       "hora": "22:30",
       "canales": [
+        "M+ LALIGA (M54 O110)",
+        "DAZN LaLiga (M55 O113)",
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)",
         "M+ Vamos 2 (51)",
         "Replay"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Torneo BetPlay DIMAYOR",
+      "ronda": null,
+      "evento": "Patriotas vs Independiente Valle del Cauca",
+      "local": "Patriotas",
+      "visitante": "Independiente Valle del Cauca",
+      "fecha": "2026-10-03",
+      "hora": "22:30",
+      "canales": [
+        "Win Sports TV YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Torneo BetPlay DIMAYOR",
+      "ronda": null,
+      "evento": "Real Santander vs Unión Magdalena",
+      "local": "Real Santander",
+      "visitante": "Unión Magdalena",
+      "fecha": "2026-10-03",
+      "hora": "22:30",
+      "canales": [
+        "Win Sports TV YouTube"
       ]
     },
     {
@@ -3814,6 +4315,10 @@
       "fecha": "2026-10-03",
       "hora": "23:00",
       "canales": [
+        "M+ LALIGA (M54 O110)",
+        "DAZN LaLiga (M55 O113)",
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)",
         "M+ Vamos 2 (51)",
         "Replay"
       ]
@@ -3893,6 +4398,10 @@
       "fecha": "2026-10-03",
       "hora": "23:30",
       "canales": [
+        "M+ LALIGA (M54 O110)",
+        "DAZN LaLiga (M55 O113)",
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)",
         "M+ Vamos 2 (51)",
         "Replay"
       ]
@@ -3948,6 +4457,19 @@
       "canales": [
         "Movistar Plus+ (M7): VER PARTIDO",
         "M+ Liga de Campeones (M60 O115)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Rutgers vs Indiana Hoosiers",
+      "local": "Rutgers",
+      "visitante": "Indiana Hoosiers",
+      "fecha": "2026-10-04",
+      "hora": "02:00",
+      "canales": [
+        "DAZN (Ver en directo)"
       ]
     },
     {
@@ -4118,6 +4640,32 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "División Honor Cadete",
+      "ronda": "Grupo 1 (Madrid)",
+      "evento": "Real Madrid Academy vs FPA Las Rozas",
+      "local": "Real Madrid Academy",
+      "visitante": "FPA Las Rozas",
+      "fecha": "2026-10-04",
+      "hora": "10:00",
+      "canales": [
+        "Real Madrid TV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera Federación Femenina",
+      "ronda": null,
+      "evento": "Fundación Albacete vs Costa Adeje Tenerife B",
+      "local": "Fundación Albacete",
+      "visitante": "Costa Adeje Tenerife B",
+      "fecha": "2026-10-04",
+      "hora": "11:00",
+      "canales": [
+        "CMMPlay (Castilla-LM)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Primera Federación Femenina",
       "ronda": null,
       "evento": "FC Barcelona B Femenino vs Alhama CF",
@@ -4127,6 +4675,7 @@
       "hora": "11:00",
       "canales": [
         "RFEF.es",
+        "FC Barcelona PPV YouTube",
         "RFEF TV YouTube"
       ]
     },
@@ -4154,6 +4703,19 @@
       "hora": "11:30",
       "canales": [
         "Sevilla FC +"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 18",
+      "evento": "Manchego CR vs UD Almansa",
+      "local": "Manchego CR",
+      "visitante": "UD Almansa",
+      "fecha": "2026-10-04",
+      "hora": "11:30",
+      "canales": [
+        "CMMPlay (Castilla-LM)"
       ]
     },
     {
@@ -4195,6 +4757,19 @@
       "canales": [
         "M+ Baloncesto 2 (M67)",
         "Siroko TV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "1ª Autonómica Juvenil",
+      "ronda": "Grupo 1 (Madrid)",
+      "evento": "Real Madrid Academy vs Vicálvaro Academy",
+      "local": "Real Madrid Academy",
+      "visitante": "Vicálvaro Academy",
+      "fecha": "2026-10-04",
+      "hora": "12:00",
+      "canales": [
+        "Real Madrid TV"
       ]
     },
     {
@@ -4314,6 +4889,19 @@
     {
       "deporte": "Fútbol",
       "competicion": "Segunda Federación",
+      "ronda": "Grupo 3",
+      "evento": "Mallorca B vs Alcoyano",
+      "local": "Mallorca B",
+      "visitante": "Alcoyano",
+      "fecha": "2026-10-04",
+      "hora": "12:00",
+      "canales": [
+        "RCD Mallorca YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
       "ronda": "Grupo 5",
       "evento": "Valladolid Promesas vs Calvo Sotelo Puertollano",
       "local": "Valladolid Promesas",
@@ -4321,7 +4909,8 @@
       "fecha": "2026-10-04",
       "hora": "12:00",
       "canales": [
-        "TV FootballClub (Acceder)"
+        "TV FootballClub (Acceder)",
+        "CMMPlay (Castilla-LM)"
       ]
     },
     {
@@ -4407,6 +4996,7 @@
         "DAZN (Ver en directo)",
         "DAZN 2 (M73)",
         "DAZN 2 Bar (M149)",
+        "Teledeporte",
         "RTVE Play"
       ]
     },
@@ -4434,6 +5024,19 @@
       "hora": "12:00",
       "canales": [
         "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 8",
+      "evento": "Cristo Atlético vs Unionistas B",
+      "local": "Cristo Atlético",
+      "visitante": "Unionistas B",
+      "fecha": "2026-10-04",
+      "hora": "12:00",
+      "canales": [
+        "La 7 (Castilla y León)"
       ]
     },
     {
@@ -4473,6 +5076,19 @@
       "hora": "12:00",
       "canales": [
         "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 9",
+      "evento": "CD Alhaurino vs Melilla",
+      "local": "CD Alhaurino",
+      "visitante": "Melilla",
+      "fecha": "2026-10-04",
+      "hora": "12:00",
+      "canales": [
+        "Web Directo"
       ]
     },
     {
@@ -4586,6 +5202,19 @@
       "canales": [
         "DAZN (Ver en directo)",
         "DAZN App Gratis (Ver gratis)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "División de Honor Sénior",
+      "ronda": "Grupo 1 (Andalucía)",
+      "evento": "Montilla CF vs Cabecense",
+      "local": "Montilla CF",
+      "visitante": "Cabecense",
+      "fecha": "2026-10-04",
+      "hora": "12:30",
+      "canales": [
+        "Web Directo"
       ]
     },
     {
@@ -4717,6 +5346,89 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "LaLiga Futures",
+      "ronda": null,
+      "evento": "Semifinales",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-10-04",
+      "hora": "15:00",
+      "canales": [
+        "M+ LALIGA (M54 O110)",
+        "DAZN LaLiga (M55 O113)",
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)",
+        "M+ Vamos 2 (51)",
+        "Replay"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "FA Women's Super League",
+      "ronda": null,
+      "evento": "Brighton Femenino vs Charlton Athletic Femenino",
+      "local": "Brighton Femenino",
+      "visitante": "Charlton Athletic Femenino",
+      "fecha": "2026-10-04",
+      "hora": "15:00",
+      "canales": [
+        "Barclays Women's Super League YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "FA Women's Super League",
+      "ronda": null,
+      "evento": "West Ham Femenino vs Chelsea Femenino",
+      "local": "West Ham Femenino",
+      "visitante": "Chelsea Femenino",
+      "fecha": "2026-10-04",
+      "hora": "15:00",
+      "canales": [
+        "Barclays Women's Super League YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "FA Women's Super League",
+      "ronda": null,
+      "evento": "Everton Femenino vs Birmingham Femenino",
+      "local": "Everton Femenino",
+      "visitante": "Birmingham Femenino",
+      "fecha": "2026-10-04",
+      "hora": "15:00",
+      "canales": [
+        "Barclays Women's Super League YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "FA Women's Super League",
+      "ronda": null,
+      "evento": "Tottenham Femenino vs London City Lionesses",
+      "local": "Tottenham Femenino",
+      "visitante": "London City Lionesses",
+      "fecha": "2026-10-04",
+      "hora": "15:00",
+      "canales": [
+        "Barclays Women's Super League YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "FA Women's Super League",
+      "ronda": null,
+      "evento": "Aston Villa Femenino vs Crystal Palace Femenino",
+      "local": "Aston Villa Femenino",
+      "visitante": "Crystal Palace Femenino",
+      "fecha": "2026-10-04",
+      "hora": "15:00",
+      "canales": [
+        "Barclays Women's Super League YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "UEFA Nations League",
       "ronda": "Fase de grupos",
       "evento": "Azerbaiyán vs Lituania",
@@ -4781,14 +5493,33 @@
         "DAZN (Ver en directo)",
         "Mediaset Infinity",
         "DAZN 3 (M196)",
-        "DAZN App Gratis (Ver gratis)"
+        "DAZN App Gratis (Ver gratis)",
+        "Cuatro"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "LaLiga Futures",
+      "ronda": null,
+      "evento": "Semifinales",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-10-04",
+      "hora": "15:30",
+      "canales": [
+        "M+ LALIGA (M54 O110)",
+        "DAZN LaLiga (M55 O113)",
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)",
+        "M+ Vamos 2 (51)",
+        "Replay"
       ]
     },
     {
       "deporte": "Ciclismo",
       "competicion": "Coppa Agostoni",
       "ronda": null,
-      "evento": "UCI Europe Tour",
+      "evento": "UCI Europe Tour Lissone › Lissone (166,7 km)",
       "local": null,
       "visitante": null,
       "fecha": "2026-10-04",
@@ -4841,7 +5572,7 @@
       "deporte": "Ciclismo",
       "competicion": "Tour de Vendée",
       "ronda": null,
-      "evento": "UCI Europe Tour",
+      "evento": "UCI Europe Tour Saint-Jean-d'Hermine › Saint-Gilles-Croix-de-Vie (198,2 km)",
       "local": null,
       "visitante": null,
       "fecha": "2026-10-04",
@@ -4865,6 +5596,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Liga Élite Cataluña",
+      "ronda": null,
+      "evento": "Martorell vs Argentona",
+      "local": "Martorell",
+      "visitante": "Argentona",
+      "fecha": "2026-10-04",
+      "hora": "16:00",
+      "canales": [
+        "La Xarxa+"
+      ]
+    },
+    {
       "deporte": "Pádel",
       "competicion": "Rotterdam Open",
       "ronda": null,
@@ -4878,6 +5622,32 @@
         "M+ Vamos (8 y 50)",
         "M+ #Vamos Bar (307)",
         "M+ Deportes (63)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "División Honor Juvenil",
+      "ronda": null,
+      "evento": "Getafe Academy vs Trival Valderas Academy",
+      "local": "Getafe Academy",
+      "visitante": "Trival Valderas Academy",
+      "fecha": "2026-10-04",
+      "hora": "16:00",
+      "canales": [
+        "Getafe CF YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "División Honor Juvenil",
+      "ronda": null,
+      "evento": "Athletic Club Academy vs CD Betoño Academy",
+      "local": "Athletic Club Academy",
+      "visitante": "CD Betoño Academy",
+      "fecha": "2026-10-04",
+      "hora": "16:00",
+      "canales": [
+        "Athletic-club.eus"
       ]
     },
     {
@@ -4972,6 +5742,24 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "LaLiga Futures",
+      "ronda": null,
+      "evento": "Final Consolación",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-10-04",
+      "hora": "17:00",
+      "canales": [
+        "M+ LALIGA (M54 O110)",
+        "DAZN LaLiga (M55 O113)",
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)",
+        "M+ Vamos 2 (51)",
+        "Replay"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Segunda Federación",
       "ronda": "Grupo 2",
       "evento": "Osasuna Promesas vs Calamocha",
@@ -4995,6 +5783,19 @@
       "canales": [
         "TV FootballClub (Acceder)",
         "Real Betis TV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
+      "ronda": "Grupo 5",
+      "evento": "At. Madrid C vs Conquense",
+      "local": "At. Madrid C",
+      "visitante": "Conquense",
+      "fecha": "2026-10-04",
+      "hora": "17:00",
+      "canales": [
+        "CMMPlay (Castilla-LM)"
       ]
     },
     {
@@ -5040,6 +5841,19 @@
       "deporte": "Fútbol",
       "competicion": "Segunda Federación",
       "ronda": "Grupo 2",
+      "evento": "Arnedo vs CD Ebro",
+      "local": "Arnedo",
+      "visitante": "CD Ebro",
+      "fecha": "2026-10-04",
+      "hora": "17:00",
+      "canales": [
+        "Aragón Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
+      "ronda": "Grupo 2",
       "evento": "UD Barbastro vs Utebo",
       "local": "UD Barbastro",
       "visitante": "Utebo",
@@ -5061,6 +5875,19 @@
       "hora": "17:00",
       "canales": [
         "Esport3 (Cataluña)"
+      ]
+    },
+    {
+      "deporte": "Boxeo",
+      "competicion": "Título Internacional Femenino",
+      "ronda": "Peso Superpluma",
+      "evento": "J. Miranda vs M. Salazar",
+      "local": "J. Miranda",
+      "visitante": "M. Salazar",
+      "fecha": "2026-10-04",
+      "hora": "17:00",
+      "canales": [
+        "CayoTV YouTube (ver)"
       ]
     },
     {
@@ -5130,7 +5957,9 @@
       "fecha": "2026-10-04",
       "hora": "17:00",
       "canales": [
-        "TV FootballClub (Acceder)"
+        "TV FootballClub (Acceder)",
+        "La Xarxa+",
+        "Lleida Televisió"
       ]
     },
     {
@@ -5143,7 +5972,52 @@
       "fecha": "2026-10-04",
       "hora": "17:00",
       "canales": [
+        "FFCV YouTube",
         "La Ocho Mediterráneo"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "División Honor Juvenil",
+      "ronda": null,
+      "evento": "Rayo Ciudad Alcobendas Academy vs Real Madrid Academy",
+      "local": "Rayo Ciudad Alcobendas Academy",
+      "visitante": "Real Madrid Academy",
+      "fecha": "2026-10-04",
+      "hora": "17:00",
+      "canales": [
+        "Real Madrid TV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "LaLiga Futures",
+      "ronda": null,
+      "evento": "Final",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-10-04",
+      "hora": "17:30",
+      "canales": [
+        "M+ LALIGA (M54 O110)",
+        "DAZN LaLiga (M55 O113)",
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)",
+        "M+ Vamos 2 (51)",
+        "Replay"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "FA Women's Super League",
+      "ronda": null,
+      "evento": "Man City Femenino vs Arsenal Femenino",
+      "local": "Man City Femenino",
+      "visitante": "Arsenal Femenino",
+      "fecha": "2026-10-04",
+      "hora": "17:30",
+      "canales": [
+        "Barclays Women's Super League YouTube"
       ]
     },
     {
@@ -5293,7 +6167,8 @@
       "fecha": "2026-10-04",
       "hora": "18:00",
       "canales": [
-        "TV FootballClub (Acceder)"
+        "TV FootballClub (Acceder)",
+        "FC Barcelona PPV YouTube"
       ]
     },
     {
@@ -5319,7 +6194,8 @@
       "fecha": "2026-10-04",
       "hora": "18:00",
       "canales": [
-        "TV FootballClub (Acceder)"
+        "TV FootballClub (Acceder)",
+        "La Xarxa+"
       ]
     },
     {
@@ -5597,7 +6473,21 @@
       "fecha": "2026-10-04",
       "hora": "19:00",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "CayoTV YouTube (ver)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
+      "ronda": "Grupo 4",
+      "evento": "Ciudad de Lucena vs Puente Genil",
+      "local": "Ciudad de Lucena",
+      "visitante": "Puente Genil",
+      "fecha": "2026-10-04",
+      "hora": "19:00",
+      "canales": [
+        "Web Directo"
       ]
     },
     {
@@ -6131,6 +7021,19 @@
       ]
     },
     {
+      "deporte": "Hockey Patines",
+      "competicion": "Mundial Femenino",
+      "ronda": "Fase de grupos",
+      "evento": "España vs Francia",
+      "local": "España",
+      "visitante": "Francia",
+      "fecha": "2026-10-04",
+      "hora": "22:45",
+      "canales": [
+        "RTVE Play"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Primera Nacional Argentina",
       "ronda": null,
@@ -6141,6 +7044,19 @@
       "hora": "23:00",
       "canales": [
         "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Torneo BetPlay DIMAYOR",
+      "ronda": null,
+      "evento": "Tigres FC vs Internacional FC Palmira",
+      "local": "Tigres FC",
+      "visitante": "Internacional FC Palmira",
+      "fecha": "2026-10-04",
+      "hora": "23:00",
+      "canales": [
+        "Win Sports TV YouTube"
       ]
     },
     {
