@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-10-01T15:06:12"
+    "actualizado": "2026-10-02T04:09:19"
   },
   "config": {
     "puntos_por_tier": {
@@ -1519,6 +1519,26 @@
     "Liga Sudamericana": {
       "deporte": "Baloncesto",
       "tier": "B",
+      "por_revisar": true
+    },
+    "Coppa Agostoni": {
+      "deporte": "Ciclismo",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Primera B Femenina": {
+      "deporte": "Fútbol",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Tour de Vendée": {
+      "deporte": "Ciclismo",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "WXV Global Series Women": {
+      "deporte": "Rugby U",
+      "tier": "C",
       "por_revisar": true
     }
   }
