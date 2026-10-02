@@ -1,7 +1,7 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-10-02T14:27:38",
+    "generado": "2026-10-02T20:21:52",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
     "total_eventos": 516
   },
@@ -154,20 +154,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Tokio",
-      "ronda": "2ª Ronda",
-      "evento": "J. Munar vs J. Faria",
-      "local": "J. Munar",
-      "visitante": "J. Faria",
-      "fecha": "2026-10-02",
-      "hora": "04:00",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes 2 (64)"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "CONCACAF Nations League",
       "ronda": null,
@@ -178,6 +164,20 @@
       "hora": "04:00",
       "canales": [
         "CONCACAF YouTube"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Tokio",
+      "ronda": "2ª Ronda",
+      "evento": "J. Munar vs J. Faria",
+      "local": "J. Munar",
+      "visitante": "J. Faria",
+      "fecha": "2026-10-02",
+      "hora": "04:10",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -201,7 +201,7 @@
       "local": "Y. Yuan",
       "visitante": "M. Andreeva",
       "fecha": "2026-10-02",
-      "hora": "05:00",
+      "hora": "05:10",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -215,7 +215,7 @@
       "local": "V. Vacherot",
       "visitante": "S. Tsitsipas",
       "fecha": "2026-10-02",
-      "hora": "05:30",
+      "hora": "05:35",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 2 (64)"
@@ -237,30 +237,30 @@
     },
     {
       "deporte": "Tenis",
-      "competicion": "WTA Pekín",
-      "ronda": "2ª Ronda",
-      "evento": "L. Noskova vs EG. Ruse",
-      "local": "L. Noskova",
-      "visitante": "EG. Ruse",
-      "fecha": "2026-10-02",
-      "hora": "06:30",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
       "competicion": "Torneo de Pekín",
       "ronda": "2ª Ronda",
       "evento": "A. Molcan vs K. Khachanov",
       "local": "A. Molcan",
       "visitante": "K. Khachanov",
       "fecha": "2026-10-02",
-      "hora": "07:00",
+      "hora": "07:10",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 4 (66)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Pekín",
+      "ronda": "2ª Ronda",
+      "evento": "L. Noskova vs EG. Ruse",
+      "local": "L. Noskova",
+      "visitante": "EG. Ruse",
+      "fecha": "2026-10-02",
+      "hora": "07:25",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -294,27 +294,13 @@
     },
     {
       "deporte": "Tenis",
-      "competicion": "Torneo de Tokio",
-      "ronda": "2ª Ronda",
-      "evento": "K. Jacquet vs L. Darderi",
-      "local": "K. Jacquet",
-      "visitante": "L. Darderi",
-      "fecha": "2026-10-02",
-      "hora": "09:00",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes 2 (64)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
       "competicion": "Torneo de Pekín",
       "ronda": "2ª Ronda",
       "evento": "D. Medvedev vs P. Carreño",
       "local": "D. Medvedev",
       "visitante": "P. Carreño",
       "fecha": "2026-10-02",
-      "hora": "09:00",
+      "hora": "09:10",
       "canales": [
         "ATP Tennis TV",
         "M+ Vamos 2 (51)",
@@ -329,7 +315,7 @@
       "local": "K. Muchova",
       "visitante": "K. Boulter",
       "fecha": "2026-10-02",
-      "hora": "09:00",
+      "hora": "09:10",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -350,6 +336,20 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Tokio",
+      "ronda": "2ª Ronda",
+      "evento": "K. Jacquet vs L. Darderi",
+      "local": "K. Jacquet",
+      "visitante": "L. Darderi",
+      "fecha": "2026-10-02",
+      "hora": "10:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
       "deporte": "Ciclismo",
       "competicion": "Campeonato de Europa",
       "ronda": null,
@@ -360,34 +360,6 @@
       "hora": "10:00",
       "canales": [
         "HBO MAX"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Tokio",
-      "ronda": "2ª Ronda",
-      "evento": "A. Fils vs F. Tiafoe",
-      "local": "A. Fils",
-      "visitante": "F. Tiafoe",
-      "fecha": "2026-10-02",
-      "hora": "10:30",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes 2 (64)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Pekín",
-      "ronda": "2ª Ronda",
-      "evento": "M. Timofeeva vs N. Osaka",
-      "local": "M. Timofeeva",
-      "visitante": "N. Osaka",
-      "fecha": "2026-10-02",
-      "hora": "10:30",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -404,6 +376,20 @@
         "M+ Vamos (8 y 50)",
         "M+ #Vamos Bar (307)",
         "M+ Deportes (63)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Pekín",
+      "ronda": "2ª Ronda",
+      "evento": "M. Timofeeva vs N. Osaka",
+      "local": "M. Timofeeva",
+      "visitante": "N. Osaka",
+      "fecha": "2026-10-02",
+      "hora": "11:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -435,6 +421,20 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Tokio",
+      "ronda": "2ª Ronda",
+      "evento": "A. Fils vs F. Tiafoe",
+      "local": "A. Fils",
+      "visitante": "F. Tiafoe",
+      "fecha": "2026-10-02",
+      "hora": "11:50",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
       "deporte": "Pádel",
       "competicion": "Rotterdam Open",
       "ronda": null,
@@ -448,20 +448,6 @@
         "M+ Vamos (8 y 50)",
         "M+ #Vamos Bar (307)",
         "M+ Deportes (63)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Pekín",
-      "ronda": "2ª Ronda",
-      "evento": "H. Hurkacz vs A. Gea",
-      "local": "H. Hurkacz",
-      "visitante": "A. Gea",
-      "fecha": "2026-10-02",
-      "hora": "13:00",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes 4 (66)"
       ]
     },
     {
@@ -485,10 +471,24 @@
       "local": "R. Zarazúa",
       "visitante": "A. Sabalenka",
       "fecha": "2026-10-02",
-      "hora": "13:00",
+      "hora": "13:10",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Pekín",
+      "ronda": "2ª Ronda",
+      "evento": "H. Hurkacz vs A. Gea",
+      "local": "H. Hurkacz",
+      "visitante": "A. Gea",
+      "fecha": "2026-10-02",
+      "hora": "13:25",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 4 (66)"
       ]
     },
     {
@@ -515,7 +515,7 @@
       "local": "Y. Bu",
       "visitante": "N. Djokovic",
       "fecha": "2026-10-02",
-      "hora": "14:30",
+      "hora": "14:35",
       "canales": [
         "ATP Tennis TV",
         "Movistar Plus+ (M7): VER PARTIDO",
@@ -1210,8 +1210,8 @@
       "fecha": "2026-10-02",
       "hora": "20:45",
       "canales": [
+        "La 2 TVE",
         "DAZN (Ver en directo)",
-        "La 1 TVE",
         "RTVE Play"
       ]
     },
@@ -1618,63 +1618,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Tokio",
-      "ronda": "2ª Ronda",
-      "evento": "D. Shapovalov vs A. Tabilo",
-      "local": "D. Shapovalov",
-      "visitante": "A. Tabilo",
-      "fecha": "2026-10-03",
-      "hora": "03:00",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes 2 (64)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Tokio",
-      "ronda": "2ª Ronda",
-      "evento": "M. Berrettini vs A.D. Vallejo",
-      "local": "M. Berrettini",
-      "visitante": "A.D. Vallejo",
-      "fecha": "2026-10-03",
-      "hora": "03:00",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes 2 (64)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Tokio",
-      "ronda": "2ª Ronda",
-      "evento": "U. Humbert vs J. Lehecka",
-      "local": "U. Humbert",
-      "visitante": "J. Lehecka",
-      "fecha": "2026-10-03",
-      "hora": "03:00",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes 2 (64)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Tokio",
-      "ronda": "2ª Ronda",
-      "evento": "C. Alcaraz vs M. Arnaldi",
-      "local": "C. Alcaraz",
-      "visitante": "M. Arnaldi",
-      "fecha": "2026-10-03",
-      "hora": "03:00",
-      "canales": [
-        "ATP Tennis TV",
-        "Movistar Plus+ (M7): VER PARTIDO",
-        "M+ Deportes 2 (64)"
-      ]
-    },
-    {
       "deporte": "Baloncesto",
       "competicion": "WNBA",
       "ronda": "Playoffs",
@@ -1716,6 +1659,20 @@
         "MotoGP Videopass",
         "DAZN (Ver en directo)",
         "DAZN MotoGP (M71 O105)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Tokio",
+      "ronda": "2ª Ronda",
+      "evento": "D. Shapovalov vs A. Tabilo",
+      "local": "D. Shapovalov",
+      "visitante": "A. Tabilo",
+      "fecha": "2026-10-03",
+      "hora": "04:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -1775,65 +1732,9 @@
       "deporte": "Tenis",
       "competicion": "WTA Pekín",
       "ronda": "2ª Ronda",
-      "evento": "E. Rybakina vs A. Charaeva",
-      "local": "E. Rybakina",
-      "visitante": "A. Charaeva",
-      "fecha": "2026-10-03",
-      "hora": "05:00",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Pekín",
-      "ronda": "2ª Ronda",
       "evento": "C. Gauff vs MC. Osorio",
       "local": "C. Gauff",
       "visitante": "MC. Osorio",
-      "fecha": "2026-10-03",
-      "hora": "05:00",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Pekín",
-      "ronda": "2ª Ronda",
-      "evento": "Q. Zheng vs A. Kalinskaya",
-      "local": "Q. Zheng",
-      "visitante": "A. Kalinskaya",
-      "fecha": "2026-10-03",
-      "hora": "05:00",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Pekín",
-      "ronda": "2ª Ronda",
-      "evento": "S. Kartal vs X. Wang",
-      "local": "S. Kartal",
-      "visitante": "X. Wang",
-      "fecha": "2026-10-03",
-      "hora": "05:00",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Pekín",
-      "ronda": "2ª Ronda",
-      "evento": "X. Gao vs I. Swiatek",
-      "local": "X. Gao",
-      "visitante": "I. Swiatek",
       "fecha": "2026-10-03",
       "hora": "05:00",
       "canales": [
@@ -1853,6 +1754,21 @@
       "canales": [
         "ATP Tennis TV",
         "Movistar+"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Tokio",
+      "ronda": "2ª Ronda",
+      "evento": "C. Alcaraz vs M. Arnaldi",
+      "local": "C. Alcaraz",
+      "visitante": "M. Arnaldi",
+      "fecha": "2026-10-03",
+      "hora": "05:30",
+      "canales": [
+        "ATP Tennis TV",
+        "Movistar Plus+ (M7): VER PARTIDO",
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -1900,6 +1816,20 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "WTA Pekín",
+      "ronda": "2ª Ronda",
+      "evento": "X. Gao vs I. Swiatek",
+      "local": "X. Gao",
+      "visitante": "I. Swiatek",
+      "fecha": "2026-10-03",
+      "hora": "07:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
       "deporte": "Motociclismo",
       "competicion": "MotoGP",
       "ronda": null,
@@ -1928,6 +1858,34 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "WTA Pekín",
+      "ronda": "2ª Ronda",
+      "evento": "Q. Zheng vs A. Kalinskaya",
+      "local": "Q. Zheng",
+      "visitante": "A. Kalinskaya",
+      "fecha": "2026-10-03",
+      "hora": "08:30",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Tokio",
+      "ronda": "2ª Ronda",
+      "evento": "M. Berrettini vs A.D. Vallejo",
+      "local": "M. Berrettini",
+      "visitante": "A.D. Vallejo",
+      "fecha": "2026-10-03",
+      "hora": "09:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
       "deporte": "Automovilismo",
       "competicion": "Fórmula 1",
       "ronda": null,
@@ -1939,6 +1897,20 @@
       "canales": [
         "DAZN (Ver en directo)",
         "DAZN F1 (M70 O104)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Tokio",
+      "ronda": "2ª Ronda",
+      "evento": "U. Humbert vs J. Lehecka",
+      "local": "U. Humbert",
+      "visitante": "J. Lehecka",
+      "fecha": "2026-10-03",
+      "hora": "10:30",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -2110,6 +2082,20 @@
         "DAZN (Ver en directo)",
         "Teledeporte",
         "RTVE Play"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Pekín",
+      "ronda": "2ª Ronda",
+      "evento": "S. Kartal vs X. Wang",
+      "local": "S. Kartal",
+      "visitante": "X. Wang",
+      "fecha": "2026-10-03",
+      "hora": "13:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -2330,6 +2316,20 @@
       "hora": "14:30",
       "canales": [
         "M+ Deportes 5 (192)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Pekín",
+      "ronda": "2ª Ronda",
+      "evento": "E. Rybakina vs A. Charaeva",
+      "local": "E. Rybakina",
+      "visitante": "A. Charaeva",
+      "fecha": "2026-10-03",
+      "hora": "14:30",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -6864,11 +6864,11 @@
       "deporte": "Fútbol",
       "competicion": "Primera Nacional Argentina",
       "ronda": null,
-      "evento": "San Martín SJ vs Almagro",
-      "local": "San Martín SJ",
-      "visitante": "Almagro",
+      "evento": "CA Central Norte vs Racing Córdoba",
+      "local": "CA Central Norte",
+      "visitante": "Racing Córdoba",
       "fecha": "2026-10-04",
-      "hora": "22:00",
+      "hora": "21:30",
       "canales": [
         "LPF Play"
       ]
@@ -6877,9 +6877,9 @@
       "deporte": "Fútbol",
       "competicion": "Primera Nacional Argentina",
       "ronda": null,
-      "evento": "CA Central Norte vs Racing Córdoba",
-      "local": "CA Central Norte",
-      "visitante": "Racing Córdoba",
+      "evento": "San Martín SJ vs Almagro",
+      "local": "San Martín SJ",
+      "visitante": "Almagro",
       "fecha": "2026-10-04",
       "hora": "22:00",
       "canales": [
