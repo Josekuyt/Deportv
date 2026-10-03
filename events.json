@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-10-03T03:52:14",
+    "generado": "2026-10-03T13:02:12",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 477
+    "total_eventos": 481
   },
   "eventos": [
     {
@@ -224,9 +224,9 @@
       "deporte": "Baloncesto",
       "competicion": "WNBA",
       "ronda": "Playoffs",
-      "evento": "Dallas Wings vs Golden State Valkyries",
-      "local": "Dallas Wings",
-      "visitante": "Golden State Valkyries",
+      "evento": "Golden State Valkyries vs Dallas Wings",
+      "local": "Golden State Valkyries",
+      "visitante": "Dallas Wings",
       "fecha": "2026-10-03",
       "hora": "03:00",
       "canales": [
@@ -1060,6 +1060,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "UEFA Friendship Cup U18",
+      "ronda": null,
+      "evento": "Egipto vs Canadá",
+      "local": "Egipto",
+      "visitante": "Canadá",
+      "fecha": "2026-10-03",
+      "hora": "15:00",
+      "canales": [
+        "UEFA TV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "LaLiga Futures",
       "ronda": "Fase de grupos",
       "evento": "Elche Academy vs Getafe Academy",
@@ -1331,20 +1344,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "Rafa Nadal Academy Slam",
-      "ronda": null,
-      "evento": "R. Nadal vs A. Murray",
-      "local": "R. Nadal",
-      "visitante": "A. Murray",
-      "fecha": "2026-10-03",
-      "hora": "16:00",
-      "canales": [
-        "Movistar Plus+ (M7): VER PARTIDO",
-        "M+ Deportes 2 (64)"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "Liga F",
       "ronda": null,
@@ -1496,6 +1495,20 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Rafa Nadal Academy Slam",
+      "ronda": null,
+      "evento": "R. Nadal vs A. Murray",
+      "local": "R. Nadal",
+      "visitante": "A. Murray",
+      "fecha": "2026-10-03",
+      "hora": "16:30",
+      "canales": [
+        "Movistar Plus+ (M7): VER PARTIDO",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "División Honor Juvenil",
       "ronda": null,
@@ -1576,6 +1589,20 @@
       "hora": "17:00",
       "canales": [
         "Athletic-club.eus"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "UEFA Friendship Cup U18",
+      "ronda": null,
+      "evento": "Inglaterra vs España",
+      "local": "Inglaterra",
+      "visitante": "España",
+      "fecha": "2026-10-03",
+      "hora": "17:00",
+      "canales": [
+        "UEFA TV",
+        "SeFutbol YouTube"
       ]
     },
     {
@@ -2309,7 +2336,8 @@
         "DAZN (Ver en directo)",
         "M+ Vamos (8 y 50)",
         "M+ #Vamos Bar (307)",
-        "DAZN App Gratis (Ver gratis)"
+        "DAZN App Gratis (Ver gratis)",
+        "Fanatiz (Ver en directo)"
       ]
     },
     {
@@ -2532,6 +2560,19 @@
       "hora": "20:00",
       "canales": [
         "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Pro Serie B",
+      "ronda": null,
+      "evento": "9 de Octubre vs Atlético Fútbol Club",
+      "local": "9 de Octubre",
+      "visitante": "Atlético Fútbol Club",
+      "fecha": "2026-10-03",
+      "hora": "20:00",
+      "canales": [
+        "Zapping Internacional"
       ]
     },
     {
@@ -2957,6 +2998,19 @@
       "hora": "22:00",
       "canales": [
         "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Pro Serie B",
+      "ronda": null,
+      "evento": "LDU Portoviejo vs El Nacional",
+      "local": "LDU Portoviejo",
+      "visitante": "El Nacional",
+      "fecha": "2026-10-03",
+      "hora": "22:30",
+      "canales": [
+        "Zapping Internacional"
       ]
     },
     {
@@ -5240,7 +5294,8 @@
         "DAZN (Ver en directo)",
         "Movistar Plus+ (M7): VER PARTIDO",
         "M+ Vamos 3 (53)",
-        "DAZN App Gratis (Ver gratis)"
+        "DAZN App Gratis (Ver gratis)",
+        "Fanatiz (Ver en directo)"
       ]
     },
     {
