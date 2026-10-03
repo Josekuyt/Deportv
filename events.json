@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-10-03T13:02:12",
+    "generado": "2026-10-03T19:00:13",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 481
+    "total_eventos": 489
   },
   "eventos": [
     {
@@ -339,7 +339,7 @@
       "local": "A. De Miñaur",
       "visitante": "Q. Halys",
       "fecha": "2026-10-03",
-      "hora": "05:00",
+      "hora": "05:05",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 3 (65)"
@@ -353,25 +353,10 @@
       "local": "C. Gauff",
       "visitante": "MC. Osorio",
       "fecha": "2026-10-03",
-      "hora": "05:00",
+      "hora": "05:05",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Tokio",
-      "ronda": "2ª Ronda",
-      "evento": "C. Alcaraz vs M. Arnaldi",
-      "local": "C. Alcaraz",
-      "visitante": "M. Arnaldi",
-      "fecha": "2026-10-03",
-      "hora": "05:30",
-      "canales": [
-        "ATP Tennis TV",
-        "Movistar Plus+ (M7): VER PARTIDO",
-        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -420,31 +405,32 @@
     },
     {
       "deporte": "Tenis",
+      "competicion": "Torneo de Tokio",
+      "ronda": "2ª Ronda",
+      "evento": "C. Alcaraz vs M. Arnaldi",
+      "local": "C. Alcaraz",
+      "visitante": "M. Arnaldi",
+      "fecha": "2026-10-03",
+      "hora": "06:40",
+      "canales": [
+        "ATP Tennis TV",
+        "Movistar Plus+ (M7): VER PARTIDO",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
       "competicion": "Torneo de Pekín",
       "ronda": "2ª Ronda",
       "evento": "A. Rublev vs R. Safiullin",
       "local": "A. Rublev",
       "visitante": "R. Safiullin",
       "fecha": "2026-10-03",
-      "hora": "07:00",
+      "hora": "07:50",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 3 (65)",
         "M+ Deportes 4 (66)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Pekín",
-      "ronda": "2ª Ronda",
-      "evento": "X. Gao vs I. Swiatek",
-      "local": "X. Gao",
-      "visitante": "I. Swiatek",
-      "fecha": "2026-10-03",
-      "hora": "07:00",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -479,11 +465,11 @@
       "deporte": "Tenis",
       "competicion": "WTA Pekín",
       "ronda": "2ª Ronda",
-      "evento": "Q. Zheng vs A. Kalinskaya",
-      "local": "Q. Zheng",
-      "visitante": "A. Kalinskaya",
+      "evento": "X. Gao vs I. Swiatek",
+      "local": "X. Gao",
+      "visitante": "I. Swiatek",
       "fecha": "2026-10-03",
-      "hora": "08:30",
+      "hora": "08:20",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -497,7 +483,7 @@
       "local": "M. Berrettini",
       "visitante": "A.D. Vallejo",
       "fecha": "2026-10-03",
-      "hora": "09:00",
+      "hora": "09:10",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 2 (64)"
@@ -519,16 +505,16 @@
     },
     {
       "deporte": "Tenis",
-      "competicion": "Torneo de Tokio",
+      "competicion": "WTA Pekín",
       "ronda": "2ª Ronda",
-      "evento": "U. Humbert vs J. Lehecka",
-      "local": "U. Humbert",
-      "visitante": "J. Lehecka",
+      "evento": "Q. Zheng vs A. Kalinskaya",
+      "local": "Q. Zheng",
+      "visitante": "A. Kalinskaya",
       "fecha": "2026-10-03",
-      "hora": "10:30",
+      "hora": "10:10",
       "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes 2 (64)"
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -558,33 +544,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Pekín",
-      "ronda": "2ª Ronda",
-      "evento": "D. Medvedev vs JL. Struff",
-      "local": "D. Medvedev",
-      "visitante": "JL. Struff",
-      "fecha": "2026-10-03",
-      "hora": "11:00",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes 4 (66)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Pekín",
-      "ronda": "2ª Ronda",
-      "evento": "F. Cerúndolo vs J. Mensik",
-      "local": "F. Cerúndolo",
-      "visitante": "J. Mensik",
-      "fecha": "2026-10-03",
-      "hora": "11:00",
-      "canales": [
-        "ATP Tennis TV"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "División Honor Juvenil",
       "ronda": "Grupo 4",
@@ -597,6 +556,20 @@
         "Real Betis Balompié YouTube",
         "Sevilla FC +",
         "Real Betis TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Tokio",
+      "ronda": "2ª Ronda",
+      "evento": "U. Humbert vs J. Lehecka",
+      "local": "U. Humbert",
+      "visitante": "J. Lehecka",
+      "fecha": "2026-10-03",
+      "hora": "11:15",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -689,6 +662,20 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Pekín",
+      "ronda": "2ª Ronda",
+      "evento": "D. Medvedev vs JL. Struff",
+      "local": "D. Medvedev",
+      "visitante": "JL. Struff",
+      "fecha": "2026-10-03",
+      "hora": "12:15",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 4 (66)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Primera Federación Femenina",
       "ronda": null,
@@ -727,34 +714,6 @@
         "DAZN (Ver en directo)",
         "Teledeporte",
         "RTVE Play"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Pekín",
-      "ronda": "2ª Ronda",
-      "evento": "A. Zverev vs J. Shang",
-      "local": "A. Zverev",
-      "visitante": "J. Shang",
-      "fecha": "2026-10-03",
-      "hora": "13:00",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes 3 (65)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Pekín",
-      "ronda": "2ª Ronda",
-      "evento": "S. Kartal vs X. Wang",
-      "local": "S. Kartal",
-      "visitante": "X. Wang",
-      "fecha": "2026-10-03",
-      "hora": "13:00",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -810,6 +769,20 @@
       "hora": "13:10",
       "canales": [
         "HBO MAX"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Pekín",
+      "ronda": "2ª Ronda",
+      "evento": "A. Zverev vs J. Shang",
+      "local": "A. Zverev",
+      "visitante": "J. Shang",
+      "fecha": "2026-10-03",
+      "hora": "13:15",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 3 (65)"
       ]
     },
     {
@@ -965,6 +938,33 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "WTA Pekín",
+      "ronda": "2ª Ronda",
+      "evento": "S. Kartal vs X. Wang",
+      "local": "S. Kartal",
+      "visitante": "X. Wang",
+      "fecha": "2026-10-03",
+      "hora": "14:05",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Pekín",
+      "ronda": "2ª Ronda",
+      "evento": "F. Cerúndolo vs J. Mensik",
+      "local": "F. Cerúndolo",
+      "visitante": "J. Mensik",
+      "fecha": "2026-10-03",
+      "hora": "14:10",
+      "canales": [
+        "ATP Tennis TV"
+      ]
+    },
+    {
       "deporte": "Rugby U",
       "competicion": "Top 14",
       "ronda": null,
@@ -975,20 +975,6 @@
       "hora": "14:30",
       "canales": [
         "M+ Deportes 5 (192)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Pekín",
-      "ronda": "2ª Ronda",
-      "evento": "E. Rybakina vs A. Charaeva",
-      "local": "E. Rybakina",
-      "visitante": "A. Charaeva",
-      "fecha": "2026-10-03",
-      "hora": "14:30",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -1015,6 +1001,20 @@
       "hora": "14:30",
       "canales": [
         "HBO MAX"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Pekín",
+      "ronda": "2ª Ronda",
+      "evento": "E. Rybakina vs A. Charaeva",
+      "local": "E. Rybakina",
+      "visitante": "A. Charaeva",
+      "fecha": "2026-10-03",
+      "hora": "14:40",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -1495,20 +1495,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "Rafa Nadal Academy Slam",
-      "ronda": null,
-      "evento": "R. Nadal vs A. Murray",
-      "local": "R. Nadal",
-      "visitante": "A. Murray",
-      "fecha": "2026-10-03",
-      "hora": "16:30",
-      "canales": [
-        "Movistar Plus+ (M7): VER PARTIDO",
-        "M+ Deportes 2 (64)"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "División Honor Juvenil",
       "ronda": null,
@@ -1603,6 +1589,20 @@
       "canales": [
         "UEFA TV",
         "SeFutbol YouTube"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Rafa Nadal Academy Slam",
+      "ronda": null,
+      "evento": "R. Nadal vs A. Murray",
+      "local": "R. Nadal",
+      "visitante": "A. Murray",
+      "fecha": "2026-10-03",
+      "hora": "17:00",
+      "canales": [
+        "Movistar Plus+ (M7): VER PARTIDO",
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -1979,19 +1979,6 @@
       ]
     },
     {
-      "deporte": "Baloncesto",
-      "competicion": "Liga Endesa",
-      "ronda": "Liga Regular",
-      "evento": "Joventut Badalona vs MoraBanc Andorra",
-      "local": "Joventut Badalona",
-      "visitante": "MoraBanc Andorra",
-      "fecha": "2026-10-03",
-      "hora": "18:00",
-      "canales": [
-        "DAZN (Ver en directo)"
-      ]
-    },
-    {
       "deporte": "Balonmano",
       "competicion": "Liga ASOBAL",
       "ronda": null,
@@ -2137,11 +2124,7 @@
       "fecha": "2026-10-03",
       "hora": "18:30",
       "canales": [
-        "LALIGA TV Hypermotion 2 (M59 O121): VER PARTIDO",
-        "DAZN (Ver en directo)",
-        "DAZN App Gratis (Ver gratis)",
-        "M+ Cero 2",
-        "LaLiga TV M2"
+        "APLAZADO"
       ]
     },
     {
@@ -2337,7 +2320,8 @@
         "M+ Vamos (8 y 50)",
         "M+ #Vamos Bar (307)",
         "DAZN App Gratis (Ver gratis)",
-        "Fanatiz (Ver en directo)"
+        "Fanatiz (Ver en directo)",
+        "DAZN Baloncesto 2 (M75 O127)"
       ]
     },
     {
@@ -2796,7 +2780,8 @@
       "fecha": "2026-10-03",
       "hora": "21:00",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN Baloncesto 3 (M76 O128)"
       ]
     },
     {
@@ -2920,10 +2905,10 @@
     {
       "deporte": "Fútbol",
       "competicion": "LaLiga Futures",
-      "ronda": null,
-      "evento": "1/4 de Final",
-      "local": null,
-      "visitante": null,
+      "ronda": "1/4 de Final",
+      "evento": "CR Flamengo Academy vs Orlando City Academy",
+      "local": "CR Flamengo Academy",
+      "visitante": "Orlando City Academy",
       "fecha": "2026-10-03",
       "hora": "22:00",
       "canales": [
@@ -3016,10 +3001,10 @@
     {
       "deporte": "Fútbol",
       "competicion": "LaLiga Futures",
-      "ronda": null,
-      "evento": "1/4 de Final",
-      "local": null,
-      "visitante": null,
+      "ronda": "1/4 de Final",
+      "evento": "River Plate Academy vs Boca Juniors Academy",
+      "local": "River Plate Academy",
+      "visitante": "Boca Juniors Academy",
       "fecha": "2026-10-03",
       "hora": "22:30",
       "canales": [
@@ -3073,10 +3058,10 @@
     {
       "deporte": "Fútbol",
       "competicion": "LaLiga Futures",
-      "ronda": null,
-      "evento": "1/4 de Final",
-      "local": null,
-      "visitante": null,
+      "ronda": "1/4 de Final",
+      "evento": "FC Barcelona Academy vs At. Madrid Academy",
+      "local": "FC Barcelona Academy",
+      "visitante": "At. Madrid Academy",
       "fecha": "2026-10-03",
       "hora": "23:00",
       "canales": [
@@ -3156,10 +3141,10 @@
     {
       "deporte": "Fútbol",
       "competicion": "LaLiga Futures",
-      "ronda": null,
-      "evento": "1/4 de Final",
-      "local": null,
-      "visitante": null,
+      "ronda": "1/4 de Final",
+      "evento": "Real Madrid Academy vs Real Betis Academy",
+      "local": "Real Madrid Academy",
+      "visitante": "Real Betis Academy",
       "fecha": "2026-10-03",
       "hora": "23:30",
       "canales": [
@@ -3292,6 +3277,20 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Tokio",
+      "ronda": "1/4 de Final",
+      "evento": "J. Munar vs K. Jacquet",
+      "local": "J. Munar",
+      "visitante": "K. Jacquet",
+      "fecha": "2026-10-04",
+      "hora": "04:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "CONCACAF Nations League",
       "ronda": null,
@@ -3302,20 +3301,6 @@
       "hora": "04:00",
       "canales": [
         "CONCACAF YouTube"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Tokio",
-      "ronda": null,
-      "evento": "1/4 de Final ATP 500",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-10-04",
-      "hora": "04:05",
-      "canales": [
-        "ATP Tennis TV",
-        "Movistar+"
       ]
     },
     {
@@ -3332,20 +3317,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "WTA Pekín",
-      "ronda": null,
-      "evento": "3ª Ronda WTA 1000",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-10-04",
-      "hora": "05:05",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
       "deporte": "Motociclismo",
       "competicion": "Moto2",
       "ronda": null,
@@ -3358,6 +3329,21 @@
         "MotoGP Videopass",
         "DAZN (Ver en directo)",
         "DAZN MotoGP (M71 O105)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Tokio",
+      "ronda": "1/4 de Final",
+      "evento": "C. Alcaraz vs D. Shapovalov",
+      "local": "C. Alcaraz",
+      "visitante": "D. Shapovalov",
+      "fecha": "2026-10-04",
+      "hora": "06:00",
+      "canales": [
+        "ATP Tennis TV",
+        "Movistar Plus+ (M7): VER PARTIDO",
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -3378,15 +3364,43 @@
     {
       "deporte": "Tenis",
       "competicion": "Torneo de Pekín",
-      "ronda": null,
-      "evento": "1/4 de Final ATP 500",
-      "local": null,
-      "visitante": null,
+      "ronda": "1/4 de Final",
+      "evento": "H. Hurkacz vs K. Khachanov",
+      "local": "H. Hurkacz",
+      "visitante": "K. Khachanov",
       "fecha": "2026-10-04",
-      "hora": "07:05",
+      "hora": "07:00",
       "canales": [
         "ATP Tennis TV",
-        "Movistar+"
+        "M+ Deportes 3 (65)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Pekín",
+      "ronda": "3ª Ronda",
+      "evento": "P. Kudermetova vs M. Andreeva",
+      "local": "P. Kudermetova",
+      "visitante": "M. Andreeva",
+      "fecha": "2026-10-04",
+      "hora": "07:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Pekín",
+      "ronda": "1/4 de Final",
+      "evento": "A. De Miñaur vs A. Rublev",
+      "local": "A. De Miñaur",
+      "visitante": "A. Rublev",
+      "fecha": "2026-10-04",
+      "hora": "08:30",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 3 (65)"
       ]
     },
     {
@@ -3400,6 +3414,20 @@
       "hora": "08:30",
       "canales": [
         "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Pekín",
+      "ronda": "3ª Ronda",
+      "evento": "L. Noskova vs V. Golubic",
+      "local": "L. Noskova",
+      "visitante": "V. Golubic",
+      "fecha": "2026-10-04",
+      "hora": "08:30",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -3417,6 +3445,20 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Tokio",
+      "ronda": "1/4 de Final",
+      "evento": "V. Vacherot vs A. Fils",
+      "local": "V. Vacherot",
+      "visitante": "A. Fils",
+      "fecha": "2026-10-04",
+      "hora": "09:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "División Honor Cadete",
       "ronda": "Grupo 1 (Madrid)",
@@ -3430,6 +3472,34 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Tokio",
+      "ronda": "1/4 de Final",
+      "evento": "J. Lehecka vs A.D. Vallejo",
+      "local": "J. Lehecka",
+      "visitante": "A.D. Vallejo",
+      "fecha": "2026-10-04",
+      "hora": "10:30",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Pekín",
+      "ronda": "1/4 de Final",
+      "evento": "D. Medvedev vs F. Cerúndolo",
+      "local": "D. Medvedev",
+      "visitante": "F. Cerúndolo",
+      "fecha": "2026-10-04",
+      "hora": "10:30",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 4 (66)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Primera Federación Femenina",
       "ronda": null,
@@ -3440,21 +3510,6 @@
       "hora": "11:00",
       "canales": [
         "CMMPlay (Castilla-LM)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Primera Federación Femenina",
-      "ronda": null,
-      "evento": "FC Barcelona B Femenino vs Alhama CF",
-      "local": "FC Barcelona B Femenino",
-      "visitante": "Alhama CF",
-      "fecha": "2026-10-04",
-      "hora": "11:00",
-      "canales": [
-        "RFEF.es",
-        "FC Barcelona PPV YouTube",
-        "RFEF TV YouTube"
       ]
     },
     {
@@ -3728,6 +3783,7 @@
       "hora": "12:00",
       "canales": [
         "DAZN (Ver en directo)",
+        "DAZN Baloncesto 2 (M75 O127)",
         "TVG (Galicia)",
         "ETB1 (País Vasco)"
       ]
@@ -3743,6 +3799,7 @@
       "hora": "12:00",
       "canales": [
         "DAZN (Ver en directo)",
+        "DAZN Baloncesto (M74 O126)",
         "TV3 (Cataluña)"
       ]
     },
@@ -4007,7 +4064,36 @@
       "canales": [
         "DAZN (Ver en directo)",
         "Movistar Plus+ (M7): VER PARTIDO",
-        "DAZN App Gratis (Ver gratis)"
+        "DAZN App Gratis (Ver gratis)",
+        "DAZN Baloncesto 3 (M76 O128)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Pekín",
+      "ronda": "1/4 de Final",
+      "evento": "A. Zverev vs N. Djokovic",
+      "local": "A. Zverev",
+      "visitante": "N. Djokovic",
+      "fecha": "2026-10-04",
+      "hora": "13:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 3 (65)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Pekín",
+      "ronda": "3ª Ronda",
+      "evento": "S. Bejlek vs N. Osaka",
+      "local": "S. Bejlek",
+      "visitante": "N. Osaka",
+      "fecha": "2026-10-04",
+      "hora": "13:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -4094,6 +4180,20 @@
         "FANPLAY TV",
         "Primera Federación (M53 O125)",
         "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Pekín",
+      "ronda": "3ª Ronda",
+      "evento": "K. Muchova vs L. Samsonova",
+      "local": "K. Muchova",
+      "visitante": "L. Samsonova",
+      "fecha": "2026-10-04",
+      "hora": "14:30",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -4669,6 +4769,21 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Primera Federación Femenina",
+      "ronda": null,
+      "evento": "FC Barcelona B Femenino vs Alhama CF",
+      "local": "FC Barcelona B Femenino",
+      "visitante": "Alhama CF",
+      "fecha": "2026-10-04",
+      "hora": "17:00",
+      "canales": [
+        "RFEF.es",
+        "FC Barcelona PPV YouTube",
+        "RFEF TV YouTube"
+      ]
+    },
+    {
       "deporte": "Boxeo",
       "competicion": "Título Internacional Femenino",
       "ronda": "Peso Superpluma",
@@ -4693,23 +4808,8 @@
       "canales": [
         "DAZN (Ver en directo)",
         "M+ Vamos 3 (53)",
-        "DAZN App Gratis (Ver gratis)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Liga F",
-      "ronda": null,
-      "evento": "FC Barcelona Femenino vs Real Madrid Femenino",
-      "local": "FC Barcelona Femenino",
-      "visitante": "Real Madrid Femenino",
-      "fecha": "2026-10-04",
-      "hora": "17:00",
-      "canales": [
-        "DAZN (Ver en directo)",
-        "Movistar Plus+ (M7): VER PARTIDO",
-        "DAZN 1 (M72)",
-        "DAZN 1 Bar (M148)"
+        "DAZN App Gratis (Ver gratis)",
+        "DAZN Baloncesto (M74 O126)"
       ]
     },
     {
@@ -5012,7 +5112,8 @@
       "fecha": "2026-10-04",
       "hora": "18:00",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN Baloncesto 2 (M75 O127)"
       ]
     },
     {
@@ -5295,7 +5396,24 @@
         "Movistar Plus+ (M7): VER PARTIDO",
         "M+ Vamos 3 (53)",
         "DAZN App Gratis (Ver gratis)",
-        "Fanatiz (Ver en directo)"
+        "Fanatiz (Ver en directo)",
+        "DAZN Baloncesto 3 (M76 O128)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga F",
+      "ronda": null,
+      "evento": "FC Barcelona Femenino vs Real Madrid Femenino",
+      "local": "FC Barcelona Femenino",
+      "visitante": "Real Madrid Femenino",
+      "fecha": "2026-10-04",
+      "hora": "19:00",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "Movistar Plus+ (M7): VER PARTIDO",
+        "DAZN 1 (M72)",
+        "DAZN 1 Bar (M148)"
       ]
     },
     {
