@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-10-04T13:41:47",
+    "generado": "2026-10-04T19:11:42",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 342
+    "total_eventos": 344
   },
   "eventos": [
     {
@@ -1182,6 +1182,19 @@
       "deporte": "Fútbol",
       "competicion": "FA Women's Super League",
       "ronda": null,
+      "evento": "Tottenham Femenino vs London City Lionesses",
+      "local": "Tottenham Femenino",
+      "visitante": "London City Lionesses",
+      "fecha": "2026-10-04",
+      "hora": "15:00",
+      "canales": [
+        "ElevenTV YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "FA Women's Super League",
+      "ronda": null,
       "evento": "Aston Villa Femenino vs Crystal Palace Femenino",
       "local": "Aston Villa Femenino",
       "visitante": "Crystal Palace Femenino",
@@ -1277,20 +1290,6 @@
         "DAZN App Gratis (Ver gratis)",
         "M+ Vamos 2 (51)",
         "Replay"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Pekín",
-      "ronda": "3ª Ronda",
-      "evento": "K. Muchova vs L. Samsonova",
-      "local": "K. Muchova",
-      "visitante": "L. Samsonova",
-      "fecha": "2026-10-04",
-      "hora": "15:45",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -1442,6 +1441,20 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "WTA Pekín",
+      "ronda": "3ª Ronda",
+      "evento": "K. Muchova vs L. Samsonova",
+      "local": "K. Muchova",
+      "visitante": "L. Samsonova",
+      "fecha": "2026-10-04",
+      "hora": "16:10",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "LaLiga Hypermotion",
       "ronda": null,
@@ -1534,10 +1547,10 @@
     {
       "deporte": "Fútbol",
       "competicion": "LaLiga Futures",
-      "ronda": null,
-      "evento": "Final Consolación",
-      "local": null,
-      "visitante": null,
+      "ronda": "Final Consolación",
+      "evento": "Sevilla FC Academy vs Palmeiras Academy",
+      "local": "Sevilla FC Academy",
+      "visitante": "Palmeiras Academy",
       "fecha": "2026-10-04",
       "hora": "17:00",
       "canales": [
@@ -1783,10 +1796,10 @@
     {
       "deporte": "Fútbol",
       "competicion": "LaLiga Futures",
-      "ronda": null,
-      "evento": "Final",
-      "local": null,
-      "visitante": null,
+      "ronda": "Final",
+      "evento": "River Plate Academy vs Real Betis Academy",
+      "local": "River Plate Academy",
+      "visitante": "Real Betis Academy",
       "fecha": "2026-10-04",
       "hora": "17:30",
       "canales": [
@@ -2461,6 +2474,20 @@
       "hora": "20:00",
       "canales": [
         "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "WNBA",
+      "ronda": null,
+      "evento": "Atlanta Dream vs New York Liberty",
+      "local": "Atlanta Dream",
+      "visitante": "New York Liberty",
+      "fecha": "2026-10-04",
+      "hora": "20:00",
+      "canales": [
+        "Teledeporte",
+        "RTVE Play"
       ]
     },
     {
@@ -3318,20 +3345,6 @@
     },
     {
       "deporte": "Tenis",
-      "competicion": "Torneo de Pekín",
-      "ronda": "ATP 500",
-      "evento": "A. De Miñaur vs H. Hurkacz",
-      "local": "A. De Miñaur",
-      "visitante": "H. Hurkacz",
-      "fecha": "2026-10-05",
-      "hora": "08:00",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes (63)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
       "competicion": "Torneo de Tokio",
       "ronda": "ATP 500",
       "evento": "C. Alcaraz vs J. Munar",
@@ -3347,6 +3360,20 @@
     },
     {
       "deporte": "Tenis",
+      "competicion": "Torneo de Pekín",
+      "ronda": "ATP 500",
+      "evento": "A. De Miñaur vs H. Hurkacz",
+      "local": "A. De Miñaur",
+      "visitante": "H. Hurkacz",
+      "fecha": "2026-10-05",
+      "hora": "09:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes (63)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
       "competicion": "WTA Pekín",
       "ronda": "3ª Ronda",
       "evento": "B. Bencic vs A. Li",
@@ -3357,20 +3384,6 @@
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Pekín",
-      "ronda": null,
-      "evento": "Semifinal 2 ATP 500",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-10-05",
-      "hora": "10:00",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes (63)"
       ]
     },
     {
@@ -3399,6 +3412,20 @@
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Pekín",
+      "ronda": "ATP 500",
+      "evento": "N. Djokovic vs D. Medvedev",
+      "local": "N. Djokovic",
+      "visitante": "D. Medvedev",
+      "fecha": "2026-10-05",
+      "hora": "13:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes (63)"
       ]
     },
     {
