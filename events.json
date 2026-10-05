@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-10-05T04:09:38",
+    "generado": "2026-10-05T16:48:59",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 176
+    "total_eventos": 189
   },
   "eventos": [
     {
@@ -17,6 +17,19 @@
       "hora": "00:00",
       "canales": [
         "Antel TV Internacional"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "NBA Pretemporada",
+      "ronda": null,
+      "evento": "Golden State Warriors vs Los Angeles Clippers",
+      "local": "Golden State Warriors",
+      "visitante": "Los Angeles Clippers",
+      "fecha": "2026-10-05",
+      "hora": "00:00",
+      "canales": [
+        "NBA League Pass"
       ]
     },
     {
@@ -264,7 +277,7 @@
       "local": "D. Vekic",
       "visitante": "I. Swiatek",
       "fecha": "2026-10-05",
-      "hora": "05:00",
+      "hora": "05:10",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -278,7 +291,7 @@
       "local": "M. Bouzkova",
       "visitante": "Q. Zheng",
       "fecha": "2026-10-05",
-      "hora": "06:30",
+      "hora": "08:15",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -292,25 +305,11 @@
       "local": "C. Alcaraz",
       "visitante": "J. Munar",
       "fecha": "2026-10-05",
-      "hora": "09:00",
+      "hora": "09:25",
       "canales": [
         "ATP Tennis TV",
         "Movistar Plus+ (M7): VER PARTIDO",
         "M+ Deportes 2 (64)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Pekín",
-      "ronda": "ATP 500",
-      "evento": "A. De Miñaur vs H. Hurkacz",
-      "local": "A. De Miñaur",
-      "visitante": "H. Hurkacz",
-      "fecha": "2026-10-05",
-      "hora": "09:00",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes (63)"
       ]
     },
     {
@@ -321,7 +320,7 @@
       "local": "B. Bencic",
       "visitante": "A. Li",
       "fecha": "2026-10-05",
-      "hora": "09:00",
+      "hora": "09:35",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -335,10 +334,24 @@
       "local": "M. Sakkari",
       "visitante": "E. Svitolina",
       "fecha": "2026-10-05",
-      "hora": "10:30",
+      "hora": "11:10",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Pekín",
+      "ronda": "ATP 500",
+      "evento": "A. De Miñaur vs H. Hurkacz",
+      "local": "A. De Miñaur",
+      "visitante": "H. Hurkacz",
+      "fecha": "2026-10-05",
+      "hora": "11:30",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes (63)"
       ]
     },
     {
@@ -349,24 +362,10 @@
       "local": "J. Lehecka",
       "visitante": "V. Vacherot",
       "fecha": "2026-10-05",
-      "hora": "11:00",
+      "hora": "12:20",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 2 (64)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Pekín",
-      "ronda": "ATP 500",
-      "evento": "N. Djokovic vs D. Medvedev",
-      "local": "N. Djokovic",
-      "visitante": "D. Medvedev",
-      "fecha": "2026-10-05",
-      "hora": "13:00",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes (63)"
       ]
     },
     {
@@ -388,16 +387,18 @@
     },
     {
       "deporte": "Tenis",
-      "competicion": "WTA Pekín",
-      "ronda": "3ª Ronda",
-      "evento": "C. Gauff vs X. Sun",
-      "local": "C. Gauff",
-      "visitante": "X. Sun",
+      "competicion": "Torneo de Pekín",
+      "ronda": "ATP 500",
+      "evento": "N. Djokovic vs D. Medvedev",
+      "local": "N. Djokovic",
+      "visitante": "D. Medvedev",
       "fecha": "2026-10-05",
-      "hora": "14:30",
+      "hora": "13:25",
       "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
+        "ATP Tennis TV",
+        "M+ Vamos (8 y 50)",
+        "M+ #Vamos Bar (307)",
+        "M+ Deportes (63)"
       ]
     },
     {
@@ -412,7 +413,22 @@
       "canales": [
         "HBO MAX",
         "DAZN (Ver en directo)",
+        "Lega Ciclismo Professionistico YouTube",
         "Eurosport 1"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Pekín",
+      "ronda": "3ª Ronda",
+      "evento": "C. Gauff vs X. Sun",
+      "local": "C. Gauff",
+      "visitante": "X. Sun",
+      "fecha": "2026-10-05",
+      "hora": "16:15",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -756,6 +772,45 @@
       ]
     },
     {
+      "deporte": "Baloncesto",
+      "competicion": "NBA Pretemporada",
+      "ronda": null,
+      "evento": "Philadelphia 76ers vs New York Knicks",
+      "local": "Philadelphia 76ers",
+      "visitante": "New York Knicks",
+      "fecha": "2026-10-06",
+      "hora": "01:00",
+      "canales": [
+        "NBA League Pass"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "NBA Pretemporada",
+      "ronda": null,
+      "evento": "Detroit Pistons vs Phoenix Suns",
+      "local": "Detroit Pistons",
+      "visitante": "Phoenix Suns",
+      "fecha": "2026-10-06",
+      "hora": "01:00",
+      "canales": [
+        "NBA League Pass"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "NBA Pretemporada",
+      "ronda": null,
+      "evento": "Atlanta Hawks vs Memphis Grizzlies",
+      "local": "Atlanta Hawks",
+      "visitante": "Memphis Grizzlies",
+      "fecha": "2026-10-06",
+      "hora": "01:00",
+      "canales": [
+        "NBA League Pass"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Liga Colombiana",
       "ronda": null,
@@ -766,6 +821,19 @@
       "hora": "02:00",
       "canales": [
         "RCN Nuestra Tele"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "NBA Pretemporada",
+      "ronda": null,
+      "evento": "Milwaukee Bucks vs Minnesota Timberwolves",
+      "local": "Milwaukee Bucks",
+      "visitante": "Minnesota Timberwolves",
+      "fecha": "2026-10-06",
+      "hora": "02:00",
+      "canales": [
+        "NBA League Pass"
       ]
     },
     {
@@ -847,6 +915,19 @@
       ]
     },
     {
+      "deporte": "Baloncesto",
+      "competicion": "NBA Pretemporada",
+      "ronda": null,
+      "evento": "Sacramento Kings vs Los Angeles Lakers",
+      "local": "Sacramento Kings",
+      "visitante": "Los Angeles Lakers",
+      "fecha": "2026-10-06",
+      "hora": "04:00",
+      "canales": [
+        "NBA League Pass"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "CONCACAF Nations League",
       "ronda": null,
@@ -861,29 +942,55 @@
     },
     {
       "deporte": "Tenis",
-      "competicion": "Torneo de Pekín",
-      "ronda": null,
-      "evento": "Final ATP 500",
-      "local": null,
-      "visitante": null,
+      "competicion": "WTA Pekín",
+      "ronda": "1/8 de final",
+      "evento": "D. Snigur vs M. Andreeva",
+      "local": "D. Snigur",
+      "visitante": "M. Andreeva",
       "fecha": "2026-10-06",
       "hora": "05:00",
       "canales": [
-        "ATP Tennis TV",
-        "M+ Vamos (8 y 50)",
-        "M+ #Vamos Bar (307)",
-        "M+ Deportes (63)"
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
       "deporte": "Tenis",
       "competicion": "WTA Pekín",
-      "ronda": null,
-      "evento": "1/8 de final WTA 1000",
-      "local": null,
-      "visitante": null,
+      "ronda": "1/8 de final",
+      "evento": "L. Noskova vs E. Alexandrova",
+      "local": "L. Noskova",
+      "visitante": "E. Alexandrova",
       "fecha": "2026-10-06",
-      "hora": "05:05",
+      "hora": "06:30",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Pekín",
+      "ronda": "1/8 de final",
+      "evento": "K. Muchova vs N. Osaka",
+      "local": "K. Muchova",
+      "visitante": "N. Osaka",
+      "fecha": "2026-10-06",
+      "hora": "09:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Pekín",
+      "ronda": "1/8 de final",
+      "evento": "S. Kraus vs N. Bartunkova",
+      "local": "S. Kraus",
+      "visitante": "N. Bartunkova",
+      "fecha": "2026-10-06",
+      "hora": "10:30",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -892,10 +999,10 @@
     {
       "deporte": "Tenis",
       "competicion": "Torneo de Tokio",
-      "ronda": null,
-      "evento": "Final ATP 500",
-      "local": null,
-      "visitante": null,
+      "ronda": "ATP 500",
+      "evento": "C. Alcaraz vs J. Lehecka",
+      "local": "C. Alcaraz",
+      "visitante": "J. Lehecka",
       "fecha": "2026-10-06",
       "hora": "11:00",
       "canales": [
@@ -908,7 +1015,7 @@
       "deporte": "Ciclismo",
       "competicion": "Tre Valli Varesine",
       "ronda": null,
-      "evento": "Carrera Femenina",
+      "evento": "Carrera Femenina Busto Arsizio › Varese (133,9 km)",
       "local": null,
       "visitante": null,
       "fecha": "2026-10-06",
@@ -918,10 +1025,26 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Pekín",
+      "ronda": "ATP 500",
+      "evento": "N. Djokovic vs A. De Miñaur",
+      "local": "N. Djokovic",
+      "visitante": "A. De Miñaur",
+      "fecha": "2026-10-06",
+      "hora": "13:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Vamos (8 y 50)",
+        "M+ #Vamos Bar (307)",
+        "M+ Deportes (63)"
+      ]
+    },
+    {
       "deporte": "Ciclismo",
       "competicion": "Binche–Chimay–Binche",
       "ronda": null,
-      "evento": "Carrera Femenina",
+      "evento": "Carrera Femenina Chimay › Binche (125 km)",
       "local": null,
       "visitante": null,
       "fecha": "2026-10-06",
@@ -949,7 +1072,7 @@
       "deporte": "Ciclismo",
       "competicion": "Binche–Chimay–Binche",
       "ronda": null,
-      "evento": "UCI Europe Tour",
+      "evento": "UCI Europe Tour Binche › Binche (206,8 km)",
       "local": null,
       "visitante": null,
       "fecha": "2026-10-06",
@@ -962,7 +1085,7 @@
       "deporte": "Ciclismo",
       "competicion": "Campeonato de Europa",
       "ronda": null,
-      "evento": "Relevos mixtos",
+      "evento": "Relevos mixtos Šencur › Šencur (44 km)",
       "local": null,
       "visitante": null,
       "fecha": "2026-10-06",
@@ -977,7 +1100,7 @@
       "deporte": "Ciclismo",
       "competicion": "Tre Valli Varesine",
       "ronda": null,
-      "evento": "UCI Europe Tour",
+      "evento": "UCI Europe Tour Busto Arsizio › Varese (196,1 km)",
       "local": null,
       "visitante": null,
       "fecha": "2026-10-06",
@@ -1251,7 +1374,7 @@
       "hora": "19:45",
       "canales": [
         "FIBA YouTube",
-        "Esport3 Web"
+        "Esport3 (Cataluña)"
       ]
     },
     {
@@ -1355,7 +1478,7 @@
       "fecha": "2026-10-06",
       "hora": "20:00",
       "canales": [
-        "Canal por confirmar"
+        "ETBK (País Vasco)"
       ]
     },
     {
@@ -1383,7 +1506,7 @@
       "canales": [
         "Teledeporte",
         "RTVE Play",
-        "Esport3 (Cataluña)"
+        "Esport3 Web"
       ]
     },
     {
@@ -1705,6 +1828,19 @@
       ]
     },
     {
+      "deporte": "Baloncesto",
+      "competicion": "NBA Pretemporada",
+      "ronda": null,
+      "evento": "Charlotte Hornets vs Brooklyn Nets",
+      "local": "Charlotte Hornets",
+      "visitante": "Brooklyn Nets",
+      "fecha": "2026-10-07",
+      "hora": "01:00",
+      "canales": [
+        "NBA League Pass"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "CONCACAF Nations League",
       "ronda": null,
@@ -1733,6 +1869,19 @@
       ]
     },
     {
+      "deporte": "Baloncesto",
+      "competicion": "NBA Pretemporada",
+      "ronda": null,
+      "evento": "Oklahoma C. Thunder vs New Orleans Pelicans",
+      "local": "Oklahoma C. Thunder",
+      "visitante": "New Orleans Pelicans",
+      "fecha": "2026-10-07",
+      "hora": "02:00",
+      "canales": [
+        "NBA League Pass"
+      ]
+    },
+    {
       "deporte": "MMA",
       "competicion": "Dana White Contender Series",
       "ronda": null,
@@ -1756,6 +1905,32 @@
       "hora": "02:30",
       "canales": [
         "Apple TV"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "NBA Pretemporada",
+      "ronda": null,
+      "evento": "Utah Jazz vs Denver Nuggets",
+      "local": "Utah Jazz",
+      "visitante": "Denver Nuggets",
+      "fecha": "2026-10-07",
+      "hora": "03:00",
+      "canales": [
+        "NBA League Pass"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "NBA Pretemporada",
+      "ronda": null,
+      "evento": "Golden State Warriors vs Los Angeles Lakers",
+      "local": "Golden State Warriors",
+      "visitante": "Los Angeles Lakers",
+      "fecha": "2026-10-07",
+      "hora": "04:00",
+      "canales": [
+        "NBA League Pass"
       ]
     },
     {
@@ -1855,7 +2030,7 @@
       "deporte": "Ciclismo",
       "competicion": "Campeonato de Europa",
       "ronda": null,
-      "evento": "Contrarreloj Femenina",
+      "evento": "Contrarreloj Femenina Šencur › Šencur (22,1 km)",
       "local": null,
       "visitante": null,
       "fecha": "2026-10-07",
@@ -1883,7 +2058,7 @@
       "deporte": "Ciclismo",
       "competicion": "Campeonato de Europa",
       "ronda": null,
-      "evento": "Contrarreloj Masculina",
+      "evento": "Contrarreloj Masculina Šencur › Šencur (22,1 km)",
       "local": null,
       "visitante": null,
       "fecha": "2026-10-07",
@@ -2153,7 +2328,8 @@
       "hora": "20:00",
       "canales": [
         "Siroko TV",
-        "M+ Baloncesto 4 (M195)"
+        "M+ Baloncesto 4 (M195)",
+        "Aragón Play"
       ]
     },
     {
