@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-10-06T04:58:33",
+    "generado": "2026-10-06T14:45:07",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 188
+    "total_eventos": 200
   },
   "eventos": [
     {
@@ -248,7 +248,7 @@
       "local": "D. Snigur",
       "visitante": "M. Andreeva",
       "fecha": "2026-10-06",
-      "hora": "05:00",
+      "hora": "05:10",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -276,39 +276,10 @@
       "local": "K. Muchova",
       "visitante": "N. Osaka",
       "fecha": "2026-10-06",
-      "hora": "09:00",
+      "hora": "09:10",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Pekín",
-      "ronda": "1/8 de final",
-      "evento": "S. Kraus vs N. Bartunkova",
-      "local": "S. Kraus",
-      "visitante": "N. Bartunkova",
-      "fecha": "2026-10-06",
-      "hora": "10:30",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Tokio",
-      "ronda": "ATP 500",
-      "evento": "C. Alcaraz vs J. Lehecka",
-      "local": "C. Alcaraz",
-      "visitante": "J. Lehecka",
-      "fecha": "2026-10-06",
-      "hora": "11:00",
-      "canales": [
-        "ATP Tennis TV",
-        "Movistar Plus+ (M7): VER PARTIDO",
-        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -321,7 +292,37 @@
       "fecha": "2026-10-06",
       "hora": "11:00",
       "canales": [
-        "HBO MAX"
+        "HBO MAX",
+        "Lega Ciclismo Professionistico YouTube"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Tokio",
+      "ronda": "ATP 500",
+      "evento": "C. Alcaraz vs J. Lehecka",
+      "local": "C. Alcaraz",
+      "visitante": "J. Lehecka",
+      "fecha": "2026-10-06",
+      "hora": "11:15",
+      "canales": [
+        "ATP Tennis TV",
+        "Movistar Plus+ (M7): VER PARTIDO",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Pekín",
+      "ronda": "1/8 de final",
+      "evento": "S. Kraus vs N. Bartunkova",
+      "local": "S. Kraus",
+      "visitante": "N. Bartunkova",
+      "fecha": "2026-10-06",
+      "hora": "12:20",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -408,6 +409,7 @@
       "canales": [
         "HBO MAX",
         "DAZN (Ver en directo)",
+        "Lega Ciclismo Professionistico YouTube",
         "Eurosport 2"
       ]
     },
@@ -451,7 +453,8 @@
       "canales": [
         "DAZN (Ver en directo)",
         "DAZN App Gratis (Ver gratis)",
-        "ProSieben MAXX (M+ Astra)"
+        "ProSieben MAXX (M+ Astra)",
+        "German Football YouTube"
       ]
     },
     {
@@ -509,7 +512,7 @@
     {
       "deporte": "Balonmano",
       "competicion": "EHF European League",
-      "ronda": null,
+      "ronda": "Fase de grupos",
       "evento": "Kadetten Schaffhausen vs HC Izvidac",
       "local": "Kadetten Schaffhausen",
       "visitante": "HC Izvidac",
@@ -522,7 +525,7 @@
     {
       "deporte": "Balonmano",
       "competicion": "EHF European League",
-      "ronda": null,
+      "ronda": "Fase de grupos",
       "evento": "CSM Bucuresti vs Chambery Savoie",
       "local": "CSM Bucuresti",
       "visitante": "Chambery Savoie",
@@ -535,7 +538,7 @@
     {
       "deporte": "Balonmano",
       "competicion": "EHF European League",
-      "ronda": null,
+      "ronda": "Fase de grupos",
       "evento": "Hammarby IF vs RK Nexe",
       "local": "Hammarby IF",
       "visitante": "RK Nexe",
@@ -548,7 +551,7 @@
     {
       "deporte": "Balonmano",
       "competicion": "EHF European League",
-      "ronda": null,
+      "ronda": "Fase de grupos",
       "evento": "Bergischer HC vs IK Sävehof",
       "local": "Bergischer HC",
       "visitante": "IK Sävehof",
@@ -561,7 +564,7 @@
     {
       "deporte": "Balonmano",
       "competicion": "EHF European League",
-      "ronda": null,
+      "ronda": "Fase de grupos",
       "evento": "RD Slovan vs Valur Reykjavík HB",
       "local": "RD Slovan",
       "visitante": "Valur Reykjavík HB",
@@ -574,7 +577,7 @@
     {
       "deporte": "Balonmano",
       "competicion": "EHF European League",
-      "ronda": null,
+      "ronda": "Fase de grupos",
       "evento": "PGE Wybrzeze Gdansk vs RK Eurofarm Pelister",
       "local": "PGE Wybrzeze Gdansk",
       "visitante": "RK Eurofarm Pelister",
@@ -587,7 +590,7 @@
     {
       "deporte": "Balonmano",
       "competicion": "EHF European League",
-      "ronda": null,
+      "ronda": "Fase de grupos",
       "evento": "Mors-Thy Håndbold vs MOL Tatabanya KC",
       "local": "Mors-Thy Håndbold",
       "visitante": "MOL Tatabanya KC",
@@ -806,6 +809,7 @@
       "canales": [
         "Teledeporte",
         "RTVE Play",
+        "Esport3 (Cataluña)",
         "Esport3 Web"
       ]
     },
@@ -826,7 +830,7 @@
     {
       "deporte": "Balonmano",
       "competicion": "EHF European League",
-      "ronda": null,
+      "ronda": "Fase de grupos",
       "evento": "BM Logroño La Rioja vs VfL Gummersbach",
       "local": "BM Logroño La Rioja",
       "visitante": "VfL Gummersbach",
@@ -839,7 +843,7 @@
     {
       "deporte": "Balonmano",
       "competicion": "EHF European League",
-      "ronda": null,
+      "ronda": "Fase de grupos",
       "evento": "BM Granollers vs HC Buzau 2012",
       "local": "BM Granollers",
       "visitante": "HC Buzau 2012",
@@ -853,7 +857,7 @@
     {
       "deporte": "Balonmano",
       "competicion": "EHF European League",
-      "ronda": null,
+      "ronda": "Fase de grupos",
       "evento": "TTH Holstebro vs Benfica HB",
       "local": "TTH Holstebro",
       "visitante": "Benfica HB",
@@ -866,7 +870,7 @@
     {
       "deporte": "Balonmano",
       "competicion": "EHF European League",
-      "ronda": null,
+      "ronda": "Fase de grupos",
       "evento": "BM Torrelavega vs HCB Karviná",
       "local": "BM Torrelavega",
       "visitante": "HCB Karviná",
@@ -879,7 +883,7 @@
     {
       "deporte": "Balonmano",
       "competicion": "EHF European League",
-      "ronda": null,
+      "ronda": "Fase de grupos",
       "evento": "Saint-Raphaël SRVHB vs Elverum Handball",
       "local": "Saint-Raphaël SRVHB",
       "visitante": "Elverum Handball",
@@ -892,7 +896,7 @@
     {
       "deporte": "Balonmano",
       "competicion": "EHF European League",
-      "ronda": null,
+      "ronda": "Fase de grupos",
       "evento": "Aguas Santas Milaneza vs Flensburg-Handewitt",
       "local": "Aguas Santas Milaneza",
       "visitante": "Flensburg-Handewitt",
@@ -905,7 +909,7 @@
     {
       "deporte": "Balonmano",
       "competicion": "EHF European League",
-      "ronda": null,
+      "ronda": "Fase de grupos",
       "evento": "FH Hafnarfjördur HB vs Limoges Hand 87",
       "local": "FH Hafnarfjördur HB",
       "visitante": "Limoges Hand 87",
@@ -918,7 +922,7 @@
     {
       "deporte": "Balonmano",
       "competicion": "EHF European League",
-      "ronda": null,
+      "ronda": "Fase de grupos",
       "evento": "MRK Sesvete vs TATRAN Presov",
       "local": "MRK Sesvete",
       "visitante": "TATRAN Presov",
@@ -931,14 +935,15 @@
     {
       "deporte": "Balonmano",
       "competicion": "EHF European League",
-      "ronda": null,
+      "ronda": "Fase de grupos",
       "evento": "Maritimo da Madeira Andebol vs Bidasoa Irún",
       "local": "Maritimo da Madeira Andebol",
       "visitante": "Bidasoa Irún",
       "fecha": "2026-10-06",
       "hora": "20:45",
       "canales": [
-        "EHF TV"
+        "EHF TV",
+        "ETB1ON"
       ]
     },
     {
@@ -1063,11 +1068,11 @@
       "deporte": "Fútbol",
       "competicion": "CONCACAF Nations League",
       "ronda": null,
-      "evento": "Montserrat vs aïques",
-      "local": "Montserrat",
-      "visitante": "aïques",
+      "evento": "Saint-Martin vs Bahamas",
+      "local": "Saint-Martin",
+      "visitante": "Bahamas",
       "fecha": "2026-10-06",
-      "hora": "21:00",
+      "hora": "22:00",
       "canales": [
         "CONCACAF YouTube"
       ]
@@ -1076,9 +1081,9 @@
       "deporte": "Fútbol",
       "competicion": "CONCACAF Nations League",
       "ronda": null,
-      "evento": "Saint-Martin vs Bahamas",
-      "local": "Saint-Martin",
-      "visitante": "Bahamas",
+      "evento": "Montserrat vs aïques",
+      "local": "Montserrat",
+      "visitante": "aïques",
       "fecha": "2026-10-06",
       "hora": "22:00",
       "canales": [
@@ -1221,6 +1226,118 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "1ª Ronda",
+      "evento": "Y. Hanfmann vs K. Majchrzak",
+      "local": "Y. Hanfmann",
+      "visitante": "K. Majchrzak",
+      "fecha": "2026-10-07",
+      "hora": "04:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 3 (65)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "1ª Ronda",
+      "evento": "Y. Wu vs M. Zheng",
+      "local": "Y. Wu",
+      "visitante": "M. Zheng",
+      "fecha": "2026-10-07",
+      "hora": "04:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "1ª Ronda",
+      "evento": "H. Rune vs D. Altmaier",
+      "local": "H. Rune",
+      "visitante": "D. Altmaier",
+      "fecha": "2026-10-07",
+      "hora": "04:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 3 (65)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "1ª Ronda",
+      "evento": "A. Kovacevic vs M. Berrettini",
+      "local": "A. Kovacevic",
+      "visitante": "M. Berrettini",
+      "fecha": "2026-10-07",
+      "hora": "04:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "1ª Ronda",
+      "evento": "Zh. Zhang vs T. Machac",
+      "local": "Zh. Zhang",
+      "visitante": "T. Machac",
+      "fecha": "2026-10-07",
+      "hora": "04:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "1ª Ronda",
+      "evento": "A. Fery vs M. Cilic",
+      "local": "A. Fery",
+      "visitante": "M. Cilic",
+      "fecha": "2026-10-07",
+      "hora": "04:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "1ª Ronda",
+      "evento": "M. Bellucci vs Y. Zhou",
+      "local": "M. Bellucci",
+      "visitante": "Y. Zhou",
+      "fecha": "2026-10-07",
+      "hora": "04:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 3 (65)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "1ª Ronda",
+      "evento": "A. Gea vs J. Faria",
+      "local": "A. Gea",
+      "visitante": "J. Faria",
+      "fecha": "2026-10-07",
+      "hora": "04:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 3 (65)"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "NBA Pretemporada",
       "ronda": null,
@@ -1249,12 +1366,12 @@
     {
       "deporte": "Tenis",
       "competicion": "WTA Pekín",
-      "ronda": null,
-      "evento": "1/4 de Final WTA 1000",
-      "local": null,
-      "visitante": null,
+      "ronda": "1/8 de final",
+      "evento": "I. Jovic vs I. Swiatek",
+      "local": "I. Jovic",
+      "visitante": "I. Swiatek",
       "fecha": "2026-10-07",
-      "hora": "05:05",
+      "hora": "05:00",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -1262,16 +1379,16 @@
     },
     {
       "deporte": "Tenis",
-      "competicion": "Masters Shanghai",
-      "ronda": null,
-      "evento": "1ª Ronda ATP Masters 1000",
-      "local": null,
-      "visitante": null,
+      "competicion": "WTA Pekín",
+      "ronda": "1/8 de final",
+      "evento": "C. Gauff vs E. Mertens",
+      "local": "C. Gauff",
+      "visitante": "E. Mertens",
       "fecha": "2026-10-07",
       "hora": "06:30",
       "canales": [
-        "ATP Tennis TV",
-        "Movistar+"
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -1298,6 +1415,20 @@
       "hora": "12:00",
       "canales": [
         "CMMPlay (Castilla-LM)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Pekín",
+      "ronda": "1/8 de final",
+      "evento": "A. Charaeva vs Q. Zheng",
+      "local": "A. Charaeva",
+      "visitante": "Q. Zheng",
+      "fecha": "2026-10-07",
+      "hora": "13:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -1339,6 +1470,20 @@
         "HBO MAX",
         "DAZN (Ver en directo)",
         "Eurosport 1"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Pekín",
+      "ronda": "1/8 de final",
+      "evento": "A. Li vs E. Svitolina",
+      "local": "A. Li",
+      "visitante": "E. Svitolina",
+      "fecha": "2026-10-07",
+      "hora": "14:30",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -1847,6 +1992,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Torneo BetPlay DIMAYOR",
+      "ronda": null,
+      "evento": "Boca Juniors Cali vs Unión Magdalena",
+      "local": "Boca Juniors Cali",
+      "visitante": "Unión Magdalena",
+      "fecha": "2026-10-08",
+      "hora": "00:00",
+      "canales": [
+        "Win Sports TV YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Serie A Brasil",
       "ronda": null,
       "evento": "Internacional vs Corinthians",
@@ -2001,6 +2159,7 @@
       "fecha": "2026-10-08",
       "hora": "03:30",
       "canales": [
+        "Teledeporte",
         "RTVE Play"
       ]
     },
@@ -2240,7 +2399,8 @@
       "fecha": "2026-10-08",
       "hora": "19:00",
       "canales": [
-        "Siroko TV"
+        "Siroko TV",
+        "M+ Baloncesto 4 (M195)"
       ]
     },
     {
@@ -2509,6 +2669,19 @@
       "hora": "22:30",
       "canales": [
         "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Torneo BetPlay DIMAYOR",
+      "ronda": null,
+      "evento": "Independiente Valle del Cauca vs Tigres FC",
+      "local": "Independiente Valle del Cauca",
+      "visitante": "Tigres FC",
+      "fecha": "2026-10-08",
+      "hora": "22:30",
+      "canales": [
+        "Win Sports TV YouTube"
       ]
     }
   ]
