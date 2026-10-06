@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-10-05T16:48:59"
+    "actualizado": "2026-10-06T04:58:33"
   },
   "config": {
     "puntos_por_tier": {
@@ -1614,6 +1614,26 @@
     "NBA Pretemporada": {
       "deporte": "Baloncesto",
       "tier": "A",
+      "por_revisar": true
+    },
+    "Baycurrent Classic": {
+      "deporte": "Golf",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Giro del Piemonte": {
+      "deporte": "Ciclismo",
+      "tier": "A",
+      "por_revisar": true
+    },
+    "LPGA Aramco Korea Championship": {
+      "deporte": "Golf",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Open de España": {
+      "deporte": "Golf",
+      "tier": "C",
       "por_revisar": true
     }
   }
