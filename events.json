@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-10-07T04:25:11",
+    "generado": "2026-10-07T15:06:25",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 183
+    "total_eventos": 209
   },
   "eventos": [
     {
@@ -162,10 +162,24 @@
       "local": "A. Kovacevic",
       "visitante": "M. Berrettini",
       "fecha": "2026-10-07",
-      "hora": "06:00",
+      "hora": "06:10",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "1ª Ronda",
+      "evento": "S. Shimabukuro vs M. Kecmanovic",
+      "local": "S. Shimabukuro",
+      "visitante": "M. Kecmanovic",
+      "fecha": "2026-10-07",
+      "hora": "06:10",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 4 (66)"
       ]
     },
     {
@@ -176,7 +190,7 @@
       "local": "A. Gea",
       "visitante": "J. Faria",
       "fecha": "2026-10-07",
-      "hora": "06:00",
+      "hora": "06:10",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 3 (65)"
@@ -190,10 +204,24 @@
       "local": "I. Jovic",
       "visitante": "I. Swiatek",
       "fecha": "2026-10-07",
-      "hora": "07:00",
+      "hora": "07:10",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "1ª Ronda",
+      "evento": "A. Mannarino vs N. Basilashvili",
+      "local": "A. Mannarino",
+      "visitante": "N. Basilashvili",
+      "fecha": "2026-10-07",
+      "hora": "07:40",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 4 (66)"
       ]
     },
     {
@@ -204,7 +232,7 @@
       "local": "Y. Hanfmann",
       "visitante": "K. Majchrzak",
       "fecha": "2026-10-07",
-      "hora": "07:30",
+      "hora": "08:35",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 3 (65)"
@@ -218,7 +246,7 @@
       "local": "Zh. Zhang",
       "visitante": "T. Machac",
       "fecha": "2026-10-07",
-      "hora": "07:30",
+      "hora": "08:45",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 2 (64)"
@@ -226,30 +254,16 @@
     },
     {
       "deporte": "Tenis",
-      "competicion": "WTA Pekín",
-      "ronda": "1/8 de final",
-      "evento": "C. Gauff vs E. Mertens",
-      "local": "C. Gauff",
-      "visitante": "E. Mertens",
-      "fecha": "2026-10-07",
-      "hora": "08:30",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
       "competicion": "Masters Shanghai",
       "ronda": "1ª Ronda",
-      "evento": "M. Bellucci vs Y. Zhou",
-      "local": "M. Bellucci",
-      "visitante": "Y. Zhou",
+      "evento": "M. Trungelliti vs R. Sakamoto",
+      "local": "M. Trungelliti",
+      "visitante": "R. Sakamoto",
       "fecha": "2026-10-07",
       "hora": "09:00",
       "canales": [
         "ATP Tennis TV",
-        "M+ Deportes 3 (65)"
+        "M+ Deportes 4 (66)"
       ]
     },
     {
@@ -267,30 +281,30 @@
     },
     {
       "deporte": "Tenis",
-      "competicion": "Masters Shanghai",
-      "ronda": "1ª Ronda",
-      "evento": "H. Rune vs D. Altmaier",
-      "local": "H. Rune",
-      "visitante": "D. Altmaier",
+      "competicion": "WTA Pekín",
+      "ronda": "1/8 de final",
+      "evento": "C. Gauff vs E. Mertens",
+      "local": "C. Gauff",
+      "visitante": "E. Mertens",
       "fecha": "2026-10-07",
-      "hora": "10:30",
+      "hora": "09:05",
       "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes 3 (65)"
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
       "deporte": "Tenis",
       "competicion": "Masters Shanghai",
       "ronda": "1ª Ronda",
-      "evento": "Y. Wu vs M. Zheng",
-      "local": "Y. Wu",
-      "visitante": "M. Zheng",
+      "evento": "Q. Halys vs C. Wong",
+      "local": "Q. Halys",
+      "visitante": "C. Wong",
       "fecha": "2026-10-07",
-      "hora": "12:00",
+      "hora": "10:55",
       "canales": [
         "ATP Tennis TV",
-        "M+ Deportes 2 (64)"
+        "M+ Deportes 4 (66)"
       ]
     },
     {
@@ -310,14 +324,44 @@
       "deporte": "Tenis",
       "competicion": "Masters Shanghai",
       "ronda": "1ª Ronda",
-      "evento": "A. Fery vs M. Cilic",
-      "local": "A. Fery",
-      "visitante": "M. Cilic",
+      "evento": "Y. Wu vs M. Zheng",
+      "local": "Y. Wu",
+      "visitante": "M. Zheng",
       "fecha": "2026-10-07",
-      "hora": "13:30",
+      "hora": "12:05",
       "canales": [
         "ATP Tennis TV",
+        "M+ Vamos (8 y 50)",
+        "M+ #Vamos Bar (307)",
         "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "1ª Ronda",
+      "evento": "M. Bellucci vs Y. Zhou",
+      "local": "M. Bellucci",
+      "visitante": "Y. Zhou",
+      "fecha": "2026-10-07",
+      "hora": "12:05",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 3 (65)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Pekín",
+      "ronda": "1/8 de final",
+      "evento": "A. Charaeva vs Q. Zheng",
+      "local": "A. Charaeva",
+      "visitante": "Q. Zheng",
+      "fecha": "2026-10-07",
+      "hora": "13:10",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -347,6 +391,20 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "1ª Ronda",
+      "evento": "A. Fery vs M. Cilic",
+      "local": "A. Fery",
+      "visitante": "M. Cilic",
+      "fecha": "2026-10-07",
+      "hora": "14:15",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
       "deporte": "Ciclismo",
       "competicion": "Campeonato de Europa",
       "ronda": null,
@@ -363,11 +421,25 @@
     },
     {
       "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "1ª Ronda",
+      "evento": "H. Rune vs D. Altmaier",
+      "local": "H. Rune",
+      "visitante": "D. Altmaier",
+      "fecha": "2026-10-07",
+      "hora": "14:30",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 3 (65)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
       "competicion": "WTA Pekín",
       "ronda": "1/8 de final",
-      "evento": "A. Charaeva vs Q. Zheng",
-      "local": "A. Charaeva",
-      "visitante": "Q. Zheng",
+      "evento": "A. Li vs E. Svitolina",
+      "local": "A. Li",
+      "visitante": "E. Svitolina",
       "fecha": "2026-10-07",
       "hora": "15:00",
       "canales": [
@@ -404,20 +476,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "WTA Pekín",
-      "ronda": "1/8 de final",
-      "evento": "A. Li vs E. Svitolina",
-      "local": "A. Li",
-      "visitante": "E. Svitolina",
-      "fecha": "2026-10-07",
-      "hora": "16:30",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
       "deporte": "Baloncesto",
       "competicion": "FIBA Europe Cup",
       "ronda": "Liga Regular",
@@ -441,6 +499,45 @@
       "hora": "17:00",
       "canales": [
         "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Basketball Champions League",
+      "ronda": "Liga Regular",
+      "evento": "Trabzonspor MP vs Nanterre 92",
+      "local": "Trabzonspor MP",
+      "visitante": "Nanterre 92",
+      "fecha": "2026-10-07",
+      "hora": "18:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Basketball Champions League",
+      "ronda": null,
+      "evento": "AEK BC vs Salon Vilpas Vikings",
+      "local": "AEK BC",
+      "visitante": "Salon Vilpas Vikings",
+      "fecha": "2026-10-07",
+      "hora": "18:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Basketball Champions League",
+      "ronda": "Liga Regular",
+      "evento": "Slavia Prague ERA NBK vs ALBA Berlin",
+      "local": "Slavia Prague ERA NBK",
+      "visitante": "ALBA Berlin",
+      "fecha": "2026-10-07",
+      "hora": "18:00",
+      "canales": [
+        "DAZN (Ver en directo)"
       ]
     },
     {
@@ -609,6 +706,7 @@
       "fecha": "2026-10-07",
       "hora": "19:00",
       "canales": [
+        "DAZN (Ver en directo)",
         "Teledeporte",
         "RTVE Play"
       ]
@@ -761,6 +859,45 @@
     },
     {
       "deporte": "Baloncesto",
+      "competicion": "Basketball Champions League",
+      "ronda": "Liga Regular",
+      "evento": "Telekom Baskets Bonn vs FC Porto CB",
+      "local": "Telekom Baskets Bonn",
+      "visitante": "FC Porto CB",
+      "fecha": "2026-10-07",
+      "hora": "20:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Basketball Champions League",
+      "ronda": "Liga Regular",
+      "evento": "Telenet Giants Antwerp vs Falco Szombathely",
+      "local": "Telenet Giants Antwerp",
+      "visitante": "Falco Szombathely",
+      "fecha": "2026-10-07",
+      "hora": "20:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Basketball Champions League",
+      "ronda": null,
+      "evento": "KK Spartak Subotica BC vs Rasta Vechta",
+      "local": "KK Spartak Subotica BC",
+      "visitante": "Rasta Vechta",
+      "fecha": "2026-10-07",
+      "hora": "20:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
       "competicion": "FIBA Europe Cup",
       "ronda": "Liga Regular",
       "evento": "Elan Chalon vs Manchester Basketball",
@@ -795,7 +932,7 @@
       "fecha": "2026-10-07",
       "hora": "20:30",
       "canales": [
-        "Canal por confirmar"
+        "DAZN (Ver en directo)"
       ]
     },
     {
@@ -811,7 +948,8 @@
         "TV FootballClub (Acceder)",
         "FANPLAY TV",
         "Primera Federación (M53 O125)",
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "La 7 TV (Murcia)"
       ]
     },
     {
@@ -891,6 +1029,32 @@
       "hora": "20:45",
       "canales": [
         "M+ Baloncesto 3 (M194)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Copa Cataluña",
+      "ronda": "4ª Ronda",
+      "evento": "Ronin FC vs Torelló CF",
+      "local": "Ronin FC",
+      "visitante": "Torelló CF",
+      "fecha": "2026-10-07",
+      "hora": "21:00",
+      "canales": [
+        "RoninFC YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Pro Serie B",
+      "ronda": null,
+      "evento": "Vinotinto FC vs Cuenca Juniors",
+      "local": "Vinotinto FC",
+      "visitante": "Cuenca Juniors",
+      "fecha": "2026-10-07",
+      "hora": "22:30",
+      "canales": [
+        "Zapping Internacional"
       ]
     },
     {
@@ -1094,30 +1258,44 @@
     },
     {
       "deporte": "Tenis",
-      "competicion": "WTA Pekín",
-      "ronda": null,
-      "evento": "1/4 de Final WTA 1000",
-      "local": null,
-      "visitante": null,
+      "competicion": "Masters Shanghai",
+      "ronda": "1ª Ronda",
+      "evento": "J. Munar vs J. Brooksby",
+      "local": "J. Munar",
+      "visitante": "J. Brooksby",
       "fecha": "2026-10-08",
-      "hora": "05:05",
+      "hora": "06:00",
       "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
       ]
     },
     {
       "deporte": "Tenis",
       "competicion": "Masters Shanghai",
-      "ronda": null,
-      "evento": "1ª Ronda ATP Masters 1000",
-      "local": null,
-      "visitante": null,
+      "ronda": "1ª Ronda",
+      "evento": "K. Coppejans vs S. Tsitsipas",
+      "local": "K. Coppejans",
+      "visitante": "S. Tsitsipas",
       "fecha": "2026-10-08",
-      "hora": "06:30",
+      "hora": "06:00",
       "canales": [
         "ATP Tennis TV",
-        "Movistar+"
+        "M+ Deportes 4 (66)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "1ª Ronda",
+      "evento": "P. Kotov vs T. Griekspoor",
+      "local": "P. Kotov",
+      "visitante": "T. Griekspoor",
+      "fecha": "2026-10-08",
+      "hora": "06:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 3 (65)"
       ]
     },
     {
@@ -1134,6 +1312,91 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "1ª Ronda",
+      "evento": "B. Tomic vs M. Arnaldi",
+      "local": "B. Tomic",
+      "visitante": "M. Arnaldi",
+      "fecha": "2026-10-08",
+      "hora": "07:30",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 3 (65)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "1ª Ronda",
+      "evento": "H. Hurkacz vs J. Duckworth",
+      "local": "H. Hurkacz",
+      "visitante": "J. Duckworth",
+      "fecha": "2026-10-08",
+      "hora": "07:30",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 4 (66)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "1ª Ronda",
+      "evento": "M. Navone vs P. Carreño",
+      "local": "M. Navone",
+      "visitante": "P. Carreño",
+      "fecha": "2026-10-08",
+      "hora": "07:30",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Pekín",
+      "ronda": "1/4 de Final",
+      "evento": "K. Muchova vs N. Bartunkova",
+      "local": "K. Muchova",
+      "visitante": "N. Bartunkova",
+      "fecha": "2026-10-08",
+      "hora": "08:30",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "1ª Ronda",
+      "evento": "M. Giron vs S. Báez",
+      "local": "M. Giron",
+      "visitante": "S. Báez",
+      "fecha": "2026-10-08",
+      "hora": "09:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 3 (65)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "1ª Ronda",
+      "evento": "M. Landaluce vs JL. Struff",
+      "local": "M. Landaluce",
+      "visitante": "JL. Struff",
+      "fecha": "2026-10-08",
+      "hora": "09:00",
+      "canales": [
+        "ATP Tennis TV",
+        "Movistar Plus+ (M7): VER PARTIDO",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
       "deporte": "Pádel",
       "competicion": "Alemania Open",
       "ronda": null,
@@ -1144,6 +1407,76 @@
       "hora": "09:00",
       "canales": [
         "Premier Padel YouTube"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "1ª Ronda",
+      "evento": "B. Van de Zandschulp vs D. Mérida",
+      "local": "B. Van de Zandschulp",
+      "visitante": "D. Mérida",
+      "fecha": "2026-10-08",
+      "hora": "10:30",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 3 (65)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "1ª Ronda",
+      "evento": "V. Kopriva vs Z. Bergs",
+      "local": "V. Kopriva",
+      "visitante": "Z. Bergs",
+      "fecha": "2026-10-08",
+      "hora": "10:30",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "1ª Ronda",
+      "evento": "L. Van Assche vs Y. Bu",
+      "local": "L. Van Assche",
+      "visitante": "Y. Bu",
+      "fecha": "2026-10-08",
+      "hora": "12:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 4 (66)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Pekín",
+      "ronda": "1/4 de Final",
+      "evento": "E. Alexandrova vs M. Andreeva",
+      "local": "E. Alexandrova",
+      "visitante": "M. Andreeva",
+      "fecha": "2026-10-08",
+      "hora": "13:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "1ª Ronda",
+      "evento": "C. Norrie vs D. Svrcina",
+      "local": "C. Norrie",
+      "visitante": "D. Svrcina",
+      "fecha": "2026-10-08",
+      "hora": "13:30",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 4 (66)"
       ]
     },
     {
@@ -1318,6 +1651,19 @@
       "canales": [
         "Siroko TV",
         "M+ Baloncesto 3 (M194)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Pro Serie B",
+      "ronda": null,
+      "evento": "Independiente Juniors vs 9 de Octubre",
+      "local": "Independiente Juniors",
+      "visitante": "9 de Octubre",
+      "fecha": "2026-10-08",
+      "hora": "19:00",
+      "canales": [
+        "Zapping Internacional"
       ]
     },
     {
@@ -1563,6 +1909,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Liga Pro Serie B",
+      "ronda": null,
+      "evento": "Atlético Fútbol Club vs San Antonio",
+      "local": "Atlético Fútbol Club",
+      "visitante": "San Antonio",
+      "fecha": "2026-10-08",
+      "hora": "21:15",
+      "canales": [
+        "Zapping Internacional"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Liga 1 Perú",
       "ronda": null,
       "evento": "Atlético Grau vs CD Los Chankas",
@@ -1733,6 +2092,19 @@
       ]
     },
     {
+      "deporte": "Fútbol Sala",
+      "competicion": "Primera División Futsal AFA",
+      "ronda": null,
+      "evento": "Kimberley AC Futsal vs CSD Pinocho",
+      "local": "Kimberley AC Futsal",
+      "visitante": "CSD Pinocho",
+      "fecha": "2026-10-09",
+      "hora": "03:00",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "NBA Pretemporada",
       "ronda": null,
@@ -1772,6 +2144,20 @@
       "canales": [
         "HBO MAX",
         "Movistar Golf (M68)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Pekín",
+      "ronda": null,
+      "evento": "1/4 de Final WTA 1000",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-10-09",
+      "hora": "05:05",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -1830,20 +2216,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "WTA Pekín",
-      "ronda": null,
-      "evento": "Semifinal 1 WTA 1000",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-10-09",
-      "hora": "09:00",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
       "deporte": "Pádel",
       "competicion": "Alemania Open",
       "ronda": null,
@@ -1872,20 +2244,6 @@
       "canales": [
         "DAZN (Ver en directo)",
         "DAZN F1 (M70 O104)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Pekín",
-      "ronda": null,
-      "evento": "Semifinal 2 WTA 1000",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-10-09",
-      "hora": "12:00",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -2195,6 +2553,7 @@
       "fecha": "2026-10-09",
       "hora": "20:00",
       "canales": [
+        "M+ Vamos (8 y 50)",
         "M+ #Vamos Bar (307)"
       ]
     },
