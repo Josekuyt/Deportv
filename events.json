@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-10-07T15:06:25",
+    "generado": "2026-10-07T21:00:09",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 209
+    "total_eventos": 211
   },
   "eventos": [
     {
@@ -420,6 +420,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "ASEAN Club Championship",
+      "ronda": null,
+      "evento": "Kuching City vs Tampine Rovers",
+      "local": "Kuching City",
+      "visitante": "Tampine Rovers",
+      "fecha": "2026-10-07",
+      "hora": "15:00",
+      "canales": [
+        "OneFootball PPV"
+      ]
+    },
+    {
       "deporte": "Tenis",
       "competicion": "Masters Shanghai",
       "ronda": "1ª Ronda",
@@ -427,7 +440,7 @@
       "local": "H. Rune",
       "visitante": "D. Altmaier",
       "fecha": "2026-10-07",
-      "hora": "14:30",
+      "hora": "15:15",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 3 (65)"
@@ -441,23 +454,10 @@
       "local": "A. Li",
       "visitante": "E. Svitolina",
       "fecha": "2026-10-07",
-      "hora": "15:00",
+      "hora": "15:45",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "ASEAN Club Championship",
-      "ronda": null,
-      "evento": "Kuching City vs Tampine Rovers",
-      "local": "Kuching City",
-      "visitante": "Tampine Rovers",
-      "fecha": "2026-10-07",
-      "hora": "15:00",
-      "canales": [
-        "OneFootball PPV"
       ]
     },
     {
@@ -517,7 +517,7 @@
     {
       "deporte": "Baloncesto",
       "competicion": "Basketball Champions League",
-      "ronda": null,
+      "ronda": "Liga Regular",
       "evento": "AEK BC vs Salon Vilpas Vikings",
       "local": "AEK BC",
       "visitante": "Salon Vilpas Vikings",
@@ -776,7 +776,8 @@
       "canales": [
         "Siroko TV",
         "M+ Baloncesto 4 (M195)",
-        "Aragón Play"
+        "Aragón Play",
+        "Aragón TV"
       ]
     },
     {
@@ -786,19 +787,6 @@
       "evento": "Aldosivi Reserva vs Tigre Reserva",
       "local": "Aldosivi Reserva",
       "visitante": "Tigre Reserva",
-      "fecha": "2026-10-07",
-      "hora": "20:00",
-      "canales": [
-        "LPF Play"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Torneo Proyección",
-      "ronda": null,
-      "evento": "Argentinos Juniors Reserva vs San Lorenzo Reserva",
-      "local": "Argentinos Juniors Reserva",
-      "visitante": "San Lorenzo Reserva",
       "fecha": "2026-10-07",
       "hora": "20:00",
       "canales": [
@@ -886,7 +874,7 @@
     {
       "deporte": "Baloncesto",
       "competicion": "Basketball Champions League",
-      "ronda": null,
+      "ronda": "Liga Regular",
       "evento": "KK Spartak Subotica BC vs Rasta Vechta",
       "local": "KK Spartak Subotica BC",
       "visitante": "Rasta Vechta",
@@ -932,7 +920,8 @@
       "fecha": "2026-10-07",
       "hora": "20:30",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "Popular TV Murcia"
       ]
     },
     {
@@ -1355,20 +1344,6 @@
     },
     {
       "deporte": "Tenis",
-      "competicion": "WTA Pekín",
-      "ronda": "1/4 de Final",
-      "evento": "K. Muchova vs N. Bartunkova",
-      "local": "K. Muchova",
-      "visitante": "N. Bartunkova",
-      "fecha": "2026-10-08",
-      "hora": "08:30",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
       "competicion": "Masters Shanghai",
       "ronda": "1ª Ronda",
       "evento": "M. Giron vs S. Báez",
@@ -1394,6 +1369,20 @@
         "ATP Tennis TV",
         "Movistar Plus+ (M7): VER PARTIDO",
         "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Pekín",
+      "ronda": "1/4 de Final",
+      "evento": "K. Muchova vs N. Bartunkova",
+      "local": "K. Muchova",
+      "visitante": "N. Bartunkova",
+      "fecha": "2026-10-08",
+      "hora": "09:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -1536,7 +1525,7 @@
       "deporte": "Ciclismo",
       "competicion": "Giro del Piemonte",
       "ronda": null,
-      "evento": "UCI ProSeries",
+      "evento": "UCI ProSeries Asti › Bra (185 km)",
       "local": null,
       "visitante": null,
       "fecha": "2026-10-08",
@@ -1677,6 +1666,7 @@
       "hora": "20:00",
       "canales": [
         "Siroko TV",
+        "M+ Vamos 2 (51)",
         "Teledeporte",
         "RTVE Play"
       ]
@@ -1728,6 +1718,19 @@
       "evento": "Lanús Reserva vs Central Córdoba Reserva",
       "local": "Lanús Reserva",
       "visitante": "Central Córdoba Reserva",
+      "fecha": "2026-10-08",
+      "hora": "20:00",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Torneo Proyección",
+      "ronda": null,
+      "evento": "Argentinos Juniors Reserva vs San Lorenzo Reserva",
+      "local": "Argentinos Juniors Reserva",
+      "visitante": "San Lorenzo Reserva",
       "fecha": "2026-10-08",
       "hora": "20:00",
       "canales": [
@@ -1984,7 +1987,8 @@
       "canales": [
         "Fanatiz (Ver en directo)",
         "M+ Vamos (8 y 50)",
-        "M+ #Vamos Bar (307)"
+        "M+ #Vamos Bar (307)",
+        "M+ Liga de Campeones (M60 O115)"
       ]
     },
     {
@@ -2062,7 +2066,8 @@
       "fecha": "2026-10-09",
       "hora": "02:15",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN 2 (M73)"
       ]
     },
     {
@@ -2191,7 +2196,7 @@
       "deporte": "Ciclismo",
       "competicion": "Tour of Chongming Island",
       "ronda": null,
-      "evento": "Etapa 1",
+      "evento": "Etapa 1 Chongming › Chongming (110,4 km)",
       "local": null,
       "visitante": null,
       "fecha": "2026-10-09",
@@ -2394,7 +2399,8 @@
       "hora": "15:50",
       "canales": [
         "M+ Vamos 2 (51)",
-        "M+ #Vamos Bar 2 (308)"
+        "M+ #Vamos Bar 2 (308)",
+        "M+ Liga de Campeones (M60 O115)"
       ]
     },
     {
@@ -2545,6 +2551,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Liga Pro Ecuador",
+      "ronda": null,
+      "evento": "Libertad FC vs Leones del Norte",
+      "local": "Libertad FC",
+      "visitante": "Leones del Norte",
+      "fecha": "2026-10-09",
+      "hora": "20:00",
+      "canales": [
+        "Zapping Internacional"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Saudi Pro League",
       "ronda": null,
       "evento": "Al Nassr vs Al Draih",
@@ -2554,7 +2573,8 @@
       "hora": "20:00",
       "canales": [
         "M+ Vamos (8 y 50)",
-        "M+ #Vamos Bar (307)"
+        "M+ #Vamos Bar (307)",
+        "M+ Liga de Campeones (M60 O115)"
       ]
     },
     {
@@ -2828,6 +2848,19 @@
       "hora": "22:00",
       "canales": [
         "Antel TV Internacional"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Pro Ecuador",
+      "ronda": null,
+      "evento": "Delfín SC vs Mushuc Runa",
+      "local": "Delfín SC",
+      "visitante": "Mushuc Runa",
+      "fecha": "2026-10-09",
+      "hora": "22:30",
+      "canales": [
+        "Zapping Internacional"
       ]
     }
   ]
