@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-10-08T04:36:31",
+    "generado": "2026-10-08T15:13:25",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 328
+    "total_eventos": 344
   },
   "eventos": [
     {
@@ -213,7 +213,7 @@
       "local": "J. Munar",
       "visitante": "J. Brooksby",
       "fecha": "2026-10-08",
-      "hora": "06:00",
+      "hora": "06:10",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 2 (64)"
@@ -227,7 +227,7 @@
       "local": "K. Coppejans",
       "visitante": "S. Tsitsipas",
       "fecha": "2026-10-08",
-      "hora": "06:00",
+      "hora": "06:10",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 4 (66)"
@@ -241,7 +241,7 @@
       "local": "P. Kotov",
       "visitante": "T. Griekspoor",
       "fecha": "2026-10-08",
-      "hora": "06:00",
+      "hora": "06:10",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 3 (65)"
@@ -264,28 +264,28 @@
       "deporte": "Tenis",
       "competicion": "Masters Shanghai",
       "ronda": "1ª Ronda",
-      "evento": "B. Tomic vs M. Arnaldi",
-      "local": "B. Tomic",
-      "visitante": "M. Arnaldi",
+      "evento": "H. Hurkacz vs J. Duckworth",
+      "local": "H. Hurkacz",
+      "visitante": "J. Duckworth",
       "fecha": "2026-10-08",
-      "hora": "07:30",
+      "hora": "07:45",
       "canales": [
         "ATP Tennis TV",
-        "M+ Deportes 3 (65)"
+        "M+ Deportes 4 (66)"
       ]
     },
     {
       "deporte": "Tenis",
       "competicion": "Masters Shanghai",
       "ronda": "1ª Ronda",
-      "evento": "H. Hurkacz vs J. Duckworth",
-      "local": "H. Hurkacz",
-      "visitante": "J. Duckworth",
+      "evento": "B. Tomic vs M. Arnaldi",
+      "local": "B. Tomic",
+      "visitante": "M. Arnaldi",
       "fecha": "2026-10-08",
-      "hora": "07:30",
+      "hora": "08:00",
       "canales": [
         "ATP Tennis TV",
-        "M+ Deportes 4 (66)"
+        "M+ Deportes 3 (65)"
       ]
     },
     {
@@ -296,53 +296,10 @@
       "local": "M. Navone",
       "visitante": "P. Carreño",
       "fecha": "2026-10-08",
-      "hora": "07:30",
+      "hora": "08:20",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 2 (64)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Masters Shanghai",
-      "ronda": "1ª Ronda",
-      "evento": "M. Giron vs S. Báez",
-      "local": "M. Giron",
-      "visitante": "S. Báez",
-      "fecha": "2026-10-08",
-      "hora": "09:00",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes 3 (65)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Masters Shanghai",
-      "ronda": "1ª Ronda",
-      "evento": "M. Landaluce vs JL. Struff",
-      "local": "M. Landaluce",
-      "visitante": "JL. Struff",
-      "fecha": "2026-10-08",
-      "hora": "09:00",
-      "canales": [
-        "ATP Tennis TV",
-        "Movistar Plus+ (M7): VER PARTIDO",
-        "M+ Deportes 2 (64)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Pekín",
-      "ronda": "1/4 de Final",
-      "evento": "K. Muchova vs N. Bartunkova",
-      "local": "K. Muchova",
-      "visitante": "N. Bartunkova",
-      "fecha": "2026-10-08",
-      "hora": "09:00",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -360,13 +317,27 @@
     },
     {
       "deporte": "Tenis",
+      "competicion": "WTA Pekín",
+      "ronda": "1/4 de Final",
+      "evento": "K. Muchova vs N. Bartunkova",
+      "local": "K. Muchova",
+      "visitante": "N. Bartunkova",
+      "fecha": "2026-10-08",
+      "hora": "09:10",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
       "competicion": "Masters Shanghai",
       "ronda": "1ª Ronda",
-      "evento": "B. Van de Zandschulp vs D. Mérida",
-      "local": "B. Van de Zandschulp",
-      "visitante": "D. Mérida",
+      "evento": "M. Giron vs S. Báez",
+      "local": "M. Giron",
+      "visitante": "S. Báez",
       "fecha": "2026-10-08",
-      "hora": "10:30",
+      "hora": "09:15",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 3 (65)"
@@ -376,13 +347,28 @@
       "deporte": "Tenis",
       "competicion": "Masters Shanghai",
       "ronda": "1ª Ronda",
-      "evento": "V. Kopriva vs Z. Bergs",
-      "local": "V. Kopriva",
-      "visitante": "Z. Bergs",
+      "evento": "B. Van de Zandschulp vs D. Mérida",
+      "local": "B. Van de Zandschulp",
+      "visitante": "D. Mérida",
       "fecha": "2026-10-08",
-      "hora": "10:30",
+      "hora": "11:30",
       "canales": [
         "ATP Tennis TV",
+        "M+ Deportes 3 (65)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "1ª Ronda",
+      "evento": "M. Landaluce vs JL. Struff",
+      "local": "M. Landaluce",
+      "visitante": "JL. Struff",
+      "fecha": "2026-10-08",
+      "hora": "11:35",
+      "canales": [
+        "ATP Tennis TV",
+        "Movistar Plus+ (M7): VER PARTIDO",
         "M+ Deportes 2 (64)"
       ]
     },
@@ -394,7 +380,7 @@
       "local": "L. Van Assche",
       "visitante": "Y. Bu",
       "fecha": "2026-10-08",
-      "hora": "12:00",
+      "hora": "12:10",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 4 (66)"
@@ -408,7 +394,7 @@
       "local": "E. Alexandrova",
       "visitante": "M. Andreeva",
       "fecha": "2026-10-08",
-      "hora": "13:00",
+      "hora": "13:10",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -418,14 +404,14 @@
       "deporte": "Tenis",
       "competicion": "Masters Shanghai",
       "ronda": "1ª Ronda",
-      "evento": "C. Norrie vs D. Svrcina",
-      "local": "C. Norrie",
-      "visitante": "D. Svrcina",
+      "evento": "V. Kopriva vs Z. Bergs",
+      "local": "V. Kopriva",
+      "visitante": "Z. Bergs",
       "fecha": "2026-10-08",
       "hora": "13:30",
       "canales": [
         "ATP Tennis TV",
-        "M+ Deportes 4 (66)"
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -451,6 +437,7 @@
       "fecha": "2026-10-08",
       "hora": "14:00",
       "canales": [
+        "Teledeporte",
         "RTVE Play",
         "Movistar Golf (M68)"
       ]
@@ -479,6 +466,20 @@
       "hora": "14:00",
       "canales": [
         "OneFootball PPV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "1ª Ronda",
+      "evento": "C. Norrie vs D. Svrcina",
+      "local": "C. Norrie",
+      "visitante": "D. Svrcina",
+      "fecha": "2026-10-08",
+      "hora": "14:10",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 4 (66)"
       ]
     },
     {
@@ -1098,6 +1099,34 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "WTA Pekín",
+      "ronda": "1/4 de Final",
+      "evento": "E. Mertens vs I. Swiatek",
+      "local": "E. Mertens",
+      "visitante": "I. Swiatek",
+      "fecha": "2026-10-09",
+      "hora": "05:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Pekín",
+      "ronda": "1/4 de Final",
+      "evento": "Q. Zheng vs E. Svitolina",
+      "local": "Q. Zheng",
+      "visitante": "E. Svitolina",
+      "fecha": "2026-10-09",
+      "hora": "05:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
       "deporte": "Golf",
       "competicion": "Baycurrent Classic",
       "ronda": null,
@@ -1109,20 +1138,6 @@
       "canales": [
         "HBO MAX",
         "Movistar Golf (M68)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Pekín",
-      "ronda": null,
-      "evento": "1/4 de Final WTA 1000",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-10-09",
-      "hora": "05:05",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -1497,6 +1512,21 @@
       ]
     },
     {
+      "deporte": "Balonmano",
+      "competicion": "Liga ASOBAL",
+      "ronda": null,
+      "evento": "BM Puerto Sagunto vs EÓN Balonmano Alicante",
+      "local": "BM Puerto Sagunto",
+      "visitante": "EÓN Balonmano Alicante",
+      "fecha": "2026-10-09",
+      "hora": "19:00",
+      "canales": [
+        "ASOBAL TV",
+        "Teledeporte",
+        "RTVE Play"
+      ]
+    },
+    {
       "deporte": "Fútbol Sala",
       "competicion": "Liga Prime",
       "ronda": "Torneo Apertura",
@@ -1507,6 +1537,19 @@
       "hora": "19:30",
       "canales": [
         "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera División Argentina",
+      "ronda": "Torneo Clausura",
+      "evento": "Aldosivi vs Sarmiento",
+      "local": "Aldosivi",
+      "visitante": "Sarmiento",
+      "fecha": "2026-10-09",
+      "hora": "19:30",
+      "canales": [
+        "Fanatiz (Ver en directo)"
       ]
     },
     {
@@ -1578,6 +1621,19 @@
       ]
     },
     {
+      "deporte": "Balonmano",
+      "competicion": "Liga ASOBAL",
+      "ronda": null,
+      "evento": "BM Cuenca vs BM Logroño La Rioja",
+      "local": "BM Cuenca",
+      "visitante": "BM Logroño La Rioja",
+      "fecha": "2026-10-09",
+      "hora": "20:00",
+      "canales": [
+        "ASOBAL TV"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Eredivisie",
       "ronda": null,
@@ -1588,6 +1644,23 @@
       "hora": "20:00",
       "canales": [
         "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Balonmano",
+      "competicion": "Liga ASOBAL",
+      "ronda": null,
+      "evento": "Balonmano Caserío Ciudad Real vs BM Granollers",
+      "local": "Balonmano Caserío Ciudad Real",
+      "visitante": "BM Granollers",
+      "fecha": "2026-10-09",
+      "hora": "20:15",
+      "canales": [
+        "ASOBAL TV",
+        "HBO MAX",
+        "DAZN (Ver en directo)",
+        "Siroko TV",
+        "Eurosport 2"
       ]
     },
     {
@@ -1824,6 +1897,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Primera División Argentina",
+      "ronda": "Torneo Clausura",
+      "evento": "Gimnasia LP vs Atlético Tucumán",
+      "local": "Gimnasia LP",
+      "visitante": "Atlético Tucumán",
+      "fecha": "2026-10-09",
+      "hora": "23:00",
+      "canales": [
+        "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "Liga Sudamericana",
       "ronda": null,
@@ -1848,6 +1934,7 @@
       "canales": [
         "M+ Vamos (8 y 50)",
         "M+ #Vamos Bar (307)",
+        "Fanatiz (Ver en directo)",
         "M+ Liga de Campeones (M60 O115)"
       ]
     },
@@ -1900,7 +1987,21 @@
       "fecha": "2026-10-10",
       "hora": "01:30",
       "canales": [
+        "Teledeporte",
         "RTVE Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol Sala",
+      "competicion": "Primera División Futsal AFA",
+      "ronda": null,
+      "evento": "17 de Agosto Futsal vs Boca Juniors FS",
+      "local": "17 de Agosto Futsal",
+      "visitante": "Boca Juniors FS",
+      "fecha": "2026-10-10",
+      "hora": "01:30",
+      "canales": [
+        "LPF Play"
       ]
     },
     {
@@ -1914,6 +2015,32 @@
       "hora": "02:00",
       "canales": [
         "NBA League Pass"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera División Argentina",
+      "ronda": "Torneo Clausura",
+      "evento": "Unión Santa Fe vs Defensa y Justicia",
+      "local": "Unión Santa Fe",
+      "visitante": "Defensa y Justicia",
+      "fecha": "2026-10-10",
+      "hora": "02:45",
+      "canales": [
+        "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Washington Athletics vs Iowa",
+      "local": "Washington Athletics",
+      "visitante": "Iowa",
+      "fecha": "2026-10-10",
+      "hora": "03:00",
+      "canales": [
+        "DAZN (Ver en directo)"
       ]
     },
     {
@@ -1952,6 +2079,7 @@
       "fecha": "2026-10-10",
       "hora": "03:30",
       "canales": [
+        "Teledeporte",
         "RTVE Play"
       ]
     },
@@ -2789,6 +2917,19 @@
       ]
     },
     {
+      "deporte": "Fútbol Sala",
+      "competicion": "Liga Prime",
+      "ronda": "Torneo Apertura",
+      "evento": "Jaén FS vs CD El Ejido Futsal",
+      "local": "Jaén FS",
+      "visitante": "CD El Ejido Futsal",
+      "fecha": "2026-10-10",
+      "hora": "16:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Liga AUF Uruguaya",
       "ronda": null,
@@ -3095,6 +3236,7 @@
       "fecha": "2026-10-10",
       "hora": "16:05",
       "canales": [
+        "M+ Deportes 3 (65)",
         "M+ Deportes 5 (192)"
       ]
     },
@@ -3126,19 +3268,6 @@
         "LALIGA TV Hypermotion (M56 O120): VER PARTIDO",
         "DAZN (Ver en directo)",
         "LaLiga TV M2"
-      ]
-    },
-    {
-      "deporte": "Fútbol Sala",
-      "competicion": "Liga Prime",
-      "ronda": "Torneo Apertura",
-      "evento": "Jaén FS vs CD El Ejido Futsal",
-      "local": "Jaén FS",
-      "visitante": "CD El Ejido Futsal",
-      "fecha": "2026-10-10",
-      "hora": "16:30",
-      "canales": [
-        "DAZN (Ver en directo)"
       ]
     },
     {
@@ -3463,48 +3592,6 @@
       "deporte": "Balonmano",
       "competicion": "Liga ASOBAL",
       "ronda": null,
-      "evento": "BM Cuenca vs BM Logroño La Rioja",
-      "local": "BM Cuenca",
-      "visitante": "BM Logroño La Rioja",
-      "fecha": "2026-10-10",
-      "hora": "18:00",
-      "canales": [
-        "ASOBAL TV"
-      ]
-    },
-    {
-      "deporte": "Balonmano",
-      "competicion": "Liga ASOBAL",
-      "ronda": null,
-      "evento": "BM Villa de Aranda vs Barça BM",
-      "local": "BM Villa de Aranda",
-      "visitante": "Barça BM",
-      "fecha": "2026-10-10",
-      "hora": "18:00",
-      "canales": [
-        "ASOBAL TV",
-        "Esport3 (Cataluña)"
-      ]
-    },
-    {
-      "deporte": "Balonmano",
-      "competicion": "Liga ASOBAL",
-      "ronda": null,
-      "evento": "BM Puerto Sagunto vs EÓN Balonmano Alicante",
-      "local": "BM Puerto Sagunto",
-      "visitante": "EÓN Balonmano Alicante",
-      "fecha": "2026-10-10",
-      "hora": "18:00",
-      "canales": [
-        "ASOBAL TV",
-        "Teledeporte",
-        "RTVE Play"
-      ]
-    },
-    {
-      "deporte": "Balonmano",
-      "competicion": "Liga ASOBAL",
-      "ronda": null,
       "evento": "Ademar León vs Viveros Herol BM Nava",
       "local": "Ademar León",
       "visitante": "Viveros Herol BM Nava",
@@ -3512,65 +3599,6 @@
       "hora": "18:00",
       "canales": [
         "ASOBAL TV"
-      ]
-    },
-    {
-      "deporte": "Balonmano",
-      "competicion": "Liga ASOBAL",
-      "ronda": null,
-      "evento": "Recoletas At. Valladolid vs Ángel Ximénez Puente Genil",
-      "local": "Recoletas At. Valladolid",
-      "visitante": "Ángel Ximénez Puente Genil",
-      "fecha": "2026-10-10",
-      "hora": "18:00",
-      "canales": [
-        "ASOBAL TV"
-      ]
-    },
-    {
-      "deporte": "Balonmano",
-      "competicion": "Liga ASOBAL",
-      "ronda": null,
-      "evento": "Bidasoa Irún vs Balonmano Proin Sevilla",
-      "local": "Bidasoa Irún",
-      "visitante": "Balonmano Proin Sevilla",
-      "fecha": "2026-10-10",
-      "hora": "18:00",
-      "canales": [
-        "ASOBAL TV",
-        "HBO MAX",
-        "DAZN (Ver en directo)",
-        "Eurosport 2"
-      ]
-    },
-    {
-      "deporte": "Balonmano",
-      "competicion": "Liga ASOBAL",
-      "ronda": null,
-      "evento": "BM Torrelavega vs BM Cangas",
-      "local": "BM Torrelavega",
-      "visitante": "BM Cangas",
-      "fecha": "2026-10-10",
-      "hora": "18:00",
-      "canales": [
-        "ASOBAL TV"
-      ]
-    },
-    {
-      "deporte": "Balonmano",
-      "competicion": "Liga ASOBAL",
-      "ronda": null,
-      "evento": "Balonmano Caserío Ciudad Real vs BM Granollers",
-      "local": "Balonmano Caserío Ciudad Real",
-      "visitante": "BM Granollers",
-      "fecha": "2026-10-10",
-      "hora": "18:00",
-      "canales": [
-        "ASOBAL TV",
-        "HBO MAX",
-        "DAZN (Ver en directo)",
-        "Siroko TV",
-        "Eurosport 2"
       ]
     },
     {
@@ -3890,6 +3918,35 @@
       ]
     },
     {
+      "deporte": "Balonmano",
+      "competicion": "Liga ASOBAL",
+      "ronda": null,
+      "evento": "Bidasoa Irún vs Balonmano Proin Sevilla",
+      "local": "Bidasoa Irún",
+      "visitante": "Balonmano Proin Sevilla",
+      "fecha": "2026-10-10",
+      "hora": "19:00",
+      "canales": [
+        "ASOBAL TV",
+        "HBO MAX",
+        "DAZN (Ver en directo)",
+        "Eurosport 2"
+      ]
+    },
+    {
+      "deporte": "Balonmano",
+      "competicion": "Liga ASOBAL",
+      "ronda": null,
+      "evento": "BM Torrelavega vs BM Cangas",
+      "local": "BM Torrelavega",
+      "visitante": "BM Cangas",
+      "fecha": "2026-10-10",
+      "hora": "19:00",
+      "canales": [
+        "ASOBAL TV"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "MLS",
       "ronda": null,
@@ -4075,6 +4132,19 @@
       ]
     },
     {
+      "deporte": "Fútbol Sala",
+      "competicion": "Segunda Federación Futsal",
+      "ronda": null,
+      "evento": "Burela FS vs Full Energía Zaragoza",
+      "local": "Burela FS",
+      "visitante": "Full Energía Zaragoza",
+      "fecha": "2026-10-10",
+      "hora": "20:00",
+      "canales": [
+        "FutsalRFEF YouTube"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Primera Federación",
       "ronda": "Grupo 1",
@@ -4195,6 +4265,19 @@
       "hora": "20:45",
       "canales": [
         "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera División Argentina",
+      "ronda": "Torneo Clausura",
+      "evento": "Barracas Central vs CA Huracán",
+      "local": "Barracas Central",
+      "visitante": "CA Huracán",
+      "fecha": "2026-10-10",
+      "hora": "20:45",
+      "canales": [
+        "Fanatiz (Ver en directo)"
       ]
     },
     {
@@ -4389,6 +4472,137 @@
       "hora": "21:30",
       "canales": [
         "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Michigan State vs Illinois",
+      "local": "Michigan State",
+      "visitante": "Illinois",
+      "fecha": "2026-10-10",
+      "hora": "22:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Penn State vs USC",
+      "local": "Penn State",
+      "visitante": "USC",
+      "fecha": "2026-10-10",
+      "hora": "22:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Purdue vs Minnesota",
+      "local": "Purdue",
+      "visitante": "Minnesota",
+      "fecha": "2026-10-10",
+      "hora": "22:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Nebraska vs Indiana Hoosiers",
+      "local": "Nebraska",
+      "visitante": "Indiana Hoosiers",
+      "fecha": "2026-10-10",
+      "hora": "22:00",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Ohio State vs Maryland",
+      "local": "Ohio State",
+      "visitante": "Maryland",
+      "fecha": "2026-10-10",
+      "hora": "22:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Kansas State vs Houston Cougars",
+      "local": "Kansas State",
+      "visitante": "Houston Cougars",
+      "fecha": "2026-10-10",
+      "hora": "22:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Oregon vs UCLA",
+      "local": "Oregon",
+      "visitante": "UCLA",
+      "fecha": "2026-10-10",
+      "hora": "22:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Arizona State vs Hawaii Rainbow",
+      "local": "Arizona State",
+      "visitante": "Hawaii Rainbow",
+      "fecha": "2026-10-10",
+      "hora": "22:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "UTEP Miners vs Nevada",
+      "local": "UTEP Miners",
+      "visitante": "Nevada",
+      "fecha": "2026-10-10",
+      "hora": "22:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera División Argentina",
+      "ronda": "Torneo Clausura",
+      "evento": "Central Córdoba vs Estudiantes LP",
+      "local": "Central Córdoba",
+      "visitante": "Estudiantes LP",
+      "fecha": "2026-10-10",
+      "hora": "22:00",
+      "canales": [
+        "Fanatiz (Ver en directo)"
       ]
     },
     {
