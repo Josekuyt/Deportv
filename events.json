@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-10-08T15:13:25",
+    "generado": "2026-10-08T21:02:11",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 344
+    "total_eventos": 352
   },
   "eventos": [
     {
@@ -230,7 +230,7 @@
       "hora": "06:10",
       "canales": [
         "ATP Tennis TV",
-        "M+ Deportes 4 (66)"
+        "M+ Deportes 4 (191)"
       ]
     },
     {
@@ -271,7 +271,7 @@
       "hora": "07:45",
       "canales": [
         "ATP Tennis TV",
-        "M+ Deportes 4 (66)"
+        "M+ Deportes 4 (191)"
       ]
     },
     {
@@ -383,7 +383,7 @@
       "hora": "12:10",
       "canales": [
         "ATP Tennis TV",
-        "M+ Deportes 4 (66)"
+        "M+ Deportes 4 (191)"
       ]
     },
     {
@@ -479,7 +479,7 @@
       "hora": "14:10",
       "canales": [
         "ATP Tennis TV",
-        "M+ Deportes 4 (66)"
+        "M+ Deportes 4 (191)"
       ]
     },
     {
@@ -1143,15 +1143,29 @@
     {
       "deporte": "Tenis",
       "competicion": "Masters Shanghai",
-      "ronda": null,
-      "evento": "2ª Ronda ATP Masters 1000",
-      "local": null,
-      "visitante": null,
+      "ronda": "2ª Ronda",
+      "evento": "B. Shelton vs D. Altmaier",
+      "local": "B. Shelton",
+      "visitante": "D. Altmaier",
       "fecha": "2026-10-09",
-      "hora": "06:30",
+      "hora": "06:00",
       "canales": [
         "ATP Tennis TV",
-        "Movistar+"
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "2ª Ronda",
+      "evento": "A. Gea vs U. Humbert",
+      "local": "A. Gea",
+      "visitante": "U. Humbert",
+      "fecha": "2026-10-09",
+      "hora": "06:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 3 (65)"
       ]
     },
     {
@@ -1181,6 +1195,34 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "2ª Ronda",
+      "evento": "A. Zverev vs Y. Wu",
+      "local": "A. Zverev",
+      "visitante": "Y. Wu",
+      "fecha": "2026-10-09",
+      "hora": "07:30",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "2ª Ronda",
+      "evento": "Q. Halys vs A. Blockx",
+      "local": "Q. Halys",
+      "visitante": "A. Blockx",
+      "fecha": "2026-10-09",
+      "hora": "07:30",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 3 (65)"
+      ]
+    },
+    {
       "deporte": "Motociclismo",
       "competicion": "MotoGP",
       "ronda": null,
@@ -1193,6 +1235,20 @@
         "MotoGP Videopass",
         "DAZN (Ver en directo)",
         "DAZN MotoGP (M71 O105)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "2ª Ronda",
+      "evento": "A. Davidovich vs J. Brooksby",
+      "local": "A. Davidovich",
+      "visitante": "J. Brooksby",
+      "fecha": "2026-10-09",
+      "hora": "09:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 3 (65)"
       ]
     },
     {
@@ -1228,14 +1284,44 @@
     },
     {
       "deporte": "Tenis",
-      "competicion": "Torneo de Villena",
-      "ronda": null,
-      "evento": "1/4 de Final ATP Challenger Tour",
-      "local": null,
-      "visitante": null,
+      "competicion": "Masters Shanghai",
+      "ronda": "2ª Ronda",
+      "evento": "F. Cerúndolo vs R. Safiullin",
+      "local": "F. Cerúndolo",
+      "visitante": "R. Safiullin",
+      "fecha": "2026-10-09",
+      "hora": "10:30",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 3 (65)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "2ª Ronda",
+      "evento": "N. Djokovic vs H. Hurkacz",
+      "local": "N. Djokovic",
+      "visitante": "H. Hurkacz",
       "fecha": "2026-10-09",
       "hora": "12:00",
       "canales": [
+        "ATP Tennis TV",
+        "Movistar Plus+ (M7): VER PARTIDO",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Villena",
+      "ronda": "ATP Challenger Tour",
+      "evento": "J. Pinnington Jones vs B. Gojo",
+      "local": "J. Pinnington Jones",
+      "visitante": "B. Gojo",
+      "fecha": "2026-10-09",
+      "hora": "12:00",
+      "canales": [
+        "Teledeporte",
         "RTVE Play"
       ]
     },
@@ -1271,11 +1357,25 @@
     },
     {
       "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "2ª Ronda",
+      "evento": "Y. Zhou vs L. Musetti",
+      "local": "Y. Zhou",
+      "visitante": "L. Musetti",
+      "fecha": "2026-10-09",
+      "hora": "13:30",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
       "competicion": "Torneo de Villena",
-      "ronda": null,
-      "evento": "1/4 de Final ATP Challenger Tour",
-      "local": null,
-      "visitante": null,
+      "ronda": "ATP Challenger Tour",
+      "evento": "A. Shelbayh vs D. Glinka",
+      "local": "A. Shelbayh",
+      "visitante": "D. Glinka",
       "fecha": "2026-10-09",
       "hora": "13:30",
       "canales": [
@@ -1402,7 +1502,9 @@
       "fecha": "2026-10-09",
       "hora": "16:00",
       "canales": [
-        "Liga U YouTube"
+        "Liga U YouTube",
+        "Teledeporte",
+        "RTVE Play"
       ]
     },
     {
@@ -1508,7 +1610,8 @@
       "fecha": "2026-10-09",
       "hora": "19:00",
       "canales": [
-        "Liga U YouTube"
+        "Liga U YouTube",
+        "Marca YouTube"
       ]
     },
     {
@@ -1550,6 +1653,20 @@
       "hora": "19:30",
       "canales": [
         "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Hockey Patines",
+      "competicion": "Mundial Femenino",
+      "ronda": "Semifinales",
+      "evento": "España vs Portugal",
+      "local": "España",
+      "visitante": "Portugal",
+      "fecha": "2026-10-09",
+      "hora": "20:00",
+      "canales": [
+        "Teledeporte",
+        "RTVE Play"
       ]
     },
     {
@@ -1604,7 +1721,8 @@
       "fecha": "2026-10-09",
       "hora": "20:00",
       "canales": [
-        "Liga U YouTube"
+        "Liga U YouTube",
+        "As.com"
       ]
     },
     {
