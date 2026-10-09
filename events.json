@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-10-09T04:39:43",
+    "generado": "2026-10-09T14:58:44",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 515
+    "total_eventos": 574
   },
   "eventos": [
     {
@@ -195,34 +195,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "WTA Pekín",
-      "ronda": "1/4 de Final",
-      "evento": "E. Mertens vs I. Swiatek",
-      "local": "E. Mertens",
-      "visitante": "I. Swiatek",
-      "fecha": "2026-10-09",
-      "hora": "05:00",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Pekín",
-      "ronda": "1/4 de Final",
-      "evento": "Q. Zheng vs E. Svitolina",
-      "local": "Q. Zheng",
-      "visitante": "E. Svitolina",
-      "fecha": "2026-10-09",
-      "hora": "05:00",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
       "deporte": "Golf",
       "competicion": "Baycurrent Classic",
       "ronda": null,
@@ -240,11 +212,25 @@
       "deporte": "Tenis",
       "competicion": "Masters Shanghai",
       "ronda": "2ª Ronda",
+      "evento": "A. Mannarino vs F. Cobolli",
+      "local": "A. Mannarino",
+      "visitante": "F. Cobolli",
+      "fecha": "2026-10-09",
+      "hora": "06:10",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 4 (191)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "2ª Ronda",
       "evento": "B. Shelton vs D. Altmaier",
       "local": "B. Shelton",
       "visitante": "D. Altmaier",
       "fecha": "2026-10-09",
-      "hora": "06:00",
+      "hora": "06:10",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 2 (64)"
@@ -258,7 +244,7 @@
       "local": "A. Gea",
       "visitante": "U. Humbert",
       "fecha": "2026-10-09",
-      "hora": "06:00",
+      "hora": "06:10",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 3 (65)"
@@ -294,11 +280,25 @@
       "deporte": "Tenis",
       "competicion": "Masters Shanghai",
       "ronda": "2ª Ronda",
+      "evento": "Q. Halys vs A. Blockx",
+      "local": "Q. Halys",
+      "visitante": "A. Blockx",
+      "fecha": "2026-10-09",
+      "hora": "08:15",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 3 (65)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "2ª Ronda",
       "evento": "A. Zverev vs Y. Wu",
       "local": "A. Zverev",
       "visitante": "Y. Wu",
       "fecha": "2026-10-09",
-      "hora": "07:30",
+      "hora": "08:30",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 2 (64)"
@@ -308,14 +308,14 @@
       "deporte": "Tenis",
       "competicion": "Masters Shanghai",
       "ronda": "2ª Ronda",
-      "evento": "Q. Halys vs A. Blockx",
-      "local": "Q. Halys",
-      "visitante": "A. Blockx",
+      "evento": "Y. Hanfmann vs F. Tiafoe",
+      "local": "Y. Hanfmann",
+      "visitante": "F. Tiafoe",
       "fecha": "2026-10-09",
-      "hora": "07:30",
+      "hora": "08:55",
       "canales": [
         "ATP Tennis TV",
-        "M+ Deportes 3 (65)"
+        "M+ Deportes 4 (191)"
       ]
     },
     {
@@ -335,13 +335,27 @@
     },
     {
       "deporte": "Tenis",
+      "competicion": "WTA Pekín",
+      "ronda": "1/4 de Final",
+      "evento": "Q. Zheng vs E. Svitolina",
+      "local": "Q. Zheng",
+      "visitante": "E. Svitolina",
+      "fecha": "2026-10-09",
+      "hora": "09:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
       "competicion": "Masters Shanghai",
       "ronda": "2ª Ronda",
       "evento": "A. Davidovich vs J. Brooksby",
       "local": "A. Davidovich",
       "visitante": "J. Brooksby",
       "fecha": "2026-10-09",
-      "hora": "09:00",
+      "hora": "10:00",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 3 (65)"
@@ -382,43 +396,54 @@
       "deporte": "Tenis",
       "competicion": "Masters Shanghai",
       "ronda": "2ª Ronda",
-      "evento": "F. Cerúndolo vs R. Safiullin",
-      "local": "F. Cerúndolo",
-      "visitante": "R. Safiullin",
+      "evento": "K. Khachanov vs A. Fery",
+      "local": "K. Khachanov",
+      "visitante": "A. Fery",
       "fecha": "2026-10-09",
-      "hora": "10:30",
+      "hora": "10:50",
       "canales": [
         "ATP Tennis TV",
-        "M+ Deportes 3 (65)"
+        "M+ Deportes 4 (191)"
       ]
     },
     {
       "deporte": "Tenis",
       "competicion": "Masters Shanghai",
       "ronda": "2ª Ronda",
-      "evento": "N. Djokovic vs H. Hurkacz",
-      "local": "N. Djokovic",
-      "visitante": "H. Hurkacz",
+      "evento": "F. Cerúndolo vs R. Safiullin",
+      "local": "F. Cerúndolo",
+      "visitante": "R. Safiullin",
       "fecha": "2026-10-09",
-      "hora": "12:00",
+      "hora": "11:10",
       "canales": [
         "ATP Tennis TV",
-        "Movistar Plus+ (M7): VER PARTIDO",
-        "M+ Deportes 2 (64)"
+        "M+ Deportes 3 (65)"
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Villena",
-      "ronda": "ATP Challenger Tour",
-      "evento": "J. Pinnington Jones vs B. Gojo",
-      "local": "J. Pinnington Jones",
-      "visitante": "B. Gojo",
+      "deporte": "Fútbol",
+      "competicion": "J1 League",
+      "ronda": null,
+      "evento": "Kashima Antlers vs Gamba Osaka",
+      "local": "Kashima Antlers",
+      "visitante": "Gamba Osaka",
       "fecha": "2026-10-09",
       "hora": "12:00",
       "canales": [
-        "Teledeporte",
-        "RTVE Play"
+        "J.LEAGUE International YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Amistoso Femenino",
+      "ronda": null,
+      "evento": "Andorra vs Islas Feroe",
+      "local": "Andorra",
+      "visitante": "Islas Feroe",
+      "fecha": "2026-10-09",
+      "hora": "12:00",
+      "canales": [
+        "Twitch fedandfut"
       ]
     },
     {
@@ -453,13 +478,56 @@
     },
     {
       "deporte": "Tenis",
+      "competicion": "Torneo de Villena",
+      "ronda": "ATP Challenger Tour",
+      "evento": "J. Pinnington Jones vs B. Gojo",
+      "local": "J. Pinnington Jones",
+      "visitante": "B. Gojo",
+      "fecha": "2026-10-09",
+      "hora": "12:05",
+      "canales": [
+        "Teledeporte",
+        "RTVE Play"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "2ª Ronda",
+      "evento": "N. Djokovic vs H. Hurkacz",
+      "local": "N. Djokovic",
+      "visitante": "H. Hurkacz",
+      "fecha": "2026-10-09",
+      "hora": "12:10",
+      "canales": [
+        "ATP Tennis TV",
+        "Movistar Plus+ (M7): VER PARTIDO",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Pekín",
+      "ronda": "1/4 de Final",
+      "evento": "E. Mertens vs I. Swiatek",
+      "local": "E. Mertens",
+      "visitante": "I. Swiatek",
+      "fecha": "2026-10-09",
+      "hora": "13:10",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
       "competicion": "Masters Shanghai",
       "ronda": "2ª Ronda",
       "evento": "Y. Zhou vs L. Musetti",
       "local": "Y. Zhou",
       "visitante": "L. Musetti",
       "fecha": "2026-10-09",
-      "hora": "13:30",
+      "hora": "13:55",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 2 (64)"
@@ -473,7 +541,7 @@
       "local": "A. Shelbayh",
       "visitante": "D. Glinka",
       "fecha": "2026-10-09",
-      "hora": "13:30",
+      "hora": "13:55",
       "canales": [
         "RTVE Play"
       ]
@@ -557,6 +625,20 @@
       "hora": "14:30",
       "canales": [
         "OneFootball PPV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "2ª Ronda",
+      "evento": "A. Bublik vs T. Machac",
+      "local": "A. Bublik",
+      "visitante": "T. Machac",
+      "fecha": "2026-10-09",
+      "hora": "14:40",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 4 (191)"
       ]
     },
     {
@@ -655,6 +737,19 @@
       "canales": [
         "Red Bull TV",
         "M+ Deportes (63)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Villena",
+      "ronda": "ATP Challenger Tour",
+      "evento": "P. Llamas vs P. Martínez",
+      "local": "P. Llamas",
+      "visitante": "P. Martínez",
+      "fecha": "2026-10-09",
+      "hora": "18:15",
+      "canales": [
+        "RTVE Play"
       ]
     },
     {
@@ -1029,6 +1124,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Torneo Federal A",
+      "ronda": "2ª Fase",
+      "evento": "Juventud Antoniana vs Huracán Las Heras",
+      "local": "Juventud Antoniana",
+      "visitante": "Huracán Las Heras",
+      "fecha": "2026-10-09",
+      "hora": "21:00",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "La Liga EA Sports",
       "ronda": null,
       "evento": "Málaga vs Espanyol",
@@ -1095,6 +1203,19 @@
       "hora": "22:00",
       "canales": [
         "Antel TV Internacional"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 12",
+      "evento": "UD Añaza vs CD San Miguel",
+      "local": "UD Añaza",
+      "visitante": "CD San Miguel",
+      "fecha": "2026-10-09",
+      "hora": "22:00",
+      "canales": [
+        "Deportes TVCanaria YouTube"
       ]
     },
     {
@@ -1192,6 +1313,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Liga Colombiana",
+      "ronda": null,
+      "evento": "Alianza vs Águilas Doradas Rionegro",
+      "local": "Alianza",
+      "visitante": "Águilas Doradas Rionegro",
+      "fecha": "2026-10-10",
+      "hora": "01:00",
+      "canales": [
+        "RCN Nuestra Tele"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "WNBA",
       "ronda": "Semifinales",
@@ -1233,6 +1367,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Torneo Federal A",
+      "ronda": "2ª Fase",
+      "evento": "San Martín Mendoza vs CD Argentino Monte Maíz",
+      "local": "San Martín Mendoza",
+      "visitante": "CD Argentino Monte Maíz",
+      "fecha": "2026-10-10",
+      "hora": "02:30",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Primera División Argentina",
       "ronda": "Torneo Clausura",
       "evento": "Unión Santa Fe vs Defensa y Justicia",
@@ -1268,6 +1415,19 @@
       "hora": "03:00",
       "canales": [
         "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Colombiana",
+      "ronda": null,
+      "evento": "Once Caldas vs Llaneros",
+      "local": "Once Caldas",
+      "visitante": "Llaneros",
+      "fecha": "2026-10-10",
+      "hora": "03:10",
+      "canales": [
+        "RCN Nuestra Tele"
       ]
     },
     {
@@ -1342,6 +1502,62 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "2ª Ronda",
+      "evento": "D. Medvedev vs JL. Struff",
+      "local": "D. Medvedev",
+      "visitante": "JL. Struff",
+      "fecha": "2026-10-10",
+      "hora": "06:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 4 (191)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "2ª Ronda",
+      "evento": "TA. Tirante vs R. Jódar",
+      "local": "TA. Tirante",
+      "visitante": "R. Jódar",
+      "fecha": "2026-10-10",
+      "hora": "06:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "2ª Ronda",
+      "evento": "J. Lehecka vs N. Borges",
+      "local": "J. Lehecka",
+      "visitante": "N. Borges",
+      "fecha": "2026-10-10",
+      "hora": "06:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 3 (65)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "2ª Ronda",
+      "evento": "C. Ugo Carabelli vs F. Auger-Aliassime",
+      "local": "C. Ugo Carabelli",
+      "visitante": "F. Auger-Aliassime",
+      "fecha": "2026-10-10",
+      "hora": "06:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 5 (192)"
+      ]
+    },
+    {
       "deporte": "Golf",
       "competicion": "LPGA Aramco Korea Championship",
       "ronda": null,
@@ -1352,20 +1568,6 @@
       "hora": "06:00",
       "canales": [
         "Movistar Golf 2 (M68)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Masters Shanghai",
-      "ronda": null,
-      "evento": "2ª Ronda ATP Masters 1000",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-10-10",
-      "hora": "06:30",
-      "canales": [
-        "ATP Tennis TV",
-        "Movistar+"
       ]
     },
     {
@@ -1384,6 +1586,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "J1 League",
+      "ronda": null,
+      "evento": "Cerezo Osaka vs Yokohama F. Marinos",
+      "local": "Cerezo Osaka",
+      "visitante": "Yokohama F. Marinos",
+      "fecha": "2026-10-10",
+      "hora": "07:00",
+      "canales": [
+        "J.LEAGUE International YouTube"
+      ]
+    },
+    {
       "deporte": "Ciclismo",
       "competicion": "Tour of Chongming Island",
       "ronda": null,
@@ -1394,6 +1609,49 @@
       "hora": "07:00",
       "canales": [
         "HBO MAX"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "2ª Ronda",
+      "evento": "A. Tabilo vs P. Carreño",
+      "local": "A. Tabilo",
+      "visitante": "P. Carreño",
+      "fecha": "2026-10-10",
+      "hora": "07:30",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 3 (65)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "2ª Ronda",
+      "evento": "M. Arnaldi vs T. Fritz",
+      "local": "M. Arnaldi",
+      "visitante": "T. Fritz",
+      "fecha": "2026-10-10",
+      "hora": "07:30",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 4 (191)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "2ª Ronda",
+      "evento": "Y. Bu vs C. Ruud",
+      "local": "Y. Bu",
+      "visitante": "C. Ruud",
+      "fecha": "2026-10-10",
+      "hora": "07:30",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)",
+        "M+ Deportes 5 (192)"
       ]
     },
     {
@@ -1443,16 +1701,85 @@
     },
     {
       "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "2ª Ronda",
+      "evento": "L. Tien vs Z. Svajda",
+      "local": "L. Tien",
+      "visitante": "Z. Svajda",
+      "fecha": "2026-10-10",
+      "hora": "09:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 3 (65)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "2ª Ronda",
+      "evento": "A. Fils vs P. Kotov",
+      "local": "A. Fils",
+      "visitante": "P. Kotov",
+      "fecha": "2026-10-10",
+      "hora": "09:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 4 (191)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
       "competicion": "WTA Pekín",
-      "ronda": null,
-      "evento": "Semifinal 1 WTA 1000",
-      "local": null,
-      "visitante": null,
+      "ronda": "WTA 1000",
+      "evento": "M. Andreeva vs N. Bartunkova",
+      "local": "M. Andreeva",
+      "visitante": "N. Bartunkova",
       "fecha": "2026-10-10",
       "hora": "09:00",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "2ª Ronda",
+      "evento": "T. Paul vs A.D. Vallejo",
+      "local": "T. Paul",
+      "visitante": "A.D. Vallejo",
+      "fecha": "2026-10-10",
+      "hora": "10:30",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 3 (65)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "2ª Ronda",
+      "evento": "L. Darderi vs S. Tsitsipas",
+      "local": "L. Darderi",
+      "visitante": "S. Tsitsipas",
+      "fecha": "2026-10-10",
+      "hora": "10:30",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 4 (191)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "División Honor Infantil",
+      "ronda": "Grupo 1 (Cataluña)",
+      "evento": "FC Barcelona Academy vs Cornellá Academy",
+      "local": "FC Barcelona Academy",
+      "visitante": "Cornellá Academy",
+      "fecha": "2026-10-10",
+      "hora": "10:30",
+      "canales": [
+        "FC Barcelona PPV YouTube"
       ]
     },
     {
@@ -1498,6 +1825,33 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "2ª Ronda",
+      "evento": "B. Van de Zandschulp vs A. Michelsen",
+      "local": "B. Van de Zandschulp",
+      "visitante": "A. Michelsen",
+      "fecha": "2026-10-10",
+      "hora": "11:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 5 (192)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Villena",
+      "ronda": "ATP Challenger Tour",
+      "evento": "J. Pinnington Jones vs D. Glinka",
+      "local": "J. Pinnington Jones",
+      "visitante": "D. Glinka",
+      "fecha": "2026-10-10",
+      "hora": "11:00",
+      "canales": [
+        "RTVE Play"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Tercera Federación",
       "ronda": "Grupo 10",
@@ -1537,7 +1891,23 @@
       "fecha": "2026-10-10",
       "hora": "11:30",
       "canales": [
+        "Sevilla FC +",
         "Real Betis TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "2ª Ronda",
+      "evento": "JM. Cerúndolo vs C. Alcaraz",
+      "local": "JM. Cerúndolo",
+      "visitante": "C. Alcaraz",
+      "fecha": "2026-10-10",
+      "hora": "12:00",
+      "canales": [
+        "ATP Tennis TV",
+        "Movistar Plus+ (M7): VER PARTIDO",
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -1567,33 +1937,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "WTA Pekín",
-      "ronda": null,
-      "evento": "Semifinal 2 WTA 1000",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-10-10",
-      "hora": "12:00",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Villena",
-      "ronda": null,
-      "evento": "Semifinal 1 ATP Challenger Tour",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-10-10",
-      "hora": "12:00",
-      "canales": [
-        "RTVE Play"
-      ]
-    },
-    {
       "deporte": "Motociclismo",
       "competicion": "Superbike",
       "ronda": null,
@@ -1606,6 +1949,45 @@
         "DAZN (Ver en directo)",
         "DAZN App Gratis (Ver gratis)",
         "DAZN 4 (M197)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "División Honor Infantil",
+      "ronda": "Grupo 1 (Madrid)",
+      "evento": "Getafe Academy vs Real Madrid Academy",
+      "local": "Getafe Academy",
+      "visitante": "Real Madrid Academy",
+      "fecha": "2026-10-10",
+      "hora": "12:15",
+      "canales": [
+        "Real Madrid TV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Preferente Juvenil",
+      "ronda": "Grupo 1 (Cataluña)",
+      "evento": "FC Barcelona Academy vs Cornellá Academy",
+      "local": "FC Barcelona Academy",
+      "visitante": "Cornellá Academy",
+      "fecha": "2026-10-10",
+      "hora": "12:30",
+      "canales": [
+        "FC Barcelona PPV YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Vasca Cadete",
+      "ronda": "Grupo 4",
+      "evento": "Real Sociedad Academy vs Ariznabarra Academy",
+      "local": "Real Sociedad Academy",
+      "visitante": "Ariznabarra Academy",
+      "fecha": "2026-10-10",
+      "hora": "12:30",
+      "canales": [
+        "Real Sociedad TV YouTube"
       ]
     },
     {
@@ -1634,6 +2016,20 @@
         "DAZN (Ver en directo)",
         "Teledeporte",
         "RTVE Play"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Pekín",
+      "ronda": "WTA 1000",
+      "evento": "Q. Zheng vs E. Mertens",
+      "local": "Q. Zheng",
+      "visitante": "E. Mertens",
+      "fecha": "2026-10-10",
+      "hora": "13:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -1679,6 +2075,20 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "2ª Ronda",
+      "evento": "S. Báez vs V. Vacherot",
+      "local": "S. Báez",
+      "visitante": "V. Vacherot",
+      "fecha": "2026-10-10",
+      "hora": "13:30",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "National League",
       "ronda": null,
@@ -1702,19 +2112,6 @@
       "hora": "13:30",
       "canales": [
         "DAZN (Ver en directo)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Villena",
-      "ronda": null,
-      "evento": "Semifinal 2 ATP Challenger Tour",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-10-10",
-      "hora": "13:30",
-      "canales": [
-        "RTVE Play"
       ]
     },
     {
@@ -2144,6 +2541,32 @@
       ]
     },
     {
+      "deporte": "Rugby U",
+      "competicion": "División de Honor",
+      "ronda": null,
+      "evento": "UE Santboiana vs CR Liceo Francés",
+      "local": "UE Santboiana",
+      "visitante": "CR Liceo Francés",
+      "fecha": "2026-10-10",
+      "hora": "16:00",
+      "canales": [
+        "La Xarxa+"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Torneo Federal A",
+      "ronda": "2ª Fase",
+      "evento": "FADEP vs Atenas Río Cuarto",
+      "local": "FADEP",
+      "visitante": "Atenas Río Cuarto",
+      "fecha": "2026-10-10",
+      "hora": "16:00",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Liga AUF Uruguaya",
       "ronda": null,
@@ -2509,7 +2932,8 @@
       "fecha": "2026-10-10",
       "hora": "16:30",
       "canales": [
-        "OneFootball PPV"
+        "OneFootball PPV",
+        "German Football YouTube"
       ]
     },
     {
@@ -2629,6 +3053,45 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
+      "ronda": "Grupo 3",
+      "evento": "Elche Ilicitano vs Valencia-Mestalla",
+      "local": "Elche Ilicitano",
+      "visitante": "Valencia-Mestalla",
+      "fecha": "2026-10-10",
+      "hora": "17:00",
+      "canales": [
+        "Elche CF YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 18",
+      "evento": "Tarancón vs Socuéllamos",
+      "local": "Tarancón",
+      "visitante": "Socuéllamos",
+      "fecha": "2026-10-10",
+      "hora": "17:00",
+      "canales": [
+        "CMMPlay (Castilla-LM)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "División Honor Juvenil",
+      "ronda": null,
+      "evento": "Real Madrid Academy vs Alcorcón Academy",
+      "local": "Real Madrid Academy",
+      "visitante": "Alcorcón Academy",
+      "fecha": "2026-10-10",
+      "hora": "17:00",
+      "canales": [
+        "Real Madrid TV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "División Honor Juvenil",
       "ronda": null,
       "evento": "At. Monzón Academy vs Sabadell Academy",
@@ -2667,6 +3130,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 4",
+      "evento": "Real Sociedad C vs Amurrio",
+      "local": "Real Sociedad C",
+      "visitante": "Amurrio",
+      "fecha": "2026-10-10",
+      "hora": "17:30",
+      "canales": [
+        "Real Sociedad TV YouTube"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "Primera FEB",
       "ronda": "Liga Regular",
@@ -2690,7 +3166,21 @@
       "fecha": "2026-10-10",
       "hora": "18:00",
       "canales": [
+        "Teledeporte",
         "RTVE Play"
+      ]
+    },
+    {
+      "deporte": "Balonmano",
+      "competicion": "Liga Guerreras Iberdrola",
+      "ronda": null,
+      "evento": "CB Pozuelo CVA vs CBF Elda Prestigio",
+      "local": "CB Pozuelo CVA",
+      "visitante": "CBF Elda Prestigio",
+      "fecha": "2026-10-10",
+      "hora": "18:00",
+      "canales": [
+        "CMMPlay (Castilla-LM)"
       ]
     },
     {
@@ -2818,6 +3308,32 @@
     {
       "deporte": "Fútbol",
       "competicion": "Tercera Federación",
+      "ronda": "Grupo 8",
+      "evento": "Arandina vs Cristo Atlético",
+      "local": "Arandina",
+      "visitante": "Cristo Atlético",
+      "fecha": "2026-10-10",
+      "hora": "18:00",
+      "canales": [
+        "El Fútbol Modesto YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 5",
+      "evento": "L'Escala vs Vilassar de Mar",
+      "local": "L'Escala",
+      "visitante": "Vilassar de Mar",
+      "fecha": "2026-10-10",
+      "hora": "18:00",
+      "canales": [
+        "La Xarxa+"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
       "ronda": "Grupo 12",
       "evento": "CD Laguna vs Panadería Pulido",
       "local": "CD Laguna",
@@ -2826,6 +3342,19 @@
       "hora": "18:00",
       "canales": [
         "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 17",
+      "evento": "UD Fraga vs CD Binéfar",
+      "local": "UD Fraga",
+      "visitante": "CD Binéfar",
+      "fecha": "2026-10-10",
+      "hora": "18:00",
+      "canales": [
+        "Lacronicadeportes.es"
       ]
     },
     {
@@ -3034,6 +3563,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Liga Nacional Juvenil",
+      "ronda": "Grupo 4 (País Vasco)",
+      "evento": "Athletic Club Academy vs Danok Bat",
+      "local": "Athletic Club Academy",
+      "visitante": "Danok Bat",
+      "fecha": "2026-10-10",
+      "hora": "18:30",
+      "canales": [
+        "Athletic-club.eus"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Primera Federación",
       "ronda": "Grupo 1",
       "evento": "Cacereño vs Unionistas",
@@ -3210,8 +3752,7 @@
       "hora": "19:30",
       "canales": [
         "DAZN (Ver en directo)",
-        "DAZN Baloncesto 2 (M75 O127)",
-        "Fanatiz (Ver en directo)"
+        "DAZN Baloncesto 2 (M75 O127)"
       ]
     },
     {
@@ -3329,7 +3870,8 @@
       "fecha": "2026-10-10",
       "hora": "20:00",
       "canales": [
-        "Fanatiz (Ver en directo)"
+        "Fanatiz (Ver en directo)",
+        "L1 Max YouTube"
       ]
     },
     {
@@ -3435,6 +3977,19 @@
       "evento": "Almagro vs Chacarita Juniors",
       "local": "Almagro",
       "visitante": "Chacarita Juniors",
+      "fecha": "2026-10-10",
+      "hora": "20:30",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Torneo Federal A",
+      "ronda": "2ª Fase",
+      "evento": "Juventud Unida SL vs Sol de América Formosa",
+      "local": "Juventud Unida SL",
+      "visitante": "Sol de América Formosa",
       "fecha": "2026-10-10",
       "hora": "20:30",
       "canales": [
@@ -4500,6 +5055,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Superliga Infantil",
+      "ronda": "Grupo Único (Madrid)",
+      "evento": "Real Madrid Academy vs Periso CF Academy",
+      "local": "Real Madrid Academy",
+      "visitante": "Periso CF Academy",
+      "fecha": "2026-10-11",
+      "hora": "10:00",
+      "canales": [
+        "Real Madrid TV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "2. Liga",
       "ronda": null,
       "evento": "FC Admira Wacker vs ASK Voitsberg",
@@ -4513,6 +5081,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Bundesliga Sub-19",
+      "ronda": null,
+      "evento": "Freiburg Academy vs Hoffenheim Academy",
+      "local": "Freiburg Academy",
+      "visitante": "Hoffenheim Academy",
+      "fecha": "2026-10-11",
+      "hora": "11:00",
+      "canales": [
+        "German Football YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Segunda Federación",
       "ronda": "Grupo 5",
       "evento": "CF Talavera vs CD Atlético Paso",
@@ -4521,7 +5102,21 @@
       "fecha": "2026-10-11",
       "hora": "11:00",
       "canales": [
-        "TV FootballClub (Acceder)"
+        "TV FootballClub (Acceder)",
+        "CMMPlay (Castilla-LM)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "1ª Autonómica Preferente",
+      "ronda": null,
+      "evento": "San Agustín Guadalix vs CD San Fernando",
+      "local": "San Agustín Guadalix",
+      "visitante": "CD San Fernando",
+      "fecha": "2026-10-11",
+      "hora": "11:30",
+      "canales": [
+        "La Otra (Madrid)"
       ]
     },
     {
@@ -4535,6 +5130,19 @@
       "hora": "11:30",
       "canales": [
         "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 18",
+      "evento": "AD San Clemente vs Manchego CR",
+      "local": "AD San Clemente",
+      "visitante": "Manchego CR",
+      "fecha": "2026-10-11",
+      "hora": "11:30",
+      "canales": [
+        "CMMPlay (Castilla-LM)"
       ]
     },
     {
@@ -4803,6 +5411,19 @@
     {
       "deporte": "Fútbol",
       "competicion": "Tercera Federación",
+      "ronda": "Grupo 17",
+      "evento": "Deportivo Aragón vs At. Monzón",
+      "local": "Deportivo Aragón",
+      "visitante": "At. Monzón",
+      "fecha": "2026-10-11",
+      "hora": "12:00",
+      "canales": [
+        "Lacronicadeportes.es"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
       "ronda": "Grupo 7",
       "evento": "Unión Adarve vs Móstoles URJC",
       "local": "Unión Adarve",
@@ -4824,6 +5445,19 @@
       "hora": "12:00",
       "canales": [
         "CF Pozuelo de Alarcon YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 8",
+      "evento": "Colegios Diocesanos vs Calasanz",
+      "local": "Colegios Diocesanos",
+      "visitante": "Calasanz",
+      "fecha": "2026-10-11",
+      "hora": "12:00",
+      "canales": [
+        "La 7 (Castilla y León)"
       ]
     },
     {
@@ -4868,6 +5502,20 @@
     {
       "deporte": "Fútbol",
       "competicion": "Tercera Federación",
+      "ronda": "Grupo 5",
+      "evento": "Martinenc vs Montañesa",
+      "local": "Martinenc",
+      "visitante": "Montañesa",
+      "fecha": "2026-10-11",
+      "hora": "12:00",
+      "canales": [
+        "Betevé Web",
+        "Twitch btvesports"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
       "ronda": "Grupo 8",
       "evento": "Burgos Promesas vs Santa Marta",
       "local": "Burgos Promesas",
@@ -4892,6 +5540,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "División Honor Juvenil",
+      "ronda": null,
+      "evento": "Osasuna Academy vs Gimnastic Manresa",
+      "local": "Osasuna Academy",
+      "visitante": "Gimnastic Manresa",
+      "fecha": "2026-10-11",
+      "hora": "12:00",
+      "canales": [
+        "Osasuna TV"
+      ]
+    },
+    {
       "deporte": "Motociclismo",
       "competicion": "Superbike",
       "ronda": null,
@@ -4903,6 +5564,19 @@
       "canales": [
         "DAZN (Ver en directo)",
         "DAZN App Gratis (Ver gratis)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera Catalana",
+      "ronda": null,
+      "evento": "Cardedeu vs Granollers EC",
+      "local": "Cardedeu",
+      "visitante": "Granollers EC",
+      "fecha": "2026-10-11",
+      "hora": "12:15",
+      "canales": [
+        "FCF TV"
       ]
     },
     {
@@ -4919,6 +5593,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "División Honor Juvenil",
+      "ronda": null,
+      "evento": "Racing Santander Academy vs Deportivo Academy",
+      "local": "Racing Santander Academy",
+      "visitante": "Deportivo Academy",
+      "fecha": "2026-10-11",
+      "hora": "12:15",
+      "canales": [
+        "SPORTPUBLIC TV YouTube"
+      ]
+    },
+    {
       "deporte": "Golf",
       "competicion": "Open de España",
       "ronda": null,
@@ -4928,6 +5615,7 @@
       "fecha": "2026-10-11",
       "hora": "12:30",
       "canales": [
+        "Teledeporte",
         "RTVE Play",
         "Movistar Golf (M68)"
       ]
@@ -5025,7 +5713,8 @@
       "fecha": "2026-10-11",
       "hora": "12:30",
       "canales": [
-        "TV FootballClub (Acceder)"
+        "TV FootballClub (Acceder)",
+        "TV Melilla"
       ]
     },
     {
@@ -5069,6 +5758,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "División Honor Juvenil",
+      "ronda": null,
+      "evento": "Real Sociedad Academy vs Antiguoko FC",
+      "local": "Real Sociedad Academy",
+      "visitante": "Antiguoko FC",
+      "fecha": "2026-10-11",
+      "hora": "12:30",
+      "canales": [
+        "Real Sociedad TV YouTube"
+      ]
+    },
+    {
       "deporte": "Fútbol Sala",
       "competicion": "Liga Prime",
       "ronda": "Torneo Apertura",
@@ -5091,7 +5793,9 @@
       "fecha": "2026-10-11",
       "hora": "13:00",
       "canales": [
-        "TV FootballClub (Acceder)"
+        "TV FootballClub (Acceder)",
+        "Deportes TVCanaria YouTube",
+        "TV Canaria"
       ]
     },
     {
@@ -5157,6 +5861,19 @@
       "hora": "13:30",
       "canales": [
         "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Nacional Juvenil",
+      "ronda": "Grupo 12 (Madrid)",
+      "evento": "Rivas FC vs Real Madrid Academy",
+      "local": "Rivas FC",
+      "visitante": "Real Madrid Academy",
+      "fecha": "2026-10-11",
+      "hora": "13:30",
+      "canales": [
+        "Real Madrid TV"
       ]
     },
     {
@@ -5545,6 +6262,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Liga Élite Cataluña",
+      "ronda": null,
+      "evento": "CD San ​​Mauro vs Viladecans",
+      "local": "CD San ​​Mauro",
+      "visitante": "Viladecans",
+      "fecha": "2026-10-11",
+      "hora": "16:00",
+      "canales": [
+        "La Xarxa+"
+      ]
+    },
+    {
       "deporte": "Pádel",
       "competicion": "Alemania Open",
       "ronda": null,
@@ -5792,8 +6522,7 @@
       "canales": [
         "DAZN (Ver en directo)",
         "M+ Vamos 2 (51)",
-        "DAZN Baloncesto (M74 O126)",
-        "Fanatiz (Ver en directo)"
+        "DAZN Baloncesto (M74 O126)"
       ]
     },
     {
@@ -5838,6 +6567,19 @@
     {
       "deporte": "Fútbol",
       "competicion": "Tercera Federación",
+      "ronda": "Grupo 8",
+      "evento": "Palencia CF vs Salamanca UDS B",
+      "local": "Palencia CF",
+      "visitante": "Salamanca UDS B",
+      "fecha": "2026-10-11",
+      "hora": "17:00",
+      "canales": [
+        "Elviphotoss YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
       "ronda": "Grupo 6",
       "evento": "Eldense B vs UD Vall de Uxó",
       "local": "Eldense B",
@@ -5845,6 +6587,7 @@
       "fecha": "2026-10-11",
       "hora": "17:00",
       "canales": [
+        "FFCV YouTube",
         "La Ocho Mediterráneo"
       ]
     },
@@ -5963,13 +6706,28 @@
       "deporte": "Fútbol",
       "competicion": "Segunda Federación",
       "ronda": "Grupo 5",
+      "evento": "Conquense vs Atlético Albacete",
+      "local": "Conquense",
+      "visitante": "Atlético Albacete",
+      "fecha": "2026-10-11",
+      "hora": "18:00",
+      "canales": [
+        "CMMPlay (Castilla-LM)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
+      "ronda": "Grupo 5",
       "evento": "Guadalajara vs Getafe B",
       "local": "Guadalajara",
       "visitante": "Getafe B",
       "fecha": "2026-10-11",
       "hora": "18:00",
       "canales": [
-        "TV FootballClub (Acceder)"
+        "TV FootballClub (Acceder)",
+        "CMMPlay (Castilla-LM)",
+        "Getafe CF YouTube"
       ]
     },
     {
@@ -6047,7 +6805,8 @@
       "fecha": "2026-10-11",
       "hora": "18:00",
       "canales": [
-        "TV FootballClub (Acceder)"
+        "TV FootballClub (Acceder)",
+        "CMMPlay (Castilla-LM)"
       ]
     },
     {
@@ -6579,6 +7338,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Torneo Federal A",
+      "ronda": "Semifinales",
+      "evento": "Cipolletti vs CA Alvarado",
+      "local": "Cipolletti",
+      "visitante": "CA Alvarado",
+      "fecha": "2026-10-11",
+      "hora": "20:30",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Liga Pro Ecuador",
       "ronda": null,
       "evento": "Orense SC vs Deportivo Cuenca",
@@ -6653,6 +7425,19 @@
       "evento": "Patronato vs Atlético Güemes",
       "local": "Patronato",
       "visitante": "Atlético Güemes",
+      "fecha": "2026-10-11",
+      "hora": "21:00",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Torneo Federal A",
+      "ronda": "Semifinales",
+      "evento": "Olimpo vs San Martín Formosa",
+      "local": "Olimpo",
+      "visitante": "San Martín Formosa",
       "fecha": "2026-10-11",
       "hora": "21:00",
       "canales": [
@@ -6829,6 +7614,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Torneo BetPlay DIMAYOR",
+      "ronda": null,
+      "evento": "Envigado vs Internacional FC Palmira",
+      "local": "Envigado",
+      "visitante": "Internacional FC Palmira",
+      "fecha": "2026-10-11",
+      "hora": "22:00",
+      "canales": [
+        "Win Sports TV YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Primera División Argentina",
       "ronda": "Torneo Clausura",
       "evento": "Rosario Central vs Independiente Rivadavia",
@@ -6965,7 +7763,7 @@
     {
       "deporte": "Fútbol Sala",
       "competicion": "Copa Argentina Futsal",
-      "ronda": "Final",
+      "ronda": "Semifinales",
       "evento": "CSD Pinocho vs Independiente Futsal",
       "local": "CSD Pinocho",
       "visitante": "Independiente Futsal",

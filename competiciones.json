@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-10-09T04:39:43"
+    "actualizado": "2026-10-09T14:58:44"
   },
   "config": {
     "puntos_por_tier": {
@@ -1674,6 +1674,16 @@
     "Supercars Championship": {
       "deporte": "Automovilismo",
       "tier": "C",
+      "por_revisar": true
+    },
+    "1ª Autonómica Preferente": {
+      "deporte": "Fútbol",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Preferente Juvenil": {
+      "deporte": "Fútbol",
+      "tier": "D",
       "por_revisar": true
     }
   }
