@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-10-09T14:58:44",
+    "generado": "2026-10-09T20:33:15",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 574
+    "total_eventos": 573
   },
   "eventos": [
     {
@@ -1937,6 +1937,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Premier League Ucrania",
+      "ronda": null,
+      "evento": "FC Obolón-Brovar vs FC Kryvbas",
+      "local": "FC Obolón-Brovar",
+      "visitante": "FC Kryvbas",
+      "fecha": "2026-10-10",
+      "hora": "12:00",
+      "canales": [
+        "OneFootball PPV"
+      ]
+    },
+    {
       "deporte": "Motociclismo",
       "competicion": "Superbike",
       "ronda": null,
@@ -2289,19 +2302,6 @@
         "M+ Vamos (8 y 50)",
         "M+ #Vamos Bar (307)",
         "M+ Deportes (63)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Premier League Ucrania",
-      "ronda": null,
-      "evento": "FC Obolón-Brovar vs FC Kryvbas",
-      "local": "FC Obolón-Brovar",
-      "visitante": "FC Kryvbas",
-      "fecha": "2026-10-10",
-      "hora": "14:30",
-      "canales": [
-        "OneFootball PPV"
       ]
     },
     {
@@ -2745,6 +2745,45 @@
       "evento": "TPS vs FF Jaro",
       "local": "TPS",
       "visitante": "FF Jaro",
+      "fecha": "2026-10-10",
+      "hora": "16:00",
+      "canales": [
+        "OneFootball PPV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Premier Islandia",
+      "ronda": null,
+      "evento": "Stjarnan vs KA Akureyri",
+      "local": "Stjarnan",
+      "visitante": "KA Akureyri",
+      "fecha": "2026-10-10",
+      "hora": "16:00",
+      "canales": [
+        "OneFootball PPV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Premier Islandia",
+      "ronda": null,
+      "evento": "Valur Reykjavík vs FH Hafnarfjördur",
+      "local": "Valur Reykjavík",
+      "visitante": "FH Hafnarfjördur",
+      "fecha": "2026-10-10",
+      "hora": "16:00",
+      "canales": [
+        "OneFootball PPV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Premier Islandia",
+      "ronda": null,
+      "evento": "Thor Akureyri vs ÍBV",
+      "local": "Thor Akureyri",
+      "visitante": "ÍBV",
       "fecha": "2026-10-10",
       "hora": "16:00",
       "canales": [
@@ -3234,6 +3273,7 @@
       "canales": [
         "TV FootballClub (Acceder)",
         "Real Betis Balompié YouTube",
+        "Xerez CD YouTube",
         "Real Betis TV"
       ]
     },
@@ -4228,6 +4268,19 @@
       "hora": "21:00",
       "canales": [
         "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Premier Islandia",
+      "ronda": null,
+      "evento": "Fram Reykjavík vs KR Reykjavík",
+      "local": "Fram Reykjavík",
+      "visitante": "KR Reykjavík",
+      "fecha": "2026-10-10",
+      "hora": "21:15",
+      "canales": [
+        "OneFootball PPV"
       ]
     },
     {
@@ -5233,6 +5286,19 @@
       "deporte": "Fútbol",
       "competicion": "Premier League Ucrania",
       "ronda": null,
+      "evento": "Dynamo Kyiv vs Karpaty Lviv",
+      "local": "Dynamo Kyiv",
+      "visitante": "Karpaty Lviv",
+      "fecha": "2026-10-11",
+      "hora": "12:00",
+      "canales": [
+        "OneFootball PPV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Premier League Ucrania",
+      "ronda": null,
       "evento": "LNZ Cherkasy vs FC Kudrivka",
       "local": "LNZ Cherkasy",
       "visitante": "FC Kudrivka",
@@ -5999,19 +6065,6 @@
       "hora": "14:15",
       "canales": [
         "HBO MAX"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Premier League Ucrania",
-      "ronda": null,
-      "evento": "Dynamo Kyiv vs Karpaty Lviv",
-      "local": "Dynamo Kyiv",
-      "visitante": "Karpaty Lviv",
-      "fecha": "2026-10-11",
-      "hora": "14:30",
-      "canales": [
-        "OneFootball PPV"
       ]
     },
     {
@@ -6810,84 +6863,6 @@
       ]
     },
     {
-      "deporte": "Fútbol",
-      "competicion": "Liga Premier Islandia",
-      "ronda": null,
-      "evento": "Breidablik UBK vs Keflavík IK",
-      "local": "Breidablik UBK",
-      "visitante": "Keflavík IK",
-      "fecha": "2026-10-11",
-      "hora": "18:00",
-      "canales": [
-        "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Liga Premier Islandia",
-      "ronda": null,
-      "evento": "Stjarnan vs KA Akureyri",
-      "local": "Stjarnan",
-      "visitante": "KA Akureyri",
-      "fecha": "2026-10-11",
-      "hora": "18:00",
-      "canales": [
-        "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Liga Premier Islandia",
-      "ronda": null,
-      "evento": "Fram Reykjavík vs KR Reykjavík",
-      "local": "Fram Reykjavík",
-      "visitante": "KR Reykjavík",
-      "fecha": "2026-10-11",
-      "hora": "18:00",
-      "canales": [
-        "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Liga Premier Islandia",
-      "ronda": null,
-      "evento": "Valur Reykjavík vs FH Hafnarfjördur",
-      "local": "Valur Reykjavík",
-      "visitante": "FH Hafnarfjördur",
-      "fecha": "2026-10-11",
-      "hora": "18:00",
-      "canales": [
-        "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Liga Premier Islandia",
-      "ronda": null,
-      "evento": "Víkingur R vs ÍA Akraness",
-      "local": "Víkingur R",
-      "visitante": "ÍA Akraness",
-      "fecha": "2026-10-11",
-      "hora": "18:00",
-      "canales": [
-        "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Liga Premier Islandia",
-      "ronda": null,
-      "evento": "Thor Akureyri vs ÍBV",
-      "local": "Thor Akureyri",
-      "visitante": "ÍBV",
-      "fecha": "2026-10-11",
-      "hora": "18:00",
-      "canales": [
-        "OneFootball PPV"
-      ]
-    },
-    {
       "deporte": "Baloncesto",
       "competicion": "Liga Endesa",
       "ronda": "Liga Regular",
@@ -7204,19 +7179,6 @@
       "hora": "19:45",
       "canales": [
         "Fanatiz (Ver en directo)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Primera B Argentina",
-      "ronda": null,
-      "evento": "Brown de Adrogué vs Dock Sud",
-      "local": "Brown de Adrogué",
-      "visitante": "Dock Sud",
-      "fecha": "2026-10-11",
-      "hora": "20:00",
-      "canales": [
-        "LPF Play"
       ]
     },
     {
@@ -7543,6 +7505,32 @@
       "hora": "21:05",
       "canales": [
         "M+ Deportes (63)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Premier Islandia",
+      "ronda": null,
+      "evento": "Breidablik UBK vs Keflavík IK",
+      "local": "Breidablik UBK",
+      "visitante": "Keflavík IK",
+      "fecha": "2026-10-11",
+      "hora": "21:15",
+      "canales": [
+        "OneFootball PPV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Premier Islandia",
+      "ronda": null,
+      "evento": "Víkingur R vs ÍA Akraness",
+      "local": "Víkingur R",
+      "visitante": "ÍA Akraness",
+      "fecha": "2026-10-11",
+      "hora": "21:15",
+      "canales": [
+        "OneFootball PPV"
       ]
     },
     {
