@@ -1,7 +1,7 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-10-10T14:14:11",
+    "generado": "2026-10-10T19:46:21",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
     "total_eventos": 552
   },
@@ -683,20 +683,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "Masters Shanghai",
-      "ronda": "2ª Ronda",
-      "evento": "L. Darderi vs S. Tsitsipas",
-      "local": "L. Darderi",
-      "visitante": "S. Tsitsipas",
-      "fecha": "2026-10-10",
-      "hora": "12:20",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes 4 (191)"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "Preferente Juvenil",
       "ronda": "Grupo 1 (Cataluña)",
@@ -739,15 +725,14 @@
       "deporte": "Tenis",
       "competicion": "Masters Shanghai",
       "ronda": "2ª Ronda",
-      "evento": "JM. Cerúndolo vs C. Alcaraz",
-      "local": "JM. Cerúndolo",
-      "visitante": "C. Alcaraz",
+      "evento": "L. Darderi vs S. Tsitsipas",
+      "local": "L. Darderi",
+      "visitante": "S. Tsitsipas",
       "fecha": "2026-10-10",
       "hora": "12:40",
       "canales": [
         "ATP Tennis TV",
-        "Movistar Plus+ (M7): VER PARTIDO",
-        "M+ Deportes 2 (64)"
+        "M+ Deportes 4 (191)"
       ]
     },
     {
@@ -766,20 +751,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "WTA Pekín",
-      "ronda": "WTA 1000",
-      "evento": "Q. Zheng vs E. Mertens",
-      "local": "Q. Zheng",
-      "visitante": "E. Mertens",
-      "fecha": "2026-10-10",
-      "hora": "13:00",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "Superliga de Letonia",
       "ronda": null,
@@ -794,13 +765,42 @@
     },
     {
       "deporte": "Tenis",
+      "competicion": "WTA Pekín",
+      "ronda": "WTA 1000",
+      "evento": "Q. Zheng vs E. Mertens",
+      "local": "Q. Zheng",
+      "visitante": "E. Mertens",
+      "fecha": "2026-10-10",
+      "hora": "13:10",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "2ª Ronda",
+      "evento": "JM. Cerúndolo vs C. Alcaraz",
+      "local": "JM. Cerúndolo",
+      "visitante": "C. Alcaraz",
+      "fecha": "2026-10-10",
+      "hora": "13:20",
+      "canales": [
+        "ATP Tennis TV",
+        "Movistar Plus+ (M7): VER PARTIDO",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
       "competicion": "Masters Shanghai",
       "ronda": "2ª Ronda",
       "evento": "T. Paul vs A.D. Vallejo",
       "local": "T. Paul",
       "visitante": "A.D. Vallejo",
       "fecha": "2026-10-10",
-      "hora": "13:10",
+      "hora": "13:25",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 3 (65)"
@@ -874,6 +874,20 @@
         "DAZN (Ver en directo)",
         "DAZN 1 (M72)",
         "DAZN 1 Bar (M148)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "2ª Ronda",
+      "evento": "B. Van de Zandschulp vs A. Michelsen",
+      "local": "B. Van de Zandschulp",
+      "visitante": "A. Michelsen",
+      "fecha": "2026-10-10",
+      "hora": "13:45",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 5 (192)"
       ]
     },
     {
@@ -1046,24 +1060,10 @@
       "local": "S. Báez",
       "visitante": "V. Vacherot",
       "fecha": "2026-10-10",
-      "hora": "14:10",
+      "hora": "14:50",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 2 (64)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Masters Shanghai",
-      "ronda": "2ª Ronda",
-      "evento": "B. Van de Zandschulp vs A. Michelsen",
-      "local": "B. Van de Zandschulp",
-      "visitante": "A. Michelsen",
-      "fecha": "2026-10-10",
-      "hora": "14:15",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes 5 (192)"
       ]
     },
     {
@@ -4183,20 +4183,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "WTA Pekín",
-      "ronda": null,
-      "evento": "Final WTA 1000",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-10-11",
-      "hora": "12:00",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
       "deporte": "Baloncesto",
       "competicion": "NBA Pretemporada",
       "ronda": null,
@@ -4802,6 +4788,20 @@
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Pekín",
+      "ronda": "WTA 1000",
+      "evento": "Q. Zheng vs M. Andreeva",
+      "local": "Q. Zheng",
+      "visitante": "M. Andreeva",
+      "fecha": "2026-10-11",
+      "hora": "13:30",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
