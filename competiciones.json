@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-10-10T04:25:32"
+    "actualizado": "2026-10-10T14:14:11"
   },
   "config": {
     "puntos_por_tier": {
@@ -1698,6 +1698,16 @@
     },
     "WTA Wuhan": {
       "deporte": "Tenis",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Amistoso Femenino Sub-19": {
+      "deporte": "Fútbol",
+      "tier": "D",
+      "por_revisar": true
+    },
+    "Hong Kong Cyclothon": {
+      "deporte": "Ciclismo",
       "tier": "C",
       "por_revisar": true
     }

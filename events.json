@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-10-10T04:25:32",
+    "generado": "2026-10-10T14:14:11",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 542
+    "total_eventos": 552
   },
   "eventos": [
     {
@@ -264,6 +264,19 @@
       ]
     },
     {
+      "deporte": "Golf",
+      "competicion": "LPGA Aramco Korea Championship",
+      "ronda": null,
+      "evento": "Jornada 3",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-10-10",
+      "hora": "06:00",
+      "canales": [
+        "Movistar Golf 2 (M68)"
+      ]
+    },
+    {
       "deporte": "Tenis",
       "competicion": "Masters Shanghai",
       "ronda": "2ª Ronda",
@@ -271,7 +284,7 @@
       "local": "D. Medvedev",
       "visitante": "JL. Struff",
       "fecha": "2026-10-10",
-      "hora": "06:00",
+      "hora": "06:10",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 4 (191)"
@@ -285,7 +298,7 @@
       "local": "TA. Tirante",
       "visitante": "R. Jódar",
       "fecha": "2026-10-10",
-      "hora": "06:00",
+      "hora": "06:10",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 2 (64)"
@@ -299,7 +312,7 @@
       "local": "J. Lehecka",
       "visitante": "N. Borges",
       "fecha": "2026-10-10",
-      "hora": "06:00",
+      "hora": "06:10",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 3 (65)"
@@ -313,23 +326,10 @@
       "local": "C. Ugo Carabelli",
       "visitante": "F. Auger-Aliassime",
       "fecha": "2026-10-10",
-      "hora": "06:00",
+      "hora": "06:10",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 5 (192)"
-      ]
-    },
-    {
-      "deporte": "Golf",
-      "competicion": "LPGA Aramco Korea Championship",
-      "ronda": null,
-      "evento": "Jornada 3",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-10-10",
-      "hora": "06:00",
-      "canales": [
-        "Movistar Golf 2 (M68)"
       ]
     },
     {
@@ -374,49 +374,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "Masters Shanghai",
-      "ronda": "2ª Ronda",
-      "evento": "A. Tabilo vs P. Carreño",
-      "local": "A. Tabilo",
-      "visitante": "P. Carreño",
-      "fecha": "2026-10-10",
-      "hora": "07:30",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes 3 (65)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Masters Shanghai",
-      "ronda": "2ª Ronda",
-      "evento": "M. Arnaldi vs T. Fritz",
-      "local": "M. Arnaldi",
-      "visitante": "T. Fritz",
-      "fecha": "2026-10-10",
-      "hora": "07:30",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes 4 (191)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Masters Shanghai",
-      "ronda": "2ª Ronda",
-      "evento": "Y. Bu vs C. Ruud",
-      "local": "Y. Bu",
-      "visitante": "C. Ruud",
-      "fecha": "2026-10-10",
-      "hora": "07:30",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes 2 (64)",
-        "M+ Deportes 5 (192)"
-      ]
-    },
-    {
       "deporte": "Motociclismo",
       "competicion": "Moto2",
       "ronda": null,
@@ -447,6 +404,34 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "2ª Ronda",
+      "evento": "A. Tabilo vs P. Carreño",
+      "local": "A. Tabilo",
+      "visitante": "P. Carreño",
+      "fecha": "2026-10-10",
+      "hora": "08:30",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 3 (65)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "2ª Ronda",
+      "evento": "M. Arnaldi vs T. Fritz",
+      "local": "M. Arnaldi",
+      "visitante": "T. Fritz",
+      "fecha": "2026-10-10",
+      "hora": "08:30",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 4 (191)"
+      ]
+    },
+    {
       "deporte": "Motociclismo",
       "competicion": "MotoGP",
       "ronda": null,
@@ -463,41 +448,13 @@
     },
     {
       "deporte": "Tenis",
-      "competicion": "Masters Shanghai",
-      "ronda": "2ª Ronda",
-      "evento": "L. Tien vs Z. Svajda",
-      "local": "L. Tien",
-      "visitante": "Z. Svajda",
-      "fecha": "2026-10-10",
-      "hora": "09:00",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes 3 (65)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Masters Shanghai",
-      "ronda": "2ª Ronda",
-      "evento": "A. Fils vs P. Kotov",
-      "local": "A. Fils",
-      "visitante": "P. Kotov",
-      "fecha": "2026-10-10",
-      "hora": "09:00",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes 4 (191)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
       "competicion": "WTA Pekín",
       "ronda": "WTA 1000",
       "evento": "M. Andreeva vs N. Bartunkova",
       "local": "M. Andreeva",
       "visitante": "N. Bartunkova",
       "fecha": "2026-10-10",
-      "hora": "09:00",
+      "hora": "09:10",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -507,28 +464,15 @@
       "deporte": "Tenis",
       "competicion": "Masters Shanghai",
       "ronda": "2ª Ronda",
-      "evento": "T. Paul vs A.D. Vallejo",
-      "local": "T. Paul",
-      "visitante": "A.D. Vallejo",
+      "evento": "Y. Bu vs C. Ruud",
+      "local": "Y. Bu",
+      "visitante": "C. Ruud",
       "fecha": "2026-10-10",
-      "hora": "10:30",
+      "hora": "09:30",
       "canales": [
         "ATP Tennis TV",
-        "M+ Deportes 3 (65)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Masters Shanghai",
-      "ronda": "2ª Ronda",
-      "evento": "L. Darderi vs S. Tsitsipas",
-      "local": "L. Darderi",
-      "visitante": "S. Tsitsipas",
-      "fecha": "2026-10-10",
-      "hora": "10:30",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes 4 (191)"
+        "M+ Deportes 2 (64)",
+        "M+ Deportes 5 (192)"
       ]
     },
     {
@@ -573,6 +517,20 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "2ª Ronda",
+      "evento": "A. Fils vs P. Kotov",
+      "local": "A. Fils",
+      "visitante": "P. Kotov",
+      "fecha": "2026-10-10",
+      "hora": "10:50",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 4 (191)"
+      ]
+    },
+    {
       "deporte": "Automovilismo",
       "competicion": "Fórmula 1",
       "ronda": null,
@@ -584,20 +542,6 @@
       "canales": [
         "DAZN (Ver en directo)",
         "DAZN F1 (M70 O104)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Masters Shanghai",
-      "ronda": "2ª Ronda",
-      "evento": "B. Van de Zandschulp vs A. Michelsen",
-      "local": "B. Van de Zandschulp",
-      "visitante": "A. Michelsen",
-      "fecha": "2026-10-10",
-      "hora": "11:00",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes 5 (192)"
       ]
     },
     {
@@ -661,15 +605,14 @@
       "deporte": "Tenis",
       "competicion": "Masters Shanghai",
       "ronda": "2ª Ronda",
-      "evento": "JM. Cerúndolo vs C. Alcaraz",
-      "local": "JM. Cerúndolo",
-      "visitante": "C. Alcaraz",
+      "evento": "L. Tien vs Z. Svajda",
+      "local": "L. Tien",
+      "visitante": "Z. Svajda",
       "fecha": "2026-10-10",
-      "hora": "12:00",
+      "hora": "11:45",
       "canales": [
         "ATP Tennis TV",
-        "Movistar Plus+ (M7): VER PARTIDO",
-        "M+ Deportes 2 (64)"
+        "M+ Deportes 3 (65)"
       ]
     },
     {
@@ -740,6 +683,20 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "2ª Ronda",
+      "evento": "L. Darderi vs S. Tsitsipas",
+      "local": "L. Darderi",
+      "visitante": "S. Tsitsipas",
+      "fecha": "2026-10-10",
+      "hora": "12:20",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 4 (191)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Preferente Juvenil",
       "ronda": "Grupo 1 (Cataluña)",
@@ -776,6 +733,21 @@
       "hora": "12:30",
       "canales": [
         "Liga U YouTube"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "2ª Ronda",
+      "evento": "JM. Cerúndolo vs C. Alcaraz",
+      "local": "JM. Cerúndolo",
+      "visitante": "C. Alcaraz",
+      "fecha": "2026-10-10",
+      "hora": "12:40",
+      "canales": [
+        "ATP Tennis TV",
+        "Movistar Plus+ (M7): VER PARTIDO",
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -821,6 +793,20 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "2ª Ronda",
+      "evento": "T. Paul vs A.D. Vallejo",
+      "local": "T. Paul",
+      "visitante": "A.D. Vallejo",
+      "fecha": "2026-10-10",
+      "hora": "13:10",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 3 (65)"
+      ]
+    },
+    {
       "deporte": "Golf",
       "competicion": "Open de España",
       "ronda": null,
@@ -847,20 +833,6 @@
         "DAZN (Ver en directo)",
         "DAZN App Gratis (Ver gratis)",
         "DAZN 2 (M73)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Masters Shanghai",
-      "ronda": "2ª Ronda",
-      "evento": "S. Báez vs V. Vacherot",
-      "local": "S. Báez",
-      "visitante": "V. Vacherot",
-      "fecha": "2026-10-10",
-      "hora": "13:30",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -1064,6 +1036,34 @@
         "M+ Vamos (8 y 50)",
         "M+ #Vamos Bar (307)",
         "M+ Deportes (63)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "2ª Ronda",
+      "evento": "S. Báez vs V. Vacherot",
+      "local": "S. Báez",
+      "visitante": "V. Vacherot",
+      "fecha": "2026-10-10",
+      "hora": "14:10",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "2ª Ronda",
+      "evento": "B. Van de Zandschulp vs A. Michelsen",
+      "local": "B. Van de Zandschulp",
+      "visitante": "A. Michelsen",
+      "fecha": "2026-10-10",
+      "hora": "14:15",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 5 (192)"
       ]
     },
     {
@@ -2296,6 +2296,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Amistoso Femenino Sub-19",
+      "ronda": null,
+      "evento": "España vs Suecia",
+      "local": "España",
+      "visitante": "Suecia",
+      "fecha": "2026-10-10",
+      "hora": "18:30",
+      "canales": [
+        "SeFutbol YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Primera Federación",
       "ronda": "Grupo 2",
       "evento": "Teruel vs Alcorcón",
@@ -2554,7 +2567,8 @@
       "hora": "19:30",
       "canales": [
         "DAZN (Ver en directo)",
-        "DAZN Baloncesto 2 (M75 O127)"
+        "DAZN Baloncesto 2 (M75 O127)",
+        "Fanatiz (Ver en directo)"
       ]
     },
     {
@@ -3192,10 +3206,10 @@
     {
       "deporte": "Hockey Patines",
       "competicion": "Mundial Femenino",
-      "ronda": null,
-      "evento": "3er Puesto",
-      "local": null,
-      "visitante": null,
+      "ronda": "3er Puesto",
+      "evento": "Portugal vs Italia",
+      "local": "Portugal",
+      "visitante": "Italia",
       "fecha": "2026-10-10",
       "hora": "22:30",
       "canales": [
@@ -3351,10 +3365,10 @@
     {
       "deporte": "Hockey Patines",
       "competicion": "Mundial Femenino",
-      "ronda": null,
-      "evento": "Final",
-      "local": null,
-      "visitante": null,
+      "ronda": "Final",
+      "evento": "España vs Argentina",
+      "local": "España",
+      "visitante": "Argentina",
       "fecha": "2026-10-11",
       "hora": "01:00",
       "canales": [
@@ -3731,6 +3745,19 @@
       ]
     },
     {
+      "deporte": "Ciclismo",
+      "competicion": "Hong Kong Cyclothon",
+      "ronda": null,
+      "evento": "UCI Asia Tour Hong Kong › Hong Kong (100,4 km)",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-10-11",
+      "hora": "03:30",
+      "canales": [
+        "HONG KONG YouTube"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "MLS",
       "ronda": null,
@@ -3799,6 +3826,34 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "3ª Ronda",
+      "evento": "K. Khachanov vs A. Mannarino",
+      "local": "K. Khachanov",
+      "visitante": "A. Mannarino",
+      "fecha": "2026-10-11",
+      "hora": "06:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 3 (65)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "3ª Ronda",
+      "evento": "B. Shelton vs A. Gea",
+      "local": "B. Shelton",
+      "visitante": "A. Gea",
+      "fecha": "2026-10-11",
+      "hora": "06:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
       "deporte": "Golf",
       "competicion": "LPGA Aramco Korea Championship",
       "ronda": null,
@@ -3809,20 +3864,6 @@
       "hora": "06:00",
       "canales": [
         "Movistar Golf 2 (M68)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Masters Shanghai",
-      "ronda": null,
-      "evento": "3ª Ronda ATP Masters 1000",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-10-11",
-      "hora": "06:30",
-      "canales": [
-        "ATP Tennis TV",
-        "Movistar+"
       ]
     },
     {
@@ -3854,6 +3895,34 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "3ª Ronda",
+      "evento": "A. De Miñaur vs R. Sakamoto",
+      "local": "A. De Miñaur",
+      "visitante": "R. Sakamoto",
+      "fecha": "2026-10-11",
+      "hora": "07:30",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 3 (65)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "3ª Ronda",
+      "evento": "H. Hurkacz vs Y. Zhou",
+      "local": "H. Hurkacz",
+      "visitante": "Y. Zhou",
+      "fecha": "2026-10-11",
+      "hora": "07:30",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
       "deporte": "Motociclismo",
       "competicion": "MotoGP",
       "ronda": null,
@@ -3869,6 +3938,20 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "3ª Ronda",
+      "evento": "F. Cerúndolo vs J. Mensik",
+      "local": "F. Cerúndolo",
+      "visitante": "J. Mensik",
+      "fecha": "2026-10-11",
+      "hora": "09:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 3 (65)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Superliga Infantil",
       "ronda": "Grupo Único (Madrid)",
@@ -3879,6 +3962,20 @@
       "hora": "10:00",
       "canales": [
         "Real Madrid TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "3ª Ronda",
+      "evento": "A. Bublik vs B. Nakashima",
+      "local": "A. Bublik",
+      "visitante": "B. Nakashima",
+      "fecha": "2026-10-11",
+      "hora": "10:30",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 3 (65)"
       ]
     },
     {
@@ -4000,6 +4097,21 @@
       "canales": [
         "BalONcesto TV",
         "BalONcesto TV PPV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "3ª Ronda",
+      "evento": "A. Zverev vs Q. Halys",
+      "local": "A. Zverev",
+      "visitante": "Q. Halys",
+      "fecha": "2026-10-11",
+      "hora": "12:00",
+      "canales": [
+        "ATP Tennis TV",
+        "Movistar Plus+ (M7): VER PARTIDO",
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -4679,6 +4791,20 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "3ª Ronda",
+      "evento": "A. Davidovich vs F. Tiafoe",
+      "local": "A. Davidovich",
+      "visitante": "F. Tiafoe",
+      "fecha": "2026-10-11",
+      "hora": "13:30",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Jupiler Pro League",
       "ronda": null,
@@ -5337,7 +5463,8 @@
       "canales": [
         "DAZN (Ver en directo)",
         "M+ Vamos 2 (51)",
-        "DAZN Baloncesto (M74 O126)"
+        "DAZN Baloncesto (M74 O126)",
+        "Fanatiz (Ver en directo)"
       ]
     },
     {
@@ -6006,6 +6133,19 @@
       "hora": "20:00",
       "canales": [
         "Antel TV Internacional"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Torneo Promocional Amateur",
+      "ronda": null,
+      "evento": "Defensores de Glew vs SAT",
+      "local": "Defensores de Glew",
+      "visitante": "SAT",
+      "fecha": "2026-10-11",
+      "hora": "20:00",
+      "canales": [
+        "LPF Play"
       ]
     },
     {
