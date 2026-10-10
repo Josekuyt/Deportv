@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-10-09T14:58:44"
+    "actualizado": "2026-10-10T04:25:32"
   },
   "config": {
     "puntos_por_tier": {
@@ -1684,6 +1684,21 @@
     "Preferente Juvenil": {
       "deporte": "Fútbol",
       "tier": "D",
+      "por_revisar": true
+    },
+    "Campeonato del Mundo": {
+      "deporte": "Hockey Patines",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Milan Open": {
+      "deporte": "Pádel",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "WTA Wuhan": {
+      "deporte": "Tenis",
+      "tier": "C",
       "por_revisar": true
     }
   }
