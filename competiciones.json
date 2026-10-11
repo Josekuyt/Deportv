@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-10-11T04:06:59"
+    "actualizado": "2026-10-11T14:39:05"
   },
   "config": {
     "puntos_por_tier": {
@@ -1728,6 +1728,11 @@
     },
     "Tour of Guangxi": {
       "deporte": "Ciclismo",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "DP World Tour Championship": {
+      "deporte": "Golf",
       "tier": "C",
       "por_revisar": true
     }

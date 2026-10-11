@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-10-11T04:06:59",
+    "generado": "2026-10-11T14:39:05",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 376
+    "total_eventos": 381
   },
   "eventos": [
     {
@@ -549,6 +549,19 @@
       ]
     },
     {
+      "deporte": "Golf",
+      "competicion": "LPGA Aramco Korea Championship",
+      "ronda": null,
+      "evento": "Jornada 4",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-10-11",
+      "hora": "06:00",
+      "canales": [
+        "Movistar Golf 2 (M68)"
+      ]
+    },
+    {
       "deporte": "Tenis",
       "competicion": "Masters Shanghai",
       "ronda": "3ª Ronda",
@@ -556,7 +569,7 @@
       "local": "K. Khachanov",
       "visitante": "A. Mannarino",
       "fecha": "2026-10-11",
-      "hora": "06:00",
+      "hora": "06:10",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 3 (65)"
@@ -570,23 +583,10 @@
       "local": "B. Shelton",
       "visitante": "A. Gea",
       "fecha": "2026-10-11",
-      "hora": "06:00",
+      "hora": "06:10",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 2 (64)"
-      ]
-    },
-    {
-      "deporte": "Golf",
-      "competicion": "LPGA Aramco Korea Championship",
-      "ronda": null,
-      "evento": "Jornada 4",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-10-11",
-      "hora": "06:00",
-      "canales": [
-        "Movistar Golf 2 (M68)"
       ]
     },
     {
@@ -625,7 +625,7 @@
       "local": "A. De Miñaur",
       "visitante": "R. Sakamoto",
       "fecha": "2026-10-11",
-      "hora": "07:30",
+      "hora": "07:55",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 3 (65)"
@@ -639,7 +639,7 @@
       "local": "H. Hurkacz",
       "visitante": "Y. Zhou",
       "fecha": "2026-10-11",
-      "hora": "07:30",
+      "hora": "08:40",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 2 (64)"
@@ -668,7 +668,7 @@
       "local": "F. Cerúndolo",
       "visitante": "J. Mensik",
       "fecha": "2026-10-11",
-      "hora": "09:00",
+      "hora": "09:25",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 3 (65)"
@@ -688,20 +688,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "Masters Shanghai",
-      "ronda": "3ª Ronda",
-      "evento": "A. Bublik vs B. Nakashima",
-      "local": "A. Bublik",
-      "visitante": "B. Nakashima",
-      "fecha": "2026-10-11",
-      "hora": "10:30",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes 3 (65)"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "2. Liga",
       "ronda": null,
@@ -712,6 +698,20 @@
       "hora": "10:30",
       "canales": [
         "OneFootball PPV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "3ª Ronda",
+      "evento": "A. Bublik vs B. Nakashima",
+      "local": "A. Bublik",
+      "visitante": "B. Nakashima",
+      "fecha": "2026-10-11",
+      "hora": "10:55",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 3 (65)"
       ]
     },
     {
@@ -752,6 +752,19 @@
       "hora": "11:30",
       "canales": [
         "La Otra (Madrid)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Villena",
+      "ronda": "ATP Challenger Tour",
+      "evento": "D. Glinka vs L. Djere",
+      "local": "D. Glinka",
+      "visitante": "L. Djere",
+      "fecha": "2026-10-11",
+      "hora": "11:30",
+      "canales": [
+        "RTVE Play"
       ]
     },
     {
@@ -919,19 +932,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Villena",
-      "ronda": "ATP Challenger Tour",
-      "evento": "D. Glinka vs L. Djere",
-      "local": "D. Glinka",
-      "visitante": "L. Djere",
-      "fecha": "2026-10-11",
-      "hora": "12:00",
-      "canales": [
-        "RTVE Play"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "Primera Federación",
       "ronda": "Grupo 1",
@@ -1026,7 +1026,8 @@
       "canales": [
         "DAZN (Ver en directo)",
         "DAZN Baloncesto (M74 O126)",
-        "TVG (Galicia)"
+        "TVG (Galicia)",
+        "TV Galicia"
       ]
     },
     {
@@ -1430,6 +1431,20 @@
       "hora": "13:00",
       "canales": [
         "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Golf",
+      "competicion": "DP World Tour Championship",
+      "ronda": null,
+      "evento": "Jornada 4",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-10-11",
+      "hora": "13:00",
+      "canales": [
+        "Teledeporte",
+        "RTVE Play"
       ]
     },
     {
@@ -1844,6 +1859,7 @@
         "DAZN (Ver en directo)",
         "DAZN 4 (M197)",
         "DAZN App Gratis (Ver gratis)",
+        "BE MAD",
         "Mediaset Infinity"
       ]
     },
@@ -2270,6 +2286,20 @@
       ]
     },
     {
+      "deporte": "Golf",
+      "competicion": "DP World Tour Championship",
+      "ronda": null,
+      "evento": "Jornada 4",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-10-11",
+      "hora": "17:15",
+      "canales": [
+        "Teledeporte",
+        "RTVE Play"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Francia Ligue 1",
       "ronda": null,
@@ -2324,7 +2354,8 @@
       "hora": "18:00",
       "canales": [
         "Siroko TV",
-        "M+ Baloncesto 4 (M195)"
+        "M+ Baloncesto 4 (M195)",
+        "TVG2 (Galicia)"
       ]
     },
     {
@@ -3388,6 +3419,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Liga Colombiana",
+      "ronda": null,
+      "evento": "Jaguares FC vs Deportes Tolima",
+      "local": "Jaguares FC",
+      "visitante": "Deportes Tolima",
+      "fecha": "2026-10-11",
+      "hora": "23:05",
+      "canales": [
+        "RCN Nuestra Tele"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Liga Pro Ecuador",
       "ronda": null,
       "evento": "LDU Quito vs Barcelona SC",
@@ -3648,6 +3692,19 @@
       "hora": "03:10",
       "canales": [
         "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Colombiana",
+      "ronda": null,
+      "evento": "América de Cali vs Medellín",
+      "local": "América de Cali",
+      "visitante": "Medellín",
+      "fecha": "2026-10-12",
+      "hora": "03:15",
+      "canales": [
+        "RCN Nuestra Tele"
       ]
     },
     {
@@ -4343,6 +4400,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Liga Colombiana",
+      "ronda": null,
+      "evento": "Boyacá Chicó vs Cúcuta",
+      "local": "Boyacá Chicó",
+      "visitante": "Cúcuta",
+      "fecha": "2026-10-13",
+      "hora": "03:10",
+      "canales": [
+        "RCN Nuestra Tele"
+      ]
+    },
+    {
       "deporte": "Tenis",
       "competicion": "WTA Wuhan",
       "ronda": null,
@@ -5004,7 +5074,8 @@
       "hora": "21:00",
       "canales": [
         "M+ Liga de Campeones (M60 O115)",
-        "M+ Liga de Campeones 4 (M180 O119)"
+        "M+ Liga de Campeones 4 (M180 O119)",
+        "LaLiga TV Bar"
       ]
     },
     {
