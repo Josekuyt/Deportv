@@ -1,7 +1,7 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-10-11T14:39:05",
+    "generado": "2026-10-11T19:55:04",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
     "total_eventos": 381
   },
@@ -668,7 +668,7 @@
       "local": "F. Cerúndolo",
       "visitante": "J. Mensik",
       "fecha": "2026-10-11",
-      "hora": "09:25",
+      "hora": "09:50",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 3 (65)"
@@ -698,20 +698,6 @@
       "hora": "10:30",
       "canales": [
         "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Masters Shanghai",
-      "ronda": "3ª Ronda",
-      "evento": "A. Bublik vs B. Nakashima",
-      "local": "A. Bublik",
-      "visitante": "B. Nakashima",
-      "fecha": "2026-10-11",
-      "hora": "10:55",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes 3 (65)"
       ]
     },
     {
@@ -833,21 +819,6 @@
       "canales": [
         "BalONcesto TV",
         "BalONcesto TV PPV"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Masters Shanghai",
-      "ronda": "3ª Ronda",
-      "evento": "A. Zverev vs Q. Halys",
-      "local": "A. Zverev",
-      "visitante": "Q. Halys",
-      "fecha": "2026-10-11",
-      "hora": "12:00",
-      "canales": [
-        "ATP Tennis TV",
-        "Movistar Plus+ (M7): VER PARTIDO",
-        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -1217,6 +1188,35 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "3ª Ronda",
+      "evento": "A. Zverev vs Q. Halys",
+      "local": "A. Zverev",
+      "visitante": "Q. Halys",
+      "fecha": "2026-10-11",
+      "hora": "12:10",
+      "canales": [
+        "ATP Tennis TV",
+        "Movistar Plus+ (M7): VER PARTIDO",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "3ª Ronda",
+      "evento": "A. Bublik vs B. Nakashima",
+      "local": "A. Bublik",
+      "visitante": "B. Nakashima",
+      "fecha": "2026-10-11",
+      "hora": "12:10",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 3 (65)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Primera Catalana",
       "ronda": null,
@@ -1516,20 +1516,6 @@
     },
     {
       "deporte": "Tenis",
-      "competicion": "Masters Shanghai",
-      "ronda": "3ª Ronda",
-      "evento": "A. Davidovich vs F. Tiafoe",
-      "local": "A. Davidovich",
-      "visitante": "F. Tiafoe",
-      "fecha": "2026-10-11",
-      "hora": "13:30",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes 2 (64)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
       "competicion": "WTA Pekín",
       "ronda": "WTA 1000",
       "evento": "Q. Zheng vs M. Andreeva",
@@ -1717,6 +1703,20 @@
       "hora": "14:30",
       "canales": [
         "OneFootball PPV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "3ª Ronda",
+      "evento": "A. Davidovich vs F. Tiafoe",
+      "local": "A. Davidovich",
+      "visitante": "F. Tiafoe",
+      "fecha": "2026-10-11",
+      "hora": "14:50",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
       ]
     },
     {
