@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-10-12T04:25:48",
+    "generado": "2026-10-12T17:23:17",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 205
+    "total_eventos": 213
   },
   "eventos": [
     {
@@ -258,20 +258,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "WTA Wuhan",
-      "ronda": "1ª Ronda",
-      "evento": "E. Alexandrova vs L. Fernández",
-      "local": "E. Alexandrova",
-      "visitante": "L. Fernández",
-      "fecha": "2026-10-12",
-      "hora": "05:00",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
       "deporte": "Golf",
       "competicion": "Baycurrent Classic",
       "ronda": null,
@@ -286,13 +272,27 @@
     },
     {
       "deporte": "Tenis",
+      "competicion": "WTA Wuhan",
+      "ronda": "1ª Ronda",
+      "evento": "E. Alexandrova vs L. Fernández",
+      "local": "E. Alexandrova",
+      "visitante": "L. Fernández",
+      "fecha": "2026-10-12",
+      "hora": "05:10",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
       "competicion": "Masters Shanghai",
       "ronda": "3ª Ronda",
       "evento": "P. Carreño vs F. Auger-Aliassime",
       "local": "P. Carreño",
       "visitante": "F. Auger-Aliassime",
       "fecha": "2026-10-12",
-      "hora": "06:00",
+      "hora": "06:10",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 2 (64)"
@@ -306,38 +306,10 @@
       "local": "L. Tien",
       "visitante": "C. Ruud",
       "fecha": "2026-10-12",
-      "hora": "06:00",
+      "hora": "06:10",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 3 (65)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Wuhan",
-      "ronda": "1ª Ronda",
-      "evento": "I. Jovic vs M. Pohankova",
-      "local": "I. Jovic",
-      "visitante": "M. Pohankova",
-      "fecha": "2026-10-12",
-      "hora": "06:30",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Masters Shanghai",
-      "ronda": "3ª Ronda",
-      "evento": "S. Tsitsipas vs T. Fritz",
-      "local": "S. Tsitsipas",
-      "visitante": "T. Fritz",
-      "fecha": "2026-10-12",
-      "hora": "07:30",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -348,38 +320,24 @@
       "local": "J. Lehecka",
       "visitante": "R. Jódar",
       "fecha": "2026-10-12",
-      "hora": "07:30",
+      "hora": "08:20",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 3 (65)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Wuhan",
-      "ronda": "1ª Ronda",
-      "evento": "M. Sakkari vs D. Vekic",
-      "local": "M. Sakkari",
-      "visitante": "D. Vekic",
-      "fecha": "2026-10-12",
-      "hora": "08:00",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
       "deporte": "Tenis",
       "competicion": "Masters Shanghai",
       "ronda": "3ª Ronda",
-      "evento": "D. Medvedev vs D. Svrcina",
-      "local": "D. Medvedev",
-      "visitante": "D. Svrcina",
+      "evento": "S. Tsitsipas vs T. Fritz",
+      "local": "S. Tsitsipas",
+      "visitante": "T. Fritz",
       "fecha": "2026-10-12",
-      "hora": "09:00",
+      "hora": "08:30",
       "canales": [
         "ATP Tennis TV",
-        "M+ Deportes 3 (65)"
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -397,31 +355,30 @@
     },
     {
       "deporte": "Tenis",
-      "competicion": "Masters Shanghai",
-      "ronda": "3ª Ronda",
-      "evento": "A. Fils vs B. Van de Zandschulp",
-      "local": "A. Fils",
-      "visitante": "B. Van de Zandschulp",
+      "competicion": "WTA Wuhan",
+      "ronda": "1ª Ronda",
+      "evento": "M. Sakkari vs D. Vekic",
+      "local": "M. Sakkari",
+      "visitante": "D. Vekic",
       "fecha": "2026-10-12",
-      "hora": "10:30",
+      "hora": "09:30",
       "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes 3 (65)"
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
       "deporte": "Tenis",
       "competicion": "Masters Shanghai",
       "ronda": "3ª Ronda",
-      "evento": "Z. Bergs vs C. Alcaraz",
-      "local": "Z. Bergs",
-      "visitante": "C. Alcaraz",
+      "evento": "D. Medvedev vs D. Svrcina",
+      "local": "D. Medvedev",
+      "visitante": "D. Svrcina",
       "fecha": "2026-10-12",
-      "hora": "12:00",
+      "hora": "11:25",
       "canales": [
         "ATP Tennis TV",
-        "Movistar Plus+ (M7): VER PARTIDO",
-        "M+ Deportes 2 (64)"
+        "M+ Deportes 3 (65)"
       ]
     },
     {
@@ -441,14 +398,29 @@
       "deporte": "Tenis",
       "competicion": "Masters Shanghai",
       "ronda": "3ª Ronda",
-      "evento": "T. Paul vs V. Vacherot",
-      "local": "T. Paul",
-      "visitante": "V. Vacherot",
+      "evento": "Z. Bergs vs C. Alcaraz",
+      "local": "Z. Bergs",
+      "visitante": "C. Alcaraz",
       "fecha": "2026-10-12",
-      "hora": "13:30",
+      "hora": "12:10",
       "canales": [
         "ATP Tennis TV",
+        "Movistar Plus+ (M7): VER PARTIDO",
         "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "3ª Ronda",
+      "evento": "A. Fils vs B. Van de Zandschulp",
+      "local": "A. Fils",
+      "visitante": "B. Van de Zandschulp",
+      "fecha": "2026-10-12",
+      "hora": "13:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 3 (65)"
       ]
     },
     {
@@ -459,7 +431,7 @@
       "local": "Xi. Wang",
       "visitante": "X. Wang",
       "fecha": "2026-10-12",
-      "hora": "13:30",
+      "hora": "13:40",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -482,13 +454,27 @@
     },
     {
       "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "3ª Ronda",
+      "evento": "T. Paul vs V. Vacherot",
+      "local": "T. Paul",
+      "visitante": "V. Vacherot",
+      "fecha": "2026-10-12",
+      "hora": "14:30",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
       "competicion": "WTA Wuhan",
       "ronda": "1ª Ronda",
       "evento": "A. Eala vs H. Shi",
       "local": "A. Eala",
       "visitante": "H. Shi",
       "fecha": "2026-10-12",
-      "hora": "15:00",
+      "hora": "15:05",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -1106,16 +1092,16 @@
     },
     {
       "deporte": "Tenis",
-      "competicion": "WTA Wuhan",
-      "ronda": null,
-      "evento": "1ª Ronda WTA 1000",
-      "local": null,
-      "visitante": null,
+      "competicion": "Masters Shanghai",
+      "ronda": "1/8 de final",
+      "evento": "A. De Miñaur vs K. Khachanov",
+      "local": "A. De Miñaur",
+      "visitante": "K. Khachanov",
       "fecha": "2026-10-13",
-      "hora": "05:00",
+      "hora": "06:00",
       "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -1133,16 +1119,58 @@
     },
     {
       "deporte": "Tenis",
-      "competicion": "Masters Shanghai",
-      "ronda": null,
-      "evento": "1/8 de final ATP Masters 1000",
-      "local": null,
-      "visitante": null,
+      "competicion": "WTA Wuhan",
+      "ronda": "1ª Ronda",
+      "evento": "Y. Putintseva vs Z. Sonmez",
+      "local": "Y. Putintseva",
+      "visitante": "Z. Sonmez",
       "fecha": "2026-10-13",
       "hora": "06:30",
       "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Wuhan",
+      "ronda": "1ª Ronda",
+      "evento": "H. Guo vs S. Cirstea",
+      "local": "H. Guo",
+      "visitante": "S. Cirstea",
+      "fecha": "2026-10-13",
+      "hora": "06:30",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "1/8 de final",
+      "evento": "A. Gea vs J. Mensik",
+      "local": "A. Gea",
+      "visitante": "J. Mensik",
+      "fecha": "2026-10-13",
+      "hora": "07:30",
+      "canales": [
         "ATP Tennis TV",
-        "Movistar+"
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Wuhan",
+      "ronda": "2ª Ronda",
+      "evento": "M. Sakkari vs M. Kostyuk",
+      "local": "M. Sakkari",
+      "visitante": "M. Kostyuk",
+      "fecha": "2026-10-13",
+      "hora": "08:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -1172,6 +1200,20 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "1/8 de final",
+      "evento": "A. Zverev vs A. Bublik",
+      "local": "A. Zverev",
+      "visitante": "A. Bublik",
+      "fecha": "2026-10-13",
+      "hora": "12:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "UEFA Youth League",
       "ronda": "Fase Liga",
@@ -1182,6 +1224,35 @@
       "hora": "13:00",
       "canales": [
         "M+ Liga de Campeones (M60 O115)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Wuhan",
+      "ronda": "1ª Ronda",
+      "evento": "A. Krueger vs S. Zhang",
+      "local": "A. Krueger",
+      "visitante": "S. Zhang",
+      "fecha": "2026-10-13",
+      "hora": "13:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "1/8 de final",
+      "evento": "H. Hurkacz vs A. Davidovich",
+      "local": "H. Hurkacz",
+      "visitante": "A. Davidovich",
+      "fecha": "2026-10-13",
+      "hora": "13:30",
+      "canales": [
+        "ATP Tennis TV",
+        "Movistar Plus+ (M7): VER PARTIDO",
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -1196,6 +1267,20 @@
       "canales": [
         "UEFA TV",
         "M+ Liga de Campeones 2 (M61 O117)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Wuhan",
+      "ronda": "2ª Ronda",
+      "evento": "M. Pohankova vs Xi. Wang",
+      "local": "M. Pohankova",
+      "visitante": "Xi. Wang",
+      "fecha": "2026-10-13",
+      "hora": "14:30",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -1539,6 +1624,19 @@
       "evento": "ALBA Berlin vs KK Igokea",
       "local": "ALBA Berlin",
       "visitante": "KK Igokea",
+      "fecha": "2026-10-13",
+      "hora": "20:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Basketball Champions League",
+      "ronda": "Liga Regular",
+      "evento": "Pallacanestro Varese vs Peristeri BC",
+      "local": "Pallacanestro Varese",
+      "visitante": "Peristeri BC",
       "fecha": "2026-10-13",
       "hora": "20:00",
       "canales": [
@@ -2394,7 +2492,8 @@
       "hora": "20:00",
       "canales": [
         "M+ Vamos (8 y 50)",
-        "M+ #Vamos Bar (307)"
+        "M+ #Vamos Bar (307)",
+        "À Punt Mèdia"
       ]
     },
     {
@@ -2485,7 +2584,21 @@
       "fecha": "2026-10-14",
       "hora": "20:00",
       "canales": [
+        "DAZN (Ver en directo)",
         "RTVE Play"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Basketball Champions League",
+      "ronda": "Liga Regular",
+      "evento": "Cholet Basket vs Rasta Vechta",
+      "local": "Cholet Basket",
+      "visitante": "Rasta Vechta",
+      "fecha": "2026-10-14",
+      "hora": "20:00",
+      "canales": [
+        "DAZN (Ver en directo)"
       ]
     },
     {
