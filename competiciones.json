@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-10-11T14:39:05"
+    "actualizado": "2026-10-12T04:25:48"
   },
   "config": {
     "puntos_por_tier": {
@@ -1734,6 +1734,16 @@
     "DP World Tour Championship": {
       "deporte": "Golf",
       "tier": "C",
+      "por_revisar": true
+    },
+    "Campeonato Mundo Pista": {
+      "deporte": "Ciclismo",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Giro del Veneto": {
+      "deporte": "Ciclismo",
+      "tier": "A",
       "por_revisar": true
     }
   }
