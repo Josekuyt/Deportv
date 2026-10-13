@@ -1,7 +1,7 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-10-13T15:35:11",
+    "generado": "2026-10-13T20:59:20",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
     "total_eventos": 304
   },
@@ -124,20 +124,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "Masters Shanghai",
-      "ronda": "1/8 de final",
-      "evento": "A. De Miñaur vs K. Khachanov",
-      "local": "A. De Miñaur",
-      "visitante": "K. Khachanov",
-      "fecha": "2026-10-13",
-      "hora": "06:00",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes 2 (64)"
-      ]
-    },
-    {
       "deporte": "Ciclismo",
       "competicion": "Tour of Guangxi",
       "ronda": null,
@@ -152,13 +138,27 @@
     },
     {
       "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "1/8 de final",
+      "evento": "A. De Miñaur vs K. Khachanov",
+      "local": "A. De Miñaur",
+      "visitante": "K. Khachanov",
+      "fecha": "2026-10-13",
+      "hora": "06:10",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
       "competicion": "WTA Wuhan",
       "ronda": "1ª Ronda",
       "evento": "Y. Putintseva vs Z. Sonmez",
       "local": "Y. Putintseva",
       "visitante": "Z. Sonmez",
       "fecha": "2026-10-13",
-      "hora": "06:30",
+      "hora": "07:40",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -172,7 +172,7 @@
       "local": "H. Guo",
       "visitante": "S. Cirstea",
       "fecha": "2026-10-13",
-      "hora": "06:30",
+      "hora": "07:40",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -186,24 +186,10 @@
       "local": "A. Gea",
       "visitante": "J. Mensik",
       "fecha": "2026-10-13",
-      "hora": "07:30",
+      "hora": "08:00",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 2 (64)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Wuhan",
-      "ronda": "2ª Ronda",
-      "evento": "M. Sakkari vs M. Kostyuk",
-      "local": "M. Sakkari",
-      "visitante": "M. Kostyuk",
-      "fecha": "2026-10-13",
-      "hora": "08:00",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -230,6 +216,20 @@
       "hora": "09:45",
       "canales": [
         "The AFC Hub YouTube"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Wuhan",
+      "ronda": "2ª Ronda",
+      "evento": "M. Sakkari vs M. Kostyuk",
+      "local": "M. Sakkari",
+      "visitante": "M. Kostyuk",
+      "fecha": "2026-10-13",
+      "hora": "10:40",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -292,7 +292,7 @@
       "local": "A. Zverev",
       "visitante": "A. Bublik",
       "fecha": "2026-10-13",
-      "hora": "12:00",
+      "hora": "12:10",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 2 (64)"
@@ -306,25 +306,10 @@
       "local": "A. Krueger",
       "visitante": "S. Zhang",
       "fecha": "2026-10-13",
-      "hora": "13:00",
+      "hora": "13:25",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Masters Shanghai",
-      "ronda": "1/8 de final",
-      "evento": "H. Hurkacz vs A. Davidovich",
-      "local": "H. Hurkacz",
-      "visitante": "A. Davidovich",
-      "fecha": "2026-10-13",
-      "hora": "13:30",
-      "canales": [
-        "ATP Tennis TV",
-        "Movistar Plus+ (M7): VER PARTIDO",
-        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -388,10 +373,25 @@
       "local": "M. Pohankova",
       "visitante": "Xi. Wang",
       "fecha": "2026-10-13",
-      "hora": "14:30",
+      "hora": "14:50",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "1/8 de final",
+      "evento": "H. Hurkacz vs A. Davidovich",
+      "local": "H. Hurkacz",
+      "visitante": "A. Davidovich",
+      "fecha": "2026-10-13",
+      "hora": "15:10",
+      "canales": [
+        "ATP Tennis TV",
+        "Movistar Plus+ (M7): VER PARTIDO",
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -1162,7 +1162,7 @@
     {
       "deporte": "Baloncesto",
       "competicion": "Eurocup Women",
-      "ronda": null,
+      "ronda": "Liga Regular",
       "evento": "Benfica CB vs TV 1872 Saarlouis",
       "local": "Benfica CB",
       "visitante": "TV 1872 Saarlouis",
@@ -1333,133 +1333,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "Masters Shanghai",
-      "ronda": "1/8 de final",
-      "evento": "D. Medvedev vs S. Tsitsipas",
-      "local": "D. Medvedev",
-      "visitante": "S. Tsitsipas",
-      "fecha": "2026-10-14",
-      "hora": "04:00",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes 2 (64)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Masters Shanghai",
-      "ronda": "1/8 de final",
-      "evento": "C. Ruud vs F. Auger-Aliassime",
-      "local": "C. Ruud",
-      "visitante": "F. Auger-Aliassime",
-      "fecha": "2026-10-14",
-      "hora": "04:00",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes 2 (64)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Masters Shanghai",
-      "ronda": "1/8 de final",
-      "evento": "T. Paul vs Z. Bergs",
-      "local": "T. Paul",
-      "visitante": "Z. Bergs",
-      "fecha": "2026-10-14",
-      "hora": "04:00",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes 2 (64)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Masters Shanghai",
-      "ronda": "1/8 de final",
-      "evento": "B. Van de Zandschulp vs R. Jódar",
-      "local": "B. Van de Zandschulp",
-      "visitante": "R. Jódar",
-      "fecha": "2026-10-14",
-      "hora": "04:00",
-      "canales": [
-        "ATP Tennis TV",
-        "Movistar Plus+ (M7): VER PARTIDO",
-        "M+ Deportes 2 (64)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Wuhan",
-      "ronda": "2ª Ronda",
-      "evento": "M. Frech vs I. Swiatek",
-      "local": "M. Frech",
-      "visitante": "I. Swiatek",
-      "fecha": "2026-10-14",
-      "hora": "04:00",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Wuhan",
-      "ronda": "2ª Ronda",
-      "evento": "J. Ostapenko vs J. Pegula",
-      "local": "J. Ostapenko",
-      "visitante": "J. Pegula",
-      "fecha": "2026-10-14",
-      "hora": "04:00",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Wuhan",
-      "ronda": "2ª Ronda",
-      "evento": "A. Sabalenka vs A. Li",
-      "local": "A. Sabalenka",
-      "visitante": "A. Li",
-      "fecha": "2026-10-14",
-      "hora": "04:00",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Wuhan",
-      "ronda": "2ª Ronda",
-      "evento": "K. Muchova vs C. McNally",
-      "local": "K. Muchova",
-      "visitante": "C. McNally",
-      "fecha": "2026-10-14",
-      "hora": "04:00",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Wuhan",
-      "ronda": "2ª Ronda",
-      "evento": "H. Shi vs L. Fernández",
-      "local": "H. Shi",
-      "visitante": "L. Fernández",
-      "fecha": "2026-10-14",
-      "hora": "04:00",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
       "deporte": "Baloncesto",
       "competicion": "NBA Pretemporada",
       "ronda": null,
@@ -1483,6 +1356,77 @@
       "hora": "04:00",
       "canales": [
         "NBA League Pass"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Wuhan",
+      "ronda": "2ª Ronda",
+      "evento": "M. Frech vs I. Swiatek",
+      "local": "M. Frech",
+      "visitante": "I. Swiatek",
+      "fecha": "2026-10-14",
+      "hora": "05:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "1/8 de final",
+      "evento": "B. Van de Zandschulp vs R. Jódar",
+      "local": "B. Van de Zandschulp",
+      "visitante": "R. Jódar",
+      "fecha": "2026-10-14",
+      "hora": "06:00",
+      "canales": [
+        "ATP Tennis TV",
+        "Movistar Plus+ (M7): VER PARTIDO",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Wuhan",
+      "ronda": "2ª Ronda",
+      "evento": "K. Muchova vs C. McNally",
+      "local": "K. Muchova",
+      "visitante": "C. McNally",
+      "fecha": "2026-10-14",
+      "hora": "06:30",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "1/8 de final",
+      "evento": "C. Ruud vs F. Auger-Aliassime",
+      "local": "C. Ruud",
+      "visitante": "F. Auger-Aliassime",
+      "fecha": "2026-10-14",
+      "hora": "07:30",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Wuhan",
+      "ronda": "2ª Ronda",
+      "evento": "J. Ostapenko vs J. Pegula",
+      "local": "J. Ostapenko",
+      "visitante": "J. Pegula",
+      "fecha": "2026-10-14",
+      "hora": "08:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -1553,6 +1497,20 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "1/8 de final",
+      "evento": "D. Medvedev vs S. Tsitsipas",
+      "local": "D. Medvedev",
+      "visitante": "S. Tsitsipas",
+      "fecha": "2026-10-14",
+      "hora": "12:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
       "deporte": "Ciclismo",
       "competicion": "Campeonato Mundo Pista",
       "ronda": null,
@@ -1567,6 +1525,34 @@
         "Teledeporte",
         "RTVE Play",
         "Eurosport 2"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Wuhan",
+      "ronda": "2ª Ronda",
+      "evento": "A. Sabalenka vs A. Li",
+      "local": "A. Sabalenka",
+      "visitante": "A. Li",
+      "fecha": "2026-10-14",
+      "hora": "13:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "1/8 de final",
+      "evento": "T. Paul vs Z. Bergs",
+      "local": "T. Paul",
+      "visitante": "Z. Bergs",
+      "fecha": "2026-10-14",
+      "hora": "13:30",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -1612,6 +1598,20 @@
         "HBO MAX",
         "DAZN (Ver en directo)",
         "Eurosport 1"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Wuhan",
+      "ronda": "2ª Ronda",
+      "evento": "H. Shi vs L. Fernández",
+      "local": "H. Shi",
+      "visitante": "L. Fernández",
+      "fecha": "2026-10-14",
+      "hora": "14:30",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -1685,7 +1685,7 @@
     {
       "deporte": "Baloncesto",
       "competicion": "Eurocup Women",
-      "ronda": null,
+      "ronda": "Liga Regular",
       "evento": "Panathinaikos BC vs ALBA Berlin",
       "local": "Panathinaikos BC",
       "visitante": "ALBA Berlin",
@@ -1702,6 +1702,19 @@
       "evento": "Al Jazira vs FK Arkadag",
       "local": "Al Jazira",
       "visitante": "FK Arkadag",
+      "fecha": "2026-10-14",
+      "hora": "18:00",
+      "canales": [
+        "The AFC Hub YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "AFC Champions League Two",
+      "ronda": "Fase de grupos",
+      "evento": "Kuwait SC vs Al Khalidiya FC",
+      "local": "Kuwait SC",
+      "visitante": "Al Khalidiya FC",
       "fecha": "2026-10-14",
       "hora": "18:00",
       "canales": [
@@ -1751,7 +1764,7 @@
     {
       "deporte": "Baloncesto",
       "competicion": "Eurocup Women",
-      "ronda": null,
+      "ronda": "Liga Regular",
       "evento": "DVTK HUN-Therm vs Panathlitikos Sykeon",
       "local": "DVTK HUN-Therm",
       "visitante": "Panathlitikos Sykeon",
@@ -1764,7 +1777,7 @@
     {
       "deporte": "Baloncesto",
       "competicion": "Eurocup Women",
-      "ronda": null,
+      "ronda": "Liga Regular",
       "evento": "Sopron Basket vs UZKK Student Niš",
       "local": "Sopron Basket",
       "visitante": "UZKK Student Niš",
@@ -1777,7 +1790,7 @@
     {
       "deporte": "Baloncesto",
       "competicion": "Eurocup Women",
-      "ronda": null,
+      "ronda": "Liga Regular",
       "evento": "Zabiny Brno vs AEL Limassol BC",
       "local": "Zabiny Brno",
       "visitante": "AEL Limassol BC",
@@ -1790,7 +1803,7 @@
     {
       "deporte": "Baloncesto",
       "competicion": "Eurocup Women",
-      "ronda": null,
+      "ronda": "Liga Regular",
       "evento": "KP Brno vs Nyon Basket",
       "local": "KP Brno",
       "visitante": "Nyon Basket",
@@ -1933,7 +1946,7 @@
     {
       "deporte": "Baloncesto",
       "competicion": "Eurocup Women",
-      "ronda": null,
+      "ronda": "Liga Regular",
       "evento": "AZS Poznań vs Landerneau Bretagne Basket",
       "local": "AZS Poznań",
       "visitante": "Landerneau Bretagne Basket",
@@ -2115,6 +2128,21 @@
     },
     {
       "deporte": "Baloncesto",
+      "competicion": "Euroliga Femenina",
+      "ronda": "Liga Regular",
+      "evento": "Casademont Zaragoza vs Basket Landes",
+      "local": "Casademont Zaragoza",
+      "visitante": "Basket Landes",
+      "fecha": "2026-10-14",
+      "hora": "19:00",
+      "canales": [
+        "M+ Baloncesto 3 (M194)",
+        "Aragón Play",
+        "Aragón TV"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
       "competicion": "Basketball Champions League",
       "ronda": "Liga Regular",
       "evento": "Bamberg Baskets vs UCAM Murcia CB",
@@ -2124,6 +2152,7 @@
       "hora": "19:00",
       "canales": [
         "DAZN (Ver en directo)",
+        "Teledeporte",
         "RTVE Play"
       ]
     },
@@ -2183,7 +2212,7 @@
     {
       "deporte": "Baloncesto",
       "competicion": "Eurocup Women",
-      "ronda": null,
+      "ronda": "Liga Regular",
       "evento": "Castors Braine vs GEAS Basket",
       "local": "Castors Braine",
       "visitante": "GEAS Basket",
@@ -2204,21 +2233,6 @@
       "hora": "19:30",
       "canales": [
         "M+ Baloncesto 4 (M195)"
-      ]
-    },
-    {
-      "deporte": "Baloncesto",
-      "competicion": "Euroliga Femenina",
-      "ronda": "Liga Regular",
-      "evento": "Casademont Zaragoza vs Basket Landes",
-      "local": "Casademont Zaragoza",
-      "visitante": "Basket Landes",
-      "fecha": "2026-10-14",
-      "hora": "20:00",
-      "canales": [
-        "M+ Baloncesto 3 (M194)",
-        "Aragón Play",
-        "Aragón TV"
       ]
     },
     {
@@ -2371,7 +2385,7 @@
     {
       "deporte": "Baloncesto",
       "competicion": "Eurocup Women",
-      "ronda": null,
+      "ronda": "Liga Regular",
       "evento": "Villeneuve d'Ascq LM vs DSK Basketball Brandys",
       "local": "Villeneuve d'Ascq LM",
       "visitante": "DSK Basketball Brandys",
@@ -2384,7 +2398,7 @@
     {
       "deporte": "Baloncesto",
       "competicion": "Eurocup Women",
-      "ronda": null,
+      "ronda": "Liga Regular",
       "evento": "Charnay Basket vs HBA Helsinki",
       "local": "Charnay Basket",
       "visitante": "HBA Helsinki",
@@ -2415,19 +2429,6 @@
       "evento": "Al Faisaly vs Al Nahda",
       "local": "Al Faisaly",
       "visitante": "Al Nahda",
-      "fecha": "2026-10-14",
-      "hora": "20:15",
-      "canales": [
-        "The AFC Hub YouTube"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "AFC Champions League Two",
-      "ronda": "Fase de grupos",
-      "evento": "Kuwait SC vs Al Khalidiya FC",
-      "local": "Kuwait SC",
-      "visitante": "Al Khalidiya FC",
       "fecha": "2026-10-14",
       "hora": "20:15",
       "canales": [
@@ -2491,7 +2492,7 @@
     {
       "deporte": "Baloncesto",
       "competicion": "Eurocup Women",
-      "ronda": null,
+      "ronda": "Liga Regular",
       "evento": "Magnolia Campobasso vs Cinkarna Celje",
       "local": "Magnolia Campobasso",
       "visitante": "Cinkarna Celje",
@@ -3306,7 +3307,7 @@
     {
       "deporte": "Baloncesto",
       "competicion": "Eurocup Women",
-      "ronda": null,
+      "ronda": "Liga Regular",
       "evento": "Rutronik Stars Keltern vs BC Montana 2003",
       "local": "Rutronik Stars Keltern",
       "visitante": "BC Montana 2003",
@@ -3593,7 +3594,7 @@
     {
       "deporte": "Baloncesto",
       "competicion": "Eurocup Women",
-      "ronda": null,
+      "ronda": "Liga Regular",
       "evento": "Mersin Yenisehir Bld vs Ślęza Wrocław",
       "local": "Mersin Yenisehir Bld",
       "visitante": "Ślęza Wrocław",
@@ -3606,7 +3607,7 @@
     {
       "deporte": "Baloncesto",
       "competicion": "Eurocup Women",
-      "ronda": null,
+      "ronda": "Liga Regular",
       "evento": "Gorzów Basketball vs Panserraikos BC",
       "local": "Gorzów Basketball",
       "visitante": "Panserraikos BC",
@@ -3619,7 +3620,7 @@
     {
       "deporte": "Baloncesto",
       "competicion": "Eurocup Women",
-      "ronda": null,
+      "ronda": "Liga Regular",
       "evento": "Umana Reyer Venice vs U-BT Cluj Napoca",
       "local": "Umana Reyer Venice",
       "visitante": "U-BT Cluj Napoca",
@@ -3632,7 +3633,7 @@
     {
       "deporte": "Baloncesto",
       "competicion": "Eurocup Women",
-      "ronda": null,
+      "ronda": "Liga Regular",
       "evento": "BCF Elfic Fribourg vs BCC Castelnuovo Scrivia",
       "local": "BCF Elfic Fribourg",
       "visitante": "BCC Castelnuovo Scrivia",
@@ -3737,7 +3738,7 @@
     {
       "deporte": "Baloncesto",
       "competicion": "Eurocup Women",
-      "ronda": null,
+      "ronda": "Liga Regular",
       "evento": "Basket Namur Capitale vs C’Chartres Métropole Basket",
       "local": "Basket Namur Capitale",
       "visitante": "C’Chartres Métropole Basket",
