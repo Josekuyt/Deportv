@@ -1,7 +1,7 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-10-14T13:19:00",
+    "generado": "2026-10-14T19:59:44",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
     "total_eventos": 295
   },
@@ -186,7 +186,7 @@
       "local": "M. Frech",
       "visitante": "I. Swiatek",
       "fecha": "2026-10-14",
-      "hora": "05:00",
+      "hora": "05:10",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -200,7 +200,7 @@
       "local": "B. Van de Zandschulp",
       "visitante": "R. Jódar",
       "fecha": "2026-10-14",
-      "hora": "06:00",
+      "hora": "06:10",
       "canales": [
         "ATP Tennis TV",
         "Movistar Plus+ (M7): VER PARTIDO",
@@ -215,7 +215,7 @@
       "local": "K. Muchova",
       "visitante": "C. McNally",
       "fecha": "2026-10-14",
-      "hora": "06:30",
+      "hora": "07:10",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -229,24 +229,10 @@
       "local": "C. Ruud",
       "visitante": "F. Auger-Aliassime",
       "fecha": "2026-10-14",
-      "hora": "07:30",
+      "hora": "09:05",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 2 (64)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Wuhan",
-      "ronda": "2ª Ronda",
-      "evento": "J. Ostapenko vs J. Pegula",
-      "local": "J. Ostapenko",
-      "visitante": "J. Pegula",
-      "fecha": "2026-10-14",
-      "hora": "08:00",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -273,6 +259,20 @@
       "hora": "09:45",
       "canales": [
         "The AFC Hub YouTube"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Wuhan",
+      "ronda": "2ª Ronda",
+      "evento": "J. Ostapenko vs J. Pegula",
+      "local": "J. Ostapenko",
+      "visitante": "J. Pegula",
+      "fecha": "2026-10-14",
+      "hora": "10:20",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -324,7 +324,7 @@
       "local": "D. Medvedev",
       "visitante": "S. Tsitsipas",
       "fecha": "2026-10-14",
-      "hora": "12:00",
+      "hora": "12:10",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 2 (64)"
@@ -355,7 +355,7 @@
       "local": "A. Sabalenka",
       "visitante": "A. Li",
       "fecha": "2026-10-14",
-      "hora": "13:00",
+      "hora": "13:25",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -369,7 +369,7 @@
       "local": "T. Paul",
       "visitante": "Z. Bergs",
       "fecha": "2026-10-14",
-      "hora": "13:30",
+      "hora": "13:55",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 2 (64)"
@@ -418,20 +418,6 @@
         "HBO MAX",
         "DAZN (Ver en directo)",
         "Eurosport 1"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Wuhan",
-      "ronda": "2ª Ronda",
-      "evento": "H. Shi vs L. Fernández",
-      "local": "H. Shi",
-      "visitante": "L. Fernández",
-      "fecha": "2026-10-14",
-      "hora": "14:30",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -487,7 +473,22 @@
       "canales": [
         "HBO MAX",
         "DAZN (Ver en directo)",
+        "Lega Ciclismo Professionistico YouTube",
         "Eurosport 1"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Wuhan",
+      "ronda": "2ª Ronda",
+      "evento": "H. Shi vs L. Fernández",
+      "local": "H. Shi",
+      "visitante": "L. Fernández",
+      "fecha": "2026-10-14",
+      "hora": "16:10",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -987,7 +988,8 @@
       "canales": [
         "DAZN (Ver en directo)",
         "Teledeporte",
-        "RTVE Play"
+        "RTVE Play",
+        "Popular TV Murcia"
       ]
     },
     {
@@ -1609,19 +1611,6 @@
       ]
     },
     {
-      "deporte": "Fútbol",
-      "competicion": "Liga Colombiana",
-      "ronda": null,
-      "evento": "Santa Fe vs Jaguares FC",
-      "local": "Santa Fe",
-      "visitante": "Jaguares FC",
-      "fecha": "2026-10-15",
-      "hora": "01:30",
-      "canales": [
-        "RCN Nuestra Tele"
-      ]
-    },
-    {
       "deporte": "Baloncesto",
       "competicion": "NBA Pretemporada",
       "ronda": null,
@@ -2003,6 +1992,21 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "1/4 de Final",
+      "evento": "A. Gea vs A. Davidovich",
+      "local": "A. Gea",
+      "visitante": "A. Davidovich",
+      "fecha": "2026-10-15",
+      "hora": "08:30",
+      "canales": [
+        "ATP Tennis TV",
+        "Movistar Plus+ (M7): VER PARTIDO",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
       "deporte": "Ciclismo",
       "competicion": "Tour of Guangxi",
       "ronda": null,
@@ -2017,39 +2021,10 @@
     },
     {
       "deporte": "Tenis",
-      "competicion": "Masters Shanghai",
-      "ronda": "1/4 de Final",
-      "evento": "A. Zverev vs A. De Miñaur",
-      "local": "A. Zverev",
-      "visitante": "A. De Miñaur",
-      "fecha": "2026-10-15",
-      "hora": "09:00",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes 2 (64)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Masters Shanghai",
-      "ronda": "1/4 de Final",
-      "evento": "A. Gea vs A. Davidovich",
-      "local": "A. Gea",
-      "visitante": "A. Davidovich",
-      "fecha": "2026-10-15",
-      "hora": "09:00",
-      "canales": [
-        "ATP Tennis TV",
-        "Movistar Plus+ (M7): VER PARTIDO",
-        "M+ Deportes 2 (64)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
       "competicion": "WTA Wuhan",
       "ronda": "3ª Ronda",
-      "evento": "TBD vs J. Ostapenko",
-      "local": "TBD",
+      "evento": "L. Fernández vs J. Ostapenko",
+      "local": "L. Fernández",
       "visitante": "J. Ostapenko",
       "fecha": "2026-10-15",
       "hora": "09:00",
@@ -2131,10 +2106,24 @@
     },
     {
       "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "1/4 de Final",
+      "evento": "A. Zverev vs A. De Miñaur",
+      "local": "A. Zverev",
+      "visitante": "A. De Miñaur",
+      "fecha": "2026-10-15",
+      "hora": "12:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
       "competicion": "WTA Wuhan",
       "ronda": "3ª Ronda",
-      "evento": "TBD vs I. Swiatek",
-      "local": "TBD",
+      "evento": "A. Krueger vs I. Swiatek",
+      "local": "A. Krueger",
       "visitante": "I. Swiatek",
       "fecha": "2026-10-15",
       "hora": "13:00",
@@ -2214,8 +2203,8 @@
       "deporte": "Tenis",
       "competicion": "WTA Wuhan",
       "ronda": "3ª Ronda",
-      "evento": "TBD vs J. Tjen",
-      "local": "TBD",
+      "evento": "A. Li vs J. Tjen",
+      "local": "A. Li",
       "visitante": "J. Tjen",
       "fecha": "2026-10-15",
       "hora": "14:30",
@@ -3190,6 +3179,19 @@
       "canales": [
         "M+ Vamos (8 y 50)",
         "M+ #Vamos Bar (307)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Colombiana",
+      "ronda": null,
+      "evento": "Santa Fe vs Jaguares FC",
+      "local": "Santa Fe",
+      "visitante": "Jaguares FC",
+      "fecha": "2026-10-16",
+      "hora": "03:05",
+      "canales": [
+        "RCN Nuestra Tele"
       ]
     },
     {
