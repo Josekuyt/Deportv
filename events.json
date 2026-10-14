@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-10-14T03:37:03",
+    "generado": "2026-10-14T13:19:00",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 283
+    "total_eventos": 295
   },
   "eventos": [
     {
@@ -457,7 +457,8 @@
       "fecha": "2026-10-14",
       "hora": "16:00",
       "canales": [
-        "M+ Liga de Campeones (M60 O115)"
+        "M+ Liga de Campeones (M60 O115)",
+        "Real Betis TV"
       ]
     },
     {
@@ -565,6 +566,19 @@
       "hora": "18:00",
       "canales": [
         "The AFC Hub YouTube"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Basketball Champions League",
+      "ronda": "Liga Regular",
+      "evento": "Trabzonspor MP vs BC Sabah",
+      "local": "Trabzonspor MP",
+      "visitante": "BC Sabah",
+      "fecha": "2026-10-14",
+      "hora": "18:00",
+      "canales": [
+        "DAZN (Ver en directo)"
       ]
     },
     {
@@ -1293,6 +1307,8 @@
       "hora": "20:30",
       "canales": [
         "RFEF.es",
+        "Condavisión (Huelva)",
+        "Canalcosta TV (Huelva)",
         "RFEF TV YouTube"
       ]
     },
@@ -1554,6 +1570,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Primera División Argentina",
+      "ronda": "Torneo Clausura",
+      "evento": "Sarmiento vs River Plate",
+      "local": "Sarmiento",
+      "visitante": "River Plate",
+      "fecha": "2026-10-15",
+      "hora": "00:00",
+      "canales": [
+        "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
       "deporte": "Béisbol",
       "competicion": "LVBP",
       "ronda": null,
@@ -1577,6 +1606,19 @@
       "hora": "01:00",
       "canales": [
         "BeisbolPlay"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Colombiana",
+      "ronda": null,
+      "evento": "Santa Fe vs Jaguares FC",
+      "local": "Santa Fe",
+      "visitante": "Jaguares FC",
+      "fecha": "2026-10-15",
+      "hora": "01:30",
+      "canales": [
+        "RCN Nuestra Tele"
       ]
     },
     {
@@ -1909,10 +1951,10 @@
     {
       "deporte": "Tenis",
       "competicion": "WTA Wuhan",
-      "ronda": null,
-      "evento": "3ª Ronda WTA 1000",
-      "local": null,
-      "visitante": null,
+      "ronda": "3ª Ronda",
+      "evento": "K. Muchova vs D. Shnaider",
+      "local": "K. Muchova",
+      "visitante": "D. Shnaider",
       "fecha": "2026-10-15",
       "hora": "05:00",
       "canales": [
@@ -1931,6 +1973,20 @@
       "hora": "05:00",
       "canales": [
         "Movistar Golf 2 (M68)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Wuhan",
+      "ronda": "3ª Ronda",
+      "evento": "E. Svitolina vs H. Guo",
+      "local": "E. Svitolina",
+      "visitante": "H. Guo",
+      "fecha": "2026-10-15",
+      "hora": "06:30",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -1962,15 +2018,44 @@
     {
       "deporte": "Tenis",
       "competicion": "Masters Shanghai",
-      "ronda": null,
-      "evento": "1/4 de Final ATP Masters 1000",
-      "local": null,
-      "visitante": null,
+      "ronda": "1/4 de Final",
+      "evento": "A. Zverev vs A. De Miñaur",
+      "local": "A. Zverev",
+      "visitante": "A. De Miñaur",
       "fecha": "2026-10-15",
       "hora": "09:00",
       "canales": [
         "ATP Tennis TV",
-        "Movistar+"
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "1/4 de Final",
+      "evento": "A. Gea vs A. Davidovich",
+      "local": "A. Gea",
+      "visitante": "A. Davidovich",
+      "fecha": "2026-10-15",
+      "hora": "09:00",
+      "canales": [
+        "ATP Tennis TV",
+        "Movistar Plus+ (M7): VER PARTIDO",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Wuhan",
+      "ronda": "3ª Ronda",
+      "evento": "TBD vs J. Ostapenko",
+      "local": "TBD",
+      "visitante": "J. Ostapenko",
+      "fecha": "2026-10-15",
+      "hora": "09:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -2045,6 +2130,20 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "WTA Wuhan",
+      "ronda": "3ª Ronda",
+      "evento": "TBD vs I. Swiatek",
+      "local": "TBD",
+      "visitante": "I. Swiatek",
+      "fecha": "2026-10-15",
+      "hora": "13:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
       "deporte": "Ciclismo",
       "competicion": "Eneco Tour",
       "ronda": null,
@@ -2109,6 +2208,20 @@
       "hora": "14:15",
       "canales": [
         "The AFC Hub YouTube"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Wuhan",
+      "ronda": "3ª Ronda",
+      "evento": "TBD vs J. Tjen",
+      "local": "TBD",
+      "visitante": "J. Tjen",
+      "fecha": "2026-10-15",
+      "hora": "14:30",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -2543,19 +2656,6 @@
       ]
     },
     {
-      "deporte": "Fútbol",
-      "competicion": "Saudi Pro League",
-      "ronda": null,
-      "evento": "Al Ahli vs Al Nassr",
-      "local": "Al Ahli",
-      "visitante": "Al Nassr",
-      "fecha": "2026-10-15",
-      "hora": "20:00",
-      "canales": [
-        "M+ Vamos 2 (51)"
-      ]
-    },
-    {
       "deporte": "Baloncesto",
       "competicion": "Eurocup Women",
       "ronda": "Liga Regular",
@@ -2897,6 +2997,32 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Copa Libertadores Femenina",
+      "ronda": null,
+      "evento": "Independiente del Valle Femenino vs Belgrano Femenino",
+      "local": "Independiente del Valle Femenino",
+      "visitante": "Belgrano Femenino",
+      "fecha": "2026-10-15",
+      "hora": "22:00",
+      "canales": [
+        "CONMEBOL Libertadores YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Copa Libertadores Femenina",
+      "ronda": null,
+      "evento": "Corinthians Femenino vs Colo Colo Femenino",
+      "local": "Corinthians Femenino",
+      "visitante": "Colo Colo Femenino",
+      "fecha": "2026-10-15",
+      "hora": "22:00",
+      "canales": [
+        "CONMEBOL Libertadores YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Torneo Proyección",
       "ronda": null,
       "evento": "Talleres Córdoba Reserva vs Unión Santa Fe Reserva",
@@ -3013,6 +3139,32 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Copa Libertadores Femenina",
+      "ronda": null,
+      "evento": "Caracas FC Femenino vs Santa Fe Femenino",
+      "local": "Caracas FC Femenino",
+      "visitante": "Santa Fe Femenino",
+      "fecha": "2026-10-16",
+      "hora": "02:00",
+      "canales": [
+        "CONMEBOL Libertadores YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Copa Libertadores Femenina",
+      "ronda": null,
+      "evento": "Universitario Femenino vs Palmeiras Femenino",
+      "local": "Universitario Femenino",
+      "visitante": "Palmeiras Femenino",
+      "fecha": "2026-10-16",
+      "hora": "02:00",
+      "canales": [
+        "CONMEBOL Libertadores YouTube"
+      ]
+    },
+    {
       "deporte": "Fútbol Americano",
       "competicion": "NFL",
       "ronda": "Liga Regular",
@@ -3022,7 +3174,8 @@
       "fecha": "2026-10-16",
       "hora": "02:15",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN 2 (M73)"
       ]
     },
     {
@@ -3295,20 +3448,6 @@
       ]
     },
     {
-      "deporte": "Fútbol",
-      "competicion": "Saudi Pro League",
-      "ronda": null,
-      "evento": "Al-Riyadh SC vs Al Hilal",
-      "local": "Al-Riyadh SC",
-      "visitante": "Al Hilal",
-      "fecha": "2026-10-16",
-      "hora": "17:00",
-      "canales": [
-        "M+ Vamos (8 y 50)",
-        "M+ #Vamos Bar (307)"
-      ]
-    },
-    {
       "deporte": "Baloncesto",
       "competicion": "Liga U",
       "ronda": "Primera Fase",
@@ -3335,6 +3474,19 @@
         "Red Bull TV",
         "M+ Deportes (63)",
         "M+ Deportes 3 (65)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "2. Bundesliga",
+      "ronda": null,
+      "evento": "Energie Cottbus vs Nürnberg",
+      "local": "Energie Cottbus",
+      "visitante": "Nürnberg",
+      "fecha": "2026-10-16",
+      "hora": "18:30",
+      "canales": [
+        "DAZN (Ver en directo)"
       ]
     },
     {
@@ -3386,7 +3538,8 @@
       "fecha": "2026-10-16",
       "hora": "18:30",
       "canales": [
-        "Liga U YouTube"
+        "Liga U YouTube",
+        "Esport3 (Cataluña)"
       ]
     },
     {
@@ -3484,6 +3637,7 @@
       "fecha": "2026-10-16",
       "hora": "20:00",
       "canales": [
+        "BalONcesto TV",
         "BalONcesto TV PPV"
       ]
     },
@@ -3511,20 +3665,6 @@
       "hora": "20:00",
       "canales": [
         "BeisbolPlay"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Saudi Pro League",
-      "ronda": null,
-      "evento": "Al-Ittihad Jeddah Club vs Al Shabab FC",
-      "local": "Al-Ittihad Jeddah Club",
-      "visitante": "Al Shabab FC",
-      "fecha": "2026-10-16",
-      "hora": "20:00",
-      "canales": [
-        "M+ Vamos (8 y 50)",
-        "M+ #Vamos Bar (307)"
       ]
     },
     {
@@ -3699,6 +3839,7 @@
       "fecha": "2026-10-16",
       "hora": "20:45",
       "canales": [
+        "BalONcesto TV",
         "BalONcesto TV PPV"
       ]
     },
@@ -3738,6 +3879,7 @@
       "fecha": "2026-10-16",
       "hora": "21:00",
       "canales": [
+        "BalONcesto TV",
         "BalONcesto TV PPV"
       ]
     },
@@ -3772,6 +3914,32 @@
         "FANPLAY TV",
         "Primera Federación (M53 O125)",
         "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Copa Libertadores Femenina",
+      "ronda": null,
+      "evento": "Deportivo Cali Femenino vs Club Libertad Femenino",
+      "local": "Deportivo Cali Femenino",
+      "visitante": "Club Libertad Femenino",
+      "fecha": "2026-10-16",
+      "hora": "22:00",
+      "canales": [
+        "CONMEBOL Libertadores YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Copa Libertadores Femenina",
+      "ronda": null,
+      "evento": "Bolívar Femenino vs Olimpia Femenino",
+      "local": "Bolívar Femenino",
+      "visitante": "Olimpia Femenino",
+      "fecha": "2026-10-16",
+      "hora": "22:00",
+      "canales": [
+        "CONMEBOL Libertadores YouTube"
       ]
     },
     {
@@ -3811,7 +3979,8 @@
       "fecha": "2026-10-16",
       "hora": "22:30",
       "canales": [
-        "Fanatiz (Ver en directo)"
+        "Fanatiz (Ver en directo)",
+        "L1 Max YouTube"
       ]
     },
     {

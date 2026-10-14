@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-10-14T03:37:03"
+    "actualizado": "2026-10-14T13:19:00"
   },
   "config": {
     "puntos_por_tier": {
@@ -1779,6 +1779,11 @@
     "WorldWCR": {
       "deporte": "Motociclismo",
       "tier": "C",
+      "por_revisar": true
+    },
+    "Copa Libertadores Femenina": {
+      "deporte": "Fútbol",
+      "tier": "A",
       "por_revisar": true
     }
   }
