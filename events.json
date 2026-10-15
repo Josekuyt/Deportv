@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-10-15T13:04:16",
+    "generado": "2026-10-15T19:42:50",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 410
+    "total_eventos": 408
   },
   "eventos": [
     {
@@ -562,24 +562,10 @@
       "local": "A. Zverev",
       "visitante": "A. De Miñaur",
       "fecha": "2026-10-15",
-      "hora": "12:00",
+      "hora": "12:10",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 2 (64)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Wuhan",
-      "ronda": "3ª Ronda",
-      "evento": "A. Krueger vs I. Swiatek",
-      "local": "A. Krueger",
-      "visitante": "I. Swiatek",
-      "fecha": "2026-10-15",
-      "hora": "13:00",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -595,6 +581,20 @@
         "HBO MAX",
         "DAZN (Ver en directo)",
         "Eurosport 1"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Wuhan",
+      "ronda": "3ª Ronda",
+      "evento": "A. Krueger vs I. Swiatek",
+      "local": "A. Krueger",
+      "visitante": "I. Swiatek",
+      "fecha": "2026-10-15",
+      "hora": "13:25",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -657,7 +657,7 @@
       "local": "A. Li",
       "visitante": "J. Tjen",
       "fecha": "2026-10-15",
-      "hora": "14:30",
+      "hora": "15:20",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -1658,54 +1658,12 @@
       ]
     },
     {
-      "deporte": "Fútbol",
-      "competicion": "Liga Colombiana",
-      "ronda": null,
-      "evento": "Santa Fe vs Jaguares FC",
-      "local": "Santa Fe",
-      "visitante": "Jaguares FC",
-      "fecha": "2026-10-16",
-      "hora": "03:05",
-      "canales": [
-        "RCN Nuestra Tele"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Masters Shanghai",
-      "ronda": "1/4 de Final",
-      "evento": "D. Medvedev vs T. Paul",
-      "local": "D. Medvedev",
-      "visitante": "T. Paul",
-      "fecha": "2026-10-16",
-      "hora": "04:00",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes 2 (64)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Masters Shanghai",
-      "ronda": "1/4 de Final",
-      "evento": "R. Jódar vs C. Ruud",
-      "local": "R. Jódar",
-      "visitante": "C. Ruud",
-      "fecha": "2026-10-16",
-      "hora": "04:00",
-      "canales": [
-        "ATP Tennis TV",
-        "Movistar Plus+ (M7): VER PARTIDO",
-        "M+ Deportes 2 (64)"
-      ]
-    },
-    {
       "deporte": "Tenis",
       "competicion": "WTA Wuhan",
-      "ronda": null,
-      "evento": "1/4 de Final WTA 1000",
-      "local": null,
-      "visitante": null,
+      "ronda": "WTA 1000",
+      "evento": "D. Shnaider vs J. Ostapenko",
+      "local": "D. Shnaider",
+      "visitante": "J. Ostapenko",
       "fecha": "2026-10-16",
       "hora": "05:00",
       "canales": [
@@ -1737,6 +1695,21 @@
       "hora": "07:35",
       "canales": [
         "HBO MAX"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "1/4 de Final",
+      "evento": "R. Jódar vs C. Ruud",
+      "local": "R. Jódar",
+      "visitante": "C. Ruud",
+      "fecha": "2026-10-16",
+      "hora": "08:30",
+      "canales": [
+        "ATP Tennis TV",
+        "Movistar Plus+ (M7): VER PARTIDO",
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -1814,6 +1787,20 @@
         "M+ Vamos (8 y 50)",
         "M+ #Vamos Bar (307)",
         "M+ Deportes (63)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "1/4 de Final",
+      "evento": "D. Medvedev vs T. Paul",
+      "local": "D. Medvedev",
+      "visitante": "T. Paul",
+      "fecha": "2026-10-16",
+      "hora": "12:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -2804,6 +2791,20 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "ATP Masters 1000",
+      "evento": "A. Zverev vs A. Davidovich",
+      "local": "A. Zverev",
+      "visitante": "A. Davidovich",
+      "fecha": "2026-10-17",
+      "hora": "04:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "NBA Pretemporada",
       "ronda": null,
@@ -2920,20 +2921,6 @@
       "hora": "08:30",
       "canales": [
         "Movistar Golf (M68)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Masters Shanghai",
-      "ronda": "ATP Masters 1000",
-      "evento": "A. Zverev vs A. Davidovich",
-      "local": "A. Zverev",
-      "visitante": "A. Davidovich",
-      "fecha": "2026-10-17",
-      "hora": "10:30",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -5060,32 +5047,6 @@
     },
     {
       "deporte": "Fútbol",
-      "competicion": "Primera B Argentina",
-      "ronda": null,
-      "evento": "Real Pilar vs Ituzaingó",
-      "local": "Real Pilar",
-      "visitante": "Ituzaingó",
-      "fecha": "2026-10-17",
-      "hora": "20:00",
-      "canales": [
-        "LPF Play (plan plus)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Primera Nacional Argentina",
-      "ronda": null,
-      "evento": "Tristán Suárez vs Patronato",
-      "local": "Tristán Suárez",
-      "visitante": "Patronato",
-      "fecha": "2026-10-17",
-      "hora": "20:00",
-      "canales": [
-        "LPF Play (plan plus)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
       "competicion": "Primera Nacional Argentina",
       "ronda": null,
       "evento": "Agropecuario vs Colegiales",
@@ -5411,6 +5372,19 @@
       "hora": "21:15",
       "canales": [
         "OneFootball PPV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera Nacional Argentina",
+      "ronda": null,
+      "evento": "Tristán Suárez vs Patronato",
+      "local": "Tristán Suárez",
+      "visitante": "Patronato",
+      "fecha": "2026-10-17",
+      "hora": "21:30",
+      "canales": [
+        "LPF Play (plan plus)"
       ]
     },
     {
