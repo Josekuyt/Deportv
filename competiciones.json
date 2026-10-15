@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-10-14T13:19:00"
+    "actualizado": "2026-10-15T03:17:42"
   },
   "config": {
     "puntos_por_tier": {
@@ -603,7 +603,10 @@
       "por_revisar": true
     },
     "Velada": {
-      "deporte": "Boxeo",
+      "deporte": [
+        "Boxeo",
+        "MMA"
+      ],
       "tier": "C",
       "por_revisar": true
     },
@@ -1784,6 +1787,16 @@
     "Copa Libertadores Femenina": {
       "deporte": "Fútbol",
       "tier": "A",
+      "por_revisar": true
+    },
+    "Champions Cup": {
+      "deporte": "Rugby U",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "FIFA Mundial Femenino Sub-17": {
+      "deporte": "Fútbol",
+      "tier": "D",
       "por_revisar": true
     }
   }
