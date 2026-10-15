@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-10-15T03:17:42",
+    "generado": "2026-10-15T13:04:16",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 383
+    "total_eventos": 410
   },
   "eventos": [
     {
@@ -388,20 +388,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "WTA Wuhan",
-      "ronda": "3ª Ronda",
-      "evento": "K. Muchova vs D. Shnaider",
-      "local": "K. Muchova",
-      "visitante": "D. Shnaider",
-      "fecha": "2026-10-15",
-      "hora": "05:00",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
       "deporte": "Golf",
       "competicion": "LPGA Shanghai",
       "ronda": null,
@@ -418,11 +404,25 @@
       "deporte": "Tenis",
       "competicion": "WTA Wuhan",
       "ronda": "3ª Ronda",
+      "evento": "K. Muchova vs D. Shnaider",
+      "local": "K. Muchova",
+      "visitante": "D. Shnaider",
+      "fecha": "2026-10-15",
+      "hora": "05:05",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Wuhan",
+      "ronda": "3ª Ronda",
       "evento": "E. Svitolina vs H. Guo",
       "local": "E. Svitolina",
       "visitante": "H. Guo",
       "fecha": "2026-10-15",
-      "hora": "06:30",
+      "hora": "07:20",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -442,21 +442,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "Masters Shanghai",
-      "ronda": "1/4 de Final",
-      "evento": "A. Gea vs A. Davidovich",
-      "local": "A. Gea",
-      "visitante": "A. Davidovich",
-      "fecha": "2026-10-15",
-      "hora": "08:30",
-      "canales": [
-        "ATP Tennis TV",
-        "Movistar Plus+ (M7): VER PARTIDO",
-        "M+ Deportes 2 (64)"
-      ]
-    },
-    {
       "deporte": "Ciclismo",
       "competicion": "Tour of Guangxi",
       "ronda": null,
@@ -471,16 +456,17 @@
     },
     {
       "deporte": "Tenis",
-      "competicion": "WTA Wuhan",
-      "ronda": "3ª Ronda",
-      "evento": "L. Fernández vs J. Ostapenko",
-      "local": "L. Fernández",
-      "visitante": "J. Ostapenko",
+      "competicion": "Masters Shanghai",
+      "ronda": "1/4 de Final",
+      "evento": "A. Gea vs A. Davidovich",
+      "local": "A. Gea",
+      "visitante": "A. Davidovich",
       "fecha": "2026-10-15",
-      "hora": "09:00",
+      "hora": "08:40",
       "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
+        "ATP Tennis TV",
+        "Movistar Plus+ (M7): VER PARTIDO",
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -494,6 +480,20 @@
       "hora": "09:30",
       "canales": [
         "Premier Padel YouTube"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Wuhan",
+      "ronda": "3ª Ronda",
+      "evento": "L. Fernández vs J. Ostapenko",
+      "local": "L. Fernández",
+      "visitante": "J. Ostapenko",
+      "fecha": "2026-10-15",
+      "hora": "09:40",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -798,7 +798,8 @@
       "fecha": "2026-10-15",
       "hora": "18:45",
       "canales": [
-        "M+ Liga de Campeones 3 (M62 O118)"
+        "M+ Liga de Campeones 3 (M62 O118)",
+        "Movistar+ Dispositivos"
       ]
     },
     {
@@ -838,7 +839,8 @@
       "fecha": "2026-10-15",
       "hora": "18:45",
       "canales": [
-        "M+ Liga de Campeones 3 (M62 O118)"
+        "M+ Liga de Campeones 3 (M62 O118)",
+        "Movistar+ Dispositivos"
       ]
     },
     {
@@ -906,7 +908,8 @@
       "fecha": "2026-10-15",
       "hora": "18:45",
       "canales": [
-        "M+ Liga de Campeones 3 (M62 O118)"
+        "M+ Liga de Campeones 3 (M62 O118)",
+        "Movistar+ Dispositivos"
       ]
     },
     {
@@ -933,7 +936,8 @@
       "fecha": "2026-10-15",
       "hora": "18:45",
       "canales": [
-        "M+ Liga de Campeones 3 (M62 O118)"
+        "M+ Liga de Campeones 3 (M62 O118)",
+        "Movistar+ Dispositivos"
       ]
     },
     {
@@ -960,7 +964,8 @@
       "fecha": "2026-10-15",
       "hora": "18:45",
       "canales": [
-        "M+ Liga de Campeones 3 (M62 O118)"
+        "M+ Liga de Campeones 3 (M62 O118)",
+        "Movistar+ Dispositivos"
       ]
     },
     {
@@ -1013,6 +1018,20 @@
       "hora": "19:30",
       "canales": [
         "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Hockey Patines",
+      "competicion": "Campeonato del Mundo",
+      "ronda": "1/4 de Final",
+      "evento": "España vs Chile",
+      "local": "España",
+      "visitante": "Chile",
+      "fecha": "2026-10-15",
+      "hora": "19:45",
+      "canales": [
+        "Teledeporte",
+        "RTVE Play"
       ]
     },
     {
@@ -1254,7 +1273,8 @@
       "fecha": "2026-10-15",
       "hora": "21:00",
       "canales": [
-        "M+ Liga de Campeones 3 (M62 O118)"
+        "M+ Liga de Campeones 3 (M62 O118)",
+        "Movistar+ Dispositivos"
       ]
     },
     {
@@ -1309,7 +1329,8 @@
       "fecha": "2026-10-15",
       "hora": "21:00",
       "canales": [
-        "M+ Liga de Campeones 3 (M62 O118)"
+        "M+ Liga de Campeones 3 (M62 O118)",
+        "Movistar+ Dispositivos"
       ]
     },
     {
@@ -1322,7 +1343,8 @@
       "fecha": "2026-10-15",
       "hora": "21:00",
       "canales": [
-        "M+ Liga de Campeones 3 (M62 O118)"
+        "M+ Liga de Campeones 3 (M62 O118)",
+        "Movistar+ Dispositivos"
       ]
     },
     {
@@ -1335,7 +1357,8 @@
       "fecha": "2026-10-15",
       "hora": "21:00",
       "canales": [
-        "M+ Liga de Campeones 3 (M62 O118)"
+        "M+ Liga de Campeones 3 (M62 O118)",
+        "Movistar+ Dispositivos"
       ]
     },
     {
@@ -1390,7 +1413,8 @@
       "fecha": "2026-10-15",
       "hora": "21:00",
       "canales": [
-        "M+ Liga de Campeones 3 (M62 O118)"
+        "M+ Liga de Campeones 3 (M62 O118)",
+        "Movistar+ Dispositivos"
       ]
     },
     {
@@ -1417,7 +1441,8 @@
       "fecha": "2026-10-15",
       "hora": "21:00",
       "canales": [
-        "M+ Liga de Campeones 3 (M62 O118)"
+        "M+ Liga de Campeones 3 (M62 O118)",
+        "Movistar+ Dispositivos"
       ]
     },
     {
@@ -1628,7 +1653,8 @@
       "hora": "02:30",
       "canales": [
         "M+ Vamos (8 y 50)",
-        "M+ #Vamos Bar (307)"
+        "M+ #Vamos Bar (307)",
+        "M+ Liga de Campeones (M60 O115)"
       ]
     },
     {
@@ -1642,6 +1668,35 @@
       "hora": "03:05",
       "canales": [
         "RCN Nuestra Tele"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "1/4 de Final",
+      "evento": "D. Medvedev vs T. Paul",
+      "local": "D. Medvedev",
+      "visitante": "T. Paul",
+      "fecha": "2026-10-16",
+      "hora": "04:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "1/4 de Final",
+      "evento": "R. Jódar vs C. Ruud",
+      "local": "R. Jódar",
+      "visitante": "C. Ruud",
+      "fecha": "2026-10-16",
+      "hora": "04:00",
+      "canales": [
+        "ATP Tennis TV",
+        "Movistar Plus+ (M7): VER PARTIDO",
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -1695,20 +1750,6 @@
       "hora": "08:30",
       "canales": [
         "Movistar Golf (M68)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Masters Shanghai",
-      "ronda": null,
-      "evento": "1/4 de Final ATP Masters 1000",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-10-16",
-      "hora": "09:00",
-      "canales": [
-        "ATP Tennis TV",
-        "Movistar+"
       ]
     },
     {
@@ -1939,6 +1980,20 @@
       "hora": "18:30",
       "canales": [
         "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Bundesliga Femenina",
+      "ronda": null,
+      "evento": "Freiburg Femenino vs RB Leipzig Femenino",
+      "local": "Freiburg Femenino",
+      "visitante": "RB Leipzig Femenino",
+      "fecha": "2026-10-16",
+      "hora": "18:30",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
@@ -2593,6 +2648,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Serie A Brasil",
+      "ronda": null,
+      "evento": "Mirassol vs Internacional",
+      "local": "Mirassol",
+      "visitante": "Internacional",
+      "fecha": "2026-10-17",
+      "hora": "01:00",
+      "canales": [
+        "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "Liga Sudamericana",
       "ronda": null,
@@ -2603,6 +2671,19 @@
       "hora": "01:10",
       "canales": [
         "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera Nacional Argentina",
+      "ronda": null,
+      "evento": "At. Rafaela vs Quilmes",
+      "local": "At. Rafaela",
+      "visitante": "Quilmes",
+      "fecha": "2026-10-17",
+      "hora": "02:00",
+      "canales": [
+        "LPF Play (plan plus)"
       ]
     },
     {
@@ -2707,6 +2788,19 @@
       "hora": "02:00",
       "canales": [
         "NBA League Pass"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera Nacional Argentina",
+      "ronda": null,
+      "evento": "Gimnasia y Tiro vs CA Atlanta",
+      "local": "Gimnasia y Tiro",
+      "visitante": "CA Atlanta",
+      "fecha": "2026-10-17",
+      "hora": "03:00",
+      "canales": [
+        "LPF Play (plan plus)"
       ]
     },
     {
@@ -2831,15 +2925,15 @@
     {
       "deporte": "Tenis",
       "competicion": "Masters Shanghai",
-      "ronda": null,
-      "evento": "Semifinal 1 ATP Masters 1000",
-      "local": null,
-      "visitante": null,
+      "ronda": "ATP Masters 1000",
+      "evento": "A. Zverev vs A. Davidovich",
+      "local": "A. Zverev",
+      "visitante": "A. Davidovich",
       "fecha": "2026-10-17",
       "hora": "10:30",
       "canales": [
         "ATP Tennis TV",
-        "Movistar+"
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -2938,6 +3032,7 @@
       "canales": [
         "DAZN (Ver en directo)",
         "M+ Vamos 2 (51)",
+        "DAZN 2 (M73)",
         "DAZN 2 Bar (M149)"
       ]
     },
@@ -2993,7 +3088,7 @@
       "hora": "13:00",
       "canales": [
         "ATP Tennis TV",
-        "Movistar+"
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -3129,7 +3224,21 @@
       "hora": "13:30",
       "canales": [
         "DAZN (Ver en directo)",
+        "DAZN 1 (M72)",
         "DAZN 1 Bar (M148)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Chinese Super League",
+      "ronda": null,
+      "evento": "Yunnan Yukun FC vs Chongqing Tonglianglong",
+      "local": "Yunnan Yukun FC",
+      "visitante": "Chongqing Tonglianglong",
+      "fecha": "2026-10-17",
+      "hora": "13:35",
+      "canales": [
+        "Replay"
       ]
     },
     {
@@ -3256,6 +3365,20 @@
       "evento": "G.P. España (Jerez) Carrera 1",
       "local": null,
       "visitante": null,
+      "fecha": "2026-10-17",
+      "hora": "14:00",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Bundesliga Femenina",
+      "ronda": null,
+      "evento": "Bayer Leverkusen Femenino vs Eintracht Frankfurt Femenino",
+      "local": "Bayer Leverkusen Femenino",
+      "visitante": "Eintracht Frankfurt Femenino",
       "fecha": "2026-10-17",
       "hora": "14:00",
       "canales": [
@@ -3548,6 +3671,19 @@
       ]
     },
     {
+      "deporte": "Hockey Patines",
+      "competicion": "Liga Catalana",
+      "ronda": "Semifinales",
+      "evento": "Igualada HC vs Calafell",
+      "local": "Igualada HC",
+      "visitante": "Calafell",
+      "fecha": "2026-10-17",
+      "hora": "15:30",
+      "canales": [
+        "Esport3 (Cataluña)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Bundesliga",
       "ronda": null,
@@ -3812,6 +3948,7 @@
       "hora": "16:00",
       "canales": [
         "DAZN (Ver en directo)",
+        "DAZN 1 (M72)",
         "DAZN 1 Bar (M148)"
       ]
     },
@@ -3825,7 +3962,8 @@
       "fecha": "2026-10-17",
       "hora": "16:00",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN 3 (M196)"
       ]
     },
     {
@@ -3839,6 +3977,7 @@
       "hora": "16:00",
       "canales": [
         "DAZN (Ver en directo)",
+        "DAZN 2 (M73)",
         "DAZN 2 Bar (M149)"
       ]
     },
@@ -3958,6 +4097,7 @@
       "hora": "16:30",
       "canales": [
         "DAZN (Ver en directo)",
+        "DAZN 4 (M197)",
         "RTVE Play"
       ]
     },
@@ -4303,6 +4443,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Torneo Promocional Amateur",
+      "ronda": null,
+      "evento": "SAT vs Defensores de Glew",
+      "local": "SAT",
+      "visitante": "Defensores de Glew",
+      "fecha": "2026-10-17",
+      "hora": "18:00",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
       "deporte": "Pádel",
       "competicion": "Milan Open",
       "ronda": null,
@@ -4317,6 +4470,19 @@
       ]
     },
     {
+      "deporte": "Hockey Patines",
+      "competicion": "Liga Catalana",
+      "ronda": "Semifinales",
+      "evento": "Barça HP vs CP Voltregá",
+      "local": "Barça HP",
+      "visitante": "CP Voltregá",
+      "fecha": "2026-10-17",
+      "hora": "18:00",
+      "canales": [
+        "Esport3 Web"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "Liga Endesa",
       "ronda": "Liga Regular",
@@ -4327,7 +4493,8 @@
       "hora": "18:00",
       "canales": [
         "DAZN (Ver en directo)",
-        "Movistar Plus+ (M7): VER PARTIDO"
+        "Movistar Plus+ (M7): VER PARTIDO",
+        "DAZN Baloncesto (M74 O126)"
       ]
     },
     {
@@ -4534,6 +4701,7 @@
       "hora": "18:30",
       "canales": [
         "DAZN (Ver en directo)",
+        "DAZN 2 (M73)",
         "DAZN 2 Bar (M149)"
       ]
     },
@@ -4721,6 +4889,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Primera Nacional Argentina",
+      "ronda": null,
+      "evento": "Chacarita Juniors vs Deportivo Maipú",
+      "local": "Chacarita Juniors",
+      "visitante": "Deportivo Maipú",
+      "fecha": "2026-10-17",
+      "hora": "19:30",
+      "canales": [
+        "LPF Play (plan plus)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Admiral Bundesliga",
       "ronda": null,
       "evento": "SV Ried vs Austria Wien",
@@ -4755,7 +4936,8 @@
       "fecha": "2026-10-17",
       "hora": "19:30",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN Baloncesto 2 (M75 O127)"
       ]
     },
     {
@@ -4783,6 +4965,136 @@
       "canales": [
         "BalONcesto TV",
         "BalONcesto TV PPV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera B Argentina",
+      "ronda": null,
+      "evento": "Sportivo Italiano vs Arsenal Sarandí",
+      "local": "Sportivo Italiano",
+      "visitante": "Arsenal Sarandí",
+      "fecha": "2026-10-17",
+      "hora": "20:00",
+      "canales": [
+        "LPF Play (plan plus)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera B Argentina",
+      "ronda": null,
+      "evento": "Villa San Carlos vs Villa Dálmine",
+      "local": "Villa San Carlos",
+      "visitante": "Villa Dálmine",
+      "fecha": "2026-10-17",
+      "hora": "20:00",
+      "canales": [
+        "LPF Play (plan plus)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera B Argentina",
+      "ronda": null,
+      "evento": "Comunicaciones vs Brown de Adrogué",
+      "local": "Comunicaciones",
+      "visitante": "Brown de Adrogué",
+      "fecha": "2026-10-17",
+      "hora": "20:00",
+      "canales": [
+        "LPF Play (plan plus)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera B Argentina",
+      "ronda": null,
+      "evento": "Argentinos Quilmes vs Flandria",
+      "local": "Argentinos Quilmes",
+      "visitante": "Flandria",
+      "fecha": "2026-10-17",
+      "hora": "20:00",
+      "canales": [
+        "LPF Play (plan plus)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera B Argentina",
+      "ronda": null,
+      "evento": "Deportivo Camioneros vs Argentino Merlo",
+      "local": "Deportivo Camioneros",
+      "visitante": "Argentino Merlo",
+      "fecha": "2026-10-17",
+      "hora": "20:00",
+      "canales": [
+        "LPF Play (plan plus)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera B Argentina",
+      "ronda": null,
+      "evento": "Defensores Unidos vs Dep. Armenio",
+      "local": "Defensores Unidos",
+      "visitante": "Dep. Armenio",
+      "fecha": "2026-10-17",
+      "hora": "20:00",
+      "canales": [
+        "LPF Play (plan plus)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera B Argentina",
+      "ronda": null,
+      "evento": "San Martín Burzaco vs Excursionistas",
+      "local": "San Martín Burzaco",
+      "visitante": "Excursionistas",
+      "fecha": "2026-10-17",
+      "hora": "20:00",
+      "canales": [
+        "LPF Play (plan plus)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera B Argentina",
+      "ronda": null,
+      "evento": "Real Pilar vs Ituzaingó",
+      "local": "Real Pilar",
+      "visitante": "Ituzaingó",
+      "fecha": "2026-10-17",
+      "hora": "20:00",
+      "canales": [
+        "LPF Play (plan plus)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera Nacional Argentina",
+      "ronda": null,
+      "evento": "Tristán Suárez vs Patronato",
+      "local": "Tristán Suárez",
+      "visitante": "Patronato",
+      "fecha": "2026-10-17",
+      "hora": "20:00",
+      "canales": [
+        "LPF Play (plan plus)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera Nacional Argentina",
+      "ronda": null,
+      "evento": "Agropecuario vs Colegiales",
+      "local": "Agropecuario",
+      "visitante": "Colegiales",
+      "fecha": "2026-10-17",
+      "hora": "20:00",
+      "canales": [
+        "LPF Play (plan plus)"
       ]
     },
     {
@@ -4840,6 +5152,32 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Primera Nacional Argentina",
+      "ronda": null,
+      "evento": "Acassuso vs Deportivo Madryn",
+      "local": "Acassuso",
+      "visitante": "Deportivo Madryn",
+      "fecha": "2026-10-17",
+      "hora": "20:30",
+      "canales": [
+        "LPF Play (plan plus)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera Nacional Argentina",
+      "ronda": null,
+      "evento": "San Miguel vs Ciudad de Bolivar",
+      "local": "San Miguel",
+      "visitante": "Ciudad de Bolivar",
+      "fecha": "2026-10-17",
+      "hora": "20:30",
+      "canales": [
+        "LPF Play (plan plus)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Primera Federación",
       "ronda": "Grupo 2",
       "evento": "Villarreal B vs Teruel",
@@ -4877,7 +5215,6 @@
       "hora": "20:30",
       "canales": [
         "DAZN (Ver en directo)",
-        "DAZN 1 Bar (M148)",
         "Teledeporte",
         "RTVE Play",
         "Esport3 Web"
@@ -5046,7 +5383,8 @@
       "fecha": "2026-10-17",
       "hora": "21:00",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN Baloncesto 3 (M76 O128)"
       ]
     },
     {
@@ -5181,6 +5519,32 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Primera Nacional Argentina",
+      "ronda": null,
+      "evento": "CA Colón vs Almirante Brown",
+      "local": "CA Colón",
+      "visitante": "Almirante Brown",
+      "fecha": "2026-10-17",
+      "hora": "23:00",
+      "canales": [
+        "LPF Play (plan plus)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Serie A Brasil",
+      "ronda": null,
+      "evento": "Botafogo vs Chapecoense",
+      "local": "Botafogo",
+      "visitante": "Chapecoense",
+      "fecha": "2026-10-17",
+      "hora": "23:00",
+      "canales": [
+        "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Liga Pro Ecuador",
       "ronda": null,
       "evento": "Aucas vs LDU Quito",
@@ -5190,6 +5554,19 @@
       "hora": "23:30",
       "canales": [
         "Zapping Internacional"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Serie A Brasil",
+      "ronda": null,
+      "evento": "Atlético Mineiro vs Coritiba",
+      "local": "Atlético Mineiro",
+      "visitante": "Coritiba",
+      "fecha": "2026-10-17",
+      "hora": "23:30",
+      "canales": [
+        "Fanatiz (Ver en directo)"
       ]
     }
   ]
