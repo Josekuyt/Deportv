@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-10-15T13:04:17"
+    "actualizado": "2026-10-16T03:13:18"
   },
   "config": {
     "puntos_por_tier": {
@@ -1801,6 +1801,26 @@
     },
     "Liga Catalana": {
       "deporte": "Hockey Patines",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "6 Horas de Barcelona": {
+      "deporte": "Automovilismo",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Clásica del Veneto": {
+      "deporte": "Ciclismo",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Europeo Sub-17": {
+      "deporte": "Fútbol",
+      "tier": "D",
+      "por_revisar": true
+    },
+    "Maratón Amsterdam": {
+      "deporte": "Atletismo",
       "tier": "C",
       "por_revisar": true
     }
