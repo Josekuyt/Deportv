@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-10-16T13:01:11",
+    "generado": "2026-10-16T19:19:07",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 569
+    "total_eventos": 596
   },
   "eventos": [
     {
@@ -340,20 +340,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "WTA Wuhan",
-      "ronda": "1/4 de Final",
-      "evento": "A. Li vs I. Swiatek",
-      "local": "A. Li",
-      "visitante": "I. Swiatek",
-      "fecha": "2026-10-16",
-      "hora": "13:00",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
       "deporte": "Pádel",
       "competicion": "Milan Open",
       "ronda": null,
@@ -367,6 +353,20 @@
         "M+ Vamos (8 y 50)",
         "M+ #Vamos Bar (307)",
         "M+ Deportes (63)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Wuhan",
+      "ronda": "1/4 de Final",
+      "evento": "A. Li vs I. Swiatek",
+      "local": "A. Li",
+      "visitante": "I. Swiatek",
+      "fecha": "2026-10-16",
+      "hora": "13:20",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -1516,6 +1516,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "División Honor Cadete",
+      "ronda": null,
+      "evento": "Athletic Club Academy vs Baskauri FE",
+      "local": "Athletic Club Academy",
+      "visitante": "Baskauri FE",
+      "fecha": "2026-10-17",
+      "hora": "10:00",
+      "canales": [
+        "Athletic-club.eus"
+      ]
+    },
+    {
       "deporte": "Tenis",
       "competicion": "Masters Shanghai",
       "ronda": "ATP Masters 1000",
@@ -1527,6 +1540,19 @@
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "División Honor Infantil",
+      "ronda": "Grupo 1 (Madrid)",
+      "evento": "Real Madrid Academy vs Colegio Miramadrid",
+      "local": "Real Madrid Academy",
+      "visitante": "Colegio Miramadrid",
+      "fecha": "2026-10-17",
+      "hora": "10:45",
+      "canales": [
+        "Real Madrid TV"
       ]
     },
     {
@@ -1569,6 +1595,7 @@
       "canales": [
         "HBO MAX",
         "DAZN (Ver en directo)",
+        "RTVE Play",
         "Eurosport 2"
       ]
     },
@@ -1583,6 +1610,19 @@
       "hora": "12:00",
       "canales": [
         "OneFootball PPV"
+      ]
+    },
+    {
+      "deporte": "Fútbol Sala",
+      "competicion": "Primera Federación Femenina",
+      "ronda": null,
+      "evento": "AD Ceuta FS vs Alcorcón FS",
+      "local": "AD Ceuta FS",
+      "visitante": "Alcorcón FS",
+      "fecha": "2026-10-17",
+      "hora": "12:00",
+      "canales": [
+        "FutsalRFEF YouTube"
       ]
     },
     {
@@ -1640,7 +1680,8 @@
       "fecha": "2026-10-17",
       "hora": "12:00",
       "canales": [
-        "Aragón Play"
+        "Aragón Play",
+        "FC Barcelona PPV YouTube"
       ]
     },
     {
@@ -1683,6 +1724,19 @@
         "HBO MAX",
         "DAZN (Ver en directo)",
         "Eurosport 1"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "División Honor Cadete",
+      "ronda": "Grupo 1 (Madrid)",
+      "evento": "Real Madrid Academy vs Fundación Rayo Vallecano",
+      "local": "Real Madrid Academy",
+      "visitante": "Fundación Rayo Vallecano",
+      "fecha": "2026-10-17",
+      "hora": "12:45",
+      "canales": [
+        "Real Madrid TV"
       ]
     },
     {
@@ -2402,6 +2456,32 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Primera B Argentina",
+      "ronda": null,
+      "evento": "Dock Sud vs Laferrere",
+      "local": "Dock Sud",
+      "visitante": "Laferrere",
+      "fecha": "2026-10-17",
+      "hora": "16:00",
+      "canales": [
+        "LPF Play (plan plus)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera B Argentina",
+      "ronda": null,
+      "evento": "CSD Liniers vs UAI Urquiza",
+      "local": "CSD Liniers",
+      "visitante": "UAI Urquiza",
+      "fecha": "2026-10-17",
+      "hora": "16:00",
+      "canales": [
+        "LPF Play (plan plus)"
+      ]
+    },
+    {
       "deporte": "Balonmano",
       "competicion": "EHF Women's Champions League",
       "ronda": null,
@@ -2450,7 +2530,21 @@
       "fecha": "2026-10-17",
       "hora": "16:00",
       "canales": [
+        "Teledeporte",
         "RTVE Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol Sala",
+      "competicion": "Primera Federación Femenina",
+      "ronda": null,
+      "evento": "Les Corts AE vs LBTL Alcantarilla FS",
+      "local": "Les Corts AE",
+      "visitante": "LBTL Alcantarilla FS",
+      "fecha": "2026-10-17",
+      "hora": "16:00",
+      "canales": [
+        "FutsalRFEF YouTube"
       ]
     },
     {
@@ -2665,6 +2759,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Primera Federación Femenina",
+      "ronda": null,
+      "evento": "Real Sociedad B Femenino vs Athletic B Femenino",
+      "local": "Real Sociedad B Femenino",
+      "visitante": "Athletic B Femenino",
+      "fecha": "2026-10-17",
+      "hora": "16:15",
+      "canales": [
+        "Real Sociedad TV YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "3. Liga",
       "ronda": null,
       "evento": "Würzburger Kickers vs Waldhof Mannheim",
@@ -2739,6 +2846,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 18",
+      "evento": "CD Noblejas vs CD Villa",
+      "local": "CD Noblejas",
+      "visitante": "CD Villa",
+      "fecha": "2026-10-17",
+      "hora": "16:30",
+      "canales": [
+        "CMMPlay (Castilla-LM)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Eredivisie",
       "ronda": null,
       "evento": "ADO Den Haag vs PSV Eindhoven",
@@ -2791,6 +2911,19 @@
       ]
     },
     {
+      "deporte": "Fútbol Sala",
+      "competicion": "Primera Federación Femenina",
+      "ronda": null,
+      "evento": "Guadalcacin FSF vs Roldán FSF",
+      "local": "Guadalcacin FSF",
+      "visitante": "Roldán FSF",
+      "fecha": "2026-10-17",
+      "hora": "17:00",
+      "canales": [
+        "FutsalRFEF YouTube"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Segunda Federación",
       "ronda": "Grupo 2",
@@ -2801,7 +2934,8 @@
       "hora": "17:00",
       "canales": [
         "TV FootballClub (Acceder)",
-        "Aragón Play"
+        "Aragón Play",
+        "FC Barcelona PPV YouTube"
       ]
     },
     {
@@ -2910,6 +3044,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "División Honor Juvenil",
+      "ronda": "Grupo 5",
+      "evento": "Sporting Hortaleza Academy vs Real Madrid Academy",
+      "local": "Sporting Hortaleza Academy",
+      "visitante": "Real Madrid Academy",
+      "fecha": "2026-10-17",
+      "hora": "17:00",
+      "canales": [
+        "Real Madrid TV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Serie B Italiana",
       "ronda": null,
       "evento": "Mantova 1911 vs Palermo SSD",
@@ -2964,8 +3111,21 @@
     },
     {
       "deporte": "Fútbol",
-      "competicion": "Primera C",
+      "competicion": "Primera B Argentina",
       "ronda": null,
+      "evento": "Deportivo Camioneros vs Argentino Merlo",
+      "local": "Deportivo Camioneros",
+      "visitante": "Argentino Merlo",
+      "fecha": "2026-10-17",
+      "hora": "18:00",
+      "canales": [
+        "LPF Play (plan plus)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera C",
+      "ronda": "Reducido Segundo Ascenso",
       "evento": "SAT vs Defensores de Glew",
       "local": "SAT",
       "visitante": "Defensores de Glew",
@@ -3181,6 +3341,19 @@
     {
       "deporte": "Fútbol",
       "competicion": "Tercera Federación",
+      "ronda": "Grupo 18",
+      "evento": "Manchego CR vs CD Toledo",
+      "local": "Manchego CR",
+      "visitante": "CD Toledo",
+      "fecha": "2026-10-17",
+      "hora": "18:00",
+      "canales": [
+        "CMMPlay (Castilla-LM)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
       "ronda": "Grupo 9",
       "evento": "Torre del Mar vs UDC Torredonjimeno",
       "local": "Torre del Mar",
@@ -3242,7 +3415,9 @@
       "hora": "18:30",
       "canales": [
         "Siroko TV",
-        "M+ Baloncesto 2 (M67)"
+        "M+ Baloncesto 2 (M67)",
+        "Teledeporte",
+        "RTVE Play"
       ]
     },
     {
@@ -3443,6 +3618,19 @@
         "TV FootballClub (Acceder)",
         "FANPLAY TV",
         "LaLiga TV M4"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Nacional Juvenil",
+      "ronda": "Grupo 4 (País Vasco)",
+      "evento": "Real Sociedad Academy vs Athletic Club Academy",
+      "local": "Real Sociedad Academy",
+      "visitante": "Athletic Club Academy",
+      "fecha": "2026-10-17",
+      "hora": "18:45",
+      "canales": [
+        "Real Sociedad TV YouTube"
       ]
     },
     {
@@ -3704,19 +3892,6 @@
       "deporte": "Fútbol",
       "competicion": "Primera B Argentina",
       "ronda": null,
-      "evento": "Deportivo Camioneros vs Argentino Merlo",
-      "local": "Deportivo Camioneros",
-      "visitante": "Argentino Merlo",
-      "fecha": "2026-10-17",
-      "hora": "20:00",
-      "canales": [
-        "LPF Play (plan plus)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Primera B Argentina",
-      "ronda": null,
       "evento": "Defensores Unidos vs Dep. Armenio",
       "local": "Defensores Unidos",
       "visitante": "Dep. Armenio",
@@ -3755,7 +3930,7 @@
     {
       "deporte": "Fútbol",
       "competicion": "Primera C",
-      "ronda": null,
+      "ronda": "Reducido Segundo Ascenso",
       "evento": "Central Córdoba R vs Centro Español",
       "local": "Central Córdoba R",
       "visitante": "Centro Español",
@@ -3768,7 +3943,7 @@
     {
       "deporte": "Fútbol",
       "competicion": "Primera C",
-      "ronda": null,
+      "ronda": "Reducido Segundo Ascenso",
       "evento": "Victoriano Arenas vs Dep. Español",
       "local": "Victoriano Arenas",
       "visitante": "Dep. Español",
@@ -3781,7 +3956,7 @@
     {
       "deporte": "Fútbol",
       "competicion": "Primera C",
-      "ronda": null,
+      "ronda": "Reducido Segundo Ascenso",
       "evento": "General Lamadrid vs Estrella del Sur",
       "local": "General Lamadrid",
       "visitante": "Estrella del Sur",
@@ -3794,7 +3969,7 @@
     {
       "deporte": "Fútbol",
       "competicion": "Primera C",
-      "ronda": null,
+      "ronda": "Final",
       "evento": "Berazategui vs Luján",
       "local": "Berazategui",
       "visitante": "Luján",
@@ -4149,7 +4324,7 @@
     {
       "deporte": "Fútbol",
       "competicion": "Primera C",
-      "ronda": null,
+      "ronda": "Reducido Segundo Ascenso",
       "evento": "Club Mercedes vs Leones de Rosario",
       "local": "Club Mercedes",
       "visitante": "Leones de Rosario",
@@ -4170,6 +4345,149 @@
       "hora": "21:30",
       "canales": [
         "RTVE Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Michigan State vs Northwestern",
+      "local": "Michigan State",
+      "visitante": "Northwestern",
+      "fecha": "2026-10-17",
+      "hora": "22:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Indiana Hoosiers vs Ohio State",
+      "local": "Indiana Hoosiers",
+      "visitante": "Ohio State",
+      "fecha": "2026-10-17",
+      "hora": "22:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Michigan Athletics vs Penn State",
+      "local": "Michigan Athletics",
+      "visitante": "Penn State",
+      "fecha": "2026-10-17",
+      "hora": "22:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Hawaii Rainbow vs New Mexico",
+      "local": "Hawaii Rainbow",
+      "visitante": "New Mexico",
+      "fecha": "2026-10-17",
+      "hora": "22:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Kansas State vs Kansas Jayhawks",
+      "local": "Kansas State",
+      "visitante": "Kansas Jayhawks",
+      "fecha": "2026-10-17",
+      "hora": "22:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Houston Cougars vs Oklahoma State",
+      "local": "Houston Cougars",
+      "visitante": "Oklahoma State",
+      "fecha": "2026-10-17",
+      "hora": "22:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Baylor vs TCU",
+      "local": "Baylor",
+      "visitante": "TCU",
+      "fecha": "2026-10-17",
+      "hora": "22:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Texas Tech vs Arizona State",
+      "local": "Texas Tech",
+      "visitante": "Arizona State",
+      "fecha": "2026-10-17",
+      "hora": "22:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Maryland vs Rutgers",
+      "local": "Maryland",
+      "visitante": "Rutgers",
+      "fecha": "2026-10-17",
+      "hora": "22:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Oregon vs Nebraska",
+      "local": "Oregon",
+      "visitante": "Nebraska",
+      "fecha": "2026-10-17",
+      "hora": "22:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "UCLA vs Wisconsin",
+      "local": "UCLA",
+      "visitante": "Wisconsin",
+      "fecha": "2026-10-17",
+      "hora": "22:00",
+      "canales": [
+        "DAZN (Ver en directo)"
       ]
     },
     {
@@ -4472,6 +4790,19 @@
       "hora": "01:00",
       "canales": [
         "Antel TV Internacional"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Colombiana",
+      "ronda": null,
+      "evento": "Millonarios vs Jaguares FC",
+      "local": "Millonarios",
+      "visitante": "Jaguares FC",
+      "fecha": "2026-10-18",
+      "hora": "01:00",
+      "canales": [
+        "RCN Nuestra Tele"
       ]
     },
     {
@@ -4786,6 +5117,8 @@
       "canales": [
         "HBO MAX",
         "DAZN (Ver en directo)",
+        "Teledeporte",
+        "RTVE Play",
         "Eurosport 2"
       ]
     },
@@ -4887,6 +5220,19 @@
       ]
     },
     {
+      "deporte": "Fútbol Sala",
+      "competicion": "Primera Federación Femenina",
+      "ronda": null,
+      "evento": "At. Navalcarnero FS vs Estrela FS",
+      "local": "At. Navalcarnero FS",
+      "visitante": "Estrela FS",
+      "fecha": "2026-10-18",
+      "hora": "11:30",
+      "canales": [
+        "FutsalRFEF YouTube"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Segunda Federación",
       "ronda": "Grupo 5",
@@ -4897,7 +5243,8 @@
       "hora": "11:30",
       "canales": [
         "TV FootballClub (Acceder)",
-        "Getafe CF YouTube"
+        "Getafe CF YouTube",
+        "CMMPlay (Castilla-LM)"
       ]
     },
     {
@@ -5066,6 +5413,32 @@
     {
       "deporte": "Fútbol",
       "competicion": "Segunda Federación",
+      "ronda": "Grupo 5",
+      "evento": "Conquense vs CD Atlético Paso",
+      "local": "Conquense",
+      "visitante": "CD Atlético Paso",
+      "fecha": "2026-10-18",
+      "hora": "12:00",
+      "canales": [
+        "CMMPlay (Castilla-LM)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
+      "ronda": "Grupo 5",
+      "evento": "UD Sanse vs Calvo Sotelo Puertollano",
+      "local": "UD Sanse",
+      "visitante": "Calvo Sotelo Puertollano",
+      "fecha": "2026-10-18",
+      "hora": "12:00",
+      "canales": [
+        "CMMPlay (Castilla-LM)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
       "ronda": "Grupo 3",
       "evento": "Yeclano vs Poblense",
       "local": "Yeclano",
@@ -5152,7 +5525,8 @@
       "fecha": "2026-10-18",
       "hora": "12:00",
       "canales": [
-        "TV FootballClub (Acceder)"
+        "TV FootballClub (Acceder)",
+        "CMMPlay (Castilla-LM)"
       ]
     },
     {
@@ -5418,7 +5792,8 @@
       "fecha": "2026-10-18",
       "hora": "12:00",
       "canales": [
-        "TV FootballClub (Acceder)"
+        "TV FootballClub (Acceder)",
+        "Plaiz"
       ]
     },
     {
@@ -5471,6 +5846,19 @@
       "hora": "12:00",
       "canales": [
         "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Nacional Juvenil",
+      "ronda": "Grupo 7 (Cataluña)",
+      "evento": "FC Barcelona Academy vs Cornellá Academy",
+      "local": "FC Barcelona Academy",
+      "visitante": "Cornellá Academy",
+      "fecha": "2026-10-18",
+      "hora": "12:00",
+      "canales": [
+        "FC Barcelona PPV YouTube"
       ]
     },
     {
@@ -5594,6 +5982,19 @@
       "hora": "12:30",
       "canales": [
         "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "División Honor Cadete",
+      "ronda": null,
+      "evento": "Sevilla FC Academy vs UD Almería Academy",
+      "local": "Sevilla FC Academy",
+      "visitante": "UD Almería Academy",
+      "fecha": "2026-10-18",
+      "hora": "12:30",
+      "canales": [
+        "Sevilla FC +"
       ]
     },
     {
@@ -6150,6 +6551,7 @@
       "hora": "16:00",
       "canales": [
         "DAZN (Ver en directo)",
+        "Teledeporte",
         "RTVE Play"
       ]
     },
@@ -6301,58 +6703,6 @@
       ]
     },
     {
-      "deporte": "Fútbol Sala",
-      "competicion": "Primera Federación Femenina",
-      "ronda": null,
-      "evento": "At. Navalcarnero FS vs Estrela FS",
-      "local": "At. Navalcarnero FS",
-      "visitante": "Estrela FS",
-      "fecha": "2026-10-18",
-      "hora": "17:00",
-      "canales": [
-        "FutsalRFEF YouTube"
-      ]
-    },
-    {
-      "deporte": "Fútbol Sala",
-      "competicion": "Primera Federación Femenina",
-      "ronda": null,
-      "evento": "Les Corts AE vs LBTL Alcantarilla FS",
-      "local": "Les Corts AE",
-      "visitante": "LBTL Alcantarilla FS",
-      "fecha": "2026-10-18",
-      "hora": "17:00",
-      "canales": [
-        "FutsalRFEF YouTube"
-      ]
-    },
-    {
-      "deporte": "Fútbol Sala",
-      "competicion": "Primera Federación Femenina",
-      "ronda": null,
-      "evento": "Guadalcacin FSF vs Roldán FSF",
-      "local": "Guadalcacin FSF",
-      "visitante": "Roldán FSF",
-      "fecha": "2026-10-18",
-      "hora": "17:00",
-      "canales": [
-        "FutsalRFEF YouTube"
-      ]
-    },
-    {
-      "deporte": "Fútbol Sala",
-      "competicion": "Primera Federación Femenina",
-      "ronda": null,
-      "evento": "AD Ceuta FS vs Alcorcón FS",
-      "local": "AD Ceuta FS",
-      "visitante": "Alcorcón FS",
-      "fecha": "2026-10-18",
-      "hora": "17:00",
-      "canales": [
-        "FutsalRFEF YouTube"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "Segunda Federación",
       "ronda": "Grupo 1",
@@ -6377,7 +6727,8 @@
       "canales": [
         "TV FootballClub (Acceder)",
         "Canal 9 Soria",
-        "CANAL 9 SORIA YouTube"
+        "CANAL 9 SORIA YouTube",
+        "CMMPlay (Castilla-LM)"
       ]
     },
     {
@@ -6486,6 +6837,7 @@
       "fecha": "2026-10-18",
       "hora": "17:00",
       "canales": [
+        "FFCV YouTube",
         "La Ocho Mediterráneo"
       ]
     },
@@ -6606,6 +6958,32 @@
       "hora": "17:30",
       "canales": [
         "Replay"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 18",
+      "evento": "CD Quintanar del Rey vs Tarancón",
+      "local": "CD Quintanar del Rey",
+      "visitante": "Tarancón",
+      "fecha": "2026-10-18",
+      "hora": "17:30",
+      "canales": [
+        "CMMPlay (Castilla-LM)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 17",
+      "evento": "At. Monzón vs CD Binéfar",
+      "local": "At. Monzón",
+      "visitante": "CD Binéfar",
+      "fecha": "2026-10-18",
+      "hora": "17:30",
+      "canales": [
+        "Lacronicadeportes.es"
       ]
     },
     {
@@ -7093,19 +7471,6 @@
       "canales": [
         "M+ Vamos 2 (51)",
         "Fanatiz (Ver en directo)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Primera B Argentina",
-      "ronda": null,
-      "evento": "CSD Liniers vs UAI Urquiza",
-      "local": "CSD Liniers",
-      "visitante": "UAI Urquiza",
-      "fecha": "2026-10-18",
-      "hora": "20:00",
-      "canales": [
-        "LPF Play (plan plus)"
       ]
     },
     {
