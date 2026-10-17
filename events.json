@@ -1,7 +1,7 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-10-17T11:58:29",
+    "generado": "2026-10-17T18:09:51",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
     "total_eventos": 564
   },
@@ -526,7 +526,7 @@
       "local": "S. Kartal",
       "visitante": "J. Ostapenko",
       "fecha": "2026-10-17",
-      "hora": "11:00",
+      "hora": "11:10",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -648,20 +648,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "WTA Wuhan",
-      "ronda": "WTA 1000",
-      "evento": "I. Swiatek vs M. Chwalinska",
-      "local": "I. Swiatek",
-      "visitante": "M. Chwalinska",
-      "fecha": "2026-10-17",
-      "hora": "12:30",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "Serie A Femminile",
       "ronda": null,
@@ -700,21 +686,6 @@
       "hora": "12:45",
       "canales": [
         "Real Madrid TV"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Masters Shanghai",
-      "ronda": "ATP Masters 1000",
-      "evento": "R. Jódar vs D. Medvedev",
-      "local": "R. Jódar",
-      "visitante": "D. Medvedev",
-      "fecha": "2026-10-17",
-      "hora": "13:00",
-      "canales": [
-        "ATP Tennis TV",
-        "Movistar Plus+ (M7): VER PARTIDO",
-        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -826,6 +797,21 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "ATP Masters 1000",
+      "evento": "R. Jódar vs D. Medvedev",
+      "local": "R. Jódar",
+      "visitante": "D. Medvedev",
+      "fecha": "2026-10-17",
+      "hora": "13:10",
+      "canales": [
+        "ATP Tennis TV",
+        "Movistar Plus+ (M7): VER PARTIDO",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Premier League",
       "ronda": null,
@@ -865,6 +851,20 @@
       "hora": "13:35",
       "canales": [
         "Replay"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Wuhan",
+      "ronda": "WTA 1000",
+      "evento": "I. Swiatek vs M. Chwalinska",
+      "local": "I. Swiatek",
+      "visitante": "M. Chwalinska",
+      "fecha": "2026-10-17",
+      "hora": "13:40",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -4158,10 +4158,10 @@
     {
       "deporte": "Tenis",
       "competicion": "Masters Shanghai",
-      "ronda": null,
-      "evento": "Final ATP Masters 1000",
-      "local": null,
-      "visitante": null,
+      "ronda": "ATP Masters 1000",
+      "evento": "A. Davidovich vs R. Jódar",
+      "local": "A. Davidovich",
+      "visitante": "R. Jódar",
       "fecha": "2026-10-18",
       "hora": "10:30",
       "canales": [
@@ -4884,10 +4884,10 @@
     {
       "deporte": "Tenis",
       "competicion": "WTA Wuhan",
-      "ronda": null,
-      "evento": "Final WTA 1000",
-      "local": null,
-      "visitante": null,
+      "ronda": "WTA 1000",
+      "evento": "M. Chwalinska vs S. Kartal",
+      "local": "M. Chwalinska",
+      "visitante": "S. Kartal",
       "fecha": "2026-10-18",
       "hora": "12:30",
       "canales": [
