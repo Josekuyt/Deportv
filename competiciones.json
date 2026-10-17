@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-10-16T13:01:11"
+    "actualizado": "2026-10-17T03:04:03"
   },
   "config": {
     "puntos_por_tier": {
@@ -1831,6 +1831,31 @@
     },
     "Cross de Zornotza": {
       "deporte": "Atletismo",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Torneo de Almaty": {
+      "deporte": "Tenis",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Torneo de Bruselas": {
+      "deporte": "Tenis",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Torneo de Lyon": {
+      "deporte": "Tenis",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "WTA Torneo de Ningbo": {
+      "deporte": "Tenis",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "WTA Torneo de Osaka": {
+      "deporte": "Tenis",
       "tier": "C",
       "por_revisar": true
     }
