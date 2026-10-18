@@ -781,7 +781,8 @@ function agGenerar(){
   const esHoy = (dia===hoyISO());
   const base=(DOC.eventos||[]).filter(e=>e.fecha===dia);
   const txtRaw=$("#agTexto").value.trim();
-  const texto=norm(txtRaw);
+  // Permite varios equipos/eventos separados por comas (coincide con cualquiera).
+  const terminos=txtRaw.split(",").map(t=>norm(t.trim())).filter(Boolean);
 
   // Filtros comunes.
   const vigente = e => !finalizado(e);                 // descarta lo ya terminado (solo hoy)
@@ -792,10 +793,13 @@ function agGenerar(){
   };
   const pasaCuando = e => agEnFranja(e, AG.cuando);
 
-  // ----- Camino 1: búsqueda de un equipo/evento concreto (tiene prioridad) -----
-  if(texto){
-    const coincide = e => norm([e.evento,e.competicion,e.deporte,e.local,e.visitante,
-      ...(e.canales||[])].join(" ")).includes(texto);
+  // ----- Camino 1: búsqueda de equipos/eventos concretos (tiene prioridad) -----
+  if(terminos.length){
+    const coincide = e => {
+      const blob=norm([e.evento,e.competicion,e.deporte,e.local,e.visitante,
+        ...(e.canales||[])].join(" "));
+      return terminos.some(t=>blob.includes(t));
+    };
     const hoyMatch = base.filter(coincide);
     if(!hoyMatch.length){
       return agPintarAviso(`No encuentro <b>“${esc(txtRaw)}”</b> en la programación de hoy. `+
@@ -906,7 +910,7 @@ function initAgenda(){
   const overlay=$("#agendaOverlay");
   btn.addEventListener("click", agAbrir);
   $("#cerrarAgenda").addEventListener("click", agCerrar);
-  overlay.addEventListener("click", e=>{ if(e.target===overlay) agCerrar(); });
+  // El modal NO se cierra al pinchar fuera (solo con la ✕ o la tecla Escape).
   document.addEventListener("keydown", e=>{ if(e.key==="Escape" && !overlay.hidden) agCerrar(); });
 
   $("#agQue").addEventListener("click", e=>{
