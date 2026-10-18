@@ -793,81 +793,88 @@ function agGenerar(){
   };
   const pasaCuando = e => agEnFranja(e, AG.cuando);
 
-  // ----- Camino 1: búsqueda de equipos/eventos concretos (tiene prioridad) -----
-  if(terminos.length){
-    const coincide = e => {
-      const blob=norm([e.evento,e.competicion,e.deporte,e.local,e.visitante,
-        ...(e.canales||[])].join(" "));
-      return terminos.some(t=>blob.includes(t));
-    };
-    const hoyMatch = base.filter(coincide);
-    if(!hoyMatch.length){
-      return agPintarAviso(`No encuentro <b>“${esc(txtRaw)}”</b> en la programación de hoy. `+
-        `Puede que no se emita hoy, o que el nombre esté escrito de otra forma.`);
-    }
-    const encaja = hoyMatch.filter(e=>vigente(e)&&pasaDonde(e)&&pasaCuando(e));
-    if(encaja.length){
-      return agPintarLista(encaja, {query:txtRaw});
-    }
-    // Hay coincidencias hoy, pero no encajan con dónde/cuándo (o ya pasaron).
-    const vivos=hoyMatch.filter(vigente);
-    const motivos=agMotivosFiltro();
-    let aviso;
-    if(!vivos.length){
-      aviso=`Encontré <b>“${esc(txtRaw)}”</b> hoy, pero ya ha finalizado.`;
-    } else if(motivos.length){
-      aviso=`Encontré <b>“${esc(txtRaw)}”</b> hoy, pero no encaja con ${motivos.join(" ni ")}. `+
-        `Te lo muestro de todas formas:`;
-    } else {
-      aviso=`Encontré <b>“${esc(txtRaw)}”</b> hoy. Te lo muestro:`;
-    }
-    return agPintarLista(vivos.length?vivos:hoyMatch, {aviso});
-  }
+  const terminosRaw=txtRaw.split(",").map(t=>t.trim()).filter(Boolean);
+  const listaTxt = ts => ts.map(t=>`<b>“${esc(t)}”</b>`).join(", ");
 
-  // ----- Camino 2: por categoría (destacado / favoritos / deportes) -----
-  let scope;
+  // ----- Parte A: explorar por categoría (sujeta a ¿Dónde? y ¿Cuándo?) -----
+  let scope=null, scopeVacioMsg="";
   if(AG.que==="favoritos"){
     scope = e => e.competicion && favComps.has(e.competicion);
+    scopeVacioMsg = "No hay eventos de tus competiciones favoritas hoy.";
   } else if(AG.que==="deportes"){
-    if(!AG.deportes.size){
-      return agPintarAviso("Elige al menos un deporte arriba, o escribe un equipo o evento concreto.");
-    }
-    scope = e => AG.deportes.has(e.deporte);
+    if(AG.deportes.size){
+      scope = e => AG.deportes.has(e.deporte);
+      scopeVacioMsg = "No hay eventos de los deportes elegidos pendientes hoy.";
+    } // sin deportes marcados, la categoría no aporta nada (se deja al texto)
   } else {
     const claves=new Set((DOC._destacados||[]).map(claveEvento));
     scope = e => claves.has(claveEvento(e));
+    scopeVacioMsg = "No quedan eventos destacados por emitir hoy.";
   }
+  const categoria = scope
+    ? base.filter(e=>vigente(e)&&scope(e)&&pasaDonde(e)&&pasaCuando(e))
+    : [];
 
-  let items = base.filter(e=>vigente(e)&&scope(e)&&pasaDonde(e)&&pasaCuando(e));
+  // ----- Parte B: lo que escribes (se AÑADE siempre; ignora ¿Dónde? y ¿Cuándo?) -----
+  // Cada equipo/evento nombrado se busca por separado para poder avisar de los que no hay.
+  const buscados=[], noEncontrados=[];
+  terminos.forEach((t,i)=>{
+    const matches = base.filter(e=>vigente(e) &&
+      norm([e.evento,e.competicion,e.deporte,e.local,e.visitante,...(e.canales||[])].join(" ")).includes(t));
+    if(matches.length) buscados.push(...matches);
+    else noEncontrados.push(terminosRaw[i]);
+  });
 
-  if(!items.length){
-    // Diagnóstico de por qué no hay nada.
-    const sinFiltros = base.filter(e=>vigente(e)&&scope(e));
-    if(!sinFiltros.length){
-      const msg = AG.que==="favoritos" ? "No hay eventos de tus competiciones favoritas hoy."
-                : AG.que==="deportes"  ? "No hay eventos de los deportes elegidos pendientes hoy."
-                : "No quedan eventos destacados por emitir hoy.";
-      return agPintarAviso(msg+" Prueba con otra opción o escribe un equipo concreto.");
-    }
-    const motivos=agMotivosFiltro();
-    return agPintarAviso(`Hay opciones hoy, pero ninguna encaja con ${motivos.join(" ni ")}. `+
-      `Prueba a ampliar «¿Dónde?» o «¿Cuándo?».`);
-  }
+  // ----- Fusión sin duplicados -----
+  const clavesCategoria=new Set(categoria.map(claveEvento));
+  const mapa=new Map();
+  for(const e of [...categoria, ...buscados]) mapa.set(claveEvento(e), e);
+  let items=[...mapa.values()];
+  // Marca los eventos que están SOLO porque los buscaste (no pasaban los filtros).
+  const clavesExtra=new Set(buscados.map(claveEvento).filter(k=>!clavesCategoria.has(k)));
 
-  // "Sólo lo imprescindible": las 5 de mayor relevancia.
+  // "Sólo lo imprescindible": recorta la categoría a 5, pero respeta lo que buscaste.
   if(AG.top){
-    items = items.slice().sort((a,b)=>relevancia(b)-relevancia(a)).slice(0,5);
+    const fijos = items.filter(e=>clavesExtra.has(claveEvento(e)));
+    const resto = items.filter(e=>!clavesExtra.has(claveEvento(e)))
+      .sort((a,b)=>relevancia(b)-relevancia(a)).slice(0,5);
+    items=[...fijos, ...resto];
   }
-  agPintarLista(items, {});
+
+  // ----- Nada que mostrar: el mensaje más útil según el caso -----
+  if(!items.length){
+    if(terminos.length && !buscados.length){
+      return agPintarAviso(`No encuentro ${listaTxt(terminosRaw)} en la programación de hoy. `+
+        `Puede que no se emita hoy, o que el nombre esté escrito de otra forma.`);
+    }
+    if(scope){
+      const sinFiltros = base.filter(e=>vigente(e)&&scope(e));
+      if(!sinFiltros.length) return agPintarAviso(scopeVacioMsg+" Prueba con otra opción o escribe un equipo concreto.");
+      const motivos=agMotivosFiltro();
+      return agPintarAviso(`Hay opciones hoy, pero ninguna encaja con ${motivos.join(" ni ")}. `+
+        `Amplía «¿Dónde?» o «¿Cuándo?», o escribe el equipo (lo añado aunque no sea en abierto).`);
+    }
+    return agPintarAviso("Elige una opción de arriba o escribe un equipo o evento concreto.");
+  }
+
+  // Aviso de los términos buscados que no se emiten hoy (pero sí mostramos el resto).
+  const aviso = noEncontrados.length
+    ? `No encuentro ${listaTxt(noEncontrados)} en la programación de hoy; te muestro lo demás.`
+    : "";
+  // El "pin" solo tiene sentido cuando hay mezcla (categoría + añadidos por texto).
+  const pin = (categoria.length && clavesExtra.size) ? clavesExtra : null;
+  agPintarLista(items, {aviso, pin});
 }
 
 // Pinta la lista de eventos (orden cronológico + aviso de solapes de horario).
 function agPintarLista(items, opts){
+  const pin = opts.pin || null;
   items = items.slice().sort((a,b)=>(a.hora||"").localeCompare(b.hora||""));
   let prevHora=null;
   const filas = items.map(e=>{
     const clash = (prevHora!==null && e.hora===prevHora);
     prevHora = e.hora;
+    const esPin = pin && pin.has(claveEvento(e));
     const rec=agCanalRecomendado(e);
     const part=(e.local&&e.visitante)
       ? `${esc(e.local)} <span class="vs">vs</span> ${esc(e.visitante)}`
@@ -879,7 +886,7 @@ function agPintarLista(items, opts){
     return `<li class="ag-item${clash?' clash':''}">
       <span class="ag-h">${esc(e.hora||"--:--")}</span>
       <span class="ag-main">
-        <span class="ag-ev">${part}</span>
+        <span class="ag-ev">${part}${esPin?` <span class="ag-pin">📌 lo buscaste</span>`:""}</span>
         ${sub?`<span class="ag-sub">${sub}</span>`:""}
         ${clash?`<span class="ag-clash-note">⚠ Coincide en horario con lo anterior</span>`:""}
       </span>
@@ -888,9 +895,7 @@ function agPintarLista(items, opts){
   }).join("");
   const aviso = opts.aviso ? `<div class="ag-aviso">${opts.aviso}</div>` : "";
   const n=items.length;
-  const head = opts.query
-    ? `<div class="ag-result-head"><b>${n}</b> ${n===1?"resultado":"resultados"} para “${esc(opts.query)}”</div>`
-    : `<div class="ag-result-head"><b>${n}</b> ${n===1?"evento":"eventos"} en tu agenda de hoy</div>`;
+  const head = `<div class="ag-result-head"><b>${n}</b> ${n===1?"evento":"eventos"} en tu agenda de hoy</div>`;
   const box=$("#agResult");
   box.innerHTML = aviso + head + `<ul class="ag-list">${filas}</ul>`;
   box.hidden=false;

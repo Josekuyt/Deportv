@@ -297,6 +297,9 @@
   .ag-main{min-width:0;display:flex;flex-direction:column;gap:3px;overflow-wrap:anywhere}
   .ag-ev{font-family:var(--f-display);font-weight:700;font-size:1.15rem;line-height:1.1;text-transform:uppercase}
   .ag-ev .vs{color:var(--muted);font-weight:400;margin:0 4px;font-family:var(--f-mono);font-size:.85rem}
+  .ag-pin{font-family:var(--f-mono);font-weight:700;font-size:.6rem;text-transform:uppercase;letter-spacing:.5px;
+    vertical-align:middle;white-space:nowrap;background:var(--accent);color:#fff;
+    border-radius:999px;padding:2px 8px;margin-left:4px}
   .ag-sub{font-family:var(--f-mono);font-size:.7rem;color:var(--muted);text-transform:uppercase;letter-spacing:.5px}
   .ag-clash-note{font-family:var(--f-mono);font-size:.7rem;color:var(--orange);font-weight:700;margin-top:2px}
   .ag-canales{display:flex;flex-wrap:wrap;gap:6px;justify-content:flex-end;max-width:180px}
