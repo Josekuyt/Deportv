@@ -75,6 +75,16 @@
       <div class="hero-wrap"><div class="hero-track" id="heroTrack"></div></div>
     </section>
 
+    <!-- Disparador: Tu agenda de hoy -->
+    <button class="agenda-cta" id="abrirAgenda" aria-haspopup="dialog">
+      <span class="ag-cta-ico" aria-hidden="true">🗓</span>
+      <span class="ag-cta-txt">
+        <b>Tu agenda de hoy</b>
+        <small>Dinos qué te apetece y te montamos el plan</small>
+      </span>
+      <span class="ag-cta-go">Crear agenda →</span>
+    </button>
+
     <!-- Listado con pestañas -->
     <section>
       <div class="tabs" id="tabs"></div>
@@ -162,6 +172,58 @@
           tema y notificaciones) en este navegador.</p>
         <button class="btn btn-danger" id="limpiarCache">🗑 Limpiar preferencias</button>
       </section>
+
+    </div>
+  </div>
+</div>
+
+<!-- Modal: Tu agenda de hoy -->
+<div class="modal-overlay" id="agendaOverlay" hidden>
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="agTitulo">
+    <div class="modal-head">
+      <h2 id="agTitulo">🗓 Tu agenda de hoy</h2>
+      <button class="modal-close" id="cerrarAgenda" aria-label="Cerrar">✕</button>
+    </div>
+    <div class="modal-body">
+
+      <section class="pref-sec">
+        <h3>① ¿Qué te apetece ver?</h3>
+        <div class="ag-opts" id="agQue" role="group" aria-label="Qué ver">
+          <button type="button" class="ag-opt" data-que="destacado">Lo más destacado</button>
+          <button type="button" class="ag-opt" data-que="favoritos">Mis favoritos</button>
+          <button type="button" class="ag-opt" data-que="deportes">Elegir deportes</button>
+        </div>
+        <div class="ag-sports" id="agSports" hidden></div>
+        <input class="ag-text" id="agTexto" type="search"
+          placeholder="¿Buscas un equipo o evento concreto?">
+        <p class="pref-nota ag-text-nota" id="agTextoNota" hidden>Si escribes algo, buscaremos
+          ese equipo o evento (tiene prioridad sobre la opción de arriba).</p>
+      </section>
+
+      <section class="pref-sec">
+        <h3>② ¿Dónde lo ves?</h3>
+        <div class="ag-opts" id="agDonde" role="group" aria-label="Dónde">
+          <button type="button" class="ag-opt" data-donde="mias">Mis plataformas</button>
+          <button type="button" class="ag-opt" data-donde="abierto">En abierto</button>
+          <button type="button" class="ag-opt" data-donde="todas">Cualquiera</button>
+        </div>
+      </section>
+
+      <section class="pref-sec">
+        <h3>③ ¿Cuándo?</h3>
+        <div class="ag-opts" id="agCuando" role="group" aria-label="Cuándo">
+          <button type="button" class="ag-opt" data-cuando="dia">A cualquier hora</button>
+          <button type="button" class="ag-opt" data-cuando="tarde">Tarde (15–20 h)</button>
+          <button type="button" class="ag-opt" data-cuando="noche">Noche (20 h +)</button>
+        </div>
+        <label class="switch ag-top"><input type="checkbox" id="agTop"> Sólo lo imprescindible (máx. 5)</label>
+      </section>
+
+      <div class="ag-actions">
+        <button class="btn btn-act" id="agGenerar">✨ Crear mi agenda</button>
+      </div>
+
+      <div class="ag-result" id="agResult" hidden></div>
 
     </div>
   </div>
