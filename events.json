@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-10-18T03:06:36",
+    "generado": "2026-10-18T12:27:01",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 339
+    "total_eventos": 340
   },
   "eventos": [
     {
@@ -551,21 +551,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "Masters Shanghai",
-      "ronda": "ATP Masters 1000",
-      "evento": "A. Davidovich vs R. Jódar",
-      "local": "A. Davidovich",
-      "visitante": "R. Jódar",
-      "fecha": "2026-10-18",
-      "hora": "10:30",
-      "canales": [
-        "ATP Tennis TV",
-        "Movistar Plus+ (M7): VER PARTIDO",
-        "M+ Deportes 2 (64)"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "2. Liga",
       "ronda": null,
@@ -576,6 +561,21 @@
       "hora": "10:30",
       "canales": [
         "OneFootball PPV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters Shanghai",
+      "ronda": "ATP Masters 1000",
+      "evento": "A. Davidovich vs R. Jódar",
+      "local": "A. Davidovich",
+      "visitante": "R. Jódar",
+      "fecha": "2026-10-18",
+      "hora": "10:40",
+      "canales": [
+        "ATP Tennis TV",
+        "Movistar Plus+ (M7): VER PARTIDO",
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -1041,7 +1041,8 @@
         "DAZN (Ver en directo)",
         "DAZN Baloncesto (M74 O126)",
         "TV3 (Cataluña)",
-        "TVG (Galicia)"
+        "TVG (Galicia)",
+        "TV Galicia"
       ]
     },
     {
@@ -2875,6 +2876,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Primera C",
+      "ronda": null,
+      "evento": "Argentino Rosario vs Muñiz",
+      "local": "Argentino Rosario",
+      "visitante": "Muñiz",
+      "fecha": "2026-10-18",
+      "hora": "20:00",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Liga AUF Uruguaya",
       "ronda": null,
       "evento": "Danubio vs Central Español",
@@ -3773,7 +3787,7 @@
       "local": null,
       "visitante": null,
       "fecha": "2026-10-19",
-      "hora": "08:00",
+      "hora": "08:05",
       "canales": [
         "ATP Tennis TV"
       ]
@@ -3855,7 +3869,8 @@
       "hora": "17:05",
       "canales": [
         "OneFootball",
-        "M+ Vamos 2 (51)"
+        "M+ Vamos 2 (51)",
+        "M+ #Vamos Bar 2 (308)"
       ]
     },
     {
@@ -3934,7 +3949,8 @@
       "fecha": "2026-10-19",
       "hora": "20:00",
       "canales": [
-        "M+ Vamos 2 (51)"
+        "M+ Vamos 2 (51)",
+        "M+ #Vamos Bar 2 (308)"
       ]
     },
     {
@@ -4215,7 +4231,7 @@
       "local": null,
       "visitante": null,
       "fecha": "2026-10-20",
-      "hora": "08:00",
+      "hora": "08:05",
       "canales": [
         "ATP Tennis TV"
       ]
@@ -4556,6 +4572,7 @@
       "hora": "21:00",
       "canales": [
         "M+ Liga de Campeones 2 (M61 O117)",
+        "M+ Liga de Campeones 3 (M62 O118)",
         "M+ Liga de Campeones 4 (M180 O119)"
       ]
     },
