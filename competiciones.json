@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-10-17T03:04:03"
+    "actualizado": "2026-10-18T03:06:36"
   },
   "config": {
     "puntos_por_tier": {
@@ -1857,6 +1857,16 @@
     "WTA Torneo de Osaka": {
       "deporte": "Tenis",
       "tier": "C",
+      "por_revisar": true
+    },
+    "FIFA Copa Mundial Futsal": {
+      "deporte": "Fútbol Sala",
+      "tier": "S",
+      "por_revisar": true
+    },
+    "NBA": {
+      "deporte": "Baloncesto",
+      "tier": "A",
       "por_revisar": true
     }
   }
