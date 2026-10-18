@@ -664,6 +664,9 @@ function initEventos(){
     aplicarTema(); pintarSeg(); pintarNotif(); pintarTodo();
     toast("Preferencias restablecidas");
   });
+
+  // ----- Tu agenda de hoy -----
+  initAgenda();
 }
 // Refleja la config de notificaciones en el modal y actualiza la línea de estado.
 function pintarNotif(){
@@ -686,3 +689,240 @@ async function arranca(){ aplicarTema(); pintarSeg(); initEventos(); pintarNotif
   if(notifCfg.on && ("Notification" in window) && Notification.permission==="granted") iniciarMotorAvisos();
   await cargarDatos(); pintarTodo(); }
 arranca();
+
+/* =========================================================================
+   TU AGENDA DE HOY
+   Recomendador determinista (sin IA, sin backend) sobre los eventos de HOY.
+   El usuario responde 3 preguntas (qué / dónde / cuándo) y, opcionalmente,
+   escribe un equipo o evento concreto (que tiene prioridad). Devuelve el plan
+   en pantalla, avisando cuando algo no se emite hoy o no encaja con sus filtros.
+   ========================================================================= */
+const AG = { que:"destacado", donde:"todas", cuando:"dia", deportes:new Set(), top:false };
+
+// Día de referencia de la agenda: el primero de las pestañas (normalmente hoy).
+function agDiaHoy(){ return fechasTabs()[0] || hoyISO(); }
+
+// Marca la opción activa de un grupo (selección única) y guarda el valor.
+function agSetOpt(groupSel, attr, val){
+  AG[attr]=val;
+  document.querySelectorAll(groupSel+" .ag-opt").forEach(b=>
+    b.classList.toggle("on", b.dataset[attr]===val));
+}
+
+// Chips de deportes disponibles hoy (selección múltiple).
+function agPoblarDeportes(){
+  const dia=agDiaHoy();
+  const deps=unicos((DOC.eventos||[]).filter(e=>e.fecha===dia).map(e=>e.deporte).filter(Boolean));
+  const cont=$("#agSports");
+  cont.innerHTML = deps.length
+    ? deps.map(d=>`<button type="button" class="ag-sport${AG.deportes.has(d)?' on':''}" data-dep="${esc(d)}">${esc(d)}</button>`).join("")
+    : `<span class="chips-vacio">No hay deportes programados hoy.</span>`;
+  cont.querySelectorAll(".ag-sport").forEach(b=>b.addEventListener("click",()=>{
+    const d=b.dataset.dep;
+    if(AG.deportes.has(d)) AG.deportes.delete(d); else AG.deportes.add(d);
+    b.classList.toggle("on", AG.deportes.has(d));
+  }));
+}
+
+// ¿El evento cae en la franja horaria elegida?
+function agEnFranja(e, cuando){
+  if(cuando==="dia") return true;
+  const h=parseInt((e.hora||"00:00").slice(0,2),10);
+  if(isNaN(h)) return true;
+  if(cuando==="tarde") return h>=15 && h<20;
+  if(cuando==="noche") return h>=20;
+  return true;
+}
+
+// Canal recomendado: primero una de tus plataformas, luego en abierto, luego el primero.
+function agCanalRecomendado(e){
+  const cs=e.canales||[];
+  if(!cs.length) return null;
+  const mia=cs.find(c=>misPlataformas.has(c)); if(mia) return {nombre:mia, tipo:"mia"};
+  const ab=cs.find(canalAbierto);             if(ab)  return {nombre:ab,  tipo:"abierto"};
+  return {nombre:cs[0], tipo:""};
+}
+
+// Abre el modal con valores por defecto sensatos según las preferencias.
+function agAbrir(){
+  agSetOpt("#agQue","que",     favComps.size     ? "favoritos" : "destacado");
+  agSetOpt("#agDonde","donde", misPlataformas.size ? "mias"    : "todas");
+  agSetOpt("#agCuando","cuando","dia");
+  AG.deportes=new Set(); AG.top=false;
+  $("#agTop").checked=false;
+  $("#agTexto").value=""; $("#agTextoNota").hidden=true;
+
+  // Desactiva opciones que necesitan datos que el usuario aún no tiene.
+  const favBtn=document.querySelector('#agQue .ag-opt[data-que="favoritos"]');
+  favBtn.disabled=!favComps.size; favBtn.classList.toggle("dim", !favComps.size);
+  const miasBtn=document.querySelector('#agDonde .ag-opt[data-donde="mias"]');
+  miasBtn.disabled=!misPlataformas.size; miasBtn.classList.toggle("dim", !misPlataformas.size);
+
+  agPoblarDeportes();
+  $("#agSports").hidden = AG.que!=="deportes";
+  $("#agResult").hidden=true; $("#agResult").innerHTML="";
+  $("#agendaOverlay").hidden=false; document.body.style.overflow="hidden";
+}
+function agCerrar(){ $("#agendaOverlay").hidden=true; document.body.style.overflow=""; }
+
+// Motivos (en texto) por los que un evento quedaría fuera según dónde/cuándo.
+function agMotivosFiltro(){
+  const m=[];
+  if(AG.donde==="mias")    m.push("tus plataformas");
+  if(AG.donde==="abierto") m.push("la emisión en abierto");
+  if(AG.cuando==="tarde")  m.push("la franja de tarde");
+  if(AG.cuando==="noche")  m.push("la franja de noche");
+  return m;
+}
+
+// Genera y pinta la agenda.
+function agGenerar(){
+  const dia=agDiaHoy();
+  const esHoy = (dia===hoyISO());
+  const base=(DOC.eventos||[]).filter(e=>e.fecha===dia);
+  const txtRaw=$("#agTexto").value.trim();
+  const texto=norm(txtRaw);
+
+  // Filtros comunes.
+  const vigente = e => !finalizado(e);                 // descarta lo ya terminado (solo hoy)
+  const pasaDonde = e => {
+    if(AG.donde==="abierto") return eventoAbierto(e);
+    if(AG.donde==="mias")    return misPlataformas.size && (e.canales||[]).some(c=>misPlataformas.has(c));
+    return true;
+  };
+  const pasaCuando = e => agEnFranja(e, AG.cuando);
+
+  // ----- Camino 1: búsqueda de un equipo/evento concreto (tiene prioridad) -----
+  if(texto){
+    const coincide = e => norm([e.evento,e.competicion,e.deporte,e.local,e.visitante,
+      ...(e.canales||[])].join(" ")).includes(texto);
+    const hoyMatch = base.filter(coincide);
+    if(!hoyMatch.length){
+      return agPintarAviso(`No encuentro <b>“${esc(txtRaw)}”</b> en la programación de hoy. `+
+        `Puede que no se emita hoy, o que el nombre esté escrito de otra forma.`);
+    }
+    const encaja = hoyMatch.filter(e=>vigente(e)&&pasaDonde(e)&&pasaCuando(e));
+    if(encaja.length){
+      return agPintarLista(encaja, {query:txtRaw});
+    }
+    // Hay coincidencias hoy, pero no encajan con dónde/cuándo (o ya pasaron).
+    const vivos=hoyMatch.filter(vigente);
+    const motivos=agMotivosFiltro();
+    let aviso;
+    if(!vivos.length){
+      aviso=`Encontré <b>“${esc(txtRaw)}”</b> hoy, pero ya ha finalizado.`;
+    } else if(motivos.length){
+      aviso=`Encontré <b>“${esc(txtRaw)}”</b> hoy, pero no encaja con ${motivos.join(" ni ")}. `+
+        `Te lo muestro de todas formas:`;
+    } else {
+      aviso=`Encontré <b>“${esc(txtRaw)}”</b> hoy. Te lo muestro:`;
+    }
+    return agPintarLista(vivos.length?vivos:hoyMatch, {aviso});
+  }
+
+  // ----- Camino 2: por categoría (destacado / favoritos / deportes) -----
+  let scope;
+  if(AG.que==="favoritos"){
+    scope = e => e.competicion && favComps.has(e.competicion);
+  } else if(AG.que==="deportes"){
+    if(!AG.deportes.size){
+      return agPintarAviso("Elige al menos un deporte arriba, o escribe un equipo o evento concreto.");
+    }
+    scope = e => AG.deportes.has(e.deporte);
+  } else {
+    const claves=new Set((DOC._destacados||[]).map(claveEvento));
+    scope = e => claves.has(claveEvento(e));
+  }
+
+  let items = base.filter(e=>vigente(e)&&scope(e)&&pasaDonde(e)&&pasaCuando(e));
+
+  if(!items.length){
+    // Diagnóstico de por qué no hay nada.
+    const sinFiltros = base.filter(e=>vigente(e)&&scope(e));
+    if(!sinFiltros.length){
+      const msg = AG.que==="favoritos" ? "No hay eventos de tus competiciones favoritas hoy."
+                : AG.que==="deportes"  ? "No hay eventos de los deportes elegidos pendientes hoy."
+                : "No quedan eventos destacados por emitir hoy.";
+      return agPintarAviso(msg+" Prueba con otra opción o escribe un equipo concreto.");
+    }
+    const motivos=agMotivosFiltro();
+    return agPintarAviso(`Hay opciones hoy, pero ninguna encaja con ${motivos.join(" ni ")}. `+
+      `Prueba a ampliar «¿Dónde?» o «¿Cuándo?».`);
+  }
+
+  // "Sólo lo imprescindible": las 5 de mayor relevancia.
+  if(AG.top){
+    items = items.slice().sort((a,b)=>relevancia(b)-relevancia(a)).slice(0,5);
+  }
+  agPintarLista(items, {});
+}
+
+// Pinta la lista de eventos (orden cronológico + aviso de solapes de horario).
+function agPintarLista(items, opts){
+  items = items.slice().sort((a,b)=>(a.hora||"").localeCompare(b.hora||""));
+  let prevHora=null;
+  const filas = items.map(e=>{
+    const clash = (prevHora!==null && e.hora===prevHora);
+    prevHora = e.hora;
+    const rec=agCanalRecomendado(e);
+    const part=(e.local&&e.visitante)
+      ? `${esc(e.local)} <span class="vs">vs</span> ${esc(e.visitante)}`
+      : esc(e.evento||"—");
+    const sub=[e.deporte,e.competicion].filter(Boolean).map(esc).join(" · ");
+    const canal = rec
+      ? `<span class="ag-canal ${rec.tipo}">${logoCanal(rec.nombre)}<span class="canal-txt">${esc(rec.nombre)}</span></span>`
+      : `<span class="ag-canal">Sin canal</span>`;
+    return `<li class="ag-item${clash?' clash':''}">
+      <span class="ag-h">${esc(e.hora||"--:--")}</span>
+      <span class="ag-main">
+        <span class="ag-ev">${part}</span>
+        ${sub?`<span class="ag-sub">${sub}</span>`:""}
+        ${clash?`<span class="ag-clash-note">⚠ Coincide en horario con lo anterior</span>`:""}
+      </span>
+      <span class="ag-canales">${canal}</span>
+    </li>`;
+  }).join("");
+  const aviso = opts.aviso ? `<div class="ag-aviso">${opts.aviso}</div>` : "";
+  const n=items.length;
+  const head = opts.query
+    ? `<div class="ag-result-head"><b>${n}</b> ${n===1?"resultado":"resultados"} para “${esc(opts.query)}”</div>`
+    : `<div class="ag-result-head"><b>${n}</b> ${n===1?"evento":"eventos"} en tu agenda de hoy</div>`;
+  const box=$("#agResult");
+  box.innerHTML = aviso + head + `<ul class="ag-list">${filas}</ul>`;
+  box.hidden=false;
+  box.scrollIntoView({behavior:"smooth", block:"nearest"});
+}
+// Pinta solo un aviso (cuando no hay resultados que mostrar).
+function agPintarAviso(msg){
+  const box=$("#agResult");
+  box.innerHTML=`<div class="ag-aviso solo">${msg}</div>`;
+  box.hidden=false;
+  box.scrollIntoView({behavior:"smooth", block:"nearest"});
+}
+
+// Cableado del disparador y del modal.
+function initAgenda(){
+  const btn=$("#abrirAgenda"); if(!btn) return;
+  const overlay=$("#agendaOverlay");
+  btn.addEventListener("click", agAbrir);
+  $("#cerrarAgenda").addEventListener("click", agCerrar);
+  overlay.addEventListener("click", e=>{ if(e.target===overlay) agCerrar(); });
+  document.addEventListener("keydown", e=>{ if(e.key==="Escape" && !overlay.hidden) agCerrar(); });
+
+  $("#agQue").addEventListener("click", e=>{
+    const b=e.target.closest(".ag-opt"); if(!b||b.disabled) return;
+    agSetOpt("#agQue","que",b.dataset.que);
+    $("#agSports").hidden = AG.que!=="deportes";
+  });
+  $("#agDonde").addEventListener("click", e=>{
+    const b=e.target.closest(".ag-opt"); if(!b||b.disabled) return;
+    agSetOpt("#agDonde","donde",b.dataset.donde);
+  });
+  $("#agCuando").addEventListener("click", e=>{
+    const b=e.target.closest(".ag-opt"); if(!b) return;
+    agSetOpt("#agCuando","cuando",b.dataset.cuando);
+  });
+  $("#agTop").addEventListener("change", e=>{ AG.top=e.target.checked; });
+  $("#agTexto").addEventListener("input", e=>{ $("#agTextoNota").hidden = !e.target.value.trim(); });
+  $("#agGenerar").addEventListener("click", agGenerar);
+}
