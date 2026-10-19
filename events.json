@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-10-19T03:20:34",
+    "generado": "2026-10-19T15:17:21",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 144
+    "total_eventos": 163
   },
   "eventos": [
     {
@@ -227,7 +227,7 @@
       "local": "V. Golubic",
       "visitante": "M. Hontama",
       "fecha": "2026-10-19",
-      "hora": "04:30",
+      "hora": "04:35",
       "canales": [
         "WTA TV"
       ]
@@ -240,21 +240,7 @@
       "local": "E. Mertens",
       "visitante": "L. Fernández",
       "fecha": "2026-10-19",
-      "hora": "06:00",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Torneo de Ningbo",
-      "ronda": "1ª Ronda",
-      "evento": "S. Cirstea vs H. Shi",
-      "local": "S. Cirstea",
-      "visitante": "H. Shi",
-      "fecha": "2026-10-19",
-      "hora": "07:30",
+      "hora": "06:05",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -268,9 +254,23 @@
       "local": "M. Kecmanovic",
       "visitante": "J. Duckworth",
       "fecha": "2026-10-19",
-      "hora": "08:30",
+      "hora": "08:40",
       "canales": [
         "ATP Tennis TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Ningbo",
+      "ronda": "1ª Ronda",
+      "evento": "S. Cirstea vs H. Shi",
+      "local": "S. Cirstea",
+      "visitante": "H. Shi",
+      "fecha": "2026-10-19",
+      "hora": "09:15",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -281,7 +281,7 @@
       "local": "K. Boulter",
       "visitante": "H. Sakatsume",
       "fecha": "2026-10-19",
-      "hora": "09:00",
+      "hora": "09:20",
       "canales": [
         "WTA TV"
       ]
@@ -294,7 +294,7 @@
       "local": "A. Mannarino",
       "visitante": "A. Vukic",
       "fecha": "2026-10-19",
-      "hora": "10:00",
+      "hora": "10:05",
       "canales": [
         "ATP Tennis TV"
       ]
@@ -456,7 +456,8 @@
       "canales": [
         "OneFootball",
         "M+ Vamos 2 (51)",
-        "M+ #Vamos Bar 2 (308)"
+        "M+ #Vamos Bar 2 (308)",
+        "M+ Liga de Campeones 2 (M61 O117)"
       ]
     },
     {
@@ -549,7 +550,8 @@
       "hora": "20:00",
       "canales": [
         "M+ Vamos 2 (51)",
-        "M+ #Vamos Bar 2 (308)"
+        "M+ #Vamos Bar 2 (308)",
+        "M+ Liga de Campeones 2 (M61 O117)"
       ]
     },
     {
@@ -703,6 +705,19 @@
       ]
     },
     {
+      "deporte": "Béisbol",
+      "competicion": "LVBP",
+      "ronda": null,
+      "evento": "Cardenales de Lara vs Navegantes del Magallanes",
+      "local": "Cardenales de Lara",
+      "visitante": "Navegantes del Magallanes",
+      "fecha": "2026-10-20",
+      "hora": "01:00",
+      "canales": [
+        "BeisbolPlay"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Serie A Brasil",
       "ronda": null,
@@ -797,11 +812,67 @@
     },
     {
       "deporte": "Tenis",
+      "competicion": "WTA Torneo de Ningbo",
+      "ronda": "1ª Ronda",
+      "evento": "Y. Putintseva vs D. Shnaider",
+      "local": "Y. Putintseva",
+      "visitante": "D. Shnaider",
+      "fecha": "2026-10-20",
+      "hora": "04:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Ningbo",
+      "ronda": "1ª Ronda",
+      "evento": "J. Ostapenko vs B. Bencic",
+      "local": "J. Ostapenko",
+      "visitante": "B. Bencic",
+      "fecha": "2026-10-20",
+      "hora": "04:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Ningbo",
+      "ronda": "1ª Ronda",
+      "evento": "J. Paolini vs A. Kalinina",
+      "local": "J. Paolini",
+      "visitante": "A. Kalinina",
+      "fecha": "2026-10-20",
+      "hora": "04:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Ningbo",
+      "ronda": "1ª Ronda",
+      "evento": "H. Guo vs E. Alexandrova",
+      "local": "H. Guo",
+      "visitante": "E. Alexandrova",
+      "fecha": "2026-10-20",
+      "hora": "04:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
       "competicion": "WTA Torneo de Osaka",
-      "ronda": null,
-      "evento": "1ª Ronda WTA 250",
-      "local": null,
-      "visitante": null,
+      "ronda": "1ª Ronda",
+      "evento": "A. Li vs E. Jones",
+      "local": "A. Li",
+      "visitante": "E. Jones",
       "fecha": "2026-10-20",
       "hora": "04:30",
       "canales": [
@@ -810,27 +881,91 @@
     },
     {
       "deporte": "Tenis",
-      "competicion": "WTA Torneo de Ningbo",
-      "ronda": null,
-      "evento": "1ª Ronda WTA 500",
-      "local": null,
-      "visitante": null,
+      "competicion": "WTA Torneo de Osaka",
+      "ronda": "1ª Ronda",
+      "evento": "P. Badosa vs A. Ruzic",
+      "local": "P. Badosa",
+      "visitante": "A. Ruzic",
       "fecha": "2026-10-20",
-      "hora": "07:00",
+      "hora": "06:00",
       "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
+        "WTA TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Osaka",
+      "ronda": "1ª Ronda",
+      "evento": "M. Uchijima vs E. Shibahara",
+      "local": "M. Uchijima",
+      "visitante": "E. Shibahara",
+      "fecha": "2026-10-20",
+      "hora": "06:00",
+      "canales": [
+        "WTA TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Osaka",
+      "ronda": "1ª Ronda",
+      "evento": "K. Siniakova vs P. Stearns",
+      "local": "K. Siniakova",
+      "visitante": "P. Stearns",
+      "fecha": "2026-10-20",
+      "hora": "07:30",
+      "canales": [
+        "WTA TV"
       ]
     },
     {
       "deporte": "Tenis",
       "competicion": "Torneo de Almaty",
-      "ronda": null,
-      "evento": "1ª Ronda ATP 250",
-      "local": null,
-      "visitante": null,
+      "ronda": "1ª Ronda",
+      "evento": "S. Tsitsipas vs A. Kovacevic",
+      "local": "S. Tsitsipas",
+      "visitante": "A. Kovacevic",
       "fecha": "2026-10-20",
-      "hora": "08:05",
+      "hora": "08:00",
+      "canales": [
+        "ATP Tennis TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Almaty",
+      "ronda": "1ª Ronda",
+      "evento": "F. Marozsan vs T. Skatov",
+      "local": "F. Marozsan",
+      "visitante": "T. Skatov",
+      "fecha": "2026-10-20",
+      "hora": "08:00",
+      "canales": [
+        "ATP Tennis TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Almaty",
+      "ronda": "1ª Ronda",
+      "evento": "T. Atmane vs R. Hijikata",
+      "local": "T. Atmane",
+      "visitante": "R. Hijikata",
+      "fecha": "2026-10-20",
+      "hora": "08:00",
+      "canales": [
+        "ATP Tennis TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Almaty",
+      "ronda": "1ª Ronda",
+      "evento": "R. Sakamoto vs K. Khachanov",
+      "local": "R. Sakamoto",
+      "visitante": "K. Khachanov",
+      "fecha": "2026-10-20",
+      "hora": "08:00",
       "canales": [
         "ATP Tennis TV"
       ]
@@ -874,6 +1009,7 @@
         "UEFA TV",
         "M+ Vamos (8 y 50)",
         "M+ #Vamos Bar (307)",
+        "FC Barcelona PPV YouTube",
         "M+ Liga de Campeones (M60 O115)"
       ]
     },
@@ -921,6 +1057,19 @@
       "deporte": "Baloncesto",
       "competicion": "Basketball Champions League",
       "ronda": "Liga Regular",
+      "evento": "Falco Szombathely vs Salon Vilpas Vikings",
+      "local": "Falco Szombathely",
+      "visitante": "Salon Vilpas Vikings",
+      "fecha": "2026-10-20",
+      "hora": "18:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Basketball Champions League",
+      "ronda": "Liga Regular",
       "evento": "KVIS Pardubice vs Unicaja Málaga",
       "local": "KVIS Pardubice",
       "visitante": "Unicaja Málaga",
@@ -954,6 +1103,19 @@
       "hora": "18:45",
       "canales": [
         "M+ Liga de Campeones 3 (M62 O118)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Basketball Champions League",
+      "ronda": "Liga Regular",
+      "evento": "Galatasaray Istanbul vs Strasbourg Basket",
+      "local": "Galatasaray Istanbul",
+      "visitante": "Strasbourg Basket",
+      "fecha": "2026-10-20",
+      "hora": "19:00",
+      "canales": [
+        "DAZN (Ver en directo)"
       ]
     },
     {
@@ -1036,6 +1198,19 @@
     },
     {
       "deporte": "Baloncesto",
+      "competicion": "Basketball Champions League",
+      "ronda": "Liga Regular",
+      "evento": "Cibona Zagreb vs Legia Warszawa BC",
+      "local": "Cibona Zagreb",
+      "visitante": "Legia Warszawa BC",
+      "fecha": "2026-10-20",
+      "hora": "20:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
       "competicion": "FIBA Europe Cup",
       "ronda": "Liga Regular",
       "evento": "Basquet Girona vs Basket Zielona Góra",
@@ -1086,7 +1261,7 @@
       "hora": "20:30",
       "canales": [
         "M+ Baloncesto (M66)",
-        "Esport3 (Cataluña)"
+        "Esport3 Web"
       ]
     },
     {
@@ -1200,7 +1375,8 @@
       "hora": "21:00",
       "canales": [
         "NBA League Pass",
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN Baloncesto (M74 O126)"
       ]
     },
     {
@@ -1230,6 +1406,45 @@
       ]
     },
     {
+      "deporte": "Béisbol",
+      "competicion": "LVBP",
+      "ronda": null,
+      "evento": "Águilas del Zulia vs Tigres de Aragua",
+      "local": "Águilas del Zulia",
+      "visitante": "Tigres de Aragua",
+      "fecha": "2026-10-21",
+      "hora": "01:00",
+      "canales": [
+        "BeisbolPlay"
+      ]
+    },
+    {
+      "deporte": "Béisbol",
+      "competicion": "LVBP",
+      "ronda": null,
+      "evento": "Bravos de Margarita vs Caribes de Anzoátegui",
+      "local": "Bravos de Margarita",
+      "visitante": "Caribes de Anzoátegui",
+      "fecha": "2026-10-21",
+      "hora": "01:00",
+      "canales": [
+        "BeisbolPlay"
+      ]
+    },
+    {
+      "deporte": "Béisbol",
+      "competicion": "LVBP",
+      "ronda": null,
+      "evento": "Tiburones de la Guaira vs Leones del Caracas",
+      "local": "Tiburones de la Guaira",
+      "visitante": "Leones del Caracas",
+      "fecha": "2026-10-21",
+      "hora": "01:00",
+      "canales": [
+        "BeisbolPlay"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "NBA",
       "ronda": "Liga Regular",
@@ -1240,7 +1455,8 @@
       "hora": "01:00",
       "canales": [
         "NBA League Pass",
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN Baloncesto 2 (M75 O127)"
       ]
     },
     {
@@ -1280,7 +1496,8 @@
       "hora": "02:30",
       "canales": [
         "M+ Vamos (8 y 50)",
-        "M+ #Vamos Bar (307)"
+        "M+ #Vamos Bar (307)",
+        "M+ Liga de Campeones (M60 O115)"
       ]
     },
     {
@@ -1294,7 +1511,8 @@
       "hora": "03:30",
       "canales": [
         "NBA League Pass",
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN Baloncesto 3 (M76 O128)"
       ]
     },
     {
@@ -1446,6 +1664,19 @@
     },
     {
       "deporte": "Baloncesto",
+      "competicion": "Basketball Champions League",
+      "ronda": "Liga Regular",
+      "evento": "AEK BC vs Telenet Giants Antwerp",
+      "local": "AEK BC",
+      "visitante": "Telenet Giants Antwerp",
+      "fecha": "2026-10-21",
+      "hora": "18:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
       "competicion": "Eurocup Women",
       "ronda": "Liga Regular",
       "evento": "Ensino Lugo vs Gorzów Basketball",
@@ -1482,6 +1713,19 @@
       "hora": "18:00",
       "canales": [
         "M+ Baloncesto 3 (M194)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Basketball Champions League",
+      "ronda": "Liga Regular",
+      "evento": "Bnei Herzliya vs FC Porto CB",
+      "local": "Bnei Herzliya",
+      "visitante": "FC Porto CB",
+      "fecha": "2026-10-21",
+      "hora": "18:30",
+      "canales": [
+        "DAZN (Ver en directo)"
       ]
     },
     {
@@ -1747,6 +1991,19 @@
       "canales": [
         "RTVE Play",
         "Esport3 (Cataluña)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Basketball Champions League",
+      "ronda": "Liga Regular",
+      "evento": "Reggio Emilia vs Juventus Utena",
+      "local": "Reggio Emilia",
+      "visitante": "Juventus Utena",
+      "fecha": "2026-10-21",
+      "hora": "20:00",
+      "canales": [
+        "DAZN (Ver en directo)"
       ]
     },
     {
