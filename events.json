@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-10-19T15:17:21",
+    "generado": "2026-10-19T20:52:46",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 163
+    "total_eventos": 170
   },
   "eventos": [
     {
@@ -275,19 +275,6 @@
     },
     {
       "deporte": "Tenis",
-      "competicion": "WTA Torneo de Osaka",
-      "ronda": "1ª Ronda",
-      "evento": "K. Boulter vs H. Sakatsume",
-      "local": "K. Boulter",
-      "visitante": "H. Sakatsume",
-      "fecha": "2026-10-19",
-      "hora": "09:20",
-      "canales": [
-        "WTA TV"
-      ]
-    },
-    {
-      "deporte": "Tenis",
       "competicion": "Torneo de Almaty",
       "ronda": "1ª Ronda",
       "evento": "A. Mannarino vs A. Vukic",
@@ -295,19 +282,6 @@
       "visitante": "A. Vukic",
       "fecha": "2026-10-19",
       "hora": "10:05",
-      "canales": [
-        "ATP Tennis TV"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Almaty",
-      "ronda": "1ª Ronda",
-      "evento": "M. Cilic vs N. Basilashvili",
-      "local": "M. Cilic",
-      "visitante": "N. Basilashvili",
-      "fecha": "2026-10-19",
-      "hora": "11:30",
       "canales": [
         "ATP Tennis TV"
       ]
@@ -333,7 +307,20 @@
       "local": "F. Cina",
       "visitante": "J. Munar",
       "fecha": "2026-10-19",
-      "hora": "12:00",
+      "hora": "12:10",
+      "canales": [
+        "ATP Tennis TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Almaty",
+      "ronda": "1ª Ronda",
+      "evento": "M. Cilic vs N. Basilashvili",
+      "local": "M. Cilic",
+      "visitante": "N. Basilashvili",
+      "fecha": "2026-10-19",
+      "hora": "12:55",
       "canales": [
         "ATP Tennis TV"
       ]
@@ -346,7 +333,7 @@
       "local": "A. Eala",
       "visitante": "D. Parry",
       "fecha": "2026-10-19",
-      "hora": "13:30",
+      "hora": "13:40",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -360,7 +347,7 @@
       "local": "Y. Hanfmann",
       "visitante": "M. Damm",
       "fecha": "2026-10-19",
-      "hora": "13:30",
+      "hora": "13:55",
       "canales": [
         "ATP Tennis TV"
       ]
@@ -373,7 +360,7 @@
       "local": "J. Faria",
       "visitante": "F. Balshaw",
       "fecha": "2026-10-19",
-      "hora": "15:00",
+      "hora": "15:10",
       "canales": [
         "ATP Tennis TV"
       ]
@@ -386,20 +373,7 @@
       "local": "A. Guerrieri",
       "visitante": "A. Michelsen",
       "fecha": "2026-10-19",
-      "hora": "15:30",
-      "canales": [
-        "ATP Tennis TV"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Lyon",
-      "ronda": "1ª Ronda",
-      "evento": "M. Arnaldi vs L. Musetti",
-      "local": "M. Arnaldi",
-      "visitante": "L. Musetti",
-      "fecha": "2026-10-19",
-      "hora": "16:30",
+      "hora": "15:40",
       "canales": [
         "ATP Tennis TV"
       ]
@@ -412,7 +386,7 @@
       "local": "M. Kukushkin",
       "visitante": "S. Sakellaridis",
       "fecha": "2026-10-19",
-      "hora": "16:30",
+      "hora": "16:40",
       "canales": [
         "ATP Tennis TV"
       ]
@@ -461,6 +435,19 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Lyon",
+      "ronda": "1ª Ronda",
+      "evento": "M. Arnaldi vs L. Musetti",
+      "local": "M. Arnaldi",
+      "visitante": "L. Musetti",
+      "fecha": "2026-10-19",
+      "hora": "17:20",
+      "canales": [
+        "ATP Tennis TV"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Bundesliga Femenina",
       "ronda": null,
@@ -472,19 +459,6 @@
       "canales": [
         "DAZN (Ver en directo)",
         "DAZN App Gratis (Ver gratis)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Lyon",
-      "ronda": "1ª Ronda",
-      "evento": "L. Sonego vs M. Kouame",
-      "local": "L. Sonego",
-      "visitante": "M. Kouame",
-      "fecha": "2026-10-19",
-      "hora": "18:00",
-      "canales": [
-        "ATP Tennis TV"
       ]
     },
     {
@@ -511,6 +485,19 @@
       "hora": "18:30",
       "canales": [
         "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Lyon",
+      "ronda": "1ª Ronda",
+      "evento": "L. Sonego vs M. Kouame",
+      "local": "L. Sonego",
+      "visitante": "M. Kouame",
+      "fecha": "2026-10-19",
+      "hora": "19:00",
+      "canales": [
+        "ATP Tennis TV"
       ]
     },
     {
@@ -812,62 +799,6 @@
     },
     {
       "deporte": "Tenis",
-      "competicion": "WTA Torneo de Ningbo",
-      "ronda": "1ª Ronda",
-      "evento": "Y. Putintseva vs D. Shnaider",
-      "local": "Y. Putintseva",
-      "visitante": "D. Shnaider",
-      "fecha": "2026-10-20",
-      "hora": "04:00",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Torneo de Ningbo",
-      "ronda": "1ª Ronda",
-      "evento": "J. Ostapenko vs B. Bencic",
-      "local": "J. Ostapenko",
-      "visitante": "B. Bencic",
-      "fecha": "2026-10-20",
-      "hora": "04:00",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Torneo de Ningbo",
-      "ronda": "1ª Ronda",
-      "evento": "J. Paolini vs A. Kalinina",
-      "local": "J. Paolini",
-      "visitante": "A. Kalinina",
-      "fecha": "2026-10-20",
-      "hora": "04:00",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Torneo de Ningbo",
-      "ronda": "1ª Ronda",
-      "evento": "H. Guo vs E. Alexandrova",
-      "local": "H. Guo",
-      "visitante": "E. Alexandrova",
-      "fecha": "2026-10-20",
-      "hora": "04:00",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
       "competicion": "WTA Torneo de Osaka",
       "ronda": "1ª Ronda",
       "evento": "A. Li vs E. Jones",
@@ -896,9 +827,9 @@
       "deporte": "Tenis",
       "competicion": "WTA Torneo de Osaka",
       "ronda": "1ª Ronda",
-      "evento": "M. Uchijima vs E. Shibahara",
-      "local": "M. Uchijima",
-      "visitante": "E. Shibahara",
+      "evento": "K. Boulter vs H. Sakatsume",
+      "local": "K. Boulter",
+      "visitante": "H. Sakatsume",
       "fecha": "2026-10-20",
       "hora": "06:00",
       "canales": [
@@ -909,39 +840,40 @@
       "deporte": "Tenis",
       "competicion": "WTA Torneo de Osaka",
       "ronda": "1ª Ronda",
-      "evento": "K. Siniakova vs P. Stearns",
-      "local": "K. Siniakova",
-      "visitante": "P. Stearns",
+      "evento": "M. Uchijima vs E. Shibahara",
+      "local": "M. Uchijima",
+      "visitante": "E. Shibahara",
       "fecha": "2026-10-20",
-      "hora": "07:30",
+      "hora": "06:15",
       "canales": [
         "WTA TV"
       ]
     },
     {
       "deporte": "Tenis",
-      "competicion": "Torneo de Almaty",
+      "competicion": "WTA Torneo de Ningbo",
       "ronda": "1ª Ronda",
-      "evento": "S. Tsitsipas vs A. Kovacevic",
-      "local": "S. Tsitsipas",
-      "visitante": "A. Kovacevic",
+      "evento": "Y. Putintseva vs D. Shnaider",
+      "local": "Y. Putintseva",
+      "visitante": "D. Shnaider",
       "fecha": "2026-10-20",
-      "hora": "08:00",
+      "hora": "07:00",
       "canales": [
-        "ATP Tennis TV"
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
       "deporte": "Tenis",
-      "competicion": "Torneo de Almaty",
+      "competicion": "WTA Torneo de Osaka",
       "ronda": "1ª Ronda",
-      "evento": "F. Marozsan vs T. Skatov",
-      "local": "F. Marozsan",
-      "visitante": "T. Skatov",
+      "evento": "K. Siniakova vs P. Stearns",
+      "local": "K. Siniakova",
+      "visitante": "P. Stearns",
       "fecha": "2026-10-20",
-      "hora": "08:00",
+      "hora": "07:45",
       "canales": [
-        "ATP Tennis TV"
+        "WTA TV"
       ]
     },
     {
@@ -952,33 +884,61 @@
       "local": "T. Atmane",
       "visitante": "R. Hijikata",
       "fecha": "2026-10-20",
-      "hora": "08:00",
+      "hora": "08:30",
       "canales": [
         "ATP Tennis TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Ningbo",
+      "ronda": "1ª Ronda",
+      "evento": "J. Paolini vs A. Kalinina",
+      "local": "J. Paolini",
+      "visitante": "A. Kalinina",
+      "fecha": "2026-10-20",
+      "hora": "08:30",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
       "deporte": "Tenis",
       "competicion": "Torneo de Almaty",
       "ronda": "1ª Ronda",
-      "evento": "R. Sakamoto vs K. Khachanov",
-      "local": "R. Sakamoto",
-      "visitante": "K. Khachanov",
+      "evento": "S. Tsitsipas vs A. Kovacevic",
+      "local": "S. Tsitsipas",
+      "visitante": "A. Kovacevic",
       "fecha": "2026-10-20",
-      "hora": "08:00",
+      "hora": "10:00",
       "canales": [
         "ATP Tennis TV"
       ]
     },
     {
       "deporte": "Tenis",
-      "competicion": "Torneo de Lyon",
-      "ronda": null,
-      "evento": "1ª Ronda ATP 250",
-      "local": null,
-      "visitante": null,
+      "competicion": "WTA Torneo de Ningbo",
+      "ronda": "1ª Ronda",
+      "evento": "J. Ostapenko vs B. Bencic",
+      "local": "J. Ostapenko",
+      "visitante": "B. Bencic",
       "fecha": "2026-10-20",
-      "hora": "11:00",
+      "hora": "10:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Almaty",
+      "ronda": "1ª Ronda",
+      "evento": "F. Marozsan vs T. Skatov",
+      "local": "F. Marozsan",
+      "visitante": "T. Skatov",
+      "fecha": "2026-10-20",
+      "hora": "11:30",
       "canales": [
         "ATP Tennis TV"
       ]
@@ -986,12 +946,39 @@
     {
       "deporte": "Tenis",
       "competicion": "Torneo de Bruselas",
-      "ronda": null,
-      "evento": "1ª Ronda ATP 250",
-      "local": null,
-      "visitante": null,
+      "ronda": "1ª Ronda",
+      "evento": "T. Griekspoor vs M. Schoenhaus",
+      "local": "T. Griekspoor",
+      "visitante": "M. Schoenhaus",
       "fecha": "2026-10-20",
-      "hora": "11:00",
+      "hora": "11:30",
+      "canales": [
+        "ATP Tennis TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Ningbo",
+      "ronda": "1ª Ronda",
+      "evento": "H. Guo vs E. Alexandrova",
+      "local": "H. Guo",
+      "visitante": "E. Alexandrova",
+      "fecha": "2026-10-20",
+      "hora": "13:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Bruselas",
+      "ronda": "1ª Ronda",
+      "evento": "B. Van de Zandschulp vs C. Chidekh",
+      "local": "B. Van de Zandschulp",
+      "visitante": "C. Chidekh",
+      "fecha": "2026-10-20",
+      "hora": "13:00",
       "canales": [
         "ATP Tennis TV"
       ]
@@ -1014,6 +1001,19 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Lyon",
+      "ronda": "1ª Ronda",
+      "evento": "U. Humbert vs C. Moutet",
+      "local": "U. Humbert",
+      "visitante": "C. Moutet",
+      "fecha": "2026-10-20",
+      "hora": "14:00",
+      "canales": [
+        "ATP Tennis TV"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "UEFA Youth League",
       "ronda": "Fase Liga",
@@ -1024,6 +1024,19 @@
       "hora": "15:00",
       "canales": [
         "Canal por confirmar"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Lyon",
+      "ronda": "1ª Ronda",
+      "evento": "B. Bonzi vs C. Norrie",
+      "local": "B. Bonzi",
+      "visitante": "C. Norrie",
+      "fecha": "2026-10-20",
+      "hora": "15:30",
+      "canales": [
+        "ATP Tennis TV"
       ]
     },
     {
@@ -1054,6 +1067,32 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Bruselas",
+      "ronda": "1ª Ronda",
+      "evento": "J. Fearnley vs H. Gaston",
+      "local": "J. Fearnley",
+      "visitante": "H. Gaston",
+      "fecha": "2026-10-20",
+      "hora": "16:00",
+      "canales": [
+        "ATP Tennis TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Almaty",
+      "ronda": "1ª Ronda",
+      "evento": "R. Sakamoto vs K. Khachanov",
+      "local": "R. Sakamoto",
+      "visitante": "K. Khachanov",
+      "fecha": "2026-10-20",
+      "hora": "16:30",
+      "canales": [
+        "ATP Tennis TV"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "Basketball Champions League",
       "ronda": "Liga Regular",
@@ -1076,7 +1115,21 @@
       "fecha": "2026-10-20",
       "hora": "18:00",
       "canales": [
+        "Teledeporte",
         "RTVE Play"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Bruselas",
+      "ronda": "1ª Ronda",
+      "evento": "T. Samuel vs Z. Bergs",
+      "local": "T. Samuel",
+      "visitante": "Z. Bergs",
+      "fecha": "2026-10-20",
+      "hora": "18:00",
+      "canales": [
+        "ATP Tennis TV"
       ]
     },
     {
@@ -1116,6 +1169,32 @@
       "hora": "19:00",
       "canales": [
         "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Lyon",
+      "ronda": "1ª Ronda",
+      "evento": "M. Berrettini vs K. Jacquet",
+      "local": "M. Berrettini",
+      "visitante": "K. Jacquet",
+      "fecha": "2026-10-20",
+      "hora": "19:00",
+      "canales": [
+        "ATP Tennis TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Bruselas",
+      "ronda": "1ª Ronda",
+      "evento": "N. Basavareddy vs R. Collignon",
+      "local": "N. Basavareddy",
+      "visitante": "R. Collignon",
+      "fecha": "2026-10-20",
+      "hora": "19:30",
+      "canales": [
+        "ATP Tennis TV"
       ]
     },
     {
@@ -1248,6 +1327,19 @@
       "hora": "20:30",
       "canales": [
         "Canal por confirmar"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Lyon",
+      "ronda": "1ª Ronda",
+      "evento": "H. Medjedovic vs B. Nakashima",
+      "local": "H. Medjedovic",
+      "visitante": "B. Nakashima",
+      "fecha": "2026-10-20",
+      "hora": "20:30",
+      "canales": [
+        "ATP Tennis TV"
       ]
     },
     {
@@ -1869,7 +1961,9 @@
       "fecha": "2026-10-21",
       "hora": "19:30",
       "canales": [
-        "M+ Baloncesto 2 (M67)"
+        "M+ Baloncesto 2 (M67)",
+        "Aragón Play",
+        "Aragón TV"
       ]
     },
     {
