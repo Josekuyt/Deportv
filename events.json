@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-10-20T03:29:24",
+    "generado": "2026-10-20T13:20:49",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 215
+    "total_eventos": 262
   },
   "eventos": [
     {
@@ -377,7 +377,7 @@
       "fecha": "2026-10-20",
       "hora": "15:00",
       "canales": [
-        "Canal por confirmar"
+        "* SIN TV EN DIRECTO *"
       ]
     },
     {
@@ -403,7 +403,7 @@
       "fecha": "2026-10-20",
       "hora": "16:00",
       "canales": [
-        "Canal por confirmar"
+        "* SIN TV EN DIRECTO *"
       ]
     },
     {
@@ -474,6 +474,19 @@
       ]
     },
     {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Europe Cup",
+      "ronda": "Liga Regular",
+      "evento": "AO Mykonos vs BC Lokomotiv Plovdiv",
+      "local": "AO Mykonos",
+      "visitante": "BC Lokomotiv Plovdiv",
+      "fecha": "2026-10-20",
+      "hora": "18:00",
+      "canales": [
+        "FIBA YouTube"
+      ]
+    },
+    {
       "deporte": "Tenis",
       "competicion": "Torneo de Bruselas",
       "ronda": "1ª Ronda",
@@ -536,6 +549,19 @@
       "hora": "19:00",
       "canales": [
         "ATP Tennis TV"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Europe Cup",
+      "ronda": "Liga Regular",
+      "evento": "S. Oliver Baskets vs MZT Skopje",
+      "local": "S. Oliver Baskets",
+      "visitante": "MZT Skopje",
+      "fecha": "2026-10-20",
+      "hora": "19:00",
+      "canales": [
+        "FIBA YouTube"
       ]
     },
     {
@@ -646,12 +672,39 @@
       "deporte": "Baloncesto",
       "competicion": "FIBA Europe Cup",
       "ronda": "Liga Regular",
+      "evento": "Elan Chalon vs Valmiera Glass Via",
+      "local": "Elan Chalon",
+      "visitante": "Valmiera Glass Via",
+      "fecha": "2026-10-20",
+      "hora": "20:00",
+      "canales": [
+        "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Europe Cup",
+      "ronda": "Liga Regular",
+      "evento": "SLUC Nancy vs Nitra Blue Wings",
+      "local": "SLUC Nancy",
+      "visitante": "Nitra Blue Wings",
+      "fecha": "2026-10-20",
+      "hora": "20:00",
+      "canales": [
+        "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Europe Cup",
+      "ronda": "Liga Regular",
       "evento": "Basquet Girona vs Basket Zielona Góra",
       "local": "Basquet Girona",
       "visitante": "Basket Zielona Góra",
       "fecha": "2026-10-20",
       "hora": "20:00",
       "canales": [
+        "FIBA YouTube",
         "Esport3 Web"
       ]
     },
@@ -694,6 +747,19 @@
       "hora": "20:30",
       "canales": [
         "ATP Tennis TV"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Europe Cup",
+      "ronda": "Liga Regular",
+      "evento": "Filou Oostende vs CS Dinamo București BC",
+      "local": "Filou Oostende",
+      "visitante": "CS Dinamo București BC",
+      "fecha": "2026-10-20",
+      "hora": "20:30",
+      "canales": [
+        "FIBA YouTube"
       ]
     },
     {
@@ -823,6 +889,32 @@
         "NBA League Pass",
         "DAZN (Ver en directo)",
         "DAZN Baloncesto (M74 O126)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Torneo BetPlay DIMAYOR",
+      "ronda": null,
+      "evento": "Independiente Valle del Cauca vs Boca Juniors Cali",
+      "local": "Independiente Valle del Cauca",
+      "visitante": "Boca Juniors Cali",
+      "fecha": "2026-10-20",
+      "hora": "22:00",
+      "canales": [
+        "Win Sports TV YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Torneo BetPlay DIMAYOR",
+      "ronda": null,
+      "evento": "Atlético FC vs Quindio",
+      "local": "Atlético FC",
+      "visitante": "Quindio",
+      "fecha": "2026-10-20",
+      "hora": "22:30",
+      "canales": [
+        "Win Sports TV YouTube"
       ]
     },
     {
@@ -964,12 +1056,25 @@
     {
       "deporte": "Tenis",
       "competicion": "WTA Torneo de Osaka",
-      "ronda": null,
-      "evento": "2ª Ronda WTA 250",
-      "local": null,
-      "visitante": null,
+      "ronda": "2ª Ronda",
+      "evento": "T. Gibson vs S. Kraus",
+      "local": "T. Gibson",
+      "visitante": "S. Kraus",
       "fecha": "2026-10-21",
       "hora": "04:30",
+      "canales": [
+        "WTA TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Osaka",
+      "ronda": "2ª Ronda",
+      "evento": "T. Valentova vs L. Tagger",
+      "local": "T. Valentova",
+      "visitante": "L. Tagger",
+      "fecha": "2026-10-21",
+      "hora": "06:00",
       "canales": [
         "WTA TV"
       ]
@@ -986,6 +1091,19 @@
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Osaka",
+      "ronda": "2ª Ronda",
+      "evento": "K. Boulter vs V. Golubic",
+      "local": "K. Boulter",
+      "visitante": "V. Golubic",
+      "fecha": "2026-10-21",
+      "hora": "07:30",
+      "canales": [
+        "WTA TV"
       ]
     },
     {
@@ -1029,6 +1147,32 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "J1 League",
+      "ronda": null,
+      "evento": "Yokohama F. Marinos vs Tokyo Verdy Beleza",
+      "local": "Yokohama F. Marinos",
+      "visitante": "Tokyo Verdy Beleza",
+      "fecha": "2026-10-21",
+      "hora": "12:00",
+      "canales": [
+        "J.LEAGUE International YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "J1 League",
+      "ronda": null,
+      "evento": "V-Varen Nagasaki vs Sanfrecce Hiroshima",
+      "local": "V-Varen Nagasaki",
+      "visitante": "Sanfrecce Hiroshima",
+      "fecha": "2026-10-21",
+      "hora": "12:00",
+      "canales": [
+        "J.LEAGUE International YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "UEFA Youth League",
       "ronda": "Fase Liga",
       "evento": "Lille Academy vs Galatasaray Academy",
@@ -1039,6 +1183,19 @@
       "canales": [
         "UEFA TV",
         "M+ Liga de Campeones 2 (M61 O117)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "UEFA Youth League",
+      "ronda": "Fase Liga",
+      "evento": "Real Betis Academy vs Feyenoord Academy",
+      "local": "Real Betis Academy",
+      "visitante": "Feyenoord Academy",
+      "fecha": "2026-10-21",
+      "hora": "15:00",
+      "canales": [
+        "Canal por confirmar"
       ]
     },
     {
@@ -1059,19 +1216,6 @@
       "deporte": "Fútbol",
       "competicion": "UEFA Youth League",
       "ronda": "Fase Liga",
-      "evento": "Real Betis Academy vs Feyenoord Academy",
-      "local": "Real Betis Academy",
-      "visitante": "Feyenoord Academy",
-      "fecha": "2026-10-21",
-      "hora": "16:00",
-      "canales": [
-        "Canal por confirmar"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "UEFA Youth League",
-      "ronda": "Fase Liga",
       "evento": "Inter Milan Academy vs Shakhtar Academy",
       "local": "Inter Milan Academy",
       "visitante": "Shakhtar Academy",
@@ -1079,7 +1223,21 @@
       "hora": "16:00",
       "canales": [
         "UEFA TV",
-        "M+ Liga de Campeones (M60 O115)"
+        "M+ Liga de Campeones (M60 O115)",
+        "M+ Liga de Campeones 2 (M61 O117)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Eurocup Women",
+      "ronda": "Liga Regular",
+      "evento": "Panserraikos BC vs Basket Montpellier",
+      "local": "Panserraikos BC",
+      "visitante": "Basket Montpellier",
+      "fecha": "2026-10-21",
+      "hora": "17:00",
+      "canales": [
+        "FIBA YouTube"
       ]
     },
     {
@@ -1131,7 +1289,33 @@
       "fecha": "2026-10-21",
       "hora": "18:00",
       "canales": [
-        "Canal por confirmar"
+        "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Eurocup Women",
+      "ronda": "Liga Regular",
+      "evento": "MBK Ruzomberok vs Basket Namur Capitale",
+      "local": "MBK Ruzomberok",
+      "visitante": "Basket Namur Capitale",
+      "fecha": "2026-10-21",
+      "hora": "18:00",
+      "canales": [
+        "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Eurocup Women",
+      "ronda": "Liga Regular",
+      "evento": "DSK Basketball Brandys vs Besiktas JK Istanbul",
+      "local": "DSK Basketball Brandys",
+      "visitante": "Besiktas JK Istanbul",
+      "fecha": "2026-10-21",
+      "hora": "18:00",
+      "canales": [
+        "FIBA YouTube"
       ]
     },
     {
@@ -1146,6 +1330,97 @@
       "canales": [
         "TV FootballClub (Acceder)",
         "La Xarxa+"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Europe Cup",
+      "ronda": "Liga Regular",
+      "evento": "Promitheas Patras BC vs BC Batumi",
+      "local": "Promitheas Patras BC",
+      "visitante": "BC Batumi",
+      "fecha": "2026-10-21",
+      "hora": "18:00",
+      "canales": [
+        "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Europe Cup",
+      "ronda": "Liga Regular",
+      "evento": "Sporting CP CB vs Kolossos BC",
+      "local": "Sporting CP CB",
+      "visitante": "Kolossos BC",
+      "fecha": "2026-10-21",
+      "hora": "18:00",
+      "canales": [
+        "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Europe Cup",
+      "ronda": "Liga Regular",
+      "evento": "CSM Oradea vs VEF Riga",
+      "local": "CSM Oradea",
+      "visitante": "VEF Riga",
+      "fecha": "2026-10-21",
+      "hora": "18:00",
+      "canales": [
+        "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Europe Cup",
+      "ronda": "Liga Regular",
+      "evento": "AEK Larnaca BC vs Tartu Ülikool/Rock",
+      "local": "AEK Larnaca BC",
+      "visitante": "Tartu Ülikool/Rock",
+      "fecha": "2026-10-21",
+      "hora": "18:00",
+      "canales": [
+        "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Europe Cup",
+      "ronda": "Liga Regular",
+      "evento": "Keravnos BC vs King Szczecin",
+      "local": "Keravnos BC",
+      "visitante": "King Szczecin",
+      "fecha": "2026-10-21",
+      "hora": "18:00",
+      "canales": [
+        "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Europe Cup",
+      "ronda": "Liga Regular",
+      "evento": "BC Rilski Sportist vs Gence BK",
+      "local": "BC Rilski Sportist",
+      "visitante": "Gence BK",
+      "fecha": "2026-10-21",
+      "hora": "18:00",
+      "canales": [
+        "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Europe Cup",
+      "ronda": "Liga Regular",
+      "evento": "Esenler Erokspor Basketball vs SCM Craiova Basketball",
+      "local": "Esenler Erokspor Basketball",
+      "visitante": "SCM Craiova Basketball",
+      "fecha": "2026-10-21",
+      "hora": "18:00",
+      "canales": [
+        "FIBA YouTube"
       ]
     },
     {
@@ -1172,6 +1447,84 @@
       "hora": "18:30",
       "canales": [
         "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Eurocup Women",
+      "ronda": "Liga Regular",
+      "evento": "Ślęza Wrocław vs Olympiacos Piraeus",
+      "local": "Ślęza Wrocław",
+      "visitante": "Olympiacos Piraeus",
+      "fecha": "2026-10-21",
+      "hora": "18:30",
+      "canales": [
+        "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Europe Cup",
+      "ronda": "Liga Regular",
+      "evento": "BC Kalev Cramo vs BC Bashkimi",
+      "local": "BC Kalev Cramo",
+      "visitante": "BC Bashkimi",
+      "fecha": "2026-10-21",
+      "hora": "18:30",
+      "canales": [
+        "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Europe Cup",
+      "ronda": "Liga Regular",
+      "evento": "Bakken Bears vs Absheron Lions",
+      "local": "Bakken Bears",
+      "visitante": "Absheron Lions",
+      "fecha": "2026-10-21",
+      "hora": "18:30",
+      "canales": [
+        "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Europe Cup",
+      "ronda": "Liga Regular",
+      "evento": "Manisa BBSK vs Manchester Basketball",
+      "local": "Manisa BBSK",
+      "visitante": "Manchester Basketball",
+      "fecha": "2026-10-21",
+      "hora": "18:30",
+      "canales": [
+        "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Europe Cup",
+      "ronda": "Liga Regular",
+      "evento": "Iraklis BC vs Dziki Warszawa",
+      "local": "Iraklis BC",
+      "visitante": "Dziki Warszawa",
+      "fecha": "2026-10-21",
+      "hora": "18:30",
+      "canales": [
+        "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Europe Cup",
+      "ronda": "Liga Regular",
+      "evento": "BC Trepca vs BK Opava",
+      "local": "BC Trepca",
+      "visitante": "BK Opava",
+      "fecha": "2026-10-21",
+      "hora": "18:30",
+      "canales": [
+        "FIBA YouTube"
       ]
     },
     {
@@ -1269,13 +1622,26 @@
       "deporte": "Baloncesto",
       "competicion": "Eurocup Women",
       "ronda": "Liga Regular",
+      "evento": "TV 1872 Saarlouis vs Sopron Basket",
+      "local": "TV 1872 Saarlouis",
+      "visitante": "Sopron Basket",
+      "fecha": "2026-10-21",
+      "hora": "19:00",
+      "canales": [
+        "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Eurocup Women",
+      "ronda": "Liga Regular",
       "evento": "C’Chartres Métropole Basket vs Perfumerías Avenida",
       "local": "C’Chartres Métropole Basket",
       "visitante": "Perfumerías Avenida",
       "fecha": "2026-10-21",
       "hora": "19:00",
       "canales": [
-        "Canal por confirmar"
+        "FIBA YouTube"
       ]
     },
     {
@@ -1318,6 +1684,32 @@
         "M+ Baloncesto 2 (M67)",
         "Aragón Play",
         "Aragón TV"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Eurocup Women",
+      "ronda": "Liga Regular",
+      "evento": "GEAS Basket vs Panathinaikos BC",
+      "local": "GEAS Basket",
+      "visitante": "Panathinaikos BC",
+      "fecha": "2026-10-21",
+      "hora": "19:30",
+      "canales": [
+        "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Eurocup Women",
+      "ronda": "Liga Regular",
+      "evento": "Nyon Basket vs Magnolia Campobasso",
+      "local": "Nyon Basket",
+      "visitante": "Magnolia Campobasso",
+      "fecha": "2026-10-21",
+      "hora": "19:30",
+      "canales": [
+        "FIBA YouTube"
       ]
     },
     {
@@ -1464,7 +1856,33 @@
       "fecha": "2026-10-21",
       "hora": "20:00",
       "canales": [
-        "Canal por confirmar"
+        "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Europe Cup",
+      "ronda": "Liga Regular",
+      "evento": "TBB Trier vs KK Split",
+      "local": "TBB Trier",
+      "visitante": "KK Split",
+      "fecha": "2026-10-21",
+      "hora": "20:00",
+      "canales": [
+        "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Europe Cup",
+      "ronda": "Liga Regular",
+      "evento": "Fribourg Olympic vs Neftchi IK",
+      "local": "Fribourg Olympic",
+      "visitante": "Neftchi IK",
+      "fecha": "2026-10-21",
+      "hora": "20:00",
+      "canales": [
+        "FIBA YouTube"
       ]
     },
     {
@@ -1477,7 +1895,20 @@
       "fecha": "2026-10-21",
       "hora": "20:15",
       "canales": [
-        "Canal por confirmar"
+        "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Europe Cup",
+      "ronda": "Liga Regular",
+      "evento": "Lions de Genève vs Denizli Basket",
+      "local": "Lions de Genève",
+      "visitante": "Denizli Basket",
+      "fecha": "2026-10-21",
+      "hora": "20:30",
+      "canales": [
+        "FIBA YouTube"
       ]
     },
     {
@@ -1618,6 +2049,19 @@
       "canales": [
         "M+ Liga de Campeones 4 (M180 O119)",
         "M+ Liga de Campeones 6 (M182 O434)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Europe Cup",
+      "ronda": "Liga Regular",
+      "evento": "Benfica CB vs BC Prievidza",
+      "local": "Benfica CB",
+      "visitante": "BC Prievidza",
+      "fecha": "2026-10-21",
+      "hora": "21:00",
+      "canales": [
+        "FIBA YouTube"
       ]
     },
     {
@@ -1943,7 +2387,7 @@
     {
       "deporte": "Fútbol",
       "competicion": "CONCACAF Central American Cup",
-      "ronda": null,
+      "ronda": "Semifinales",
       "evento": "Cartaginés vs Deportivo Olimpia",
       "local": "Cartaginés",
       "visitante": "Deportivo Olimpia",
@@ -2077,6 +2521,19 @@
       ]
     },
     {
+      "deporte": "Baloncesto",
+      "competicion": "Eurocup Women",
+      "ronda": "Liga Regular",
+      "evento": "HBA Helsinki vs Zabiny Brno",
+      "local": "HBA Helsinki",
+      "visitante": "Zabiny Brno",
+      "fecha": "2026-10-22",
+      "hora": "17:30",
+      "canales": [
+        "FIBA YouTube"
+      ]
+    },
+    {
       "deporte": "Balonmano",
       "competicion": "IHF Mundial Femenino",
       "ronda": "Fase de Clasificación",
@@ -2087,6 +2544,32 @@
       "hora": "18:00",
       "canales": [
         "EHF TV"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Eurocup Women",
+      "ronda": "Liga Regular",
+      "evento": "U-BT Cluj Napoca vs TTT Riga",
+      "local": "U-BT Cluj Napoca",
+      "visitante": "TTT Riga",
+      "fecha": "2026-10-22",
+      "hora": "18:00",
+      "canales": [
+        "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Eurocup Women",
+      "ronda": "Liga Regular",
+      "evento": "Cinkarna Celje vs KP Brno",
+      "local": "Cinkarna Celje",
+      "visitante": "KP Brno",
+      "fecha": "2026-10-22",
+      "hora": "18:00",
+      "canales": [
+        "FIBA YouTube"
       ]
     },
     {
@@ -2104,6 +2587,45 @@
     },
     {
       "deporte": "Baloncesto",
+      "competicion": "FIBA Europe Cup",
+      "ronda": "Liga Regular",
+      "evento": "BC Parnu Sadam vs BC Vienna",
+      "local": "BC Parnu Sadam",
+      "visitante": "BC Vienna",
+      "fecha": "2026-10-22",
+      "hora": "18:00",
+      "canales": [
+        "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Eurocup Women",
+      "ronda": "Liga Regular",
+      "evento": "Rutronik Stars Keltern vs SBS Ostrava",
+      "local": "Rutronik Stars Keltern",
+      "visitante": "SBS Ostrava",
+      "fecha": "2026-10-22",
+      "hora": "18:30",
+      "canales": [
+        "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Eurocup Women",
+      "ronda": "Liga Regular",
+      "evento": "AEL Limassol BC vs Charnay Basket",
+      "local": "AEL Limassol BC",
+      "visitante": "Charnay Basket",
+      "fecha": "2026-10-22",
+      "hora": "18:30",
+      "canales": [
+        "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
       "competicion": "Eurocup Women",
       "ronda": "Liga Regular",
       "evento": "BC Montana 2003 vs Spar Girona",
@@ -2112,6 +2634,7 @@
       "fecha": "2026-10-22",
       "hora": "18:30",
       "canales": [
+        "FIBA YouTube",
         "Esport3 (Cataluña)"
       ]
     },
@@ -2381,6 +2904,45 @@
       ]
     },
     {
+      "deporte": "Baloncesto",
+      "competicion": "Eurocup Women",
+      "ronda": "Liga Regular",
+      "evento": "UZKK Student Niš vs Benfica CB",
+      "local": "UZKK Student Niš",
+      "visitante": "Benfica CB",
+      "fecha": "2026-10-22",
+      "hora": "19:00",
+      "canales": [
+        "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Eurocup Women",
+      "ronda": "Liga Regular",
+      "evento": "BCC Castelnuovo Scrivia vs AZS Poznań",
+      "local": "BCC Castelnuovo Scrivia",
+      "visitante": "AZS Poznań",
+      "fecha": "2026-10-22",
+      "hora": "19:00",
+      "canales": [
+        "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Europe Cup",
+      "ronda": "Liga Regular",
+      "evento": "Patrioti Levice vs Szolnoki Olaj",
+      "local": "Patrioti Levice",
+      "visitante": "Szolnoki Olaj",
+      "fecha": "2026-10-22",
+      "hora": "19:00",
+      "canales": [
+        "FIBA YouTube"
+      ]
+    },
+    {
       "deporte": "Golf",
       "competicion": "Bermuda Championship",
       "ronda": null,
@@ -2392,6 +2954,45 @@
       "canales": [
         "HBO MAX",
         "Movistar Golf (M68)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Eurocup Women",
+      "ronda": "Liga Regular",
+      "evento": "ALBA Berlin vs Castors Braine",
+      "local": "ALBA Berlin",
+      "visitante": "Castors Braine",
+      "fecha": "2026-10-22",
+      "hora": "19:30",
+      "canales": [
+        "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Eurocup Women",
+      "ronda": "Liga Regular",
+      "evento": "Elitzur Ramla vs Umana Reyer Venice",
+      "local": "Elitzur Ramla",
+      "visitante": "Umana Reyer Venice",
+      "fecha": "2026-10-22",
+      "hora": "19:30",
+      "canales": [
+        "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Eurocup Women",
+      "ronda": "Liga Regular",
+      "evento": "Landerneau Bretagne Basket vs BCF Elfic Fribourg",
+      "local": "Landerneau Bretagne Basket",
+      "visitante": "BCF Elfic Fribourg",
+      "fecha": "2026-10-22",
+      "hora": "19:30",
+      "canales": [
+        "FIBA YouTube"
       ]
     },
     {
@@ -2483,6 +3084,19 @@
       "hora": "20:00",
       "canales": [
         "LPF Play (plan plus)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Eurocup Women",
+      "ronda": "Liga Regular",
+      "evento": "ZKK Brod Na Savi vs DVTK HUN-Therm",
+      "local": "ZKK Brod Na Savi",
+      "visitante": "DVTK HUN-Therm",
+      "fecha": "2026-10-22",
+      "hora": "20:00",
+      "canales": [
+        "FIBA YouTube"
       ]
     },
     {
