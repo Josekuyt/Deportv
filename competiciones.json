@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-10-19T03:20:34"
+    "actualizado": "2026-10-20T03:29:24"
   },
   "config": {
     "puntos_por_tier": {
@@ -1877,6 +1877,26 @@
     "IHF Mundial Femenino": {
       "deporte": "Balonmano",
       "tier": "S",
+      "por_revisar": true
+    },
+    "BMW Ladies Championship": {
+      "deporte": "Golf",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Bermuda Championship": {
+      "deporte": "Golf",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Genesis Championship": {
+      "deporte": "Golf",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Tour de Francia": {
+      "deporte": "Ciclismo",
+      "tier": "A",
       "por_revisar": true
     }
   }
