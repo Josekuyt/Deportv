@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-10-21T03:23:41",
+    "generado": "2026-10-21T13:26:47",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 269
+    "total_eventos": 273
   },
   "eventos": [
     {
@@ -365,7 +365,7 @@
       "fecha": "2026-10-21",
       "hora": "15:00",
       "canales": [
-        "Canal por confirmar"
+        "Real Betis TV"
       ]
     },
     {
@@ -1077,6 +1077,7 @@
       "fecha": "2026-10-21",
       "hora": "20:00",
       "canales": [
+        "DAZN (Ver en directo)",
         "Teledeporte",
         "RTVE Play",
         "Esport3 (Cataluña)"
@@ -1443,6 +1444,19 @@
       "hora": "01:00",
       "canales": [
         "NBA League Pass"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Colombiana",
+      "ronda": null,
+      "evento": "Llaneros vs Deportivo Cali",
+      "local": "Llaneros",
+      "visitante": "Deportivo Cali",
+      "fecha": "2026-10-22",
+      "hora": "01:15",
+      "canales": [
+        "RCN Nuestra Tele"
       ]
     },
     {
@@ -3117,6 +3131,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Liga Nacional Juvenil",
+      "ronda": "Grupo 14 (Andalucía)",
+      "evento": "Real Betis Academy vs Xerez DFC Academy",
+      "local": "Real Betis Academy",
+      "visitante": "Xerez DFC Academy",
+      "fecha": "2026-10-23",
+      "hora": "18:00",
+      "canales": [
+        "Real Betis TV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "2. Liga",
       "ronda": null,
       "evento": "KSV 1919 vs St. Pölten",
@@ -3390,6 +3417,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Liga 1 Perú",
+      "ronda": null,
+      "evento": "UTC Cajamarca vs Melgar",
+      "local": "UTC Cajamarca",
+      "visitante": "Melgar",
+      "fecha": "2026-10-23",
+      "hora": "20:00",
+      "canales": [
+        "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "Euroliga",
       "ronda": "Liga Regular",
@@ -3622,6 +3662,19 @@
       "hora": "22:10",
       "canales": [
         "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga 1 Perú",
+      "ronda": null,
+      "evento": "Atlético Grau vs AD Tarma",
+      "local": "Atlético Grau",
+      "visitante": "AD Tarma",
+      "fecha": "2026-10-23",
+      "hora": "22:15",
+      "canales": [
+        "Fanatiz (Ver en directo)"
       ]
     },
     {
