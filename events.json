@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-10-21T13:26:47",
+    "generado": "2026-10-21T19:55:08",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 273
+    "total_eventos": 292
   },
   "eventos": [
     {
@@ -137,7 +137,7 @@
       "local": "T. Gibson",
       "visitante": "S. Kraus",
       "fecha": "2026-10-21",
-      "hora": "04:30",
+      "hora": "04:40",
       "canales": [
         "WTA TV"
       ]
@@ -150,7 +150,7 @@
       "local": "T. Valentova",
       "visitante": "L. Tagger",
       "fecha": "2026-10-21",
-      "hora": "06:00",
+      "hora": "06:10",
       "canales": [
         "WTA TV"
       ]
@@ -163,7 +163,7 @@
       "local": "M. Bouzkova",
       "visitante": "A. Zakharova",
       "fecha": "2026-10-21",
-      "hora": "07:00",
+      "hora": "07:10",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -177,7 +177,7 @@
       "local": "K. Boulter",
       "visitante": "V. Golubic",
       "fecha": "2026-10-21",
-      "hora": "07:30",
+      "hora": "08:15",
       "canales": [
         "WTA TV"
       ]
@@ -190,7 +190,7 @@
       "local": "J. Duckworth",
       "visitante": "L. Darderi",
       "fecha": "2026-10-21",
-      "hora": "08:30",
+      "hora": "08:40",
       "canales": [
         "ATP Tennis TV"
       ]
@@ -203,7 +203,7 @@
       "local": "L. Fernández",
       "visitante": "A. Sasnovich",
       "fecha": "2026-10-21",
-      "hora": "08:30",
+      "hora": "09:20",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -217,34 +217,7 @@
       "local": "Z. Nurlanuly",
       "visitante": "T. Machac",
       "fecha": "2026-10-21",
-      "hora": "10:00",
-      "canales": [
-        "ATP Tennis TV"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Torneo de Ningbo",
-      "ronda": "2ª Ronda",
-      "evento": "S. Cirstea vs S. Bejlek",
-      "local": "S. Cirstea",
-      "visitante": "S. Bejlek",
-      "fecha": "2026-10-21",
-      "hora": "10:00",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Almaty",
-      "ronda": "2ª Ronda",
-      "evento": "A. Mannarino vs A. Rublev",
-      "local": "A. Mannarino",
-      "visitante": "A. Rublev",
-      "fecha": "2026-10-21",
-      "hora": "11:30",
+      "hora": "10:45",
       "canales": [
         "ATP Tennis TV"
       ]
@@ -257,7 +230,7 @@
       "local": "M. Damm",
       "visitante": "F. Cerúndolo",
       "fecha": "2026-10-21",
-      "hora": "11:30",
+      "hora": "11:40",
       "canales": [
         "ATP Tennis TV"
       ]
@@ -290,13 +263,26 @@
     },
     {
       "deporte": "Tenis",
+      "competicion": "Torneo de Almaty",
+      "ronda": "2ª Ronda",
+      "evento": "A. Mannarino vs A. Rublev",
+      "local": "A. Mannarino",
+      "visitante": "A. Rublev",
+      "fecha": "2026-10-21",
+      "hora": "12:05",
+      "canales": [
+        "ATP Tennis TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
       "competicion": "WTA Torneo de Ningbo",
       "ronda": "2ª Ronda",
-      "evento": "E. Alexandrova vs M. Kostyuk",
-      "local": "E. Alexandrova",
-      "visitante": "M. Kostyuk",
+      "evento": "S. Cirstea vs S. Bejlek",
+      "local": "S. Cirstea",
+      "visitante": "S. Bejlek",
       "fecha": "2026-10-21",
-      "hora": "13:00",
+      "hora": "12:45",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -310,7 +296,7 @@
       "local": "M. Navone",
       "visitante": "T. Griekspoor",
       "fecha": "2026-10-21",
-      "hora": "13:00",
+      "hora": "13:35",
       "canales": [
         "ATP Tennis TV"
       ]
@@ -337,20 +323,7 @@
       "local": "S. Wawrinka",
       "visitante": "M. Landaluce",
       "fecha": "2026-10-21",
-      "hora": "14:00",
-      "canales": [
-        "ATP Tennis TV"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Bruselas",
-      "ronda": "1ª Ronda",
-      "evento": "C. Chidekh vs J. Fearnley",
-      "local": "C. Chidekh",
-      "visitante": "J. Fearnley",
-      "fecha": "2026-10-21",
-      "hora": "14:30",
+      "hora": "14:10",
       "canales": [
         "ATP Tennis TV"
       ]
@@ -370,13 +343,27 @@
     },
     {
       "deporte": "Tenis",
-      "competicion": "Torneo de Lyon",
+      "competicion": "WTA Torneo de Ningbo",
       "ronda": "2ª Ronda",
-      "evento": "C. Moutet vs F. Balshaw",
-      "local": "C. Moutet",
-      "visitante": "F. Balshaw",
+      "evento": "E. Alexandrova vs M. Kostyuk",
+      "local": "E. Alexandrova",
+      "visitante": "M. Kostyuk",
       "fecha": "2026-10-21",
-      "hora": "15:30",
+      "hora": "15:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Bruselas",
+      "ronda": "1ª Ronda",
+      "evento": "C. Chidekh vs J. Fearnley",
+      "local": "C. Chidekh",
+      "visitante": "J. Fearnley",
+      "fecha": "2026-10-21",
+      "hora": "15:40",
       "canales": [
         "ATP Tennis TV"
       ]
@@ -418,7 +405,7 @@
       "local": "S. Tsitsipas",
       "visitante": "M. Kukushkin",
       "fecha": "2026-10-21",
-      "hora": "16:30",
+      "hora": "16:40",
       "canales": [
         "ATP Tennis TV"
       ]
@@ -460,6 +447,19 @@
       "hora": "17:15",
       "canales": [
         "EHF TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Lyon",
+      "ronda": "2ª Ronda",
+      "evento": "C. Moutet vs F. Balshaw",
+      "local": "C. Moutet",
+      "visitante": "F. Balshaw",
+      "fecha": "2026-10-21",
+      "hora": "17:20",
+      "canales": [
+        "ATP Tennis TV"
       ]
     },
     {
@@ -620,19 +620,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Bruselas",
-      "ronda": "1ª Ronda",
-      "evento": "D. Goffin vs R. Bertola",
-      "local": "D. Goffin",
-      "visitante": "R. Bertola",
-      "fecha": "2026-10-21",
-      "hora": "18:00",
-      "canales": [
-        "ATP Tennis TV"
-      ]
-    },
-    {
       "deporte": "Baloncesto",
       "competicion": "Euroliga",
       "ronda": "Liga Regular",
@@ -656,6 +643,19 @@
       "hora": "18:00",
       "canales": [
         "Deportes TVCanaria YouTube"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Bruselas",
+      "ronda": "1ª Ronda",
+      "evento": "D. Goffin vs R. Bertola",
+      "local": "D. Goffin",
+      "visitante": "R. Bertola",
+      "fecha": "2026-10-21",
+      "hora": "18:10",
+      "canales": [
+        "ATP Tennis TV"
       ]
     },
     {
@@ -1137,6 +1137,62 @@
     },
     {
       "deporte": "Baloncesto",
+      "competicion": "Copa de España",
+      "ronda": "1/16 de Final",
+      "evento": "Melilla Sport Capital vs UPB Gandía",
+      "local": "Melilla Sport Capital",
+      "visitante": "UPB Gandía",
+      "fecha": "2026-10-21",
+      "hora": "20:00",
+      "canales": [
+        "BalONcesto TV",
+        "BalONcesto TV PPV"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Copa de España",
+      "ronda": "1/16 de Final",
+      "evento": "CB Prat vs Club Ourense Baloncesto",
+      "local": "CB Prat",
+      "visitante": "Club Ourense Baloncesto",
+      "fecha": "2026-10-21",
+      "hora": "20:00",
+      "canales": [
+        "BalONcesto TV",
+        "BalONcesto TV PPV"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Copa de España",
+      "ronda": "1/16 de Final",
+      "evento": "Cáceres Basket vs LogroBasket Club",
+      "local": "Cáceres Basket",
+      "visitante": "LogroBasket Club",
+      "fecha": "2026-10-21",
+      "hora": "20:00",
+      "canales": [
+        "BalONcesto TV",
+        "BalONcesto TV PPV"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Copa de España",
+      "ronda": "1/16 de Final",
+      "evento": "CEB Llíria vs Gipuzkoa Basket",
+      "local": "CEB Llíria",
+      "visitante": "Gipuzkoa Basket",
+      "fecha": "2026-10-21",
+      "hora": "20:00",
+      "canales": [
+        "BalONcesto TV",
+        "BalONcesto TV PPV"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
       "competicion": "Eurocup Women",
       "ronda": "Liga Regular",
       "evento": "BAXI Ferrol vs Mersin Yenisehir Bld",
@@ -1146,6 +1202,20 @@
       "hora": "20:15",
       "canales": [
         "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Copa de España",
+      "ronda": "1/16 de Final",
+      "evento": "Albacete Basket vs CB Gran Canaria",
+      "local": "Albacete Basket",
+      "visitante": "CB Gran Canaria",
+      "fecha": "2026-10-21",
+      "hora": "20:15",
+      "canales": [
+        "BalONcesto TV",
+        "BalONcesto TV PPV"
       ]
     },
     {
@@ -1172,6 +1242,48 @@
       "hora": "20:30",
       "canales": [
         "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Copa de España",
+      "ronda": "1/16 de Final",
+      "evento": "GA Cantabria vs Súper Agropal Palencia",
+      "local": "GA Cantabria",
+      "visitante": "Súper Agropal Palencia",
+      "fecha": "2026-10-21",
+      "hora": "20:30",
+      "canales": [
+        "BalONcesto TV",
+        "BalONcesto TV PPV"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Copa de España",
+      "ronda": "1/16 de Final",
+      "evento": "Cultural Leonesa Baloncesto vs Oviedo Baloncesto",
+      "local": "Cultural Leonesa Baloncesto",
+      "visitante": "Oviedo Baloncesto",
+      "fecha": "2026-10-21",
+      "hora": "20:30",
+      "canales": [
+        "BalONcesto TV",
+        "BalONcesto TV PPV"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Copa de España",
+      "ronda": "1/16 de Final",
+      "evento": "Córdoba Baloncesto vs CB Tizona Burgos",
+      "local": "Córdoba Baloncesto",
+      "visitante": "CB Tizona Burgos",
+      "fecha": "2026-10-21",
+      "hora": "20:30",
+      "canales": [
+        "BalONcesto TV",
+        "BalONcesto TV PPV"
       ]
     },
     {
@@ -1650,10 +1762,10 @@
     {
       "deporte": "Tenis",
       "competicion": "WTA Torneo de Osaka",
-      "ronda": null,
-      "evento": "2ª Ronda WTA 250",
-      "local": null,
-      "visitante": null,
+      "ronda": "2ª Ronda",
+      "evento": "A. Li vs Z. Sonmez",
+      "local": "A. Li",
+      "visitante": "Z. Sonmez",
       "fecha": "2026-10-22",
       "hora": "04:30",
       "canales": [
@@ -1701,13 +1813,26 @@
     },
     {
       "deporte": "Tenis",
-      "competicion": "WTA Torneo de Ningbo",
-      "ronda": null,
-      "evento": "2ª Ronda WTA 500",
-      "local": null,
-      "visitante": null,
+      "competicion": "WTA Torneo de Osaka",
+      "ronda": "2ª Ronda",
+      "evento": "M. Stoiana vs M. Uchijima",
+      "local": "M. Stoiana",
+      "visitante": "M. Uchijima",
       "fecha": "2026-10-22",
-      "hora": "07:05",
+      "hora": "06:00",
+      "canales": [
+        "WTA TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Ningbo",
+      "ronda": "2ª Ronda",
+      "evento": "I. Jovic vs J. Paolini",
+      "local": "I. Jovic",
+      "visitante": "J. Paolini",
+      "fecha": "2026-10-22",
+      "hora": "07:00",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -1715,15 +1840,121 @@
     },
     {
       "deporte": "Tenis",
-      "competicion": "Torneo de Almaty",
-      "ronda": null,
-      "evento": "2ª Ronda ATP 250",
-      "local": null,
-      "visitante": null,
+      "competicion": "WTA Torneo de Osaka",
+      "ronda": "2ª Ronda",
+      "evento": "M. Linette vs K. Siniakova",
+      "local": "M. Linette",
+      "visitante": "K. Siniakova",
       "fecha": "2026-10-22",
-      "hora": "08:05",
+      "hora": "07:30",
+      "canales": [
+        "WTA TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Almaty",
+      "ronda": "2ª Ronda",
+      "evento": "T. Atmane vs M. Bellucci",
+      "local": "T. Atmane",
+      "visitante": "M. Bellucci",
+      "fecha": "2026-10-22",
+      "hora": "08:30",
       "canales": [
         "ATP Tennis TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Ningbo",
+      "ronda": "2ª Ronda",
+      "evento": "K. Kawa vs B. Bencic",
+      "local": "K. Kawa",
+      "visitante": "B. Bencic",
+      "fecha": "2026-10-22",
+      "hora": "08:30",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Lyon",
+      "ronda": "2ª Ronda",
+      "evento": "PH. Herbert vs T. Fritz",
+      "local": "PH. Herbert",
+      "visitante": "T. Fritz",
+      "fecha": "2026-10-22",
+      "hora": "10:00",
+      "canales": [
+        "ATP Tennis TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Lyon",
+      "ronda": "2ª Ronda",
+      "evento": "F. Cobolli vs S. Wawrinka",
+      "local": "F. Cobolli",
+      "visitante": "S. Wawrinka",
+      "fecha": "2026-10-22",
+      "hora": "10:00",
+      "canales": [
+        "ATP Tennis TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Lyon",
+      "ronda": "2ª Ronda",
+      "evento": "V. Vacherot vs L. Van Assche",
+      "local": "V. Vacherot",
+      "visitante": "L. Van Assche",
+      "fecha": "2026-10-22",
+      "hora": "10:00",
+      "canales": [
+        "ATP Tennis TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Lyon",
+      "ronda": "2ª Ronda",
+      "evento": "K. Jacquet vs B. Nakashima",
+      "local": "K. Jacquet",
+      "visitante": "B. Nakashima",
+      "fecha": "2026-10-22",
+      "hora": "10:00",
+      "canales": [
+        "ATP Tennis TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Almaty",
+      "ronda": "2ª Ronda",
+      "evento": "T. Machac vs K. Khachanov",
+      "local": "T. Machac",
+      "visitante": "K. Khachanov",
+      "fecha": "2026-10-22",
+      "hora": "10:00",
+      "canales": [
+        "ATP Tennis TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Ningbo",
+      "ronda": "2ª Ronda",
+      "evento": "A. Eala vs D. Shnaider",
+      "local": "A. Eala",
+      "visitante": "D. Shnaider",
+      "fecha": "2026-10-22",
+      "hora": "10:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -1758,15 +1989,29 @@
     },
     {
       "deporte": "Tenis",
-      "competicion": "Torneo de Lyon",
-      "ronda": null,
-      "evento": "2ª Ronda ATP 250",
-      "local": null,
-      "visitante": null,
+      "competicion": "Torneo de Almaty",
+      "ronda": "2ª Ronda",
+      "evento": "D. Medvedev vs S. Shimabukuro",
+      "local": "D. Medvedev",
+      "visitante": "S. Shimabukuro",
       "fecha": "2026-10-22",
-      "hora": "11:05",
+      "hora": "11:30",
       "canales": [
         "ATP Tennis TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Ningbo",
+      "ronda": "2ª Ronda",
+      "evento": "E. Rybakina vs P. Kudermetova",
+      "local": "E. Rybakina",
+      "visitante": "P. Kudermetova",
+      "fecha": "2026-10-22",
+      "hora": "13:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -1780,6 +2025,19 @@
       "hora": "16:30",
       "canales": [
         "M+ Liga de Campeones 2 (M61 O117)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Almaty",
+      "ronda": "2ª Ronda",
+      "evento": "A. Bublik vs F. Marozsan",
+      "local": "A. Bublik",
+      "visitante": "F. Marozsan",
+      "fecha": "2026-10-22",
+      "hora": "16:30",
+      "canales": [
+        "ATP Tennis TV"
       ]
     },
     {
@@ -2920,7 +3178,8 @@
       "fecha": "2026-10-23",
       "hora": "02:15",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN 2 (M73)"
       ]
     },
     {
@@ -3104,13 +3363,15 @@
       "deporte": "Baloncesto",
       "competicion": "Liga U",
       "ronda": "Primera Fase",
-      "evento": "Barça Basket B vs Real Madrid B Baloncesto",
-      "local": "Barça Basket B",
-      "visitante": "Real Madrid B Baloncesto",
+      "evento": "Real Madrid B Baloncesto vs Barça Basket B",
+      "local": "Real Madrid B Baloncesto",
+      "visitante": "Barça Basket B",
       "fecha": "2026-10-23",
       "hora": "17:00",
       "canales": [
         "Liga U YouTube",
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)",
         "Teledeporte",
         "RTVE Play",
         "Esport3 (Cataluña)"
@@ -3217,7 +3478,9 @@
       "fecha": "2026-10-23",
       "hora": "18:30",
       "canales": [
-        "Liga U YouTube"
+        "Liga U YouTube",
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
@@ -3387,6 +3650,7 @@
         "DAZN (Ver en directo)",
         "M+ Vamos (8 y 50)",
         "M+ #Vamos Bar (307)",
+        "DAZN 2 (M73)",
         "DAZN 2 Bar (M149)"
       ]
     },
@@ -3400,7 +3664,9 @@
       "fecha": "2026-10-23",
       "hora": "19:45",
       "canales": [
-        "Liga U YouTube"
+        "Liga U YouTube",
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
@@ -3493,7 +3759,9 @@
       "fecha": "2026-10-23",
       "hora": "20:30",
       "canales": [
-        "Liga U YouTube"
+        "Liga U YouTube",
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
@@ -3506,7 +3774,9 @@
       "fecha": "2026-10-23",
       "hora": "20:30",
       "canales": [
-        "Liga U YouTube"
+        "Liga U YouTube",
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
