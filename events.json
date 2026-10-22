@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-10-22T13:27:58",
+    "generado": "2026-10-22T19:44:23",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 438
+    "total_eventos": 437
   },
   "eventos": [
     {
@@ -301,19 +301,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "WTA Torneo de Osaka",
-      "ronda": "2ª Ronda",
-      "evento": "A. Li vs Z. Sonmez",
-      "local": "A. Li",
-      "visitante": "Z. Sonmez",
-      "fecha": "2026-10-22",
-      "hora": "04:30",
-      "canales": [
-        "WTA TV"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "CONCACAF Central American Cup",
       "ronda": "Semifinales",
@@ -340,6 +327,19 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Osaka",
+      "ronda": "2ª Ronda",
+      "evento": "A. Li vs Z. Sonmez",
+      "local": "A. Li",
+      "visitante": "Z. Sonmez",
+      "fecha": "2026-10-22",
+      "hora": "04:40",
+      "canales": [
+        "WTA TV"
+      ]
+    },
+    {
       "deporte": "Golf",
       "competicion": "Genesis Championship",
       "ronda": null,
@@ -360,7 +360,7 @@
       "local": "M. Stoiana",
       "visitante": "M. Uchijima",
       "fecha": "2026-10-22",
-      "hora": "06:00",
+      "hora": "06:25",
       "canales": [
         "WTA TV"
       ]
@@ -373,7 +373,7 @@
       "local": "I. Jovic",
       "visitante": "J. Paolini",
       "fecha": "2026-10-22",
-      "hora": "07:00",
+      "hora": "07:10",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -387,7 +387,7 @@
       "local": "M. Linette",
       "visitante": "K. Siniakova",
       "fecha": "2026-10-22",
-      "hora": "07:30",
+      "hora": "08:40",
       "canales": [
         "WTA TV"
       ]
@@ -400,7 +400,7 @@
       "local": "T. Atmane",
       "visitante": "M. Bellucci",
       "fecha": "2026-10-22",
-      "hora": "08:30",
+      "hora": "08:40",
       "canales": [
         "ATP Tennis TV"
       ]
@@ -413,23 +413,10 @@
       "local": "K. Kawa",
       "visitante": "B. Bencic",
       "fecha": "2026-10-22",
-      "hora": "08:30",
+      "hora": "08:50",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Almaty",
-      "ronda": "2ª Ronda",
-      "evento": "T. Machac vs K. Khachanov",
-      "local": "T. Machac",
-      "visitante": "K. Khachanov",
-      "fecha": "2026-10-22",
-      "hora": "10:00",
-      "canales": [
-        "ATP Tennis TV"
       ]
     },
     {
@@ -440,7 +427,7 @@
       "local": "A. Eala",
       "visitante": "D. Shnaider",
       "fecha": "2026-10-22",
-      "hora": "10:00",
+      "hora": "10:55",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -467,11 +454,11 @@
       "deporte": "Tenis",
       "competicion": "Torneo de Almaty",
       "ronda": "2ª Ronda",
-      "evento": "D. Medvedev vs S. Shimabukuro",
-      "local": "D. Medvedev",
-      "visitante": "S. Shimabukuro",
+      "evento": "T. Machac vs K. Khachanov",
+      "local": "T. Machac",
+      "visitante": "K. Khachanov",
       "fecha": "2026-10-22",
-      "hora": "11:30",
+      "hora": "11:50",
       "canales": [
         "ATP Tennis TV"
       ]
@@ -484,7 +471,7 @@
       "local": "E. Rybakina",
       "visitante": "P. Kudermetova",
       "fecha": "2026-10-22",
-      "hora": "13:00",
+      "hora": "13:05",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -498,7 +485,7 @@
       "local": "R. Collignon",
       "visitante": "J. Lehecka",
       "fecha": "2026-10-22",
-      "hora": "13:30",
+      "hora": "13:40",
       "canales": [
         "ATP Tennis TV"
       ]
@@ -511,7 +498,20 @@
       "local": "V. Vacherot",
       "visitante": "L. Van Assche",
       "fecha": "2026-10-22",
-      "hora": "14:00",
+      "hora": "14:05",
+      "canales": [
+        "ATP Tennis TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Almaty",
+      "ronda": "2ª Ronda",
+      "evento": "D. Medvedev vs S. Shimabukuro",
+      "local": "D. Medvedev",
+      "visitante": "S. Shimabukuro",
+      "fecha": "2026-10-22",
+      "hora": "14:40",
       "canales": [
         "ATP Tennis TV"
       ]
@@ -524,20 +524,7 @@
       "local": "D. Goffin",
       "visitante": "A. Michelsen",
       "fecha": "2026-10-22",
-      "hora": "15:00",
-      "canales": [
-        "ATP Tennis TV"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Lyon",
-      "ronda": "2ª Ronda",
-      "evento": "PH. Herbert vs T. Fritz",
-      "local": "PH. Herbert",
-      "visitante": "T. Fritz",
-      "fecha": "2026-10-22",
-      "hora": "15:30",
+      "hora": "15:20",
       "canales": [
         "ATP Tennis TV"
       ]
@@ -557,13 +544,26 @@
     },
     {
       "deporte": "Tenis",
+      "competicion": "Torneo de Lyon",
+      "ronda": "2ª Ronda",
+      "evento": "PH. Herbert vs T. Fritz",
+      "local": "PH. Herbert",
+      "visitante": "T. Fritz",
+      "fecha": "2026-10-22",
+      "hora": "16:35",
+      "canales": [
+        "ATP Tennis TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
       "competicion": "Torneo de Almaty",
       "ronda": "2ª Ronda",
       "evento": "A. Bublik vs F. Marozsan",
       "local": "A. Bublik",
       "visitante": "F. Marozsan",
       "fecha": "2026-10-22",
-      "hora": "16:30",
+      "hora": "16:55",
       "canales": [
         "ATP Tennis TV"
       ]
@@ -590,7 +590,7 @@
       "local": "D. Dzumhur",
       "visitante": "Z. Bergs",
       "fecha": "2026-10-22",
-      "hora": "17:00",
+      "hora": "17:25",
       "canales": [
         "ATP Tennis TV"
       ]
@@ -979,19 +979,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Lyon",
-      "ronda": "2ª Ronda",
-      "evento": "F. Cobolli vs S. Wawrinka",
-      "local": "F. Cobolli",
-      "visitante": "S. Wawrinka",
-      "fecha": "2026-10-22",
-      "hora": "19:00",
-      "canales": [
-        "ATP Tennis TV"
-      ]
-    },
-    {
       "deporte": "Baloncesto",
       "competicion": "Eurocup Women",
       "ronda": "Liga Regular",
@@ -1042,6 +1029,19 @@
       "canales": [
         "HBO MAX",
         "Movistar Golf (M68)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Lyon",
+      "ronda": "2ª Ronda",
+      "evento": "F. Cobolli vs S. Wawrinka",
+      "local": "F. Cobolli",
+      "visitante": "S. Wawrinka",
+      "fecha": "2026-10-22",
+      "hora": "19:10",
+      "canales": [
+        "ATP Tennis TV"
       ]
     },
     {
@@ -1253,19 +1253,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Lyon",
-      "ronda": "2ª Ronda",
-      "evento": "K. Jacquet vs B. Nakashima",
-      "local": "K. Jacquet",
-      "visitante": "B. Nakashima",
-      "fecha": "2026-10-22",
-      "hora": "20:30",
-      "canales": [
-        "ATP Tennis TV"
-      ]
-    },
-    {
       "deporte": "Baloncesto",
       "competicion": "Euroliga",
       "ronda": "Liga Regular",
@@ -1317,6 +1304,19 @@
       "hora": "20:45",
       "canales": [
         "EHF TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Lyon",
+      "ronda": "2ª Ronda",
+      "evento": "K. Jacquet vs B. Nakashima",
+      "local": "K. Jacquet",
+      "visitante": "B. Nakashima",
+      "fecha": "2026-10-22",
+      "hora": "20:45",
+      "canales": [
+        "ATP Tennis TV"
       ]
     },
     {
@@ -1867,7 +1867,7 @@
       "local": "S. Bejlek",
       "visitante": "M. Bouzkova",
       "fecha": "2026-10-23",
-      "hora": "07:00",
+      "hora": "06:30",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -1888,29 +1888,29 @@
     },
     {
       "deporte": "Tenis",
-      "competicion": "Torneo de Almaty",
-      "ronda": null,
-      "evento": "1/4 de Final ATP 250",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-10-23",
-      "hora": "08:05",
-      "canales": [
-        "ATP Tennis TV"
-      ]
-    },
-    {
-      "deporte": "Tenis",
       "competicion": "WTA Torneo de Ningbo",
       "ronda": "1/4 de Final",
       "evento": "L. Fernández vs E. Alexandrova",
       "local": "L. Fernández",
       "visitante": "E. Alexandrova",
       "fecha": "2026-10-23",
-      "hora": "08:30",
+      "hora": "08:00",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Almaty",
+      "ronda": "1/4 de Final",
+      "evento": "N. Basilashvili vs A. Mannarino",
+      "local": "N. Basilashvili",
+      "visitante": "A. Mannarino",
+      "fecha": "2026-10-23",
+      "hora": "08:30",
+      "canales": [
+        "ATP Tennis TV"
       ]
     },
     {
@@ -1924,6 +1924,19 @@
       "hora": "09:00",
       "canales": [
         "WTA TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Almaty",
+      "ronda": "1/4 de Final",
+      "evento": "S. Tsitsipas vs J. Duckworth",
+      "local": "S. Tsitsipas",
+      "visitante": "J. Duckworth",
+      "fecha": "2026-10-23",
+      "hora": "10:00",
+      "canales": [
+        "ATP Tennis TV"
       ]
     },
     {
@@ -1968,6 +1981,58 @@
     },
     {
       "deporte": "Tenis",
+      "competicion": "Torneo de Almaty",
+      "ronda": "1/4 de Final",
+      "evento": "D. Medvedev vs T. Atmane",
+      "local": "D. Medvedev",
+      "visitante": "T. Atmane",
+      "fecha": "2026-10-23",
+      "hora": "11:30",
+      "canales": [
+        "ATP Tennis TV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Premier League Ucrania",
+      "ronda": null,
+      "evento": "Dynamo Kyiv vs FC Kudrivka",
+      "local": "Dynamo Kyiv",
+      "visitante": "FC Kudrivka",
+      "fecha": "2026-10-23",
+      "hora": "12:00",
+      "canales": [
+        "OneFootball PPV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Premier League Ucrania",
+      "ronda": null,
+      "evento": "NK Veres Rivne vs FC Kolos Kovalivka",
+      "local": "NK Veres Rivne",
+      "visitante": "FC Kolos Kovalivka",
+      "fecha": "2026-10-23",
+      "hora": "12:00",
+      "canales": [
+        "OneFootball PPV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Premier League Ucrania",
+      "ronda": null,
+      "evento": "FC Polissya Zhytomyr vs FC Obolón-Brovar",
+      "local": "FC Polissya Zhytomyr",
+      "visitante": "FC Obolón-Brovar",
+      "fecha": "2026-10-23",
+      "hora": "12:00",
+      "canales": [
+        "OneFootball PPV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
       "competicion": "WTA Torneo de Ningbo",
       "ronda": "1/4 de Final",
       "evento": "E. Rybakina vs K. Kawa",
@@ -2005,6 +2070,19 @@
       "canales": [
         "M+ Vamos (8 y 50)",
         "M+ #Vamos Bar (307)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Almaty",
+      "ronda": "1/4 de Final",
+      "evento": "A. Bublik vs K. Khachanov",
+      "local": "A. Bublik",
+      "visitante": "K. Khachanov",
+      "fecha": "2026-10-23",
+      "hora": "16:30",
+      "canales": [
+        "ATP Tennis TV"
       ]
     },
     {
@@ -2857,110 +2935,6 @@
       ]
     },
     {
-      "deporte": "Fútbol",
-      "competicion": "Premier League Ucrania",
-      "ronda": null,
-      "evento": "Shakhtar Donetsk vs Zorya",
-      "local": "Shakhtar Donetsk",
-      "visitante": "Zorya",
-      "fecha": "2026-10-24",
-      "hora": "02:00",
-      "canales": [
-        "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Premier League Ucrania",
-      "ronda": null,
-      "evento": "Dynamo Kyiv vs FC Kudrivka",
-      "local": "Dynamo Kyiv",
-      "visitante": "FC Kudrivka",
-      "fecha": "2026-10-24",
-      "hora": "02:00",
-      "canales": [
-        "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Premier League Ucrania",
-      "ronda": null,
-      "evento": "Chernomorets Odessa vs Karpaty Lviv",
-      "local": "Chernomorets Odessa",
-      "visitante": "Karpaty Lviv",
-      "fecha": "2026-10-24",
-      "hora": "02:00",
-      "canales": [
-        "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Premier League Ucrania",
-      "ronda": null,
-      "evento": "NK Veres Rivne vs FC Kolos Kovalivka",
-      "local": "NK Veres Rivne",
-      "visitante": "FC Kolos Kovalivka",
-      "fecha": "2026-10-24",
-      "hora": "02:00",
-      "canales": [
-        "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Premier League Ucrania",
-      "ronda": null,
-      "evento": "FC Polissya Zhytomyr vs FC Obolón-Brovar",
-      "local": "FC Polissya Zhytomyr",
-      "visitante": "FC Obolón-Brovar",
-      "fecha": "2026-10-24",
-      "hora": "02:00",
-      "canales": [
-        "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Premier League Ucrania",
-      "ronda": null,
-      "evento": "FC Epitsentr vs Metalist 1925 Kharkiv",
-      "local": "FC Epitsentr",
-      "visitante": "Metalist 1925 Kharkiv",
-      "fecha": "2026-10-24",
-      "hora": "02:00",
-      "canales": [
-        "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Premier League Ucrania",
-      "ronda": null,
-      "evento": "Livyi Bereh vs LNZ Cherkasy",
-      "local": "Livyi Bereh",
-      "visitante": "LNZ Cherkasy",
-      "fecha": "2026-10-24",
-      "hora": "02:00",
-      "canales": [
-        "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Premier League Ucrania",
-      "ronda": null,
-      "evento": "FSC Bukovyna Chernivtsi vs FC Kryvbas",
-      "local": "FSC Bukovyna Chernivtsi",
-      "visitante": "FC Kryvbas",
-      "fecha": "2026-10-24",
-      "hora": "02:00",
-      "canales": [
-        "OneFootball PPV"
-      ]
-    },
-    {
       "deporte": "Béisbol",
       "competicion": "MLB",
       "ronda": null,
@@ -3406,6 +3380,32 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Premier League Ucrania",
+      "ronda": null,
+      "evento": "FC Epitsentr vs Metalist 1925 Kharkiv",
+      "local": "FC Epitsentr",
+      "visitante": "Metalist 1925 Kharkiv",
+      "fecha": "2026-10-24",
+      "hora": "12:00",
+      "canales": [
+        "OneFootball PPV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Premier League Ucrania",
+      "ronda": null,
+      "evento": "Livyi Bereh vs LNZ Cherkasy",
+      "local": "Livyi Bereh",
+      "visitante": "LNZ Cherkasy",
+      "fecha": "2026-10-24",
+      "hora": "12:00",
+      "canales": [
+        "OneFootball PPV"
+      ]
+    },
+    {
       "deporte": "Tenis",
       "competicion": "Torneo de Almaty",
       "ronda": null,
@@ -3535,19 +3535,6 @@
         "FANPLAY TV",
         "Primera Federación (M53 O125)",
         "DAZN (Ver en directo)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Damallsvenskan",
-      "ronda": null,
-      "evento": "AIK Fotboll Kvinnor vs FC Rosengard",
-      "local": "AIK Fotboll Kvinnor",
-      "visitante": "FC Rosengard",
-      "fecha": "2026-10-24",
-      "hora": "13:00",
-      "canales": [
-        "FANSEAT"
       ]
     },
     {
@@ -4327,19 +4314,6 @@
       "deporte": "Fútbol",
       "competicion": "Liga Premier Islandia",
       "ronda": null,
-      "evento": "Víkingur R vs Fram Reykjavík",
-      "local": "Víkingur R",
-      "visitante": "Fram Reykjavík",
-      "fecha": "2026-10-24",
-      "hora": "16:00",
-      "canales": [
-        "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Liga Premier Islandia",
-      "ronda": null,
       "evento": "KA Akureyri vs ÍBV",
       "local": "KA Akureyri",
       "visitante": "ÍBV",
@@ -4607,6 +4581,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Premier League Ucrania",
+      "ronda": null,
+      "evento": "Shakhtar Donetsk vs Zorya",
+      "local": "Shakhtar Donetsk",
+      "visitante": "Zorya",
+      "fecha": "2026-10-24",
+      "hora": "17:00",
+      "canales": [
+        "OneFootball PPV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Admiral Bundesliga",
       "ronda": null,
       "evento": "TSV Hartberg vs Wolfsberger AC",
@@ -4749,19 +4736,6 @@
       "hora": "17:15",
       "canales": [
         "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Francia Ligue 1",
-      "ronda": null,
-      "evento": "Toulouse vs Troyes",
-      "local": "Toulouse",
-      "visitante": "Troyes",
-      "fecha": "2026-10-24",
-      "hora": "17:15",
-      "canales": [
-        "DAZN (Ver en directo)"
       ]
     },
     {
@@ -4933,6 +4907,19 @@
       "hora": "18:00",
       "canales": [
         "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Premier Islandia",
+      "ronda": null,
+      "evento": "Víkingur R vs Fram Reykjavík",
+      "local": "Víkingur R",
+      "visitante": "Fram Reykjavík",
+      "fecha": "2026-10-24",
+      "hora": "18:15",
+      "canales": [
+        "OneFootball PPV"
       ]
     },
     {
