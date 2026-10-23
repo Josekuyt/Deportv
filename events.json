@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-10-23T13:04:52",
+    "generado": "2026-10-23T19:47:49",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 601
+    "total_eventos": 618
   },
   "eventos": [
     {
@@ -504,6 +504,7 @@
         "DAZN (Ver en directo)",
         "DAZN App Gratis (Ver gratis)",
         "DAZN Baloncesto (M74 O126)",
+        "As.com",
         "Teledeporte",
         "RTVE Play",
         "Marca YouTube",
@@ -855,7 +856,8 @@
         "Liga U YouTube",
         "DAZN (Ver en directo)",
         "DAZN App Gratis (Ver gratis)",
-        "DAZN Baloncesto 2 (M75 O127)"
+        "DAZN Baloncesto 2 (M75 O127)",
+        "As.com"
       ]
     },
     {
@@ -1102,6 +1104,7 @@
       "fecha": "2026-10-23",
       "hora": "21:00",
       "canales": [
+        "Aragón Play",
         "Esport3 Web"
       ]
     },
@@ -1396,13 +1399,14 @@
     {
       "deporte": "Béisbol",
       "competicion": "MLB",
-      "ronda": null,
+      "ronda": "World Series",
       "evento": "Milwaukee Brewers vs Tampa Bay Rays",
       "local": "Milwaukee Brewers",
       "visitante": "Tampa Bay Rays",
       "fecha": "2026-10-24",
       "hora": "02:00",
       "canales": [
+        "M+ Vamos (8 y 50)",
         "M+ #Vamos Bar (307)",
         "M+ Deportes (63)"
       ]
@@ -1795,6 +1799,32 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "División Honor Infantil",
+      "ronda": "Grupo 1 (Cataluña)",
+      "evento": "FC Barcelona Academy vs Reus Academy",
+      "local": "FC Barcelona Academy",
+      "visitante": "Reus Academy",
+      "fecha": "2026-10-24",
+      "hora": "10:30",
+      "canales": [
+        "FC Barcelona PPV YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Vasca Cadete",
+      "ronda": "Grupo 4",
+      "evento": "Real Sociedad Academy vs San Ignacio",
+      "local": "Real Sociedad Academy",
+      "visitante": "San Ignacio",
+      "fecha": "2026-10-24",
+      "hora": "10:30",
+      "canales": [
+        "Real Sociedad TV YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "A-League",
       "ronda": null,
       "evento": "Melbourne Victory vs Melbourne City",
@@ -1830,7 +1860,8 @@
       "fecha": "2026-10-24",
       "hora": "11:00",
       "canales": [
-        "TV FootballClub (Acceder)"
+        "TV FootballClub (Acceder)",
+        "TV Melilla"
       ]
     },
     {
@@ -1976,6 +2007,19 @@
         "DAZN (Ver en directo)",
         "RTVE Play",
         "TV3 (Cataluña)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Preferente Juvenil",
+      "ronda": "Grupo 1 (Cataluña)",
+      "evento": "FC Barcelona Academy vs Badalona Academy",
+      "local": "FC Barcelona Academy",
+      "visitante": "Badalona Academy",
+      "fecha": "2026-10-24",
+      "hora": "12:30",
+      "canales": [
+        "FC Barcelona PPV YouTube"
       ]
     },
     {
@@ -2881,6 +2925,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Liga Nacional Juvenil",
+      "ronda": "Grupo 4 (País Vasco)",
+      "evento": "Athletic Club Academy vs CD Hernani",
+      "local": "Athletic Club Academy",
+      "visitante": "CD Hernani",
+      "fecha": "2026-10-24",
+      "hora": "16:00",
+      "canales": [
+        "Athletic-club.eus"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "La Liga EA Sports",
       "ronda": null,
       "evento": "Racing Santander vs Espanyol",
@@ -3200,6 +3257,19 @@
     {
       "deporte": "Fútbol",
       "competicion": "Tercera Federación",
+      "ronda": "Grupo 18",
+      "evento": "Tarancón vs Villarrubia",
+      "local": "Tarancón",
+      "visitante": "Villarrubia",
+      "fecha": "2026-10-24",
+      "hora": "17:00",
+      "canales": [
+        "CMMPlay (Castilla-LM)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
       "ronda": "Grupo 8",
       "evento": "Palencia CF vs Turégano CF",
       "local": "Palencia CF",
@@ -3221,6 +3291,19 @@
       "hora": "17:00",
       "canales": [
         "Deportes TVCanaria YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "División Honor Juvenil",
+      "ronda": null,
+      "evento": "Real Sociedad Academy vs CD Betoño Academy",
+      "local": "Real Sociedad Academy",
+      "visitante": "CD Betoño Academy",
+      "fecha": "2026-10-24",
+      "hora": "17:00",
+      "canales": [
+        "Real Sociedad TV YouTube"
       ]
     },
     {
@@ -3637,6 +3720,21 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "División Honor Cadete",
+      "ronda": "Grupo 1 (Cataluña)",
+      "evento": "Espanyol Academy vs CE Europa Academy",
+      "local": "Espanyol Academy",
+      "visitante": "CE Europa Academy",
+      "fecha": "2026-10-24",
+      "hora": "18:30",
+      "canales": [
+        "RCD Espanyol YouTube",
+        "Facebook RCD Espanyol",
+        "Twitter @RCDE_La21"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Primera Federación",
       "ronda": "Grupo 1",
       "evento": "Real Avilés vs UD Logroñés",
@@ -3762,6 +3860,21 @@
       "hora": "19:00",
       "canales": [
         "FutsalRFEF YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
+      "ronda": "Grupo 4",
+      "evento": "CD Estepona vs Ciudad de Lucena",
+      "local": "CD Estepona",
+      "visitante": "Ciudad de Lucena",
+      "fecha": "2026-10-24",
+      "hora": "19:00",
+      "canales": [
+        "CD Estepona YouTube",
+        "101 TV (Málaga)",
+        "101 TV YouTube"
       ]
     },
     {
@@ -4256,7 +4369,8 @@
       "fecha": "2026-10-24",
       "hora": "21:00",
       "canales": [
-        "Replay"
+        "Replay",
+        "Replay YouTube"
       ]
     },
     {
@@ -4415,6 +4529,19 @@
       "hora": "22:00",
       "canales": [
         "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Copa Libertadores Femenina",
+      "ronda": null,
+      "evento": "Palmeiras Femenino vs Santa Fe Femenino",
+      "local": "Palmeiras Femenino",
+      "visitante": "Santa Fe Femenino",
+      "fecha": "2026-10-24",
+      "hora": "22:00",
+      "canales": [
+        "CONMEBOL Libertadores YouTube"
       ]
     },
     {
@@ -4963,15 +5090,29 @@
     {
       "deporte": "Béisbol",
       "competicion": "MLB",
-      "ronda": null,
+      "ronda": "World Series",
       "evento": "Milwaukee Brewers vs Tampa Bay Rays",
       "local": "Milwaukee Brewers",
       "visitante": "Tampa Bay Rays",
       "fecha": "2026-10-25",
       "hora": "02:00",
       "canales": [
+        "M+ Vamos (8 y 50)",
         "M+ #Vamos Bar (307)",
         "M+ Deportes (63)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Copa Libertadores Femenina",
+      "ronda": null,
+      "evento": "Corinthians Femenino vs Independiente del Valle Femenino",
+      "local": "Corinthians Femenino",
+      "visitante": "Independiente del Valle Femenino",
+      "fecha": "2026-10-25",
+      "hora": "02:00",
+      "canales": [
+        "CONMEBOL Libertadores YouTube"
       ]
     },
     {
@@ -5346,6 +5487,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Preferente Infantil",
+      "ronda": null,
+      "evento": "FC Barcelona Academy vs Vila Olímpica",
+      "local": "FC Barcelona Academy",
+      "visitante": "Vila Olímpica",
+      "fecha": "2026-10-25",
+      "hora": "10:30",
+      "canales": [
+        "FC Barcelona PPV YouTube"
+      ]
+    },
+    {
       "deporte": "Tenis",
       "competicion": "WTA Torneo de Ningbo",
       "ronda": null,
@@ -5398,7 +5552,8 @@
       "hora": "11:30",
       "canales": [
         "TV FootballClub (Acceder)",
-        "Getafe CF YouTube"
+        "Getafe CF YouTube",
+        "CMMPlay (Castilla-LM)"
       ]
     },
     {
@@ -5575,6 +5730,19 @@
     {
       "deporte": "Fútbol",
       "competicion": "Segunda Federación",
+      "ronda": "Grupo 5",
+      "evento": "Real Madrid C vs Conquense",
+      "local": "Real Madrid C",
+      "visitante": "Conquense",
+      "fecha": "2026-10-25",
+      "hora": "12:00",
+      "canales": [
+        "CMMPlay (Castilla-LM)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
       "ronda": "Grupo 4",
       "evento": "At. Sanluqueño vs Las Palmas At.",
       "local": "At. Sanluqueño",
@@ -5610,6 +5778,19 @@
       "hora": "12:00",
       "canales": [
         "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
+      "ronda": "Grupo 5",
+      "evento": "Atlético Albacete vs At. Madrid C",
+      "local": "Atlético Albacete",
+      "visitante": "At. Madrid C",
+      "fecha": "2026-10-25",
+      "hora": "12:00",
+      "canales": [
+        "CMMPlay (Castilla-LM)"
       ]
     },
     {
@@ -5824,6 +6005,19 @@
       "canales": [
         "BalONcesto TV",
         "BalONcesto TV PPV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 4",
+      "evento": "Real Sociedad C vs Alavés C",
+      "local": "Real Sociedad C",
+      "visitante": "Alavés C",
+      "fecha": "2026-10-25",
+      "hora": "12:15",
+      "canales": [
+        "Real Sociedad TV YouTube"
       ]
     },
     {
@@ -6238,7 +6432,8 @@
       "canales": [
         "DAZN (Ver en directo)",
         "DAZN 4 (M197)",
-        "DAZN App Gratis (Ver gratis)"
+        "DAZN App Gratis (Ver gratis)",
+        "Mediaset Infinity"
       ]
     },
     {
@@ -6806,7 +7001,8 @@
       "fecha": "2026-10-25",
       "hora": "17:00",
       "canales": [
-        "TV FootballClub (Acceder)"
+        "TV FootballClub (Acceder)",
+        "CMMPlay (Castilla-LM)"
       ]
     },
     {
@@ -6819,7 +7015,8 @@
       "fecha": "2026-10-25",
       "hora": "17:00",
       "canales": [
-        "TV FootballClub (Acceder)"
+        "TV FootballClub (Acceder)",
+        "CMMPlay (Castilla-LM)"
       ]
     },
     {
@@ -6874,6 +7071,19 @@
       "hora": "17:00",
       "canales": [
         "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 18",
+      "evento": "Villarrobledo vs Manchego CR",
+      "local": "Villarrobledo",
+      "visitante": "Manchego CR",
+      "fecha": "2026-10-25",
+      "hora": "17:00",
+      "canales": [
+        "CMMPlay (Castilla-LM)"
       ]
     },
     {
@@ -7003,7 +7213,21 @@
       "fecha": "2026-10-25",
       "hora": "17:30",
       "canales": [
+        "FC Barcelona PPV YouTube",
         "Esport3 (Cataluña)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
+      "ronda": "Grupo 1",
+      "evento": "Basconia vs Portugalete",
+      "local": "Basconia",
+      "visitante": "Portugalete",
+      "fecha": "2026-10-25",
+      "hora": "17:30",
+      "canales": [
+        "Athletic-club.eus"
       ]
     },
     {
@@ -7897,6 +8121,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Copa Libertadores Femenina",
+      "ronda": null,
+      "evento": "Deportivo Cali Femenino vs Olimpia Femenino",
+      "local": "Deportivo Cali Femenino",
+      "visitante": "Olimpia Femenino",
+      "fecha": "2026-10-25",
+      "hora": "21:00",
+      "canales": [
+        "CONMEBOL Libertadores YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "La Liga EA Sports",
       "ronda": null,
       "evento": "FC Barcelona vs Real Madrid",
@@ -7985,7 +8222,8 @@
       "fecha": "2026-10-25",
       "hora": "21:25",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "Mediaset Infinity"
       ]
     },
     {
