@@ -1,15 +1,15 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-10-23T03:27:49",
+    "generado": "2026-10-23T13:04:52",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 567
+    "total_eventos": 601
   },
   "eventos": [
     {
       "deporte": "Fútbol",
       "competicion": "Caribbean Club Championship",
-      "ronda": null,
+      "ronda": "Semifinales",
       "evento": "Mount Pleasant FA vs Club Sando",
       "local": "Mount Pleasant FA",
       "visitante": "Club Sando",
@@ -347,19 +347,6 @@
     },
     {
       "deporte": "Tenis",
-      "competicion": "Torneo de Lyon",
-      "ronda": null,
-      "evento": "1/4 de Final ATP 250",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-10-23",
-      "hora": "11:05",
-      "canales": [
-        "ATP Tennis TV"
-      ]
-    },
-    {
-      "deporte": "Tenis",
       "competicion": "Torneo de Almaty",
       "ronda": "1/4 de Final",
       "evento": "D. Medvedev vs T. Atmane",
@@ -426,13 +413,39 @@
     },
     {
       "deporte": "Tenis",
-      "competicion": "Torneo de Bruselas",
-      "ronda": null,
-      "evento": "1/4 de Final ATP 250",
-      "local": null,
-      "visitante": null,
+      "competicion": "Torneo de Lyon",
+      "ronda": "1/4 de Final",
+      "evento": "C. Moutet vs T. Paul",
+      "local": "C. Moutet",
+      "visitante": "T. Paul",
       "fecha": "2026-10-23",
       "hora": "14:00",
+      "canales": [
+        "ATP Tennis TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Bruselas",
+      "ronda": "1/4 de Final",
+      "evento": "C. Chidekh vs F. Cerúndolo",
+      "local": "C. Chidekh",
+      "visitante": "F. Cerúndolo",
+      "fecha": "2026-10-23",
+      "hora": "14:00",
+      "canales": [
+        "ATP Tennis TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Lyon",
+      "ronda": "1/4 de Final",
+      "evento": "D. Altmaier vs T. Fritz",
+      "local": "D. Altmaier",
+      "visitante": "T. Fritz",
+      "fecha": "2026-10-23",
+      "hora": "15:30",
       "canales": [
         "ATP Tennis TV"
       ]
@@ -449,6 +462,19 @@
       "canales": [
         "M+ Vamos (8 y 50)",
         "M+ #Vamos Bar (307)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Bruselas",
+      "ronda": "1/4 de Final",
+      "evento": "T. Griekspoor vs J. Lehecka",
+      "local": "T. Griekspoor",
+      "visitante": "J. Lehecka",
+      "fecha": "2026-10-23",
+      "hora": "16:00",
+      "canales": [
+        "ATP Tennis TV"
       ]
     },
     {
@@ -480,6 +506,7 @@
         "DAZN Baloncesto (M74 O126)",
         "Teledeporte",
         "RTVE Play",
+        "Marca YouTube",
         "Esport3 (Cataluña)"
       ]
     },
@@ -589,6 +616,19 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Bruselas",
+      "ronda": "1/4 de Final",
+      "evento": "A. Fils vs A. Michelsen",
+      "local": "A. Fils",
+      "visitante": "A. Michelsen",
+      "fecha": "2026-10-23",
+      "hora": "18:30",
+      "canales": [
+        "ATP Tennis TV"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "Liga U",
       "ronda": "Primera Fase",
@@ -600,7 +640,8 @@
       "canales": [
         "Liga U YouTube",
         "DAZN (Ver en directo)",
-        "DAZN App Gratis (Ver gratis)"
+        "DAZN App Gratis (Ver gratis)",
+        "Marca YouTube"
       ]
     },
     {
@@ -641,6 +682,19 @@
       "canales": [
         "OneFootball PPV",
         "German Football YouTube"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Lyon",
+      "ronda": "1/4 de Final",
+      "evento": "F. Cobolli vs B. Nakashima",
+      "local": "F. Cobolli",
+      "visitante": "B. Nakashima",
+      "fecha": "2026-10-23",
+      "hora": "19:00",
+      "canales": [
+        "ATP Tennis TV"
       ]
     },
     {
@@ -831,6 +885,19 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Bruselas",
+      "ronda": "1/4 de Final",
+      "evento": "JL. Struff vs Z. Bergs",
+      "local": "JL. Struff",
+      "visitante": "Z. Bergs",
+      "fecha": "2026-10-23",
+      "hora": "20:00",
+      "canales": [
+        "ATP Tennis TV"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "Euroliga",
       "ronda": "Liga Regular",
@@ -882,6 +949,19 @@
         "LALIGA TV Hypermotion (M56 O120): VER PARTIDO",
         "DAZN (Ver en directo)",
         "LaLiga TV M2"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Lyon",
+      "ronda": "1/4 de Final",
+      "evento": "L. Van Assche vs L. Musetti",
+      "local": "L. Van Assche",
+      "visitante": "L. Musetti",
+      "fecha": "2026-10-23",
+      "hora": "20:30",
+      "canales": [
+        "ATP Tennis TV"
       ]
     },
     {
@@ -1390,6 +1470,19 @@
       "hora": "02:45",
       "canales": [
         "LPF Play (plan plus)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Torneo Federal A",
+      "ronda": "3ª Fase",
+      "evento": "Juventud Antoniana vs Sol de América Formosa",
+      "local": "Juventud Antoniana",
+      "visitante": "Sol de América Formosa",
+      "fecha": "2026-10-24",
+      "hora": "03:00",
+      "canales": [
+        "LPF Play"
       ]
     },
     {
@@ -3288,6 +3381,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
+      "ronda": "Grupo 5",
+      "evento": "G. Segoviana vs At. Tordesillas",
+      "local": "G. Segoviana",
+      "visitante": "At. Tordesillas",
+      "fecha": "2026-10-24",
+      "hora": "18:00",
+      "canales": [
+        "Web Directo"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "Liga Endesa",
       "ronda": "Liga Regular",
@@ -3312,6 +3418,19 @@
       "hora": "18:00",
       "canales": [
         "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "FA Women's Super League",
+      "ronda": null,
+      "evento": "Brighton Femenino vs West Ham Femenino",
+      "local": "Brighton Femenino",
+      "visitante": "West Ham Femenino",
+      "fecha": "2026-10-24",
+      "hora": "18:15",
+      "canales": [
+        "Barclays Women's Super League YouTube"
       ]
     },
     {
@@ -3928,6 +4047,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 10",
+      "evento": "Xerez DFC vs Chiclana CF",
+      "local": "Xerez DFC",
+      "visitante": "Chiclana CF",
+      "fecha": "2026-10-24",
+      "hora": "20:00",
+      "canales": [
+        "Web Directo"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "2. Bundesliga",
       "ronda": null,
       "evento": "Nürnberg vs Kaiserslautern",
@@ -4007,6 +4139,19 @@
         "Teledeporte",
         "RTVE Play",
         "Esport3 (Cataluña)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Torneo Federal A",
+      "ronda": "3ª Fase",
+      "evento": "CD Argentino Monte Maíz vs CA Kimberley MdP",
+      "local": "CD Argentino Monte Maíz",
+      "visitante": "CA Kimberley MdP",
+      "fecha": "2026-10-24",
+      "hora": "20:45",
+      "canales": [
+        "LPF Play"
       ]
     },
     {
@@ -4309,6 +4454,110 @@
       "hora": "22:15",
       "canales": [
         "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Torneo BetPlay DIMAYOR",
+      "ronda": null,
+      "evento": "Patriotas vs Envigado",
+      "local": "Patriotas",
+      "visitante": "Envigado",
+      "fecha": "2026-10-24",
+      "hora": "22:30",
+      "canales": [
+        "Win Sports TV YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Torneo BetPlay DIMAYOR",
+      "ronda": null,
+      "evento": "Quindio vs Tigres FC",
+      "local": "Quindio",
+      "visitante": "Tigres FC",
+      "fecha": "2026-10-24",
+      "hora": "22:30",
+      "canales": [
+        "Win Sports TV YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Torneo BetPlay DIMAYOR",
+      "ronda": null,
+      "evento": "Bogotá vs Real Santander",
+      "local": "Bogotá",
+      "visitante": "Real Santander",
+      "fecha": "2026-10-24",
+      "hora": "22:30",
+      "canales": [
+        "Win Sports TV YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Torneo BetPlay DIMAYOR",
+      "ronda": null,
+      "evento": "Unión Magdalena vs Atlético FC",
+      "local": "Unión Magdalena",
+      "visitante": "Atlético FC",
+      "fecha": "2026-10-24",
+      "hora": "22:30",
+      "canales": [
+        "Win Sports TV YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Torneo BetPlay DIMAYOR",
+      "ronda": null,
+      "evento": "Barranquilla vs Real Cartagena",
+      "local": "Barranquilla",
+      "visitante": "Real Cartagena",
+      "fecha": "2026-10-24",
+      "hora": "22:30",
+      "canales": [
+        "Win Sports TV YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Torneo BetPlay DIMAYOR",
+      "ronda": null,
+      "evento": "Leones vs Orsomarso",
+      "local": "Leones",
+      "visitante": "Orsomarso",
+      "fecha": "2026-10-24",
+      "hora": "22:30",
+      "canales": [
+        "Win Sports TV YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Torneo BetPlay DIMAYOR",
+      "ronda": null,
+      "evento": "Boca Juniors Cali vs Internacional FC Palmira",
+      "local": "Boca Juniors Cali",
+      "visitante": "Internacional FC Palmira",
+      "fecha": "2026-10-24",
+      "hora": "22:30",
+      "canales": [
+        "Win Sports TV YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Torneo BetPlay DIMAYOR",
+      "ronda": null,
+      "evento": "Real Soacha Cundinamarca vs Independiente Valle del Cauca",
+      "local": "Real Soacha Cundinamarca",
+      "visitante": "Independiente Valle del Cauca",
+      "fecha": "2026-10-24",
+      "hora": "22:30",
+      "canales": [
+        "Win Sports TV YouTube"
       ]
     },
     {
@@ -5719,6 +5968,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "FA Women's Super League",
+      "ronda": null,
+      "evento": "Crystal Palace Femenino vs Chelsea Femenino",
+      "local": "Crystal Palace Femenino",
+      "visitante": "Chelsea Femenino",
+      "fecha": "2026-10-25",
+      "hora": "13:00",
+      "canales": [
+        "Barclays Women's Super League YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Segunda Federación",
       "ronda": "Grupo 3",
       "evento": "Mallorca B vs Elche Ilicitano",
@@ -6056,6 +6318,45 @@
       "hora": "15:00",
       "canales": [
         "EHF TV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "FA Women's Super League",
+      "ronda": null,
+      "evento": "Birmingham Femenino vs Charlton Athletic Femenino",
+      "local": "Birmingham Femenino",
+      "visitante": "Charlton Athletic Femenino",
+      "fecha": "2026-10-25",
+      "hora": "15:00",
+      "canales": [
+        "Barclays Women's Super League YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "FA Women's Super League",
+      "ronda": null,
+      "evento": "Liverpool Femenino vs London City Lionesses",
+      "local": "Liverpool Femenino",
+      "visitante": "London City Lionesses",
+      "fecha": "2026-10-25",
+      "hora": "15:00",
+      "canales": [
+        "Barclays Women's Super League YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "FA Women's Super League",
+      "ronda": null,
+      "evento": "Everton Femenino vs Aston Villa Femenino",
+      "local": "Everton Femenino",
+      "visitante": "Aston Villa Femenino",
+      "fecha": "2026-10-25",
+      "hora": "15:00",
+      "canales": [
+        "Barclays Women's Super League YouTube"
       ]
     },
     {
@@ -6573,6 +6874,19 @@
       "hora": "17:00",
       "canales": [
         "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 18",
+      "evento": "CD Torrijos vs Villacañas",
+      "local": "CD Torrijos",
+      "visitante": "Villacañas",
+      "fecha": "2026-10-25",
+      "hora": "17:00",
+      "canales": [
+        "Web Directo"
       ]
     },
     {
@@ -7150,6 +7464,84 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Torneo Federal A",
+      "ronda": "3ª Fase",
+      "evento": "Sport. Las Parejas vs CA Alvarado",
+      "local": "Sport. Las Parejas",
+      "visitante": "CA Alvarado",
+      "fecha": "2026-10-25",
+      "hora": "19:00",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Torneo Federal A",
+      "ronda": "Final Primer Ascenso",
+      "evento": "Cipolletti vs San Martín Formosa",
+      "local": "Cipolletti",
+      "visitante": "San Martín Formosa",
+      "fecha": "2026-10-25",
+      "hora": "19:00",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera C",
+      "ronda": "Reducido Segundo Ascenso",
+      "evento": "Dep. Español vs Victoriano Arenas",
+      "local": "Dep. Español",
+      "visitante": "Victoriano Arenas",
+      "fecha": "2026-10-25",
+      "hora": "19:00",
+      "canales": [
+        "LPF Play (plan plus)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera C",
+      "ronda": "Final",
+      "evento": "Luján vs Berazategui",
+      "local": "Luján",
+      "visitante": "Berazategui",
+      "fecha": "2026-10-25",
+      "hora": "19:00",
+      "canales": [
+        "LPF Play (plan plus)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera C",
+      "ronda": "Reducido Segundo Ascenso",
+      "evento": "Cañuelas vs CA Lugano",
+      "local": "Cañuelas",
+      "visitante": "CA Lugano",
+      "fecha": "2026-10-25",
+      "hora": "19:00",
+      "canales": [
+        "LPF Play (plan plus)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera C",
+      "ronda": "Reducido Segundo Ascenso",
+      "evento": "Estrella del Sur vs General Lamadrid",
+      "local": "Estrella del Sur",
+      "visitante": "General Lamadrid",
+      "fecha": "2026-10-25",
+      "hora": "19:00",
+      "canales": [
+        "LPF Play (plan plus)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "FA Women's Super League",
       "ronda": null,
       "evento": "Man Utd Femenino vs Man City Femenino",
@@ -7209,6 +7601,19 @@
       "evento": "Almirante Brown vs Deportivo Morón",
       "local": "Almirante Brown",
       "visitante": "Deportivo Morón",
+      "fecha": "2026-10-25",
+      "hora": "19:30",
+      "canales": [
+        "LPF Play (plan plus)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera C",
+      "ronda": "Promoción Ascenso/Descenso",
+      "evento": "Defensores de Glew vs Argentino Rosario",
+      "local": "Defensores de Glew",
+      "visitante": "Argentino Rosario",
       "fecha": "2026-10-25",
       "hora": "19:30",
       "canales": [
@@ -7283,10 +7688,49 @@
     {
       "deporte": "Fútbol",
       "competicion": "Torneo Federal A",
-      "ronda": null,
-      "evento": "Cipolletti vs San Martín Formosa",
-      "local": "Cipolletti",
-      "visitante": "San Martín Formosa",
+      "ronda": "3ª Fase",
+      "evento": "Boca Unidos vs Gimnasia y Esgrima Chivilcoy",
+      "local": "Boca Unidos",
+      "visitante": "Gimnasia y Esgrima Chivilcoy",
+      "fecha": "2026-10-25",
+      "hora": "20:00",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Torneo Federal A",
+      "ronda": "3ª Fase",
+      "evento": "Villa Mitre vs Douglas Haig",
+      "local": "Villa Mitre",
+      "visitante": "Douglas Haig",
+      "fecha": "2026-10-25",
+      "hora": "20:00",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Torneo Federal A",
+      "ronda": "3ª Fase",
+      "evento": "Gimnasia Concepción vs Olimpo",
+      "local": "Gimnasia Concepción",
+      "visitante": "Olimpo",
+      "fecha": "2026-10-25",
+      "hora": "20:00",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Torneo Federal A",
+      "ronda": "3ª Fase",
+      "evento": "Sarmiento La Banda vs Atenas Río Cuarto",
+      "local": "Sarmiento La Banda",
+      "visitante": "Atenas Río Cuarto",
       "fecha": "2026-10-25",
       "hora": "20:00",
       "canales": [
@@ -7383,19 +7827,6 @@
       "canales": [
         "DAZN (Ver en directo)",
         "LaLiga TV M4"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Francia Ligue 1",
-      "ronda": null,
-      "evento": "PSG vs O. Lyonnais",
-      "local": "PSG",
-      "visitante": "O. Lyonnais",
-      "fecha": "2026-10-25",
-      "hora": "20:45",
-      "canales": [
-        "DAZN (Ver en directo)"
       ]
     },
     {
@@ -7646,6 +8077,19 @@
       "hora": "22:00",
       "canales": [
         "BeisbolPlay"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "MLS Next Pro",
+      "ronda": null,
+      "evento": "Chattanooga FC vs Connecticut United FC",
+      "local": "Chattanooga FC",
+      "visitante": "Connecticut United FC",
+      "fecha": "2026-10-25",
+      "hora": "22:00",
+      "canales": [
+        "OneFootball"
       ]
     },
     {
