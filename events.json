@@ -1,7 +1,7 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-10-24T12:27:06",
+    "generado": "2026-10-24T18:35:27",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
     "total_eventos": 595
   },
@@ -411,19 +411,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "WTA Torneo de Osaka",
-      "ronda": "WTA 250",
-      "evento": "A. Li vs A. Krueger",
-      "local": "A. Li",
-      "visitante": "A. Krueger",
-      "fecha": "2026-10-24",
-      "hora": "05:00",
-      "canales": [
-        "WTA TV"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "A-League Women",
       "ronda": null,
@@ -494,11 +481,11 @@
       "deporte": "Tenis",
       "competicion": "WTA Torneo de Osaka",
       "ronda": "WTA 250",
-      "evento": "K. Boulter vs K. Siniakova",
-      "local": "K. Boulter",
-      "visitante": "K. Siniakova",
+      "evento": "A. Li vs A. Krueger",
+      "local": "A. Li",
+      "visitante": "A. Krueger",
       "fecha": "2026-10-24",
-      "hora": "06:30",
+      "hora": "07:10",
       "canales": [
         "WTA TV"
       ]
@@ -577,7 +564,7 @@
       "local": "L. Fernández",
       "visitante": "M. Bouzkova",
       "fecha": "2026-10-24",
-      "hora": "09:00",
+      "hora": "09:30",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -594,6 +581,19 @@
       "hora": "09:45",
       "canales": [
         "RFFM PLAY"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Osaka",
+      "ronda": "WTA 250",
+      "evento": "K. Boulter vs K. Siniakova",
+      "local": "K. Boulter",
+      "visitante": "K. Siniakova",
+      "fecha": "2026-10-24",
+      "hora": "09:50",
+      "canales": [
+        "WTA TV"
       ]
     },
     {
@@ -684,7 +684,7 @@
       "local": "E. Rybakina",
       "visitante": "D. Shnaider",
       "fecha": "2026-10-24",
-      "hora": "11:30",
+      "hora": "11:55",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -747,20 +747,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Almaty",
-      "ronda": "ATP 250",
-      "evento": "N. Basilashvili vs S. Tsitsipas",
-      "local": "N. Basilashvili",
-      "visitante": "S. Tsitsipas",
-      "fecha": "2026-10-24",
-      "hora": "12:00",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes 4 (191)"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "Superliga de Letonia",
       "ronda": null,
@@ -819,6 +805,20 @@
         "DAZN (Ver en directo)",
         "RTVE Play",
         "TV3 (Cataluña)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Almaty",
+      "ronda": "ATP 250",
+      "evento": "N. Basilashvili vs S. Tsitsipas",
+      "local": "N. Basilashvili",
+      "visitante": "S. Tsitsipas",
+      "fecha": "2026-10-24",
+      "hora": "12:10",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 4 (191)"
       ]
     },
     {
@@ -1157,7 +1157,7 @@
       "local": "T. Paul",
       "visitante": "T. Fritz",
       "fecha": "2026-10-24",
-      "hora": "14:00",
+      "hora": "14:10",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 2 (64)"
@@ -1242,20 +1242,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Almaty",
-      "ronda": "ATP 250",
-      "evento": "D. Medvedev vs A. Bublik",
-      "local": "D. Medvedev",
-      "visitante": "A. Bublik",
-      "fecha": "2026-10-24",
-      "hora": "15:00",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes 4 (191)"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "Damallsvenskan",
       "ronda": null,
@@ -1308,6 +1294,20 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Almaty",
+      "ronda": "ATP 250",
+      "evento": "D. Medvedev vs A. Bublik",
+      "local": "D. Medvedev",
+      "visitante": "A. Bublik",
+      "fecha": "2026-10-24",
+      "hora": "15:15",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 4 (191)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "2. Liga",
       "ronda": null,
@@ -1331,20 +1331,6 @@
       "hora": "15:30",
       "canales": [
         "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Lyon",
-      "ronda": "ATP 250",
-      "evento": "F. Cobolli vs L. Musetti",
-      "local": "F. Cobolli",
-      "visitante": "L. Musetti",
-      "fecha": "2026-10-24",
-      "hora": "15:30",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -1676,20 +1662,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Bruselas",
-      "ronda": "ATP 250",
-      "evento": "F. Cerúndolo vs T. Griekspoor",
-      "local": "F. Cerúndolo",
-      "visitante": "T. Griekspoor",
-      "fecha": "2026-10-24",
-      "hora": "16:00",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes (63)"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "Liga F",
       "ronda": null,
@@ -1745,6 +1717,34 @@
       "hora": "16:00",
       "canales": [
         "Athletic-club.eus"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Bruselas",
+      "ronda": "ATP 250",
+      "evento": "F. Cerúndolo vs T. Griekspoor",
+      "local": "F. Cerúndolo",
+      "visitante": "T. Griekspoor",
+      "fecha": "2026-10-24",
+      "hora": "16:05",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes (63)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Lyon",
+      "ronda": "ATP 250",
+      "evento": "F. Cobolli vs L. Musetti",
+      "local": "F. Cobolli",
+      "visitante": "L. Musetti",
+      "fecha": "2026-10-24",
+      "hora": "16:10",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -3641,7 +3641,8 @@
       "fecha": "2026-10-24",
       "hora": "23:30",
       "canales": [
-        "LigaFUTVE App"
+        "LigaFUTVE App",
+        "Liga Futve YouTube"
       ]
     },
     {
@@ -3748,7 +3749,8 @@
       "fecha": "2026-10-25",
       "hora": "00:00",
       "canales": [
-        "LigaFUTVE App"
+        "LigaFUTVE App",
+        "Fanatiz (Ver en directo)"
       ]
     },
     {
@@ -4390,19 +4392,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "WTA Torneo de Osaka",
-      "ronda": null,
-      "evento": "Final WTA 250",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-10-25",
-      "hora": "05:00",
-      "canales": [
-        "WTA TV"
-      ]
-    },
-    {
       "deporte": "Automovilismo",
       "competicion": "Supercars Championship",
       "ronda": null,
@@ -4414,6 +4403,19 @@
       "canales": [
         "DAZN (Ver en directo)",
         "DAZN App Gratis (Ver gratis)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Osaka",
+      "ronda": "WTA 250",
+      "evento": "A. Krueger vs K. Siniakova",
+      "local": "A. Krueger",
+      "visitante": "K. Siniakova",
+      "fecha": "2026-10-25",
+      "hora": "05:30",
+      "canales": [
+        "WTA TV"
       ]
     },
     {
@@ -4457,6 +4459,20 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Ningbo",
+      "ronda": "WTA 500",
+      "evento": "E. Rybakina vs L. Fernández",
+      "local": "E. Rybakina",
+      "visitante": "L. Fernández",
+      "fecha": "2026-10-25",
+      "hora": "09:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
       "deporte": "Fútbol Sala",
       "competicion": "Primera Federación Femenina",
       "ronda": null,
@@ -4485,16 +4501,16 @@
     },
     {
       "deporte": "Tenis",
-      "competicion": "WTA Torneo de Ningbo",
-      "ronda": null,
-      "evento": "Final WTA 500",
-      "local": null,
-      "visitante": null,
+      "competicion": "Torneo de Almaty",
+      "ronda": "ATP 250",
+      "evento": "D. Medvedev vs N. Basilashvili",
+      "local": "D. Medvedev",
+      "visitante": "N. Basilashvili",
       "fecha": "2026-10-25",
       "hora": "11:00",
       "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
+        "ATP Tennis TV",
+        "M+ Deportes (63)"
       ]
     },
     {
@@ -4665,20 +4681,6 @@
       "hora": "12:00",
       "canales": [
         "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Almaty",
-      "ronda": null,
-      "evento": "Final ATP 250",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-10-25",
-      "hora": "12:00",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes (63)"
       ]
     },
     {
