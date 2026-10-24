@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-10-24T03:22:28",
+    "generado": "2026-10-24T12:27:06",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 583
+    "total_eventos": 595
   },
   "eventos": [
     {
@@ -637,6 +637,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "División Honor Infantil",
+      "ronda": "Grupo 1 (Madrid)",
+      "evento": "Chamartín Vergara vs Real Madrid Academy",
+      "local": "Chamartín Vergara",
+      "visitante": "Real Madrid Academy",
+      "fecha": "2026-10-24",
+      "hora": "11:00",
+      "canales": [
+        "Real Madrid TV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Tercera Federación",
       "ronda": "Grupo 9",
       "evento": "Melilla vs Cantoria 2017 CF",
@@ -810,6 +823,20 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Serie A Femminile",
+      "ronda": null,
+      "evento": "AC Milan Femenino vs Ternana Femminile",
+      "local": "AC Milan Femenino",
+      "visitante": "Ternana Femminile",
+      "fecha": "2026-10-24",
+      "hora": "12:30",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Preferente Juvenil",
       "ronda": "Grupo 1 (Cataluña)",
       "evento": "FC Barcelona Academy vs Badalona Academy",
@@ -876,6 +903,19 @@
         "FANPLAY TV",
         "Primera Federación (M53 O125)",
         "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Superliga Infantil",
+      "ronda": "Grupo Único (Madrid)",
+      "evento": "Real Madrid Academy vs Parla Escuela Academy",
+      "local": "Real Madrid Academy",
+      "visitante": "Parla Escuela Academy",
+      "fecha": "2026-10-24",
+      "hora": "13:00",
+      "canales": [
+        "Real Madrid TV"
       ]
     },
     {
@@ -1117,7 +1157,7 @@
       "local": "T. Paul",
       "visitante": "T. Fritz",
       "fecha": "2026-10-24",
-      "hora": "14:30",
+      "hora": "14:00",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 2 (64)"
@@ -1199,48 +1239,6 @@
       "hora": "15:00",
       "canales": [
         "Antel TV Internacional"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Serie A Femminile",
-      "ronda": null,
-      "evento": "Juventus Femminile vs AS Roma Femenino",
-      "local": "Juventus Femminile",
-      "visitante": "AS Roma Femenino",
-      "fecha": "2026-10-24",
-      "hora": "15:00",
-      "canales": [
-        "DAZN (Ver en directo)",
-        "DAZN App Gratis (Ver gratis)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Serie A Femminile",
-      "ronda": null,
-      "evento": "AC Milan Femenino vs Ternana Femminile",
-      "local": "AC Milan Femenino",
-      "visitante": "Ternana Femminile",
-      "fecha": "2026-10-24",
-      "hora": "15:00",
-      "canales": [
-        "DAZN (Ver en directo)",
-        "DAZN App Gratis (Ver gratis)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Serie A Femminile",
-      "ronda": null,
-      "evento": "Lazio Femminile vs FC Como Femminile",
-      "local": "Lazio Femminile",
-      "visitante": "FC Como Femminile",
-      "fecha": "2026-10-24",
-      "hora": "15:00",
-      "canales": [
-        "DAZN (Ver en directo)",
-        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
@@ -1333,6 +1331,20 @@
       "hora": "15:30",
       "canales": [
         "OneFootball PPV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Lyon",
+      "ronda": "ATP 250",
+      "evento": "F. Cobolli vs L. Musetti",
+      "local": "F. Cobolli",
+      "visitante": "L. Musetti",
+      "fecha": "2026-10-24",
+      "hora": "15:30",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -1806,20 +1818,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Lyon",
-      "ronda": null,
-      "evento": "Semifinal 2 ATP 250",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-10-24",
-      "hora": "16:30",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes 2 (64)"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "Primera Federación",
       "ronda": "Grupo 2",
@@ -2117,6 +2115,19 @@
       "hora": "17:00",
       "canales": [
         "Deportes TVCanaria YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "División Honor Juvenil",
+      "ronda": "Grupo 5",
+      "evento": "Real Madrid Academy vs AD Mérida Academy",
+      "local": "Real Madrid Academy",
+      "visitante": "AD Mérida Academy",
+      "fecha": "2026-10-24",
+      "hora": "17:00",
+      "canales": [
+        "Real Madrid TV"
       ]
     },
     {
@@ -2495,6 +2506,20 @@
         "LALIGA TV Hypermotion (M56 O120): VER PARTIDO",
         "DAZN (Ver en directo)",
         "LaLiga TV M2"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Serie A Femminile",
+      "ronda": null,
+      "evento": "Juventus Femminile vs AS Roma Femenino",
+      "local": "Juventus Femminile",
+      "visitante": "AS Roma Femenino",
+      "fecha": "2026-10-24",
+      "hora": "18:30",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
@@ -3359,6 +3384,19 @@
       "deporte": "Fútbol",
       "competicion": "Serie A Brasil",
       "ronda": null,
+      "evento": "Internacional vs Botafogo",
+      "local": "Internacional",
+      "visitante": "Botafogo",
+      "fecha": "2026-10-24",
+      "hora": "21:30",
+      "canales": [
+        "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Serie A Brasil",
+      "ronda": null,
       "evento": "Vitória vs At. Paranaense",
       "local": "Vitória",
       "visitante": "At. Paranaense",
@@ -3367,7 +3405,21 @@
       "canales": [
         "M+ Vamos 2 (51)",
         "M+ #Vamos Bar 2 (308)",
+        "Fanatiz (Ver en directo)",
         "M+ Liga de Campeones (M60 O115)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Serie A Brasil",
+      "ronda": null,
+      "evento": "Mirassol vs São Paulo",
+      "local": "Mirassol",
+      "visitante": "São Paulo",
+      "fecha": "2026-10-24",
+      "hora": "21:30",
+      "canales": [
+        "Fanatiz (Ver en directo)"
       ]
     },
     {
@@ -3399,7 +3451,7 @@
     {
       "deporte": "Fútbol",
       "competicion": "Copa Libertadores Femenina",
-      "ronda": null,
+      "ronda": "1/4 de Final",
       "evento": "Palmeiras Femenino vs Santa Fe Femenino",
       "local": "Palmeiras Femenino",
       "visitante": "Santa Fe Femenino",
@@ -3581,6 +3633,32 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Liga Futve",
+      "ronda": null,
+      "evento": "Monagas SC vs Puerto Cabello",
+      "local": "Monagas SC",
+      "visitante": "Puerto Cabello",
+      "fecha": "2026-10-24",
+      "hora": "23:30",
+      "canales": [
+        "LigaFUTVE App"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Serie A Brasil",
+      "ronda": null,
+      "evento": "Vasco da Gama vs Corinthians",
+      "local": "Vasco da Gama",
+      "visitante": "Corinthians",
+      "fecha": "2026-10-24",
+      "hora": "23:30",
+      "canales": [
+        "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Serie A Brasil",
       "ronda": null,
       "evento": "Palmeiras vs RB Bragantino",
@@ -3591,6 +3669,7 @@
       "canales": [
         "M+ Vamos (8 y 50)",
         "M+ #Vamos Bar (307)",
+        "Fanatiz (Ver en directo)",
         "M+ Liga de Campeones 2 (M61 O117)"
       ]
     },
@@ -3737,6 +3816,19 @@
       "hora": "00:30",
       "canales": [
         "NWSL+"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Serie A Brasil",
+      "ronda": null,
+      "evento": "Chapecoense vs Fluminense",
+      "local": "Chapecoense",
+      "visitante": "Fluminense",
+      "fecha": "2026-10-25",
+      "hora": "00:30",
+      "canales": [
+        "Fanatiz (Ver en directo)"
       ]
     },
     {
@@ -3970,7 +4062,7 @@
     {
       "deporte": "Fútbol",
       "competicion": "Copa Libertadores Femenina",
-      "ronda": null,
+      "ronda": "1/4 de Final",
       "evento": "Corinthians Femenino vs Independiente del Valle Femenino",
       "local": "Corinthians Femenino",
       "visitante": "Independiente del Valle Femenino",
@@ -4047,16 +4139,16 @@
       ]
     },
     {
-      "deporte": "Baloncesto",
-      "competicion": "NBA",
-      "ronda": "Liga Regular",
-      "evento": "Denver Nuggets vs New Orleans Pelicans",
-      "local": "Denver Nuggets",
-      "visitante": "New Orleans Pelicans",
+      "deporte": "Fútbol",
+      "competicion": "Serie A Brasil",
+      "ronda": null,
+      "evento": "Santos vs Bahía",
+      "local": "Santos",
+      "visitante": "Bahía",
       "fecha": "2026-10-25",
       "hora": "02:00",
       "canales": [
-        "NBA League Pass"
+        "Fanatiz (Ver en directo)"
       ]
     },
     {
@@ -4218,6 +4310,19 @@
       ]
     },
     {
+      "deporte": "Baloncesto",
+      "competicion": "NBA",
+      "ronda": "Liga Regular",
+      "evento": "Denver Nuggets vs New Orleans Pelicans",
+      "local": "Denver Nuggets",
+      "visitante": "New Orleans Pelicans",
+      "fecha": "2026-10-25",
+      "hora": "03:00",
+      "canales": [
+        "NBA League Pass"
+      ]
+    },
+    {
       "deporte": "Golf",
       "competicion": "Genesis Championship",
       "ronda": null,
@@ -4322,6 +4427,19 @@
       "hora": "07:45",
       "canales": [
         "A-Leagues YouTube"
+      ]
+    },
+    {
+      "deporte": "Atletismo",
+      "competicion": "Medio Maratón Valencia",
+      "ronda": null,
+      "evento": "IAAF Gold Label Road Race",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-10-25",
+      "hora": "08:00",
+      "canales": [
+        "À Punt (C. Valenciana)"
       ]
     },
     {
@@ -4939,6 +5057,20 @@
       "canales": [
         "BalONcesto TV",
         "BalONcesto TV PPV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Serie A Femminile",
+      "ronda": null,
+      "evento": "Lazio Femminile vs FC Como Femminile",
+      "local": "Lazio Femminile",
+      "visitante": "FC Como Femminile",
+      "fecha": "2026-10-25",
+      "hora": "12:30",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
@@ -7028,7 +7160,7 @@
     {
       "deporte": "Fútbol",
       "competicion": "Copa Libertadores Femenina",
-      "ronda": null,
+      "ronda": "1/4 de Final",
       "evento": "Deportivo Cali Femenino vs Olimpia Femenino",
       "local": "Deportivo Cali Femenino",
       "visitante": "Olimpia Femenino",
@@ -7252,6 +7384,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Liga Futve",
+      "ronda": null,
+      "evento": "Portuguesa FC vs Carabobo",
+      "local": "Portuguesa FC",
+      "visitante": "Carabobo",
+      "fecha": "2026-10-25",
+      "hora": "22:30",
+      "canales": [
+        "LigaFUTVE App"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Segunda Uruguay",
       "ronda": null,
       "evento": "La Luz FC vs Miramar Misiones",
@@ -7410,6 +7555,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Liga Futve",
+      "ronda": null,
+      "evento": "La Guaira vs Metropolitanos",
+      "local": "La Guaira",
+      "visitante": "Metropolitanos",
+      "fecha": "2026-10-26",
+      "hora": "00:30",
+      "canales": [
+        "LigaFUTVE App"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "NBA",
       "ronda": "Liga Regular",
@@ -7427,7 +7585,7 @@
     {
       "deporte": "Fútbol",
       "competicion": "Copa Libertadores Femenina",
-      "ronda": null,
+      "ronda": "1/4 de Final",
       "evento": "Cruzeiro Feminino vs Club Libertad Femenino",
       "local": "Cruzeiro Feminino",
       "visitante": "Club Libertad Femenino",

@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-10-24T03:22:28"
+    "actualizado": "2026-10-24T12:27:06"
   },
   "config": {
     "puntos_por_tier": {
@@ -1957,6 +1957,11 @@
     },
     "WTA Torneo de Tokio": {
       "deporte": "Tenis",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Medio Maratón Valencia": {
+      "deporte": "Atletismo",
       "tier": "C",
       "por_revisar": true
     }
