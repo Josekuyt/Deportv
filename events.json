@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-10-25T03:17:20",
+    "generado": "2026-10-25T12:57:39",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 416
+    "total_eventos": 434
   },
   "eventos": [
     {
@@ -76,9 +76,9 @@
       "deporte": "Béisbol",
       "competicion": "LVBP",
       "ronda": null,
-      "evento": "Bravos de Margarita vs Águilas del Zulia",
-      "local": "Bravos de Margarita",
-      "visitante": "Águilas del Zulia",
+      "evento": "Tiburones de la Guaira vs Caribes de Anzoátegui",
+      "local": "Tiburones de la Guaira",
+      "visitante": "Caribes de Anzoátegui",
       "fecha": "2026-10-25",
       "hora": "00:00",
       "canales": [
@@ -137,6 +137,19 @@
       "hora": "00:30",
       "canales": [
         "NWSL+"
+      ]
+    },
+    {
+      "deporte": "Béisbol",
+      "competicion": "LVBP",
+      "ronda": null,
+      "evento": "Bravos de Margarita vs Águilas del Zulia",
+      "local": "Bravos de Margarita",
+      "visitante": "Águilas del Zulia",
+      "fecha": "2026-10-25",
+      "hora": "00:30",
+      "canales": [
+        "BeisbolPlay"
       ]
     },
     {
@@ -460,6 +473,19 @@
       ]
     },
     {
+      "deporte": "Baloncesto",
+      "competicion": "NBA",
+      "ronda": "Liga Regular",
+      "evento": "Denver Nuggets vs New Orleans Pelicans",
+      "local": "Denver Nuggets",
+      "visitante": "New Orleans Pelicans",
+      "fecha": "2026-10-25",
+      "hora": "02:00",
+      "canales": [
+        "NBA League Pass"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Serie A Brasil",
       "ronda": null,
@@ -624,19 +650,6 @@
       "evento": "Phoenix Suns vs Golden State Warriors",
       "local": "Phoenix Suns",
       "visitante": "Golden State Warriors",
-      "fecha": "2026-10-25",
-      "hora": "03:00",
-      "canales": [
-        "NBA League Pass"
-      ]
-    },
-    {
-      "deporte": "Baloncesto",
-      "competicion": "NBA",
-      "ronda": "Liga Regular",
-      "evento": "Denver Nuggets vs New Orleans Pelicans",
-      "local": "Denver Nuggets",
-      "visitante": "New Orleans Pelicans",
       "fecha": "2026-10-25",
       "hora": "03:00",
       "canales": [
@@ -921,10 +934,10 @@
     {
       "deporte": "Hockey Patines",
       "competicion": "Supercopa España Femenina",
-      "ronda": null,
-      "evento": "Final",
-      "local": null,
-      "visitante": null,
+      "ronda": "Final",
+      "evento": "CP Vila-Sana vs Gijón HC",
+      "local": "CP Vila-Sana",
+      "visitante": "Gijón HC",
       "fecha": "2026-10-25",
       "hora": "11:45",
       "canales": [
@@ -1313,6 +1326,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "División Honor Juvenil",
+      "ronda": "Grupo 3",
+      "evento": "Osasuna Academy vs FC Barcelona Academy",
+      "local": "Osasuna Academy",
+      "visitante": "FC Barcelona Academy",
+      "fecha": "2026-10-25",
+      "hora": "12:00",
+      "canales": [
+        "Osasuna TV"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "Primera FEB",
       "ronda": "Liga Regular",
@@ -1570,7 +1596,8 @@
       "canales": [
         "DAZN (Ver en directo)",
         "DAZN Baloncesto 3 (M76 O128)",
-        "TVG (Galicia)"
+        "TVG (Galicia)",
+        "TVG2 (Galicia)"
       ]
     },
     {
@@ -2000,10 +2027,10 @@
     {
       "deporte": "Hockey Patines",
       "competicion": "Supercopa de España",
-      "ronda": null,
-      "evento": "Final",
-      "local": null,
-      "visitante": null,
+      "ronda": "Final",
+      "evento": "Barça HP vs Igualada HC",
+      "local": "Barça HP",
+      "visitante": "Igualada HC",
       "fecha": "2026-10-25",
       "hora": "15:30",
       "canales": [
@@ -3361,6 +3388,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Liga Colombiana",
+      "ronda": null,
+      "evento": "Fortaleza vs Deportivo Cali",
+      "local": "Fortaleza",
+      "visitante": "Deportivo Cali",
+      "fecha": "2026-10-25",
+      "hora": "20:00",
+      "canales": [
+        "RCN Nuestra Tele"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "NWSL",
       "ronda": null,
       "evento": "Orlando Pride vs NJ/NY Gotham FC",
@@ -3705,6 +3745,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Liga Colombiana",
+      "ronda": null,
+      "evento": "Alianza vs Inter Bogotá",
+      "local": "Alianza",
+      "visitante": "Inter Bogotá",
+      "fecha": "2026-10-25",
+      "hora": "22:05",
+      "canales": [
+        "RCN Nuestra Tele"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Liga Futve",
       "ronda": null,
       "evento": "Portuguesa FC vs Carabobo",
@@ -3863,6 +3916,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Liga Colombiana",
+      "ronda": null,
+      "evento": "Atlético Nacional vs Medellín",
+      "local": "Atlético Nacional",
+      "visitante": "Medellín",
+      "fecha": "2026-10-26",
+      "hora": "00:10",
+      "canales": [
+        "RCN Nuestra Tele"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "Liga Sudamericana",
       "ronda": null,
@@ -3999,6 +4065,33 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Liga Colombiana",
+      "ronda": null,
+      "evento": "Deportes Tolima vs Deportivo Pasto",
+      "local": "Deportes Tolima",
+      "visitante": "Deportivo Pasto",
+      "fecha": "2026-10-26",
+      "hora": "02:15",
+      "canales": [
+        "RCN Nuestra Tele"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Tokio",
+      "ronda": "1ª Ronda",
+      "evento": "X. Wang vs A. Parks",
+      "local": "X. Wang",
+      "visitante": "A. Parks",
+      "fecha": "2026-10-26",
+      "hora": "02:30",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "MLS Next Pro",
       "ronda": null,
       "evento": "Portland Timbers 2 vs Ventura County",
@@ -4012,13 +4105,26 @@
     },
     {
       "deporte": "Tenis",
-      "competicion": "WTA Torneo de Tokio",
-      "ronda": null,
-      "evento": "1ª Ronda WTA 500",
-      "local": null,
-      "visitante": null,
+      "competicion": "WTA Torneo de Guangzhou",
+      "ronda": "1ª Ronda",
+      "evento": "M. Timofeeva vs T. Kostovic",
+      "local": "M. Timofeeva",
+      "visitante": "T. Kostovic",
       "fecha": "2026-10-26",
-      "hora": "03:30",
+      "hora": "04:00",
+      "canales": [
+        "WTA TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Tokio",
+      "ronda": "1ª Ronda",
+      "evento": "D. Kasatkina vs T. Gibson",
+      "local": "D. Kasatkina",
+      "visitante": "T. Gibson",
+      "fecha": "2026-10-26",
+      "hora": "04:00",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -4027,14 +4133,68 @@
     {
       "deporte": "Tenis",
       "competicion": "WTA Torneo de Guangzhou",
-      "ronda": null,
-      "evento": "1ª Ronda WTA 250",
-      "local": null,
-      "visitante": null,
+      "ronda": "1ª Ronda",
+      "evento": "D. Snigur vs A. Bondar",
+      "local": "D. Snigur",
+      "visitante": "A. Bondar",
+      "fecha": "2026-10-26",
+      "hora": "05:30",
+      "canales": [
+        "WTA TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Tokio",
+      "ronda": "1ª Ronda",
+      "evento": "M. Uchijima vs E. Mertens",
+      "local": "M. Uchijima",
+      "visitante": "E. Mertens",
+      "fecha": "2026-10-26",
+      "hora": "05:30",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Guangzhou",
+      "ronda": "1ª Ronda",
+      "evento": "H. Shi vs A. Ibragimova",
+      "local": "H. Shi",
+      "visitante": "A. Ibragimova",
+      "fecha": "2026-10-26",
+      "hora": "07:00",
+      "canales": [
+        "WTA TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Guangzhou",
+      "ronda": "1ª Ronda",
+      "evento": "P. Badosa vs CY. Lee",
+      "local": "P. Badosa",
+      "visitante": "CY. Lee",
+      "fecha": "2026-10-26",
+      "hora": "08:30",
+      "canales": [
+        "WTA TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Tokio",
+      "ronda": "1ª Ronda",
+      "evento": "A. Eala vs M. Stojsavljevic",
+      "local": "A. Eala",
+      "visitante": "M. Stojsavljevic",
       "fecha": "2026-10-26",
       "hora": "09:00",
       "canales": [
-        "WTA TV"
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -4369,6 +4529,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Liga Colombiana",
+      "ronda": null,
+      "evento": "Jaguares FC vs Llaneros",
+      "local": "Jaguares FC",
+      "visitante": "Llaneros",
+      "fecha": "2026-10-27",
+      "hora": "00:00",
+      "canales": [
+        "RCN Nuestra Tele"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "NBA",
       "ronda": "Liga Regular",
@@ -4538,6 +4711,19 @@
       "hora": "02:00",
       "canales": [
         "NBA League Pass"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Colombiana",
+      "ronda": null,
+      "evento": "Santa Fe vs Bucaramanga",
+      "local": "Santa Fe",
+      "visitante": "Bucaramanga",
+      "fecha": "2026-10-27",
+      "hora": "02:05",
+      "canales": [
+        "RCN Nuestra Tele"
       ]
     },
     {
@@ -4741,6 +4927,19 @@
     },
     {
       "deporte": "Baloncesto",
+      "competicion": "FIBA Europe Cup",
+      "ronda": "Liga Regular",
+      "evento": "CS Dinamo București BC vs Patrioti Levice",
+      "local": "CS Dinamo București BC",
+      "visitante": "Patrioti Levice",
+      "fecha": "2026-10-27",
+      "hora": "18:00",
+      "canales": [
+        "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
       "competicion": "Eurocup",
       "ronda": "Liga Regular",
       "evento": "BC Balkan Botevgrad vs Kids&Us Manresa",
@@ -4926,6 +5125,45 @@
       ]
     },
     {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Europe Cup",
+      "ronda": "Liga Regular",
+      "evento": "MZT Skopje vs AEK Larnaca BC",
+      "local": "MZT Skopje",
+      "visitante": "AEK Larnaca BC",
+      "fecha": "2026-10-27",
+      "hora": "19:00",
+      "canales": [
+        "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Europe Cup",
+      "ronda": "Liga Regular",
+      "evento": "BC Prievidza vs Bakken Bears",
+      "local": "BC Prievidza",
+      "visitante": "Bakken Bears",
+      "fecha": "2026-10-27",
+      "hora": "19:00",
+      "canales": [
+        "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Europe Cup",
+      "ronda": "Liga Regular",
+      "evento": "BC Vienna vs Keravnos BC",
+      "local": "BC Vienna",
+      "visitante": "Keravnos BC",
+      "fecha": "2026-10-27",
+      "hora": "19:00",
+      "canales": [
+        "FIBA YouTube"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Copa del Rey",
       "ronda": "1ª Ronda",
@@ -4935,7 +5173,8 @@
       "fecha": "2026-10-27",
       "hora": "19:00",
       "canales": [
-        "M+ LALIGA (M54 O110)"
+        "M+ LALIGA (M54 O110)",
+        "LaLiga TV Bar"
       ]
     },
     {
@@ -5529,7 +5768,8 @@
       "hora": "21:00",
       "canales": [
         "M+ LALIGA 2 (M57 O112)",
-        "M+ LALIGA 4 (M168 O417)"
+        "M+ LALIGA 4 (M168 O417)",
+        "LaLiga TV Bar"
       ]
     },
     {
