@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-10-24T12:27:06"
+    "actualizado": "2026-10-26T03:18:41"
   },
   "config": {
     "puntos_por_tier": {
@@ -1581,7 +1581,10 @@
       "por_revisar": true
     },
     "Copa del Rey": {
-      "deporte": "Fútbol",
+      "deporte": [
+        "Fútbol",
+        "Balonmano"
+      ],
       "tier": "S",
       "por_revisar": true
     },
@@ -1963,6 +1966,16 @@
     "Medio Maratón Valencia": {
       "deporte": "Atletismo",
       "tier": "C",
+      "por_revisar": true
+    },
+    "FA Women's League Cup": {
+      "deporte": "Fútbol",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Futsal Champions League": {
+      "deporte": "Fútbol Sala",
+      "tier": "S",
       "por_revisar": true
     }
   }
