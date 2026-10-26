@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-10-26T14:51:17",
+    "generado": "2026-10-26T20:53:38",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 313
+    "total_eventos": 324
   },
   "eventos": [
     {
@@ -395,32 +395,32 @@
     },
     {
       "deporte": "Tenis",
-      "competicion": "Torneo de Basilea",
-      "ronda": "1ª Ronda",
-      "evento": "V. Vacherot vs M. Navone",
-      "local": "V. Vacherot",
-      "visitante": "M. Navone",
-      "fecha": "2026-10-26",
-      "hora": "13:30",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes (63)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
       "competicion": "Torneo de Viena",
       "ronda": "1ª Ronda",
       "evento": "M. Berrettini vs TM. Etcheverry",
       "local": "M. Berrettini",
       "visitante": "TM. Etcheverry",
       "fecha": "2026-10-26",
-      "hora": "13:30",
+      "hora": "13:40",
       "canales": [
         "ATP Tennis TV",
         "M+ Vamos (8 y 50)",
         "M+ #Vamos Bar (307)",
         "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Basilea",
+      "ronda": "1ª Ronda",
+      "evento": "V. Vacherot vs M. Navone",
+      "local": "V. Vacherot",
+      "visitante": "M. Navone",
+      "fecha": "2026-10-26",
+      "hora": "13:45",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes (63)"
       ]
     },
     {
@@ -438,30 +438,30 @@
     },
     {
       "deporte": "Tenis",
-      "competicion": "Torneo de Basilea",
-      "ronda": "1ª Ronda",
-      "evento": "H. Rune vs Q. Halys",
-      "local": "H. Rune",
-      "visitante": "Q. Halys",
-      "fecha": "2026-10-26",
-      "hora": "15:00",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes (63)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
       "competicion": "Torneo de Viena",
       "ronda": "1ª Ronda",
       "evento": "T. Machac vs A. De Miñaur",
       "local": "T. Machac",
       "visitante": "A. De Miñaur",
       "fecha": "2026-10-26",
-      "hora": "15:00",
+      "hora": "15:25",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Basilea",
+      "ronda": "1ª Ronda",
+      "evento": "H. Rune vs Q. Halys",
+      "local": "H. Rune",
+      "visitante": "Q. Halys",
+      "fecha": "2026-10-26",
+      "hora": "16:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes (63)"
       ]
     },
     {
@@ -524,7 +524,7 @@
       "local": "A. Fery",
       "visitante": "J. Fearnley",
       "fecha": "2026-10-26",
-      "hora": "17:30",
+      "hora": "17:40",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 3 (65)"
@@ -538,7 +538,7 @@
       "local": "J. Mensik",
       "visitante": "L. Neumayer",
       "fecha": "2026-10-26",
-      "hora": "17:30",
+      "hora": "17:50",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 2 (64)"
@@ -555,6 +555,20 @@
       "hora": "18:00",
       "canales": [
         "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Viena",
+      "ronda": "1ª Ronda",
+      "evento": "L. Darderi vs M. Arnaldi",
+      "local": "L. Darderi",
+      "visitante": "M. Arnaldi",
+      "fecha": "2026-10-26",
+      "hora": "18:40",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 3 (65)"
       ]
     },
     {
@@ -607,20 +621,6 @@
       "hora": "19:00",
       "canales": [
         "LPF Play (plan plus)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Viena",
-      "ronda": "1ª Ronda",
-      "evento": "L. Darderi vs M. Arnaldi",
-      "local": "L. Darderi",
-      "visitante": "M. Arnaldi",
-      "fecha": "2026-10-26",
-      "hora": "19:00",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes 3 (65)"
       ]
     },
     {
@@ -746,19 +746,6 @@
     },
     {
       "deporte": "Fútbol",
-      "competicion": "Balón de Oro",
-      "ronda": null,
-      "evento": "2026 Edition London Palladium",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-10-26",
-      "hora": "21:00",
-      "canales": [
-        "Movistar Plus+ (M7): VER PARTIDO"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
       "competicion": "La Liga EA Sports",
       "ronda": null,
       "evento": "Sevilla FC vs Osasuna",
@@ -783,6 +770,19 @@
       "hora": "21:30",
       "canales": [
         "Zapping Internacional"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Balón de Oro",
+      "ronda": null,
+      "evento": "2026 Edition London Palladium",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-10-26",
+      "hora": "21:45",
+      "canales": [
+        "Movistar Plus+ (M7): VER PARTIDO"
       ]
     },
     {
@@ -1047,7 +1047,8 @@
       "hora": "03:00",
       "canales": [
         "NBA League Pass",
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN Baloncesto (M74 O126)"
       ]
     },
     {
@@ -1198,6 +1199,20 @@
     },
     {
       "deporte": "Tenis",
+      "competicion": "Torneo de Basilea",
+      "ronda": "1ª Ronda",
+      "evento": "H. Hurkacz vs Z. Bergs",
+      "local": "H. Hurkacz",
+      "visitante": "Z. Bergs",
+      "fecha": "2026-10-27",
+      "hora": "12:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 4 (191)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
       "competicion": "WTA Torneo de Guangzhou",
       "ronda": "1ª Ronda",
       "evento": "X. Sun vs M. Sawangkaew",
@@ -1250,30 +1265,101 @@
     },
     {
       "deporte": "Tenis",
-      "competicion": "Torneo de Viena",
-      "ronda": null,
-      "evento": "1ª Ronda ATP 500",
-      "local": null,
-      "visitante": null,
+      "competicion": "Torneo de Basilea",
+      "ronda": "1ª Ronda",
+      "evento": "J. Kym vs A. Rinderknech",
+      "local": "J. Kym",
+      "visitante": "A. Rinderknech",
       "fecha": "2026-10-27",
-      "hora": "13:35",
+      "hora": "13:30",
       "canales": [
         "ATP Tennis TV",
-        "Movistar+"
+        "M+ Deportes 4 (191)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Viena",
+      "ronda": "1ª Ronda",
+      "evento": "T. Paul vs A. Rublev",
+      "local": "T. Paul",
+      "visitante": "A. Rublev",
+      "fecha": "2026-10-27",
+      "hora": "13:30",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
       ]
     },
     {
       "deporte": "Tenis",
       "competicion": "Torneo de Basilea",
-      "ronda": null,
-      "evento": "1ª Ronda ATP 500",
-      "local": null,
-      "visitante": null,
+      "ronda": "1ª Ronda",
+      "evento": "A. Tabilo vs R. Jódar",
+      "local": "A. Tabilo",
+      "visitante": "R. Jódar",
       "fecha": "2026-10-27",
       "hora": "14:00",
       "canales": [
         "ATP Tennis TV",
-        "Movistar+"
+        "M+ Deportes (63)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Basilea",
+      "ronda": "1ª Ronda",
+      "evento": "A. Michelsen vs B. Van de Zandschulp",
+      "local": "A. Michelsen",
+      "visitante": "B. Van de Zandschulp",
+      "fecha": "2026-10-27",
+      "hora": "15:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 4 (191)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Viena",
+      "ronda": "1ª Ronda",
+      "evento": "A. Mannarino vs I. Buse",
+      "local": "A. Mannarino",
+      "visitante": "I. Buse",
+      "fecha": "2026-10-27",
+      "hora": "15:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 3 (65)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Viena",
+      "ronda": "1ª Ronda",
+      "evento": "K. Khachanov vs C. Alcaraz",
+      "local": "K. Khachanov",
+      "visitante": "C. Alcaraz",
+      "fecha": "2026-10-27",
+      "hora": "15:00",
+      "canales": [
+        "ATP Tennis TV",
+        "Movistar Plus+ (M7): VER PARTIDO",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Basilea",
+      "ronda": "1ª Ronda",
+      "evento": "G. Mpetshi Perricard vs A. Fils",
+      "local": "G. Mpetshi Perricard",
+      "visitante": "A. Fils",
+      "fecha": "2026-10-27",
+      "hora": "15:30",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes (63)"
       ]
     },
     {
@@ -1313,6 +1399,48 @@
       "hora": "17:00",
       "canales": [
         "M+ Baloncesto (M66)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Viena",
+      "ronda": "1ª Ronda",
+      "evento": "A. Zverev vs M. Landaluce",
+      "local": "A. Zverev",
+      "visitante": "M. Landaluce",
+      "fecha": "2026-10-27",
+      "hora": "17:30",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Viena",
+      "ronda": "1ª Ronda",
+      "evento": "C. Norrie vs F. Cerúndolo",
+      "local": "C. Norrie",
+      "visitante": "F. Cerúndolo",
+      "fecha": "2026-10-27",
+      "hora": "17:30",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 3 (65)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Basilea",
+      "ronda": "1ª Ronda",
+      "evento": "B. Shelton vs A. Kovacevic",
+      "local": "B. Shelton",
+      "visitante": "A. Kovacevic",
+      "fecha": "2026-10-27",
+      "hora": "18:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes (63)"
       ]
     },
     {
@@ -1623,6 +1751,20 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Basilea",
+      "ronda": "1ª Ronda",
+      "evento": "S. Wawrinka vs J. Lehecka",
+      "local": "S. Wawrinka",
+      "visitante": "J. Lehecka",
+      "fecha": "2026-10-27",
+      "hora": "19:30",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes (63)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Copa del Rey",
       "ronda": "1ª Ronda",
@@ -1724,6 +1866,20 @@
       "hora": "20:00",
       "canales": [
         "OneFootball PPV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Viena",
+      "ronda": "1ª Ronda",
+      "evento": "F. Cobolli vs G. Dimitrov",
+      "local": "F. Cobolli",
+      "visitante": "G. Dimitrov",
+      "fecha": "2026-10-27",
+      "hora": "20:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -2183,6 +2339,7 @@
       "hora": "21:00",
       "canales": [
         "M+ LALIGA (M54 O110)",
+        "M+ Liga de Campeones (M60 O115)",
         "LaLiga TV M2"
       ]
     },
@@ -2386,7 +2543,8 @@
       "hora": "01:00",
       "canales": [
         "NBA League Pass",
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN Baloncesto (M74 O126)"
       ]
     },
     {
