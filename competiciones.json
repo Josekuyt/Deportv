@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-10-27T03:47:25"
+    "actualizado": "2026-10-27T13:58:32"
   },
   "config": {
     "puntos_por_tier": {
@@ -1996,6 +1996,16 @@
     "Wistron Ladies Open": {
       "deporte": "Golf",
       "tier": "C",
+      "por_revisar": true
+    },
+    "FIA Fórmula E": {
+      "deporte": "Automovilismo",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Tour de Francia Femenino": {
+      "deporte": "Ciclismo",
+      "tier": "A",
       "por_revisar": true
     }
   }
