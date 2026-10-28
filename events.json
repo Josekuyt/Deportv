@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-10-28T04:05:12",
+    "generado": "2026-10-28T14:51:42",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 334
+    "total_eventos": 359
   },
   "eventos": [
     {
@@ -88,19 +88,6 @@
       ]
     },
     {
-      "deporte": "Fútbol",
-      "competicion": "Copa Libertadores Femenina",
-      "ronda": "Semifinales",
-      "evento": "Corinthians Femenino vs Santa Fe Femenino",
-      "local": "Corinthians Femenino",
-      "visitante": "Santa Fe Femenino",
-      "fecha": "2026-10-28",
-      "hora": "01:00",
-      "canales": [
-        "CONMEBOL Libertadores YouTube"
-      ]
-    },
-    {
       "deporte": "Baloncesto",
       "competicion": "NBA",
       "ronda": "Liga Regular",
@@ -136,21 +123,7 @@
       "local": "K. Rakhimova",
       "visitante": "E. Alexandrova",
       "fecha": "2026-10-28",
-      "hora": "02:30",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Torneo de Tokio",
-      "ronda": "2ª Ronda",
-      "evento": "C. Bucsa vs M. Joint",
-      "local": "C. Bucsa",
-      "visitante": "M. Joint",
-      "fecha": "2026-10-28",
-      "hora": "04:00",
+      "hora": "02:35",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -173,11 +146,11 @@
       "deporte": "Tenis",
       "competicion": "WTA Torneo de Tokio",
       "ronda": "2ª Ronda",
-      "evento": "A. Sasnovich vs D. Shnaider",
-      "local": "A. Sasnovich",
-      "visitante": "D. Shnaider",
+      "evento": "C. Bucsa vs M. Joint",
+      "local": "C. Bucsa",
+      "visitante": "M. Joint",
       "fecha": "2026-10-28",
-      "hora": "05:30",
+      "hora": "05:45",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -191,9 +164,23 @@
       "local": "K. Siniakova",
       "visitante": "L. Tararudee",
       "fecha": "2026-10-28",
-      "hora": "06:00",
+      "hora": "06:05",
       "canales": [
         "WTA TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Tokio",
+      "ronda": "2ª Ronda",
+      "evento": "A. Sasnovich vs D. Shnaider",
+      "local": "A. Sasnovich",
+      "visitante": "D. Shnaider",
+      "fecha": "2026-10-28",
+      "hora": "07:55",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -204,7 +191,7 @@
       "local": "P. Badosa",
       "visitante": "S. Kraus",
       "fecha": "2026-10-28",
-      "hora": "07:30",
+      "hora": "08:20",
       "canales": [
         "WTA TV"
       ]
@@ -217,7 +204,7 @@
       "local": "H. Dart",
       "visitante": "J. Tjen",
       "fecha": "2026-10-28",
-      "hora": "09:00",
+      "hora": "09:45",
       "canales": [
         "WTA TV"
       ]
@@ -230,7 +217,7 @@
       "local": "A. Eala",
       "visitante": "T. Gibson",
       "fecha": "2026-10-28",
-      "hora": "09:00",
+      "hora": "10:55",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -263,19 +250,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "WTA Torneo de Guangzhou",
-      "ronda": "2ª Ronda",
-      "evento": "H. Shi vs D. Yastremska",
-      "local": "H. Shi",
-      "visitante": "D. Yastremska",
-      "fecha": "2026-10-28",
-      "hora": "12:00",
-      "canales": [
-        "WTA TV"
-      ]
-    },
-    {
       "deporte": "Pádel",
       "competicion": "Kuwait Major",
       "ronda": null,
@@ -290,13 +264,26 @@
     },
     {
       "deporte": "Tenis",
+      "competicion": "WTA Torneo de Guangzhou",
+      "ronda": "2ª Ronda",
+      "evento": "H. Shi vs D. Yastremska",
+      "local": "H. Shi",
+      "visitante": "D. Yastremska",
+      "fecha": "2026-10-28",
+      "hora": "12:30",
+      "canales": [
+        "WTA TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
       "competicion": "Torneo de Basilea",
       "ronda": "1ª Ronda",
       "evento": "Y. Hanfmann vs JL. Struff",
       "local": "Y. Hanfmann",
       "visitante": "JL. Struff",
       "fecha": "2026-10-28",
-      "hora": "12:30",
+      "hora": "12:40",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 4 (191)"
@@ -336,7 +323,7 @@
       "local": "T. Griekspoor",
       "visitante": "B. Nakashima",
       "fecha": "2026-10-28",
-      "hora": "13:30",
+      "hora": "13:40",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 3 (65)"
@@ -350,39 +337,11 @@
       "local": "D. Mérida",
       "visitante": "D. Medvedev",
       "fecha": "2026-10-28",
-      "hora": "13:30",
+      "hora": "13:45",
       "canales": [
         "ATP Tennis TV",
         "Movistar Plus+ (M7): VER PARTIDO",
         "M+ Deportes 2 (64)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Basilea",
-      "ronda": "2ª Ronda",
-      "evento": "N. Borges vs C. Ruud",
-      "local": "N. Borges",
-      "visitante": "C. Ruud",
-      "fecha": "2026-10-28",
-      "hora": "14:00",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes (63)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Basilea",
-      "ronda": "1ª Ronda",
-      "evento": "R. Bertola vs D. Shapovalov",
-      "local": "R. Bertola",
-      "visitante": "D. Shapovalov",
-      "fecha": "2026-10-28",
-      "hora": "14:00",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes 4 (191)"
       ]
     },
     {
@@ -396,6 +355,34 @@
       "hora": "14:00",
       "canales": [
         "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Basilea",
+      "ronda": "1ª Ronda",
+      "evento": "R. Bertola vs D. Shapovalov",
+      "local": "R. Bertola",
+      "visitante": "D. Shapovalov",
+      "fecha": "2026-10-28",
+      "hora": "14:05",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 4 (191)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Basilea",
+      "ronda": "2ª Ronda",
+      "evento": "N. Borges vs C. Ruud",
+      "local": "N. Borges",
+      "visitante": "C. Ruud",
+      "fecha": "2026-10-28",
+      "hora": "14:10",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes (63)"
       ]
     },
     {
@@ -432,7 +419,7 @@
       "local": "L. Musetti",
       "visitante": "F. Tiafoe",
       "fecha": "2026-10-28",
-      "hora": "15:00",
+      "hora": "15:05",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 2 (64)"
@@ -446,7 +433,7 @@
       "local": "N. Djokovic",
       "visitante": "U. Humbert",
       "fecha": "2026-10-28",
-      "hora": "15:30",
+      "hora": "15:40",
       "canales": [
         "ATP Tennis TV",
         "M+ Vamos (8 y 50)",
@@ -468,6 +455,20 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "FIFA Mundial Femenino Sub-17",
+      "ronda": "1/8 de final",
+      "evento": "Alemania vs Venezuela",
+      "local": "Alemania",
+      "visitante": "Venezuela",
+      "fecha": "2026-10-28",
+      "hora": "16:00",
+      "canales": [
+        "Teledeporte",
+        "RTVE Play"
+      ]
+    },
+    {
       "deporte": "Tenis",
       "competicion": "Torneo de Viena",
       "ronda": "2ª Ronda",
@@ -475,7 +476,7 @@
       "local": "J. Mensik",
       "visitante": "A. Mannarino",
       "fecha": "2026-10-28",
-      "hora": "16:30",
+      "hora": "16:35",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 3 (65)"
@@ -586,20 +587,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Viena",
-      "ronda": "1ª Ronda",
-      "evento": "J. Rodionov vs N. Basilashvili",
-      "local": "J. Rodionov",
-      "visitante": "N. Basilashvili",
-      "fecha": "2026-10-28",
-      "hora": "17:30",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes 2 (64)"
-      ]
-    },
-    {
       "deporte": "Baloncesto",
       "competicion": "FIBA Europe Cup",
       "ronda": "Liga Regular",
@@ -610,6 +597,35 @@
       "hora": "17:30",
       "canales": [
         "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "División Honor Juvenil",
+      "ronda": "Grupo 4",
+      "evento": "Real Betis Academy vs Cádiz CF Academy",
+      "local": "Real Betis Academy",
+      "visitante": "Cádiz CF Academy",
+      "fecha": "2026-10-28",
+      "hora": "17:30",
+      "canales": [
+        "Plaiz",
+        "Real Betis Balompié YouTube",
+        "Real Betis TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Viena",
+      "ronda": "1ª Ronda",
+      "evento": "J. Rodionov vs N. Basilashvili",
+      "local": "J. Rodionov",
+      "visitante": "N. Basilashvili",
+      "fecha": "2026-10-28",
+      "hora": "17:35",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -655,7 +671,7 @@
     {
       "deporte": "Baloncesto",
       "competicion": "Eurocup Women",
-      "ronda": null,
+      "ronda": "Liga Regular",
       "evento": "DSK Basketball Brandys vs Maccabi Bnot Ashdod",
       "local": "DSK Basketball Brandys",
       "visitante": "Maccabi Bnot Ashdod",
@@ -840,6 +856,19 @@
     },
     {
       "deporte": "Baloncesto",
+      "competicion": "Basketball Champions League",
+      "ronda": "Liga Regular",
+      "evento": "Rytas Vilnius vs Trabzonspor MP",
+      "local": "Rytas Vilnius",
+      "visitante": "Trabzonspor MP",
+      "fecha": "2026-10-28",
+      "hora": "18:30",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
       "competicion": "Eurocup Women",
       "ronda": "Liga Regular",
       "evento": "AEL Limassol BC vs HBA Helsinki",
@@ -861,7 +890,8 @@
       "fecha": "2026-10-28",
       "hora": "18:30",
       "canales": [
-        "FIBA YouTube"
+        "FIBA YouTube",
+        "TVG2 (Galicia)"
       ]
     },
     {
@@ -1091,6 +1121,19 @@
     },
     {
       "deporte": "Baloncesto",
+      "competicion": "Basketball Champions League",
+      "ronda": "Liga Regular",
+      "evento": "Rasta Vechta vs Hapoel Holon",
+      "local": "Rasta Vechta",
+      "visitante": "Hapoel Holon",
+      "fecha": "2026-10-28",
+      "hora": "19:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
       "competicion": "FIBA Europe Cup",
       "ronda": "Liga Regular",
       "evento": "S. Oliver Baskets vs Dziki Warszawa",
@@ -1138,7 +1181,7 @@
       "fecha": "2026-10-28",
       "hora": "19:00",
       "canales": [
-        "Canal por confirmar"
+        "APLAZADO"
       ]
     },
     {
@@ -1151,8 +1194,7 @@
       "fecha": "2026-10-28",
       "hora": "19:00",
       "canales": [
-        "Aragón Play",
-        "Aragón TV"
+        "APLAZADO"
       ]
     },
     {
@@ -1165,7 +1207,7 @@
       "fecha": "2026-10-28",
       "hora": "19:00",
       "canales": [
-        "Canal por confirmar"
+        "APLAZADO"
       ]
     },
     {
@@ -1178,7 +1220,7 @@
       "fecha": "2026-10-28",
       "hora": "19:00",
       "canales": [
-        "Canal por confirmar"
+        "APLAZADO"
       ]
     },
     {
@@ -1191,7 +1233,7 @@
       "fecha": "2026-10-28",
       "hora": "19:00",
       "canales": [
-        "Canal por confirmar"
+        "APLAZADO"
       ]
     },
     {
@@ -1204,7 +1246,7 @@
       "fecha": "2026-10-28",
       "hora": "19:00",
       "canales": [
-        "Aragón Play"
+        "APLAZADO"
       ]
     },
     {
@@ -1217,8 +1259,7 @@
       "fecha": "2026-10-28",
       "hora": "19:00",
       "canales": [
-        "M+ LALIGA 4 (M168 O417)",
-        "LaLiga TV M2"
+        "APLAZADO"
       ]
     },
     {
@@ -1231,8 +1272,7 @@
       "fecha": "2026-10-28",
       "hora": "19:00",
       "canales": [
-        "M+ LALIGA 3 (M167 O123)",
-        "LaLiga TV Bar"
+        "APLAZADO"
       ]
     },
     {
@@ -1447,17 +1487,42 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Viena",
-      "ronda": "2ª Ronda",
-      "evento": "L. Tien vs A. De Miñaur",
-      "local": "L. Tien",
-      "visitante": "A. De Miñaur",
+      "deporte": "Fútbol",
+      "competicion": "Liga Pro Serie B",
+      "ronda": null,
+      "evento": "Independiente Juniors vs San Antonio",
+      "local": "Independiente Juniors",
+      "visitante": "San Antonio",
       "fecha": "2026-10-28",
       "hora": "20:00",
       "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes 2 (64)"
+        "Zapping Internacional"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Pro Serie B",
+      "ronda": null,
+      "evento": "9 de Octubre vs Cuenca Juniors",
+      "local": "9 de Octubre",
+      "visitante": "Cuenca Juniors",
+      "fecha": "2026-10-28",
+      "hora": "20:00",
+      "canales": [
+        "Zapping Internacional"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Pro Serie B",
+      "ronda": null,
+      "evento": "Atlético Fútbol Club vs Vinotinto FC",
+      "local": "Atlético Fútbol Club",
+      "visitante": "Vinotinto FC",
+      "fecha": "2026-10-28",
+      "hora": "20:00",
+      "canales": [
+        "Zapping Internacional"
       ]
     },
     {
@@ -1470,9 +1535,23 @@
       "fecha": "2026-10-28",
       "hora": "20:00",
       "canales": [
+        "DAZN (Ver en directo)",
         "Teledeporte",
         "RTVE Play",
         "ETBK (País Vasco)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Basketball Champions League",
+      "ronda": "Liga Regular",
+      "evento": "Cholet Basket vs KK Spartak Subotica BC",
+      "local": "Cholet Basket",
+      "visitante": "KK Spartak Subotica BC",
+      "fecha": "2026-10-28",
+      "hora": "20:00",
+      "canales": [
+        "DAZN (Ver en directo)"
       ]
     },
     {
@@ -1485,7 +1564,8 @@
       "fecha": "2026-10-28",
       "hora": "20:00",
       "canales": [
-        "FIBA YouTube"
+        "FIBA YouTube",
+        "TVG2 (Galicia)"
       ]
     },
     {
@@ -1550,7 +1630,7 @@
       "fecha": "2026-10-28",
       "hora": "20:00",
       "canales": [
-        "TPA7 (Asturias)"
+        "APLAZADO"
       ]
     },
     {
@@ -1563,8 +1643,7 @@
       "fecha": "2026-10-28",
       "hora": "20:00",
       "canales": [
-        "À Punt (C. Valenciana)",
-        "IB3 (Baleares)"
+        "APLAZADO"
       ]
     },
     {
@@ -1577,7 +1656,7 @@
       "fecha": "2026-10-28",
       "hora": "20:00",
       "canales": [
-        "Canal por confirmar"
+        "APLAZADO"
       ]
     },
     {
@@ -1590,7 +1669,7 @@
       "fecha": "2026-10-28",
       "hora": "20:00",
       "canales": [
-        "Canal por confirmar"
+        "APLAZADO"
       ]
     },
     {
@@ -1603,7 +1682,7 @@
       "fecha": "2026-10-28",
       "hora": "20:00",
       "canales": [
-        "Canal por confirmar"
+        "APLAZADO"
       ]
     },
     {
@@ -1616,7 +1695,7 @@
       "fecha": "2026-10-28",
       "hora": "20:00",
       "canales": [
-        "TV Canaria"
+        "APLAZADO"
       ]
     },
     {
@@ -1629,7 +1708,7 @@
       "fecha": "2026-10-28",
       "hora": "20:00",
       "canales": [
-        "CMM (Castilla-LM)"
+        "APLAZADO"
       ]
     },
     {
@@ -1642,7 +1721,7 @@
       "fecha": "2026-10-28",
       "hora": "20:00",
       "canales": [
-        "Canal por confirmar"
+        "APLAZADO"
       ]
     },
     {
@@ -1656,6 +1735,20 @@
       "hora": "20:00",
       "canales": [
         "M+ Baloncesto 5 (M196)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Viena",
+      "ronda": "2ª Ronda",
+      "evento": "L. Tien vs A. De Miñaur",
+      "local": "L. Tien",
+      "visitante": "A. De Miñaur",
+      "fecha": "2026-10-28",
+      "hora": "20:05",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -1746,7 +1839,7 @@
       "fecha": "2026-10-28",
       "hora": "20:30",
       "canales": [
-        "Canal por confirmar"
+        "APLAZADO"
       ]
     },
     {
@@ -1759,7 +1852,7 @@
       "fecha": "2026-10-28",
       "hora": "20:30",
       "canales": [
-        "Canal por confirmar"
+        "APLAZADO"
       ]
     },
     {
@@ -1772,7 +1865,7 @@
       "fecha": "2026-10-28",
       "hora": "20:30",
       "canales": [
-        "Canal por confirmar"
+        "APLAZADO"
       ]
     },
     {
@@ -1785,7 +1878,7 @@
       "fecha": "2026-10-28",
       "hora": "20:30",
       "canales": [
-        "Canal por confirmar"
+        "APLAZADO"
       ]
     },
     {
@@ -2079,6 +2172,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Copa Libertadores Femenina",
+      "ronda": "Semifinales",
+      "evento": "Corinthians Femenino vs Santa Fe Femenino",
+      "local": "Corinthians Femenino",
+      "visitante": "Santa Fe Femenino",
+      "fecha": "2026-10-28",
+      "hora": "21:00",
+      "canales": [
+        "CONMEBOL Libertadores YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Copa del Rey",
       "ronda": "1ª Ronda",
       "evento": "Xerez vs Cádiz CF",
@@ -2087,7 +2193,7 @@
       "fecha": "2026-10-28",
       "hora": "21:00",
       "canales": [
-        "FANPLAY TV"
+        "APLAZADO"
       ]
     },
     {
@@ -2100,8 +2206,7 @@
       "fecha": "2026-10-28",
       "hora": "21:00",
       "canales": [
-        "M+ LALIGA (M54 O110)",
-        "LaLiga TV M3"
+        "APLAZADO"
       ]
     },
     {
@@ -2114,9 +2219,7 @@
       "fecha": "2026-10-28",
       "hora": "21:00",
       "canales": [
-        "Movistar Plus+ (M7): VER PARTIDO",
-        "M+ Liga de Campeones (M60 O115)",
-        "LaLiga TV Bar"
+        "APLAZADO"
       ]
     },
     {
@@ -2129,8 +2232,7 @@
       "fecha": "2026-10-28",
       "hora": "21:00",
       "canales": [
-        "M+ LALIGA 2 (M57 O112)",
-        "LaLiga TV M2"
+        "APLAZADO"
       ]
     },
     {
@@ -2162,19 +2264,6 @@
     },
     {
       "deporte": "Fútbol",
-      "competicion": "Copa Libertadores Femenina",
-      "ronda": "Semifinales",
-      "evento": "Cruzeiro Feminino vs Olimpia Femenino",
-      "local": "Cruzeiro Feminino",
-      "visitante": "Olimpia Femenino",
-      "fecha": "2026-10-28",
-      "hora": "22:00",
-      "canales": [
-        "CONMEBOL Libertadores YouTube"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
       "competicion": "Torneo Proyección",
       "ronda": null,
       "evento": "Central Córdoba Reserva vs Independiente Rivadavia Reserva",
@@ -2190,6 +2279,19 @@
       "deporte": "Fútbol",
       "competicion": "Serie A Brasil",
       "ronda": null,
+      "evento": "Fluminense vs Internacional",
+      "local": "Fluminense",
+      "visitante": "Internacional",
+      "fecha": "2026-10-28",
+      "hora": "23:30",
+      "canales": [
+        "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Serie A Brasil",
+      "ronda": null,
       "evento": "Santos vs Palmeiras",
       "local": "Santos",
       "visitante": "Palmeiras",
@@ -2198,7 +2300,34 @@
       "canales": [
         "M+ Vamos (8 y 50)",
         "M+ #Vamos Bar (307)",
+        "Fanatiz (Ver en directo)",
         "M+ Liga de Campeones (M60 O115)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Serie A Brasil",
+      "ronda": null,
+      "evento": "RB Bragantino vs Chapecoense",
+      "local": "RB Bragantino",
+      "visitante": "Chapecoense",
+      "fecha": "2026-10-28",
+      "hora": "23:30",
+      "canales": [
+        "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Colombiana",
+      "ronda": null,
+      "evento": "Once Caldas vs Alianza",
+      "local": "Once Caldas",
+      "visitante": "Alianza",
+      "fecha": "2026-10-29",
+      "hora": "00:00",
+      "canales": [
+        "RCN Nuestra Tele"
       ]
     },
     {
@@ -2277,7 +2406,8 @@
       "hora": "00:00",
       "canales": [
         "NBA League Pass",
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN Baloncesto 2 (M75 O127)"
       ]
     },
     {
@@ -2440,6 +2570,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Copa Libertadores Femenina",
+      "ronda": "Semifinales",
+      "evento": "Cruzeiro Feminino vs Olimpia Femenino",
+      "local": "Cruzeiro Feminino",
+      "visitante": "Olimpia Femenino",
+      "fecha": "2026-10-29",
+      "hora": "01:00",
+      "canales": [
+        "CONMEBOL Libertadores YouTube"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "NBA",
       "ronda": "Liga Regular",
@@ -2489,6 +2632,32 @@
       "hora": "01:00",
       "canales": [
         "NBA League Pass"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Serie A Brasil",
+      "ronda": null,
+      "evento": "Bahía vs São Paulo",
+      "local": "Bahía",
+      "visitante": "São Paulo",
+      "fecha": "2026-10-29",
+      "hora": "01:30",
+      "canales": [
+        "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Serie A Brasil",
+      "ronda": null,
+      "evento": "Remo vs Botafogo",
+      "local": "Remo",
+      "visitante": "Botafogo",
+      "fecha": "2026-10-29",
+      "hora": "01:30",
+      "canales": [
+        "Fanatiz (Ver en directo)"
       ]
     },
     {
@@ -2584,6 +2753,33 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Liga Colombiana",
+      "ronda": null,
+      "evento": "Inter Bogotá vs Medellín",
+      "local": "Inter Bogotá",
+      "visitante": "Medellín",
+      "fecha": "2026-10-29",
+      "hora": "02:05",
+      "canales": [
+        "RCN Nuestra Tele"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Tokio",
+      "ronda": "2ª Ronda",
+      "evento": "A. Parks vs K. Birrell",
+      "local": "A. Parks",
+      "visitante": "K. Birrell",
+      "fecha": "2026-10-29",
+      "hora": "02:30",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Liga 1 Perú",
       "ronda": null,
       "evento": "Universitario vs Sport Boys A.",
@@ -2619,21 +2815,8 @@
       "hora": "02:30",
       "canales": [
         "NBA League Pass",
-        "DAZN (Ver en directo)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Torneo de Tokio",
-      "ronda": null,
-      "evento": "2ª Ronda WTA 500",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-10-29",
-      "hora": "03:30",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
+        "DAZN (Ver en directo)",
+        "DAZN Baloncesto (M74 O126)"
       ]
     },
     {
@@ -2689,6 +2872,20 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Tokio",
+      "ronda": "2ª Ronda",
+      "evento": "L. Fernández vs E. Mertens",
+      "local": "L. Fernández",
+      "visitante": "E. Mertens",
+      "fecha": "2026-10-29",
+      "hora": "04:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "CONCACAF Central American Cup",
       "ronda": "Semifinales",
@@ -2699,6 +2896,20 @@
       "hora": "04:00",
       "canales": [
         "CONCACAF YouTube"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Tokio",
+      "ronda": "2ª Ronda",
+      "evento": "N. Osaka vs M. Pohankova",
+      "local": "N. Osaka",
+      "visitante": "M. Pohankova",
+      "fecha": "2026-10-29",
+      "hora": "06:30",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -2738,6 +2949,20 @@
       "hora": "09:00",
       "canales": [
         "WTA TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Tokio",
+      "ronda": "2ª Ronda",
+      "evento": "E. Rybakina vs Y. Putintseva",
+      "local": "E. Rybakina",
+      "visitante": "Y. Putintseva",
+      "fecha": "2026-10-29",
+      "hora": "09:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -3091,6 +3316,20 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "FIFA Mundial Femenino Sub-17",
+      "ronda": "1/8 de final",
+      "evento": "España vs Estados Unidos",
+      "local": "España",
+      "visitante": "Estados Unidos",
+      "fecha": "2026-10-29",
+      "hora": "19:00",
+      "canales": [
+        "Teledeporte",
+        "RTVE Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Liga 1 Perú",
       "ronda": null,
       "evento": "CD Los Chankas vs Cusco FC",
@@ -3328,6 +3567,19 @@
         "M+ Vamos 3 (53)",
         "Aragón Play",
         "Aragón TV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "1ª Andaluza Infantil",
+      "ronda": "Grupo 1",
+      "evento": "Real Betis Academy vs Sevilla FC Academy",
+      "local": "Real Betis Academy",
+      "visitante": "Sevilla FC Academy",
+      "fecha": "2026-10-29",
+      "hora": "20:00",
+      "canales": [
+        "Real Betis TV"
       ]
     },
     {
@@ -3628,6 +3880,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Serie A Brasil",
+      "ronda": null,
+      "evento": "Atlético Mineiro vs Cruzeiro",
+      "local": "Atlético Mineiro",
+      "visitante": "Cruzeiro",
+      "fecha": "2026-10-29",
+      "hora": "23:30",
+      "canales": [
+        "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
       "deporte": "Béisbol",
       "competicion": "LVBP",
       "ronda": null,
@@ -3703,7 +3968,8 @@
       "hora": "00:00",
       "canales": [
         "NBA League Pass",
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN Baloncesto 2 (M75 O127)"
       ]
     },
     {
@@ -3716,7 +3982,21 @@
       "fecha": "2026-10-30",
       "hora": "00:00",
       "canales": [
-        "M+ #Vamos Bar (307)"
+        "M+ #Vamos Bar (307)",
+        "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Colombiana",
+      "ronda": null,
+      "evento": "América de Cali vs Fortaleza",
+      "local": "América de Cali",
+      "visitante": "Fortaleza",
+      "fecha": "2026-10-30",
+      "hora": "00:15",
+      "canales": [
+        "RCN Nuestra Tele"
       ]
     },
     {
@@ -3771,6 +4051,32 @@
       "hora": "01:30",
       "canales": [
         "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Serie A Brasil",
+      "ronda": null,
+      "evento": "Grêmio vs At. Paranaense",
+      "local": "Grêmio",
+      "visitante": "At. Paranaense",
+      "fecha": "2026-10-30",
+      "hora": "01:30",
+      "canales": [
+        "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Colombiana",
+      "ronda": null,
+      "evento": "Atlético Nacional vs Santa Fe",
+      "local": "Atlético Nacional",
+      "visitante": "Santa Fe",
+      "fecha": "2026-10-30",
+      "hora": "02:30",
+      "canales": [
+        "RCN Nuestra Tele"
       ]
     },
     {
@@ -4036,6 +4342,7 @@
         "Liga U YouTube",
         "DAZN (Ver en directo)",
         "DAZN App Gratis (Ver gratis)",
+        "DAZN Baloncesto (M74 O126)",
         "Teledeporte",
         "RTVE Play"
       ]
@@ -4157,7 +4464,8 @@
       "canales": [
         "Liga U YouTube",
         "DAZN (Ver en directo)",
-        "DAZN App Gratis (Ver gratis)"
+        "DAZN App Gratis (Ver gratis)",
+        "DAZN Baloncesto 2 (M75 O127)"
       ]
     },
     {
@@ -4242,6 +4550,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "División de Honor Sénior",
+      "ronda": null,
+      "evento": "Montilla CF vs At. Espeleño",
+      "local": "Montilla CF",
+      "visitante": "At. Espeleño",
+      "fecha": "2026-10-30",
+      "hora": "20:15",
+      "canales": [
+        "Web Directo"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "Liga U",
       "ronda": "Primera Fase",
@@ -4295,7 +4616,8 @@
         "Liga U YouTube",
         "DAZN (Ver en directo)",
         "DAZN App Gratis (Ver gratis)",
-        "Aragón Play"
+        "Aragón Play",
+        "DAZN Baloncesto 3 (M76 O128)"
       ]
     },
     {
@@ -4462,6 +4784,19 @@
       "hora": "21:15",
       "canales": [
         "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Colombiana",
+      "ronda": null,
+      "evento": "Deportivo Pereira vs Jaguares FC",
+      "local": "Deportivo Pereira",
+      "visitante": "Jaguares FC",
+      "fecha": "2026-10-30",
+      "hora": "22:00",
+      "canales": [
+        "RCN Nuestra Tele"
       ]
     },
     {
