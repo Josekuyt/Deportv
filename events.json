@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-10-29T04:28:12",
+    "generado": "2026-10-29T14:56:58",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 443
+    "total_eventos": 445
   },
   "eventos": [
     {
@@ -454,33 +454,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "WTA Torneo de Tokio",
-      "ronda": "2ª Ronda",
-      "evento": "A. Parks vs K. Birrell",
-      "local": "A. Parks",
-      "visitante": "K. Birrell",
-      "fecha": "2026-10-29",
-      "hora": "02:30",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Liga 1 Perú",
-      "ronda": null,
-      "evento": "Universitario vs Sport Boys A.",
-      "local": "Universitario",
-      "visitante": "Sport Boys A.",
-      "fecha": "2026-10-29",
-      "hora": "02:30",
-      "canales": [
-        "Fanatiz (Ver en directo)"
-      ]
-    },
-    {
       "deporte": "Golf",
       "competicion": "LPGA Maybank Championsip",
       "ronda": null,
@@ -506,6 +479,20 @@
         "NBA League Pass",
         "DAZN (Ver en directo)",
         "DAZN Baloncesto (M74 O126)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Tokio",
+      "ronda": "2ª Ronda",
+      "evento": "A. Parks vs K. Birrell",
+      "local": "A. Parks",
+      "visitante": "K. Birrell",
+      "fecha": "2026-10-29",
+      "hora": "02:35",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -561,20 +548,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "WTA Torneo de Tokio",
-      "ronda": "2ª Ronda",
-      "evento": "L. Fernández vs E. Mertens",
-      "local": "L. Fernández",
-      "visitante": "E. Mertens",
-      "fecha": "2026-10-29",
-      "hora": "04:00",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "CONCACAF Central American Cup",
       "ronda": "Semifinales",
@@ -585,6 +558,20 @@
       "hora": "04:00",
       "canales": [
         "CONCACAF YouTube"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Tokio",
+      "ronda": "2ª Ronda",
+      "evento": "L. Fernández vs E. Mertens",
+      "local": "L. Fernández",
+      "visitante": "E. Mertens",
+      "fecha": "2026-10-29",
+      "hora": "04:05",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -608,7 +595,7 @@
       "local": "N. Osaka",
       "visitante": "M. Pohankova",
       "fecha": "2026-10-29",
-      "hora": "06:30",
+      "hora": "06:45",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -635,7 +622,7 @@
       "local": "M. Timofeeva",
       "visitante": "X. Sun",
       "fecha": "2026-10-29",
-      "hora": "07:30",
+      "hora": "08:20",
       "canales": [
         "WTA TV"
       ]
@@ -655,26 +642,13 @@
     },
     {
       "deporte": "Tenis",
-      "competicion": "WTA Torneo de Guangzhou",
-      "ronda": "2ª Ronda",
-      "evento": "A. Bondar vs K. Quevedo",
-      "local": "A. Bondar",
-      "visitante": "K. Quevedo",
-      "fecha": "2026-10-29",
-      "hora": "09:00",
-      "canales": [
-        "WTA TV"
-      ]
-    },
-    {
-      "deporte": "Tenis",
       "competicion": "WTA Torneo de Tokio",
       "ronda": "2ª Ronda",
       "evento": "E. Rybakina vs Y. Putintseva",
       "local": "E. Rybakina",
       "visitante": "Y. Putintseva",
       "fecha": "2026-10-29",
-      "hora": "09:00",
+      "hora": "09:05",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -708,6 +682,19 @@
     },
     {
       "deporte": "Tenis",
+      "competicion": "WTA Torneo de Guangzhou",
+      "ronda": "2ª Ronda",
+      "evento": "A. Bondar vs K. Quevedo",
+      "local": "A. Bondar",
+      "visitante": "K. Quevedo",
+      "fecha": "2026-10-29",
+      "hora": "11:15",
+      "canales": [
+        "WTA TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
       "competicion": "Torneo de Basilea",
       "ronda": "2ª Ronda",
       "evento": "V. Vacherot vs R. Jódar",
@@ -719,19 +706,6 @@
         "ATP Tennis TV",
         "M+ Vamos (8 y 50)",
         "M+ #Vamos Bar (307)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Torneo de Guangzhou",
-      "ronda": "2ª Ronda",
-      "evento": "L. Tagger vs M. Linette",
-      "local": "L. Tagger",
-      "visitante": "M. Linette",
-      "fecha": "2026-10-29",
-      "hora": "12:00",
-      "canales": [
-        "WTA TV"
       ]
     },
     {
@@ -812,6 +786,19 @@
       "hora": "13:15",
       "canales": [
         "The AFC Hub YouTube"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Guangzhou",
+      "ronda": "2ª Ronda",
+      "evento": "L. Tagger vs M. Linette",
+      "local": "L. Tagger",
+      "visitante": "M. Linette",
+      "fecha": "2026-10-29",
+      "hora": "13:25",
+      "canales": [
+        "WTA TV"
       ]
     },
     {
@@ -1088,7 +1075,7 @@
       "fecha": "2026-10-29",
       "hora": "18:00",
       "canales": [
-        "Canal por confirmar"
+        "TPA7 (Asturias)"
       ]
     },
     {
@@ -1101,7 +1088,7 @@
       "fecha": "2026-10-29",
       "hora": "18:00",
       "canales": [
-        "Canal por confirmar"
+        "* SIN TV EN DIRECTO *"
       ]
     },
     {
@@ -1353,7 +1340,7 @@
       "fecha": "2026-10-29",
       "hora": "19:00",
       "canales": [
-        "Canal por confirmar"
+        "* SIN TV EN DIRECTO *"
       ]
     },
     {
@@ -1366,7 +1353,7 @@
       "fecha": "2026-10-29",
       "hora": "19:00",
       "canales": [
-        "Canal por confirmar"
+        "* SIN TV EN DIRECTO *"
       ]
     },
     {
@@ -1379,7 +1366,7 @@
       "fecha": "2026-10-29",
       "hora": "19:00",
       "canales": [
-        "Canal por confirmar"
+        "* SIN TV EN DIRECTO *"
       ]
     },
     {
@@ -1392,7 +1379,7 @@
       "fecha": "2026-10-29",
       "hora": "19:00",
       "canales": [
-        "Canal por confirmar"
+        "* SIN TV EN DIRECTO *"
       ]
     },
     {
@@ -1486,7 +1473,7 @@
       "fecha": "2026-10-29",
       "hora": "19:30",
       "canales": [
-        "Canal por confirmar"
+        "* SIN TV EN DIRECTO *"
       ]
     },
     {
@@ -1567,7 +1554,7 @@
       "fecha": "2026-10-29",
       "hora": "20:00",
       "canales": [
-        "Canal por confirmar"
+        "* SIN TV EN DIRECTO *"
       ]
     },
     {
@@ -1580,7 +1567,7 @@
       "fecha": "2026-10-29",
       "hora": "20:00",
       "canales": [
-        "Canal por confirmar"
+        "* SIN TV EN DIRECTO *"
       ]
     },
     {
@@ -1593,7 +1580,7 @@
       "fecha": "2026-10-29",
       "hora": "20:00",
       "canales": [
-        "Canal por confirmar"
+        "* SIN TV EN DIRECTO *"
       ]
     },
     {
@@ -1606,7 +1593,7 @@
       "fecha": "2026-10-29",
       "hora": "20:00",
       "canales": [
-        "Canal por confirmar"
+        "* SIN TV EN DIRECTO *"
       ]
     },
     {
@@ -1619,7 +1606,7 @@
       "fecha": "2026-10-29",
       "hora": "20:00",
       "canales": [
-        "Canal por confirmar"
+        "* SIN TV EN DIRECTO *"
       ]
     },
     {
@@ -1632,7 +1619,7 @@
       "fecha": "2026-10-29",
       "hora": "20:00",
       "canales": [
-        "FANPLAY TV"
+        "APLAZADO"
       ]
     },
     {
@@ -1684,7 +1671,7 @@
       "fecha": "2026-10-29",
       "hora": "20:30",
       "canales": [
-        "Canal por confirmar"
+        "* SIN TV EN DIRECTO *"
       ]
     },
     {
@@ -2170,7 +2157,7 @@
       "local": null,
       "visitante": null,
       "fecha": "2026-10-30",
-      "hora": "09:00",
+      "hora": "09:05",
       "canales": [
         "WTA TV"
       ]
@@ -4481,6 +4468,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Uruguay",
+      "ronda": null,
+      "evento": "Uruguay Montevideo vs Huracán FC",
+      "local": "Uruguay Montevideo",
+      "visitante": "Huracán FC",
+      "fecha": "2026-10-31",
+      "hora": "17:00",
+      "canales": [
+        "Antel TV Internacional"
+      ]
+    },
+    {
       "deporte": "Tenis",
       "competicion": "Torneo de Viena",
       "ronda": null,
@@ -5573,6 +5573,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Uruguay",
+      "ronda": null,
+      "evento": "CA Fénix vs Cerrito",
+      "local": "CA Fénix",
+      "visitante": "Cerrito",
+      "fecha": "2026-10-31",
+      "hora": "20:00",
+      "canales": [
+        "Antel TV Internacional"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "NBA",
       "ronda": "Liga Regular",
@@ -5954,6 +5967,19 @@
       "hora": "22:30",
       "canales": [
         "LigaFUTVE App"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Uruguay",
+      "ronda": null,
+      "evento": "CA Rentistas vs La Luz FC",
+      "local": "CA Rentistas",
+      "visitante": "La Luz FC",
+      "fecha": "2026-10-31",
+      "hora": "23:00",
+      "canales": [
+        "Antel TV Internacional"
       ]
     },
     {
