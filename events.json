@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-10-30T04:28:05",
+    "generado": "2026-10-30T14:49:52",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 541
+    "total_eventos": 557
   },
   "eventos": [
     {
@@ -669,6 +669,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Bundesliga Sub-19",
+      "ronda": null,
+      "evento": "Stuttgart Academy vs Bayern Academy",
+      "local": "Stuttgart Academy",
+      "visitante": "Bayern Academy",
+      "fecha": "2026-10-30",
+      "hora": "19:00",
+      "canales": [
+        "German Football YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "3. Liga",
       "ronda": null,
       "evento": "Fortuna Düsseldorf vs SV Meppen",
@@ -677,7 +690,8 @@
       "fecha": "2026-10-30",
       "hora": "19:00",
       "canales": [
-        "OneFootball PPV"
+        "OneFootball PPV",
+        "German Football YouTube"
       ]
     },
     {
@@ -797,8 +811,8 @@
       "deporte": "Tenis",
       "competicion": "Torneo de Basilea",
       "ronda": "1/4 de Final",
-      "evento": "TBD vs J. Lehecka",
-      "local": "TBD",
+      "evento": "J. Kym vs J. Lehecka",
+      "local": "J. Kym",
       "visitante": "J. Lehecka",
       "fecha": "2026-10-30",
       "hora": "19:30",
@@ -1271,7 +1285,8 @@
       "fecha": "2026-10-31",
       "hora": "00:30",
       "canales": [
-        "NBA League Pass"
+        "NBA League Pass",
+        "DAZN (Ver en directo)"
       ]
     },
     {
@@ -1825,6 +1840,19 @@
         "DAZN (Ver en directo)",
         "DAZN 1 (M72)",
         "DAZN 1 Bar (M148)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "FA Women's Super League",
+      "ronda": null,
+      "evento": "Everton Femenino vs Man Utd Femenino",
+      "local": "Everton Femenino",
+      "visitante": "Man Utd Femenino",
+      "fecha": "2026-10-31",
+      "hora": "13:45",
+      "canales": [
+        "Barclays Women's Super League YouTube"
       ]
     },
     {
@@ -2417,9 +2445,35 @@
       "deporte": "Fútbol",
       "competicion": "National League",
       "ronda": null,
+      "evento": "Solihull Moors vs Kidderminster",
+      "local": "Solihull Moors",
+      "visitante": "Kidderminster",
+      "fecha": "2026-10-31",
+      "hora": "16:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "National League",
+      "ronda": null,
       "evento": "Barrow vs Eastleigh FC",
       "local": "Barrow",
       "visitante": "Eastleigh FC",
+      "fecha": "2026-10-31",
+      "hora": "16:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "National League",
+      "ronda": null,
+      "evento": "Boreham Wood vs Hartlepool United",
+      "local": "Boreham Wood",
+      "visitante": "Hartlepool United",
       "fecha": "2026-10-31",
       "hora": "16:00",
       "canales": [
@@ -2857,20 +2911,6 @@
     },
     {
       "deporte": "Fútbol",
-      "competicion": "Segunda Federación",
-      "ronda": "Grupo 2",
-      "evento": "UD Barbastro vs Peña Sport",
-      "local": "UD Barbastro",
-      "visitante": "Peña Sport",
-      "fecha": "2026-10-31",
-      "hora": "16:30",
-      "canales": [
-        "TV FootballClub (Acceder)",
-        "Aragón Play"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
       "competicion": "Eredivisie",
       "ronda": null,
       "evento": "Feyenoord vs Fortuna Sittard",
@@ -3204,6 +3244,45 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Primera C",
+      "ronda": "Reducido Segundo Ascenso",
+      "evento": "Central Córdoba R vs Cañuelas",
+      "local": "Central Córdoba R",
+      "visitante": "Cañuelas",
+      "fecha": "2026-10-31",
+      "hora": "18:00",
+      "canales": [
+        "LPF Play (plan plus)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera C",
+      "ronda": "Promoción Ascenso/Descenso",
+      "evento": "Argentino Rosario vs Defensores de Glew",
+      "local": "Argentino Rosario",
+      "visitante": "Defensores de Glew",
+      "fecha": "2026-10-31",
+      "hora": "18:00",
+      "canales": [
+        "LPF Play (plan plus)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera C",
+      "ronda": "Reducido Segundo Ascenso",
+      "evento": "Estrella del Sur vs Dep. Español",
+      "local": "Estrella del Sur",
+      "visitante": "Dep. Español",
+      "fecha": "2026-10-31",
+      "hora": "18:00",
+      "canales": [
+        "LPF Play (plan plus)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "D1 Féminine",
       "ronda": null,
       "evento": "Montpellier Femenino vs O. Lyonnais Femenino",
@@ -3252,6 +3331,19 @@
       "hora": "18:00",
       "canales": [
         "Arkema Première Ligue YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Campeonato Femenino",
+      "ronda": null,
+      "evento": "Racing Avellaneda Femenino vs Lanús Femenino",
+      "local": "Racing Avellaneda Femenino",
+      "visitante": "Lanús Femenino",
+      "fecha": "2026-10-31",
+      "hora": "18:00",
+      "canales": [
+        "LPF Play"
       ]
     },
     {
@@ -4775,6 +4867,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "J1 League",
+      "ronda": null,
+      "evento": "Yokohama F. Marinos vs Kawasaki Frontale",
+      "local": "Yokohama F. Marinos",
+      "visitante": "Kawasaki Frontale",
+      "fecha": "2026-11-01",
+      "hora": "05:00",
+      "canales": [
+        "J.LEAGUE International YouTube"
+      ]
+    },
+    {
       "deporte": "Motociclismo",
       "competicion": "Moto3",
       "ronda": null,
@@ -4854,6 +4959,19 @@
       "hora": "07:45",
       "canales": [
         "A-Leagues YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "J1 League",
+      "ronda": null,
+      "evento": "Machida Zelvia vs Gamba Osaka",
+      "local": "Machida Zelvia",
+      "visitante": "Gamba Osaka",
+      "fecha": "2026-11-01",
+      "hora": "08:00",
+      "canales": [
+        "J.LEAGUE International YouTube"
       ]
     },
     {
@@ -5177,6 +5295,20 @@
       "hora": "12:00",
       "canales": [
         "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
+      "ronda": "Grupo 2",
+      "evento": "UD Barbastro vs Peña Sport",
+      "local": "UD Barbastro",
+      "visitante": "Peña Sport",
+      "fecha": "2026-11-01",
+      "hora": "12:00",
+      "canales": [
+        "TV FootballClub (Acceder)",
+        "Aragón Play"
       ]
     },
     {
@@ -5568,6 +5700,32 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "FA Women's Super League",
+      "ronda": null,
+      "evento": "Arsenal Femenino vs Aston Villa Femenino",
+      "local": "Arsenal Femenino",
+      "visitante": "Aston Villa Femenino",
+      "fecha": "2026-11-01",
+      "hora": "13:00",
+      "canales": [
+        "Barclays Women's Super League YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "FA Women's Super League",
+      "ronda": null,
+      "evento": "London City Lionesses vs Man City Femenino",
+      "local": "London City Lionesses",
+      "visitante": "Man City Femenino",
+      "fecha": "2026-11-01",
+      "hora": "13:00",
+      "canales": [
+        "Barclays Women's Super League YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Segunda Federación",
       "ronda": "Grupo 4",
       "evento": "Betis Deportivo vs Recreativo Huelva",
@@ -5801,6 +5959,45 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "FA Women's Super League",
+      "ronda": null,
+      "evento": "Birmingham Femenino vs Tottenham Femenino",
+      "local": "Birmingham Femenino",
+      "visitante": "Tottenham Femenino",
+      "fecha": "2026-11-01",
+      "hora": "15:00",
+      "canales": [
+        "Barclays Women's Super League YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "FA Women's Super League",
+      "ronda": null,
+      "evento": "Brighton Femenino vs Crystal Palace Femenino",
+      "local": "Brighton Femenino",
+      "visitante": "Crystal Palace Femenino",
+      "fecha": "2026-11-01",
+      "hora": "15:00",
+      "canales": [
+        "Barclays Women's Super League YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "FA Women's Super League",
+      "ronda": null,
+      "evento": "West Ham Femenino vs Liverpool Femenino",
+      "local": "West Ham Femenino",
+      "visitante": "Liverpool Femenino",
+      "fecha": "2026-11-01",
+      "hora": "15:00",
+      "canales": [
+        "Barclays Women's Super League YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Damallsvenskan",
       "ronda": null,
       "evento": "IK Uppsala vs Hammarby Kvinnor",
@@ -5891,6 +6088,19 @@
       "hora": "15:30",
       "canales": [
         "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "FA Women's Super League",
+      "ronda": null,
+      "evento": "Charlton Athletic Femenino vs Chelsea Femenino",
+      "local": "Charlton Athletic Femenino",
+      "visitante": "Chelsea Femenino",
+      "fecha": "2026-11-01",
+      "hora": "15:30",
+      "canales": [
+        "Barclays Women's Super League YouTube"
       ]
     },
     {
