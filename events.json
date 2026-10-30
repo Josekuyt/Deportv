@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-10-30T14:49:52",
+    "generado": "2026-10-30T20:24:33",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 557
+    "total_eventos": 581
   },
   "eventos": [
     {
@@ -169,20 +169,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "WTA Torneo de Tokio",
-      "ronda": "1/4 de Final",
-      "evento": "K. Rakhimova vs M. Joint",
-      "local": "K. Rakhimova",
-      "visitante": "M. Joint",
-      "fecha": "2026-10-30",
-      "hora": "02:30",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "Liga Colombiana",
       "ronda": null,
@@ -206,6 +192,20 @@
       "hora": "02:30",
       "canales": [
         "Movistar Golf 2 (M68)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Tokio",
+      "ronda": "1/4 de Final",
+      "evento": "K. Rakhimova vs M. Joint",
+      "local": "K. Rakhimova",
+      "visitante": "M. Joint",
+      "fecha": "2026-10-30",
+      "hora": "02:35",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -257,7 +257,7 @@
       "local": "M. Pohankova",
       "visitante": "A. Parks",
       "fecha": "2026-10-30",
-      "hora": "04:00",
+      "hora": "05:15",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -271,23 +271,9 @@
       "local": "P. Badosa",
       "visitante": "H. Dart",
       "fecha": "2026-10-30",
-      "hora": "06:00",
+      "hora": "06:10",
       "canales": [
         "WTA TV"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Torneo de Tokio",
-      "ronda": "1/4 de Final",
-      "evento": "E. Rybakina vs L. Fernández",
-      "local": "E. Rybakina",
-      "visitante": "L. Fernández",
-      "fecha": "2026-10-30",
-      "hora": "06:30",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -305,15 +291,16 @@
     },
     {
       "deporte": "Tenis",
-      "competicion": "WTA Torneo de Guangzhou",
+      "competicion": "WTA Torneo de Tokio",
       "ronda": "1/4 de Final",
-      "evento": "K. Quevedo vs J. Teichmann",
-      "local": "K. Quevedo",
-      "visitante": "J. Teichmann",
+      "evento": "E. Rybakina vs L. Fernández",
+      "local": "E. Rybakina",
+      "visitante": "L. Fernández",
       "fecha": "2026-10-30",
-      "hora": "07:30",
+      "hora": "07:10",
       "canales": [
-        "WTA TV"
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -335,11 +322,11 @@
       "deporte": "Tenis",
       "competicion": "WTA Torneo de Guangzhou",
       "ronda": "1/4 de Final",
-      "evento": "X. Sun vs C. Liu",
-      "local": "X. Sun",
-      "visitante": "C. Liu",
+      "evento": "K. Quevedo vs J. Teichmann",
+      "local": "K. Quevedo",
+      "visitante": "J. Teichmann",
       "fecha": "2026-10-30",
-      "hora": "09:00",
+      "hora": "08:50",
       "canales": [
         "WTA TV"
       ]
@@ -352,7 +339,7 @@
       "local": "A. Eala",
       "visitante": "D. Shnaider",
       "fecha": "2026-10-30",
-      "hora": "09:00",
+      "hora": "09:05",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -375,11 +362,11 @@
       "deporte": "Tenis",
       "competicion": "WTA Torneo de Guangzhou",
       "ronda": "1/4 de Final",
-      "evento": "L. Tagger vs H. Shi",
-      "local": "L. Tagger",
-      "visitante": "H. Shi",
+      "evento": "X. Sun vs C. Liu",
+      "local": "X. Sun",
+      "visitante": "C. Liu",
       "fecha": "2026-10-30",
-      "hora": "12:00",
+      "hora": "11:05",
       "canales": [
         "WTA TV"
       ]
@@ -424,6 +411,19 @@
         "M+ Vamos (8 y 50)",
         "M+ #Vamos Bar (307)",
         "M+ Deportes 3 (65)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Guangzhou",
+      "ronda": "1/4 de Final",
+      "evento": "L. Tagger vs H. Shi",
+      "local": "L. Tagger",
+      "visitante": "H. Shi",
+      "fecha": "2026-10-30",
+      "hora": "13:20",
+      "canales": [
+        "WTA TV"
       ]
     },
     {
@@ -1368,6 +1368,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "MLS Next Pro",
+      "ronda": null,
+      "evento": "Ventura County vs Los Angeles FC 2",
+      "local": "Ventura County",
+      "visitante": "Los Angeles FC 2",
+      "fecha": "2026-10-31",
+      "hora": "03:00",
+      "canales": [
+        "OneFootball"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "NBA",
       "ronda": "Liga Regular",
@@ -1427,12 +1440,12 @@
     {
       "deporte": "Tenis",
       "competicion": "WTA Torneo de Tokio",
-      "ronda": null,
-      "evento": "Semifinal 1 WTA 500",
-      "local": null,
-      "visitante": null,
+      "ronda": "WTA 500",
+      "evento": "L. Fernández vs K. Rakhimova",
+      "local": "L. Fernández",
+      "visitante": "K. Rakhimova",
       "fecha": "2026-10-31",
-      "hora": "05:00",
+      "hora": "04:00",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -1465,6 +1478,20 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Tokio",
+      "ronda": "WTA 500",
+      "evento": "D. Shnaider vs M. Pohankova",
+      "local": "D. Shnaider",
+      "visitante": "M. Pohankova",
+      "fecha": "2026-10-31",
+      "hora": "05:30",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
       "deporte": "Motociclismo",
       "competicion": "Moto3",
       "ronda": null,
@@ -1477,20 +1504,6 @@
         "MotoGP Videopass",
         "DAZN (Ver en directo)",
         "DAZN MotoGP (M71 O105)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Torneo de Tokio",
-      "ronda": null,
-      "evento": "Semifinal 2 WTA 500",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-10-31",
-      "hora": "06:30",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -1563,6 +1576,19 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Guangzhou",
+      "ronda": "WTA 250",
+      "evento": "X. Sun vs H. Dart",
+      "local": "X. Sun",
+      "visitante": "H. Dart",
+      "fecha": "2026-10-31",
+      "hora": "09:00",
+      "canales": [
+        "WTA TV"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "A-League",
       "ronda": null,
@@ -1578,14 +1604,27 @@
     {
       "deporte": "Tenis",
       "competicion": "WTA Torneo de Guangzhou",
-      "ronda": null,
-      "evento": "Semifinal 1 WTA 250",
-      "local": null,
-      "visitante": null,
+      "ronda": "WTA 250",
+      "evento": "K. Quevedo vs L. Tagger",
+      "local": "K. Quevedo",
+      "visitante": "L. Tagger",
       "fecha": "2026-10-31",
       "hora": "10:30",
       "canales": [
         "WTA TV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "División Honor Infantil",
+      "ronda": "Grupo 1 (Madrid)",
+      "evento": "At. Chopera vs Real Madrid Academy",
+      "local": "At. Chopera",
+      "visitante": "Real Madrid Academy",
+      "fecha": "2026-10-31",
+      "hora": "10:45",
+      "canales": [
+        "Real Madrid TV"
       ]
     },
     {
@@ -1659,6 +1698,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
+      "ronda": "Grupo 5",
+      "evento": "At. Madrid C vs CF Talavera",
+      "local": "At. Madrid C",
+      "visitante": "CF Talavera",
+      "fecha": "2026-10-31",
+      "hora": "12:00",
+      "canales": [
+        "CMMPlay (Castilla-LM)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Liga F",
       "ronda": null,
       "evento": "Valencia Féminas vs Eibar Femenino",
@@ -1701,19 +1753,6 @@
       "canales": [
         "Aragón Play",
         "FC Barcelona PPV YouTube"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Torneo de Guangzhou",
-      "ronda": null,
-      "evento": "Semifinal 2 WTA 250",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-10-31",
-      "hora": "12:30",
-      "canales": [
-        "WTA TV"
       ]
     },
     {
@@ -2153,10 +2192,10 @@
     {
       "deporte": "Tenis",
       "competicion": "Torneo de Basilea",
-      "ronda": null,
-      "evento": "Semifinal 1 ATP 500",
-      "local": null,
-      "visitante": null,
+      "ronda": "ATP 500",
+      "evento": "V. Vacherot vs T. Fritz",
+      "local": "V. Vacherot",
+      "visitante": "T. Fritz",
       "fecha": "2026-10-31",
       "hora": "15:00",
       "canales": [
@@ -2781,6 +2820,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "División Honor Juvenil",
+      "ronda": "Grupo 5",
+      "evento": "Toledo Academy vs Real Madrid Academy",
+      "local": "Toledo Academy",
+      "visitante": "Real Madrid Academy",
+      "fecha": "2026-10-31",
+      "hora": "16:00",
+      "canales": [
+        "Real Madrid TV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "La Liga EA Sports",
       "ronda": null,
       "evento": "Rayo Vallecano vs Celta",
@@ -2978,6 +3030,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Primera B Argentina",
+      "ronda": null,
+      "evento": "Villa San Carlos vs Real Pilar",
+      "local": "Villa San Carlos",
+      "visitante": "Real Pilar",
+      "fecha": "2026-10-31",
+      "hora": "17:00",
+      "canales": [
+        "LPF Play (plan plus)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Liga AUF Uruguaya",
       "ronda": null,
       "evento": "CA Cerro vs Central Español",
@@ -3113,6 +3178,19 @@
     {
       "deporte": "Fútbol",
       "competicion": "Tercera Federación",
+      "ronda": "Grupo 18",
+      "evento": "AD San Clemente vs CD Toledo",
+      "local": "AD San Clemente",
+      "visitante": "CD Toledo",
+      "fecha": "2026-10-31",
+      "hora": "17:00",
+      "canales": [
+        "CMMPlay (Castilla-LM)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
       "ronda": "Grupo 5",
       "evento": "Atlètic Lleida vs CE Europa B",
       "local": "Atlètic Lleida",
@@ -3243,6 +3321,19 @@
       ]
     },
     {
+      "deporte": "Balonmano",
+      "competicion": "Liga Guerreras Iberdrola",
+      "ronda": null,
+      "evento": "CB Pozuelo CVA vs Rocasa Gran Canaria",
+      "local": "CB Pozuelo CVA",
+      "visitante": "Rocasa Gran Canaria",
+      "fecha": "2026-10-31",
+      "hora": "18:00",
+      "canales": [
+        "CMMPlay (Castilla-LM)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Primera C",
       "ronda": "Reducido Segundo Ascenso",
@@ -3331,19 +3422,6 @@
       "hora": "18:00",
       "canales": [
         "Arkema Première Ligue YouTube"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Campeonato Femenino",
-      "ronda": null,
-      "evento": "Racing Avellaneda Femenino vs Lanús Femenino",
-      "local": "Racing Avellaneda Femenino",
-      "visitante": "Lanús Femenino",
-      "fecha": "2026-10-31",
-      "hora": "18:00",
-      "canales": [
-        "LPF Play"
       ]
     },
     {
@@ -3438,6 +3516,19 @@
       "canales": [
         "DAZN (Ver en directo)",
         "DAZN 4 (M197)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 18",
+      "evento": "Manchego CR vs AD Illescas",
+      "local": "Manchego CR",
+      "visitante": "AD Illescas",
+      "fecha": "2026-10-31",
+      "hora": "18:00",
+      "canales": [
+        "CMMPlay (Castilla-LM)"
       ]
     },
     {
@@ -3918,6 +4009,32 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Torneo Federal A",
+      "ronda": "3ª Fase",
+      "evento": "CA Kimberley MdP vs CD Argentino Monte Maíz",
+      "local": "CA Kimberley MdP",
+      "visitante": "CD Argentino Monte Maíz",
+      "fecha": "2026-10-31",
+      "hora": "19:00",
+      "canales": [
+        "LPF Play (plan plus)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Campeonato Femenino",
+      "ronda": null,
+      "evento": "Lanús Femenino vs Racing Avellaneda Femenino",
+      "local": "Lanús Femenino",
+      "visitante": "Racing Avellaneda Femenino",
+      "fecha": "2026-10-31",
+      "hora": "19:00",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
       "deporte": "Fútbol Sala",
       "competicion": "Segunda Federación Futsal",
       "ronda": null,
@@ -4104,6 +4221,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Torneo Federal A",
+      "ronda": "3ª Fase",
+      "evento": "Douglas Haig vs Villa Mitre",
+      "local": "Douglas Haig",
+      "visitante": "Villa Mitre",
+      "fecha": "2026-10-31",
+      "hora": "20:00",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Liga Pro Ecuador",
       "ronda": null,
       "evento": "Emelec vs Leones del Norte",
@@ -4271,6 +4401,19 @@
       "hora": "21:00",
       "canales": [
         "LPF Play (plan plus)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Copa Libertadores Femenina",
+      "ronda": "3er Puesto",
+      "evento": "Olimpia Femenino vs Santa Fe Femenino",
+      "local": "Olimpia Femenino",
+      "visitante": "Santa Fe Femenino",
+      "fecha": "2026-10-31",
+      "hora": "21:00",
+      "canales": [
+        "CONMEBOL Libertadores YouTube"
       ]
     },
     {
@@ -4578,6 +4721,19 @@
       ]
     },
     {
+      "deporte": "Fútbol Sala",
+      "competicion": "Primera División Futsal AFA",
+      "ronda": null,
+      "evento": "Newell's Old Boys FS vs Deportivo Camioneros FS",
+      "local": "Newell's Old Boys FS",
+      "visitante": "Deportivo Camioneros FS",
+      "fecha": "2026-10-31",
+      "hora": "22:00",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "MLS",
       "ronda": null,
@@ -4627,6 +4783,32 @@
       "hora": "22:30",
       "canales": [
         "LigaFUTVE App"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Torneo Federal A",
+      "ronda": "3ª Fase",
+      "evento": "Olimpo vs Gimnasia Concepción",
+      "local": "Olimpo",
+      "visitante": "Gimnasia Concepción",
+      "fecha": "2026-10-31",
+      "hora": "23:00",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Torneo Federal A",
+      "ronda": "3ª Fase",
+      "evento": "Sol de América Formosa vs Juventud Antoniana",
+      "local": "Sol de América Formosa",
+      "visitante": "Juventud Antoniana",
+      "fecha": "2026-10-31",
+      "hora": "23:00",
+      "canales": [
+        "LPF Play"
       ]
     },
     {
@@ -4708,6 +4890,19 @@
       ]
     },
     {
+      "deporte": "Fútbol Sala",
+      "competicion": "Primera División Futsal AFA",
+      "ronda": "1/4 de Final",
+      "evento": "River Plate Futsal vs Boca Juniors FS",
+      "local": "River Plate Futsal",
+      "visitante": "Boca Juniors FS",
+      "fecha": "2026-11-01",
+      "hora": "00:00",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "NBA",
       "ronda": "Liga Regular",
@@ -4731,6 +4926,19 @@
       "hora": "00:30",
       "canales": [
         "LigaFUTVE App"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Copa Libertadores Femenina",
+      "ronda": "Final",
+      "evento": "Cruzeiro Feminino vs Corinthians Femenino",
+      "local": "Cruzeiro Feminino",
+      "visitante": "Corinthians Femenino",
+      "fecha": "2026-11-01",
+      "hora": "01:00",
+      "canales": [
+        "CONMEBOL Libertadores YouTube"
       ]
     },
     {
@@ -4798,6 +5006,19 @@
       "hora": "01:00",
       "canales": [
         "NBA League Pass"
+      ]
+    },
+    {
+      "deporte": "Fútbol Sala",
+      "competicion": "Primera División Futsal AFA",
+      "ronda": "1/4 de Final",
+      "evento": "17 de Agosto Futsal vs América del Sud FS",
+      "local": "17 de Agosto Futsal",
+      "visitante": "América del Sud FS",
+      "fecha": "2026-11-01",
+      "hora": "01:30",
+      "canales": [
+        "LPF Play"
       ]
     },
     {
@@ -5016,6 +5237,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Primera Federación Femenina",
+      "ronda": null,
+      "evento": "Fundación Albacete vs Real Unión Tenerife",
+      "local": "Fundación Albacete",
+      "visitante": "Real Unión Tenerife",
+      "fecha": "2026-11-01",
+      "hora": "10:30",
+      "canales": [
+        "CMMPlay (Castilla-LM)"
+      ]
+    },
+    {
       "deporte": "Balonmano",
       "competicion": "Liga Guerreras Iberdrola",
       "ronda": null,
@@ -5145,6 +5379,19 @@
       "hora": "12:00",
       "canales": [
         "OneFootball PPV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "1ª Autonómica Juvenil",
+      "ronda": "Grupo 1 (Madrid)",
+      "evento": "Real Madrid Academy vs Canillas Academy",
+      "local": "Real Madrid Academy",
+      "visitante": "Canillas Academy",
+      "fecha": "2026-11-01",
+      "hora": "12:00",
+      "canales": [
+        "Real Madrid TV"
       ]
     },
     {
@@ -6092,6 +6339,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Torneo Federal A",
+      "ronda": "3ª Fase",
+      "evento": "CA Alvarado vs Sport. Las Parejas",
+      "local": "CA Alvarado",
+      "visitante": "Sport. Las Parejas",
+      "fecha": "2026-11-01",
+      "hora": "15:30",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "FA Women's Super League",
       "ronda": null,
       "evento": "Charlton Athletic Femenino vs Chelsea Femenino",
@@ -6378,6 +6638,32 @@
     {
       "deporte": "Fútbol",
       "competicion": "Segunda Federación",
+      "ronda": "Grupo 5",
+      "evento": "Conquense vs RSD Alcalá",
+      "local": "Conquense",
+      "visitante": "RSD Alcalá",
+      "fecha": "2026-11-01",
+      "hora": "17:00",
+      "canales": [
+        "CMMPlay (Castilla-LM)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
+      "ronda": "Grupo 5",
+      "evento": "UD Sanse vs Atlético Albacete",
+      "local": "UD Sanse",
+      "visitante": "Atlético Albacete",
+      "fecha": "2026-11-01",
+      "hora": "17:00",
+      "canales": [
+        "CMMPlay (Castilla-LM)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
       "ronda": "Grupo 3",
       "evento": "Alcoyano vs Murcia Imperial",
       "local": "Alcoyano",
@@ -6424,7 +6710,8 @@
       "fecha": "2026-11-01",
       "hora": "17:00",
       "canales": [
-        "TV FootballClub (Acceder)"
+        "TV FootballClub (Acceder)",
+        "CMMPlay (Castilla-LM)"
       ]
     },
     {
@@ -6894,19 +7181,6 @@
       ]
     },
     {
-      "deporte": "Fútbol",
-      "competicion": "Primera B Argentina",
-      "ronda": null,
-      "evento": "Villa San Carlos vs Real Pilar",
-      "local": "Villa San Carlos",
-      "visitante": "Real Pilar",
-      "fecha": "2026-11-01",
-      "hora": "19:00",
-      "canales": [
-        "LPF Play (plan plus)"
-      ]
-    },
-    {
       "deporte": "Baloncesto",
       "competicion": "Liga Endesa",
       "ronda": "Liga Regular",
@@ -7242,6 +7516,19 @@
       ]
     },
     {
+      "deporte": "Fútbol Sala",
+      "competicion": "Primera División Futsal AFA",
+      "ronda": "1/4 de Final",
+      "evento": "Kimberley AC Futsal vs Barracas Central FS",
+      "local": "Kimberley AC Futsal",
+      "visitante": "Barracas Central FS",
+      "fecha": "2026-11-01",
+      "hora": "21:30",
+      "canales": [
+        "LPF Play"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "NBA",
       "ronda": "Liga Regular",
@@ -7556,6 +7843,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "MLS Next Pro",
+      "ronda": null,
+      "evento": "Chattanooga FC vs Columbus Crew 2",
+      "local": "Chattanooga FC",
+      "visitante": "Columbus Crew 2",
+      "fecha": "2026-11-01",
+      "hora": "23:00",
+      "canales": [
+        "OneFootball"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "NBA",
       "ronda": "Liga Regular",
@@ -7566,6 +7866,19 @@
       "hora": "23:00",
       "canales": [
         "NBA League Pass"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Torneo Federal A",
+      "ronda": "3ª Fase",
+      "evento": "Atenas Río Cuarto vs Sarmiento La Banda",
+      "local": "Atenas Río Cuarto",
+      "visitante": "Sarmiento La Banda",
+      "fecha": "2026-11-01",
+      "hora": "23:15",
+      "canales": [
+        "LPF Play"
       ]
     }
   ]
