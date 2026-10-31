@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-10-31T04:09:19",
+    "generado": "2026-10-31T14:17:48",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 554
+    "total_eventos": 560
   },
   "eventos": [
     {
@@ -1042,14 +1042,15 @@
     {
       "deporte": "Tenis",
       "competicion": "Torneo de Viena",
-      "ronda": null,
-      "evento": "Semifinal 1 ATP 500",
-      "local": null,
-      "visitante": null,
+      "ronda": "ATP 500",
+      "evento": "D. Medvedev vs C. Alcaraz",
+      "local": "D. Medvedev",
+      "visitante": "C. Alcaraz",
       "fecha": "2026-10-31",
       "hora": "15:00",
       "canales": [
         "ATP Tennis TV",
+        "Movistar Plus+ (M7): VER PARTIDO",
         "M+ Deportes 2 (64)"
       ]
     },
@@ -1220,7 +1221,7 @@
       "hora": "15:30",
       "canales": [
         "DAZN (Ver en directo)",
-        "Movistar Plus+ (M7): VER PARTIDO",
+        "M+ Vamos 3 (53)",
         "Orange Fútbol 3 (109)",
         "M+ Liga de Campeones (M60 O115)"
       ]
@@ -1490,19 +1491,6 @@
     },
     {
       "deporte": "Fútbol",
-      "competicion": "Liga Élite Cataluña",
-      "ronda": null,
-      "evento": "Castelldefels vs Sabadell B",
-      "local": "Castelldefels",
-      "visitante": "Sabadell B",
-      "fecha": "2026-10-31",
-      "hora": "16:00",
-      "canales": [
-        "La Xarxa+"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
       "competicion": "Liga F",
       "ronda": null,
       "evento": "Espanyol Femenino vs Logroño United Femenino",
@@ -1738,6 +1726,20 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Viena",
+      "ronda": "ATP 500",
+      "evento": "A. Zverev vs A. De Miñaur",
+      "local": "A. Zverev",
+      "visitante": "A. De Miñaur",
+      "fecha": "2026-10-31",
+      "hora": "16:30",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
       "deporte": "Fútbol Sala",
       "competicion": "Primera Federación Femenina",
       "ronda": null,
@@ -1826,10 +1828,10 @@
     {
       "deporte": "Tenis",
       "competicion": "Torneo de Basilea",
-      "ronda": null,
-      "evento": "Semifinal 2 ATP 500",
-      "local": null,
-      "visitante": null,
+      "ronda": "ATP 500",
+      "evento": "J. Lehecka vs JL. Struff",
+      "local": "J. Lehecka",
+      "visitante": "JL. Struff",
       "fecha": "2026-10-31",
       "hora": "17:00",
       "canales": [
@@ -1901,20 +1903,6 @@
       "hora": "17:00",
       "canales": [
         "Antel TV Internacional"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Viena",
-      "ronda": null,
-      "evento": "Semifinal 2 ATP 500",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-10-31",
-      "hora": "17:00",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -2990,6 +2978,19 @@
       ]
     },
     {
+      "deporte": "Voleibol",
+      "competicion": "Superliga Masculina",
+      "ronda": null,
+      "evento": "CV Leganés vs Voleibol Teruel",
+      "local": "CV Leganés",
+      "visitante": "Voleibol Teruel",
+      "fecha": "2026-10-31",
+      "hora": "19:30",
+      "canales": [
+        "RTVE Play"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Primera B Argentina",
       "ronda": null,
@@ -3159,6 +3160,19 @@
       "hora": "20:00",
       "canales": [
         "Apple TV"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Liga Sudamericana",
+      "ronda": null,
+      "evento": "Nacional Básquet vs CD Jorge Guzmán Básquet",
+      "local": "Nacional Básquet",
+      "visitante": "CD Jorge Guzmán Básquet",
+      "fecha": "2026-10-31",
+      "hora": "20:10",
+      "canales": [
+        "FIBA YouTube"
       ]
     },
     {
@@ -3618,7 +3632,8 @@
       "fecha": "2026-10-31",
       "hora": "22:30",
       "canales": [
-        "LigaFUTVE App"
+        "LigaFUTVE App",
+        "Fanatiz (Ver en directo)"
       ]
     },
     {
@@ -3700,6 +3715,19 @@
       ]
     },
     {
+      "deporte": "Baloncesto",
+      "competicion": "Liga Sudamericana",
+      "ronda": null,
+      "evento": "Mogi das Cruzes Basquete vs Independiente de Oliva",
+      "local": "Mogi das Cruzes Basquete",
+      "visitante": "Independiente de Oliva",
+      "fecha": "2026-10-31",
+      "hora": "23:10",
+      "canales": [
+        "FIBA YouTube"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Primera División Argentina",
       "ronda": "Torneo Clausura",
@@ -3761,7 +3789,8 @@
       "fecha": "2026-11-01",
       "hora": "00:30",
       "canales": [
-        "LigaFUTVE App"
+        "LigaFUTVE App",
+        "Fanatiz (Ver en directo)"
       ]
     },
     {
@@ -5255,6 +5284,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Liga Élite Cataluña",
+      "ronda": null,
+      "evento": "Castelldefels vs Sabadell B",
+      "local": "Castelldefels",
+      "visitante": "Sabadell B",
+      "fecha": "2026-11-01",
+      "hora": "16:05",
+      "canales": [
+        "La Xarxa+"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "La Liga EA Sports",
       "ronda": null,
       "evento": "Racing Santander vs Real Madrid",
@@ -6172,6 +6214,19 @@
       ]
     },
     {
+      "deporte": "Baloncesto",
+      "competicion": "Liga Sudamericana",
+      "ronda": null,
+      "evento": "CD Jorge Guzmán Básquet vs Independiente de Oliva",
+      "local": "CD Jorge Guzmán Básquet",
+      "visitante": "Independiente de Oliva",
+      "fecha": "2026-11-01",
+      "hora": "20:10",
+      "canales": [
+        "FIBA YouTube"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Liga AUF Uruguaya",
       "ronda": null,
@@ -6493,7 +6548,8 @@
       "fecha": "2026-11-01",
       "hora": "22:30",
       "canales": [
-        "LigaFUTVE App"
+        "LigaFUTVE App",
+        "Liga Futve YouTube"
       ]
     },
     {
@@ -6705,6 +6761,19 @@
       ]
     },
     {
+      "deporte": "Baloncesto",
+      "competicion": "Liga Sudamericana",
+      "ronda": null,
+      "evento": "Mogi das Cruzes Basquete vs Nacional Básquet",
+      "local": "Mogi das Cruzes Basquete",
+      "visitante": "Nacional Básquet",
+      "fecha": "2026-11-01",
+      "hora": "23:10",
+      "canales": [
+        "FIBA YouTube"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Torneo Federal A",
       "ronda": "3ª Fase",
@@ -6779,7 +6848,8 @@
       "fecha": "2026-11-02",
       "hora": "00:30",
       "canales": [
-        "LigaFUTVE App"
+        "LigaFUTVE App",
+        "Fanatiz (Ver en directo)"
       ]
     },
     {
@@ -7264,6 +7334,19 @@
       "hora": "19:00",
       "canales": [
         "LPF Play (plan plus)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Europe Cup",
+      "ronda": "Liga Regular",
+      "evento": "S. Oliver Baskets vs Tartu Ülikool/Rock",
+      "local": "S. Oliver Baskets",
+      "visitante": "Tartu Ülikool/Rock",
+      "fecha": "2026-11-02",
+      "hora": "19:00",
+      "canales": [
+        "FIBA YouTube"
       ]
     },
     {
