@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-11-01T04:29:49",
+    "generado": "2026-11-01T14:44:49",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 360
+    "total_eventos": 364
   },
   "eventos": [
     {
@@ -226,7 +226,7 @@
       "local": "L. Fernández",
       "visitante": "D. Shnaider",
       "fecha": "2026-11-01",
-      "hora": "04:00",
+      "hora": "04:10",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -376,7 +376,7 @@
       "local": "L. Tagger",
       "visitante": "H. Dart",
       "fecha": "2026-11-01",
-      "hora": "09:30",
+      "hora": "09:40",
       "canales": [
         "WTA TV"
       ]
@@ -796,7 +796,8 @@
       "canales": [
         "DAZN (Ver en directo)",
         "DAZN Baloncesto 2 (M75 O127)",
-        "TVG (Galicia)"
+        "TVG (Galicia)",
+        "TV Galicia"
       ]
     },
     {
@@ -3050,7 +3051,7 @@
       "fecha": "2026-11-01",
       "hora": "23:15",
       "canales": [
-        "LPF Play"
+        "LPF Play (plan plus)"
       ]
     },
     {
@@ -3131,6 +3132,19 @@
       "canales": [
         "LigaFUTVE App",
         "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Sala",
+      "competicion": "Primera División Futsal AFA",
+      "ronda": null,
+      "evento": "Racing Avellaneda Futsal vs Estudiantil Porteño FS",
+      "local": "Racing Avellaneda Futsal",
+      "visitante": "Estudiantil Porteño FS",
+      "fecha": "2026-11-02",
+      "hora": "01:00",
+      "canales": [
+        "LPF Play (plan plus)"
       ]
     },
     {
@@ -3224,7 +3238,7 @@
       "local": null,
       "visitante": null,
       "fecha": "2026-11-02",
-      "hora": "06:30",
+      "hora": "06:35",
       "canales": [
         "WTA TV"
       ]
@@ -3237,7 +3251,7 @@
       "local": null,
       "visitante": null,
       "fecha": "2026-11-02",
-      "hora": "07:00",
+      "hora": "07:05",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -3441,6 +3455,32 @@
       "canales": [
         "DAZN (Ver en directo)",
         "DAZN App Gratis (Ver gratis)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Eurocup Women",
+      "ronda": "Liga Regular",
+      "evento": "Besiktas JK Istanbul vs Maccabi Bnot Ashdod",
+      "local": "Besiktas JK Istanbul",
+      "visitante": "Maccabi Bnot Ashdod",
+      "fecha": "2026-11-02",
+      "hora": "18:00",
+      "canales": [
+        "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Eurocup Women",
+      "ronda": "Liga Regular",
+      "evento": "TTT Riga vs Elitzur Ramla",
+      "local": "TTT Riga",
+      "visitante": "Elitzur Ramla",
+      "fecha": "2026-11-02",
+      "hora": "18:00",
+      "canales": [
+        "FIBA YouTube"
       ]
     },
     {
@@ -4121,7 +4161,7 @@
       "local": null,
       "visitante": null,
       "fecha": "2026-11-03",
-      "hora": "06:30",
+      "hora": "06:35",
       "canales": [
         "WTA TV"
       ]
@@ -4134,7 +4174,7 @@
       "local": null,
       "visitante": null,
       "fecha": "2026-11-03",
-      "hora": "07:00",
+      "hora": "07:05",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -4434,6 +4474,19 @@
       ]
     },
     {
+      "deporte": "Baloncesto",
+      "competicion": "Eurocup Women",
+      "ronda": "Liga Regular",
+      "evento": "Ślęza Wrocław vs Mersin Yenisehir Bld",
+      "local": "Ślęza Wrocław",
+      "visitante": "Mersin Yenisehir Bld",
+      "fecha": "2026-11-03",
+      "hora": "18:30",
+      "canales": [
+        "FIBA YouTube"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Champions League",
       "ronda": "Fase Liga",
@@ -4708,7 +4761,8 @@
       "canales": [
         "Movistar Plus+ (M7): VER PARTIDO",
         "Orange Fútbol 1 (107)",
-        "M+ Liga de Campeones (M60 O115)"
+        "M+ Liga de Campeones (M60 O115)",
+        "LaLiga TV Bar"
       ]
     },
     {
