@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-11-01T04:29:49"
+    "actualizado": "2026-11-02T04:32:01"
   },
   "config": {
     "puntos_por_tier": {
@@ -2077,6 +2077,16 @@
     "Giro de Italia": {
       "deporte": "Ciclismo",
       "tier": "A",
+      "por_revisar": true
+    },
+    "EHF Euro Cup": {
+      "deporte": "Balonmano",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "EHF Europeo": {
+      "deporte": "Balonmano",
+      "tier": "C",
       "por_revisar": true
     }
   }
