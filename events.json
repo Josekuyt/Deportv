@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-11-02T04:32:01",
+    "generado": "2026-11-02T17:49:05",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 239
+    "total_eventos": 262
   },
   "eventos": [
     {
@@ -184,26 +184,27 @@
     },
     {
       "deporte": "Tenis",
-      "competicion": "WTA Torneo de Chennai",
-      "ronda": null,
-      "evento": "1ª Ronda WTA 250",
-      "local": null,
-      "visitante": null,
+      "competicion": "WTA Torneo de Hong Kong",
+      "ronda": "1ª Ronda",
+      "evento": "V. Golubic vs K. Boulter",
+      "local": "V. Golubic",
+      "visitante": "K. Boulter",
       "fecha": "2026-11-02",
-      "hora": "06:35",
+      "hora": "07:10",
       "canales": [
-        "WTA TV"
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
       "deporte": "Tenis",
       "competicion": "WTA Torneo de Hong Kong",
-      "ronda": null,
-      "evento": "1ª Ronda WTA 250",
-      "local": null,
-      "visitante": null,
+      "ronda": "1ª Ronda",
+      "evento": "CY. Lee vs M. Sakkari",
+      "local": "CY. Lee",
+      "visitante": "M. Sakkari",
       "fecha": "2026-11-02",
-      "hora": "07:05",
+      "hora": "09:15",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -212,15 +213,57 @@
     {
       "deporte": "Tenis",
       "competicion": "Masters París",
-      "ronda": null,
-      "evento": "1ª Ronda ATP Masters 1000",
-      "local": null,
-      "visitante": null,
+      "ronda": "1ª Ronda",
+      "evento": "L. Musetti vs H. Hurkacz",
+      "local": "L. Musetti",
+      "visitante": "H. Hurkacz",
       "fecha": "2026-11-02",
-      "hora": "11:05",
+      "hora": "11:10",
       "canales": [
         "ATP Tennis TV",
-        "Movistar+"
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters París",
+      "ronda": "1ª Ronda",
+      "evento": "L. Darderi vs R. Hijikata",
+      "local": "L. Darderi",
+      "visitante": "R. Hijikata",
+      "fecha": "2026-11-02",
+      "hora": "11:10",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 4 (191)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters París",
+      "ronda": "1ª Ronda",
+      "evento": "I. Buse vs Z. Bergs",
+      "local": "I. Buse",
+      "visitante": "Z. Bergs",
+      "fecha": "2026-11-02",
+      "hora": "11:10",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 3 (65)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Hong Kong",
+      "ronda": "1ª Ronda",
+      "evento": "V. Williams vs M. Stoiana",
+      "local": "V. Williams",
+      "visitante": "M. Stoiana",
+      "fecha": "2026-11-02",
+      "hora": "11:40",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -263,6 +306,63 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Masters París",
+      "ronda": "1ª Ronda",
+      "evento": "L. Van Assche vs M. Navone",
+      "local": "L. Van Assche",
+      "visitante": "M. Navone",
+      "fecha": "2026-11-02",
+      "hora": "12:30",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 4 (191)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters París",
+      "ronda": "1ª Ronda",
+      "evento": "A. Tabilo vs R. Jódar",
+      "local": "A. Tabilo",
+      "visitante": "R. Jódar",
+      "fecha": "2026-11-02",
+      "hora": "13:15",
+      "canales": [
+        "ATP Tennis TV",
+        "Movistar Plus+ (M7): VER PARTIDO",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Hong Kong",
+      "ronda": "1ª Ronda",
+      "evento": "X. Wang vs A. Karunaratne",
+      "local": "X. Wang",
+      "visitante": "A. Karunaratne",
+      "fecha": "2026-11-02",
+      "hora": "13:15",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters París",
+      "ronda": "1ª Ronda",
+      "evento": "D. Mérida vs A. Blockx",
+      "local": "D. Mérida",
+      "visitante": "A. Blockx",
+      "fecha": "2026-11-02",
+      "hora": "14:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 3 (65)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "AFC Champions League Elite",
       "ronda": "Fase Liga",
@@ -273,6 +373,48 @@
       "hora": "14:45",
       "canales": [
         "The AFC Hub YouTube"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters París",
+      "ronda": "1ª Ronda",
+      "evento": "C. Norrie vs M. Arnaldi",
+      "local": "C. Norrie",
+      "visitante": "M. Arnaldi",
+      "fecha": "2026-11-02",
+      "hora": "14:50",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 4 (191)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters París",
+      "ronda": "1ª Ronda",
+      "evento": "C. Ruud vs JM. Cerúndolo",
+      "local": "C. Ruud",
+      "visitante": "JM. Cerúndolo",
+      "fecha": "2026-11-02",
+      "hora": "14:55",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters París",
+      "ronda": "1ª Ronda",
+      "evento": "M. Bellucci vs L. Sonego",
+      "local": "M. Bellucci",
+      "visitante": "L. Sonego",
+      "fecha": "2026-11-02",
+      "hora": "16:10",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 3 (65)"
       ]
     },
     {
@@ -289,6 +431,20 @@
         "DAZN (Ver en directo)",
         "Orange Fútbol 2 (108)",
         "LaLiga TV Bar"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters París",
+      "ronda": "1ª Ronda",
+      "evento": "K. Jacquet vs T. Machac",
+      "local": "K. Jacquet",
+      "visitante": "T. Machac",
+      "fecha": "2026-11-02",
+      "hora": "16:55",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 4 (191)"
       ]
     },
     {
@@ -506,6 +662,34 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Masters París",
+      "ronda": "1ª Ronda",
+      "evento": "A. Molcan vs T. Droguet",
+      "local": "A. Molcan",
+      "visitante": "T. Droguet",
+      "fecha": "2026-11-02",
+      "hora": "18:40",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 4 (191)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters París",
+      "ronda": "1ª Ronda",
+      "evento": "D. Shapovalov vs K. Khachanov",
+      "local": "D. Shapovalov",
+      "visitante": "K. Khachanov",
+      "fecha": "2026-11-02",
+      "hora": "19:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Primera B Argentina",
       "ronda": null,
@@ -675,6 +859,20 @@
         "DAZN 2 Bar (M149)",
         "Teledeporte",
         "RTVE Play"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters París",
+      "ronda": "1ª Ronda",
+      "evento": "U. Humbert vs B. Van de Zandschulp",
+      "local": "U. Humbert",
+      "visitante": "B. Van de Zandschulp",
+      "fecha": "2026-11-02",
+      "hora": "20:30",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -855,6 +1053,19 @@
       "hora": "00:00",
       "canales": [
         "Antel TV Internacional"
+      ]
+    },
+    {
+      "deporte": "Béisbol",
+      "competicion": "LVBP",
+      "ronda": null,
+      "evento": "Tigres de Aragua vs Cardenales de Lara",
+      "local": "Tigres de Aragua",
+      "visitante": "Cardenales de Lara",
+      "fecha": "2026-11-03",
+      "hora": "00:00",
+      "canales": [
+        "BeisbolPlay"
       ]
     },
     {
@@ -1133,6 +1344,19 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Chennai",
+      "ronda": "1ª Ronda",
+      "evento": "L. Fruhvirtova vs W. Falkowska",
+      "local": "L. Fruhvirtova",
+      "visitante": "W. Falkowska",
+      "fecha": "2026-11-03",
+      "hora": "08:00",
+      "canales": [
+        "WTA TV"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "AFC Champions League Elite",
       "ronda": "Fase Liga",
@@ -1222,6 +1446,32 @@
       "hora": "12:00",
       "canales": [
         "HBO MAX"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Chennai",
+      "ronda": "1ª Ronda",
+      "evento": "A. Falei vs M. Linette",
+      "local": "A. Falei",
+      "visitante": "M. Linette",
+      "fecha": "2026-11-03",
+      "hora": "12:30",
+      "canales": [
+        "WTA TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Chennai",
+      "ronda": "1ª Ronda",
+      "evento": "S. Yamalapalli vs S. Waltert",
+      "local": "S. Yamalapalli",
+      "visitante": "S. Waltert",
+      "fecha": "2026-11-03",
+      "hora": "12:30",
+      "canales": [
+        "WTA TV"
       ]
     },
     {
@@ -1685,7 +1935,7 @@
       "fecha": "2026-11-03",
       "hora": "20:30",
       "canales": [
-        "Canal por confirmar"
+        "DAZN (Ver en directo)"
       ]
     },
     {
@@ -1859,6 +2109,45 @@
       "hora": "23:30",
       "canales": [
         "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Béisbol",
+      "competicion": "LVBP",
+      "ronda": null,
+      "evento": "Águilas del Zulia vs Caribes de Anzoátegui",
+      "local": "Águilas del Zulia",
+      "visitante": "Caribes de Anzoátegui",
+      "fecha": "2026-11-04",
+      "hora": "00:00",
+      "canales": [
+        "BeisbolPlay"
+      ]
+    },
+    {
+      "deporte": "Béisbol",
+      "competicion": "LVBP",
+      "ronda": null,
+      "evento": "Leones del Caracas vs Tiburones de la Guaira",
+      "local": "Leones del Caracas",
+      "visitante": "Tiburones de la Guaira",
+      "fecha": "2026-11-04",
+      "hora": "00:00",
+      "canales": [
+        "BeisbolPlay"
+      ]
+    },
+    {
+      "deporte": "Béisbol",
+      "competicion": "LVBP",
+      "ronda": null,
+      "evento": "Navegantes del Magallanes vs Bravos de Margarita",
+      "local": "Navegantes del Magallanes",
+      "visitante": "Bravos de Margarita",
+      "fecha": "2026-11-04",
+      "hora": "00:00",
+      "canales": [
+        "BeisbolPlay"
       ]
     },
     {
@@ -2238,6 +2527,32 @@
       "hora": "18:00",
       "canales": [
         "EHF TV"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Basketball Champions League",
+      "ronda": "Liga Regular",
+      "evento": "Falco Szombathely vs AEK BC",
+      "local": "Falco Szombathely",
+      "visitante": "AEK BC",
+      "fecha": "2026-11-04",
+      "hora": "18:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Basketball Champions League",
+      "ronda": "Liga Regular",
+      "evento": "Legia Warszawa BC vs Galatasaray Istanbul",
+      "local": "Legia Warszawa BC",
+      "visitante": "Galatasaray Istanbul",
+      "fecha": "2026-11-04",
+      "hora": "18:00",
+      "canales": [
+        "DAZN (Ver en directo)"
       ]
     },
     {
