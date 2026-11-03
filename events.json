@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-11-03T15:49:26",
+    "generado": "2026-11-03T21:30:12",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 344
+    "total_eventos": 369
   },
   "eventos": [
     {
@@ -43,6 +43,32 @@
       "hora": "00:00",
       "canales": [
         "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Ishockey",
+      "competicion": "NHL",
+      "ronda": "Liga Regular",
+      "evento": "Florida Panthers vs Detroit Red Wings",
+      "local": "Florida Panthers",
+      "visitante": "Detroit Red Wings",
+      "fecha": "2026-11-03",
+      "hora": "01:00",
+      "canales": [
+        "Disney+"
+      ]
+    },
+    {
+      "deporte": "Ishockey",
+      "competicion": "NHL",
+      "ronda": "Liga Regular",
+      "evento": "Boston Bruins vs Vegas Golden Knights",
+      "local": "Boston Bruins",
+      "visitante": "Vegas Golden Knights",
+      "fecha": "2026-11-03",
+      "hora": "01:00",
+      "canales": [
+        "Disney+"
       ]
     },
     {
@@ -139,6 +165,19 @@
       ]
     },
     {
+      "deporte": "Ishockey",
+      "competicion": "NHL",
+      "ronda": "Liga Regular",
+      "evento": "Chicago Blackhawks vs Colorado Avalanche",
+      "local": "Chicago Blackhawks",
+      "visitante": "Colorado Avalanche",
+      "fecha": "2026-11-03",
+      "hora": "02:00",
+      "canales": [
+        "Disney+"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "NBA",
       "ronda": "Liga Regular",
@@ -228,6 +267,19 @@
       "hora": "02:30",
       "canales": [
         "NBA League Pass"
+      ]
+    },
+    {
+      "deporte": "Ishockey",
+      "competicion": "NHL",
+      "ronda": "Liga Regular",
+      "evento": "San Jose Sharks vs Calgary Flames",
+      "local": "San Jose Sharks",
+      "visitante": "Calgary Flames",
+      "fecha": "2026-11-03",
+      "hora": "03:00",
+      "canales": [
+        "Disney+"
       ]
     },
     {
@@ -343,23 +395,10 @@
       "local": "S. Cirstea",
       "visitante": "M. Timofeeva",
       "fecha": "2026-11-03",
-      "hora": "09:30",
+      "hora": "09:20",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Torneo de Chennai",
-      "ronda": "1ª Ronda",
-      "evento": "J. Burrage vs V. Adkar",
-      "local": "J. Burrage",
-      "visitante": "V. Adkar",
-      "fecha": "2026-11-03",
-      "hora": "10:15",
-      "canales": [
-        "WTA TV"
       ]
     },
     {
@@ -441,19 +480,6 @@
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 2 (64)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Torneo de Chennai",
-      "ronda": "1ª Ronda",
-      "evento": "M. Rajeshwaran Revathi vs K. Kawa",
-      "local": "M. Rajeshwaran Revathi",
-      "visitante": "K. Kawa",
-      "fecha": "2026-11-03",
-      "hora": "11:45",
-      "canales": [
-        "WTA TV"
       ]
     },
     {
@@ -617,13 +643,26 @@
     },
     {
       "deporte": "Tenis",
+      "competicion": "WTA Torneo de Chennai",
+      "ronda": "1ª Ronda",
+      "evento": "J. Burrage vs V. Adkar",
+      "local": "J. Burrage",
+      "visitante": "V. Adkar",
+      "fecha": "2026-11-03",
+      "hora": "12:40",
+      "canales": [
+        "WTA TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
       "competicion": "WTA Torneo de Hong Kong",
       "ronda": "1ª Ronda",
-      "evento": "A. Parks vs A. Eala",
-      "local": "A. Parks",
+      "evento": "E. Jones vs A. Eala",
+      "local": "E. Jones",
       "visitante": "A. Eala",
       "fecha": "2026-11-03",
-      "hora": "12:30",
+      "hora": "12:40",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -682,19 +721,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "WTA Torneo de Chennai",
-      "ronda": "1ª Ronda",
-      "evento": "S. Yamalapalli vs S. Waltert",
-      "local": "S. Yamalapalli",
-      "visitante": "S. Waltert",
-      "fecha": "2026-11-03",
-      "hora": "13:15",
-      "canales": [
-        "WTA TV"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "UEFA Youth League",
       "ronda": "Fase Liga",
@@ -743,7 +769,7 @@
       "local": "E. Pridankina",
       "visitante": "P. Badosa",
       "fecha": "2026-11-03",
-      "hora": "14:00",
+      "hora": "14:25",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -788,6 +814,19 @@
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 3 (65)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Chennai",
+      "ronda": "1ª Ronda",
+      "evento": "M. Rajeshwaran Revathi vs K. Kawa",
+      "local": "M. Rajeshwaran Revathi",
+      "visitante": "K. Kawa",
+      "fecha": "2026-11-03",
+      "hora": "15:50",
+      "canales": [
+        "WTA TV"
       ]
     },
     {
@@ -962,6 +1001,19 @@
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 3 (65)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Chennai",
+      "ronda": "1ª Ronda",
+      "evento": "S. Yamalapalli vs S. Waltert",
+      "local": "S. Yamalapalli",
+      "visitante": "S. Waltert",
+      "fecha": "2026-11-03",
+      "hora": "17:45",
+      "canales": [
+        "WTA TV"
       ]
     },
     {
@@ -1590,6 +1642,123 @@
       ]
     },
     {
+      "deporte": "Ishockey",
+      "competicion": "NHL",
+      "ronda": "Liga Regular",
+      "evento": "New York Rangers vs St. Louis Blues",
+      "local": "New York Rangers",
+      "visitante": "St. Louis Blues",
+      "fecha": "2026-11-04",
+      "hora": "01:00",
+      "canales": [
+        "Disney+"
+      ]
+    },
+    {
+      "deporte": "Ishockey",
+      "competicion": "NHL",
+      "ronda": "Liga Regular",
+      "evento": "Tampa Bay Lightning vs Detroit Red Wings",
+      "local": "Tampa Bay Lightning",
+      "visitante": "Detroit Red Wings",
+      "fecha": "2026-11-04",
+      "hora": "01:00",
+      "canales": [
+        "Disney+"
+      ]
+    },
+    {
+      "deporte": "Ishockey",
+      "competicion": "NHL",
+      "ronda": "Liga Regular",
+      "evento": "Pittsburgh Penguins vs Vegas Golden Knights",
+      "local": "Pittsburgh Penguins",
+      "visitante": "Vegas Golden Knights",
+      "fecha": "2026-11-04",
+      "hora": "01:00",
+      "canales": [
+        "Disney+"
+      ]
+    },
+    {
+      "deporte": "Ishockey",
+      "competicion": "NHL",
+      "ronda": "Liga Regular",
+      "evento": "Washington Capitals vs Dallas Stars",
+      "local": "Washington Capitals",
+      "visitante": "Dallas Stars",
+      "fecha": "2026-11-04",
+      "hora": "01:00",
+      "canales": [
+        "Disney+"
+      ]
+    },
+    {
+      "deporte": "Ishockey",
+      "competicion": "NHL",
+      "ronda": "Liga Regular",
+      "evento": "Toronto Maple Leafs vs Utah Mammoth",
+      "local": "Toronto Maple Leafs",
+      "visitante": "Utah Mammoth",
+      "fecha": "2026-11-04",
+      "hora": "01:00",
+      "canales": [
+        "Disney+"
+      ]
+    },
+    {
+      "deporte": "Ishockey",
+      "competicion": "NHL",
+      "ronda": "Liga Regular",
+      "evento": "Philadelphia Flyers vs Minnesota Wild",
+      "local": "Philadelphia Flyers",
+      "visitante": "Minnesota Wild",
+      "fecha": "2026-11-04",
+      "hora": "01:00",
+      "canales": [
+        "Disney+"
+      ]
+    },
+    {
+      "deporte": "Ishockey",
+      "competicion": "NHL",
+      "ronda": "Liga Regular",
+      "evento": "Columbus Blue Jackets vs Colorado Avalanche",
+      "local": "Columbus Blue Jackets",
+      "visitante": "Colorado Avalanche",
+      "fecha": "2026-11-04",
+      "hora": "01:00",
+      "canales": [
+        "Disney+"
+      ]
+    },
+    {
+      "deporte": "Ishockey",
+      "competicion": "NHL",
+      "ronda": "Liga Regular",
+      "evento": "Montréal Canadiens vs Winnipeg Jets",
+      "local": "Montréal Canadiens",
+      "visitante": "Winnipeg Jets",
+      "fecha": "2026-11-04",
+      "hora": "01:00",
+      "canales": [
+        "Disney+"
+      ]
+    },
+    {
+      "deporte": "Ishockey",
+      "competicion": "NHL",
+      "ronda": "Liga Regular",
+      "evento": "New Jersey Devils vs Edmonton Oilers",
+      "local": "New Jersey Devils",
+      "visitante": "Edmonton Oilers",
+      "fecha": "2026-11-04",
+      "hora": "01:30",
+      "canales": [
+        "Disney+"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Serie A Brasil",
       "ronda": null,
@@ -1603,6 +1772,32 @@
       ]
     },
     {
+      "deporte": "Baloncesto",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Lipscomb University vs Iowa",
+      "local": "Lipscomb University",
+      "visitante": "Iowa",
+      "fecha": "2026-11-04",
+      "hora": "02:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Ishockey",
+      "competicion": "NHL",
+      "ronda": "Liga Regular",
+      "evento": "Nashville Predators vs Carolina Hurricanes",
+      "local": "Nashville Predators",
+      "visitante": "Carolina Hurricanes",
+      "fecha": "2026-11-04",
+      "hora": "02:00",
+      "canales": [
+        "Disney+"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Liga 1 Perú",
       "ronda": null,
@@ -1613,6 +1808,19 @@
       "hora": "02:00",
       "canales": [
         "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Ishockey",
+      "competicion": "NHL",
+      "ronda": "Liga Regular",
+      "evento": "Vancouver Canucks vs Anaheim Ducks",
+      "local": "Vancouver Canucks",
+      "visitante": "Anaheim Ducks",
+      "fecha": "2026-11-04",
+      "hora": "03:00",
+      "canales": [
+        "Disney+"
       ]
     },
     {
@@ -1670,6 +1878,20 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Hong Kong",
+      "ronda": "2ª Ronda",
+      "evento": "M. Joint vs M. Sakkari",
+      "local": "M. Joint",
+      "visitante": "M. Sakkari",
+      "fecha": "2026-11-04",
+      "hora": "10:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "AFC Champions League Elite",
       "ronda": "Fase Liga",
@@ -1721,20 +1943,6 @@
       "canales": [
         "ATP Tennis TV",
         "Movistar+"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Torneo de Hong Kong",
-      "ronda": "2ª Ronda",
-      "evento": "M. Joint vs M. Sakkari",
-      "local": "M. Joint",
-      "visitante": "M. Sakkari",
-      "fecha": "2026-11-04",
-      "hora": "11:30",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -2365,6 +2573,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Copa de la Reina",
+      "ronda": "3ª Ronda",
+      "evento": "Levante Femenino vs Eibar Femenino",
+      "local": "Levante Femenino",
+      "visitante": "Eibar Femenino",
+      "fecha": "2026-11-04",
+      "hora": "18:00",
+      "canales": [
+        "APLAZADO"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "Eurocup",
       "ronda": "Liga Regular",
@@ -2481,6 +2702,7 @@
       "fecha": "2026-11-04",
       "hora": "18:45",
       "canales": [
+        "M+ Liga de Campeones (M60 O115)",
         "LaLiga TV Bar"
       ]
     },
@@ -2689,7 +2911,20 @@
       "fecha": "2026-11-04",
       "hora": "19:00",
       "canales": [
-        "Canal por confirmar"
+        "APLAZADO"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Copa de la Reina",
+      "ronda": "3ª Ronda",
+      "evento": "Osasuna Femenino vs Logroño United Femenino",
+      "local": "Osasuna Femenino",
+      "visitante": "Logroño United Femenino",
+      "fecha": "2026-11-04",
+      "hora": "19:00",
+      "canales": [
+        "APLAZADO"
       ]
     },
     {
@@ -2911,7 +3146,7 @@
       "fecha": "2026-11-04",
       "hora": "20:00",
       "canales": [
-        "Canal por confirmar"
+        "APLAZADO"
       ]
     },
     {
@@ -2924,7 +3159,21 @@
       "fecha": "2026-11-04",
       "hora": "20:00",
       "canales": [
-        "Deportes TVCanaria YouTube"
+        "APLAZADO"
+      ]
+    },
+    {
+      "deporte": "Balonmano",
+      "competicion": "EHF Euro Cup",
+      "ronda": null,
+      "evento": "Dinamarca vs España",
+      "local": "Dinamarca",
+      "visitante": "España",
+      "fecha": "2026-11-04",
+      "hora": "20:15",
+      "canales": [
+        "Teledeporte",
+        "RTVE Play"
       ]
     },
     {
@@ -2976,7 +3225,7 @@
       "fecha": "2026-11-04",
       "hora": "20:30",
       "canales": [
-        "Aragón Play"
+        "APLAZADO"
       ]
     },
     {
@@ -2989,7 +3238,7 @@
       "fecha": "2026-11-04",
       "hora": "20:30",
       "canales": [
-        "Canal por confirmar"
+        "APLAZADO"
       ]
     },
     {
@@ -3002,7 +3251,7 @@
       "fecha": "2026-11-04",
       "hora": "20:30",
       "canales": [
-        "Canal por confirmar"
+        "APLAZADO"
       ]
     },
     {
@@ -3041,7 +3290,7 @@
       "fecha": "2026-11-04",
       "hora": "20:45",
       "canales": [
-        "Canal por confirmar"
+        "APLAZADO"
       ]
     },
     {
@@ -3166,7 +3415,20 @@
       "fecha": "2026-11-04",
       "hora": "21:00",
       "canales": [
-        "Canal por confirmar"
+        "APLAZADO"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Copa de la Reina",
+      "ronda": "3ª Ronda",
+      "evento": "Cacereño Femenino vs Alavés Femenino",
+      "local": "Cacereño Femenino",
+      "visitante": "Alavés Femenino",
+      "fecha": "2026-11-04",
+      "hora": "21:00",
+      "canales": [
+        "APLAZADO"
       ]
     },
     {
@@ -3315,6 +3577,32 @@
         "NBA League Pass",
         "DAZN (Ver en directo)",
         "DAZN Baloncesto (M74 O126)"
+      ]
+    },
+    {
+      "deporte": "Ishockey",
+      "competicion": "NHL",
+      "ronda": "Liga Regular",
+      "evento": "Florida Panthers vs Chicago Blackhawks",
+      "local": "Florida Panthers",
+      "visitante": "Chicago Blackhawks",
+      "fecha": "2026-11-05",
+      "hora": "01:30",
+      "canales": [
+        "Disney+"
+      ]
+    },
+    {
+      "deporte": "Ishockey",
+      "competicion": "NHL",
+      "ronda": "Liga Regular",
+      "evento": "Buffalo Sabres vs Ottawa Senators",
+      "local": "Buffalo Sabres",
+      "visitante": "Ottawa Senators",
+      "fecha": "2026-11-05",
+      "hora": "01:30",
+      "canales": [
+        "Disney+"
       ]
     },
     {
@@ -3499,6 +3787,32 @@
         "NBA League Pass",
         "DAZN (Ver en directo)",
         "DAZN Baloncesto 2 (M75 O127)"
+      ]
+    },
+    {
+      "deporte": "Ishockey",
+      "competicion": "NHL",
+      "ronda": "Liga Regular",
+      "evento": "Los Angeles Kings vs San Jose Sharks",
+      "local": "Los Angeles Kings",
+      "visitante": "San Jose Sharks",
+      "fecha": "2026-11-05",
+      "hora": "04:00",
+      "canales": [
+        "Disney+"
+      ]
+    },
+    {
+      "deporte": "Ishockey",
+      "competicion": "NHL",
+      "ronda": "Liga Regular",
+      "evento": "Seattle Kraken vs Calgary Flames",
+      "local": "Seattle Kraken",
+      "visitante": "Calgary Flames",
+      "fecha": "2026-11-05",
+      "hora": "04:00",
+      "canales": [
+        "Disney+"
       ]
     },
     {
@@ -4145,7 +4459,7 @@
       "fecha": "2026-11-05",
       "hora": "19:00",
       "canales": [
-        "M+ LALIGA (M54 O110)"
+        "APLAZADO"
       ]
     },
     {
@@ -4224,7 +4538,7 @@
       "fecha": "2026-11-05",
       "hora": "20:00",
       "canales": [
-        "À Punt (C. Valenciana)"
+        "APLAZADO"
       ]
     },
     {
@@ -4250,9 +4564,7 @@
       "fecha": "2026-11-05",
       "hora": "20:00",
       "canales": [
-        "Teledeporte",
-        "RTVE Play",
-        "Esport3 (Cataluña)"
+        "APLAZADO"
       ]
     },
     {
@@ -4265,7 +4577,7 @@
       "fecha": "2026-11-05",
       "hora": "20:00",
       "canales": [
-        "Betevé (Barcelona)"
+        "APLAZADO"
       ]
     },
     {
@@ -4307,6 +4619,19 @@
       "hora": "20:30",
       "canales": [
         "M+ Baloncesto (M66)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Copa de la Reina",
+      "ronda": "3ª Ronda",
+      "evento": "CD Samper vs Valencia Féminas",
+      "local": "CD Samper",
+      "visitante": "Valencia Féminas",
+      "fecha": "2026-11-05",
+      "hora": "20:30",
+      "canales": [
+        "APLAZADO"
       ]
     },
     {

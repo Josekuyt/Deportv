@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-11-03T15:49:26"
+    "actualizado": "2026-11-03T21:30:12"
   },
   "config": {
     "puntos_por_tier": {
@@ -2108,6 +2108,11 @@
     "UEFA Women's Nations League": {
       "deporte": "Fútbol",
       "tier": "S",
+      "por_revisar": true
+    },
+    "NHL": {
+      "deporte": "Ishockey",
+      "tier": "C",
       "por_revisar": true
     }
   }
