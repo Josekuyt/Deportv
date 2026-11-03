@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-11-03T05:26:17"
+    "actualizado": "2026-11-03T15:49:26"
   },
   "config": {
     "puntos_por_tier": {
@@ -936,7 +936,10 @@
       "por_revisar": true
     },
     "Copa de la Reina": {
-      "deporte": "Fútbol",
+      "deporte": [
+        "Fútbol",
+        "Fútbol Sala"
+      ],
       "tier": "C",
       "por_revisar": true
     },
@@ -2095,6 +2098,16 @@
     "World Wide Technology Championship": {
       "deporte": "Golf",
       "tier": "C",
+      "por_revisar": true
+    },
+    "LPGA Aramco China Championship": {
+      "deporte": "Golf",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "UEFA Women's Nations League": {
+      "deporte": "Fútbol",
+      "tier": "S",
       "por_revisar": true
     }
   }

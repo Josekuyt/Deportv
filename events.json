@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-11-03T05:26:17",
+    "generado": "2026-11-03T15:49:26",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 293
+    "total_eventos": 344
   },
   "eventos": [
     {
@@ -56,7 +56,8 @@
       "hora": "01:00",
       "canales": [
         "NBA League Pass",
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN Baloncesto (M74 O126)"
       ]
     },
     {
@@ -186,7 +187,8 @@
       "fecha": "2026-11-03",
       "hora": "02:15",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN 2 (M73)"
       ]
     },
     {
@@ -283,12 +285,12 @@
     {
       "deporte": "Tenis",
       "competicion": "WTA Torneo de Chennai",
-      "ronda": null,
+      "ronda": "1ª Ronda",
       "evento": "J. Teichmann vs J. Garland",
       "local": "J. Teichmann",
       "visitante": "J. Garland",
       "fecha": "2026-11-03",
-      "hora": "06:30",
+      "hora": "06:40",
       "canales": [
         "WTA TV"
       ]
@@ -296,39 +298,12 @@
     {
       "deporte": "Tenis",
       "competicion": "WTA Torneo de Hong Kong",
-      "ronda": null,
+      "ronda": "1ª Ronda",
       "evento": "T. Gibson vs O. Oliynykova",
       "local": "T. Gibson",
       "visitante": "O. Oliynykova",
       "fecha": "2026-11-03",
-      "hora": "07:00",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Torneo de Chennai",
-      "ronda": "1ª Ronda",
-      "evento": "L. Fruhvirtova vs W. Falkowska",
-      "local": "L. Fruhvirtova",
-      "visitante": "W. Falkowska",
-      "fecha": "2026-11-03",
-      "hora": "08:00",
-      "canales": [
-        "WTA TV"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Torneo de Hong Kong",
-      "ronda": null,
-      "evento": "S. Cirstea vs M. Timofeeva",
-      "local": "S. Cirstea",
-      "visitante": "M. Timofeeva",
-      "fecha": "2026-11-03",
-      "hora": "08:30",
+      "hora": "07:20",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -350,12 +325,39 @@
     {
       "deporte": "Tenis",
       "competicion": "WTA Torneo de Chennai",
-      "ronda": null,
+      "ronda": "1ª Ronda",
+      "evento": "L. Fruhvirtova vs W. Falkowska",
+      "local": "L. Fruhvirtova",
+      "visitante": "W. Falkowska",
+      "fecha": "2026-11-03",
+      "hora": "09:00",
+      "canales": [
+        "WTA TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Hong Kong",
+      "ronda": "1ª Ronda",
+      "evento": "S. Cirstea vs M. Timofeeva",
+      "local": "S. Cirstea",
+      "visitante": "M. Timofeeva",
+      "fecha": "2026-11-03",
+      "hora": "09:30",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Chennai",
+      "ronda": "1ª Ronda",
       "evento": "J. Burrage vs V. Adkar",
       "local": "J. Burrage",
       "visitante": "V. Adkar",
       "fecha": "2026-11-03",
-      "hora": "09:30",
+      "hora": "10:15",
       "canales": [
         "WTA TV"
       ]
@@ -401,56 +403,57 @@
     },
     {
       "deporte": "Tenis",
-      "competicion": "WTA Torneo de Chennai",
-      "ronda": null,
-      "evento": "M. Rajeshwaran Revathi vs K. Kawa",
-      "local": "M. Rajeshwaran Revathi",
-      "visitante": "K. Kawa",
+      "competicion": "Masters París",
+      "ronda": "1ª Ronda",
+      "evento": "A. Rublev vs TM. Etcheverry",
+      "local": "A. Rublev",
+      "visitante": "TM. Etcheverry",
       "fecha": "2026-11-03",
       "hora": "11:00",
       "canales": [
-        "WTA TV"
+        "ATP Tennis TV",
+        "M+ Deportes 4 (191)"
       ]
     },
     {
       "deporte": "Tenis",
       "competicion": "Masters París",
-      "ronda": null,
-      "evento": "2ª Ronda ATP Masters 1000",
-      "local": null,
-      "visitante": null,
+      "ronda": "1ª Ronda",
+      "evento": "Q. Halys vs A. Fery",
+      "local": "Q. Halys",
+      "visitante": "A. Fery",
       "fecha": "2026-11-03",
-      "hora": "11:05",
+      "hora": "11:00",
       "canales": [
         "ATP Tennis TV",
-        "Movistar+"
+        "M+ Deportes 3 (65)"
       ]
     },
     {
       "deporte": "Tenis",
-      "competicion": "WTA Torneo de Hong Kong",
-      "ronda": null,
-      "evento": "A. Parks vs A. Eala",
-      "local": "A. Parks",
-      "visitante": "A. Eala",
+      "competicion": "Masters París",
+      "ronda": "1ª Ronda",
+      "evento": "A. Rinderknech vs F. Cerúndolo",
+      "local": "A. Rinderknech",
+      "visitante": "F. Cerúndolo",
       "fecha": "2026-11-03",
-      "hora": "11:30",
+      "hora": "11:00",
       "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
       ]
     },
     {
-      "deporte": "Pádel",
-      "competicion": "Campeonato del Mundo",
-      "ronda": null,
-      "evento": "Fase de grupos",
-      "local": null,
-      "visitante": null,
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Chennai",
+      "ronda": "1ª Ronda",
+      "evento": "M. Rajeshwaran Revathi vs K. Kawa",
+      "local": "M. Rajeshwaran Revathi",
+      "visitante": "K. Kawa",
       "fecha": "2026-11-03",
-      "hora": "PD",
+      "hora": "11:45",
       "canales": [
-        "Canal por confirmar"
+        "WTA TV"
       ]
     },
     {
@@ -467,16 +470,163 @@
       ]
     },
     {
+      "deporte": "Pádel",
+      "competicion": "Mundial Femenino",
+      "ronda": "Fase de grupos",
+      "evento": "España vs Gran Bretaña",
+      "local": "España",
+      "visitante": "Gran Bretaña",
+      "fecha": "2026-11-03",
+      "hora": "12:00",
+      "canales": [
+        "FIP - International Padel Federation YouTube"
+      ]
+    },
+    {
+      "deporte": "Pádel",
+      "competicion": "Mundial Femenino",
+      "ronda": "Fase de grupos",
+      "evento": "Italia vs Indonesia",
+      "local": "Italia",
+      "visitante": "Indonesia",
+      "fecha": "2026-11-03",
+      "hora": "12:00",
+      "canales": [
+        "FIP - International Padel Federation YouTube"
+      ]
+    },
+    {
+      "deporte": "Pádel",
+      "competicion": "Mundial Femenino",
+      "ronda": "Fase de grupos",
+      "evento": "Francia vs Chile",
+      "local": "Francia",
+      "visitante": "Chile",
+      "fecha": "2026-11-03",
+      "hora": "12:00",
+      "canales": [
+        "FIP - International Padel Federation YouTube"
+      ]
+    },
+    {
+      "deporte": "Pádel",
+      "competicion": "Mundial Femenino",
+      "ronda": "Fase de grupos",
+      "evento": "Holanda vs Estados Unidos",
+      "local": "Holanda",
+      "visitante": "Estados Unidos",
+      "fecha": "2026-11-03",
+      "hora": "12:00",
+      "canales": [
+        "FIP - International Padel Federation YouTube"
+      ]
+    },
+    {
+      "deporte": "Pádel",
+      "competicion": "Mundial Femenino",
+      "ronda": "Fase de grupos",
+      "evento": "Suecia vs Egipto",
+      "local": "Suecia",
+      "visitante": "Egipto",
+      "fecha": "2026-11-03",
+      "hora": "12:00",
+      "canales": [
+        "FIP - International Padel Federation YouTube"
+      ]
+    },
+    {
+      "deporte": "Pádel",
+      "competicion": "Mundial Femenino",
+      "ronda": "Fase de grupos",
+      "evento": "Argentina vs Bélgica",
+      "local": "Argentina",
+      "visitante": "Bélgica",
+      "fecha": "2026-11-03",
+      "hora": "12:00",
+      "canales": [
+        "FIP - International Padel Federation YouTube"
+      ]
+    },
+    {
+      "deporte": "Pádel",
+      "competicion": "Mundial Femenino",
+      "ronda": "Fase de grupos",
+      "evento": "Portugal vs Paraguay",
+      "local": "Portugal",
+      "visitante": "Paraguay",
+      "fecha": "2026-11-03",
+      "hora": "12:00",
+      "canales": [
+        "FIP - International Padel Federation YouTube"
+      ]
+    },
+    {
+      "deporte": "Pádel",
+      "competicion": "Mundial Femenino",
+      "ronda": "Fase de grupos",
+      "evento": "Brasil vs Alemania",
+      "local": "Brasil",
+      "visitante": "Alemania",
+      "fecha": "2026-11-03",
+      "hora": "12:00",
+      "canales": [
+        "FIP - International Padel Federation YouTube"
+      ]
+    },
+    {
       "deporte": "Tenis",
-      "competicion": "WTA Torneo de Chennai",
+      "competicion": "Masters París",
       "ronda": "1ª Ronda",
-      "evento": "S. Yamalapalli vs S. Waltert",
-      "local": "S. Yamalapalli",
-      "visitante": "S. Waltert",
+      "evento": "B. Nakashima vs M. Berrettini",
+      "local": "B. Nakashima",
+      "visitante": "M. Berrettini",
       "fecha": "2026-11-03",
       "hora": "12:30",
       "canales": [
-        "WTA TV"
+        "ATP Tennis TV",
+        "M+ Deportes 4 (191)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters París",
+      "ronda": "1ª Ronda",
+      "evento": "N. Borges vs M. Kouame",
+      "local": "N. Borges",
+      "visitante": "M. Kouame",
+      "fecha": "2026-11-03",
+      "hora": "12:30",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters París",
+      "ronda": "1ª Ronda",
+      "evento": "A.D. Vallejo vs L. Tien",
+      "local": "A.D. Vallejo",
+      "visitante": "L. Tien",
+      "fecha": "2026-11-03",
+      "hora": "12:30",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 3 (65)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Hong Kong",
+      "ronda": "1ª Ronda",
+      "evento": "A. Parks vs A. Eala",
+      "local": "A. Parks",
+      "visitante": "A. Eala",
+      "fecha": "2026-11-03",
+      "hora": "12:30",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -489,21 +639,20 @@
       "fecha": "2026-11-03",
       "hora": "13:00",
       "canales": [
-        "Canal por confirmar"
+        "M+ Liga de Campeones (M60 O115)"
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "WTA Torneo de Hong Kong",
+      "deporte": "Fútbol",
+      "competicion": "UEFA Women's Nations League",
       "ronda": null,
-      "evento": "E. Pridankina vs P. Badosa",
-      "local": "E. Pridankina",
-      "visitante": "P. Badosa",
+      "evento": "Sorteo de Fase de Grupos",
+      "local": null,
+      "visitante": null,
       "fecha": "2026-11-03",
       "hora": "13:00",
       "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
+        "UEFA TV"
       ]
     },
     {
@@ -533,6 +682,19 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Chennai",
+      "ronda": "1ª Ronda",
+      "evento": "S. Yamalapalli vs S. Waltert",
+      "local": "S. Yamalapalli",
+      "visitante": "S. Waltert",
+      "fecha": "2026-11-03",
+      "hora": "13:15",
+      "canales": [
+        "WTA TV"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "UEFA Youth League",
       "ronda": "Fase Liga",
@@ -543,6 +705,48 @@
       "hora": "14:00",
       "canales": [
         "UEFA TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters París",
+      "ronda": "1ª Ronda",
+      "evento": "N. Djokovic vs V. Vacherot",
+      "local": "N. Djokovic",
+      "visitante": "V. Vacherot",
+      "fecha": "2026-11-03",
+      "hora": "14:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters París",
+      "ronda": "1ª Ronda",
+      "evento": "T. Paul vs H. Rune",
+      "local": "T. Paul",
+      "visitante": "H. Rune",
+      "fecha": "2026-11-03",
+      "hora": "14:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 3 (65)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Hong Kong",
+      "ronda": "1ª Ronda",
+      "evento": "E. Pridankina vs P. Badosa",
+      "local": "E. Pridankina",
+      "visitante": "P. Badosa",
+      "fecha": "2026-11-03",
+      "hora": "14:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -559,6 +763,34 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Masters París",
+      "ronda": "1ª Ronda",
+      "evento": "A. Michelsen vs J. Lehecka",
+      "local": "A. Michelsen",
+      "visitante": "J. Lehecka",
+      "fecha": "2026-11-03",
+      "hora": "15:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 4 (191)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters París",
+      "ronda": "1ª Ronda",
+      "evento": "B. Bonzi vs T. Fritz",
+      "local": "B. Bonzi",
+      "visitante": "T. Fritz",
+      "fecha": "2026-11-03",
+      "hora": "15:30",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 3 (65)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "UEFA Youth League",
       "ronda": "Fase Liga",
@@ -568,7 +800,8 @@
       "fecha": "2026-11-03",
       "hora": "16:00",
       "canales": [
-        "FC Barcelona PPV YouTube"
+        "FC Barcelona PPV YouTube",
+        "M+ Liga de Campeones (M60 O115)"
       ]
     },
     {
@@ -585,6 +818,110 @@
         "M+ Vamos (8 y 50)",
         "M+ #Vamos Bar (307)",
         "M+ Liga de Campeones 2 (M61 O117)"
+      ]
+    },
+    {
+      "deporte": "Pádel",
+      "competicion": "Campeonato del Mundo",
+      "ronda": "Fase de grupos",
+      "evento": "España vs Paraguay",
+      "local": "España",
+      "visitante": "Paraguay",
+      "fecha": "2026-11-03",
+      "hora": "16:00",
+      "canales": [
+        "FIP - International Padel Federation YouTube"
+      ]
+    },
+    {
+      "deporte": "Pádel",
+      "competicion": "Campeonato del Mundo",
+      "ronda": "Fase de grupos",
+      "evento": "Italia vs México",
+      "local": "Italia",
+      "visitante": "México",
+      "fecha": "2026-11-03",
+      "hora": "16:00",
+      "canales": [
+        "FIP - International Padel Federation YouTube"
+      ]
+    },
+    {
+      "deporte": "Pádel",
+      "competicion": "Campeonato del Mundo",
+      "ronda": "Fase de grupos",
+      "evento": "Francia vs Australia",
+      "local": "Francia",
+      "visitante": "Australia",
+      "fecha": "2026-11-03",
+      "hora": "16:00",
+      "canales": [
+        "FIP - International Padel Federation YouTube"
+      ]
+    },
+    {
+      "deporte": "Pádel",
+      "competicion": "Campeonato del Mundo",
+      "ronda": "Fase de grupos",
+      "evento": "Argentina vs Holanda",
+      "local": "Argentina",
+      "visitante": "Holanda",
+      "fecha": "2026-11-03",
+      "hora": "16:00",
+      "canales": [
+        "FIP - International Padel Federation YouTube"
+      ]
+    },
+    {
+      "deporte": "Pádel",
+      "competicion": "Campeonato del Mundo",
+      "ronda": "Fase de grupos",
+      "evento": "Portugal vs Alemania",
+      "local": "Portugal",
+      "visitante": "Alemania",
+      "fecha": "2026-11-03",
+      "hora": "16:00",
+      "canales": [
+        "FIP - International Padel Federation YouTube"
+      ]
+    },
+    {
+      "deporte": "Pádel",
+      "competicion": "Campeonato del Mundo",
+      "ronda": "Fase de grupos",
+      "evento": "Brasil vs Estados Unidos",
+      "local": "Brasil",
+      "visitante": "Estados Unidos",
+      "fecha": "2026-11-03",
+      "hora": "16:00",
+      "canales": [
+        "FIP - International Padel Federation YouTube"
+      ]
+    },
+    {
+      "deporte": "Pádel",
+      "competicion": "Campeonato del Mundo",
+      "ronda": "Fase de grupos",
+      "evento": "Chile vs Catar",
+      "local": "Chile",
+      "visitante": "Catar",
+      "fecha": "2026-11-03",
+      "hora": "16:00",
+      "canales": [
+        "FIP - International Padel Federation YouTube"
+      ]
+    },
+    {
+      "deporte": "Pádel",
+      "competicion": "Campeonato del Mundo",
+      "ronda": "Fase de grupos",
+      "evento": "EAU vs Suecia",
+      "local": "EAU",
+      "visitante": "Suecia",
+      "fecha": "2026-11-03",
+      "hora": "16:00",
+      "canales": [
+        "FIP - International Padel Federation YouTube"
       ]
     },
     {
@@ -611,6 +948,20 @@
       "hora": "17:00",
       "canales": [
         "The AFC Hub YouTube"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters París",
+      "ronda": "1ª Ronda",
+      "evento": "JL. Struff vs A. Gea",
+      "local": "JL. Struff",
+      "visitante": "A. Gea",
+      "fecha": "2026-11-03",
+      "hora": "17:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 3 (65)"
       ]
     },
     {
@@ -676,9 +1027,7 @@
       "fecha": "2026-11-03",
       "hora": "18:00",
       "canales": [
-        "Teledeporte",
-        "RTVE Play",
-        "Esport3 (Cataluña)"
+        "APLAZADO"
       ]
     },
     {
@@ -731,6 +1080,20 @@
       "hora": "18:45",
       "canales": [
         "M+ Liga de Campeones 3 (M62 O118)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters París",
+      "ronda": "2ª Ronda",
+      "evento": "B. Shelton vs C. Norrie",
+      "local": "B. Shelton",
+      "visitante": "C. Norrie",
+      "fecha": "2026-11-03",
+      "hora": "19:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -821,7 +1184,7 @@
       "fecha": "2026-11-03",
       "hora": "19:00",
       "canales": [
-        "Canal por confirmar"
+        "APLAZADO"
       ]
     },
     {
@@ -834,7 +1197,7 @@
       "fecha": "2026-11-03",
       "hora": "19:00",
       "canales": [
-        "Canal por confirmar"
+        "APLAZADO"
       ]
     },
     {
@@ -862,7 +1225,9 @@
       "canales": [
         "M+ Vamos (8 y 50)",
         "M+ #Vamos Bar (307)",
-        "M+ Baloncesto (M66)"
+        "M+ Baloncesto (M66)",
+        "Aragón Play",
+        "Aragón TV"
       ]
     },
     {
@@ -915,7 +1280,8 @@
       "fecha": "2026-11-03",
       "hora": "20:00",
       "canales": [
-        "FIBA YouTube"
+        "FIBA YouTube",
+        "Esport3 Web"
       ]
     },
     {
@@ -928,7 +1294,24 @@
       "fecha": "2026-11-03",
       "hora": "20:15",
       "canales": [
-        "FIBA YouTube"
+        "FIBA YouTube",
+        "TVG2 (Galicia)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters París",
+      "ronda": "2ª Ronda",
+      "evento": "C. Ruud vs R. Jódar",
+      "local": "C. Ruud",
+      "visitante": "R. Jódar",
+      "fecha": "2026-11-03",
+      "hora": "20:30",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Vamos (8 y 50)",
+        "M+ #Vamos Bar (307)",
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -941,7 +1324,9 @@
       "fecha": "2026-11-03",
       "hora": "20:30",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "Teledeporte",
+        "RTVE Play"
       ]
     },
     {
@@ -954,7 +1339,9 @@
       "fecha": "2026-11-03",
       "hora": "20:30",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "RTVE Play",
+        "Esport3 Web"
       ]
     },
     {
@@ -967,7 +1354,8 @@
       "fecha": "2026-11-03",
       "hora": "21:00",
       "canales": [
-        "M+ Liga de Campeones 3 (M62 O118)"
+        "M+ Liga de Campeones 3 (M62 O118)",
+        "M+ Liga de Campeones 4 (M180 O119)"
       ]
     },
     {
@@ -983,6 +1371,7 @@
         "Movistar Plus+ (M7): VER PARTIDO",
         "Orange Fútbol 1 (107)",
         "M+ Liga de Campeones (M60 O115)",
+        "M+ Liga de Campeones 4 (M180 O119)",
         "LaLiga TV Bar"
       ]
     },
@@ -996,7 +1385,8 @@
       "fecha": "2026-11-03",
       "hora": "21:00",
       "canales": [
-        "M+ Liga de Campeones 2 (M61 O117)"
+        "M+ Liga de Campeones 2 (M61 O117)",
+        "M+ Liga de Campeones 4 (M180 O119)"
       ]
     },
     {
@@ -1009,6 +1399,7 @@
       "fecha": "2026-11-03",
       "hora": "21:00",
       "canales": [
+        "M+ Liga de Campeones 4 (M180 O119)",
         "M+ Liga de Campeones 8 (M184 O436)"
       ]
     },
@@ -1022,6 +1413,7 @@
       "fecha": "2026-11-03",
       "hora": "21:00",
       "canales": [
+        "M+ Liga de Campeones 4 (M180 O119)",
         "M+ Liga de Campeones 5 (M181 O433)"
       ]
     },
@@ -1035,6 +1427,7 @@
       "fecha": "2026-11-03",
       "hora": "21:00",
       "canales": [
+        "M+ Liga de Campeones 4 (M180 O119)",
         "M+ Liga de Campeones 7 (M183 O435)"
       ]
     },
@@ -1048,6 +1441,7 @@
       "fecha": "2026-11-03",
       "hora": "21:00",
       "canales": [
+        "M+ Liga de Campeones 4 (M180 O119)",
         "M+ Liga de Campeones 6 (M182 O434)"
       ]
     },
@@ -1237,12 +1631,26 @@
     {
       "deporte": "Tenis",
       "competicion": "WTA Torneo de Hong Kong",
-      "ronda": null,
-      "evento": "2ª Ronda WTA 250",
-      "local": null,
-      "visitante": null,
+      "ronda": "1ª Ronda",
+      "evento": "L. Fernández vs S. Kenin",
+      "local": "L. Fernández",
+      "visitante": "S. Kenin",
       "fecha": "2026-11-04",
-      "hora": "07:05",
+      "hora": "07:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Hong Kong",
+      "ronda": "2ª Ronda",
+      "evento": "C. Liu vs K. Boulter",
+      "local": "C. Liu",
+      "visitante": "K. Boulter",
+      "fecha": "2026-11-04",
+      "hora": "08:30",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -1297,6 +1705,7 @@
       "fecha": "2026-11-04",
       "hora": "11:00",
       "canales": [
+        "M+ Liga de Campeones (M60 O115)",
         "Real Madrid TV"
       ]
     },
@@ -1315,16 +1724,121 @@
       ]
     },
     {
-      "deporte": "Pádel",
-      "competicion": "Campeonato del Mundo",
-      "ronda": null,
-      "evento": "Fase de grupos",
-      "local": null,
-      "visitante": null,
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Hong Kong",
+      "ronda": "2ª Ronda",
+      "evento": "M. Joint vs M. Sakkari",
+      "local": "M. Joint",
+      "visitante": "M. Sakkari",
       "fecha": "2026-11-04",
-      "hora": "PD",
+      "hora": "11:30",
       "canales": [
-        "Canal por confirmar"
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Pádel",
+      "competicion": "Mundial Femenino",
+      "ronda": "Fase de grupos",
+      "evento": "España vs Brasil",
+      "local": "España",
+      "visitante": "Brasil",
+      "fecha": "2026-11-04",
+      "hora": "12:00",
+      "canales": [
+        "FIP - International Padel Federation YouTube"
+      ]
+    },
+    {
+      "deporte": "Pádel",
+      "competicion": "Mundial Femenino",
+      "ronda": "Fase de grupos",
+      "evento": "Italia vs Suecia",
+      "local": "Italia",
+      "visitante": "Suecia",
+      "fecha": "2026-11-04",
+      "hora": "12:00",
+      "canales": [
+        "FIP - International Padel Federation YouTube"
+      ]
+    },
+    {
+      "deporte": "Pádel",
+      "competicion": "Mundial Femenino",
+      "ronda": "Fase de grupos",
+      "evento": "Bélgica vs Chile",
+      "local": "Bélgica",
+      "visitante": "Chile",
+      "fecha": "2026-11-04",
+      "hora": "12:00",
+      "canales": [
+        "FIP - International Padel Federation YouTube"
+      ]
+    },
+    {
+      "deporte": "Pádel",
+      "competicion": "Mundial Femenino",
+      "ronda": "Fase de grupos",
+      "evento": "Argentina vs Francia",
+      "local": "Argentina",
+      "visitante": "Francia",
+      "fecha": "2026-11-04",
+      "hora": "12:00",
+      "canales": [
+        "FIP - International Padel Federation YouTube"
+      ]
+    },
+    {
+      "deporte": "Pádel",
+      "competicion": "Mundial Femenino",
+      "ronda": "Fase de grupos",
+      "evento": "Portugal vs Holanda",
+      "local": "Portugal",
+      "visitante": "Holanda",
+      "fecha": "2026-11-04",
+      "hora": "12:00",
+      "canales": [
+        "FIP - International Padel Federation YouTube"
+      ]
+    },
+    {
+      "deporte": "Pádel",
+      "competicion": "Mundial Femenino",
+      "ronda": "Fase de grupos",
+      "evento": "Paraguay vs Estados Unidos",
+      "local": "Paraguay",
+      "visitante": "Estados Unidos",
+      "fecha": "2026-11-04",
+      "hora": "12:00",
+      "canales": [
+        "FIP - International Padel Federation YouTube"
+      ]
+    },
+    {
+      "deporte": "Pádel",
+      "competicion": "Mundial Femenino",
+      "ronda": "Fase de grupos",
+      "evento": "Indonesia vs Egipto",
+      "local": "Indonesia",
+      "visitante": "Egipto",
+      "fecha": "2026-11-04",
+      "hora": "12:00",
+      "canales": [
+        "FIP - International Padel Federation YouTube"
+      ]
+    },
+    {
+      "deporte": "Pádel",
+      "competicion": "Mundial Femenino",
+      "ronda": "Fase de grupos",
+      "evento": "Gran Bretaña vs Alemania",
+      "local": "Gran Bretaña",
+      "visitante": "Alemania",
+      "fecha": "2026-11-04",
+      "hora": "12:00",
+      "canales": [
+        "FIP - International Padel Federation YouTube"
       ]
     },
     {
@@ -1368,6 +1882,20 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "FIFA Mundial Femenino Sub-17",
+      "ronda": "Semifinales",
+      "evento": "Japón vs Corea del Norte",
+      "local": "Japón",
+      "visitante": "Corea del Norte",
+      "fecha": "2026-11-04",
+      "hora": "16:00",
+      "canales": [
+        "Teledeporte",
+        "RTVE Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "UEFA Youth League",
       "ronda": "Fase Liga",
       "evento": "B. Dortmund Academy vs Real Betis Academy",
@@ -1376,7 +1904,125 @@
       "fecha": "2026-11-04",
       "hora": "16:00",
       "canales": [
-        "UEFA TV"
+        "UEFA TV",
+        "M+ Liga de Campeones (M60 O115)"
+      ]
+    },
+    {
+      "deporte": "Pádel",
+      "competicion": "Campeonato del Mundo",
+      "ronda": "Fase de grupos",
+      "evento": "España vs EAU",
+      "local": "España",
+      "visitante": "EAU",
+      "fecha": "2026-11-04",
+      "hora": "16:00",
+      "canales": [
+        "FIP - International Padel Federation YouTube"
+      ]
+    },
+    {
+      "deporte": "Pádel",
+      "competicion": "Campeonato del Mundo",
+      "ronda": "Fase de grupos",
+      "evento": "Italia vs Brasil",
+      "local": "Italia",
+      "visitante": "Brasil",
+      "fecha": "2026-11-04",
+      "hora": "16:00",
+      "canales": [
+        "FIP - International Padel Federation YouTube"
+      ]
+    },
+    {
+      "deporte": "Pádel",
+      "competicion": "Campeonato del Mundo",
+      "ronda": "Fase de grupos",
+      "evento": "Holanda vs Australia",
+      "local": "Holanda",
+      "visitante": "Australia",
+      "fecha": "2026-11-04",
+      "hora": "16:00",
+      "canales": [
+        "FIP - International Padel Federation YouTube"
+      ]
+    },
+    {
+      "deporte": "Pádel",
+      "competicion": "Campeonato del Mundo",
+      "ronda": "Fase de grupos",
+      "evento": "Alemania vs Catar",
+      "local": "Alemania",
+      "visitante": "Catar",
+      "fecha": "2026-11-04",
+      "hora": "16:00",
+      "canales": [
+        "FIP - International Padel Federation YouTube"
+      ]
+    },
+    {
+      "deporte": "Pádel",
+      "competicion": "Campeonato del Mundo",
+      "ronda": "Fase de grupos",
+      "evento": "Argentina vs Francia",
+      "local": "Argentina",
+      "visitante": "Francia",
+      "fecha": "2026-11-04",
+      "hora": "16:00",
+      "canales": [
+        "FIP - International Padel Federation YouTube"
+      ]
+    },
+    {
+      "deporte": "Pádel",
+      "competicion": "Campeonato del Mundo",
+      "ronda": "Fase de grupos",
+      "evento": "Portugal vs Chile",
+      "local": "Portugal",
+      "visitante": "Chile",
+      "fecha": "2026-11-04",
+      "hora": "16:00",
+      "canales": [
+        "FIP - International Padel Federation YouTube"
+      ]
+    },
+    {
+      "deporte": "Pádel",
+      "competicion": "Campeonato del Mundo",
+      "ronda": "Fase de grupos",
+      "evento": "México vs Estados Unidos",
+      "local": "México",
+      "visitante": "Estados Unidos",
+      "fecha": "2026-11-04",
+      "hora": "16:00",
+      "canales": [
+        "FIP - International Padel Federation YouTube"
+      ]
+    },
+    {
+      "deporte": "Pádel",
+      "competicion": "Campeonato del Mundo",
+      "ronda": "Fase de grupos",
+      "evento": "Paraguay vs Suecia",
+      "local": "Paraguay",
+      "visitante": "Suecia",
+      "fecha": "2026-11-04",
+      "hora": "16:00",
+      "canales": [
+        "FIP - International Padel Federation YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Europa League",
+      "ronda": "Fase Liga",
+      "evento": "Rennes vs Olympiacos",
+      "local": "Rennes",
+      "visitante": "Olympiacos",
+      "fecha": "2026-11-04",
+      "hora": "16:30",
+      "canales": [
+        "M+ Liga de Campeones 2 (M61 O117)"
       ]
     },
     {
@@ -1467,7 +2113,8 @@
       "fecha": "2026-11-04",
       "hora": "17:15",
       "canales": [
-        "FIBA YouTube"
+        "FIBA YouTube",
+        "Esport3 Web"
       ]
     },
     {
@@ -1729,7 +2376,34 @@
       "canales": [
         "M+ Vamos (8 y 50)",
         "M+ #Vamos Bar (307)",
-        "M+ Baloncesto (M66)"
+        "M+ Baloncesto (M66)",
+        "Esport3 Web"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 13",
+      "evento": "Cartagena B vs CF Santomera",
+      "local": "Cartagena B",
+      "visitante": "CF Santomera",
+      "fecha": "2026-11-04",
+      "hora": "18:00",
+      "canales": [
+        "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 13",
+      "evento": "Mazarrón vs Los Garres",
+      "local": "Mazarrón",
+      "visitante": "Los Garres",
+      "fecha": "2026-11-04",
+      "hora": "18:00",
+      "canales": [
+        "TV FootballClub (Acceder)"
       ]
     },
     {
@@ -1821,6 +2495,19 @@
       "hora": "19:00",
       "canales": [
         "EHF TV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "FIFA Mundial Femenino Sub-17",
+      "ronda": "Semifinales",
+      "evento": "Brasil vs Nigeria",
+      "local": "Brasil",
+      "visitante": "Nigeria",
+      "fecha": "2026-11-04",
+      "hora": "19:00",
+      "canales": [
+        "RTVE Play"
       ]
     },
     {
@@ -1951,6 +2638,19 @@
       "hora": "19:00",
       "canales": [
         "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol Sala",
+      "competicion": "Copa de la Reina",
+      "ronda": null,
+      "evento": "Full Energía Zaragoza vs Alcorcón FS",
+      "local": "Full Energía Zaragoza",
+      "visitante": "Alcorcón FS",
+      "fecha": "2026-11-04",
+      "hora": "19:00",
+      "canales": [
+        "Aragón Play"
       ]
     },
     {
@@ -2276,7 +2976,7 @@
       "fecha": "2026-11-04",
       "hora": "20:30",
       "canales": [
-        "Canal por confirmar"
+        "Aragón Play"
       ]
     },
     {
@@ -2368,6 +3068,7 @@
       "fecha": "2026-11-04",
       "hora": "21:00",
       "canales": [
+        "M+ Liga de Campeones 4 (M180 O119)",
         "M+ Liga de Campeones 6 (M182 O434)"
       ]
     },
@@ -2381,7 +3082,8 @@
       "fecha": "2026-11-04",
       "hora": "21:00",
       "canales": [
-        "M+ Liga de Campeones 2 (M61 O117)"
+        "M+ Liga de Campeones 2 (M61 O117)",
+        "M+ Liga de Campeones 4 (M180 O119)"
       ]
     },
     {
@@ -2394,7 +3096,8 @@
       "fecha": "2026-11-04",
       "hora": "21:00",
       "canales": [
-        "M+ Liga de Campeones 3 (M62 O118)"
+        "M+ Liga de Campeones 3 (M62 O118)",
+        "M+ Liga de Campeones 4 (M180 O119)"
       ]
     },
     {
@@ -2407,6 +3110,7 @@
       "fecha": "2026-11-04",
       "hora": "21:00",
       "canales": [
+        "M+ Liga de Campeones 4 (M180 O119)",
         "M+ Liga de Campeones 7 (M183 O435)"
       ]
     },
@@ -2420,6 +3124,7 @@
       "fecha": "2026-11-04",
       "hora": "21:00",
       "canales": [
+        "M+ Liga de Campeones 4 (M180 O119)",
         "M+ Liga de Campeones 5 (M181 O433)"
       ]
     },
@@ -2433,6 +3138,7 @@
       "fecha": "2026-11-04",
       "hora": "21:00",
       "canales": [
+        "M+ Liga de Campeones 4 (M180 O119)",
         "M+ Liga de Campeones 8 (M184 O436)"
       ]
     },
@@ -2446,6 +3152,7 @@
       "fecha": "2026-11-04",
       "hora": "21:00",
       "canales": [
+        "M+ Liga de Campeones 4 (M180 O119)",
         "M+ Liga de Campeones 9 (M185 O437)"
       ]
     },
@@ -2499,6 +3206,7 @@
       "hora": "23:30",
       "canales": [
         "Fanatiz (Ver en directo)",
+        "M+ Vamos (8 y 50)",
         "M+ #Vamos Bar (307)",
         "M+ Liga de Campeones 4 (M180 O119)"
       ]
@@ -2605,7 +3313,8 @@
       "hora": "01:00",
       "canales": [
         "NBA League Pass",
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN Baloncesto (M74 O126)"
       ]
     },
     {
@@ -2788,7 +3497,8 @@
       "hora": "03:30",
       "canales": [
         "NBA League Pass",
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN Baloncesto 2 (M75 O127)"
       ]
     },
     {
@@ -2815,6 +3525,19 @@
       "hora": "04:30",
       "canales": [
         "NBA League Pass"
+      ]
+    },
+    {
+      "deporte": "Golf",
+      "competicion": "LPGA Aramco China Championship",
+      "ronda": null,
+      "evento": "Jornada 1",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-11-05",
+      "hora": "06:30",
+      "canales": [
+        "Movistar Golf 2 (M68)"
       ]
     },
     {
@@ -3106,6 +3829,7 @@
       "canales": [
         "Movistar Plus+ (M7): VER PARTIDO",
         "M+ Liga de Campeones (M60 O115)",
+        "M+ Liga de Campeones 3 (M62 O118)",
         "LaLiga TV Bar"
       ]
     },
@@ -3119,7 +3843,8 @@
       "fecha": "2026-11-05",
       "hora": "18:45",
       "canales": [
-        "M+ Liga de Campeones 2 (M61 O117)"
+        "M+ Liga de Campeones 2 (M61 O117)",
+        "M+ Liga de Campeones 3 (M62 O118)"
       ]
     },
     {
@@ -3132,6 +3857,7 @@
       "fecha": "2026-11-05",
       "hora": "18:45",
       "canales": [
+        "M+ Liga de Campeones 3 (M62 O118)",
         "M+ Liga de Campeones 9 (M185 O437)"
       ]
     },
@@ -3145,6 +3871,7 @@
       "fecha": "2026-11-05",
       "hora": "18:45",
       "canales": [
+        "M+ Liga de Campeones 3 (M62 O118)",
         "M+ Liga de Campeones 7 (M183 O435)"
       ]
     },
@@ -3158,20 +3885,8 @@
       "fecha": "2026-11-05",
       "hora": "18:45",
       "canales": [
+        "M+ Liga de Campeones 3 (M62 O118)",
         "M+ Liga de Campeones 4 (M180 O119)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Europa League",
-      "ronda": "Fase Liga",
-      "evento": "Rennes vs Olympiacos",
-      "local": "Rennes",
-      "visitante": "Olympiacos",
-      "fecha": "2026-11-05",
-      "hora": "18:45",
-      "canales": [
-        "M+ Liga de Campeones 2 (M61 O117)"
       ]
     },
     {
@@ -3184,6 +3899,7 @@
       "fecha": "2026-11-05",
       "hora": "18:45",
       "canales": [
+        "M+ Liga de Campeones 3 (M62 O118)",
         "M+ Liga de Campeones 5 (M181 O433)"
       ]
     },
@@ -3197,6 +3913,7 @@
       "fecha": "2026-11-05",
       "hora": "18:45",
       "canales": [
+        "M+ Liga de Campeones 3 (M62 O118)",
         "M+ Liga de Campeones 6 (M182 O434)"
       ]
     },
@@ -3210,6 +3927,7 @@
       "fecha": "2026-11-05",
       "hora": "18:45",
       "canales": [
+        "M+ Liga de Campeones 3 (M62 O118)",
         "M+ Liga de Campeones 8 (M184 O436)"
       ]
     },
@@ -3223,7 +3941,8 @@
       "fecha": "2026-11-05",
       "hora": "18:45",
       "canales": [
-        "M+ Liga de Campeones 13 (M189 O441)"
+        "M+ Liga de Campeones 13 (M189 O441)",
+        "M+ Liga de Campeones 3 (M62 O118)"
       ]
     },
     {
@@ -3236,7 +3955,8 @@
       "fecha": "2026-11-05",
       "hora": "18:45",
       "canales": [
-        "Canal por confirmar"
+        "M+ Liga de Campeones 3 (M62 O118)",
+        "Movistar+ Dispositivos"
       ]
     },
     {
@@ -3249,7 +3969,8 @@
       "fecha": "2026-11-05",
       "hora": "18:45",
       "canales": [
-        "Canal por confirmar"
+        "M+ Liga de Campeones 3 (M62 O118)",
+        "Movistar+ Dispositivos"
       ]
     },
     {
@@ -3262,7 +3983,8 @@
       "fecha": "2026-11-05",
       "hora": "18:45",
       "canales": [
-        "M+ Liga de Campeones 12 (M 188 O440)"
+        "M+ Liga de Campeones 12 (M 188 O440)",
+        "M+ Liga de Campeones 3 (M62 O118)"
       ]
     },
     {
@@ -3275,7 +3997,8 @@
       "fecha": "2026-11-05",
       "hora": "18:45",
       "canales": [
-        "Canal por confirmar"
+        "M+ Liga de Campeones 3 (M62 O118)",
+        "Movistar+ Dispositivos"
       ]
     },
     {
@@ -3288,6 +4011,7 @@
       "fecha": "2026-11-05",
       "hora": "18:45",
       "canales": [
+        "M+ Liga de Campeones 3 (M62 O118)",
         "M+ Liga de Campeones 11 (M187 O439)"
       ]
     },
@@ -3301,7 +4025,8 @@
       "fecha": "2026-11-05",
       "hora": "18:45",
       "canales": [
-        "Canal por confirmar"
+        "M+ Liga de Campeones 3 (M62 O118)",
+        "Movistar+ Dispositivos"
       ]
     },
     {
@@ -3314,7 +4039,8 @@
       "fecha": "2026-11-05",
       "hora": "18:45",
       "canales": [
-        "Canal por confirmar"
+        "M+ Liga de Campeones 3 (M62 O118)",
+        "Movistar+ Dispositivos"
       ]
     },
     {
@@ -3327,7 +4053,8 @@
       "fecha": "2026-11-05",
       "hora": "18:45",
       "canales": [
-        "Canal por confirmar"
+        "M+ Liga de Campeones 3 (M62 O118)",
+        "Movistar+ Dispositivos"
       ]
     },
     {
@@ -3418,7 +4145,7 @@
       "fecha": "2026-11-05",
       "hora": "19:00",
       "canales": [
-        "Canal por confirmar"
+        "M+ LALIGA (M54 O110)"
       ]
     },
     {
@@ -3432,20 +4159,6 @@
       "hora": "19:00",
       "canales": [
         "M+ Baloncesto 2 (M67)"
-      ]
-    },
-    {
-      "deporte": "Baloncesto",
-      "competicion": "Euroliga",
-      "ronda": "Liga Regular",
-      "evento": "Hapoel Tel Aviv BC vs Barça Basket",
-      "local": "Hapoel Tel Aviv BC",
-      "visitante": "Barça Basket",
-      "fecha": "2026-11-05",
-      "hora": "19:00",
-      "canales": [
-        "M+ Vamos (8 y 50)",
-        "M+ #Vamos Bar (307)"
       ]
     },
     {
@@ -3475,6 +4188,20 @@
       ]
     },
     {
+      "deporte": "Baloncesto",
+      "competicion": "Euroliga",
+      "ronda": "Liga Regular",
+      "evento": "Hapoel Tel Aviv BC vs Barça Basket",
+      "local": "Hapoel Tel Aviv BC",
+      "visitante": "Barça Basket",
+      "fecha": "2026-11-05",
+      "hora": "19:45",
+      "canales": [
+        "M+ Vamos (8 y 50)",
+        "M+ #Vamos Bar (307)"
+      ]
+    },
+    {
       "deporte": "Balonmano",
       "competicion": "EHF Europeo",
       "ronda": null,
@@ -3497,7 +4224,7 @@
       "fecha": "2026-11-05",
       "hora": "20:00",
       "canales": [
-        "Canal por confirmar"
+        "À Punt (C. Valenciana)"
       ]
     },
     {
@@ -3592,6 +4319,8 @@
       "fecha": "2026-11-05",
       "hora": "21:00",
       "canales": [
+        "M+ Liga de Campeones (M60 O115)",
+        "M+ Liga de Campeones 3 (M62 O118)",
         "LaLiga TV Bar"
       ]
     },
@@ -3605,6 +4334,7 @@
       "fecha": "2026-11-05",
       "hora": "21:00",
       "canales": [
+        "M+ Liga de Campeones 3 (M62 O118)",
         "M+ Liga de Campeones 5 (M181 O433)"
       ]
     },
@@ -3618,6 +4348,7 @@
       "fecha": "2026-11-05",
       "hora": "21:00",
       "canales": [
+        "M+ Liga de Campeones 3 (M62 O118)",
         "M+ Liga de Campeones 4 (M180 O119)"
       ]
     },
@@ -3631,6 +4362,7 @@
       "fecha": "2026-11-05",
       "hora": "21:00",
       "canales": [
+        "M+ Liga de Campeones 3 (M62 O118)",
         "M+ Liga de Campeones 11 (M187 O439)"
       ]
     },
@@ -3644,6 +4376,7 @@
       "fecha": "2026-11-05",
       "hora": "21:00",
       "canales": [
+        "M+ Liga de Campeones 3 (M62 O118)",
         "M+ Liga de Campeones 10 (M186 O438)"
       ]
     },
@@ -3657,6 +4390,7 @@
       "fecha": "2026-11-05",
       "hora": "21:00",
       "canales": [
+        "M+ Liga de Campeones 3 (M62 O118)",
         "M+ Liga de Campeones 6 (M182 O434)"
       ]
     },
@@ -3670,6 +4404,7 @@
       "fecha": "2026-11-05",
       "hora": "21:00",
       "canales": [
+        "M+ Liga de Campeones 3 (M62 O118)",
         "M+ Liga de Campeones 9 (M185 O437)"
       ]
     },
@@ -3683,6 +4418,7 @@
       "fecha": "2026-11-05",
       "hora": "21:00",
       "canales": [
+        "M+ Liga de Campeones 3 (M62 O118)",
         "M+ Liga de Campeones 7 (M183 O435)"
       ]
     },
@@ -3696,6 +4432,7 @@
       "fecha": "2026-11-05",
       "hora": "21:00",
       "canales": [
+        "M+ Liga de Campeones 3 (M62 O118)",
         "M+ Liga de Campeones 8 (M184 O436)"
       ]
     },
@@ -3709,7 +4446,8 @@
       "fecha": "2026-11-05",
       "hora": "21:00",
       "canales": [
-        "M+ Liga de Campeones 2 (M61 O117)"
+        "M+ Liga de Campeones 2 (M61 O117)",
+        "M+ Liga de Campeones 3 (M62 O118)"
       ]
     },
     {
@@ -3722,7 +4460,8 @@
       "fecha": "2026-11-05",
       "hora": "21:00",
       "canales": [
-        "Canal por confirmar"
+        "M+ Liga de Campeones 3 (M62 O118)",
+        "Movistar+ Dispositivos"
       ]
     },
     {
@@ -3735,7 +4474,8 @@
       "fecha": "2026-11-05",
       "hora": "21:00",
       "canales": [
-        "M+ Liga de Campeones 12 (M 188 O440)"
+        "M+ Liga de Campeones 12 (M 188 O440)",
+        "M+ Liga de Campeones 3 (M62 O118)"
       ]
     },
     {
@@ -3748,7 +4488,8 @@
       "fecha": "2026-11-05",
       "hora": "21:00",
       "canales": [
-        "M+ Liga de Campeones 13 (M189 O441)"
+        "M+ Liga de Campeones 13 (M189 O441)",
+        "M+ Liga de Campeones 3 (M62 O118)"
       ]
     },
     {
@@ -3761,7 +4502,8 @@
       "fecha": "2026-11-05",
       "hora": "21:00",
       "canales": [
-        "Canal por confirmar"
+        "M+ Liga de Campeones 3 (M62 O118)",
+        "Movistar+ Dispositivos"
       ]
     },
     {
@@ -3774,7 +4516,8 @@
       "fecha": "2026-11-05",
       "hora": "21:00",
       "canales": [
-        "Canal por confirmar"
+        "M+ Liga de Campeones 3 (M62 O118)",
+        "Movistar+ Dispositivos"
       ]
     },
     {
@@ -3787,7 +4530,8 @@
       "fecha": "2026-11-05",
       "hora": "21:00",
       "canales": [
-        "Canal por confirmar"
+        "M+ Liga de Campeones 3 (M62 O118)",
+        "Movistar+ Dispositivos"
       ]
     },
     {
@@ -3800,7 +4544,8 @@
       "fecha": "2026-11-05",
       "hora": "21:00",
       "canales": [
-        "Canal por confirmar"
+        "M+ Liga de Campeones 3 (M62 O118)",
+        "Movistar+ Dispositivos"
       ]
     },
     {
@@ -3813,7 +4558,8 @@
       "fecha": "2026-11-05",
       "hora": "21:00",
       "canales": [
-        "Canal por confirmar"
+        "M+ Liga de Campeones 3 (M62 O118)",
+        "Movistar+ Dispositivos"
       ]
     },
     {
@@ -3826,6 +4572,7 @@
       "fecha": "2026-11-05",
       "hora": "21:00",
       "canales": [
+        "HBO MAX",
         "Movistar Golf (M68)"
       ]
     },
@@ -3853,8 +4600,9 @@
       "hora": "23:30",
       "canales": [
         "Fanatiz (Ver en directo)",
+        "M+ Vamos (8 y 50)",
         "M+ #Vamos Bar (307)",
-        "M+ Liga de Campeones 3 (M62 O118)"
+        "M+ Liga de Campeones 2 (M61 O117)"
       ]
     }
   ]
