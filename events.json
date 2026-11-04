@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-11-04T15:57:52",
+    "generado": "2026-11-04T21:45:52",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 344
+    "total_eventos": 350
   },
   "eventos": [
     {
@@ -1210,7 +1210,7 @@
         "M+ Vamos (8 y 50)",
         "M+ #Vamos Bar (307)",
         "M+ Baloncesto (M66)",
-        "Esport3 Web"
+        "Esport3 (Cataluña)"
       ]
     },
     {
@@ -1683,7 +1683,8 @@
       "fecha": "2026-11-04",
       "hora": "20:00",
       "canales": [
-        "FIBA YouTube"
+        "FIBA YouTube",
+        "TVG2 (Galicia)"
       ]
     },
     {
@@ -2484,6 +2485,45 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Chennai",
+      "ronda": "2ª Ronda",
+      "evento": "S. Waltert vs L. Stefanini",
+      "local": "S. Waltert",
+      "visitante": "L. Stefanini",
+      "fecha": "2026-11-05",
+      "hora": "05:30",
+      "canales": [
+        "WTA TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Chennai",
+      "ronda": "2ª Ronda",
+      "evento": "A. Zakharova vs V. Adkar",
+      "local": "A. Zakharova",
+      "visitante": "V. Adkar",
+      "fecha": "2026-11-05",
+      "hora": "05:30",
+      "canales": [
+        "WTA TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Chennai",
+      "ronda": "2ª Ronda",
+      "evento": "M. Uchijima vs M. Linette",
+      "local": "M. Uchijima",
+      "visitante": "M. Linette",
+      "fecha": "2026-11-05",
+      "hora": "05:30",
+      "canales": [
+        "WTA TV"
+      ]
+    },
+    {
       "deporte": "Golf",
       "competicion": "LPGA Aramco China Championship",
       "ronda": null,
@@ -2498,26 +2538,55 @@
     },
     {
       "deporte": "Tenis",
-      "competicion": "WTA Torneo de Chennai",
-      "ronda": null,
-      "evento": "2ª Ronda WTA 250",
-      "local": null,
-      "visitante": null,
+      "competicion": "WTA Torneo de Hong Kong",
+      "ronda": "2ª Ronda",
+      "evento": "S. Cirstea vs M. Stoiana",
+      "local": "S. Cirstea",
+      "visitante": "M. Stoiana",
       "fecha": "2026-11-05",
-      "hora": "06:35",
+      "hora": "07:00",
       "canales": [
-        "WTA TV"
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
       "deporte": "Tenis",
       "competicion": "WTA Torneo de Hong Kong",
-      "ronda": null,
-      "evento": "2ª Ronda WTA 250",
-      "local": null,
-      "visitante": null,
+      "ronda": "2ª Ronda",
+      "evento": "X. Wang vs A. Ruzic",
+      "local": "X. Wang",
+      "visitante": "A. Ruzic",
       "fecha": "2026-11-05",
-      "hora": "07:05",
+      "hora": "07:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Hong Kong",
+      "ronda": "2ª Ronda",
+      "evento": "M. Stojsavljevic vs Z. Sonmez",
+      "local": "M. Stojsavljevic",
+      "visitante": "Z. Sonmez",
+      "fecha": "2026-11-05",
+      "hora": "07:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Hong Kong",
+      "ronda": "2ª Ronda",
+      "evento": "T. Valentova vs A. Eala",
+      "local": "T. Valentova",
+      "visitante": "A. Eala",
+      "fecha": "2026-11-05",
+      "hora": "07:00",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -3817,7 +3886,8 @@
       "hora": "03:00",
       "canales": [
         "NBA League Pass",
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN Baloncesto (M74 O126)"
       ]
     },
     {
@@ -3959,7 +4029,7 @@
       "local": null,
       "visitante": null,
       "fecha": "2026-11-06",
-      "hora": "13:45",
+      "hora": "12:45",
       "canales": [
         "MotoGP Videopass",
         "DAZN (Ver en directo)",
@@ -4045,6 +4115,7 @@
         "Liga U YouTube",
         "DAZN (Ver en directo)",
         "DAZN App Gratis (Ver gratis)",
+        "DAZN Baloncesto (M74 O126)",
         "Teledeporte",
         "RTVE Play"
       ]
@@ -4071,7 +4142,7 @@
       "local": null,
       "visitante": null,
       "fecha": "2026-11-06",
-      "hora": "18:00",
+      "hora": "17:00",
       "canales": [
         "MotoGP Videopass",
         "DAZN (Ver en directo)",
@@ -4240,7 +4311,8 @@
       "canales": [
         "Liga U YouTube",
         "DAZN (Ver en directo)",
-        "DAZN App Gratis (Ver gratis)"
+        "DAZN App Gratis (Ver gratis)",
+        "DAZN Baloncesto 2 (M75 O127)"
       ]
     },
     {
@@ -4414,7 +4486,8 @@
       "canales": [
         "Liga U YouTube",
         "DAZN (Ver en directo)",
-        "DAZN App Gratis (Ver gratis)"
+        "DAZN App Gratis (Ver gratis)",
+        "DAZN Baloncesto 3 (M76 O128)"
       ]
     },
     {
@@ -4578,6 +4651,7 @@
       "hora": "21:00",
       "canales": [
         "DAZN (Ver en directo)",
+        "DAZN 1 (M72)",
         "DAZN 1 Bar (M148)"
       ]
     },
@@ -4591,6 +4665,7 @@
       "fecha": "2026-11-06",
       "hora": "21:10",
       "canales": [
+        "M+ Vamos (8 y 50)",
         "M+ #Vamos Bar (307)"
       ]
     },
@@ -4621,6 +4696,19 @@
       "hora": "22:30",
       "canales": [
         "UEFA TV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera División Argentina",
+      "ronda": "Torneo Clausura",
+      "evento": "San Lorenzo vs Platense",
+      "local": "San Lorenzo",
+      "visitante": "Platense",
+      "fecha": "2026-11-06",
+      "hora": "23:15",
+      "canales": [
+        "M+ Liga de Campeones (M60 O115)"
       ]
     }
   ]
