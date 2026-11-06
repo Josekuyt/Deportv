@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-11-06T05:12:44"
+    "actualizado": "2026-11-06T15:39:45"
   },
   "config": {
     "puntos_por_tier": {
@@ -2167,6 +2167,11 @@
     },
     "Torneo de Estocolmo": {
       "deporte": "Tenis",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Cross Itálica": {
+      "deporte": "Atletismo",
       "tier": "C",
       "por_revisar": true
     }
