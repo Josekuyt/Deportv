@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-11-07T04:44:12",
+    "generado": "2026-11-07T14:40:38",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 514
+    "total_eventos": 518
   },
   "eventos": [
     {
@@ -2959,6 +2959,32 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Liga Futve",
+      "ronda": null,
+      "evento": "Caracas FC vs Puerto Cabello",
+      "local": "Caracas FC",
+      "visitante": "Puerto Cabello",
+      "fecha": "2026-11-07",
+      "hora": "22:30",
+      "canales": [
+        "LigaFUTVE App"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Futve",
+      "ronda": null,
+      "evento": "Monagas SC vs Deportivo Táchira",
+      "local": "Monagas SC",
+      "visitante": "Deportivo Táchira",
+      "fecha": "2026-11-07",
+      "hora": "22:30",
+      "canales": [
+        "LigaFUTVE App"
+      ]
+    },
+    {
       "deporte": "Ishockey",
       "competicion": "NHL",
       "ronda": "Liga Regular",
@@ -5882,6 +5908,19 @@
       ]
     },
     {
+      "deporte": "Fútbol Sala",
+      "competicion": "Finalissima",
+      "ronda": "3er Puesto",
+      "evento": "Portugal vs Argentina",
+      "local": "Portugal",
+      "visitante": "Argentina",
+      "fecha": "2026-11-08",
+      "hora": "18:30",
+      "canales": [
+        "UEFA TV"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Jupiler Pro League",
       "ronda": null,
@@ -6341,6 +6380,20 @@
       ]
     },
     {
+      "deporte": "Fútbol Sala",
+      "competicion": "Finalissima",
+      "ronda": "Final",
+      "evento": "España vs Brasil",
+      "local": "España",
+      "visitante": "Brasil",
+      "fecha": "2026-11-08",
+      "hora": "21:30",
+      "canales": [
+        "UEFA TV",
+        "FutsalRFEF YouTube"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "NBA",
       "ronda": "Liga Regular",
@@ -6472,6 +6525,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Liga Futve",
+      "ronda": null,
+      "evento": "Portuguesa FC vs Metropolitanos",
+      "local": "Portuguesa FC",
+      "visitante": "Metropolitanos",
+      "fecha": "2026-11-08",
+      "hora": "22:00",
+      "canales": [
+        "LigaFUTVE App"
+      ]
+    },
+    {
       "deporte": "Béisbol",
       "competicion": "LVBP",
       "ronda": null,
@@ -6565,16 +6631,16 @@
       ]
     },
     {
-      "deporte": "Fútbol Sala",
-      "competicion": "Finalissima",
+      "deporte": "Fútbol",
+      "competicion": "Liga Futve",
       "ronda": null,
-      "evento": "3er Puesto",
-      "local": null,
-      "visitante": null,
+      "evento": "La Guaira vs Carabobo",
+      "local": "La Guaira",
+      "visitante": "Carabobo",
       "fecha": "2026-11-08",
       "hora": "22:30",
       "canales": [
-        "UEFA TV"
+        "LigaFUTVE App"
       ]
     },
     {
@@ -6707,20 +6773,6 @@
       "hora": "01:00",
       "canales": [
         "NBA League Pass"
-      ]
-    },
-    {
-      "deporte": "Fútbol Sala",
-      "competicion": "Finalissima",
-      "ronda": null,
-      "evento": "Final",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-11-09",
-      "hora": "01:30",
-      "canales": [
-        "UEFA TV",
-        "FutsalRFEF YouTube"
       ]
     },
     {
