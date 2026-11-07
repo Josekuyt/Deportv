@@ -1,7 +1,7 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-11-07T14:40:38",
+    "generado": "2026-11-07T19:52:56",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
     "total_eventos": 518
   },
@@ -433,7 +433,7 @@
       "local": "A. Shubladze",
       "visitante": "C. Liu",
       "fecha": "2026-11-07",
-      "hora": "07:00",
+      "hora": "07:10",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -453,20 +453,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "WTA Torneo de Hong Kong",
-      "ronda": "WTA 250",
-      "evento": "M. Sakkari vs A. Eala",
-      "local": "M. Sakkari",
-      "visitante": "A. Eala",
-      "fecha": "2026-11-07",
-      "hora": "08:30",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "A-League Women",
       "ronda": null,
@@ -477,6 +463,20 @@
       "hora": "09:00",
       "canales": [
         "A-Leagues YouTube"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Hong Kong",
+      "ronda": "WTA 250",
+      "evento": "M. Sakkari vs A. Eala",
+      "local": "M. Sakkari",
+      "visitante": "A. Eala",
+      "fecha": "2026-11-07",
+      "hora": "09:30",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)"
       ]
     },
     {
@@ -800,19 +800,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "WTA Torneo de Chennai",
-      "ronda": "WTA 250",
-      "evento": "J. Tjen vs R. Montgomery",
-      "local": "J. Tjen",
-      "visitante": "R. Montgomery",
-      "fecha": "2026-11-07",
-      "hora": "13:30",
-      "canales": [
-        "WTA TV"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "Premier League",
       "ronda": null,
@@ -825,6 +812,19 @@
         "DAZN (Ver en directo)",
         "DAZN 1 (M72)",
         "DAZN 1 Bar (M148)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Chennai",
+      "ronda": "WTA 250",
+      "evento": "J. Tjen vs R. Montgomery",
+      "local": "J. Tjen",
+      "visitante": "R. Montgomery",
+      "fecha": "2026-11-07",
+      "hora": "13:40",
+      "canales": [
+        "WTA TV"
       ]
     },
     {
@@ -1055,20 +1055,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "Masters París",
-      "ronda": "ATP Masters 1000",
-      "evento": "L. Van Assche vs B. Shelton",
-      "local": "L. Van Assche",
-      "visitante": "B. Shelton",
-      "fecha": "2026-11-07",
-      "hora": "14:30",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes 2 (64)"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "Premier League Ucrania",
       "ronda": null,
@@ -1079,6 +1065,20 @@
       "hora": "14:30",
       "canales": [
         "OneFootball PPV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters París",
+      "ronda": "ATP Masters 1000",
+      "evento": "L. Van Assche vs B. Shelton",
+      "local": "L. Van Assche",
+      "visitante": "B. Shelton",
+      "fecha": "2026-11-07",
+      "hora": "14:45",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -1178,19 +1178,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "WTA Torneo de Chennai",
-      "ronda": "WTA 250",
-      "evento": "M. Linette vs A. Zakharova",
-      "local": "M. Linette",
-      "visitante": "A. Zakharova",
-      "fecha": "2026-11-07",
-      "hora": "15:00",
-      "canales": [
-        "WTA TV"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "Serie A Italiana",
       "ronda": null,
@@ -1281,6 +1268,19 @@
       "hora": "15:30",
       "canales": [
         "Real Sociedad TV YouTube"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Chennai",
+      "ronda": "WTA 250",
+      "evento": "M. Linette vs A. Zakharova",
+      "local": "M. Linette",
+      "visitante": "A. Zakharova",
+      "fecha": "2026-11-07",
+      "hora": "15:30",
+      "canales": [
+        "WTA TV"
       ]
     },
     {
@@ -1766,22 +1766,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "Masters París",
-      "ronda": "ATP Masters 1000",
-      "evento": "C. Ruud vs C. Alcaraz",
-      "local": "C. Ruud",
-      "visitante": "C. Alcaraz",
-      "fecha": "2026-11-07",
-      "hora": "17:00",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Vamos (11 y 50)",
-        "M+ #Vamos Bar (307)",
-        "M+ Deportes 2 (64)"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "Admiral Bundesliga",
       "ronda": null,
@@ -1860,6 +1844,22 @@
       "hora": "17:30",
       "canales": [
         "EHF TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Masters París",
+      "ronda": "ATP Masters 1000",
+      "evento": "C. Ruud vs C. Alcaraz",
+      "local": "C. Ruud",
+      "visitante": "C. Alcaraz",
+      "fecha": "2026-11-07",
+      "hora": "17:30",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Vamos (11 y 50)",
+        "M+ #Vamos Bar (307)",
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -3579,10 +3579,10 @@
     {
       "deporte": "Tenis",
       "competicion": "WTA Torneo de Hong Kong",
-      "ronda": null,
-      "evento": "Final WTA 250",
-      "local": null,
-      "visitante": null,
+      "ronda": "WTA 250",
+      "evento": "C. Liu vs A. Eala",
+      "local": "C. Liu",
+      "visitante": "A. Eala",
       "fecha": "2026-11-08",
       "hora": "09:00",
       "canales": [
@@ -4461,19 +4461,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "WTA Torneo de Chennai",
-      "ronda": null,
-      "evento": "Final WTA 250",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-11-08",
-      "hora": "13:30",
-      "canales": [
-        "WTA TV"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "Jupiler Pro League",
       "ronda": null,
@@ -4609,6 +4596,19 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "WTA Torneo de Chennai",
+      "ronda": "WTA 250",
+      "evento": "J. Tjen vs M. Linette",
+      "local": "J. Tjen",
+      "visitante": "M. Linette",
+      "fecha": "2026-11-08",
+      "hora": "14:00",
+      "canales": [
+        "WTA TV"
+      ]
+    },
+    {
       "deporte": "Balonmano",
       "competicion": "EHF Europeo",
       "ronda": null,
@@ -4730,10 +4730,10 @@
     {
       "deporte": "Tenis",
       "competicion": "Masters París",
-      "ronda": null,
-      "evento": "Final ATP Masters 1000",
-      "local": null,
-      "visitante": null,
+      "ronda": "ATP Masters 1000",
+      "evento": "B. Shelton vs C. Alcaraz",
+      "local": "B. Shelton",
+      "visitante": "C. Alcaraz",
       "fecha": "2026-11-08",
       "hora": "15:00",
       "canales": [
