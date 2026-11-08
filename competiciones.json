@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-11-07T04:44:12"
+    "actualizado": "2026-11-08T04:33:13"
   },
   "config": {
     "puntos_por_tier": {
@@ -2192,6 +2192,11 @@
     },
     "Dubai Open": {
       "deporte": "Pádel",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Eurobasket Femenino": {
+      "deporte": "Baloncesto",
       "tier": "C",
       "por_revisar": true
     }
