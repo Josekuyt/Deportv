@@ -1,7 +1,7 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-11-08T14:46:24",
+    "generado": "2026-11-08T20:11:58",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
     "total_eventos": 335
   },
@@ -17,6 +17,32 @@
       "hora": "00:00",
       "canales": [
         "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Futve",
+      "ronda": null,
+      "evento": "Caracas FC vs Puerto Cabello",
+      "local": "Caracas FC",
+      "visitante": "Puerto Cabello",
+      "fecha": "2026-11-08",
+      "hora": "00:00",
+      "canales": [
+        "LigaFUTVE App"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Futve",
+      "ronda": null,
+      "evento": "Monagas SC vs Deportivo Táchira",
+      "local": "Monagas SC",
+      "visitante": "Deportivo Táchira",
+      "fecha": "2026-11-08",
+      "hora": "00:00",
+      "canales": [
+        "LigaFUTVE App"
       ]
     },
     {
@@ -554,7 +580,7 @@
       "local": "C. Liu",
       "visitante": "A. Eala",
       "fecha": "2026-11-08",
-      "hora": "09:00",
+      "hora": "09:10",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
@@ -1957,19 +1983,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Estocolmo",
-      "ronda": "1ª Ronda",
-      "evento": "E. Ymer vs JM. Cerúndolo",
-      "local": "E. Ymer",
-      "visitante": "JM. Cerúndolo",
-      "fecha": "2026-11-08",
-      "hora": "16:00",
-      "canales": [
-        "ATP Tennis TV"
-      ]
-    },
-    {
       "deporte": "Balonmano",
       "competicion": "EHF Euro Cup",
       "ronda": null,
@@ -2204,6 +2217,19 @@
       "hora": "16:30",
       "canales": [
         "Aragón Play"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Estocolmo",
+      "ronda": "1ª Ronda",
+      "evento": "E. Ymer vs JM. Cerúndolo",
+      "local": "E. Ymer",
+      "visitante": "JM. Cerúndolo",
+      "fecha": "2026-11-08",
+      "hora": "16:40",
+      "canales": [
+        "ATP Tennis TV"
       ]
     },
     {
@@ -2488,6 +2514,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Liga Pro Ecuador",
+      "ronda": null,
+      "evento": "Macará vs U. Católica",
+      "local": "Macará",
+      "visitante": "U. Católica",
+      "fecha": "2026-11-08",
+      "hora": "17:15",
+      "canales": [
+        "Zapping Internacional"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Francia Ligue 1",
       "ronda": null,
       "evento": "Stade Brestois vs O. Lyonnais",
@@ -2539,16 +2578,16 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Estocolmo",
-      "ronda": "1ª Ronda",
-      "evento": "TA. Tirante vs J. Munar",
-      "local": "TA. Tirante",
-      "visitante": "J. Munar",
+      "deporte": "Fútbol",
+      "competicion": "Liga Pro Ecuador",
+      "ronda": null,
+      "evento": "Deportivo Cuenca vs Orense SC",
+      "local": "Deportivo Cuenca",
+      "visitante": "Orense SC",
       "fecha": "2026-11-08",
       "hora": "17:30",
       "canales": [
-        "ATP Tennis TV"
+        "Zapping Internacional"
       ]
     },
     {
@@ -2837,6 +2876,19 @@
       "canales": [
         "TV FootballClub (Acceder)",
         "FANPLAY TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Estocolmo",
+      "ronda": "1ª Ronda",
+      "evento": "TA. Tirante vs J. Munar",
+      "local": "TA. Tirante",
+      "visitante": "J. Munar",
+      "fecha": "2026-11-08",
+      "hora": "18:25",
+      "canales": [
+        "ATP Tennis TV"
       ]
     },
     {
@@ -3154,6 +3206,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Liga Pro Ecuador",
+      "ronda": null,
+      "evento": "Aucas vs Independiente del Valle",
+      "local": "Aucas",
+      "visitante": "Independiente del Valle",
+      "fecha": "2026-11-08",
+      "hora": "19:45",
+      "canales": [
+        "Zapping Internacional"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Liga Colombiana",
       "ronda": null,
       "evento": "Santa Fe vs Deportivo Pasto",
@@ -3415,110 +3480,6 @@
     },
     {
       "deporte": "Fútbol",
-      "competicion": "Liga Pro Ecuador",
-      "ronda": null,
-      "evento": "Barcelona SC vs LDU Quito",
-      "local": "Barcelona SC",
-      "visitante": "LDU Quito",
-      "fecha": "2026-11-08",
-      "hora": "22:00",
-      "canales": [
-        "Zapping Internacional"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Liga Pro Ecuador",
-      "ronda": null,
-      "evento": "Mushuc Runa vs Delfín SC",
-      "local": "Mushuc Runa",
-      "visitante": "Delfín SC",
-      "fecha": "2026-11-08",
-      "hora": "22:00",
-      "canales": [
-        "Zapping Internacional"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Liga Pro Ecuador",
-      "ronda": null,
-      "evento": "Deportivo Cuenca vs Orense SC",
-      "local": "Deportivo Cuenca",
-      "visitante": "Orense SC",
-      "fecha": "2026-11-08",
-      "hora": "22:00",
-      "canales": [
-        "Zapping Internacional"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Liga Pro Ecuador",
-      "ronda": null,
-      "evento": "Aucas vs Independiente del Valle",
-      "local": "Aucas",
-      "visitante": "Independiente del Valle",
-      "fecha": "2026-11-08",
-      "hora": "22:00",
-      "canales": [
-        "Zapping Internacional"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Liga Pro Ecuador",
-      "ronda": null,
-      "evento": "Técnico Universitario vs Manta FC",
-      "local": "Técnico Universitario",
-      "visitante": "Manta FC",
-      "fecha": "2026-11-08",
-      "hora": "22:00",
-      "canales": [
-        "Zapping Internacional"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Liga Pro Ecuador",
-      "ronda": null,
-      "evento": "Macará vs U. Católica",
-      "local": "Macará",
-      "visitante": "U. Católica",
-      "fecha": "2026-11-08",
-      "hora": "22:00",
-      "canales": [
-        "Zapping Internacional"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Liga Pro Ecuador",
-      "ronda": null,
-      "evento": "Libertad FC vs Emelec",
-      "local": "Libertad FC",
-      "visitante": "Emelec",
-      "fecha": "2026-11-08",
-      "hora": "22:00",
-      "canales": [
-        "Zapping Internacional"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Liga Pro Ecuador",
-      "ronda": null,
-      "evento": "Leones del Norte vs Guayaquil City",
-      "local": "Leones del Norte",
-      "visitante": "Guayaquil City",
-      "fecha": "2026-11-08",
-      "hora": "22:00",
-      "canales": [
-        "Zapping Internacional"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
       "competicion": "Liga Futve",
       "ronda": null,
       "evento": "Portuguesa FC vs Metropolitanos",
@@ -3622,6 +3583,19 @@
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Pro Ecuador",
+      "ronda": null,
+      "evento": "Barcelona SC vs LDU Quito",
+      "local": "Barcelona SC",
+      "visitante": "LDU Quito",
+      "fecha": "2026-11-08",
+      "hora": "22:30",
+      "canales": [
+        "Zapping Internacional"
       ]
     },
     {
@@ -3919,6 +3893,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Liga Pro Ecuador",
+      "ronda": null,
+      "evento": "Mushuc Runa vs Delfín SC",
+      "local": "Mushuc Runa",
+      "visitante": "Delfín SC",
+      "fecha": "2026-11-09",
+      "hora": "19:00",
+      "canales": [
+        "Zapping Internacional"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Liga F",
       "ronda": null,
       "evento": "At. Madrid Femenino vs FC Badalona Women",
@@ -3976,6 +3963,19 @@
         "DAZN 2 (M73)",
         "DAZN 2 Bar (M149)",
         "M+ Vamos 3 (53)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Pro Ecuador",
+      "ronda": null,
+      "evento": "Técnico Universitario vs Manta FC",
+      "local": "Técnico Universitario",
+      "visitante": "Manta FC",
+      "fecha": "2026-11-09",
+      "hora": "21:30",
+      "canales": [
+        "Zapping Internacional"
       ]
     },
     {
