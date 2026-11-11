@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-11-10T16:06:10"
+    "actualizado": "2026-11-11T04:47:42"
   },
   "config": {
     "puntos_por_tier": {
@@ -2216,6 +2216,11 @@
       "por_revisar": true
     },
     "UEFA Torneo Desarrollo Sub-15 Femenino": {
+      "deporte": "Fútbol",
+      "tier": "D",
+      "por_revisar": true
+    },
+    "Amistoso Sub-21": {
       "deporte": "Fútbol",
       "tier": "D",
       "por_revisar": true
