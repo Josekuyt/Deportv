@@ -1,7 +1,7 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-11-11T15:51:54",
+    "generado": "2026-11-11T22:29:07",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
     "total_eventos": 241
   },
@@ -302,7 +302,7 @@
       "local": "L. Sonego",
       "visitante": "A. Tabilo",
       "fecha": "2026-11-11",
-      "hora": "13:00",
+      "hora": "13:10",
       "canales": [
         "ATP Tennis TV"
       ]
@@ -333,19 +333,6 @@
       "hora": "14:00",
       "canales": [
         "German Football YouTube"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Estocolmo",
-      "ronda": "2ª Ronda",
-      "evento": "T. Fritz vs C. Norrie",
-      "local": "T. Fritz",
-      "visitante": "C. Norrie",
-      "fecha": "2026-11-11",
-      "hora": "14:30",
-      "canales": [
-        "ATP Tennis TV"
       ]
     },
     {
@@ -400,6 +387,19 @@
       "hora": "16:00",
       "canales": [
         "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Estocolmo",
+      "ronda": "2ª Ronda",
+      "evento": "T. Fritz vs C. Norrie",
+      "local": "T. Fritz",
+      "visitante": "C. Norrie",
+      "fecha": "2026-11-11",
+      "hora": "16:25",
+      "canales": [
+        "ATP Tennis TV"
       ]
     },
     {
@@ -521,19 +521,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Estocolmo",
-      "ronda": "2ª Ronda",
-      "evento": "A. Shevchenko vs C. Ruud",
-      "local": "A. Shevchenko",
-      "visitante": "C. Ruud",
-      "fecha": "2026-11-11",
-      "hora": "18:00",
-      "canales": [
-        "ATP Tennis TV"
-      ]
-    },
-    {
       "deporte": "Baloncesto",
       "competicion": "Basketball Champions League",
       "ronda": "Liga Regular",
@@ -649,6 +636,19 @@
       "hora": "18:00",
       "canales": [
         "Real Sociedad TV YouTube"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Estocolmo",
+      "ronda": "2ª Ronda",
+      "evento": "A. Shevchenko vs C. Ruud",
+      "local": "A. Shevchenko",
+      "visitante": "C. Ruud",
+      "fecha": "2026-11-11",
+      "hora": "18:10",
+      "canales": [
+        "ATP Tennis TV"
       ]
     },
     {
@@ -951,19 +951,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Estocolmo",
-      "ronda": "2ª Ronda",
-      "evento": "M. Kecmanovic vs H. Rune",
-      "local": "M. Kecmanovic",
-      "visitante": "H. Rune",
-      "fecha": "2026-11-11",
-      "hora": "19:30",
-      "canales": [
-        "ATP Tennis TV"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "Segunda Federación",
       "ronda": "Grupo 3",
@@ -1107,6 +1094,19 @@
       "hora": "20:30",
       "canales": [
         "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Estocolmo",
+      "ronda": "2ª Ronda",
+      "evento": "M. Kecmanovic vs H. Rune",
+      "local": "M. Kecmanovic",
+      "visitante": "H. Rune",
+      "fecha": "2026-11-11",
+      "hora": "20:45",
+      "canales": [
+        "ATP Tennis TV"
       ]
     },
     {
@@ -2439,7 +2439,7 @@
     {
       "deporte": "Fútbol",
       "competicion": "CONCACAF Nations League",
-      "ronda": null,
+      "ronda": "1/4 de Final",
       "evento": "Curazao vs Panamá",
       "local": "Curazao",
       "visitante": "Panamá",
