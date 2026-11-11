@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-11-11T04:47:42"
+    "actualizado": "2026-11-11T15:51:54"
   },
   "config": {
     "puntos_por_tier": {
@@ -2223,6 +2223,11 @@
     "Amistoso Sub-21": {
       "deporte": "Fútbol",
       "tier": "D",
+      "por_revisar": true
+    },
+    "J League Cup": {
+      "deporte": "Fútbol",
+      "tier": "C",
       "por_revisar": true
     }
   }

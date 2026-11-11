@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-11-11T04:47:42",
+    "generado": "2026-11-11T15:51:54",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 225
+    "total_eventos": 241
   },
   "eventos": [
     {
@@ -227,6 +227,58 @@
       "hora": "11:00",
       "canales": [
         "German Football YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "J League Cup",
+      "ronda": null,
+      "evento": "Yokohama F. Marinos vs Kashima Antlers",
+      "local": "Yokohama F. Marinos",
+      "visitante": "Kashima Antlers",
+      "fecha": "2026-11-11",
+      "hora": "11:00",
+      "canales": [
+        "J.LEAGUE International YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "J League Cup",
+      "ronda": null,
+      "evento": "Kawasaki Frontale vs Kashiwa Reysol",
+      "local": "Kawasaki Frontale",
+      "visitante": "Kashiwa Reysol",
+      "fecha": "2026-11-11",
+      "hora": "11:00",
+      "canales": [
+        "J.LEAGUE International YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "J League Cup",
+      "ronda": null,
+      "evento": "Vissel Kobe vs Machida Zelvia",
+      "local": "Vissel Kobe",
+      "visitante": "Machida Zelvia",
+      "fecha": "2026-11-11",
+      "hora": "11:00",
+      "canales": [
+        "J.LEAGUE International YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "J League Cup",
+      "ronda": null,
+      "evento": "Urawa Red Diamonds vs Cerezo Osaka",
+      "local": "Urawa Red Diamonds",
+      "visitante": "Cerezo Osaka",
+      "fecha": "2026-11-11",
+      "hora": "11:30",
+      "canales": [
+        "J.LEAGUE International YouTube"
       ]
     },
     {
@@ -925,19 +977,6 @@
       ]
     },
     {
-      "deporte": "Fútbol",
-      "competicion": "Tercera Federación",
-      "ronda": "Grupo 10",
-      "evento": "CD Utrera vs Córdoba B",
-      "local": "CD Utrera",
-      "visitante": "Córdoba B",
-      "fecha": "2026-11-11",
-      "hora": "19:30",
-      "canales": [
-        "TV FootballClub (Acceder)"
-      ]
-    },
-    {
       "deporte": "Baloncesto",
       "competicion": "Eurobasket Femenino",
       "ronda": "Fase de Clasificación",
@@ -987,6 +1026,32 @@
       "hora": "20:00",
       "canales": [
         "M+ Baloncesto 3 (M194)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Uruguay",
+      "ronda": null,
+      "evento": "Tacuarembó vs Miramar Misiones",
+      "local": "Tacuarembó",
+      "visitante": "Miramar Misiones",
+      "fecha": "2026-11-11",
+      "hora": "20:30",
+      "canales": [
+        "Antel TV Internacional"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Uruguay",
+      "ronda": null,
+      "evento": "La Luz FC vs CA Fénix",
+      "local": "La Luz FC",
+      "visitante": "CA Fénix",
+      "fecha": "2026-11-11",
+      "hora": "20:30",
+      "canales": [
+        "Antel TV Internacional"
       ]
     },
     {
@@ -1084,19 +1149,6 @@
       ]
     },
     {
-      "deporte": "Fútbol",
-      "competicion": "Champions League Femenina",
-      "ronda": "Fase Liga",
-      "evento": "Benfica Femenino vs Austria Wien Frauen",
-      "local": "Benfica Femenino",
-      "visitante": "Austria Wien Frauen",
-      "fecha": "2026-11-11",
-      "hora": "21:00",
-      "canales": [
-        "Disney+"
-      ]
-    },
-    {
       "deporte": "Tenis",
       "competicion": "WTA Finals",
       "ronda": "Round Robin",
@@ -1107,7 +1159,8 @@
       "hora": "21:00",
       "canales": [
         "WTA TV",
-        "Tennis Channel - Orange TV (131)"
+        "Tennis Channel - Orange TV (131)",
+        "Amazon Prime Video (Ver en directo)"
       ]
     },
     {
@@ -1147,7 +1200,8 @@
       "hora": "22:30",
       "canales": [
         "WTA TV",
-        "Tennis Channel - Orange TV (131)"
+        "Tennis Channel - Orange TV (131)",
+        "Amazon Prime Video (Ver en directo)"
       ]
     },
     {
@@ -1542,7 +1596,8 @@
       "fecha": "2026-11-12",
       "hora": "18:00",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
@@ -1556,6 +1611,20 @@
       "hora": "18:00",
       "canales": [
         "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Amistoso",
+      "ronda": null,
+      "evento": "Malta vs Suazilandia",
+      "local": "Malta",
+      "visitante": "Suazilandia",
+      "fecha": "2026-11-12",
+      "hora": "18:30",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
@@ -1863,6 +1932,59 @@
       ]
     },
     {
+      "deporte": "Balonmano",
+      "competicion": "Liga Guerreras Iberdrola",
+      "ronda": null,
+      "evento": "BM Granollers vs CBF Elda Prestigio",
+      "local": "BM Granollers",
+      "visitante": "CBF Elda Prestigio",
+      "fecha": "2026-11-12",
+      "hora": "20:30",
+      "canales": [
+        "La Xarxa+",
+        "VOTV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Uruguay",
+      "ronda": null,
+      "evento": "CA Atenas vs Oriental",
+      "local": "CA Atenas",
+      "visitante": "Oriental",
+      "fecha": "2026-11-12",
+      "hora": "20:30",
+      "canales": [
+        "Antel TV Internacional"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Uruguay",
+      "ronda": null,
+      "evento": "Cerrito vs Colón FC",
+      "local": "Cerrito",
+      "visitante": "Colón FC",
+      "fecha": "2026-11-12",
+      "hora": "20:30",
+      "canales": [
+        "Antel TV Internacional"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Uruguay",
+      "ronda": null,
+      "evento": "Plaza Colonia vs CA Rentistas",
+      "local": "Plaza Colonia",
+      "visitante": "CA Rentistas",
+      "fecha": "2026-11-12",
+      "hora": "20:30",
+      "canales": [
+        "Antel TV Internacional"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "Euroliga",
       "ronda": "Liga Regular",
@@ -1971,17 +2093,31 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Champions League Femenina",
+      "ronda": "Fase Liga",
+      "evento": "Benfica Femenino vs Austria Wien Frauen",
+      "local": "Benfica Femenino",
+      "visitante": "Austria Wien Frauen",
+      "fecha": "2026-11-12",
+      "hora": "21:00",
+      "canales": [
+        "Disney+"
+      ]
+    },
+    {
       "deporte": "Tenis",
       "competicion": "WTA Finals",
-      "ronda": null,
-      "evento": "Round Robin",
-      "local": null,
-      "visitante": null,
+      "ronda": "Round Robin",
+      "evento": "M. Kostyuk vs C. Gauff",
+      "local": "M. Kostyuk",
+      "visitante": "C. Gauff",
       "fecha": "2026-11-12",
       "hora": "21:00",
       "canales": [
         "WTA TV",
-        "Tennis Channel - Orange TV (131)"
+        "Tennis Channel - Orange TV (131)",
+        "Amazon Prime Video (Ver en directo)"
       ]
     },
     {
@@ -2011,6 +2147,34 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "WTA Finals",
+      "ronda": "Round Robin",
+      "evento": "J. Pegula vs L. Noskova",
+      "local": "J. Pegula",
+      "visitante": "L. Noskova",
+      "fecha": "2026-11-12",
+      "hora": "22:30",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)",
+        "Amazon Prime Video (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Colombiana",
+      "ronda": null,
+      "evento": "Deportivo Pasto vs Junior",
+      "local": "Deportivo Pasto",
+      "visitante": "Junior",
+      "fecha": "2026-11-12",
+      "hora": "23:00",
+      "canales": [
+        "RCN Nuestra Tele"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Torneo Proyección",
       "ronda": null,
@@ -2034,6 +2198,19 @@
       "hora": "23:00",
       "canales": [
         "CONCACAF YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga AUF Uruguaya",
+      "ronda": null,
+      "evento": "Cerro Largo vs Progreso",
+      "local": "Cerro Largo",
+      "visitante": "Progreso",
+      "fecha": "2026-11-13",
+      "hora": "00:00",
+      "canales": [
+        "Antel TV Internacional"
       ]
     },
     {
@@ -2193,6 +2370,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Liga Colombiana",
+      "ronda": null,
+      "evento": "Llaneros vs Boyacá Chicó",
+      "local": "Llaneros",
+      "visitante": "Boyacá Chicó",
+      "fecha": "2026-11-13",
+      "hora": "01:00",
+      "canales": [
+        "RCN Nuestra Tele"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "NBA",
       "ronda": "Liga Regular",
@@ -2308,7 +2498,8 @@
       "fecha": "2026-11-13",
       "hora": "02:15",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN 2 (M73)"
       ]
     },
     {
@@ -2432,7 +2623,8 @@
       "fecha": "2026-11-13",
       "hora": "14:30",
       "canales": [
-        "ATP Tennis TV"
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -2478,6 +2670,7 @@
         "Liga U YouTube",
         "DAZN (Ver en directo)",
         "DAZN App Gratis (Ver gratis)",
+        "DAZN Baloncesto (M74 O126)",
         "Teledeporte",
         "RTVE Play"
       ]
@@ -2492,7 +2685,8 @@
       "fecha": "2026-11-13",
       "hora": "18:00",
       "canales": [
-        "ATP Tennis TV"
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -2506,7 +2700,9 @@
       "hora": "18:00",
       "canales": [
         "ProSieben MAXX (M+ Astra)",
-        "German Football YouTube"
+        "German Football YouTube",
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
@@ -2519,7 +2715,8 @@
       "fecha": "2026-11-13",
       "hora": "18:00",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
@@ -2548,7 +2745,8 @@
       "canales": [
         "Liga U YouTube",
         "DAZN (Ver en directo)",
-        "DAZN App Gratis (Ver gratis)"
+        "DAZN App Gratis (Ver gratis)",
+        "DAZN Baloncesto 2 (M75 O127)"
       ]
     },
     {
@@ -2575,6 +2773,19 @@
       "hora": "19:00",
       "canales": [
         "OneFootball PPV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga 1 Perú",
+      "ronda": null,
+      "evento": "UTC Cajamarca vs CD Los Chankas",
+      "local": "UTC Cajamarca",
+      "visitante": "CD Los Chankas",
+      "fecha": "2026-11-13",
+      "hora": "19:00",
+      "canales": [
+        "Fanatiz (Ver en directo)"
       ]
     },
     {
@@ -2676,7 +2887,8 @@
       "canales": [
         "Liga U YouTube",
         "DAZN (Ver en directo)",
-        "DAZN App Gratis (Ver gratis)"
+        "DAZN App Gratis (Ver gratis)",
+        "DAZN Baloncesto 3 (M76 O128)"
       ]
     },
     {
@@ -2896,7 +3108,21 @@
       "hora": "21:00",
       "canales": [
         "WTA TV",
-        "Tennis Channel - Orange TV (131)"
+        "Tennis Channel - Orange TV (131)",
+        "Amazon Prime Video (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga AUF Uruguaya",
+      "ronda": null,
+      "evento": "Montevideo City Torque vs Racing Club",
+      "local": "Montevideo City Torque",
+      "visitante": "Racing Club",
+      "fecha": "2026-11-13",
+      "hora": "21:00",
+      "canales": [
+        "Antel TV Internacional"
       ]
     },
     {
@@ -2992,7 +3218,8 @@
       "hora": "22:30",
       "canales": [
         "WTA TV",
-        "Tennis Channel - Orange TV (131)"
+        "Tennis Channel - Orange TV (131)",
+        "Amazon Prime Video (Ver en directo)"
       ]
     },
     {
