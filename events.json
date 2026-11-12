@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-11-12T05:49:37",
+    "generado": "2026-11-12T16:35:03",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 319
+    "total_eventos": 351
   },
   "eventos": [
     {
@@ -312,14 +312,29 @@
     {
       "deporte": "Tenis",
       "competicion": "Torneo de Estocolmo",
-      "ronda": null,
-      "evento": "1/4 de Final ATP 250",
-      "local": null,
-      "visitante": null,
+      "ronda": "1/4 de Final",
+      "evento": "A. Michelsen vs A. Tabilo",
+      "local": "A. Michelsen",
+      "visitante": "A. Tabilo",
       "fecha": "2026-11-12",
-      "hora": "12:00",
+      "hora": "13:10",
       "canales": [
         "ATP Tennis TV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Europeo Sub-19",
+      "ronda": "Fase de Clasificación",
+      "evento": "Alemania vs Suecia",
+      "local": "Alemania",
+      "visitante": "Suecia",
+      "fecha": "2026-11-12",
+      "hora": "14:00",
+      "canales": [
+        "German Football YouTube",
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
@@ -333,6 +348,19 @@
       "hora": "15:00",
       "canales": [
         "LPF Play (plan plus)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Estocolmo",
+      "ronda": "1/4 de Final",
+      "evento": "TA. Tirante vs A. Shevchenko",
+      "local": "TA. Tirante",
+      "visitante": "A. Shevchenko",
+      "fecha": "2026-11-12",
+      "hora": "15:20",
+      "canales": [
+        "ATP Tennis TV"
       ]
     },
     {
@@ -362,6 +390,20 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Amistoso",
+      "ronda": null,
+      "evento": "Lituania vs Surinam",
+      "local": "Lituania",
+      "visitante": "Surinam",
+      "fecha": "2026-11-12",
+      "hora": "18:00",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
+      ]
+    },
+    {
       "deporte": "Ishockey",
       "competicion": "NHL",
       "ronda": "Liga Regular",
@@ -385,6 +427,7 @@
       "hora": "18:00",
       "canales": [
         "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)",
         "LaLiga TV M3"
       ]
     },
@@ -427,6 +470,19 @@
       "canales": [
         "DAZN (Ver en directo)",
         "DAZN App Gratis (Ver gratis)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Estocolmo",
+      "ronda": "1/4 de Final",
+      "evento": "T. Fritz vs H. Rune",
+      "local": "T. Fritz",
+      "visitante": "H. Rune",
+      "fecha": "2026-11-12",
+      "hora": "18:30",
+      "canales": [
+        "ATP Tennis TV"
       ]
     },
     {
@@ -613,6 +669,19 @@
       "hora": "19:00",
       "canales": [
         "Canal por confirmar"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Estocolmo",
+      "ronda": "1/4 de Final",
+      "evento": "L. Musetti vs U. Humbert",
+      "local": "L. Musetti",
+      "visitante": "U. Humbert",
+      "fecha": "2026-11-12",
+      "hora": "20:00",
+      "canales": [
+        "ATP Tennis TV"
       ]
     },
     {
@@ -811,6 +880,20 @@
       "canales": [
         "M+ Vamos (11 y 50)",
         "M+ #Vamos Bar (307)"
+      ]
+    },
+    {
+      "deporte": "Balonmano",
+      "competicion": "Liga Guerreras Iberdrola",
+      "ronda": null,
+      "evento": "Atlético Guardés vs Rocasa Gran Canaria",
+      "local": "Atlético Guardés",
+      "visitante": "Rocasa Gran Canaria",
+      "fecha": "2026-11-12",
+      "hora": "20:45",
+      "canales": [
+        "Teledeporte",
+        "RTVE Play"
       ]
     },
     {
@@ -1094,12 +1177,38 @@
       ]
     },
     {
+      "deporte": "Baloncesto",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Tennessee Tech vs Indiana Hoosiers",
+      "local": "Tennessee Tech",
+      "visitante": "Indiana Hoosiers",
+      "fecha": "2026-11-13",
+      "hora": "00:30",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
       "deporte": "Boxeo",
       "competicion": "Título Continental",
       "ronda": "Peso Ligero",
       "evento": "J. Orobio vs E. Cedeno",
       "local": "J. Orobio",
       "visitante": "E. Cedeno",
+      "fecha": "2026-11-13",
+      "hora": "00:30",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "NCAA Women",
+      "ronda": null,
+      "evento": "U Connecticut vs Ohio State",
+      "local": "U Connecticut",
+      "visitante": "Ohio State",
       "fecha": "2026-11-13",
       "hora": "00:30",
       "canales": [
@@ -1305,6 +1414,19 @@
       ]
     },
     {
+      "deporte": "Baloncesto",
+      "competicion": "NCAA Women",
+      "ronda": null,
+      "evento": "Northern Iowa vs Iowa",
+      "local": "Northern Iowa",
+      "visitante": "Iowa",
+      "fecha": "2026-11-13",
+      "hora": "02:30",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
       "deporte": "Ishockey",
       "competicion": "NHL",
       "ronda": "Liga Regular",
@@ -1341,6 +1463,19 @@
       "hora": "04:00",
       "canales": [
         "Disney+"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "NCAA Women",
+      "ronda": null,
+      "evento": "Arizona vs UCLA",
+      "local": "Arizona",
+      "visitante": "UCLA",
+      "fecha": "2026-11-13",
+      "hora": "04:30",
+      "canales": [
+        "DAZN (Ver en directo)"
       ]
     },
     {
@@ -1533,6 +1668,20 @@
       "canales": [
         "Red Bull TV",
         "M+ Deportes (63)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Bundesliga Femenina",
+      "ronda": null,
+      "evento": "Hamburger SV Frauen vs Mainz 05 Frauen",
+      "local": "Hamburger SV Frauen",
+      "visitante": "Mainz 05 Frauen",
+      "fecha": "2026-11-13",
+      "hora": "18:30",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
@@ -1902,10 +2051,10 @@
     {
       "deporte": "Tenis",
       "competicion": "WTA Finals",
-      "ronda": null,
-      "evento": "Semifinal 1",
-      "local": null,
-      "visitante": null,
+      "ronda": "Round Robin",
+      "evento": "M. Andreeva vs K. Muchova",
+      "local": "M. Andreeva",
+      "visitante": "K. Muchova",
       "fecha": "2026-11-13",
       "hora": "21:00",
       "canales": [
@@ -1963,7 +2112,9 @@
       "fecha": "2026-11-13",
       "hora": "21:00",
       "canales": [
-        "ASOBAL TV"
+        "ASOBAL TV",
+        "Teledeporte",
+        "RTVE Play"
       ]
     },
     {
@@ -1990,6 +2141,7 @@
       "fecha": "2026-11-13",
       "hora": "21:10",
       "canales": [
+        "M+ Vamos (11 y 50)",
         "M+ #Vamos Bar (307)"
       ]
     },
@@ -2012,10 +2164,10 @@
     {
       "deporte": "Tenis",
       "competicion": "WTA Finals",
-      "ronda": null,
-      "evento": "Semifinal 2",
-      "local": null,
-      "visitante": null,
+      "ronda": "Round Robin",
+      "evento": "A. Sabalenka vs E. Svitolina",
+      "local": "A. Sabalenka",
+      "visitante": "E. Svitolina",
       "fecha": "2026-11-13",
       "hora": "22:30",
       "canales": [
@@ -2117,6 +2269,19 @@
       ]
     },
     {
+      "deporte": "Baloncesto",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Michigan State vs Northern Iowa",
+      "local": "Michigan State",
+      "visitante": "Northern Iowa",
+      "fecha": "2026-11-14",
+      "hora": "01:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "CONCACAF Nations League",
       "ronda": null,
@@ -2168,6 +2333,19 @@
       "canales": [
         "DAZN (Ver en directo)",
         "DAZN App Gratis (Ver gratis)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Virginia vs Maryland",
+      "local": "Virginia",
+      "visitante": "Maryland",
+      "fecha": "2026-11-14",
+      "hora": "02:00",
+      "canales": [
+        "DAZN (Ver en directo)"
       ]
     },
     {
@@ -2233,6 +2411,45 @@
       "hora": "02:40",
       "canales": [
         "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "UCLA vs Illinois",
+      "local": "UCLA",
+      "visitante": "Illinois",
+      "fecha": "2026-11-14",
+      "hora": "03:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Mississippi State vs Xavier",
+      "local": "Mississippi State",
+      "visitante": "Xavier",
+      "fecha": "2026-11-14",
+      "hora": "03:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "DePaul vs Northwestern",
+      "local": "DePaul",
+      "visitante": "Northwestern",
+      "fecha": "2026-11-14",
+      "hora": "03:00",
+      "canales": [
+        "DAZN (Ver en directo)"
       ]
     },
     {
@@ -2428,7 +2645,36 @@
       "fecha": "2026-11-14",
       "hora": "11:00",
       "canales": [
-        "FutsalRFEF YouTube"
+        "FutsalRFEF YouTube",
+        "Teledeporte",
+        "RTVE Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera Federación Femenina",
+      "ronda": null,
+      "evento": "FC Barcelona B Femenino vs Sport Extremadura",
+      "local": "FC Barcelona B Femenino",
+      "visitante": "Sport Extremadura",
+      "fecha": "2026-11-14",
+      "hora": "11:00",
+      "canales": [
+        "RFEF.es",
+        "RFEF TV YouTube"
+      ]
+    },
+    {
+      "deporte": "Hockey Patines",
+      "competicion": "Copa Continental Femenina",
+      "ronda": "Semifinales",
+      "evento": "Club Patín Fraga vs CP Voltregá",
+      "local": "Club Patín Fraga",
+      "visitante": "CP Voltregá",
+      "fecha": "2026-11-14",
+      "hora": "11:00",
+      "canales": [
+        "Esport3 (Cataluña)"
       ]
     },
     {
@@ -2481,6 +2727,20 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Serie A Femminile",
+      "ronda": null,
+      "evento": "Napoli Femenino vs AC Milan Femenino",
+      "local": "Napoli Femenino",
+      "visitante": "AC Milan Femenino",
+      "fecha": "2026-11-14",
+      "hora": "12:30",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "División Honor Cadete",
       "ronda": "Grupo 1 (Cataluña)",
       "evento": "FC Barcelona Academy vs Sant Cugat Academy",
@@ -2502,7 +2762,10 @@
       "fecha": "2026-11-14",
       "hora": "13:00",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "Teledeporte",
+        "RTVE Play",
+        "Esport3 (Cataluña)"
       ]
     },
     {
@@ -2735,7 +2998,22 @@
       "fecha": "2026-11-14",
       "hora": "15:00",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
+      ]
+    },
+    {
+      "deporte": "MMA",
+      "competicion": "Velada",
+      "ronda": null,
+      "evento": "Professional Fighters League Dubai (Emiratos Árabes Unidos)",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-11-14",
+      "hora": "15:00",
+      "canales": [
+        "M+ Vamos 2 (51)",
+        "M+ Deportes 3 (65)"
       ]
     },
     {
@@ -2764,6 +3042,19 @@
       "hora": "15:30",
       "canales": [
         "Real Racing Club YouTube"
+      ]
+    },
+    {
+      "deporte": "Hockey Patines",
+      "competicion": "Copa Continental",
+      "ronda": "Semifinales",
+      "evento": "CE Lleida Llista Blava vs Barça HP",
+      "local": "CE Lleida Llista Blava",
+      "visitante": "Barça HP",
+      "fecha": "2026-11-14",
+      "hora": "16:00",
+      "canales": [
+        "Esport3 (Cataluña)"
       ]
     },
     {
@@ -3138,6 +3429,7 @@
       "fecha": "2026-11-14",
       "hora": "17:00",
       "canales": [
+        "M+ Vamos (11 y 50)",
         "M+ #Vamos Bar (307)"
       ]
     },
@@ -3178,6 +3470,33 @@
       "hora": "17:00",
       "canales": [
         "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Voleibol",
+      "competicion": "Superliga Masculina",
+      "ronda": null,
+      "evento": "Unicaja Almeria vs Leleman VB Valencia",
+      "local": "Unicaja Almeria",
+      "visitante": "Leleman VB Valencia",
+      "fecha": "2026-11-14",
+      "hora": "17:30",
+      "canales": [
+        "RTVE Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Bundesliga Femenina",
+      "ronda": null,
+      "evento": "Wolfsburg Femenino vs FC Bayern Femenino",
+      "local": "Wolfsburg Femenino",
+      "visitante": "FC Bayern Femenino",
+      "fecha": "2026-11-14",
+      "hora": "17:55",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
@@ -3287,6 +3606,20 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Europeo Sub-19",
+      "ronda": "Fase de Clasificación",
+      "evento": "Portugal vs Alemania",
+      "local": "Portugal",
+      "visitante": "Alemania",
+      "fecha": "2026-11-14",
+      "hora": "18:00",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "Primera FEB",
       "ronda": "Liga Regular",
@@ -3300,6 +3633,32 @@
       ]
     },
     {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Ohio State vs Northwestern",
+      "local": "Ohio State",
+      "visitante": "Northwestern",
+      "fecha": "2026-11-14",
+      "hora": "18:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Maryland vs Wisconsin",
+      "local": "Maryland",
+      "visitante": "Wisconsin",
+      "fecha": "2026-11-14",
+      "hora": "18:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "UEFA Nations League",
       "ronda": "Fase de grupos",
@@ -3309,7 +3668,8 @@
       "fecha": "2026-11-14",
       "hora": "18:00",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
@@ -3322,7 +3682,8 @@
       "fecha": "2026-11-14",
       "hora": "18:00",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
@@ -3401,7 +3762,8 @@
       "fecha": "2026-11-14",
       "hora": "18:00",
       "canales": [
-        "TV FootballClub (Acceder)"
+        "TV FootballClub (Acceder)",
+        "Real Betis TV"
       ]
     },
     {
@@ -3511,6 +3873,19 @@
       "hora": "18:30",
       "canales": [
         "BalONcesto TV PPV"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Rutgers vs Nebraska",
+      "local": "Rutgers",
+      "visitante": "Nebraska",
+      "fecha": "2026-11-14",
+      "hora": "18:30",
+      "canales": [
+        "DAZN (Ver en directo)"
       ]
     },
     {
@@ -3769,19 +4144,6 @@
       "deporte": "Fútbol Sala",
       "competicion": "Primera Federación Femenina",
       "ronda": null,
-      "evento": "AD Ceuta FS vs Ourense FSF",
-      "local": "AD Ceuta FS",
-      "visitante": "Ourense FSF",
-      "fecha": "2026-11-14",
-      "hora": "19:00",
-      "canales": [
-        "FutsalRFEF YouTube"
-      ]
-    },
-    {
-      "deporte": "Fútbol Sala",
-      "competicion": "Primera Federación Femenina",
-      "ronda": null,
       "evento": "AD Sala Zaragoza vs LBTL Alcantarilla FS",
       "local": "AD Sala Zaragoza",
       "visitante": "LBTL Alcantarilla FS",
@@ -3903,6 +4265,19 @@
       ]
     },
     {
+      "deporte": "Fútbol Sala",
+      "competicion": "Primera Federación Femenina",
+      "ronda": null,
+      "evento": "AD Ceuta FS vs Ourense FSF",
+      "local": "AD Ceuta FS",
+      "visitante": "Ourense FSF",
+      "fecha": "2026-11-14",
+      "hora": "19:30",
+      "canales": [
+        "FutsalRFEF YouTube"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "Liga Endesa",
       "ronda": "Liga Regular",
@@ -3994,7 +4369,8 @@
       "fecha": "2026-11-14",
       "hora": "20:00",
       "canales": [
-        "ASOBAL TV"
+        "ASOBAL TV",
+        "Siroko TV"
       ]
     },
     {
@@ -4051,7 +4427,8 @@
       "fecha": "2026-11-14",
       "hora": "20:45",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
@@ -4065,6 +4442,7 @@
       "hora": "20:45",
       "canales": [
         "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)",
         "LaLiga TV M2"
       ]
     },
@@ -4078,7 +4456,8 @@
       "fecha": "2026-11-14",
       "hora": "20:45",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
@@ -4091,7 +4470,8 @@
       "fecha": "2026-11-14",
       "hora": "20:45",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
@@ -4104,14 +4484,15 @@
       "fecha": "2026-11-14",
       "hora": "20:45",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
       "deporte": "Tenis",
       "competicion": "WTA Finals",
       "ronda": null,
-      "evento": "Final",
+      "evento": "Semifinal 1",
       "local": null,
       "visitante": null,
       "fecha": "2026-11-14",
@@ -4196,6 +4577,45 @@
       ]
     },
     {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Indiana Hoosiers vs USC",
+      "local": "Indiana Hoosiers",
+      "visitante": "USC",
+      "fecha": "2026-11-14",
+      "hora": "21:30",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "BYU Cougars vs Baylor",
+      "local": "BYU Cougars",
+      "visitante": "Baylor",
+      "fecha": "2026-11-14",
+      "hora": "21:30",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Oregon vs Michigan Athletics",
+      "local": "Oregon",
+      "visitante": "Michigan Athletics",
+      "fecha": "2026-11-14",
+      "hora": "21:30",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
       "deporte": "Ishockey",
       "competicion": "NHL",
       "ronda": "Liga Regular",
@@ -4245,6 +4665,34 @@
       "hora": "22:10",
       "canales": [
         "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Michigan State vs Washington Athletics",
+      "local": "Michigan State",
+      "visitante": "Washington Athletics",
+      "fecha": "2026-11-14",
+      "hora": "22:15",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Finals",
+      "ronda": null,
+      "evento": "Semifinal 2",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-11-14",
+      "hora": "22:30",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)",
+        "Amazon Prime Video (Ver en directo)"
       ]
     },
     {
