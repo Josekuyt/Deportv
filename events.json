@@ -1,1090 +1,11 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-11-12T16:35:03",
+    "generado": "2026-11-13T05:10:05",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 351
+    "total_eventos": 448
   },
   "eventos": [
-    {
-      "deporte": "Béisbol",
-      "competicion": "LVBP",
-      "ronda": null,
-      "evento": "Bravos de Margarita vs Navegantes del Magallanes",
-      "local": "Bravos de Margarita",
-      "visitante": "Navegantes del Magallanes",
-      "fecha": "2026-11-12",
-      "hora": "00:00",
-      "canales": [
-        "BeisbolPlay"
-      ]
-    },
-    {
-      "deporte": "Béisbol",
-      "competicion": "LVBP",
-      "ronda": null,
-      "evento": "Tiburones de la Guaira vs Cardenales de Lara",
-      "local": "Tiburones de la Guaira",
-      "visitante": "Cardenales de Lara",
-      "fecha": "2026-11-12",
-      "hora": "00:00",
-      "canales": [
-        "BeisbolPlay"
-      ]
-    },
-    {
-      "deporte": "Béisbol",
-      "competicion": "LVBP",
-      "ronda": null,
-      "evento": "Tigres de Aragua vs Águilas del Zulia",
-      "local": "Tigres de Aragua",
-      "visitante": "Águilas del Zulia",
-      "fecha": "2026-11-12",
-      "hora": "00:00",
-      "canales": [
-        "BeisbolPlay"
-      ]
-    },
-    {
-      "deporte": "Ishockey",
-      "competicion": "NHL",
-      "ronda": "Liga Regular",
-      "evento": "Buffalo Sabres vs Tampa Bay Lightning",
-      "local": "Buffalo Sabres",
-      "visitante": "Tampa Bay Lightning",
-      "fecha": "2026-11-12",
-      "hora": "01:00",
-      "canales": [
-        "Disney+"
-      ]
-    },
-    {
-      "deporte": "Baloncesto",
-      "competicion": "NBA",
-      "ronda": "Liga Regular",
-      "evento": "Indiana Pacers vs Washington Wizards",
-      "local": "Indiana Pacers",
-      "visitante": "Washington Wizards",
-      "fecha": "2026-11-12",
-      "hora": "01:00",
-      "canales": [
-        "NBA League Pass"
-      ]
-    },
-    {
-      "deporte": "Baloncesto",
-      "competicion": "NBA",
-      "ronda": "Liga Regular",
-      "evento": "Toronto Raptors vs Boston Celtics",
-      "local": "Toronto Raptors",
-      "visitante": "Boston Celtics",
-      "fecha": "2026-11-12",
-      "hora": "01:00",
-      "canales": [
-        "NBA League Pass"
-      ]
-    },
-    {
-      "deporte": "Baloncesto",
-      "competicion": "NBA",
-      "ronda": "Liga Regular",
-      "evento": "New York Knicks vs Cleveland Cavaliers",
-      "local": "New York Knicks",
-      "visitante": "Cleveland Cavaliers",
-      "fecha": "2026-11-12",
-      "hora": "01:00",
-      "canales": [
-        "NBA League Pass",
-        "DAZN (Ver en directo)",
-        "DAZN Baloncesto (M74 O126)"
-      ]
-    },
-    {
-      "deporte": "Ishockey",
-      "competicion": "NHL",
-      "ronda": "Liga Regular",
-      "evento": "Calgary Flames vs New York Rangers",
-      "local": "Calgary Flames",
-      "visitante": "New York Rangers",
-      "fecha": "2026-11-12",
-      "hora": "01:30",
-      "canales": [
-        "Disney+"
-      ]
-    },
-    {
-      "deporte": "Baloncesto",
-      "competicion": "NBA",
-      "ronda": "Liga Regular",
-      "evento": "Chicago Bulls vs San Antonio Spurs",
-      "local": "Chicago Bulls",
-      "visitante": "San Antonio Spurs",
-      "fecha": "2026-11-12",
-      "hora": "02:00",
-      "canales": [
-        "NBA League Pass"
-      ]
-    },
-    {
-      "deporte": "Baloncesto",
-      "competicion": "NBA",
-      "ronda": "Liga Regular",
-      "evento": "Milwaukee Bucks vs Los Angeles Lakers",
-      "local": "Milwaukee Bucks",
-      "visitante": "Los Angeles Lakers",
-      "fecha": "2026-11-12",
-      "hora": "02:00",
-      "canales": [
-        "NBA League Pass"
-      ]
-    },
-    {
-      "deporte": "Baloncesto",
-      "competicion": "NBA",
-      "ronda": "Liga Regular",
-      "evento": "New Orleans Pelicans vs Brooklyn Nets",
-      "local": "New Orleans Pelicans",
-      "visitante": "Brooklyn Nets",
-      "fecha": "2026-11-12",
-      "hora": "02:00",
-      "canales": [
-        "NBA League Pass"
-      ]
-    },
-    {
-      "deporte": "Baloncesto",
-      "competicion": "NBA",
-      "ronda": "Liga Regular",
-      "evento": "Memphis Grizzlies vs Denver Nuggets",
-      "local": "Memphis Grizzlies",
-      "visitante": "Denver Nuggets",
-      "fecha": "2026-11-12",
-      "hora": "02:00",
-      "canales": [
-        "NBA League Pass"
-      ]
-    },
-    {
-      "deporte": "Ishockey",
-      "competicion": "NHL",
-      "ronda": "Liga Regular",
-      "evento": "Edmonton Oilers vs Philadelphia Flyers",
-      "local": "Edmonton Oilers",
-      "visitante": "Philadelphia Flyers",
-      "fecha": "2026-11-12",
-      "hora": "03:00",
-      "canales": [
-        "Disney+"
-      ]
-    },
-    {
-      "deporte": "Baloncesto",
-      "competicion": "NBA",
-      "ronda": "Liga Regular",
-      "evento": "Utah Jazz vs Orlando Magic",
-      "local": "Utah Jazz",
-      "visitante": "Orlando Magic",
-      "fecha": "2026-11-12",
-      "hora": "03:00",
-      "canales": [
-        "NBA League Pass"
-      ]
-    },
-    {
-      "deporte": "Ishockey",
-      "competicion": "NHL",
-      "ronda": "Liga Regular",
-      "evento": "Vegas Golden Knights vs Utah Mammoth",
-      "local": "Vegas Golden Knights",
-      "visitante": "Utah Mammoth",
-      "fecha": "2026-11-12",
-      "hora": "03:30",
-      "canales": [
-        "Disney+"
-      ]
-    },
-    {
-      "deporte": "Baloncesto",
-      "competicion": "NBA",
-      "ronda": "Liga Regular",
-      "evento": "Houston Rockets vs Golden State Warriors",
-      "local": "Houston Rockets",
-      "visitante": "Golden State Warriors",
-      "fecha": "2026-11-12",
-      "hora": "03:30",
-      "canales": [
-        "NBA League Pass",
-        "DAZN (Ver en directo)",
-        "DAZN Baloncesto 2 (M75 O127)"
-      ]
-    },
-    {
-      "deporte": "Ishockey",
-      "competicion": "NHL",
-      "ronda": "Liga Regular",
-      "evento": "Anaheim Ducks vs Nashville Predators",
-      "local": "Anaheim Ducks",
-      "visitante": "Nashville Predators",
-      "fecha": "2026-11-12",
-      "hora": "04:00",
-      "canales": [
-        "Disney+"
-      ]
-    },
-    {
-      "deporte": "Ishockey",
-      "competicion": "NHL",
-      "ronda": "Liga Regular",
-      "evento": "San Jose Sharks vs Pittsburgh Penguins",
-      "local": "San Jose Sharks",
-      "visitante": "Pittsburgh Penguins",
-      "fecha": "2026-11-12",
-      "hora": "04:00",
-      "canales": [
-        "Disney+"
-      ]
-    },
-    {
-      "deporte": "Baloncesto",
-      "competicion": "NBA",
-      "ronda": "Liga Regular",
-      "evento": "Portland Trail Blazers vs Oklahoma C. Thunder",
-      "local": "Portland Trail Blazers",
-      "visitante": "Oklahoma C. Thunder",
-      "fecha": "2026-11-12",
-      "hora": "04:00",
-      "canales": [
-        "NBA League Pass"
-      ]
-    },
-    {
-      "deporte": "Golf",
-      "competicion": "Philippine Open",
-      "ronda": null,
-      "evento": "Jornada 1",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-11-12",
-      "hora": "05:30",
-      "canales": [
-        "Movistar Golf 2 (M68)"
-      ]
-    },
-    {
-      "deporte": "Golf",
-      "competicion": "DP World Tour Championship",
-      "ronda": null,
-      "evento": "Jornada 1",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-11-12",
-      "hora": "08:00",
-      "canales": [
-        "Movistar Golf (M68)"
-      ]
-    },
-    {
-      "deporte": "Pádel",
-      "competicion": "Dubai Open",
-      "ronda": null,
-      "evento": "2ª Ronda Premier Padel Tour",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-11-12",
-      "hora": "09:00",
-      "canales": [
-        "Premier Padel YouTube"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "UEFA Torneo Desarrollo Sub-15 Femenino",
-      "ronda": null,
-      "evento": "España vs Alemania",
-      "local": "España",
-      "visitante": "Alemania",
-      "fecha": "2026-11-12",
-      "hora": "11:00",
-      "canales": [
-        "SeFutbol YouTube"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Estocolmo",
-      "ronda": "1/4 de Final",
-      "evento": "A. Michelsen vs A. Tabilo",
-      "local": "A. Michelsen",
-      "visitante": "A. Tabilo",
-      "fecha": "2026-11-12",
-      "hora": "13:10",
-      "canales": [
-        "ATP Tennis TV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Europeo Sub-19",
-      "ronda": "Fase de Clasificación",
-      "evento": "Alemania vs Suecia",
-      "local": "Alemania",
-      "visitante": "Suecia",
-      "fecha": "2026-11-12",
-      "hora": "14:00",
-      "canales": [
-        "German Football YouTube",
-        "DAZN (Ver en directo)",
-        "DAZN App Gratis (Ver gratis)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Campeonato Femenino",
-      "ronda": null,
-      "evento": "Boca Juniors Femenino vs SAT Femenino",
-      "local": "Boca Juniors Femenino",
-      "visitante": "SAT Femenino",
-      "fecha": "2026-11-12",
-      "hora": "15:00",
-      "canales": [
-        "LPF Play (plan plus)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Estocolmo",
-      "ronda": "1/4 de Final",
-      "evento": "TA. Tirante vs A. Shevchenko",
-      "local": "TA. Tirante",
-      "visitante": "A. Shevchenko",
-      "fecha": "2026-11-12",
-      "hora": "15:20",
-      "canales": [
-        "ATP Tennis TV"
-      ]
-    },
-    {
-      "deporte": "Baloncesto",
-      "competicion": "FIBA Europe Cup",
-      "ronda": "Liga Regular",
-      "evento": "Gence BK vs Esenler Erokspor Basketball",
-      "local": "Gence BK",
-      "visitante": "Esenler Erokspor Basketball",
-      "fecha": "2026-11-12",
-      "hora": "16:00",
-      "canales": [
-        "FIBA YouTube"
-      ]
-    },
-    {
-      "deporte": "Baloncesto",
-      "competicion": "Eurobasket Femenino",
-      "ronda": "Fase de Clasificación",
-      "evento": "Lituania vs Finlandia",
-      "local": "Lituania",
-      "visitante": "Finlandia",
-      "fecha": "2026-11-12",
-      "hora": "17:30",
-      "canales": [
-        "FIBA YouTube"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Amistoso",
-      "ronda": null,
-      "evento": "Lituania vs Surinam",
-      "local": "Lituania",
-      "visitante": "Surinam",
-      "fecha": "2026-11-12",
-      "hora": "18:00",
-      "canales": [
-        "DAZN (Ver en directo)",
-        "DAZN App Gratis (Ver gratis)"
-      ]
-    },
-    {
-      "deporte": "Ishockey",
-      "competicion": "NHL",
-      "ronda": "Liga Regular",
-      "evento": "Seattle Kraken vs Carolina Hurricanes",
-      "local": "Seattle Kraken",
-      "visitante": "Carolina Hurricanes",
-      "fecha": "2026-11-12",
-      "hora": "18:00",
-      "canales": [
-        "Disney+"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "UEFA Nations League",
-      "ronda": "Fase de grupos",
-      "evento": "Turquía vs Bélgica",
-      "local": "Turquía",
-      "visitante": "Bélgica",
-      "fecha": "2026-11-12",
-      "hora": "18:00",
-      "canales": [
-        "DAZN (Ver en directo)",
-        "DAZN App Gratis (Ver gratis)",
-        "LaLiga TV M3"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "UEFA Nations League",
-      "ronda": "Fase de grupos",
-      "evento": "Armenia vs Chipre",
-      "local": "Armenia",
-      "visitante": "Chipre",
-      "fecha": "2026-11-12",
-      "hora": "18:00",
-      "canales": [
-        "DAZN (Ver en directo)",
-        "DAZN App Gratis (Ver gratis)"
-      ]
-    },
-    {
-      "deporte": "Baloncesto",
-      "competicion": "FIBA Europe Cup",
-      "ronda": "Liga Regular",
-      "evento": "BC Parnu Sadam vs Keravnos BC",
-      "local": "BC Parnu Sadam",
-      "visitante": "Keravnos BC",
-      "fecha": "2026-11-12",
-      "hora": "18:00",
-      "canales": [
-        "FIBA YouTube"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Amistoso",
-      "ronda": null,
-      "evento": "Malta vs Suazilandia",
-      "local": "Malta",
-      "visitante": "Suazilandia",
-      "fecha": "2026-11-12",
-      "hora": "18:30",
-      "canales": [
-        "DAZN (Ver en directo)",
-        "DAZN App Gratis (Ver gratis)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Estocolmo",
-      "ronda": "1/4 de Final",
-      "evento": "T. Fritz vs H. Rune",
-      "local": "T. Fritz",
-      "visitante": "H. Rune",
-      "fecha": "2026-11-12",
-      "hora": "18:30",
-      "canales": [
-        "ATP Tennis TV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Copa del Rey",
-      "ronda": "1ª Ronda",
-      "evento": "Calvo Sotelo Puertollano vs Albacete",
-      "local": "Calvo Sotelo Puertollano",
-      "visitante": "Albacete",
-      "fecha": "2026-11-12",
-      "hora": "18:30",
-      "canales": [
-        "CMM (Castilla-LM)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Champions League Femenina",
-      "ronda": "Fase Liga",
-      "evento": "FC Barcelona Femenino vs Arsenal Femenino",
-      "local": "FC Barcelona Femenino",
-      "visitante": "Arsenal Femenino",
-      "fecha": "2026-11-12",
-      "hora": "18:45",
-      "canales": [
-        "Disney+",
-        "TV3 (Cataluña)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Torneo Federal A",
-      "ronda": "4ª Fase",
-      "evento": "CA Kimberley MdP vs Olimpo",
-      "local": "CA Kimberley MdP",
-      "visitante": "Olimpo",
-      "fecha": "2026-11-12",
-      "hora": "19:00",
-      "canales": [
-        "LPF Play (plan plus)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Torneo Proyección",
-      "ronda": null,
-      "evento": "Barracas Central Reserva vs Argentinos Juniors Reserva",
-      "local": "Barracas Central Reserva",
-      "visitante": "Argentinos Juniors Reserva",
-      "fecha": "2026-11-12",
-      "hora": "19:00",
-      "canales": [
-        "LPF Play (plan plus)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Torneo Proyección",
-      "ronda": null,
-      "evento": "Godoy Cruz Reserva vs Gimnasia LP Reserva",
-      "local": "Godoy Cruz Reserva",
-      "visitante": "Gimnasia LP Reserva",
-      "fecha": "2026-11-12",
-      "hora": "19:00",
-      "canales": [
-        "LPF Play (plan plus)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Torneo Proyección",
-      "ronda": null,
-      "evento": "CA Colón Reserva vs Central Córdoba Reserva",
-      "local": "CA Colón Reserva",
-      "visitante": "Central Córdoba Reserva",
-      "fecha": "2026-11-12",
-      "hora": "19:00",
-      "canales": [
-        "LPF Play (plan plus)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Torneo Proyección",
-      "ronda": null,
-      "evento": "Rosario Central Reserva vs River Plate Reserva",
-      "local": "Rosario Central Reserva",
-      "visitante": "River Plate Reserva",
-      "fecha": "2026-11-12",
-      "hora": "19:00",
-      "canales": [
-        "LPF Play (plan plus)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Torneo Proyección",
-      "ronda": null,
-      "evento": "CA Huracán Reserva vs Estudiantes RC Reserva",
-      "local": "CA Huracán Reserva",
-      "visitante": "Estudiantes RC Reserva",
-      "fecha": "2026-11-12",
-      "hora": "19:00",
-      "canales": [
-        "LPF Play (plan plus)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Campeonato Femenino",
-      "ronda": null,
-      "evento": "Banfield Femenino vs River Plate Femenino",
-      "local": "Banfield Femenino",
-      "visitante": "River Plate Femenino",
-      "fecha": "2026-11-12",
-      "hora": "19:00",
-      "canales": [
-        "LPF Play (plan plus)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Campeonato Femenino",
-      "ronda": null,
-      "evento": "Ferro Carril Oeste Femenino vs Lanús Femenino",
-      "local": "Ferro Carril Oeste Femenino",
-      "visitante": "Lanús Femenino",
-      "fecha": "2026-11-12",
-      "hora": "19:00",
-      "canales": [
-        "LPF Play (plan plus)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Campeonato Femenino",
-      "ronda": null,
-      "evento": "San Lorenzo Femenino vs Unión Santa Fe Femenino",
-      "local": "San Lorenzo Femenino",
-      "visitante": "Unión Santa Fe Femenino",
-      "fecha": "2026-11-12",
-      "hora": "19:00",
-      "canales": [
-        "LPF Play (plan plus)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Copa del Rey",
-      "ronda": "1ª Ronda",
-      "evento": "Navalcarnero vs Real Betis",
-      "local": "Navalcarnero",
-      "visitante": "Real Betis",
-      "fecha": "2026-11-12",
-      "hora": "19:00",
-      "canales": [
-        "Movistar Plus+ (M8): VER PARTIDO",
-        "M+ LALIGA (M54 O110)",
-        "LaLiga TV Bar"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Copa del Rey",
-      "ronda": "1ª Ronda",
-      "evento": "Tarancón vs Levante",
-      "local": "Tarancón",
-      "visitante": "Levante",
-      "fecha": "2026-11-12",
-      "hora": "19:00",
-      "canales": [
-        "M+ LALIGA 2 (M57 O112)",
-        "LaLiga TV M2"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Copa de la Reina",
-      "ronda": "3ª Ronda",
-      "evento": "Osasuna Femenino vs Logroño United Femenino",
-      "local": "Osasuna Femenino",
-      "visitante": "Logroño United Femenino",
-      "fecha": "2026-11-12",
-      "hora": "19:00",
-      "canales": [
-        "Canal por confirmar"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Estocolmo",
-      "ronda": "1/4 de Final",
-      "evento": "L. Musetti vs U. Humbert",
-      "local": "L. Musetti",
-      "visitante": "U. Humbert",
-      "fecha": "2026-11-12",
-      "hora": "20:00",
-      "canales": [
-        "ATP Tennis TV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Campeonato Femenino",
-      "ronda": null,
-      "evento": "Gimnasia LP Femenino vs Belgrano Femenino",
-      "local": "Gimnasia LP Femenino",
-      "visitante": "Belgrano Femenino",
-      "fecha": "2026-11-12",
-      "hora": "20:00",
-      "canales": [
-        "LPF Play (plan plus)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Campeonato Femenino",
-      "ronda": null,
-      "evento": "Talleres Córdoba Femenino vs San Luis FC",
-      "local": "Talleres Córdoba Femenino",
-      "visitante": "San Luis FC",
-      "fecha": "2026-11-12",
-      "hora": "20:00",
-      "canales": [
-        "LPF Play (plan plus)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "CONCACAF Nations League",
-      "ronda": null,
-      "evento": "Islas Caimán vs Guyana",
-      "local": "Islas Caimán",
-      "visitante": "Guyana",
-      "fecha": "2026-11-12",
-      "hora": "20:00",
-      "canales": [
-        "CONCACAF YouTube"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "CONCACAF Nations League",
-      "ronda": null,
-      "evento": "Barbados vs Guadalupe",
-      "local": "Barbados",
-      "visitante": "Guadalupe",
-      "fecha": "2026-11-12",
-      "hora": "20:00",
-      "canales": [
-        "CONCACAF YouTube"
-      ]
-    },
-    {
-      "deporte": "Golf",
-      "competicion": "Austin Championship",
-      "ronda": null,
-      "evento": "Jornada 1",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-11-12",
-      "hora": "20:00",
-      "canales": [
-        "HBO MAX",
-        "Movistar Golf (M68)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Copa de la Reina",
-      "ronda": "3ª Ronda",
-      "evento": "CE Europa Femenino vs Deportivo Abanca",
-      "local": "CE Europa Femenino",
-      "visitante": "Deportivo Abanca",
-      "fecha": "2026-11-12",
-      "hora": "20:00",
-      "canales": [
-        "Betevé (Barcelona)"
-      ]
-    },
-    {
-      "deporte": "Baloncesto",
-      "competicion": "Euroliga",
-      "ronda": "Liga Regular",
-      "evento": "Maccabi Tel Aviv BC vs Hapoel Tel Aviv BC",
-      "local": "Maccabi Tel Aviv BC",
-      "visitante": "Hapoel Tel Aviv BC",
-      "fecha": "2026-11-12",
-      "hora": "20:05",
-      "canales": [
-        "M+ Baloncesto 3 (M194)"
-      ]
-    },
-    {
-      "deporte": "Baloncesto",
-      "competicion": "Euroliga",
-      "ronda": "Liga Regular",
-      "evento": "Olympiacos Piraeus vs Dubai Basketball",
-      "local": "Olympiacos Piraeus",
-      "visitante": "Dubai Basketball",
-      "fecha": "2026-11-12",
-      "hora": "20:15",
-      "canales": [
-        "M+ Baloncesto 2 (M67)"
-      ]
-    },
-    {
-      "deporte": "Baloncesto",
-      "competicion": "Eurobasket Femenino",
-      "ronda": "Fase de Clasificación",
-      "evento": "Bélgica vs Suecia",
-      "local": "Bélgica",
-      "visitante": "Suecia",
-      "fecha": "2026-11-12",
-      "hora": "20:30",
-      "canales": [
-        "FIBA YouTube"
-      ]
-    },
-    {
-      "deporte": "Balonmano",
-      "competicion": "Liga Guerreras Iberdrola",
-      "ronda": null,
-      "evento": "BM Granollers vs CBF Elda Prestigio",
-      "local": "BM Granollers",
-      "visitante": "CBF Elda Prestigio",
-      "fecha": "2026-11-12",
-      "hora": "20:30",
-      "canales": [
-        "La Xarxa+",
-        "VOTV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Segunda Uruguay",
-      "ronda": null,
-      "evento": "CA Atenas vs Oriental",
-      "local": "CA Atenas",
-      "visitante": "Oriental",
-      "fecha": "2026-11-12",
-      "hora": "20:30",
-      "canales": [
-        "Antel TV Internacional"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Segunda Uruguay",
-      "ronda": null,
-      "evento": "Cerrito vs Colón FC",
-      "local": "Cerrito",
-      "visitante": "Colón FC",
-      "fecha": "2026-11-12",
-      "hora": "20:30",
-      "canales": [
-        "Antel TV Internacional"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Segunda Uruguay",
-      "ronda": null,
-      "evento": "Plaza Colonia vs CA Rentistas",
-      "local": "Plaza Colonia",
-      "visitante": "CA Rentistas",
-      "fecha": "2026-11-12",
-      "hora": "20:30",
-      "canales": [
-        "Antel TV Internacional"
-      ]
-    },
-    {
-      "deporte": "Baloncesto",
-      "competicion": "Euroliga",
-      "ronda": "Liga Regular",
-      "evento": "AX Olimpia Milano vs Zalgiris Kaunas",
-      "local": "AX Olimpia Milano",
-      "visitante": "Zalgiris Kaunas",
-      "fecha": "2026-11-12",
-      "hora": "20:30",
-      "canales": [
-        "M+ Baloncesto 4 (M195)"
-      ]
-    },
-    {
-      "deporte": "Baloncesto",
-      "competicion": "Euroliga",
-      "ronda": "Liga Regular",
-      "evento": "Valencia Basket vs FC Bayern Basketball",
-      "local": "Valencia Basket",
-      "visitante": "FC Bayern Basketball",
-      "fecha": "2026-11-12",
-      "hora": "20:30",
-      "canales": [
-        "M+ Vamos (11 y 50)",
-        "M+ #Vamos Bar (307)"
-      ]
-    },
-    {
-      "deporte": "Balonmano",
-      "competicion": "Liga Guerreras Iberdrola",
-      "ronda": null,
-      "evento": "Atlético Guardés vs Rocasa Gran Canaria",
-      "local": "Atlético Guardés",
-      "visitante": "Rocasa Gran Canaria",
-      "fecha": "2026-11-12",
-      "hora": "20:45",
-      "canales": [
-        "Teledeporte",
-        "RTVE Play"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "UEFA Nations League",
-      "ronda": "Fase de grupos",
-      "evento": "Italia vs Francia",
-      "local": "Italia",
-      "visitante": "Francia",
-      "fecha": "2026-11-12",
-      "hora": "20:45",
-      "canales": [
-        "DAZN (Ver en directo)",
-        "LaLiga TV M3"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "UEFA Nations League",
-      "ronda": "Fase de grupos",
-      "evento": "Inglaterra vs Croacia",
-      "local": "Inglaterra",
-      "visitante": "Croacia",
-      "fecha": "2026-11-12",
-      "hora": "20:45",
-      "canales": [
-        "DAZN (Ver en directo)",
-        "LaLiga TV M4"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "UEFA Nations League",
-      "ronda": "Fase de grupos",
-      "evento": "San Marino vs Bielorrusia",
-      "local": "San Marino",
-      "visitante": "Bielorrusia",
-      "fecha": "2026-11-12",
-      "hora": "20:45",
-      "canales": [
-        "DAZN (Ver en directo)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "UEFA Nations League",
-      "ronda": "Fase de grupos",
-      "evento": "Montenegro vs Letonia",
-      "local": "Montenegro",
-      "visitante": "Letonia",
-      "fecha": "2026-11-12",
-      "hora": "20:45",
-      "canales": [
-        "DAZN (Ver en directo)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "UEFA Nations League",
-      "ronda": "Fase de grupos",
-      "evento": "República Checa vs España",
-      "local": "República Checa",
-      "visitante": "España",
-      "fecha": "2026-11-12",
-      "hora": "20:45",
-      "canales": [
-        "La 1 TVE",
-        "RTVE Play"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "UEFA Nations League",
-      "ronda": "Fase de grupos",
-      "evento": "Albania vs Finlandia",
-      "local": "Albania",
-      "visitante": "Finlandia",
-      "fecha": "2026-11-12",
-      "hora": "20:45",
-      "canales": [
-        "DAZN (Ver en directo)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Champions League Femenina",
-      "ronda": "Fase Liga",
-      "evento": "Benfica Femenino vs Austria Wien Frauen",
-      "local": "Benfica Femenino",
-      "visitante": "Austria Wien Frauen",
-      "fecha": "2026-11-12",
-      "hora": "21:00",
-      "canales": [
-        "Disney+"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Finals",
-      "ronda": "Round Robin",
-      "evento": "M. Kostyuk vs C. Gauff",
-      "local": "M. Kostyuk",
-      "visitante": "C. Gauff",
-      "fecha": "2026-11-12",
-      "hora": "21:00",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)",
-        "Amazon Prime Video (Ver en directo)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "CONCACAF Nations League",
-      "ronda": null,
-      "evento": "Bonaire vs Cuba",
-      "local": "Bonaire",
-      "visitante": "Cuba",
-      "fecha": "2026-11-12",
-      "hora": "21:00",
-      "canales": [
-        "CONCACAF YouTube"
-      ]
-    },
-    {
-      "deporte": "Baloncesto",
-      "competicion": "Euroliga",
-      "ronda": "Liga Regular",
-      "evento": "Real Madrid Baloncesto vs Crvena Zvezda MTS Belgrade",
-      "local": "Real Madrid Baloncesto",
-      "visitante": "Crvena Zvezda MTS Belgrade",
-      "fecha": "2026-11-12",
-      "hora": "21:00",
-      "canales": [
-        "M+ Baloncesto (M66)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "WTA Finals",
-      "ronda": "Round Robin",
-      "evento": "J. Pegula vs L. Noskova",
-      "local": "J. Pegula",
-      "visitante": "L. Noskova",
-      "fecha": "2026-11-12",
-      "hora": "22:30",
-      "canales": [
-        "WTA TV",
-        "Tennis Channel - Orange TV (131)",
-        "Amazon Prime Video (Ver en directo)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Liga Colombiana",
-      "ronda": null,
-      "evento": "Deportivo Pasto vs Junior",
-      "local": "Deportivo Pasto",
-      "visitante": "Junior",
-      "fecha": "2026-11-12",
-      "hora": "23:00",
-      "canales": [
-        "RCN Nuestra Tele"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Torneo Proyección",
-      "ronda": null,
-      "evento": "Boca Juniors Reserva vs Newell's Old Boys Reserva",
-      "local": "Boca Juniors Reserva",
-      "visitante": "Newell's Old Boys Reserva",
-      "fecha": "2026-11-12",
-      "hora": "23:00",
-      "canales": [
-        "LPF Play (plan plus)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "CONCACAF Nations League",
-      "ronda": null,
-      "evento": "Aruba vs Martinica",
-      "local": "Aruba",
-      "visitante": "Martinica",
-      "fecha": "2026-11-12",
-      "hora": "23:00",
-      "canales": [
-        "CONCACAF YouTube"
-      ]
-    },
     {
       "deporte": "Fútbol",
       "competicion": "Liga AUF Uruguaya",
@@ -1096,6 +17,19 @@
       "hora": "00:00",
       "canales": [
         "Antel TV Internacional"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Colombiana",
+      "ronda": null,
+      "evento": "Deportivo Pasto vs Junior",
+      "local": "Deportivo Pasto",
+      "visitante": "Junior",
+      "fecha": "2026-11-13",
+      "hora": "00:00",
+      "canales": [
+        "RCN Nuestra Tele"
       ]
     },
     {
@@ -4771,6 +3705,2418 @@
       "hora": "23:30",
       "canales": [
         "Antel TV Internacional"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera Nacional Argentina",
+      "ronda": null,
+      "evento": "Gimnasia Jujuy vs Almirante Brown",
+      "local": "Gimnasia Jujuy",
+      "visitante": "Almirante Brown",
+      "fecha": "2026-11-15",
+      "hora": "00:00",
+      "canales": [
+        "LPF Play (plan plus)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Serie A Brasil",
+      "ronda": null,
+      "evento": "Chapecoense vs Vasco da Gama",
+      "local": "Chapecoense",
+      "visitante": "Vasco da Gama",
+      "fecha": "2026-11-15",
+      "hora": "00:30",
+      "canales": [
+        "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Penn State vs Minnesota",
+      "local": "Penn State",
+      "visitante": "Minnesota",
+      "fecha": "2026-11-15",
+      "hora": "01:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Ishockey",
+      "competicion": "NHL",
+      "ronda": "Liga Regular",
+      "evento": "Tampa Bay Lightning vs Detroit Red Wings",
+      "local": "Tampa Bay Lightning",
+      "visitante": "Detroit Red Wings",
+      "fecha": "2026-11-15",
+      "hora": "01:00",
+      "canales": [
+        "Disney+"
+      ]
+    },
+    {
+      "deporte": "Ishockey",
+      "competicion": "NHL",
+      "ronda": "Liga Regular",
+      "evento": "Pittsburgh Penguins vs Ottawa Senators",
+      "local": "Pittsburgh Penguins",
+      "visitante": "Ottawa Senators",
+      "fecha": "2026-11-15",
+      "hora": "01:00",
+      "canales": [
+        "Disney+"
+      ]
+    },
+    {
+      "deporte": "Ishockey",
+      "competicion": "NHL",
+      "ronda": "Liga Regular",
+      "evento": "Washington Capitals vs New Jersey Devils",
+      "local": "Washington Capitals",
+      "visitante": "New Jersey Devils",
+      "fecha": "2026-11-15",
+      "hora": "01:00",
+      "canales": [
+        "Disney+"
+      ]
+    },
+    {
+      "deporte": "Ishockey",
+      "competicion": "NHL",
+      "ronda": "Liga Regular",
+      "evento": "Boston Bruins vs Minnesota Wild",
+      "local": "Boston Bruins",
+      "visitante": "Minnesota Wild",
+      "fecha": "2026-11-15",
+      "hora": "01:00",
+      "canales": [
+        "Disney+"
+      ]
+    },
+    {
+      "deporte": "Ishockey",
+      "competicion": "NHL",
+      "ronda": "Liga Regular",
+      "evento": "Toronto Maple Leafs vs Edmonton Oilers",
+      "local": "Toronto Maple Leafs",
+      "visitante": "Edmonton Oilers",
+      "fecha": "2026-11-15",
+      "hora": "01:00",
+      "canales": [
+        "Disney+"
+      ]
+    },
+    {
+      "deporte": "Ishockey",
+      "competicion": "NHL",
+      "ronda": "Liga Regular",
+      "evento": "Columbus Blue Jackets vs Philadelphia Flyers",
+      "local": "Columbus Blue Jackets",
+      "visitante": "Philadelphia Flyers",
+      "fecha": "2026-11-15",
+      "hora": "01:00",
+      "canales": [
+        "Disney+"
+      ]
+    },
+    {
+      "deporte": "Ishockey",
+      "competicion": "NHL",
+      "ronda": "Liga Regular",
+      "evento": "St. Louis Blues vs Florida Panthers",
+      "local": "St. Louis Blues",
+      "visitante": "Florida Panthers",
+      "fecha": "2026-11-15",
+      "hora": "01:00",
+      "canales": [
+        "Disney+"
+      ]
+    },
+    {
+      "deporte": "Ishockey",
+      "competicion": "NHL",
+      "ronda": "Liga Regular",
+      "evento": "Montréal Canadiens vs Colorado Avalanche",
+      "local": "Montréal Canadiens",
+      "visitante": "Colorado Avalanche",
+      "fecha": "2026-11-15",
+      "hora": "01:00",
+      "canales": [
+        "Disney+"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "CONCACAF Nations League",
+      "ronda": null,
+      "evento": "San Vicente y Granadinas vs Belice",
+      "local": "San Vicente y Granadinas",
+      "visitante": "Belice",
+      "fecha": "2026-11-15",
+      "hora": "01:00",
+      "canales": [
+        "CONCACAF YouTube"
+      ]
+    },
+    {
+      "deporte": "MMA",
+      "competicion": "UFC",
+      "ronda": "UFC 334",
+      "evento": "C. Gane vs J. Hokit",
+      "local": "C. Gane",
+      "visitante": "J. Hokit",
+      "fecha": "2026-11-15",
+      "hora": "01:00",
+      "canales": [
+        "HBO MAX"
+      ]
+    },
+    {
+      "deporte": "Béisbol",
+      "competicion": "LVBP",
+      "ronda": null,
+      "evento": "Leones del Caracas vs Águilas del Zulia",
+      "local": "Leones del Caracas",
+      "visitante": "Águilas del Zulia",
+      "fecha": "2026-11-15",
+      "hora": "01:00",
+      "canales": [
+        "BeisbolPlay"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "NBA",
+      "ronda": "Liga Regular",
+      "evento": "New Orleans Pelicans vs Denver Nuggets",
+      "local": "New Orleans Pelicans",
+      "visitante": "Denver Nuggets",
+      "fecha": "2026-11-15",
+      "hora": "01:00",
+      "canales": [
+        "NBA League Pass"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Iowa vs Purdue",
+      "local": "Iowa",
+      "visitante": "Purdue",
+      "fecha": "2026-11-15",
+      "hora": "01:30",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Arizona vs Utah Utes",
+      "local": "Arizona",
+      "visitante": "Utah Utes",
+      "fecha": "2026-11-15",
+      "hora": "01:30",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "NBA",
+      "ronda": "Liga Regular",
+      "evento": "Cleveland Cavaliers vs Dallas Mavericks",
+      "local": "Cleveland Cavaliers",
+      "visitante": "Dallas Mavericks",
+      "fecha": "2026-11-15",
+      "hora": "01:30",
+      "canales": [
+        "NBA League Pass",
+        "DAZN (Ver en directo)",
+        "DAZN Baloncesto (M74 O126)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Liga Sudamericana",
+      "ronda": null,
+      "evento": "Paisas BC vs Boca Juniors Básquet",
+      "local": "Paisas BC",
+      "visitante": "Boca Juniors Básquet",
+      "fecha": "2026-11-15",
+      "hora": "01:40",
+      "canales": [
+        "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Ishockey",
+      "competicion": "NHL",
+      "ronda": "Liga Regular",
+      "evento": "Dallas Stars vs Buffalo Sabres",
+      "local": "Dallas Stars",
+      "visitante": "Buffalo Sabres",
+      "fecha": "2026-11-15",
+      "hora": "02:00",
+      "canales": [
+        "Disney+"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "CONCACAF Nations League",
+      "ronda": "1/4 de Final",
+      "evento": "Jamaica vs México",
+      "local": "Jamaica",
+      "visitante": "México",
+      "fecha": "2026-11-15",
+      "hora": "02:00",
+      "canales": [
+        "CONCACAF YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "A-League Women",
+      "ronda": null,
+      "evento": "Wellington Phoenix Women vs Sydney FC Women",
+      "local": "Wellington Phoenix Women",
+      "visitante": "Sydney FC Women",
+      "fecha": "2026-11-15",
+      "hora": "02:00",
+      "canales": [
+        "A-Leagues YouTube"
+      ]
+    },
+    {
+      "deporte": "Boxeo",
+      "competicion": "Título Internacional",
+      "ronda": "Peso Supermediano",
+      "evento": "D. Pacheco vs D. Fulghum",
+      "local": "D. Pacheco",
+      "visitante": "D. Fulghum",
+      "fecha": "2026-11-15",
+      "hora": "02:00",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN 2 (M73)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "NBA",
+      "ronda": "Liga Regular",
+      "evento": "Miami Heat vs Detroit Pistons",
+      "local": "Miami Heat",
+      "visitante": "Detroit Pistons",
+      "fecha": "2026-11-15",
+      "hora": "02:00",
+      "canales": [
+        "NBA League Pass"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "NBA",
+      "ronda": "Liga Regular",
+      "evento": "Minnesota Timberwolves vs Chicago Bulls",
+      "local": "Minnesota Timberwolves",
+      "visitante": "Chicago Bulls",
+      "fecha": "2026-11-15",
+      "hora": "02:00",
+      "canales": [
+        "NBA League Pass"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "NBA",
+      "ronda": "Liga Regular",
+      "evento": "Memphis Grizzlies vs Brooklyn Nets",
+      "local": "Memphis Grizzlies",
+      "visitante": "Brooklyn Nets",
+      "fecha": "2026-11-15",
+      "hora": "02:00",
+      "canales": [
+        "NBA League Pass"
+      ]
+    },
+    {
+      "deporte": "Ishockey",
+      "competicion": "NHL",
+      "ronda": "Liga Regular",
+      "evento": "Utah Mammoth vs San Jose Sharks",
+      "local": "Utah Mammoth",
+      "visitante": "San Jose Sharks",
+      "fecha": "2026-11-15",
+      "hora": "03:00",
+      "canales": [
+        "Disney+"
+      ]
+    },
+    {
+      "deporte": "Golf",
+      "competicion": "Philippine Open",
+      "ronda": null,
+      "evento": "Jornada 4",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-11-15",
+      "hora": "03:30",
+      "canales": [
+        "Movistar Golf 2 (M68)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Amistoso",
+      "ronda": null,
+      "evento": "Nueva Zelanda vs India",
+      "local": "Nueva Zelanda",
+      "visitante": "India",
+      "fecha": "2026-11-15",
+      "hora": "04:00",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "UTEP Miners vs Wyoming",
+      "local": "UTEP Miners",
+      "visitante": "Wyoming",
+      "fecha": "2026-11-15",
+      "hora": "04:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Ishockey",
+      "competicion": "NHL",
+      "ronda": "Liga Regular",
+      "evento": "Los Angeles Kings vs Calgary Flames",
+      "local": "Los Angeles Kings",
+      "visitante": "Calgary Flames",
+      "fecha": "2026-11-15",
+      "hora": "04:00",
+      "canales": [
+        "Disney+"
+      ]
+    },
+    {
+      "deporte": "Ishockey",
+      "competicion": "NHL",
+      "ronda": "Liga Regular",
+      "evento": "Anaheim Ducks vs New York Islanders",
+      "local": "Anaheim Ducks",
+      "visitante": "New York Islanders",
+      "fecha": "2026-11-15",
+      "hora": "04:00",
+      "canales": [
+        "Disney+"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "A-League Women",
+      "ronda": null,
+      "evento": "Canberra United Women vs Brisbane Roar Women",
+      "local": "Canberra United Women",
+      "visitante": "Brisbane Roar Women",
+      "fecha": "2026-11-15",
+      "hora": "05:00",
+      "canales": [
+        "A-Leagues YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "J League Cup",
+      "ronda": null,
+      "evento": "Machida Zelvia vs Vissel Kobe",
+      "local": "Machida Zelvia",
+      "visitante": "Vissel Kobe",
+      "fecha": "2026-11-15",
+      "hora": "06:00",
+      "canales": [
+        "J.LEAGUE International YouTube"
+      ]
+    },
+    {
+      "deporte": "Ciclismo",
+      "competicion": "Saitama Criterium",
+      "ronda": null,
+      "evento": "By Le Tour de France",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-11-15",
+      "hora": "06:45",
+      "canales": [
+        "HBO MAX",
+        "DAZN (Ver en directo)",
+        "ETBK (País Vasco)",
+        "Eurosport 2"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "J League Cup",
+      "ronda": null,
+      "evento": "Cerezo Osaka vs Urawa Red Diamonds",
+      "local": "Cerezo Osaka",
+      "visitante": "Urawa Red Diamonds",
+      "fecha": "2026-11-15",
+      "hora": "07:00",
+      "canales": [
+        "J.LEAGUE International YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "J League Cup",
+      "ronda": null,
+      "evento": "Kashima Antlers vs Yokohama F. Marinos",
+      "local": "Kashima Antlers",
+      "visitante": "Yokohama F. Marinos",
+      "fecha": "2026-11-15",
+      "hora": "07:00",
+      "canales": [
+        "J.LEAGUE International YouTube"
+      ]
+    },
+    {
+      "deporte": "Golf",
+      "competicion": "DP World Tour Championship",
+      "ronda": null,
+      "evento": "Jornada 4",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-11-15",
+      "hora": "07:30",
+      "canales": [
+        "Movistar Golf (M68)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "J League Cup",
+      "ronda": null,
+      "evento": "Kashiwa Reysol vs Kawasaki Frontale",
+      "local": "Kashiwa Reysol",
+      "visitante": "Kawasaki Frontale",
+      "fecha": "2026-11-15",
+      "hora": "09:00",
+      "canales": [
+        "J.LEAGUE International YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
+      "ronda": "Grupo 3",
+      "evento": "CD Cieza vs Peña Deportiva",
+      "local": "CD Cieza",
+      "visitante": "Peña Deportiva",
+      "fecha": "2026-11-15",
+      "hora": "11:30",
+      "canales": [
+        "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
+      "ronda": "Grupo 3",
+      "evento": "Elche Ilicitano vs At. Baleares",
+      "local": "Elche Ilicitano",
+      "visitante": "At. Baleares",
+      "fecha": "2026-11-15",
+      "hora": "11:30",
+      "canales": [
+        "Elche CF YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 7",
+      "evento": "Siello FC vs Real Aranjuez",
+      "local": "Siello FC",
+      "visitante": "Real Aranjuez",
+      "fecha": "2026-11-15",
+      "hora": "11:30",
+      "canales": [
+        "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Preferente Alevín",
+      "ronda": "Grupo 1 (Cataluña)",
+      "evento": "FC Barcelona Academy vs EFA Pedraza",
+      "local": "FC Barcelona Academy",
+      "visitante": "EFA Pedraza",
+      "fecha": "2026-11-15",
+      "hora": "12:00",
+      "canales": [
+        "FC Barcelona PPV YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera Federación",
+      "ronda": "Grupo 2",
+      "evento": "Atlético Madrileño vs Teruel",
+      "local": "Atlético Madrileño",
+      "visitante": "Teruel",
+      "fecha": "2026-11-15",
+      "hora": "12:00",
+      "canales": [
+        "TV FootballClub (Acceder)",
+        "FANPLAY TV",
+        "Aragón Play",
+        "Aragón TV",
+        "LaLiga TV M3"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera Federación",
+      "ronda": "Grupo 2",
+      "evento": "UD Ibiza vs FC Cartagena",
+      "local": "UD Ibiza",
+      "visitante": "FC Cartagena",
+      "fecha": "2026-11-15",
+      "hora": "12:00",
+      "canales": [
+        "TV FootballClub (Acceder)",
+        "FANPLAY TV",
+        "LaLiga TV M2"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera Federación",
+      "ronda": "Grupo 1",
+      "evento": "CD Extremadura vs Pontevedra",
+      "local": "CD Extremadura",
+      "visitante": "Pontevedra",
+      "fecha": "2026-11-15",
+      "hora": "12:00",
+      "canales": [
+        "TV FootballClub (Acceder)",
+        "FANPLAY TV",
+        "Primera Federación (M53 O125)",
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
+      "ronda": "Grupo 5",
+      "evento": "RSD Alcalá vs At. Madrid C",
+      "local": "RSD Alcalá",
+      "visitante": "At. Madrid C",
+      "fecha": "2026-11-15",
+      "hora": "12:00",
+      "canales": [
+        "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
+      "ronda": "Grupo 5",
+      "evento": "Valladolid Promesas vs Numancia",
+      "local": "Valladolid Promesas",
+      "visitante": "Numancia",
+      "fecha": "2026-11-15",
+      "hora": "12:00",
+      "canales": [
+        "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
+      "ronda": "Grupo 4",
+      "evento": "CD Tenerife B vs Linares Deportivo",
+      "local": "CD Tenerife B",
+      "visitante": "Linares Deportivo",
+      "fecha": "2026-11-15",
+      "hora": "12:00",
+      "canales": [
+        "TV FootballClub (Acceder)",
+        "CD Tenerife YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
+      "ronda": "Grupo 4",
+      "evento": "Puente Genil vs Club Atlético Central",
+      "local": "Puente Genil",
+      "visitante": "Club Atlético Central",
+      "fecha": "2026-11-15",
+      "hora": "12:00",
+      "canales": [
+        "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
+      "ronda": "Grupo 2",
+      "evento": "Náxara vs CE Manresa",
+      "local": "Náxara",
+      "visitante": "CE Manresa",
+      "fecha": "2026-11-15",
+      "hora": "12:00",
+      "canales": [
+        "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
+      "ronda": "Grupo 2",
+      "evento": "UD Logroñés B vs Peña Sport",
+      "local": "UD Logroñés B",
+      "visitante": "Peña Sport",
+      "fecha": "2026-11-15",
+      "hora": "12:00",
+      "canales": [
+        "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
+      "ronda": "Grupo 2",
+      "evento": "UD Barbastro vs Arnedo",
+      "local": "UD Barbastro",
+      "visitante": "Arnedo",
+      "fecha": "2026-11-15",
+      "hora": "12:00",
+      "canales": [
+        "TV FootballClub (Acceder)",
+        "Aragón Play"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Liga Endesa",
+      "ronda": "Liga Regular",
+      "evento": "iLERNA Lleida vs Kids&Us Manresa",
+      "local": "iLERNA Lleida",
+      "visitante": "Kids&Us Manresa",
+      "fecha": "2026-11-15",
+      "hora": "12:00",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN Baloncesto 3 (M76 O128)",
+        "TV3 (Cataluña)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Liga Endesa",
+      "ronda": "Liga Regular",
+      "evento": "Valencia Basket vs Básquet Coruña",
+      "local": "Valencia Basket",
+      "visitante": "Básquet Coruña",
+      "fecha": "2026-11-15",
+      "hora": "12:00",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN Baloncesto 2 (M75 O127)"
+      ]
+    },
+    {
+      "deporte": "Balonmano",
+      "competicion": "Liga ASOBAL",
+      "ronda": null,
+      "evento": "Recoletas At. Valladolid vs EÓN Balonmano Alicante",
+      "local": "Recoletas At. Valladolid",
+      "visitante": "EÓN Balonmano Alicante",
+      "fecha": "2026-11-15",
+      "hora": "12:00",
+      "canales": [
+        "ASOBAL TV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga F",
+      "ronda": null,
+      "evento": "Madrid CFF vs Logroño United Femenino",
+      "local": "Madrid CFF",
+      "visitante": "Logroño United Femenino",
+      "fecha": "2026-11-15",
+      "hora": "12:00",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "M+ Vamos 3 (53)",
+        "DAZN 2 (M73)",
+        "DAZN 2 Bar (M149)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga F",
+      "ronda": null,
+      "evento": "Real Sociedad Femenino vs Athletic Femenino",
+      "local": "Real Sociedad Femenino",
+      "visitante": "Athletic Femenino",
+      "fecha": "2026-11-15",
+      "hora": "12:00",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN 1 (M72)",
+        "DAZN 1 Bar (M148)",
+        "Teledeporte",
+        "RTVE Play",
+        "Esport3 Web",
+        "ETB1 (País Vasco)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 2",
+      "evento": "Sporting Gijón B vs Gijón Industrial",
+      "local": "Sporting Gijón B",
+      "visitante": "Gijón Industrial",
+      "fecha": "2026-11-15",
+      "hora": "12:00",
+      "canales": [
+        "Real Sporting de Gijón YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 7",
+      "evento": "Unión Adarve vs Las Rozas",
+      "local": "Unión Adarve",
+      "visitante": "Las Rozas",
+      "fecha": "2026-11-15",
+      "hora": "12:00",
+      "canales": [
+        "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 10",
+      "evento": "CD Utrera vs Bollullos CF",
+      "local": "CD Utrera",
+      "visitante": "Bollullos CF",
+      "fecha": "2026-11-15",
+      "hora": "12:00",
+      "canales": [
+        "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 10",
+      "evento": "Pozoblanco vs Real Betis C",
+      "local": "Pozoblanco",
+      "visitante": "Real Betis C",
+      "fecha": "2026-11-15",
+      "hora": "12:00",
+      "canales": [
+        "TV FootballClub (Acceder)",
+        "Real Betis TV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 10",
+      "evento": "Tomares vs CD Egabrense",
+      "local": "Tomares",
+      "visitante": "CD Egabrense",
+      "fecha": "2026-11-15",
+      "hora": "12:00",
+      "canales": [
+        "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 7",
+      "evento": "Colonia Moscardó vs Galapagar",
+      "local": "Colonia Moscardó",
+      "visitante": "Galapagar",
+      "fecha": "2026-11-15",
+      "hora": "12:00",
+      "canales": [
+        "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 9",
+      "evento": "Cantoria 2017 CF vs At. Mancha Real",
+      "local": "Cantoria 2017 CF",
+      "visitante": "At. Mancha Real",
+      "fecha": "2026-11-15",
+      "hora": "12:00",
+      "canales": [
+        "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
+      "ronda": "Grupo 1",
+      "evento": "Basconia vs Alavés B",
+      "local": "Basconia",
+      "visitante": "Alavés B",
+      "fecha": "2026-11-15",
+      "hora": "12:15",
+      "canales": [
+        "Athletic-club.eus"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Serie A Femminile",
+      "ronda": null,
+      "evento": "Sassuolo Femenino vs Ternana Femminile",
+      "local": "Sassuolo Femenino",
+      "visitante": "Ternana Femminile",
+      "fecha": "2026-11-15",
+      "hora": "12:30",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
+      "ronda": "Grupo 4",
+      "evento": "Las Palmas At. vs Ciudad de Lucena",
+      "local": "Las Palmas At.",
+      "visitante": "Ciudad de Lucena",
+      "fecha": "2026-11-15",
+      "hora": "12:30",
+      "canales": [
+        "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Liga Endesa",
+      "ronda": "Liga Regular",
+      "evento": "Unicaja Málaga vs Basquet Girona",
+      "local": "Unicaja Málaga",
+      "visitante": "Basquet Girona",
+      "fecha": "2026-11-15",
+      "hora": "12:30",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN Baloncesto (M74 O126)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 5",
+      "evento": "Cornellá vs L'Escala",
+      "local": "Cornellá",
+      "visitante": "L'Escala",
+      "fecha": "2026-11-15",
+      "hora": "12:30",
+      "canales": [
+        "La Xarxa+"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 9",
+      "evento": "Churriana de la Vega CF vs CF Motril",
+      "local": "Churriana de la Vega CF",
+      "visitante": "CF Motril",
+      "fecha": "2026-11-15",
+      "hora": "12:30",
+      "canales": [
+        "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 9",
+      "evento": "At. Marbella Bpié. vs Málaga Juniors",
+      "local": "At. Marbella Bpié.",
+      "visitante": "Málaga Juniors",
+      "fecha": "2026-11-15",
+      "hora": "12:30",
+      "canales": [
+        "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Nacional Juvenil",
+      "ronda": "Grupo 13 (Andalucía)",
+      "evento": "Sevilla FC Academy vs Cádiz CF Academy",
+      "local": "Sevilla FC Academy",
+      "visitante": "Cádiz CF Academy",
+      "fecha": "2026-11-15",
+      "hora": "12:30",
+      "canales": [
+        "Sevilla FC +"
+      ]
+    },
+    {
+      "deporte": "Hockey Patines",
+      "competicion": "Copa Continental Femenina",
+      "ronda": null,
+      "evento": "Final",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-11-15",
+      "hora": "13:00",
+      "canales": [
+        "Esport3 (Cataluña)"
+      ]
+    },
+    {
+      "deporte": "Ciclismo",
+      "competicion": "X2O Trofee Ciclocross",
+      "ronda": null,
+      "evento": "Hamme / Flandriencross (Bélgica) Carrera femenina",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-11-15",
+      "hora": "13:45",
+      "canales": [
+        "HBO MAX",
+        "DAZN (Ver en directo)",
+        "Eurosport 2"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "ATP Finals",
+      "ronda": "Round Robin",
+      "evento": "A. Zverev vs R. Jódar",
+      "local": "A. Zverev",
+      "visitante": "R. Jódar",
+      "fecha": "2026-11-15",
+      "hora": "14:00",
+      "canales": [
+        "ATP Tennis TV",
+        "Movistar Plus+ (M8): VER PARTIDO",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "LaLiga Hypermotion",
+      "ronda": null,
+      "evento": "CD Tenerife vs AD Ceuta",
+      "local": "CD Tenerife",
+      "visitante": "AD Ceuta",
+      "fecha": "2026-11-15",
+      "hora": "14:00",
+      "canales": [
+        "LALIGA TV Hypermotion (M56 O120): VER PARTIDO",
+        "DAZN (Ver en directo)",
+        "LaLiga TV Bar"
+      ]
+    },
+    {
+      "deporte": "Balonmano",
+      "competicion": "EHF Women's Champions League",
+      "ronda": null,
+      "evento": "Ferencvárosi TC vs Team Esbjerg",
+      "local": "Ferencvárosi TC",
+      "visitante": "Team Esbjerg",
+      "fecha": "2026-11-15",
+      "hora": "14:00",
+      "canales": [
+        "EHF TV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Damallsvenskan",
+      "ronda": null,
+      "evento": "Eskilstuna United vs Djurgårdens IF Kvinnor",
+      "local": "Eskilstuna United",
+      "visitante": "Djurgårdens IF Kvinnor",
+      "fecha": "2026-11-15",
+      "hora": "14:00",
+      "canales": [
+        "FANSEAT"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Damallsvenskan",
+      "ronda": null,
+      "evento": "IK Uppsala vs Växjö DFF",
+      "local": "IK Uppsala",
+      "visitante": "Växjö DFF",
+      "fecha": "2026-11-15",
+      "hora": "14:00",
+      "canales": [
+        "FANSEAT"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Damallsvenskan",
+      "ronda": null,
+      "evento": "BK Häcken Femenino vs Piteå IF Kvinnor",
+      "local": "BK Häcken Femenino",
+      "visitante": "Piteå IF Kvinnor",
+      "fecha": "2026-11-15",
+      "hora": "14:00",
+      "canales": [
+        "FANSEAT"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Damallsvenskan",
+      "ronda": null,
+      "evento": "Malmö FF Women vs Vittsjö GIK",
+      "local": "Malmö FF Women",
+      "visitante": "Vittsjö GIK",
+      "fecha": "2026-11-15",
+      "hora": "14:00",
+      "canales": [
+        "FANSEAT"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Damallsvenskan",
+      "ronda": null,
+      "evento": "Hammarby Kvinnor vs Kristianstads DFF",
+      "local": "Hammarby Kvinnor",
+      "visitante": "Kristianstads DFF",
+      "fecha": "2026-11-15",
+      "hora": "14:00",
+      "canales": [
+        "FANSEAT"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Damallsvenskan",
+      "ronda": null,
+      "evento": "Brommapojkarna Kvinnor vs FC Rosengard",
+      "local": "Brommapojkarna Kvinnor",
+      "visitante": "FC Rosengard",
+      "fecha": "2026-11-15",
+      "hora": "14:00",
+      "canales": [
+        "FANSEAT"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Damallsvenskan",
+      "ronda": null,
+      "evento": "IFK Norrköping Kvinnor vs AIK Fotboll Kvinnor",
+      "local": "IFK Norrköping Kvinnor",
+      "visitante": "AIK Fotboll Kvinnor",
+      "fecha": "2026-11-15",
+      "hora": "14:00",
+      "canales": [
+        "FANSEAT"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera Federación",
+      "ronda": "Grupo 1",
+      "evento": "Zamora vs Real Avilés",
+      "local": "Zamora",
+      "visitante": "Real Avilés",
+      "fecha": "2026-11-15",
+      "hora": "14:15",
+      "canales": [
+        "TV FootballClub (Acceder)",
+        "FANPLAY TV",
+        "Primera Federación (M53 O125)",
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Amistoso Leyendas",
+      "ronda": null,
+      "evento": "Ajax Legends vs FC Barcelona Legends",
+      "local": "Ajax Legends",
+      "visitante": "FC Barcelona Legends",
+      "fecha": "2026-11-15",
+      "hora": "14:30",
+      "canales": [
+        "FC Barcelona PPV YouTube"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Eurobasket Femenino",
+      "ronda": "Fase de Clasificación",
+      "evento": "Finlandia vs Lituania",
+      "local": "Finlandia",
+      "visitante": "Lituania",
+      "fecha": "2026-11-15",
+      "hora": "15:00",
+      "canales": [
+        "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "UEFA Nations League",
+      "ronda": "Fase de grupos",
+      "evento": "Letonia vs Armenia",
+      "local": "Letonia",
+      "visitante": "Armenia",
+      "fecha": "2026-11-15",
+      "hora": "15:00",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "UEFA Nations League",
+      "ronda": "Fase de grupos",
+      "evento": "Chipre vs Montenegro",
+      "local": "Chipre",
+      "visitante": "Montenegro",
+      "fecha": "2026-11-15",
+      "hora": "15:00",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Serie A Femminile",
+      "ronda": null,
+      "evento": "Inter Milan Femenino vs Juventus Femminile",
+      "local": "Inter Milan Femenino",
+      "visitante": "Juventus Femminile",
+      "fecha": "2026-11-15",
+      "hora": "15:00",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
+      ]
+    },
+    {
+      "deporte": "Pádel",
+      "competicion": "Dubai Open",
+      "ronda": null,
+      "evento": "Final Femenina Premier Padel Tour",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-11-15",
+      "hora": "15:00",
+      "canales": [
+        "Red Bull TV",
+        "M+ Vamos (11 y 50)",
+        "M+ #Vamos Bar (307)",
+        "M+ Deportes (63)"
+      ]
+    },
+    {
+      "deporte": "Ciclismo",
+      "competicion": "X2O Trofee Ciclocross",
+      "ronda": null,
+      "evento": "Hamme / Flandriencross (Bélgica) Carrera masculina",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-11-15",
+      "hora": "15:00",
+      "canales": [
+        "HBO MAX",
+        "DAZN (Ver en directo)",
+        "Eurosport 2"
+      ]
+    },
+    {
+      "deporte": "Hockey Patines",
+      "competicion": "Copa Continental",
+      "ronda": null,
+      "evento": "Final",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-11-15",
+      "hora": "15:25",
+      "canales": [
+        "Esport3 (Cataluña)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NFL",
+      "ronda": "Liga Regular",
+      "evento": "Detroit Lions vs New England Patriots",
+      "local": "Detroit Lions",
+      "visitante": "New England Patriots",
+      "fecha": "2026-11-15",
+      "hora": "15:30",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN 3 (M196)",
+        "DAZN App Gratis (Ver gratis)",
+        "BE MAD",
+        "Mediaset Infinity"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Eurobasket Femenino",
+      "ronda": "Fase de Clasificación",
+      "evento": "Suecia vs Bélgica",
+      "local": "Suecia",
+      "visitante": "Bélgica",
+      "fecha": "2026-11-15",
+      "hora": "16:00",
+      "canales": [
+        "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Balonmano",
+      "competicion": "EHF Women's Champions League",
+      "ronda": null,
+      "evento": "ZRK Buducnost vs Borussia Dortmund HB",
+      "local": "ZRK Buducnost",
+      "visitante": "Borussia Dortmund HB",
+      "fecha": "2026-11-15",
+      "hora": "16:00",
+      "canales": [
+        "EHF TV"
+      ]
+    },
+    {
+      "deporte": "Balonmano",
+      "competicion": "EHF Women's Champions League",
+      "ronda": null,
+      "evento": "CSM Bucuresti vs Brest Bretagne Handball",
+      "local": "CSM Bucuresti",
+      "visitante": "Brest Bretagne Handball",
+      "fecha": "2026-11-15",
+      "hora": "16:00",
+      "canales": [
+        "EHF TV"
+      ]
+    },
+    {
+      "deporte": "Balonmano",
+      "competicion": "EHF Women's Champions League",
+      "ronda": null,
+      "evento": "Sola HK vs RK Krim Mercator",
+      "local": "Sola HK",
+      "visitante": "RK Krim Mercator",
+      "fecha": "2026-11-15",
+      "hora": "16:00",
+      "canales": [
+        "EHF TV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
+      "ronda": "Grupo 2",
+      "evento": "Calamocha vs Reus FC Reddis",
+      "local": "Calamocha",
+      "visitante": "Reus FC Reddis",
+      "fecha": "2026-11-15",
+      "hora": "16:00",
+      "canales": [
+        "Aragón Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Élite Cataluña",
+      "ronda": null,
+      "evento": "UA Horta vs Martorell",
+      "local": "UA Horta",
+      "visitante": "Martorell",
+      "fecha": "2026-11-15",
+      "hora": "16:00",
+      "canales": [
+        "La Xarxa+"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga F",
+      "ronda": null,
+      "evento": "Sevilla FC Femenino vs At. Madrid Femenino",
+      "local": "Sevilla FC Femenino",
+      "visitante": "At. Madrid Femenino",
+      "fecha": "2026-11-15",
+      "hora": "16:00",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "M+ Vamos 3 (53)",
+        "DAZN 2 (M73)",
+        "DAZN 2 Bar (M149)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 16",
+      "evento": "CD Alfaro vs River Ebro",
+      "local": "CD Alfaro",
+      "visitante": "River Ebro",
+      "fecha": "2026-11-15",
+      "hora": "16:00",
+      "canales": [
+        "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 4",
+      "evento": "Real Unión B vs Lagun Onak",
+      "local": "Real Unión B",
+      "visitante": "Lagun Onak",
+      "fecha": "2026-11-15",
+      "hora": "16:00",
+      "canales": [
+        "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Rugby U",
+      "competicion": "Nations Championship",
+      "ronda": null,
+      "evento": "Escocia vs Australia",
+      "local": "Escocia",
+      "visitante": "Australia",
+      "fecha": "2026-11-15",
+      "hora": "16:10",
+      "canales": [
+        "M+ Deportes 3 (65)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "LaLiga Hypermotion",
+      "ronda": null,
+      "evento": "Granada CF vs UD Las Palmas",
+      "local": "Granada CF",
+      "visitante": "UD Las Palmas",
+      "fecha": "2026-11-15",
+      "hora": "16:15",
+      "canales": [
+        "LALIGA TV Hypermotion (M56 O120): VER PARTIDO",
+        "DAZN (Ver en directo)",
+        "Replay",
+        "Replay YouTube (ver en directo)",
+        "TV Canaria",
+        "LaLiga TV Bar"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
+      "ronda": "Grupo 5",
+      "evento": "At. Tordesillas vs CD Atlético Paso",
+      "local": "At. Tordesillas",
+      "visitante": "CD Atlético Paso",
+      "fecha": "2026-11-15",
+      "hora": "16:15",
+      "canales": [
+        "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera Federación",
+      "ronda": "Grupo 1",
+      "evento": "Lugo vs Mirandés",
+      "local": "Lugo",
+      "visitante": "Mirandés",
+      "fecha": "2026-11-15",
+      "hora": "16:30",
+      "canales": [
+        "TV FootballClub (Acceder)",
+        "FANPLAY TV",
+        "Primera Federación (M53 O125)",
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera Federación",
+      "ronda": "Grupo 1",
+      "evento": "UD Logroñés vs Arenas Club",
+      "local": "UD Logroñés",
+      "visitante": "Arenas Club",
+      "fecha": "2026-11-15",
+      "hora": "16:30",
+      "canales": [
+        "TV FootballClub (Acceder)",
+        "FANPLAY TV",
+        "LaLiga TV M3"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera Federación",
+      "ronda": "Grupo 2",
+      "evento": "Algeciras CF vs Antequera",
+      "local": "Algeciras CF",
+      "visitante": "Antequera",
+      "fecha": "2026-11-15",
+      "hora": "16:30",
+      "canales": [
+        "TV FootballClub (Acceder)",
+        "FANPLAY TV",
+        "LaLiga TV M2"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
+      "ronda": "Grupo 5",
+      "evento": "Navalcarnero vs Getafe B",
+      "local": "Navalcarnero",
+      "visitante": "Getafe B",
+      "fecha": "2026-11-15",
+      "hora": "16:30",
+      "canales": [
+        "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
+      "ronda": "Grupo 3",
+      "evento": "UD Castellonense vs Orihuela",
+      "local": "UD Castellonense",
+      "visitante": "Orihuela",
+      "fecha": "2026-11-15",
+      "hora": "16:45",
+      "canales": [
+        "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Eredivisie Vrouwen",
+      "ronda": null,
+      "evento": "AZ Alkmaar Women vs Ajax Femenino",
+      "local": "AZ Alkmaar Women",
+      "visitante": "Ajax Femenino",
+      "fecha": "2026-11-15",
+      "hora": "16:45",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Sala",
+      "competicion": "Liga Prime",
+      "ronda": "Torneo Apertura",
+      "evento": "Industrias Santa Coloma vs Jaén FS",
+      "local": "Industrias Santa Coloma",
+      "visitante": "Jaén FS",
+      "fecha": "2026-11-15",
+      "hora": "17:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Boxeo",
+      "competicion": "Velada",
+      "ronda": "Peso Gallo",
+      "evento": "J. Pantoja vs M. Adelin",
+      "local": "J. Pantoja",
+      "visitante": "M. Adelin",
+      "fecha": "2026-11-15",
+      "hora": "17:00",
+      "canales": [
+        "CayoTV YouTube (ver)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "División de Honor Sénior",
+      "ronda": null,
+      "evento": "Montilla CF vs Cádiz CF C",
+      "local": "Montilla CF",
+      "visitante": "Cádiz CF C",
+      "fecha": "2026-11-15",
+      "hora": "17:00",
+      "canales": [
+        "Web Directo"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
+      "ronda": "Grupo 3",
+      "evento": "Alcoyano vs Intercity",
+      "local": "Alcoyano",
+      "visitante": "Intercity",
+      "fecha": "2026-11-15",
+      "hora": "17:00",
+      "canales": [
+        "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
+      "ronda": "Grupo 3",
+      "evento": "Yeclano vs CD Castellón B",
+      "local": "Yeclano",
+      "visitante": "CD Castellón B",
+      "fecha": "2026-11-15",
+      "hora": "17:00",
+      "canales": [
+        "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
+      "ronda": "Grupo 3",
+      "evento": "La Nucía vs Valencia-Mestalla",
+      "local": "La Nucía",
+      "visitante": "Valencia-Mestalla",
+      "fecha": "2026-11-15",
+      "hora": "17:00",
+      "canales": [
+        "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
+      "ronda": "Grupo 2",
+      "evento": "Terrassa FC vs Tudelano",
+      "local": "Terrassa FC",
+      "visitante": "Tudelano",
+      "fecha": "2026-11-15",
+      "hora": "17:00",
+      "canales": [
+        "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
+      "ronda": "Grupo 1",
+      "evento": "Gernika vs Real Oviedo B",
+      "local": "Gernika",
+      "visitante": "Real Oviedo B",
+      "fecha": "2026-11-15",
+      "hora": "17:00",
+      "canales": [
+        "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
+      "ronda": "Grupo 4",
+      "evento": "CD Badajoz vs Don Benito",
+      "local": "CD Badajoz",
+      "visitante": "Don Benito",
+      "fecha": "2026-11-15",
+      "hora": "17:00",
+      "canales": [
+        "TV FootballClub (Acceder)",
+        "Canal Deporte TV (Síguelo en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
+      "ronda": "Grupo 5",
+      "evento": "Calvo Sotelo Puertollano vs CF Talavera",
+      "local": "Calvo Sotelo Puertollano",
+      "visitante": "CF Talavera",
+      "fecha": "2026-11-15",
+      "hora": "17:00",
+      "canales": [
+        "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Pádel",
+      "competicion": "Dubai Open",
+      "ronda": null,
+      "evento": "Final Masculina Premier Padel Tour",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-11-15",
+      "hora": "17:00",
+      "canales": [
+        "Red Bull TV",
+        "M+ Vamos (11 y 50)",
+        "M+ #Vamos Bar (307)",
+        "M+ Deportes (63)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Liga Endesa",
+      "ronda": "Liga Regular",
+      "evento": "Barça Basket vs Monbus Obradoiro",
+      "local": "Barça Basket",
+      "visitante": "Monbus Obradoiro",
+      "fecha": "2026-11-15",
+      "hora": "17:00",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN Baloncesto 3 (M76 O128)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 10",
+      "evento": "Balompédica Linense vs RC Portuense",
+      "local": "Balompédica Linense",
+      "visitante": "RC Portuense",
+      "fecha": "2026-11-15",
+      "hora": "17:00",
+      "canales": [
+        "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 10",
+      "evento": "Conil CF vs Xerez DFC",
+      "local": "Conil CF",
+      "visitante": "Xerez DFC",
+      "fecha": "2026-11-15",
+      "hora": "17:00",
+      "canales": [
+        "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 6",
+      "evento": "Ontinyent 1931 CF vs Atzeneta UE",
+      "local": "Ontinyent 1931 CF",
+      "visitante": "Atzeneta UE",
+      "fecha": "2026-11-15",
+      "hora": "17:00",
+      "canales": [
+        "FFCV YouTube",
+        "La Ocho Mediterráneo"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 9",
+      "evento": "At. Porcuna vs UDC Torredonjimeno",
+      "local": "At. Porcuna",
+      "visitante": "UDC Torredonjimeno",
+      "fecha": "2026-11-15",
+      "hora": "17:30",
+      "canales": [
+        "Web Directo"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Primera FEB",
+      "ronda": "Liga Regular",
+      "evento": "Palmer Mallorca Palma vs Albacete Basket",
+      "local": "Palmer Mallorca Palma",
+      "visitante": "Albacete Basket",
+      "fecha": "2026-11-15",
+      "hora": "18:00",
+      "canales": [
+        "BalONcesto TV PPV"
+      ]
+    },
+    {
+      "deporte": "Balonmano",
+      "competicion": "EHF Women's European League",
+      "ronda": "2ª Ronda Clasificación",
+      "evento": "BM Bera Bera vs Rocasa Gran Canaria",
+      "local": "BM Bera Bera",
+      "visitante": "Rocasa Gran Canaria",
+      "fecha": "2026-11-15",
+      "hora": "18:00",
+      "canales": [
+        "ETBK (País Vasco)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera Catalana",
+      "ronda": null,
+      "evento": "Igualada vs Pirinaica FC",
+      "local": "Igualada",
+      "visitante": "Pirinaica FC",
+      "fecha": "2026-11-15",
+      "hora": "18:00",
+      "canales": [
+        "La Xarxa+"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "UEFA Nations League",
+      "ronda": "Fase de grupos",
+      "evento": "Finlandia vs San Marino",
+      "local": "Finlandia",
+      "visitante": "San Marino",
+      "fecha": "2026-11-15",
+      "hora": "18:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "UEFA Nations League",
+      "ronda": "Fase de grupos",
+      "evento": "Bielorrusia vs Albania",
+      "local": "Bielorrusia",
+      "visitante": "Albania",
+      "fecha": "2026-11-15",
+      "hora": "18:00",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
+      ]
+    },
+    {
+      "deporte": "Balonmano",
+      "competicion": "EHF Women's Champions League",
+      "ronda": null,
+      "evento": "Odense Handbold vs Metz Handball",
+      "local": "Odense Handbold",
+      "visitante": "Metz Handball",
+      "fecha": "2026-11-15",
+      "hora": "18:00",
+      "canales": [
+        "EHF TV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
+      "ronda": "Grupo 2",
+      "evento": "UE Olot vs Espanyol B",
+      "local": "UE Olot",
+      "visitante": "Espanyol B",
+      "fecha": "2026-11-15",
+      "hora": "18:00",
+      "canales": [
+        "Esport3 (Cataluña)"
+      ]
+    },
+    {
+      "deporte": "Béisbol",
+      "competicion": "LVBP",
+      "ronda": null,
+      "evento": "Bravos de Margarita vs Tigres de Aragua",
+      "local": "Bravos de Margarita",
+      "visitante": "Tigres de Aragua",
+      "fecha": "2026-11-15",
+      "hora": "18:00",
+      "canales": [
+        "BeisbolPlay"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Liga Endesa",
+      "ronda": "Liga Regular",
+      "evento": "Bilbao Basket vs UCAM Murcia CB",
+      "local": "Bilbao Basket",
+      "visitante": "UCAM Murcia CB",
+      "fecha": "2026-11-15",
+      "hora": "18:00",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN Baloncesto 2 (M75 O127)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga F",
+      "ronda": null,
+      "evento": "Deportivo Abanca vs FC Barcelona Femenino",
+      "local": "Deportivo Abanca",
+      "visitante": "FC Barcelona Femenino",
+      "fecha": "2026-11-15",
+      "hora": "18:00",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "M+ Vamos 2 (51)",
+        "DAZN 1 (M72)",
+        "DAZN 1 Bar (M148)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga F",
+      "ronda": null,
+      "evento": "Valencia Féminas vs Granada Femenino",
+      "local": "Valencia Féminas",
+      "visitante": "Granada Femenino",
+      "fecha": "2026-11-15",
+      "hora": "18:15",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN 2 Bar (M149)",
+        "Teledeporte",
+        "RTVE Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "LaLiga Hypermotion",
+      "ronda": null,
+      "evento": "Eibar vs Cádiz CF",
+      "local": "Eibar",
+      "visitante": "Cádiz CF",
+      "fecha": "2026-11-15",
+      "hora": "18:30",
+      "canales": [
+        "LALIGA TV Hypermotion (M56 O120): VER PARTIDO",
+        "DAZN (Ver en directo)",
+        "Orange Fútbol 2 (108)",
+        "LaLiga TV Bar"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "LaLiga Hypermotion",
+      "ronda": null,
+      "evento": "Eldense vs Sabadell",
+      "local": "Eldense",
+      "visitante": "Sabadell",
+      "fecha": "2026-11-15",
+      "hora": "18:30",
+      "canales": [
+        "LALIGA TV Hypermotion (M56 O120): VER PARTIDO",
+        "DAZN (Ver en directo)",
+        "LaLiga TV M2"
+      ]
+    },
+    {
+      "deporte": "Fútbol Sala",
+      "competicion": "Liga Prime",
+      "ronda": "Torneo Apertura",
+      "evento": "CD El Ejido Futsal vs Jimbee Cartagena FS",
+      "local": "CD El Ejido Futsal",
+      "visitante": "Jimbee Cartagena FS",
+      "fecha": "2026-11-15",
+      "hora": "18:45",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera Federación",
+      "ronda": "Grupo 2",
+      "evento": "Real Murcia vs Alcorcón",
+      "local": "Real Murcia",
+      "visitante": "Alcorcón",
+      "fecha": "2026-11-15",
+      "hora": "18:45",
+      "canales": [
+        "TV FootballClub (Acceder)",
+        "FANPLAY TV",
+        "Primera Federación (M53 O125)",
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NFL",
+      "ronda": "Liga Regular",
+      "evento": "New Orleans Saints vs Carolina Panthers",
+      "local": "New Orleans Saints",
+      "visitante": "Carolina Panthers",
+      "fecha": "2026-11-15",
+      "hora": "19:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NFL",
+      "ronda": "Liga Regular",
+      "evento": "Atlanta Falcons vs Kansas City Chiefs",
+      "local": "Atlanta Falcons",
+      "visitante": "Kansas City Chiefs",
+      "fecha": "2026-11-15",
+      "hora": "19:00",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "CayoTV YouTube (ver)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NFL",
+      "ronda": "Liga Regular",
+      "evento": "Green Bay Packers vs Minnesota Vikings",
+      "local": "Green Bay Packers",
+      "visitante": "Minnesota Vikings",
+      "fecha": "2026-11-15",
+      "hora": "19:00",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN 3 (M196)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NFL",
+      "ronda": "Liga Regular",
+      "evento": "Indianápolis Colts vs Miami Dolphins",
+      "local": "Indianápolis Colts",
+      "visitante": "Miami Dolphins",
+      "fecha": "2026-11-15",
+      "hora": "19:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NFL",
+      "ronda": "Liga Regular",
+      "evento": "New York Jets vs Buffalo Bills",
+      "local": "New York Jets",
+      "visitante": "Buffalo Bills",
+      "fecha": "2026-11-15",
+      "hora": "19:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NFL",
+      "ronda": "Liga Regular",
+      "evento": "Cleveland Browns vs Houston Texans",
+      "local": "Cleveland Browns",
+      "visitante": "Houston Texans",
+      "fecha": "2026-11-15",
+      "hora": "19:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NFL",
+      "ronda": "Liga Regular",
+      "evento": "Tennessee Titans vs Jacksonville Jaguars",
+      "local": "Tennessee Titans",
+      "visitante": "Jacksonville Jaguars",
+      "fecha": "2026-11-15",
+      "hora": "19:00",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Boise State vs Nebraska",
+      "local": "Boise State",
+      "visitante": "Nebraska",
+      "fecha": "2026-11-15",
+      "hora": "19:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera Nacional Argentina",
+      "ronda": null,
+      "evento": "Deportivo Morón vs Colegiales",
+      "local": "Deportivo Morón",
+      "visitante": "Colegiales",
+      "fecha": "2026-11-15",
+      "hora": "19:00",
+      "canales": [
+        "LPF Play (plan plus)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga 1 Perú",
+      "ronda": null,
+      "evento": "Comerciantes Unidos vs Sport Boys A.",
+      "local": "Comerciantes Unidos",
+      "visitante": "Sport Boys A.",
+      "fecha": "2026-11-15",
+      "hora": "19:00",
+      "canales": [
+        "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "NCAA Women",
+      "ronda": null,
+      "evento": "Vanderbilt vs Iowa",
+      "local": "Vanderbilt",
+      "visitante": "Iowa",
+      "fecha": "2026-11-15",
+      "hora": "19:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Liga Endesa",
+      "ronda": "Liga Regular",
+      "evento": "Baskonia vs Real Madrid Baloncesto",
+      "local": "Baskonia",
+      "visitante": "Real Madrid Baloncesto",
+      "fecha": "2026-11-15",
+      "hora": "19:00",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "Movistar Plus+ (M8): VER PARTIDO",
+        "DAZN Baloncesto (M74 O126)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "NBA",
+      "ronda": "Liga Regular",
+      "evento": "Philadelphia 76ers vs Indiana Pacers",
+      "local": "Philadelphia 76ers",
+      "visitante": "Indiana Pacers",
+      "fecha": "2026-11-15",
+      "hora": "19:00",
+      "canales": [
+        "NBA League Pass",
+        "Amazon Prime Video (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Golf",
+      "competicion": "Austin Championship",
+      "ronda": null,
+      "evento": "Jornada 4",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-11-15",
+      "hora": "20:00",
+      "canales": [
+        "HBO MAX",
+        "Movistar Golf (M68)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "ATP Finals",
+      "ronda": "Round Robin",
+      "evento": "B. Shelton vs A. Fils",
+      "local": "B. Shelton",
+      "visitante": "A. Fils",
+      "fecha": "2026-11-15",
+      "hora": "20:30",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga AUF Uruguaya",
+      "ronda": null,
+      "evento": "Danubio vs Liverpool FC",
+      "local": "Danubio",
+      "visitante": "Liverpool FC",
+      "fecha": "2026-11-15",
+      "hora": "20:30",
+      "canales": [
+        "Antel TV Internacional"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "UEFA Nations League",
+      "ronda": "Fase de grupos",
+      "evento": "España vs Inglaterra",
+      "local": "España",
+      "visitante": "Inglaterra",
+      "fecha": "2026-11-15",
+      "hora": "20:45",
+      "canales": [
+        "La 1 TVE",
+        "RTVE Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "UEFA Nations League",
+      "ronda": "Fase de grupos",
+      "evento": "Bélgica vs Italia",
+      "local": "Bélgica",
+      "visitante": "Italia",
+      "fecha": "2026-11-15",
+      "hora": "20:45",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "LaLiga TV M2"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "UEFA Nations League",
+      "ronda": "Fase de grupos",
+      "evento": "Francia vs Turquía",
+      "local": "Francia",
+      "visitante": "Turquía",
+      "fecha": "2026-11-15",
+      "hora": "20:45",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "UEFA Nations League",
+      "ronda": "Fase de grupos",
+      "evento": "Croacia vs República Checa",
+      "local": "Croacia",
+      "visitante": "República Checa",
+      "fecha": "2026-11-15",
+      "hora": "20:45",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "LaLiga TV M3"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "WTA Finals",
+      "ronda": null,
+      "evento": "Final",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-11-15",
+      "hora": "21:00",
+      "canales": [
+        "WTA TV",
+        "Tennis Channel - Orange TV (131)",
+        "Amazon Prime Video (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Creighton vs Iowa",
+      "local": "Creighton",
+      "visitante": "Iowa",
+      "fecha": "2026-11-15",
+      "hora": "21:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera Nacional Argentina",
+      "ronda": null,
+      "evento": "Godoy Cruz vs Tristán Suárez",
+      "local": "Godoy Cruz",
+      "visitante": "Tristán Suárez",
+      "fecha": "2026-11-15",
+      "hora": "21:00",
+      "canales": [
+        "LPF Play (plan plus)"
+      ]
+    },
+    {
+      "deporte": "Béisbol",
+      "competicion": "LVBP",
+      "ronda": null,
+      "evento": "Leones del Caracas vs Águilas del Zulia",
+      "local": "Leones del Caracas",
+      "visitante": "Águilas del Zulia",
+      "fecha": "2026-11-15",
+      "hora": "21:00",
+      "canales": [
+        "BeisbolPlay"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga 1 Perú",
+      "ronda": null,
+      "evento": "ACD Juan Pablo II College vs Deportivo Garcilaso",
+      "local": "ACD Juan Pablo II College",
+      "visitante": "Deportivo Garcilaso",
+      "fecha": "2026-11-15",
+      "hora": "21:15",
+      "canales": [
+        "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "NBA",
+      "ronda": "Liga Regular",
+      "evento": "Phoenix Suns vs Los Angeles Lakers",
+      "local": "Phoenix Suns",
+      "visitante": "Los Angeles Lakers",
+      "fecha": "2026-11-15",
+      "hora": "22:00",
+      "canales": [
+        "NBA League Pass",
+        "DAZN (Ver en directo)",
+        "DAZN Baloncesto 3 (M76 O128)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NFL",
+      "ronda": "Liga Regular",
+      "evento": "Las Vegas Raiders vs Seattle Seahawks",
+      "local": "Las Vegas Raiders",
+      "visitante": "Seattle Seahawks",
+      "fecha": "2026-11-15",
+      "hora": "22:05",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NFL",
+      "ronda": "Liga Regular",
+      "evento": "Arizona Cardinals vs Los Angeles Rams",
+      "local": "Arizona Cardinals",
+      "visitante": "Los Angeles Rams",
+      "fecha": "2026-11-15",
+      "hora": "22:05",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN 1 (M72)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Liga Sudamericana",
+      "ronda": null,
+      "evento": "Boca Juniors Básquet vs Flamengo Basketball",
+      "local": "Boca Juniors Básquet",
+      "visitante": "Flamengo Basketball",
+      "fecha": "2026-11-15",
+      "hora": "22:10",
+      "canales": [
+        "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NFL",
+      "ronda": "Liga Regular",
+      "evento": "Dallas Cowboys vs San Francisco 49ers",
+      "local": "Dallas Cowboys",
+      "visitante": "San Francisco 49ers",
+      "fecha": "2026-11-15",
+      "hora": "22:25",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "Mediaset Infinity"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "NBA",
+      "ronda": "Liga Regular",
+      "evento": "Los Angeles Clippers vs Charlotte Hornets",
+      "local": "Los Angeles Clippers",
+      "visitante": "Charlotte Hornets",
+      "fecha": "2026-11-15",
+      "hora": "22:30",
+      "canales": [
+        "NBA League Pass"
+      ]
+    },
+    {
+      "deporte": "Fútbol Sala",
+      "competicion": "Intercontinental Futsal Cup",
+      "ronda": "Fase de grupos",
+      "evento": "Palma Futsal vs Al-Ula FS",
+      "local": "Palma Futsal",
+      "visitante": "Al-Ula FS",
+      "fecha": "2026-11-15",
+      "hora": "23:00",
+      "canales": [
+        "Esports IB3 YouTube"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "NBA",
+      "ronda": "Liga Regular",
+      "evento": "Utah Jazz vs San Antonio Spurs",
+      "local": "Utah Jazz",
+      "visitante": "San Antonio Spurs",
+      "fecha": "2026-11-15",
+      "hora": "23:00",
+      "canales": [
+        "NBA League Pass",
+        "DAZN (Ver en directo)",
+        "DAZN Baloncesto 2 (M75 O127)"
       ]
     }
   ]

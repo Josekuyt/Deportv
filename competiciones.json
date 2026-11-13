@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-11-12T16:35:03"
+    "actualizado": "2026-11-13T05:10:05"
   },
   "config": {
     "puntos_por_tier": {
@@ -2237,6 +2237,26 @@
     },
     "Copa Continental Femenina": {
       "deporte": "Hockey Patines",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "ATP Finals": {
+      "deporte": "Tenis",
+      "tier": "A",
+      "por_revisar": true
+    },
+    "Amistoso Leyendas": {
+      "deporte": "Fútbol",
+      "tier": "D",
+      "por_revisar": true
+    },
+    "Intercontinental Futsal Cup": {
+      "deporte": "Fútbol Sala",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Saitama Criterium": {
+      "deporte": "Ciclismo",
       "tier": "C",
       "por_revisar": true
     }
