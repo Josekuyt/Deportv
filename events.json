@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-11-13T15:55:06",
+    "generado": "2026-11-13T21:48:09",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 475
+    "total_eventos": 496
   },
   "eventos": [
     {
@@ -507,7 +507,7 @@
       "local": "A. Tabilo",
       "visitante": "TA. Tirante",
       "fecha": "2026-11-13",
-      "hora": "14:00",
+      "hora": "14:10",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 2 (64)"
@@ -569,7 +569,7 @@
       "local": "T. Fritz",
       "visitante": "L. Musetti",
       "fecha": "2026-11-13",
-      "hora": "17:00",
+      "hora": "17:10",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 2 (64)"
@@ -1548,8 +1548,21 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Superliga Alevín",
+      "ronda": "Grupo Único (Madrid)",
+      "evento": "Real Madrid Academy vs Colegio Miramadrid",
+      "local": "Real Madrid Academy",
+      "visitante": "Colegio Miramadrid",
+      "fecha": "2026-11-14",
+      "hora": "09:45",
+      "canales": [
+        "Real Madrid TV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "División Honor Infantil",
-      "ronda": "Grupo 1 (Cataluña)",
+      "ronda": null,
       "evento": "FC Barcelona Academy vs Espanyol Academy",
       "local": "FC Barcelona Academy",
       "visitante": "Espanyol Academy",
@@ -1638,6 +1651,19 @@
       "hora": "11:00",
       "canales": [
         "Esport3 (Cataluña)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "División Honor Infantil",
+      "ronda": "Grupo 1 (Madrid)",
+      "evento": "Real Madrid Academy vs Colmenar Viejo Academy",
+      "local": "Real Madrid Academy",
+      "visitante": "Colmenar Viejo Academy",
+      "fecha": "2026-11-14",
+      "hora": "12:00",
+      "canales": [
+        "Real Madrid TV"
       ]
     },
     {
@@ -1742,6 +1768,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Primera Federación Femenina",
+      "ronda": null,
+      "evento": "Real Sociedad B Femenino vs Levante Femenino",
+      "local": "Real Sociedad B Femenino",
+      "visitante": "Levante Femenino",
+      "fecha": "2026-11-14",
+      "hora": "12:45",
+      "canales": [
+        "Real Sociedad TV YouTube"
+      ]
+    },
+    {
       "deporte": "Fútbol Sala",
       "competicion": "Liga Prime",
       "ronda": "Torneo Apertura",
@@ -1755,6 +1794,20 @@
         "Teledeporte",
         "RTVE Play",
         "Esport3 (Cataluña)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Estocolmo",
+      "ronda": "ATP 250",
+      "evento": "T. Fritz vs TA. Tirante",
+      "local": "T. Fritz",
+      "visitante": "TA. Tirante",
+      "fecha": "2026-11-14",
+      "hora": "13:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -1910,6 +1963,21 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "División Honor Infantil",
+      "ronda": null,
+      "evento": "Espanyol Academy vs FC Barcelona Academy",
+      "local": "Espanyol Academy",
+      "visitante": "FC Barcelona Academy",
+      "fecha": "2026-11-14",
+      "hora": "14:00",
+      "canales": [
+        "RCD Espanyol YouTube",
+        "Facebook RCD Espanyol",
+        "Twitter @RCDE_La21"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Liga AUF Uruguaya",
       "ronda": null,
       "evento": "Central Español vs Boston River",
@@ -1987,20 +2055,6 @@
       "hora": "15:00",
       "canales": [
         "FIBA YouTube"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Estocolmo",
-      "ronda": null,
-      "evento": "Final ATP 250",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-11-14",
-      "hora": "15:00",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -2478,6 +2532,19 @@
     {
       "deporte": "Fútbol",
       "competicion": "Tercera Federación",
+      "ronda": "Grupo 18",
+      "evento": "Manchego CR vs CD Villa",
+      "local": "Manchego CR",
+      "visitante": "CD Villa",
+      "fecha": "2026-11-14",
+      "hora": "17:00",
+      "canales": [
+        "CMMPlay (Castilla-LM)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
       "ronda": "Grupo 8",
       "evento": "Cristo Atlético vs Burgos Promesas",
       "local": "Cristo Atlético",
@@ -2513,6 +2580,19 @@
       "canales": [
         "TV FootballClub (Acceder)",
         "México F.C. YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Nacional Juvenil",
+      "ronda": "Grupo 12 (Madrid)",
+      "evento": "Real Madrid Academy vs Leganés Academy",
+      "local": "Real Madrid Academy",
+      "visitante": "Leganés Academy",
+      "fecha": "2026-11-14",
+      "hora": "17:00",
+      "canales": [
+        "Real Madrid TV"
       ]
     },
     {
@@ -3501,6 +3581,20 @@
       ]
     },
     {
+      "deporte": "Fútbol Sala",
+      "competicion": "Intercontinental Futsal Cup",
+      "ronda": "Fase de grupos",
+      "evento": "Carlos Barbosa vs Bintang Timur Surabaya",
+      "local": "Carlos Barbosa",
+      "visitante": "Bintang Timur Surabaya",
+      "fecha": "2026-11-14",
+      "hora": "20:30",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Liga AUF Uruguaya",
       "ronda": null,
@@ -3912,6 +4006,20 @@
       "hora": "22:30",
       "canales": [
         "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Sala",
+      "competicion": "Intercontinental Futsal Cup",
+      "ronda": "Fase de grupos",
+      "evento": "Pato Futsal vs Al-Ula FS",
+      "local": "Pato Futsal",
+      "visitante": "Al-Ula FS",
+      "fecha": "2026-11-14",
+      "hora": "23:00",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
@@ -4482,6 +4590,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Liga Nacional Juvenil",
+      "ronda": "Grupo 4 (País Vasco)",
+      "evento": "Real Sociedad Academy vs Antiguoko FC",
+      "local": "Real Sociedad Academy",
+      "visitante": "Antiguoko FC",
+      "fecha": "2026-11-15",
+      "hora": "10:30",
+      "canales": [
+        "Real Sociedad TV YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "UEFA Torneo Desarrollo Sub-15 Femenino",
       "ronda": null,
       "evento": "España vs Bélgica",
@@ -4491,6 +4612,19 @@
       "hora": "11:00",
       "canales": [
         "SeFutbol YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "1ª Autonómica Preferente",
+      "ronda": null,
+      "evento": "CD Griñón vs Inter de Valdemoro",
+      "local": "CD Griñón",
+      "visitante": "Inter de Valdemoro",
+      "fecha": "2026-11-15",
+      "hora": "11:30",
+      "canales": [
+        "La Otra (Madrid)"
       ]
     },
     {
@@ -4951,6 +5085,19 @@
     {
       "deporte": "Fútbol",
       "competicion": "Tercera Federación",
+      "ronda": "Grupo 18",
+      "evento": "AD San Clemente vs AD Illescas",
+      "local": "AD San Clemente",
+      "visitante": "AD Illescas",
+      "fecha": "2026-11-15",
+      "hora": "12:30",
+      "canales": [
+        "CMMPlay (Castilla-LM)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
       "ronda": "Grupo 9",
       "evento": "Churriana de la Vega CF vs CF Motril",
       "local": "Churriana de la Vega CF",
@@ -4998,6 +5145,19 @@
       "hora": "13:00",
       "canales": [
         "Esport3 Web"
+      ]
+    },
+    {
+      "deporte": "Atletismo",
+      "competicion": "Cross Internacional de Soria",
+      "ronda": null,
+      "evento": "Carrera Femenina",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-11-15",
+      "hora": "13:15",
+      "canales": [
+        "RTVE Play"
       ]
     },
     {
@@ -5056,6 +5216,20 @@
       "hora": "14:00",
       "canales": [
         "EHF TV"
+      ]
+    },
+    {
+      "deporte": "Atletismo",
+      "competicion": "Cross Internacional de Soria",
+      "ronda": null,
+      "evento": "Carrera Masculina",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-11-15",
+      "hora": "14:00",
+      "canales": [
+        "Teledeporte",
+        "RTVE Play"
       ]
     },
     {
@@ -5533,6 +5707,45 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 18",
+      "evento": "CD Toledo vs Villarrobledo",
+      "local": "CD Toledo",
+      "visitante": "Villarrobledo",
+      "fecha": "2026-11-15",
+      "hora": "16:30",
+      "canales": [
+        "CMMPlay (Castilla-LM)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 17",
+      "evento": "At. Monzón vs Ejea",
+      "local": "At. Monzón",
+      "visitante": "Ejea",
+      "fecha": "2026-11-15",
+      "hora": "16:30",
+      "canales": [
+        "Lacronicadeportes.es"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 17",
+      "evento": "UD Fraga vs CD Belchite 97",
+      "local": "UD Fraga",
+      "visitante": "CD Belchite 97",
+      "fecha": "2026-11-15",
+      "hora": "16:30",
+      "canales": [
+        "Lacronicadeportes.es"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Segunda Federación",
       "ronda": "Grupo 3",
       "evento": "UD Castellonense vs Orihuela",
@@ -5595,6 +5808,19 @@
       "hora": "17:00",
       "canales": [
         "Web Directo"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
+      "ronda": "Grupo 5",
+      "evento": "Conquense vs Guadalajara",
+      "local": "Conquense",
+      "visitante": "Guadalajara",
+      "fecha": "2026-11-15",
+      "hora": "17:00",
+      "canales": [
+        "CMMPlay (Castilla-LM)"
       ]
     },
     {
@@ -5686,7 +5912,8 @@
       "fecha": "2026-11-15",
       "hora": "17:00",
       "canales": [
-        "TV FootballClub (Acceder)"
+        "TV FootballClub (Acceder)",
+        "CMMPlay (Castilla-LM)"
       ]
     },
     {
@@ -5761,6 +5988,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "División Honor Cadete",
+      "ronda": "Grupo 1 (Madrid)",
+      "evento": "Real Madrid Academy vs Aravaca Academy",
+      "local": "Real Madrid Academy",
+      "visitante": "Aravaca Academy",
+      "fecha": "2026-11-15",
+      "hora": "17:15",
+      "canales": [
+        "Real Madrid TV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "FA Women's Super League",
       "ronda": null,
       "evento": "Arsenal Femenino vs London City Lionesses",
@@ -5796,6 +6036,20 @@
       "hora": "18:00",
       "canales": [
         "BalONcesto TV PPV"
+      ]
+    },
+    {
+      "deporte": "Boxeo",
+      "competicion": "Velada",
+      "ronda": null,
+      "evento": "Liga4Boxing",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-11-15",
+      "hora": "18:00",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
@@ -6186,6 +6440,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "1ª Autonómica Juvenil",
+      "ronda": "Grupo 1 (Madrid)",
+      "evento": "Real Madrid Academy vs Complutense Alcalá Academy",
+      "local": "Real Madrid Academy",
+      "visitante": "Complutense Alcalá Academy",
+      "fecha": "2026-11-15",
+      "hora": "19:15",
+      "canales": [
+        "Real Madrid TV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Torneo Federal A",
       "ronda": "4ª Fase",
       "evento": "CA Alvarado vs Sarmiento La Banda",
@@ -6209,6 +6476,20 @@
       "canales": [
         "HBO MAX",
         "Movistar Golf (M68)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Sala",
+      "competicion": "Intercontinental Futsal Cup",
+      "ronda": "Fase de grupos",
+      "evento": "Sporting CP FS vs Bintang Timur Surabaya",
+      "local": "Sporting CP FS",
+      "visitante": "Bintang Timur Surabaya",
+      "fecha": "2026-11-15",
+      "hora": "20:30",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
@@ -6465,7 +6746,9 @@
       "fecha": "2026-11-15",
       "hora": "23:00",
       "canales": [
-        "Esports IB3 YouTube"
+        "Esports IB3 YouTube",
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
