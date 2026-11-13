@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-11-13T05:10:05",
+    "generado": "2026-11-13T15:55:06",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 448
+    "total_eventos": 475
   },
   "eventos": [
     {
@@ -471,6 +471,21 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Amistoso",
+      "ronda": null,
+      "evento": "Espanyol vs Inter Club d'Escaldes",
+      "local": "Espanyol",
+      "visitante": "Inter Club d'Escaldes",
+      "fecha": "2026-11-13",
+      "hora": "11:30",
+      "canales": [
+        "RCD Espanyol YouTube",
+        "Twitter @RCDEspanyol",
+        "Facebook RCD Espanyol"
+      ]
+    },
+    {
       "deporte": "Pádel",
       "competicion": "Dubai Open",
       "ronda": null,
@@ -487,12 +502,12 @@
     {
       "deporte": "Tenis",
       "competicion": "Torneo de Estocolmo",
-      "ronda": null,
-      "evento": "Semifinal 1 ATP 250",
-      "local": null,
-      "visitante": null,
+      "ronda": "ATP 250",
+      "evento": "A. Tabilo vs TA. Tirante",
+      "local": "A. Tabilo",
+      "visitante": "TA. Tirante",
       "fecha": "2026-11-13",
-      "hora": "14:30",
+      "hora": "14:00",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 2 (64)"
@@ -549,12 +564,12 @@
     {
       "deporte": "Tenis",
       "competicion": "Torneo de Estocolmo",
-      "ronda": null,
-      "evento": "Semifinal 2 ATP 250",
-      "local": null,
-      "visitante": null,
+      "ronda": "ATP 250",
+      "evento": "T. Fritz vs L. Musetti",
+      "local": "T. Fritz",
+      "visitante": "L. Musetti",
       "fecha": "2026-11-13",
-      "hora": "18:00",
+      "hora": "17:00",
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 2 (64)"
@@ -662,19 +677,6 @@
     },
     {
       "deporte": "Fútbol",
-      "competicion": "Liga 1 Perú",
-      "ronda": null,
-      "evento": "UTC Cajamarca vs CD Los Chankas",
-      "local": "UTC Cajamarca",
-      "visitante": "CD Los Chankas",
-      "fecha": "2026-11-13",
-      "hora": "19:00",
-      "canales": [
-        "Fanatiz (Ver en directo)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
       "competicion": "Amistoso Sub-21",
       "ronda": null,
       "evento": "España vs Japón",
@@ -773,7 +775,8 @@
         "Liga U YouTube",
         "DAZN (Ver en directo)",
         "DAZN App Gratis (Ver gratis)",
-        "DAZN Baloncesto 3 (M76 O128)"
+        "DAZN Baloncesto 3 (M76 O128)",
+        "Marca YouTube"
       ]
     },
     {
@@ -1322,6 +1325,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Liga Colombiana",
+      "ronda": null,
+      "evento": "Inter Bogotá vs Santa Fe",
+      "local": "Inter Bogotá",
+      "visitante": "Santa Fe",
+      "fecha": "2026-11-14",
+      "hora": "02:30",
+      "canales": [
+        "RCN Nuestra Tele"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "NBA",
       "ronda": "Liga Regular",
@@ -1544,6 +1560,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Europeo Sub-17",
+      "ronda": "Fase de Clasificación",
+      "evento": "Alemania vs Lituania",
+      "local": "Alemania",
+      "visitante": "Lituania",
+      "fecha": "2026-11-14",
+      "hora": "11:00",
+      "canales": [
+        "German Football YouTube"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "Eurobasket Femenino",
       "ronda": "Fase de Clasificación",
@@ -1646,6 +1675,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 12",
+      "evento": "Real Unión Tenerife vs Mensajero",
+      "local": "Real Unión Tenerife",
+      "visitante": "Mensajero",
+      "fecha": "2026-11-14",
+      "hora": "12:00",
+      "canales": [
+        "Movidadeportivatv YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "División Honor Juvenil",
       "ronda": "Grupo 4",
       "evento": "Real Betis Academy vs Cádiz CF Academy",
@@ -1657,6 +1699,19 @@
         "Plaiz",
         "Real Betis Balompié YouTube",
         "Real Betis TV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Nacional Juvenil",
+      "ronda": "Grupo 16 (Navarra)",
+      "evento": "Osasuna Academy vs Rotxapea CD",
+      "local": "Osasuna Academy",
+      "visitante": "Rotxapea CD",
+      "fecha": "2026-11-14",
+      "hora": "12:00",
+      "canales": [
+        "Osasuna TV"
       ]
     },
     {
@@ -1732,6 +1787,19 @@
         "M+ Vamos (11 y 50)",
         "M+ #Vamos Bar (307)",
         "M+ Deportes (63)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 12",
+      "evento": "UD Playas de Sotavento vs UD Lanzarote",
+      "local": "UD Playas de Sotavento",
+      "visitante": "UD Lanzarote",
+      "fecha": "2026-11-14",
+      "hora": "13:00",
+      "canales": [
+        "Deportes TVCanaria YouTube"
       ]
     },
     {
@@ -1879,6 +1947,19 @@
       "hora": "14:30",
       "canales": [
         "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "FA Women's Super League",
+      "ronda": null,
+      "evento": "Chelsea Femenino vs Man City Femenino",
+      "local": "Chelsea Femenino",
+      "visitante": "Man City Femenino",
+      "fecha": "2026-11-14",
+      "hora": "14:30",
+      "canales": [
+        "ElevenTV YouTube"
       ]
     },
     {
@@ -2198,7 +2279,8 @@
       "fecha": "2026-11-14",
       "hora": "16:00",
       "canales": [
-        "TV FootballClub (Acceder)"
+        "TV FootballClub (Acceder)",
+        "Plaiz"
       ]
     },
     {
@@ -2354,6 +2436,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
+      "ronda": "Grupo 2",
+      "evento": "Osasuna Promesas vs SD Logroñés",
+      "local": "Osasuna Promesas",
+      "visitante": "SD Logroñés",
+      "fecha": "2026-11-14",
+      "hora": "17:00",
+      "canales": [
+        "Osasuna TV"
+      ]
+    },
+    {
       "deporte": "Rugby U",
       "competicion": "World Rugby Nations Cup",
       "ronda": null,
@@ -2383,6 +2478,19 @@
     {
       "deporte": "Fútbol",
       "competicion": "Tercera Federación",
+      "ronda": "Grupo 8",
+      "evento": "Cristo Atlético vs Burgos Promesas",
+      "local": "Cristo Atlético",
+      "visitante": "Burgos Promesas",
+      "fecha": "2026-11-14",
+      "hora": "17:00",
+      "canales": [
+        "Elviphotoss YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
       "ronda": "Grupo 5",
       "evento": "Atlètic Lleida vs Martinenc",
       "local": "Atlètic Lleida",
@@ -2403,7 +2511,8 @@
       "fecha": "2026-11-14",
       "hora": "17:00",
       "canales": [
-        "TV FootballClub (Acceder)"
+        "TV FootballClub (Acceder)",
+        "México F.C. YouTube"
       ]
     },
     {
@@ -2417,6 +2526,23 @@
       "hora": "17:30",
       "canales": [
         "RTVE Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 6",
+      "evento": "Villarreal C vs Ath. Torrellano",
+      "local": "Villarreal C",
+      "visitante": "Ath. Torrellano",
+      "fecha": "2026-11-14",
+      "hora": "17:30",
+      "canales": [
+        "Villarreal TV",
+        "VillarrealCF YouTube",
+        "Twitch VillarrealCF",
+        "Facebook Live Villarreal CF",
+        "Twitter Villarreal CF"
       ]
     },
     {
@@ -2594,6 +2720,32 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Primera Catalana",
+      "ronda": "Grupo 3",
+      "evento": "Santfeliuenc vs CE Júpiter",
+      "local": "Santfeliuenc",
+      "visitante": "CE Júpiter",
+      "fecha": "2026-11-14",
+      "hora": "18:00",
+      "canales": [
+        "FCF TV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "NWSL",
+      "ronda": null,
+      "evento": "Washington Spirit vs Utah Royals FC",
+      "local": "Washington Spirit",
+      "visitante": "Utah Royals FC",
+      "fecha": "2026-11-14",
+      "hora": "18:00",
+      "canales": [
+        "NWSL+"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "UEFA Nations League",
       "ronda": "Fase de grupos",
       "evento": "Noruega vs Gales",
@@ -2683,7 +2835,8 @@
       "hora": "18:00",
       "canales": [
         "TV FootballClub (Acceder)",
-        "La Xarxa+"
+        "La Xarxa+",
+        "FC Barcelona PPV YouTube"
       ]
     },
     {
@@ -2807,6 +2960,19 @@
       "hora": "18:30",
       "canales": [
         "BalONcesto TV PPV"
+      ]
+    },
+    {
+      "deporte": "Hockey Patines",
+      "competicion": "Copa Continental",
+      "ronda": "Semifinales",
+      "evento": "FC Porto HP vs Calafell",
+      "local": "FC Porto HP",
+      "visitante": "Calafell",
+      "fecha": "2026-11-14",
+      "hora": "18:30",
+      "canales": [
+        "Esport3 Web"
       ]
     },
     {
@@ -3075,6 +3241,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Primera C",
+      "ronda": "Reducido Segundo Ascenso",
+      "evento": "Cañuelas vs Central Córdoba R",
+      "local": "Cañuelas",
+      "visitante": "Central Córdoba R",
+      "fecha": "2026-11-14",
+      "hora": "19:00",
+      "canales": [
+        "LPF Play (plan plus)"
+      ]
+    },
+    {
       "deporte": "Fútbol Sala",
       "competicion": "Primera Federación Femenina",
       "ronda": null,
@@ -3195,7 +3374,8 @@
       "fecha": "2026-11-14",
       "hora": "19:30",
       "canales": [
-        "FutsalRFEF YouTube"
+        "FutsalRFEF YouTube",
+        "TV Melilla"
       ]
     },
     {
@@ -3447,7 +3627,8 @@
       "fecha": "2026-11-14",
       "hora": "21:00",
       "canales": [
-        "Replay"
+        "Replay",
+        "Replay YouTube (ver en directo)"
       ]
     },
     {
@@ -3560,6 +3741,84 @@
       "hora": "21:30",
       "canales": [
         "Disney+"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Colombiana",
+      "ronda": null,
+      "evento": "Cúcuta vs Jaguares FC",
+      "local": "Cúcuta",
+      "visitante": "Jaguares FC",
+      "fecha": "2026-11-14",
+      "hora": "21:30",
+      "canales": [
+        "Win Sports TV YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Colombiana",
+      "ronda": null,
+      "evento": "Deportivo Cali vs Deportes Tolima",
+      "local": "Deportivo Cali",
+      "visitante": "Deportes Tolima",
+      "fecha": "2026-11-14",
+      "hora": "21:30",
+      "canales": [
+        "Win Sports TV YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Colombiana",
+      "ronda": null,
+      "evento": "Águilas Doradas Rionegro vs Medellín",
+      "local": "Águilas Doradas Rionegro",
+      "visitante": "Medellín",
+      "fecha": "2026-11-14",
+      "hora": "21:30",
+      "canales": [
+        "Win Sports TV YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Colombiana",
+      "ronda": null,
+      "evento": "Atlético Nacional vs Once Caldas",
+      "local": "Atlético Nacional",
+      "visitante": "Once Caldas",
+      "fecha": "2026-11-14",
+      "hora": "21:30",
+      "canales": [
+        "Win Sports TV YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Colombiana",
+      "ronda": null,
+      "evento": "Bucaramanga vs Fortaleza",
+      "local": "Bucaramanga",
+      "visitante": "Fortaleza",
+      "fecha": "2026-11-14",
+      "hora": "21:30",
+      "canales": [
+        "Win Sports TV YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Colombiana",
+      "ronda": null,
+      "evento": "Deportivo Pereira vs América de Cali",
+      "local": "Deportivo Pereira",
+      "visitante": "América de Cali",
+      "fecha": "2026-11-14",
+      "hora": "21:30",
+      "canales": [
+        "Win Sports TV YouTube"
       ]
     },
     {
@@ -4223,6 +4482,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "UEFA Torneo Desarrollo Sub-15 Femenino",
+      "ronda": null,
+      "evento": "España vs Bélgica",
+      "local": "España",
+      "visitante": "Bélgica",
+      "fecha": "2026-11-15",
+      "hora": "11:00",
+      "canales": [
+        "SeFutbol YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Segunda Federación",
       "ronda": "Grupo 3",
       "evento": "CD Cieza vs Peña Deportiva",
@@ -4487,7 +4759,7 @@
         "DAZN 1 Bar (M148)",
         "Teledeporte",
         "RTVE Play",
-        "Esport3 Web",
+        "Esport3 (Cataluña)",
         "ETB1 (País Vasco)"
       ]
     },
@@ -4515,6 +4787,19 @@
       "hora": "12:00",
       "canales": [
         "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 8",
+      "evento": "Calasanz vs SD Almazán",
+      "local": "Calasanz",
+      "visitante": "SD Almazán",
+      "fecha": "2026-11-15",
+      "hora": "12:00",
+      "canales": [
+        "La 7 (Castilla y León)"
       ]
     },
     {
@@ -4581,6 +4866,19 @@
       "hora": "12:00",
       "canales": [
         "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 4",
+      "evento": "Aurrera de Vitoria vs Beasain",
+      "local": "Aurrera de Vitoria",
+      "visitante": "Beasain",
+      "fecha": "2026-11-15",
+      "hora": "12:00",
+      "canales": [
+        "Elviphotoss YouTube"
       ]
     },
     {
@@ -4699,7 +4997,7 @@
       "fecha": "2026-11-15",
       "hora": "13:00",
       "canales": [
-        "Esport3 (Cataluña)"
+        "Esport3 Web"
       ]
     },
     {
@@ -5216,7 +5514,21 @@
       "fecha": "2026-11-15",
       "hora": "16:30",
       "canales": [
-        "TV FootballClub (Acceder)"
+        "TV FootballClub (Acceder)",
+        "Getafe CF YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera Federación Femenina",
+      "ronda": null,
+      "evento": "Athletic B Femenino vs Fundación Albacete",
+      "local": "Athletic B Femenino",
+      "visitante": "Fundación Albacete",
+      "fecha": "2026-11-15",
+      "hora": "16:30",
+      "canales": [
+        "Athletic-club.eus"
       ]
     },
     {
@@ -5449,6 +5761,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "FA Women's Super League",
+      "ronda": null,
+      "evento": "Arsenal Femenino vs London City Lionesses",
+      "local": "Arsenal Femenino",
+      "visitante": "London City Lionesses",
+      "fecha": "2026-11-15",
+      "hora": "17:30",
+      "canales": [
+        "ElevenTV YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Tercera Federación",
       "ronda": "Grupo 9",
       "evento": "At. Porcuna vs UDC Torredonjimeno",
@@ -5471,19 +5796,6 @@
       "hora": "18:00",
       "canales": [
         "BalONcesto TV PPV"
-      ]
-    },
-    {
-      "deporte": "Balonmano",
-      "competicion": "EHF Women's European League",
-      "ronda": "2ª Ronda Clasificación",
-      "evento": "BM Bera Bera vs Rocasa Gran Canaria",
-      "local": "BM Bera Bera",
-      "visitante": "Rocasa Gran Canaria",
-      "fecha": "2026-11-15",
-      "hora": "18:00",
-      "canales": [
-        "ETBK (País Vasco)"
       ]
     },
     {
@@ -5793,6 +6105,32 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Torneo Federal A",
+      "ronda": "4ª Fase",
+      "evento": "Cipolletti vs Juventud Antoniana",
+      "local": "Cipolletti",
+      "visitante": "Juventud Antoniana",
+      "fecha": "2026-11-15",
+      "hora": "19:00",
+      "canales": [
+        "LPF Play (plan plus)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera C",
+      "ronda": "Reducido Segundo Ascenso",
+      "evento": "Dep. Español vs Estrella del Sur",
+      "local": "Dep. Español",
+      "visitante": "Estrella del Sur",
+      "fecha": "2026-11-15",
+      "hora": "19:00",
+      "canales": [
+        "LPF Play (plan plus)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Liga 1 Perú",
       "ronda": null,
       "evento": "Comerciantes Unidos vs Sport Boys A.",
@@ -5844,6 +6182,19 @@
       "canales": [
         "NBA League Pass",
         "Amazon Prime Video (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Torneo Federal A",
+      "ronda": "4ª Fase",
+      "evento": "CA Alvarado vs Sarmiento La Banda",
+      "local": "CA Alvarado",
+      "visitante": "Sarmiento La Banda",
+      "fecha": "2026-11-15",
+      "hora": "20:00",
+      "canales": [
+        "LPF Play (plan plus)"
       ]
     },
     {
@@ -5981,6 +6332,19 @@
       "hora": "21:00",
       "canales": [
         "LPF Play (plan plus)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Torneo Federal A",
+      "ronda": "4ª Fase",
+      "evento": "Gimnasia y Esgrima Chivilcoy vs Douglas Haig",
+      "local": "Gimnasia y Esgrima Chivilcoy",
+      "visitante": "Douglas Haig",
+      "fecha": "2026-11-15",
+      "hora": "21:00",
+      "canales": [
+        "LPF Play"
       ]
     },
     {
