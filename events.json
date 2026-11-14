@@ -1,7 +1,7 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-11-14T14:45:57",
+    "generado": "2026-11-14T20:25:21",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
     "total_eventos": 460
   },
@@ -677,20 +677,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "Torneo de Estocolmo",
-      "ronda": "ATP 250",
-      "evento": "T. Fritz vs TA. Tirante",
-      "local": "T. Fritz",
-      "visitante": "TA. Tirante",
-      "fecha": "2026-11-14",
-      "hora": "13:00",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes 2 (64)"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "Primera Federación",
       "ronda": "Grupo 1",
@@ -733,6 +719,20 @@
       "hora": "13:00",
       "canales": [
         "Deportes TVCanaria YouTube"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Torneo de Estocolmo",
+      "ronda": "ATP 250",
+      "evento": "T. Fritz vs TA. Tirante",
+      "local": "T. Fritz",
+      "visitante": "TA. Tirante",
+      "fecha": "2026-11-14",
+      "hora": "13:10",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
       ]
     },
     {
