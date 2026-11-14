@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-11-14T04:59:46",
+    "generado": "2026-11-14T14:45:57",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 457
+    "total_eventos": 460
   },
   "eventos": [
     {
@@ -2171,6 +2171,9 @@
       "hora": "19:00",
       "canales": [
         "RFEF.es",
+        "Canalcosta TV (Huelva)",
+        "Teleonuba (Huelva)",
+        "Condavisión (Huelva)",
         "RFEF TV YouTube"
       ]
     },
@@ -2461,20 +2464,6 @@
       ]
     },
     {
-      "deporte": "Fútbol Sala",
-      "competicion": "Intercontinental Futsal Cup",
-      "ronda": "Fase de grupos",
-      "evento": "Carlos Barbosa vs Bintang Timur Surabaya",
-      "local": "Carlos Barbosa",
-      "visitante": "Bintang Timur Surabaya",
-      "fecha": "2026-11-14",
-      "hora": "20:30",
-      "canales": [
-        "DAZN (Ver en directo)",
-        "DAZN App Gratis (Ver gratis)"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "Liga AUF Uruguaya",
       "ronda": null,
@@ -2579,16 +2568,30 @@
     {
       "deporte": "Tenis",
       "competicion": "WTA Finals",
-      "ronda": null,
-      "evento": "Semifinal 1",
-      "local": null,
-      "visitante": null,
+      "ronda": "Semifinal 1",
+      "evento": "J. Pegula vs M. Andreeva",
+      "local": "J. Pegula",
+      "visitante": "M. Andreeva",
       "fecha": "2026-11-14",
       "hora": "21:00",
       "canales": [
         "WTA TV",
         "Tennis Channel - Orange TV (131)",
         "Amazon Prime Video (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Sala",
+      "competicion": "Intercontinental Futsal Cup",
+      "ronda": "Fase de grupos",
+      "evento": "Carlos Barbosa vs Bintang Timur Surabaya",
+      "local": "Carlos Barbosa",
+      "visitante": "Bintang Timur Surabaya",
+      "fecha": "2026-11-14",
+      "hora": "21:00",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
@@ -2721,13 +2724,27 @@
       "deporte": "Fútbol",
       "competicion": "Liga Colombiana",
       "ronda": null,
+      "evento": "Millonarios vs Alianza",
+      "local": "Millonarios",
+      "visitante": "Alianza",
+      "fecha": "2026-11-14",
+      "hora": "21:30",
+      "canales": [
+        "RCN Nuestra Tele"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Colombiana",
+      "ronda": null,
       "evento": "Cúcuta vs Jaguares FC",
       "local": "Cúcuta",
       "visitante": "Jaguares FC",
       "fecha": "2026-11-14",
       "hora": "21:30",
       "canales": [
-        "Win Sports TV YouTube"
+        "Win Sports TV YouTube",
+        "RCN Nuestra Tele"
       ]
     },
     {
@@ -2740,7 +2757,8 @@
       "fecha": "2026-11-14",
       "hora": "21:30",
       "canales": [
-        "Win Sports TV YouTube"
+        "Win Sports TV YouTube",
+        "RCN Nuestra Tele"
       ]
     },
     {
@@ -2753,7 +2771,8 @@
       "fecha": "2026-11-14",
       "hora": "21:30",
       "canales": [
-        "Win Sports TV YouTube"
+        "Win Sports TV YouTube",
+        "RCN Nuestra Tele"
       ]
     },
     {
@@ -2766,7 +2785,8 @@
       "fecha": "2026-11-14",
       "hora": "21:30",
       "canales": [
-        "Win Sports TV YouTube"
+        "Win Sports TV YouTube",
+        "RCN Nuestra Tele"
       ]
     },
     {
@@ -2779,7 +2799,8 @@
       "fecha": "2026-11-14",
       "hora": "21:30",
       "canales": [
-        "Win Sports TV YouTube"
+        "Win Sports TV YouTube",
+        "RCN Nuestra Tele"
       ]
     },
     {
@@ -2792,7 +2813,8 @@
       "fecha": "2026-11-14",
       "hora": "21:30",
       "canales": [
-        "Win Sports TV YouTube"
+        "Win Sports TV YouTube",
+        "RCN Nuestra Tele"
       ]
     },
     {
@@ -2850,10 +2872,10 @@
     {
       "deporte": "Tenis",
       "competicion": "WTA Finals",
-      "ronda": null,
-      "evento": "Semifinal 2",
-      "local": null,
-      "visitante": null,
+      "ronda": "Semifinal 2",
+      "evento": "L. Noskova vs E. Svitolina",
+      "local": "L. Noskova",
+      "visitante": "E. Svitolina",
       "fecha": "2026-11-14",
       "hora": "22:30",
       "canales": [
@@ -2886,20 +2908,6 @@
       "hora": "22:30",
       "canales": [
         "Fanatiz (Ver en directo)"
-      ]
-    },
-    {
-      "deporte": "Fútbol Sala",
-      "competicion": "Intercontinental Futsal Cup",
-      "ronda": "Fase de grupos",
-      "evento": "Pato Futsal vs Al-Ula FS",
-      "local": "Pato Futsal",
-      "visitante": "Al-Ula FS",
-      "fecha": "2026-11-14",
-      "hora": "23:00",
-      "canales": [
-        "DAZN (Ver en directo)",
-        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
@@ -2955,6 +2963,19 @@
       ]
     },
     {
+      "deporte": "Fútbol Sala",
+      "competicion": "Primera División Futsal AFA",
+      "ronda": null,
+      "evento": "Newell's Old Boys FS vs Estudiantil Porteño FS",
+      "local": "Newell's Old Boys FS",
+      "visitante": "Estudiantil Porteño FS",
+      "fecha": "2026-11-14",
+      "hora": "23:30",
+      "canales": [
+        "LPF Play (plan plus)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Primera Nacional Argentina",
       "ronda": null,
@@ -2978,6 +2999,20 @@
       "hora": "00:30",
       "canales": [
         "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Sala",
+      "competicion": "Intercontinental Futsal Cup",
+      "ronda": "Fase de grupos",
+      "evento": "Pato Futsal vs Al-Ula FS",
+      "local": "Pato Futsal",
+      "visitante": "Al-Ula FS",
+      "fecha": "2026-11-15",
+      "hora": "01:00",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
@@ -5359,20 +5394,6 @@
       ]
     },
     {
-      "deporte": "Fútbol Sala",
-      "competicion": "Intercontinental Futsal Cup",
-      "ronda": "Fase de grupos",
-      "evento": "Sporting CP FS vs Bintang Timur Surabaya",
-      "local": "Sporting CP FS",
-      "visitante": "Bintang Timur Surabaya",
-      "fecha": "2026-11-15",
-      "hora": "20:30",
-      "canales": [
-        "DAZN (Ver en directo)",
-        "DAZN App Gratis (Ver gratis)"
-      ]
-    },
-    {
       "deporte": "Tenis",
       "competicion": "ATP Finals",
       "ronda": "Round Robin",
@@ -5467,6 +5488,20 @@
         "WTA TV",
         "Tennis Channel - Orange TV (131)",
         "Amazon Prime Video (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Sala",
+      "competicion": "Intercontinental Futsal Cup",
+      "ronda": "Fase de grupos",
+      "evento": "Sporting CP FS vs Bintang Timur Surabaya",
+      "local": "Sporting CP FS",
+      "visitante": "Bintang Timur Surabaya",
+      "fecha": "2026-11-15",
+      "hora": "21:00",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
@@ -5617,21 +5652,6 @@
       ]
     },
     {
-      "deporte": "Fútbol Sala",
-      "competicion": "Intercontinental Futsal Cup",
-      "ronda": "Fase de grupos",
-      "evento": "Palma Futsal vs Al-Ula FS",
-      "local": "Palma Futsal",
-      "visitante": "Al-Ula FS",
-      "fecha": "2026-11-15",
-      "hora": "23:00",
-      "canales": [
-        "Esports IB3 YouTube",
-        "DAZN (Ver en directo)",
-        "DAZN App Gratis (Ver gratis)"
-      ]
-    },
-    {
       "deporte": "Baloncesto",
       "competicion": "NBA",
       "ronda": "Liga Regular",
@@ -5644,6 +5664,21 @@
         "NBA League Pass",
         "DAZN (Ver en directo)",
         "DAZN Baloncesto 2 (M75 O127)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Sala",
+      "competicion": "Intercontinental Futsal Cup",
+      "ronda": "Fase de grupos",
+      "evento": "Palma Futsal vs Al-Ula FS",
+      "local": "Palma Futsal",
+      "visitante": "Al-Ula FS",
+      "fecha": "2026-11-16",
+      "hora": "00:00",
+      "canales": [
+        "Esports IB3 YouTube",
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
@@ -5731,6 +5766,19 @@
       "evento": "Ferro Carril Oeste vs Gimnasia y Tiro",
       "local": "Ferro Carril Oeste",
       "visitante": "Gimnasia y Tiro",
+      "fecha": "2026-11-16",
+      "hora": "00:30",
+      "canales": [
+        "LPF Play (plan plus)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Sala",
+      "competicion": "Primera División Futsal AFA",
+      "ronda": "Semifinales",
+      "evento": "Independiente Futsal vs River Plate Futsal",
+      "local": "Independiente Futsal",
+      "visitante": "River Plate Futsal",
       "fecha": "2026-11-16",
       "hora": "00:30",
       "canales": [
