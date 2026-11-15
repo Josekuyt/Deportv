@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-11-15T04:53:35",
+    "generado": "2026-11-15T15:21:43",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 326
+    "total_eventos": 332
   },
   "eventos": [
     {
@@ -792,7 +792,8 @@
       "hora": "12:00",
       "canales": [
         "DAZN (Ver en directo)",
-        "DAZN Baloncesto 2 (M75 O127)"
+        "DAZN Baloncesto 2 (M75 O127)",
+        "TV Galicia"
       ]
     },
     {
@@ -2339,7 +2340,8 @@
       "fecha": "2026-11-15",
       "hora": "19:00",
       "canales": [
-        "Fanatiz (Ver en directo)"
+        "Fanatiz (Ver en directo)",
+        "L1 Max YouTube"
       ]
     },
     {
@@ -2489,7 +2491,8 @@
       "fecha": "2026-11-15",
       "hora": "20:45",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "LaLiga TV Bar"
       ]
     },
     {
@@ -2509,10 +2512,10 @@
     {
       "deporte": "Tenis",
       "competicion": "WTA Finals",
-      "ronda": null,
-      "evento": "Final",
-      "local": null,
-      "visitante": null,
+      "ronda": "Final",
+      "evento": "E. Svitolina vs M. Andreeva",
+      "local": "E. Svitolina",
+      "visitante": "M. Andreeva",
       "fecha": "2026-11-15",
       "hora": "21:00",
       "canales": [
@@ -3754,6 +3757,32 @@
     },
     {
       "deporte": "Baloncesto",
+      "competicion": "FIBA Europe Cup",
+      "ronda": "Liga Regular",
+      "evento": "Denizli Basket vs Benfica CB",
+      "local": "Denizli Basket",
+      "visitante": "Benfica CB",
+      "fecha": "2026-11-17",
+      "hora": "18:00",
+      "canales": [
+        "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Europe Cup",
+      "ronda": "Liga Regular",
+      "evento": "AO Mykonos vs Fribourg Olympic",
+      "local": "AO Mykonos",
+      "visitante": "Fribourg Olympic",
+      "fecha": "2026-11-17",
+      "hora": "18:00",
+      "canales": [
+        "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
       "competicion": "Euroliga",
       "ronda": "Liga Regular",
       "evento": "Maccabi Tel Aviv BC vs Olympiacos Piraeus",
@@ -3763,6 +3792,19 @@
       "hora": "18:00",
       "canales": [
         "M+ Baloncesto 3 (M194)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Europe Cup",
+      "ronda": "Liga Regular",
+      "evento": "BC Kalev Cramo vs Valmiera Glass Via",
+      "local": "BC Kalev Cramo",
+      "visitante": "Valmiera Glass Via",
+      "fecha": "2026-11-17",
+      "hora": "18:30",
+      "canales": [
+        "FIBA YouTube"
       ]
     },
     {
@@ -3923,6 +3965,19 @@
     },
     {
       "deporte": "Baloncesto",
+      "competicion": "FIBA Europe Cup",
+      "ronda": "Liga Regular",
+      "evento": "S. Oliver Baskets vs Iraklis BC",
+      "local": "S. Oliver Baskets",
+      "visitante": "Iraklis BC",
+      "fecha": "2026-11-17",
+      "hora": "19:00",
+      "canales": [
+        "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
       "competicion": "Euroliga",
       "ronda": "Liga Regular",
       "evento": "Fenerbahce Istanbul vs ASVEL Lyon-Villeurbanne",
@@ -3957,7 +4012,7 @@
       "fecha": "2026-11-17",
       "hora": "19:45",
       "canales": [
-        "Canal por confirmar"
+        "FIBA YouTube"
       ]
     },
     {
@@ -4036,6 +4091,32 @@
       "hora": "20:00",
       "canales": [
         "CONCACAF YouTube"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Europe Cup",
+      "ronda": "Liga Regular",
+      "evento": "Elan Chalon vs Manisa BBSK",
+      "local": "Elan Chalon",
+      "visitante": "Manisa BBSK",
+      "fecha": "2026-11-17",
+      "hora": "20:00",
+      "canales": [
+        "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Europe Cup",
+      "ronda": "Liga Regular",
+      "evento": "SLUC Nancy vs BC Parnu Sadam",
+      "local": "SLUC Nancy",
+      "visitante": "BC Parnu Sadam",
+      "fecha": "2026-11-17",
+      "hora": "20:00",
+      "canales": [
+        "FIBA YouTube"
       ]
     },
     {
