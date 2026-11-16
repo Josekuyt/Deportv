@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-11-16T04:50:23",
+    "generado": "2026-11-16T17:57:04",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 210
+    "total_eventos": 224
   },
   "eventos": [
     {
@@ -279,7 +279,7 @@
       "local": "C. Alcaraz",
       "visitante": "F. Tiafoe",
       "fecha": "2026-11-16",
-      "hora": "14:00",
+      "hora": "14:10",
       "canales": [
         "ATP Tennis TV",
         "Movistar Plus+ (M8): VER PARTIDO",
@@ -437,20 +437,6 @@
       ]
     },
     {
-      "deporte": "Fútbol Sala",
-      "competicion": "Intercontinental Futsal Cup",
-      "ronda": "Fase de grupos",
-      "evento": "Carlos Barbosa vs Sporting CP FS",
-      "local": "Carlos Barbosa",
-      "visitante": "Sporting CP FS",
-      "fecha": "2026-11-16",
-      "hora": "20:30",
-      "canales": [
-        "DAZN (Ver en directo)",
-        "DAZN App Gratis (Ver gratis)"
-      ]
-    },
-    {
       "deporte": "Tenis",
       "competicion": "ATP Finals",
       "ronda": "Round Robin",
@@ -548,6 +534,20 @@
       ]
     },
     {
+      "deporte": "Fútbol Sala",
+      "competicion": "Intercontinental Futsal Cup",
+      "ronda": "Fase de grupos",
+      "evento": "Carlos Barbosa vs Sporting CP FS",
+      "local": "Carlos Barbosa",
+      "visitante": "Sporting CP FS",
+      "fecha": "2026-11-16",
+      "hora": "21:00",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Liga 1 Perú",
       "ronda": null,
@@ -593,12 +593,25 @@
       "evento": "Pato Futsal vs Palma Futsal",
       "local": "Pato Futsal",
       "visitante": "Palma Futsal",
-      "fecha": "2026-11-16",
-      "hora": "23:00",
+      "fecha": "2026-11-17",
+      "hora": "00:00",
       "canales": [
         "Esports IB3 YouTube",
         "DAZN (Ver en directo)",
         "DAZN App Gratis (Ver gratis)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Alcorn State vs Maryland",
+      "local": "Alcorn State",
+      "visitante": "Maryland",
+      "fecha": "2026-11-17",
+      "hora": "00:00",
+      "canales": [
+        "DAZN (Ver en directo)"
       ]
     },
     {
@@ -612,6 +625,19 @@
       "hora": "00:00",
       "canales": [
         "Antel TV Internacional"
+      ]
+    },
+    {
+      "deporte": "Béisbol",
+      "competicion": "LVBP",
+      "ronda": null,
+      "evento": "Leones del Caracas vs Cardenales de Lara",
+      "local": "Leones del Caracas",
+      "visitante": "Cardenales de Lara",
+      "fecha": "2026-11-17",
+      "hora": "00:00",
+      "canales": [
+        "BeisbolPlay"
       ]
     },
     {
@@ -746,6 +772,19 @@
       ]
     },
     {
+      "deporte": "Baloncesto",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Western Illinois vs Minnesota",
+      "local": "Western Illinois",
+      "visitante": "Minnesota",
+      "fecha": "2026-11-17",
+      "hora": "02:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "CONCACAF Nations League",
       "ronda": "1/4 de Final",
@@ -826,6 +865,19 @@
     },
     {
       "deporte": "Baloncesto",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Long Beach State vs UCLA",
+      "local": "Long Beach State",
+      "visitante": "UCLA",
+      "fecha": "2026-11-17",
+      "hora": "04:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
       "competicion": "Eurobasket Femenino",
       "ronda": "Fase de Clasificación",
       "evento": "Noruega vs Bosnia",
@@ -879,14 +931,15 @@
     {
       "deporte": "Tenis",
       "competicion": "ATP Finals",
-      "ronda": null,
-      "evento": "Round Robin",
-      "local": null,
-      "visitante": null,
+      "ronda": "Round Robin",
+      "evento": "A. Fils vs R. Jódar",
+      "local": "A. Fils",
+      "visitante": "R. Jódar",
       "fecha": "2026-11-17",
       "hora": "14:00",
       "canales": [
         "ATP Tennis TV",
+        "Movistar Plus+ (M8): VER PARTIDO",
         "M+ Deportes 2 (64)"
       ]
     },
@@ -1193,6 +1246,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Amistoso Sub-21",
+      "ronda": null,
+      "evento": "Albania vs España",
+      "local": "Albania",
+      "visitante": "España",
+      "fecha": "2026-11-17",
+      "hora": "19:00",
+      "canales": [
+        "RTVE Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Torneo Proyección",
       "ronda": null,
       "evento": "Unión Santa Fe Reserva vs Instituto Reserva",
@@ -1271,6 +1337,19 @@
     },
     {
       "deporte": "Baloncesto",
+      "competicion": "Basketball Champions League",
+      "ronda": "Liga Regular",
+      "evento": "Juventus Utena vs Reggio Emilia",
+      "local": "Juventus Utena",
+      "visitante": "Reggio Emilia",
+      "fecha": "2026-11-17",
+      "hora": "19:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
       "competicion": "FIBA Europe Cup",
       "ronda": "Liga Regular",
       "evento": "S. Oliver Baskets vs Iraklis BC",
@@ -1318,7 +1397,8 @@
       "fecha": "2026-11-17",
       "hora": "19:45",
       "canales": [
-        "FIBA YouTube"
+        "FIBA YouTube",
+        "Esport3 (Cataluña)"
       ]
     },
     {
@@ -1439,6 +1519,20 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "ATP Finals",
+      "ronda": "Round Robin",
+      "evento": "A. Zverev vs B. Shelton",
+      "local": "A. Zverev",
+      "visitante": "B. Shelton",
+      "fecha": "2026-11-17",
+      "hora": "20:30",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "Basketball Champions League",
       "ronda": "Liga Regular",
@@ -1450,7 +1544,8 @@
       "canales": [
         "DAZN (Ver en directo)",
         "Teledeporte",
-        "RTVE Play"
+        "RTVE Play",
+        "Esport3 Web"
       ]
     },
     {
@@ -1463,7 +1558,7 @@
       "fecha": "2026-11-17",
       "hora": "20:30",
       "canales": [
-        "Canal por confirmar"
+        "M+ Vamos 2 (51)"
       ]
     },
     {
@@ -1516,7 +1611,8 @@
       "fecha": "2026-11-17",
       "hora": "20:45",
       "canales": [
-        "EHF TV"
+        "EHF TV",
+        "Esport3 Web"
       ]
     },
     {
@@ -1780,6 +1876,45 @@
       ]
     },
     {
+      "deporte": "Béisbol",
+      "competicion": "LVBP",
+      "ronda": null,
+      "evento": "Águilas del Zulia vs Caribes de Anzoátegui",
+      "local": "Águilas del Zulia",
+      "visitante": "Caribes de Anzoátegui",
+      "fecha": "2026-11-18",
+      "hora": "00:00",
+      "canales": [
+        "BeisbolPlay"
+      ]
+    },
+    {
+      "deporte": "Béisbol",
+      "competicion": "LVBP",
+      "ronda": null,
+      "evento": "Leones del Caracas vs Navegantes del Magallanes",
+      "local": "Leones del Caracas",
+      "visitante": "Navegantes del Magallanes",
+      "fecha": "2026-11-18",
+      "hora": "00:00",
+      "canales": [
+        "BeisbolPlay"
+      ]
+    },
+    {
+      "deporte": "Béisbol",
+      "competicion": "LVBP",
+      "ronda": null,
+      "evento": "Tiburones de la Guaira vs Bravos de Margarita",
+      "local": "Tiburones de la Guaira",
+      "visitante": "Bravos de Margarita",
+      "fecha": "2026-11-18",
+      "hora": "00:00",
+      "canales": [
+        "BeisbolPlay"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Torneo Federal A",
       "ronda": "4ª Fase",
@@ -1790,6 +1925,19 @@
       "hora": "00:15",
       "canales": [
         "LPF Play (plan plus)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Lipscomb University vs Purdue",
+      "local": "Lipscomb University",
+      "visitante": "Purdue",
+      "fecha": "2026-11-18",
+      "hora": "00:30",
+      "canales": [
+        "DAZN (Ver en directo)"
       ]
     },
     {
@@ -1884,6 +2032,19 @@
       ]
     },
     {
+      "deporte": "Baloncesto",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Arkansas Razorbacks vs Indiana Hoosiers",
+      "local": "Arkansas Razorbacks",
+      "visitante": "Indiana Hoosiers",
+      "fecha": "2026-11-18",
+      "hora": "01:30",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
       "deporte": "Ishockey",
       "competicion": "NHL",
       "ronda": "Liga Regular",
@@ -1972,7 +2133,8 @@
       "hora": "02:00",
       "canales": [
         "NBA League Pass",
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN Baloncesto (M74 O126)"
       ]
     },
     {
@@ -2237,6 +2399,19 @@
       ]
     },
     {
+      "deporte": "Béisbol",
+      "competicion": "LVBP",
+      "ronda": null,
+      "evento": "Águilas del Zulia vs Caribes de Anzoátegui",
+      "local": "Águilas del Zulia",
+      "visitante": "Caribes de Anzoátegui",
+      "fecha": "2026-11-18",
+      "hora": "18:00",
+      "canales": [
+        "BeisbolPlay"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "Euroliga",
       "ronda": "Liga Regular",
@@ -2325,6 +2500,7 @@
       "fecha": "2026-11-18",
       "hora": "18:30",
       "canales": [
+        "M+ Vamos (11 y 50)",
         "M+ #Vamos Bar (307)"
       ]
     },
@@ -2338,7 +2514,8 @@
       "fecha": "2026-11-18",
       "hora": "18:45",
       "canales": [
-        "Disney+"
+        "Disney+",
+        "Esport3 (Cataluña)"
       ]
     },
     {
@@ -2683,7 +2860,8 @@
       "fecha": "2026-11-18",
       "hora": "20:30",
       "canales": [
-        "Canal por confirmar"
+        "M+ Baloncesto 2 (M67)",
+        "Esport3 Web"
       ]
     },
     {
@@ -2709,7 +2887,8 @@
       "fecha": "2026-11-18",
       "hora": "20:45",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "Esport3 (Cataluña)"
       ]
     },
     {
@@ -2736,6 +2915,19 @@
       "hora": "21:00",
       "canales": [
         "Disney+"
+      ]
+    },
+    {
+      "deporte": "Hockey Patines",
+      "competicion": "OK Liga Femenina",
+      "ronda": null,
+      "evento": "Club Patín Fraga vs CH Palau",
+      "local": "Club Patín Fraga",
+      "visitante": "CH Palau",
+      "fecha": "2026-11-18",
+      "hora": "21:00",
+      "canales": [
+        "Aragón Play"
       ]
     },
     {
