@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-11-17T06:38:23",
+    "generado": "2026-11-17T17:23:29",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 238
+    "total_eventos": 250
   },
   "eventos": [
     {
@@ -356,11 +356,24 @@
       "local": "A. Fils",
       "visitante": "R. Jódar",
       "fecha": "2026-11-17",
-      "hora": "14:00",
+      "hora": "14:10",
       "canales": [
         "ATP Tennis TV",
         "Movistar Plus+ (M8): VER PARTIDO",
         "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Europeo Sub-19",
+      "ronda": "Fase de Clasificación",
+      "evento": "Lituania vs Alemania",
+      "local": "Lituania",
+      "visitante": "Alemania",
+      "fecha": "2026-11-17",
+      "hora": "16:00",
+      "canales": [
+        "German Football YouTube"
       ]
     },
     {
@@ -531,7 +544,8 @@
       "fecha": "2026-11-17",
       "hora": "18:00",
       "canales": [
-        "ProSieben MAXX (M+ Astra)"
+        "ProSieben MAXX (M+ Astra)",
+        "German Football YouTube"
       ]
     },
     {
@@ -890,6 +904,19 @@
       "deporte": "Fútbol",
       "competicion": "CONCACAF Nations League",
       "ronda": null,
+      "evento": "San Cristóbal y Nieves vs Bonaire",
+      "local": "San Cristóbal y Nieves",
+      "visitante": "Bonaire",
+      "fecha": "2026-11-17",
+      "hora": "20:00",
+      "canales": [
+        "CONCACAF YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "CONCACAF Nations League",
+      "ronda": null,
       "evento": "Dominica vs Islas Caimán",
       "local": "Dominica",
       "visitante": "Islas Caimán",
@@ -936,6 +963,32 @@
       "hora": "20:00",
       "canales": [
         "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Copa de España",
+      "ronda": "1/8 de final",
+      "evento": "CB Morón vs CB Gran Canaria",
+      "local": "CB Morón",
+      "visitante": "CB Gran Canaria",
+      "fecha": "2026-11-17",
+      "hora": "20:00",
+      "canales": [
+        "BalONcesto TV PPV"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Copa de España",
+      "ronda": "1/8 de final",
+      "evento": "CEB Llíria vs CB Tizona Burgos",
+      "local": "CEB Llíria",
+      "visitante": "CB Tizona Burgos",
+      "fecha": "2026-11-17",
+      "hora": "20:00",
+      "canales": [
+        "BalONcesto TV PPV"
       ]
     },
     {
@@ -1058,7 +1111,8 @@
       "fecha": "2026-11-17",
       "hora": "20:45",
       "canales": [
-        "EHF TV"
+        "EHF TV",
+        "ETB1ON"
       ]
     },
     {
@@ -1162,7 +1216,8 @@
       "fecha": "2026-11-17",
       "hora": "20:45",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
@@ -1175,7 +1230,8 @@
       "fecha": "2026-11-17",
       "hora": "20:45",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
@@ -1188,7 +1244,8 @@
       "fecha": "2026-11-17",
       "hora": "20:45",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
@@ -1201,7 +1258,8 @@
       "fecha": "2026-11-17",
       "hora": "20:45",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
@@ -1214,7 +1272,8 @@
       "fecha": "2026-11-17",
       "hora": "20:45",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
@@ -1227,7 +1286,8 @@
       "fecha": "2026-11-17",
       "hora": "20:45",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
@@ -1240,7 +1300,8 @@
       "fecha": "2026-11-17",
       "hora": "20:45",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
@@ -1253,7 +1314,8 @@
       "fecha": "2026-11-17",
       "hora": "20:45",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
@@ -1280,19 +1342,6 @@
       "hora": "21:00",
       "canales": [
         "LPF Play (plan plus)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "CONCACAF Nations League",
-      "ronda": null,
-      "evento": "San Cristóbal y Nieves vs Bonaire",
-      "local": "San Cristóbal y Nieves",
-      "visitante": "Bonaire",
-      "fecha": "2026-11-17",
-      "hora": "21:00",
-      "canales": [
-        "CONCACAF YouTube"
       ]
     },
     {
@@ -1677,14 +1726,15 @@
     {
       "deporte": "Tenis",
       "competicion": "ATP Finals",
-      "ronda": null,
-      "evento": "Round Robin",
-      "local": null,
-      "visitante": null,
+      "ronda": "Round Robin",
+      "evento": "C. Alcaraz vs D. Medvedev",
+      "local": "C. Alcaraz",
+      "visitante": "D. Medvedev",
       "fecha": "2026-11-18",
       "hora": "14:00",
       "canales": [
         "ATP Tennis TV",
+        "Movistar Plus+ (M8): VER PARTIDO",
         "M+ Deportes 2 (64)"
       ]
     },
@@ -1978,20 +2028,6 @@
       ]
     },
     {
-      "deporte": "Fútbol Sala",
-      "competicion": "Intercontinental Futsal Cup",
-      "ronda": null,
-      "evento": "5/6 Puesto",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-11-18",
-      "hora": "19:00",
-      "canales": [
-        "DAZN (Ver en directo)",
-        "DAZN App Gratis (Ver gratis)"
-      ]
-    },
-    {
       "deporte": "Balonmano",
       "competicion": "Liga Guerreras Iberdrola",
       "ronda": null,
@@ -2152,6 +2188,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "FA Women's League Cup",
+      "ronda": null,
+      "evento": "London City Lionesses vs Brighton Femenino",
+      "local": "London City Lionesses",
+      "visitante": "Brighton Femenino",
+      "fecha": "2026-11-18",
+      "hora": "20:00",
+      "canales": [
+        "Barclays Women's Super League YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Segunda Federación",
       "ronda": "Grupo 1",
       "evento": "Bergantiños vs Sestao River",
@@ -2190,6 +2239,32 @@
       ]
     },
     {
+      "deporte": "Baloncesto",
+      "competicion": "Copa de España",
+      "ronda": "1/8 de final",
+      "evento": "Cáceres Basket vs Movistar Estudiantes",
+      "local": "Cáceres Basket",
+      "visitante": "Movistar Estudiantes",
+      "fecha": "2026-11-18",
+      "hora": "20:00",
+      "canales": [
+        "BalONcesto TV PPV"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Copa de España",
+      "ronda": "1/8 de final",
+      "evento": "Cultural Leonesa Baloncesto vs Sant Antoni Ibiza",
+      "local": "Cultural Leonesa Baloncesto",
+      "visitante": "Sant Antoni Ibiza",
+      "fecha": "2026-11-18",
+      "hora": "20:00",
+      "canales": [
+        "BalONcesto TV PPV"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Copa del Rey",
       "ronda": "1ª Ronda",
@@ -2214,6 +2289,20 @@
       "hora": "20:00",
       "canales": [
         "TV Canaria"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "ATP Finals",
+      "ronda": "Round Robin",
+      "evento": "F. Cobolli vs F. Tiafoe",
+      "local": "F. Cobolli",
+      "visitante": "F. Tiafoe",
+      "fecha": "2026-11-18",
+      "hora": "20:30",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -2242,6 +2331,32 @@
       "hora": "20:30",
       "canales": [
         "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Copa de España",
+      "ronda": "1/8 de final",
+      "evento": "Melilla Sport Capital vs HLA Alicante",
+      "local": "Melilla Sport Capital",
+      "visitante": "HLA Alicante",
+      "fecha": "2026-11-18",
+      "hora": "20:30",
+      "canales": [
+        "BalONcesto TV PPV"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Copa de España",
+      "ronda": "1/8 de final",
+      "evento": "UEMC RV Baloncesto vs Caja 87 Basket",
+      "local": "UEMC RV Baloncesto",
+      "visitante": "Caja 87 Basket",
+      "fecha": "2026-11-18",
+      "hora": "20:30",
+      "canales": [
+        "BalONcesto TV PPV"
       ]
     },
     {
@@ -2325,6 +2440,19 @@
       ]
     },
     {
+      "deporte": "Baloncesto",
+      "competicion": "Copa de España",
+      "ronda": "1/8 de final",
+      "evento": "Club Ourense Baloncesto vs Palmer Mallorca Palma",
+      "local": "Club Ourense Baloncesto",
+      "visitante": "Palmer Mallorca Palma",
+      "fecha": "2026-11-18",
+      "hora": "20:45",
+      "canales": [
+        "BalONcesto TV PPV"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Champions League Femenina",
       "ronda": "Fase Liga",
@@ -2348,6 +2476,21 @@
       "hora": "21:00",
       "canales": [
         "Disney+"
+      ]
+    },
+    {
+      "deporte": "Fútbol Sala",
+      "competicion": "Intercontinental Futsal Cup",
+      "ronda": "Semifinales",
+      "evento": "Palma Futsal vs Carlos Barbosa",
+      "local": "Palma Futsal",
+      "visitante": "Carlos Barbosa",
+      "fecha": "2026-11-18",
+      "hora": "21:00",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)",
+        "Esports IB3 YouTube"
       ]
     },
     {
@@ -2390,26 +2533,25 @@
       ]
     },
     {
-      "deporte": "Fútbol Sala",
-      "competicion": "Intercontinental Futsal Cup",
-      "ronda": null,
-      "evento": "Semifinales",
-      "local": null,
-      "visitante": null,
+      "deporte": "Baloncesto",
+      "competicion": "Copa de España",
+      "ronda": "1/8 de final",
+      "evento": "SB Academy vs GA Cantabria",
+      "local": "SB Academy",
+      "visitante": "GA Cantabria",
       "fecha": "2026-11-18",
-      "hora": "21:30",
+      "hora": "21:00",
       "canales": [
-        "DAZN (Ver en directo)",
-        "DAZN App Gratis (Ver gratis)"
+        "BalONcesto TV PPV"
       ]
     },
     {
       "deporte": "Fútbol Sala",
       "competicion": "Intercontinental Futsal Cup",
-      "ronda": null,
-      "evento": "Semifinales",
-      "local": null,
-      "visitante": null,
+      "ronda": "Semifinales",
+      "evento": "Sporting CP FS vs Pato Futsal",
+      "local": "Sporting CP FS",
+      "visitante": "Pato Futsal",
       "fecha": "2026-11-19",
       "hora": "00:00",
       "canales": [
@@ -2755,9 +2897,38 @@
       "local": "A. Zverev",
       "visitante": "A. Fils",
       "fecha": "2026-11-19",
-      "hora": "PD",
+      "hora": "14:00",
       "canales": [
         "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "ATP Finals",
+      "ronda": "Round Robin",
+      "evento": "D. Medvedev vs F. Tiafoe",
+      "local": "D. Medvedev",
+      "visitante": "F. Tiafoe",
+      "fecha": "2026-11-19",
+      "hora": "14:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "ATP Finals",
+      "ronda": "Round Robin",
+      "evento": "C. Alcaraz vs F. Cobolli",
+      "local": "C. Alcaraz",
+      "visitante": "F. Cobolli",
+      "fecha": "2026-11-19",
+      "hora": "14:00",
+      "canales": [
+        "ATP Tennis TV",
+        "Movistar Plus+ (M8): VER PARTIDO",
         "M+ Deportes 2 (64)"
       ]
     },
@@ -2769,7 +2940,7 @@
       "local": "B. Shelton",
       "visitante": "R. Jódar",
       "fecha": "2026-11-19",
-      "hora": "PD",
+      "hora": "14:00",
       "canales": [
         "ATP Tennis TV",
         "Movistar Plus+ (M8): VER PARTIDO",
