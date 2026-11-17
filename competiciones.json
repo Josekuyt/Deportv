@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-11-13T21:48:09"
+    "actualizado": "2026-11-17T06:38:23"
   },
   "config": {
     "puntos_por_tier": {
@@ -2262,6 +2262,21 @@
     },
     "Cross Internacional de Soria": {
       "deporte": "Atletismo",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "FIFA Mundial Sub-17": {
+      "deporte": "Fútbol",
+      "tier": "D",
+      "por_revisar": true
+    },
+    "LPGA CME Group Tour Championship": {
+      "deporte": "Golf",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "The RSM Classic": {
+      "deporte": "Golf",
       "tier": "C",
       "por_revisar": true
     }
