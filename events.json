@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-11-18T05:57:59",
+    "generado": "2026-11-18T16:56:53",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 214
+    "total_eventos": 229
   },
   "eventos": [
     {
@@ -430,6 +430,19 @@
       "deporte": "Baloncesto",
       "competicion": "Basketball Champions League",
       "ronda": "Liga Regular",
+      "evento": "Galatasaray Istanbul vs Legia Warszawa BC",
+      "local": "Galatasaray Istanbul",
+      "visitante": "Legia Warszawa BC",
+      "fecha": "2026-11-18",
+      "hora": "18:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "Basketball Champions League",
+      "ronda": "Liga Regular",
       "evento": "AEK BC vs Falco Szombathely",
       "local": "AEK BC",
       "visitante": "Falco Szombathely",
@@ -567,7 +580,7 @@
       "fecha": "2026-11-18",
       "hora": "18:00",
       "canales": [
-        "Canal por confirmar"
+        "* SIN TV EN DIRECTO *"
       ]
     },
     {
@@ -778,7 +791,7 @@
       "fecha": "2026-11-18",
       "hora": "19:00",
       "canales": [
-        "Canal por confirmar"
+        "* SIN TV EN DIRECTO *"
       ]
     },
     {
@@ -805,7 +818,7 @@
       "fecha": "2026-11-18",
       "hora": "19:00",
       "canales": [
-        "Canal por confirmar"
+        "* SIN TV EN DIRECTO *"
       ]
     },
     {
@@ -1018,7 +1031,7 @@
       "fecha": "2026-11-18",
       "hora": "20:30",
       "canales": [
-        "Canal por confirmar"
+        "* SIN TV EN DIRECTO *"
       ]
     },
     {
@@ -1031,7 +1044,7 @@
       "fecha": "2026-11-18",
       "hora": "20:30",
       "canales": [
-        "Canal por confirmar"
+        "* SIN TV EN DIRECTO *"
       ]
     },
     {
@@ -1044,7 +1057,7 @@
       "fecha": "2026-11-18",
       "hora": "20:30",
       "canales": [
-        "Canal por confirmar"
+        "* SIN TV EN DIRECTO *"
       ]
     },
     {
@@ -1195,6 +1208,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Serie A Brasil",
+      "ronda": null,
+      "evento": "Coritiba vs Santos",
+      "local": "Coritiba",
+      "visitante": "Santos",
+      "fecha": "2026-11-18",
+      "hora": "23:30",
+      "canales": [
+        "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
       "deporte": "Fútbol Sala",
       "competicion": "Intercontinental Futsal Cup",
       "ronda": "Semifinales",
@@ -1235,6 +1261,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Serie A Brasil",
+      "ronda": null,
+      "evento": "Remo vs Chapecoense",
+      "local": "Remo",
+      "visitante": "Chapecoense",
+      "fecha": "2026-11-19",
+      "hora": "00:00",
+      "canales": [
+        "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "NCAA",
       "ronda": null,
@@ -1258,7 +1297,8 @@
       "hora": "00:30",
       "canales": [
         "M+ Vamos (11 y 50)",
-        "M+ #Vamos Bar (307)"
+        "M+ #Vamos Bar (307)",
+        "Fanatiz (Ver en directo)"
       ]
     },
     {
@@ -1391,6 +1431,19 @@
       "hora": "01:30",
       "canales": [
         "NBA League Pass"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Serie A Brasil",
+      "ronda": null,
+      "evento": "Grêmio vs Bahía",
+      "local": "Grêmio",
+      "visitante": "Bahía",
+      "fecha": "2026-11-19",
+      "hora": "01:30",
+      "canales": [
+        "Fanatiz (Ver en directo)"
       ]
     },
     {
@@ -1536,49 +1589,6 @@
       "hora": "04:30",
       "canales": [
         "DAZN (Ver en directo)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "ATP Finals",
-      "ronda": "Round Robin",
-      "evento": "A. Zverev vs A. Fils",
-      "local": "A. Zverev",
-      "visitante": "A. Fils",
-      "fecha": "2026-11-19",
-      "hora": "14:00",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes 2 (64)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "ATP Finals",
-      "ronda": "Round Robin",
-      "evento": "D. Medvedev vs F. Tiafoe",
-      "local": "D. Medvedev",
-      "visitante": "F. Tiafoe",
-      "fecha": "2026-11-19",
-      "hora": "14:00",
-      "canales": [
-        "ATP Tennis TV",
-        "M+ Deportes 2 (64)"
-      ]
-    },
-    {
-      "deporte": "Tenis",
-      "competicion": "ATP Finals",
-      "ronda": "Round Robin",
-      "evento": "C. Alcaraz vs F. Cobolli",
-      "local": "C. Alcaraz",
-      "visitante": "F. Cobolli",
-      "fecha": "2026-11-19",
-      "hora": "14:00",
-      "canales": [
-        "ATP Tennis TV",
-        "Movistar Plus+ (M8): VER PARTIDO",
-        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -1809,6 +1819,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Campeonato Femenino",
+      "ronda": null,
+      "evento": "Ferro Carril Oeste Femenino vs River Plate Femenino",
+      "local": "Ferro Carril Oeste Femenino",
+      "visitante": "River Plate Femenino",
+      "fecha": "2026-11-19",
+      "hora": "20:00",
+      "canales": [
+        "LPF Play (plan plus)"
+      ]
+    },
+    {
       "deporte": "Golf",
       "competicion": "LPGA CME Group Tour Championship",
       "ronda": null,
@@ -1832,6 +1855,59 @@
       "hora": "20:00",
       "canales": [
         "M+ Baloncesto (M66)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "ATP Finals",
+      "ronda": "Round Robin",
+      "evento": "A. Zverev vs A. Fils",
+      "local": "A. Zverev",
+      "visitante": "A. Fils",
+      "fecha": "2026-11-19",
+      "hora": "20:30",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga AUF Uruguaya",
+      "ronda": null,
+      "evento": "Peñarol vs Cerro Largo",
+      "local": "Peñarol",
+      "visitante": "Cerro Largo",
+      "fecha": "2026-11-19",
+      "hora": "20:30",
+      "canales": [
+        "Antel TV Internacional"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga AUF Uruguaya",
+      "ronda": null,
+      "evento": "Progreso vs Montevideo City Torque",
+      "local": "Progreso",
+      "visitante": "Montevideo City Torque",
+      "fecha": "2026-11-19",
+      "hora": "20:30",
+      "canales": [
+        "Antel TV Internacional"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga AUF Uruguaya",
+      "ronda": null,
+      "evento": "Boston River vs Deportivo Maldonado",
+      "local": "Boston River",
+      "visitante": "Deportivo Maldonado",
+      "fecha": "2026-11-19",
+      "hora": "20:30",
+      "canales": [
+        "Antel TV Internacional"
       ]
     },
     {
@@ -1964,7 +2040,21 @@
       "hora": "23:30",
       "canales": [
         "M+ Vamos (11 y 50)",
-        "M+ #Vamos Bar (307)"
+        "M+ #Vamos Bar (307)",
+        "Fanatiz (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Serie A Brasil",
+      "ronda": null,
+      "evento": "Vitória vs RB Bragantino",
+      "local": "Vitória",
+      "visitante": "RB Bragantino",
+      "fecha": "2026-11-19",
+      "hora": "23:30",
+      "canales": [
+        "Fanatiz (Ver en directo)"
       ]
     },
     {
@@ -2123,6 +2213,19 @@
       "hora": "01:30",
       "canales": [
         "Disney+"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Serie A Brasil",
+      "ronda": null,
+      "evento": "São Paulo vs Fluminense",
+      "local": "São Paulo",
+      "visitante": "Fluminense",
+      "fecha": "2026-11-20",
+      "hora": "01:30",
+      "canales": [
+        "Fanatiz (Ver en directo)"
       ]
     },
     {
@@ -2339,6 +2442,35 @@
       "hora": "12:00",
       "canales": [
         "UEFA TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "ATP Finals",
+      "ronda": "Round Robin",
+      "evento": "D. Medvedev vs F. Tiafoe",
+      "local": "D. Medvedev",
+      "visitante": "F. Tiafoe",
+      "fecha": "2026-11-20",
+      "hora": "14:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "ATP Finals",
+      "ronda": "Round Robin",
+      "evento": "C. Alcaraz vs F. Cobolli",
+      "local": "C. Alcaraz",
+      "visitante": "F. Cobolli",
+      "fecha": "2026-11-20",
+      "hora": "14:00",
+      "canales": [
+        "ATP Tennis TV",
+        "Movistar Plus+ (M8): VER PARTIDO",
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -2618,6 +2750,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "División Honor Cadete",
+      "ronda": "Grupo Único (Andalucía)",
+      "evento": "Real Betis Academy vs CD Sam-Cam Dos Hermanas",
+      "local": "Real Betis Academy",
+      "visitante": "CD Sam-Cam Dos Hermanas",
+      "fecha": "2026-11-20",
+      "hora": "20:00",
+      "canales": [
+        "Real Betis TV"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "Euroliga",
       "ronda": "Liga Regular",
@@ -2655,6 +2800,45 @@
       "hora": "20:30",
       "canales": [
         "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga AUF Uruguaya",
+      "ronda": null,
+      "evento": "CA Cerro vs Nacional",
+      "local": "CA Cerro",
+      "visitante": "Nacional",
+      "fecha": "2026-11-20",
+      "hora": "20:30",
+      "canales": [
+        "Antel TV Internacional"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga AUF Uruguaya",
+      "ronda": null,
+      "evento": "Racing Club vs Central Español",
+      "local": "Racing Club",
+      "visitante": "Central Español",
+      "fecha": "2026-11-20",
+      "hora": "20:30",
+      "canales": [
+        "Antel TV Internacional"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga AUF Uruguaya",
+      "ronda": null,
+      "evento": "Liverpool FC vs Montevideo Wanderers",
+      "local": "Liverpool FC",
+      "visitante": "Montevideo Wanderers",
+      "fecha": "2026-11-20",
+      "hora": "20:30",
+      "canales": [
+        "Antel TV Internacional"
       ]
     },
     {
@@ -2726,8 +2910,7 @@
       "fecha": "2026-11-20",
       "hora": "20:30",
       "canales": [
-        "M+ Baloncesto 2 (M67)",
-        "M+ Baloncesto (M66)"
+        "M+ Baloncesto 2 (M67)"
       ]
     },
     {
@@ -2874,6 +3057,19 @@
       "hora": "21:45",
       "canales": [
         "RTP Play África"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Colombiana",
+      "ronda": null,
+      "evento": "Medellín vs Santa Fe",
+      "local": "Medellín",
+      "visitante": "Santa Fe",
+      "fecha": "2026-11-20",
+      "hora": "22:30",
+      "canales": [
+        "RCN Nuestra Tele"
       ]
     }
   ]
