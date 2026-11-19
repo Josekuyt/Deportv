@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-11-18T05:57:59"
+    "actualizado": "2026-11-19T05:58:11"
   },
   "config": {
     "puntos_por_tier": {
@@ -2282,6 +2282,11 @@
     },
     "Copa de Portugal": {
       "deporte": "Fútbol",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "AFLW": {
+      "deporte": "Fútbol Australiano",
       "tier": "C",
       "por_revisar": true
     }
