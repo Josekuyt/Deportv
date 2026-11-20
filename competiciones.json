@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-11-19T05:58:11"
+    "actualizado": "2026-11-20T16:42:21"
   },
   "config": {
     "puntos_por_tier": {
@@ -2287,6 +2287,21 @@
     },
     "AFLW": {
       "deporte": "Fútbol Australiano",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Cross de Atapuerca": {
+      "deporte": "Atletismo",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Preferente Cadete": {
+      "deporte": "Fútbol",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Superliga Femenina": {
+      "deporte": "Voleibol",
       "tier": "C",
       "por_revisar": true
     }

@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-11-20T05:47:06",
+    "generado": "2026-11-20T16:42:21",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 459
+    "total_eventos": 505
   },
   "eventos": [
     {
@@ -417,6 +417,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "J1 League",
+      "ronda": null,
+      "evento": "Kashiwa Reysol vs JEF United",
+      "local": "Kashiwa Reysol",
+      "visitante": "JEF United",
+      "fecha": "2026-11-20",
+      "hora": "11:00",
+      "canales": [
+        "J.LEAGUE International YouTube"
+      ]
+    },
+    {
       "deporte": "Motociclismo",
       "competicion": "MotoGP",
       "ronda": null,
@@ -456,7 +469,7 @@
       "local": "C. Alcaraz",
       "visitante": "F. Cobolli",
       "fecha": "2026-11-20",
-      "hora": "14:00",
+      "hora": "14:15",
       "canales": [
         "ATP Tennis TV",
         "Movistar Plus+ (M8): VER PARTIDO",
@@ -738,7 +751,8 @@
         "Liga U YouTube",
         "DAZN (Ver en directo)",
         "DAZN App Gratis (Ver gratis)",
-        "DAZN Baloncesto 2 (M75 O127)"
+        "DAZN Baloncesto 2 (M75 O127)",
+        "Marca YouTube"
       ]
     },
     {
@@ -1049,6 +1063,7 @@
         "DAZN (Ver en directo)",
         "DAZN App Gratis (Ver gratis)",
         "DAZN Baloncesto 3 (M76 O128)",
+        "As.com",
         "Teledeporte",
         "RTVE Play"
       ]
@@ -1428,6 +1443,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "J1 League",
+      "ronda": null,
+      "evento": "Sanfrecce Hiroshima vs Yokohama F. Marinos",
+      "local": "Sanfrecce Hiroshima",
+      "visitante": "Yokohama F. Marinos",
+      "fecha": "2026-11-21",
+      "hora": "06:00",
+      "canales": [
+        "J.LEAGUE International YouTube"
+      ]
+    },
+    {
       "deporte": "Fútbol Australiano",
       "competicion": "AFLW",
       "ronda": null,
@@ -1490,6 +1518,19 @@
       "hora": "09:40",
       "canales": [
         "A-Leagues YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "División Honor Infantil",
+      "ronda": "Grupo 1 (Cataluña)",
+      "evento": "FC Barcelona Academy vs CD Masnou",
+      "local": "FC Barcelona Academy",
+      "visitante": "CD Masnou",
+      "fecha": "2026-11-21",
+      "hora": "10:30",
+      "canales": [
+        "FC Barcelona PPV YouTube"
       ]
     },
     {
@@ -1760,6 +1801,19 @@
         "MotoGP Videopass",
         "DAZN (Ver en directo)",
         "DAZN MotoGP (M71 O105)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "FA Women's Super League",
+      "ronda": null,
+      "evento": "Liverpool Femenino vs Chelsea Femenino",
+      "local": "Liverpool Femenino",
+      "visitante": "Chelsea Femenino",
+      "fecha": "2026-11-21",
+      "hora": "13:45",
+      "canales": [
+        "Barclays Women's Super League YouTube"
       ]
     },
     {
@@ -2127,6 +2181,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Bundesliga Sub-19",
+      "ronda": null,
+      "evento": "FC Köln Academy vs Darmstadt 98 Academy",
+      "local": "FC Köln Academy",
+      "visitante": "Darmstadt 98 Academy",
+      "fecha": "2026-11-21",
+      "hora": "16:00",
+      "canales": [
+        "German Football YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "FIFA Mundial Sub-17",
       "ronda": "Fase de grupos",
       "evento": "Brasil vs República Irlanda",
@@ -2164,7 +2231,34 @@
       "fecha": "2026-11-21",
       "hora": "16:00",
       "canales": [
+        "RTVE Play",
         "Esport3 (Cataluña)"
+      ]
+    },
+    {
+      "deporte": "Voleibol",
+      "competicion": "Superliga Femenina",
+      "ronda": null,
+      "evento": "CV Melilla vs CV Sayre",
+      "local": "CV Melilla",
+      "visitante": "CV Sayre",
+      "fecha": "2026-11-21",
+      "hora": "16:00",
+      "canales": [
+        "TV Melilla"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "D1 Féminine",
+      "ronda": null,
+      "evento": "Lens Feminine vs Montpellier Femenino",
+      "local": "Lens Feminine",
+      "visitante": "Montpellier Femenino",
+      "fecha": "2026-11-21",
+      "hora": "16:00",
+      "canales": [
+        "Arkema Première Ligue YouTube"
       ]
     },
     {
@@ -2286,6 +2380,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Primera Federación Femenina",
+      "ronda": null,
+      "evento": "Fundación Albacete vs Levante Femenino",
+      "local": "Fundación Albacete",
+      "visitante": "Levante Femenino",
+      "fecha": "2026-11-21",
+      "hora": "16:00",
+      "canales": [
+        "CMMPlay (Castilla-LM)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "National League South",
       "ronda": null,
       "evento": "AFC Totton vs Dagenham & Redbridge",
@@ -2309,6 +2416,32 @@
       "canales": [
         "FFCV YouTube",
         "La Ocho Mediterráneo"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 17",
+      "evento": "CD Belchite 97 vs At. Monzón",
+      "local": "CD Belchite 97",
+      "visitante": "At. Monzón",
+      "fecha": "2026-11-21",
+      "hora": "16:00",
+      "canales": [
+        "Lacronicadeportes.es"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 18",
+      "evento": "Guadalajara B vs Manchego CR",
+      "local": "Guadalajara B",
+      "visitante": "Manchego CR",
+      "fecha": "2026-11-21",
+      "hora": "16:00",
+      "canales": [
+        "CMMPlay (Castilla-LM)"
       ]
     },
     {
@@ -2478,6 +2611,19 @@
       "hora": "16:30",
       "canales": [
         "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 8",
+      "evento": "Santa Marta vs Cristo Atlético",
+      "local": "Santa Marta",
+      "visitante": "Cristo Atlético",
+      "fecha": "2026-11-21",
+      "hora": "16:30",
+      "canales": [
+        "Elviphotoss YouTube"
       ]
     },
     {
@@ -2718,6 +2864,19 @@
       ]
     },
     {
+      "deporte": "Voleibol",
+      "competicion": "Superliga Femenina",
+      "ronda": null,
+      "evento": "CV Dos Hermanas vs CD Heidelberg",
+      "local": "CV Dos Hermanas",
+      "visitante": "CD Heidelberg",
+      "fecha": "2026-11-21",
+      "hora": "18:00",
+      "canales": [
+        "RTVE Play"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "NCAA",
       "ronda": null,
@@ -2728,6 +2887,19 @@
       "hora": "18:00",
       "canales": [
         "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "D1 Féminine",
+      "ronda": null,
+      "evento": "Le Havre AC Femenino vs Nantes Féminines",
+      "local": "Le Havre AC Femenino",
+      "visitante": "Nantes Féminines",
+      "fecha": "2026-11-21",
+      "hora": "18:00",
+      "canales": [
+        "Arkema Première Ligue YouTube"
       ]
     },
     {
@@ -2830,6 +3002,19 @@
       "hora": "18:00",
       "canales": [
         "Aragón Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "FA Women's Super League",
+      "ronda": null,
+      "evento": "London City Lionesses vs Crystal Palace Femenino",
+      "local": "London City Lionesses",
+      "visitante": "Crystal Palace Femenino",
+      "fecha": "2026-11-21",
+      "hora": "18:15",
+      "canales": [
+        "Barclays Women's Super League YouTube"
       ]
     },
     {
@@ -3256,6 +3441,19 @@
       "canales": [
         "ATP Tennis TV",
         "M+ Deportes 2 (64)"
+      ]
+    },
+    {
+      "deporte": "Voleibol",
+      "competicion": "Superliga Masculina",
+      "ronda": null,
+      "evento": "CV Melilla vs CV Manacor",
+      "local": "CV Melilla",
+      "visitante": "CV Manacor",
+      "fecha": "2026-11-21",
+      "hora": "19:30",
+      "canales": [
+        "TV Melilla"
       ]
     },
     {
@@ -4068,6 +4266,32 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "División Honor Juvenil",
+      "ronda": "Grupo 2",
+      "evento": "Athletic Club Academy vs CD Arratia Academy",
+      "local": "Athletic Club Academy",
+      "visitante": "CD Arratia Academy",
+      "fecha": "2026-11-22",
+      "hora": "10:00",
+      "canales": [
+        "Athletic-club.eus"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Preferente Cadete",
+      "ronda": null,
+      "evento": "Real Sociedad Academy vs Zumaiako FT",
+      "local": "Real Sociedad Academy",
+      "visitante": "Zumaiako FT",
+      "fecha": "2026-11-22",
+      "hora": "10:30",
+      "canales": [
+        "Real Sociedad TV YouTube"
+      ]
+    },
+    {
       "deporte": "Motociclismo",
       "competicion": "Moto3",
       "ronda": null,
@@ -4119,6 +4343,19 @@
       "hora": "11:30",
       "canales": [
         "Esport3 (Cataluña)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "1ª Autonómica Preferente",
+      "ronda": null,
+      "evento": "Colmenar Viejo vs AD Nuevo Baztán",
+      "local": "Colmenar Viejo",
+      "visitante": "AD Nuevo Baztán",
+      "fecha": "2026-11-22",
+      "hora": "11:30",
+      "canales": [
+        "La Otra (Madrid)"
       ]
     },
     {
@@ -4403,6 +4640,19 @@
       "deporte": "Fútbol",
       "competicion": "Primera Federación Femenina",
       "ronda": null,
+      "evento": "Athletic B Femenino vs Real Unión Tenerife",
+      "local": "Athletic B Femenino",
+      "visitante": "Real Unión Tenerife",
+      "fecha": "2026-11-22",
+      "hora": "12:00",
+      "canales": [
+        "Athletic-club.eus"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera Federación Femenina",
+      "ronda": null,
       "evento": "Villarreal Femenino vs Alhama CF",
       "local": "Villarreal Femenino",
       "visitante": "Alhama CF",
@@ -4519,6 +4769,33 @@
     {
       "deporte": "Fútbol",
       "competicion": "Tercera Federación",
+      "ronda": "Grupo 5",
+      "evento": "Montañesa vs Atlètic Lleida",
+      "local": "Montañesa",
+      "visitante": "Atlètic Lleida",
+      "fecha": "2026-11-22",
+      "hora": "12:00",
+      "canales": [
+        "Betevé Web",
+        "Twitch btvesports"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 18",
+      "evento": "Socuéllamos vs Villacañas",
+      "local": "Socuéllamos",
+      "visitante": "Villacañas",
+      "fecha": "2026-11-22",
+      "hora": "12:00",
+      "canales": [
+        "CMMPlay (Castilla-LM)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
       "ronda": "Grupo 7",
       "evento": "Pozuelo Alarcón vs Móstoles URJC",
       "local": "Pozuelo Alarcón",
@@ -4527,6 +4804,32 @@
       "hora": "12:00",
       "canales": [
         "CF Pozuelo de Alarcon YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 18",
+      "evento": "AD Illescas vs CD Toledo",
+      "local": "AD Illescas",
+      "visitante": "CD Toledo",
+      "fecha": "2026-11-22",
+      "hora": "12:00",
+      "canales": [
+        "CMMPlay (Castilla-LM)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 9",
+      "evento": "At. Mancha Real vs At. Malagueño",
+      "local": "At. Mancha Real",
+      "visitante": "At. Malagueño",
+      "fecha": "2026-11-22",
+      "hora": "12:00",
+      "canales": [
+        "Web Directo"
       ]
     },
     {
@@ -4566,7 +4869,21 @@
       "fecha": "2026-11-22",
       "hora": "12:00",
       "canales": [
-        "Burgos Club de Fútbol YouTube"
+        "Burgos Club de Fútbol YouTube",
+        "La 7 (Castilla y León)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 17",
+      "evento": "CF Illueca vs UD Fraga",
+      "local": "CF Illueca",
+      "visitante": "UD Fraga",
+      "fecha": "2026-11-22",
+      "hora": "12:00",
+      "canales": [
+        "Lacronicadeportes.es"
       ]
     },
     {
@@ -4606,6 +4923,19 @@
       "hora": "12:00",
       "canales": [
         "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 8",
+      "evento": "Palencia CF vs Guijuelo",
+      "local": "Palencia CF",
+      "visitante": "Guijuelo",
+      "fecha": "2026-11-22",
+      "hora": "12:00",
+      "canales": [
+        "Elviphotoss YouTube"
       ]
     },
     {
@@ -4757,6 +5087,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
+      "ronda": "Grupo 2",
+      "evento": "Reus FC Reddis vs UE Olot",
+      "local": "Reus FC Reddis",
+      "visitante": "UE Olot",
+      "fecha": "2026-11-22",
+      "hora": "12:30",
+      "canales": [
+        "La Xarxa+"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "Liga Endesa",
       "ronda": "Liga Regular",
@@ -4794,6 +5137,45 @@
       "hora": "12:30",
       "canales": [
         "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Atletismo",
+      "competicion": "Cross de Atapuerca",
+      "ronda": null,
+      "evento": "Carrera Masculina",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-11-22",
+      "hora": "12:45",
+      "canales": [
+        "RTVE Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "FA Women's Super League",
+      "ronda": null,
+      "evento": "Birmingham Femenino vs Man Utd Femenino",
+      "local": "Birmingham Femenino",
+      "visitante": "Man Utd Femenino",
+      "fecha": "2026-11-22",
+      "hora": "13:00",
+      "canales": [
+        "Barclays Women's Super League YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "FA Women's Super League",
+      "ronda": null,
+      "evento": "Man City Femenino vs Tottenham Femenino",
+      "local": "Man City Femenino",
+      "visitante": "Tottenham Femenino",
+      "fecha": "2026-11-22",
+      "hora": "13:00",
+      "canales": [
+        "Barclays Women's Super League YouTube"
       ]
     },
     {
@@ -5013,6 +5395,71 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "D1 Féminine",
+      "ronda": null,
+      "evento": "O. Lyonnais Femenino vs Strasbourg Alsace Feminine",
+      "local": "O. Lyonnais Femenino",
+      "visitante": "Strasbourg Alsace Feminine",
+      "fecha": "2026-11-22",
+      "hora": "15:00",
+      "canales": [
+        "Arkema Première Ligue YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "D1 Féminine",
+      "ronda": null,
+      "evento": "Paris FC Femenino vs FC Fleury Femenino",
+      "local": "Paris FC Femenino",
+      "visitante": "FC Fleury Femenino",
+      "fecha": "2026-11-22",
+      "hora": "15:00",
+      "canales": [
+        "Arkema Première Ligue YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "FA Women's Super League",
+      "ronda": null,
+      "evento": "Everton Femenino vs Brighton Femenino",
+      "local": "Everton Femenino",
+      "visitante": "Brighton Femenino",
+      "fecha": "2026-11-22",
+      "hora": "15:00",
+      "canales": [
+        "Barclays Women's Super League YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "FA Women's Super League",
+      "ronda": null,
+      "evento": "Charlton Athletic Femenino vs Aston Villa Femenino",
+      "local": "Charlton Athletic Femenino",
+      "visitante": "Aston Villa Femenino",
+      "fecha": "2026-11-22",
+      "hora": "15:00",
+      "canales": [
+        "Barclays Women's Super League YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "FA Women's League Cup",
+      "ronda": null,
+      "evento": "Ipswich Town Women vs Southampton Women",
+      "local": "Ipswich Town Women",
+      "visitante": "Southampton Women",
+      "fecha": "2026-11-22",
+      "hora": "15:00",
+      "canales": [
+        "Barclays Women's Super League YouTube"
+      ]
+    },
+    {
       "deporte": "Ciclismo",
       "competicion": "X2O Trofee Ciclocross",
       "ronda": null,
@@ -5079,6 +5526,19 @@
       "hora": "15:00",
       "canales": [
         "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "FA Women's Super League",
+      "ronda": null,
+      "evento": "Arsenal Femenino vs West Ham Femenino",
+      "local": "Arsenal Femenino",
+      "visitante": "West Ham Femenino",
+      "fecha": "2026-11-22",
+      "hora": "15:30",
+      "canales": [
+        "Barclays Women's Super League YouTube"
       ]
     },
     {
@@ -5155,6 +5615,32 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
+      "ronda": "Grupo 5",
+      "evento": "Atlético Albacete vs Guadalajara",
+      "local": "Atlético Albacete",
+      "visitante": "Guadalajara",
+      "fecha": "2026-11-22",
+      "hora": "16:00",
+      "canales": [
+        "CMMPlay (Castilla-LM)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Élite Cataluña",
+      "ronda": null,
+      "evento": "UE Rubí vs UE Vic",
+      "local": "UE Rubí",
+      "visitante": "UE Vic",
+      "fecha": "2026-11-22",
+      "hora": "16:00",
+      "canales": [
+        "La Xarxa+"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "Liga U",
       "ronda": "Primera Fase",
@@ -5167,6 +5653,19 @@
         "Liga U YouTube",
         "DAZN (Ver en directo)",
         "DAZN App Gratis (Ver gratis)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 17",
+      "evento": "CDJ Tamarite vs La Almunia",
+      "local": "CDJ Tamarite",
+      "visitante": "La Almunia",
+      "fecha": "2026-11-22",
+      "hora": "16:00",
+      "canales": [
+        "Lacronicadeportes.es"
       ]
     },
     {
@@ -5228,6 +5727,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "División Honor Infantil",
+      "ronda": null,
+      "evento": "Sant Andreu Academy vs FC Barcelona Academy",
+      "local": "Sant Andreu Academy",
+      "visitante": "FC Barcelona Academy",
+      "fecha": "2026-11-22",
+      "hora": "16:30",
+      "canales": [
+        "FCF TV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Segunda Federación",
       "ronda": "Grupo 5",
       "evento": "Navalcarnero vs G. Segoviana",
@@ -5250,6 +5762,19 @@
       "hora": "16:30",
       "canales": [
         "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 18",
+      "evento": "CD Torrijos vs AD San Clemente",
+      "local": "CD Torrijos",
+      "visitante": "AD San Clemente",
+      "fecha": "2026-11-22",
+      "hora": "16:30",
+      "canales": [
+        "Web Directo"
       ]
     },
     {
@@ -5368,7 +5893,8 @@
       "fecha": "2026-11-22",
       "hora": "17:00",
       "canales": [
-        "TV FootballClub (Acceder)"
+        "TV FootballClub (Acceder)",
+        "CMMPlay (Castilla-LM)"
       ]
     },
     {
@@ -5413,6 +5939,32 @@
         "DAZN 2 Bar (M149)",
         "Teledeporte",
         "RTVE Play"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 8",
+      "evento": "Arandina vs Mirandés B",
+      "local": "Arandina",
+      "visitante": "Mirandés B",
+      "fecha": "2026-11-22",
+      "hora": "17:00",
+      "canales": [
+        "El Fútbol Modesto YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 16",
+      "evento": "La Calzada vs SD Oyonesa",
+      "local": "La Calzada",
+      "visitante": "SD Oyonesa",
+      "fecha": "2026-11-22",
+      "hora": "17:00",
+      "canales": [
+        "Elviphotoss YouTube"
       ]
     },
     {
@@ -5507,6 +6059,19 @@
       "hora": "17:30",
       "canales": [
         "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
+      "ronda": "Grupo 4",
+      "evento": "Ciudad de Lucena vs Betis Deportivo",
+      "local": "Ciudad de Lucena",
+      "visitante": "Betis Deportivo",
+      "fecha": "2026-11-22",
+      "hora": "17:30",
+      "canales": [
+        "Web Directo"
       ]
     },
     {
@@ -5648,7 +6213,8 @@
       "fecha": "2026-11-22",
       "hora": "18:00",
       "canales": [
-        "TV FootballClub (Acceder)"
+        "TV FootballClub (Acceder)",
+        "La Xarxa+"
       ]
     },
     {
@@ -5984,7 +6550,21 @@
       "fecha": "2026-11-22",
       "hora": "19:30",
       "canales": [
-        "OneFootball PPV"
+        "OneFootball PPV",
+        "German Football YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera C",
+      "ronda": "Reducido Segundo Ascenso",
+      "evento": "Estrella del Sur vs Cañuelas",
+      "local": "Estrella del Sur",
+      "visitante": "Cañuelas",
+      "fecha": "2026-11-22",
+      "hora": "19:30",
+      "canales": [
+        "LPF Play (plan plus)"
       ]
     },
     {
@@ -6094,6 +6674,19 @@
       "hora": "20:45",
       "canales": [
         "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Torneo Federal A",
+      "ronda": null,
+      "evento": "Douglas Haig vs Olimpo",
+      "local": "Douglas Haig",
+      "visitante": "Olimpo",
+      "fecha": "2026-11-22",
+      "hora": "21:00",
+      "canales": [
+        "LPF Play (plan plus)"
       ]
     },
     {
@@ -6272,6 +6865,19 @@
         "M+ Vamos (11 y 50)",
         "M+ #Vamos Bar (307)",
         "M+ Liga de Campeones (M60 O115)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Torneo Federal A",
+      "ronda": null,
+      "evento": "Sarmiento La Banda vs Cipolletti",
+      "local": "Sarmiento La Banda",
+      "visitante": "Cipolletti",
+      "fecha": "2026-11-22",
+      "hora": "23:30",
+      "canales": [
+        "LPF Play (plan plus)"
       ]
     },
     {
