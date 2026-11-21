@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-11-21T15:54:35",
+    "generado": "2026-11-21T21:26:51",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 469
+    "total_eventos": 470
   },
   "eventos": [
     {
@@ -4331,6 +4331,20 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "ATP Finals",
+      "ronda": null,
+      "evento": "Final Dobles",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-11-22",
+      "hora": "15:00",
+      "canales": [
+        "ATP Tennis TV",
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "D1 Féminine",
       "ronda": null,
@@ -5084,10 +5098,10 @@
     {
       "deporte": "Tenis",
       "competicion": "ATP Finals",
-      "ronda": null,
-      "evento": "Final",
-      "local": null,
-      "visitante": null,
+      "ronda": "Final",
+      "evento": "TBD vs C. Alcaraz",
+      "local": "TBD",
+      "visitante": "C. Alcaraz",
       "fecha": "2026-11-22",
       "hora": "18:00",
       "canales": [
