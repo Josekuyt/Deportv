@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-11-21T05:42:12",
+    "generado": "2026-11-21T15:54:35",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 465
+    "total_eventos": 469
   },
   "eventos": [
     {
@@ -644,6 +644,21 @@
       ]
     },
     {
+      "deporte": "Motociclismo",
+      "competicion": "Moto3",
+      "ronda": null,
+      "evento": "G.P. Portugal (Algarve International) Clasificación",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-11-21",
+      "hora": "13:15",
+      "canales": [
+        "MotoGP Videopass",
+        "DAZN (Ver en directo)",
+        "DAZN MotoGP (M71 O105)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "National League",
       "ronda": null,
@@ -682,21 +697,6 @@
         "DAZN (Ver en directo)",
         "DAZN 1 (M72)",
         "DAZN 1 Bar (M148)"
-      ]
-    },
-    {
-      "deporte": "Motociclismo",
-      "competicion": "Moto3",
-      "ronda": null,
-      "evento": "G.P. Portugal (Algarve International) Clasificación",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-11-21",
-      "hora": "13:45",
-      "canales": [
-        "MotoGP Videopass",
-        "DAZN (Ver en directo)",
-        "DAZN MotoGP (M71 O105)"
       ]
     },
     {
@@ -834,6 +834,21 @@
       ]
     },
     {
+      "deporte": "Motociclismo",
+      "competicion": "Moto2",
+      "ronda": null,
+      "evento": "G.P. Portugal (Algarve International) Clasificación",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-11-21",
+      "hora": "14:10",
+      "canales": [
+        "MotoGP Videopass",
+        "DAZN (Ver en directo)",
+        "DAZN MotoGP (M71 O105)"
+      ]
+    },
+    {
       "deporte": "Tenis",
       "competicion": "ATP Finals",
       "ronda": "Semifinal 1",
@@ -846,21 +861,6 @@
         "ATP Tennis TV",
         "Movistar Plus+ (M8): VER PARTIDO",
         "M+ Deportes 2 (64)"
-      ]
-    },
-    {
-      "deporte": "Motociclismo",
-      "competicion": "Moto2",
-      "ronda": null,
-      "evento": "G.P. Portugal (Algarve International) Clasificación",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-11-21",
-      "hora": "14:40",
-      "canales": [
-        "MotoGP Videopass",
-        "DAZN (Ver en directo)",
-        "DAZN MotoGP (M71 O105)"
       ]
     },
     {
@@ -968,6 +968,21 @@
         "M+ Vamos (11 y 50)",
         "M+ #Vamos Bar (307)",
         "M+ Deportes (63)"
+      ]
+    },
+    {
+      "deporte": "Motociclismo",
+      "competicion": "MotoGP",
+      "ronda": null,
+      "evento": "G.P. Portugal (Algarve International) Sprint",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-11-21",
+      "hora": "15:30",
+      "canales": [
+        "MotoGP Videopass",
+        "DAZN (Ver en directo)",
+        "DAZN MotoGP (M71 O105)"
       ]
     },
     {
@@ -1100,21 +1115,6 @@
       "canales": [
         "Teledeporte",
         "RTVE Play"
-      ]
-    },
-    {
-      "deporte": "Motociclismo",
-      "competicion": "MotoGP",
-      "ronda": null,
-      "evento": "G.P. Portugal (Algarve International) Sprint",
-      "local": null,
-      "visitante": null,
-      "fecha": "2026-11-21",
-      "hora": "16:00",
-      "canales": [
-        "MotoGP Videopass",
-        "DAZN (Ver en directo)",
-        "DAZN MotoGP (M71 O105)"
       ]
     },
     {
@@ -1432,7 +1432,7 @@
       "fecha": "2026-11-21",
       "hora": "16:15",
       "canales": [
-        "DAZN LaLiga (M55 O113)",
+        "DAZN LaLiga 2 (M58 O114)",
         "DAZN (Ver en directo)",
         "LaLiga TV Bar"
       ]
@@ -2392,6 +2392,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Campeonato Femenino",
+      "ronda": null,
+      "evento": "Newell's Old Boys Femenino vs Unión Santa Fe Femenino",
+      "local": "Newell's Old Boys Femenino",
+      "visitante": "Unión Santa Fe Femenino",
+      "fecha": "2026-11-21",
+      "hora": "20:00",
+      "canales": [
+        "LPF Play (plan plus)"
+      ]
+    },
+    {
       "deporte": "Balonmano",
       "competicion": "Liga ASOBAL",
       "ronda": null,
@@ -2540,6 +2553,19 @@
       "evento": "Ciudad de Bolivar vs CA Atlanta",
       "local": "Ciudad de Bolivar",
       "visitante": "CA Atlanta",
+      "fecha": "2026-11-21",
+      "hora": "21:00",
+      "canales": [
+        "LPF Play (plan plus)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Campeonato Femenino",
+      "ronda": null,
+      "evento": "Gimnasia LP Femenino vs Independiente Femenino",
+      "local": "Gimnasia LP Femenino",
+      "visitante": "Independiente Femenino",
       "fecha": "2026-11-21",
       "hora": "21:00",
       "canales": [
@@ -6037,6 +6063,19 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Campeonato Femenino",
+      "ronda": null,
+      "evento": "River Plate Femenino vs Talleres Córdoba Femenino",
+      "local": "River Plate Femenino",
+      "visitante": "Talleres Córdoba Femenino",
+      "fecha": "2026-11-23",
+      "hora": "13:00",
+      "canales": [
+        "LPF Play (plan plus)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "FIFA Mundial Sub-17",
       "ronda": "Fase de grupos",
       "evento": "España vs Fiyi",
@@ -6264,6 +6303,19 @@
       "canales": [
         "DAZN (Ver en directo)",
         "LaLiga TV M3"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Campeonato Femenino",
+      "ronda": null,
+      "evento": "Banfield Femenino vs CA Huracán Femenino",
+      "local": "Banfield Femenino",
+      "visitante": "CA Huracán Femenino",
+      "fecha": "2026-11-23",
+      "hora": "21:00",
+      "canales": [
+        "LPF Play (plan plus)"
       ]
     },
     {
