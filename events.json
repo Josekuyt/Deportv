@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-11-22T05:11:25",
+    "generado": "2026-11-22T15:55:43",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 356
+    "total_eventos": 358
   },
   "eventos": [
     {
@@ -30,6 +30,19 @@
       "hora": "00:00",
       "canales": [
         "Disney+"
+      ]
+    },
+    {
+      "deporte": "Béisbol",
+      "competicion": "LVBP",
+      "ronda": null,
+      "evento": "Águilas del Zulia vs Bravos de Margarita",
+      "local": "Águilas del Zulia",
+      "visitante": "Bravos de Margarita",
+      "fecha": "2026-11-22",
+      "hora": "00:00",
+      "canales": [
+        "BeisbolPlay"
       ]
     },
     {
@@ -838,7 +851,7 @@
         "DAZN (Ver en directo)",
         "DAZN Baloncesto 3 (M76 O128)",
         "TV3 (Cataluña)",
-        "TVG (Galicia)"
+        "TVG2 (Galicia)"
       ]
     },
     {
@@ -2917,7 +2930,8 @@
       "canales": [
         "LALIGA TV Hypermotion (M56 O120): VER PARTIDO",
         "DAZN (Ver en directo)",
-        "LaLiga TV M2"
+        "LaLiga TV M2",
+        "LaLiga TV M4"
       ]
     },
     {
@@ -3394,6 +3408,19 @@
       ]
     },
     {
+      "deporte": "Golf",
+      "competicion": "The RSM Classic",
+      "ronda": null,
+      "evento": "Jornada 4",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-11-23",
+      "hora": "19:00",
+      "canales": [
+        "Movistar Golf (M68)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "AFC Champions League Elite",
       "ronda": "Fase Liga",
@@ -3514,7 +3541,8 @@
       "canales": [
         "LALIGA TV Hypermotion (M56 O120): VER PARTIDO",
         "DAZN (Ver en directo)",
-        "LaLiga TV M2"
+        "LaLiga TV M2",
+        "LaLiga TV M4"
       ]
     },
     {
@@ -4730,7 +4758,8 @@
         "Movistar Plus+ (M8): VER PARTIDO",
         "Orange Fútbol 1 (107)",
         "M+ Liga de Campeones (M60 O115)",
-        "M+ Liga de Campeones 4 (M180 O119)"
+        "M+ Liga de Campeones 4 (M180 O119)",
+        "LaLiga TV Bar"
       ]
     },
     {
