@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-11-22T05:11:25"
+    "actualizado": "2026-11-23T19:51:02"
   },
   "config": {
     "puntos_por_tier": {
@@ -2312,6 +2312,11 @@
     },
     "Davis Cup Finals": {
       "deporte": "Tenis",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "LMP": {
+      "deporte": "Béisbol",
       "tier": "C",
       "por_revisar": true
     }
