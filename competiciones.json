@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-11-24T08:29:18"
+    "actualizado": "2026-11-25T00:21:17"
   },
   "config": {
     "puntos_por_tier": {
@@ -2332,6 +2332,21 @@
     },
     "WBSC Premier 12": {
       "deporte": "Béisbol",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "CONCACAF Women's Championship": {
+      "deporte": "Fútbol",
+      "tier": "B",
+      "por_revisar": true
+    },
+    "Copa del Mundo Ciclocross": {
+      "deporte": "Ciclismo",
+      "tier": "S",
+      "por_revisar": true
+    },
+    "Torneo Int. España Femenino": {
+      "deporte": "Balonmano",
       "tier": "C",
       "por_revisar": true
     }
