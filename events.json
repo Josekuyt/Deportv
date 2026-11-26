@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-11-26T06:55:52",
+    "generado": "2026-11-26T18:07:57",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 422
+    "total_eventos": 450
   },
   "eventos": [
     {
@@ -1107,7 +1107,8 @@
       "canales": [
         "DAZN (Ver en directo)",
         "DAZN 2 (M73)",
-        "Mediaset Infinity"
+        "Mediaset Infinity",
+        "DAZN 1 (M72)"
       ]
     },
     {
@@ -1120,8 +1121,7 @@
       "fecha": "2026-11-26",
       "hora": "19:00",
       "canales": [
-        "FIBA YouTube",
-        "TVG2 (Galicia)"
+        "FIBA YouTube"
       ]
     },
     {
@@ -1594,6 +1594,19 @@
       ]
     },
     {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA AmeriCup",
+      "ronda": "Pre-Qualifiers",
+      "evento": "Cuba vs Barbados",
+      "local": "Cuba",
+      "visitante": "Barbados",
+      "fecha": "2026-11-26",
+      "hora": "22:00",
+      "canales": [
+        "FIBA YouTube"
+      ]
+    },
+    {
       "deporte": "Pádel",
       "competicion": "México Major",
       "ronda": null,
@@ -1616,7 +1629,8 @@
       "fecha": "2026-11-26",
       "hora": "22:30",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN 1 (M72)"
       ]
     },
     {
@@ -1739,6 +1753,19 @@
     },
     {
       "deporte": "Baloncesto",
+      "competicion": "FIBA AmeriCup",
+      "ronda": "Pre-Qualifiers",
+      "evento": "Venezuela vs Ecuador",
+      "local": "Venezuela",
+      "visitante": "Ecuador",
+      "fecha": "2026-11-27",
+      "hora": "00:30",
+      "canales": [
+        "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
       "competicion": "NCAA",
       "ronda": null,
       "evento": "DePaul vs Pittsburgh",
@@ -1786,7 +1813,9 @@
       "fecha": "2026-11-27",
       "hora": "02:20",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN 1 (M72)",
+        "DAZN 2 (M73)"
       ]
     },
     {
@@ -1961,6 +1990,7 @@
       "fecha": "2026-11-27",
       "hora": "14:00",
       "canales": [
+        "Teledeporte",
         "RTVE Play",
         "Movistar Golf (M68)"
       ]
@@ -2029,10 +2059,10 @@
     {
       "deporte": "Tenis",
       "competicion": "Davis Cup Finals",
-      "ronda": null,
-      "evento": "Semifinal 1",
-      "local": null,
-      "visitante": null,
+      "ronda": "Partido 1",
+      "evento": "Italia vs República Checa",
+      "local": "Italia",
+      "visitante": "República Checa",
       "fecha": "2026-11-27",
       "hora": "16:00",
       "canales": [
@@ -2052,6 +2082,7 @@
         "Liga U YouTube",
         "DAZN (Ver en directo)",
         "DAZN App Gratis (Ver gratis)",
+        "DAZN Baloncesto (M74 O126)",
         "Teledeporte",
         "RTVE Play"
       ]
@@ -2101,6 +2132,32 @@
       ]
     },
     {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Iowa vs Nebraska",
+      "local": "Iowa",
+      "visitante": "Nebraska",
+      "fecha": "2026-11-27",
+      "hora": "18:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Davis Cup Finals",
+      "ronda": "Partido 2",
+      "evento": "Italia vs República Checa",
+      "local": "Italia",
+      "visitante": "República Checa",
+      "fecha": "2026-11-27",
+      "hora": "18:00",
+      "canales": [
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
       "deporte": "Ciclismo",
       "competicion": "Copa del Mundo Ciclocross",
       "ronda": null,
@@ -2112,6 +2169,7 @@
       "canales": [
         "HBO MAX",
         "DAZN (Ver en directo)",
+        "Teledeporte",
         "RTVE Play",
         "Eurosport 2"
       ]
@@ -2237,19 +2295,6 @@
     },
     {
       "deporte": "Fútbol",
-      "competicion": "Campeonato Femenino",
-      "ronda": null,
-      "evento": "Ferro Carril Oeste Femenino vs SAT Femenino",
-      "local": "Ferro Carril Oeste Femenino",
-      "visitante": "SAT Femenino",
-      "fecha": "2026-11-27",
-      "hora": "19:00",
-      "canales": [
-        "LPF Play (plan plus)"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
       "competicion": "Primera Federación",
       "ronda": "Grupo 1",
       "evento": "Bilbao Athletic vs Cultural Leonesa",
@@ -2276,7 +2321,8 @@
       "canales": [
         "Liga U YouTube",
         "DAZN (Ver en directo)",
-        "DAZN App Gratis (Ver gratis)"
+        "DAZN App Gratis (Ver gratis)",
+        "DAZN Baloncesto 2 (M75 O127)"
       ]
     },
     {
@@ -2391,6 +2437,19 @@
       ]
     },
     {
+      "deporte": "Tenis",
+      "competicion": "Davis Cup Finals",
+      "ronda": "Partido 3 (Dobles)",
+      "evento": "Italia vs República Checa",
+      "local": "Italia",
+      "visitante": "República Checa",
+      "fecha": "2026-11-27",
+      "hora": "20:00",
+      "canales": [
+        "M+ Deportes 2 (64)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "2. Liga",
       "ronda": null,
@@ -2431,6 +2490,7 @@
       "fecha": "2026-11-27",
       "hora": "20:30",
       "canales": [
+        "Teledeporte",
         "RTVE Play"
       ]
     },
@@ -2476,7 +2536,8 @@
       "canales": [
         "Liga U YouTube",
         "DAZN (Ver en directo)",
-        "DAZN App Gratis (Ver gratis)"
+        "DAZN App Gratis (Ver gratis)",
+        "DAZN Baloncesto 3 (M76 O128)"
       ]
     },
     {
@@ -2653,7 +2714,9 @@
       "fecha": "2026-11-27",
       "hora": "21:00",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN 1 (M72)",
+        "DAZN 1 Bar (M148)"
       ]
     },
     {
@@ -2722,6 +2785,19 @@
       "hora": "22:00",
       "canales": [
         "Disney+"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA AmeriCup",
+      "ronda": "Pre-Qualifiers",
+      "evento": "Ecuador vs Cuba",
+      "local": "Ecuador",
+      "visitante": "Cuba",
+      "fecha": "2026-11-27",
+      "hora": "22:00",
+      "canales": [
+        "FIBA YouTube"
       ]
     },
     {
@@ -2807,6 +2883,19 @@
     },
     {
       "deporte": "Baloncesto",
+      "competicion": "FIBA AmeriCup",
+      "ronda": "Pre-Qualifiers",
+      "evento": "Jamaica vs Costa Rica",
+      "local": "Jamaica",
+      "visitante": "Costa Rica",
+      "fecha": "2026-11-27",
+      "hora": "23:30",
+      "canales": [
+        "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
       "competicion": "FIBA Copa Mundial",
       "ronda": null,
       "evento": "Chile vs México",
@@ -2814,6 +2903,32 @@
       "visitante": "México",
       "fecha": "2026-11-27",
       "hora": "23:40",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Western Kentucky vs Illinois",
+      "local": "Western Kentucky",
+      "visitante": "Illinois",
+      "fecha": "2026-11-28",
+      "hora": "00:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Bowling Green vs Indiana Hoosiers",
+      "local": "Bowling Green",
+      "visitante": "Indiana Hoosiers",
+      "fecha": "2026-11-28",
+      "hora": "00:00",
       "canales": [
         "DAZN (Ver en directo)"
       ]
@@ -2910,6 +3025,32 @@
       ]
     },
     {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA AmeriCup",
+      "ronda": "Pre-Qualifiers",
+      "evento": "Barbados vs Venezuela",
+      "local": "Barbados",
+      "visitante": "Venezuela",
+      "fecha": "2026-11-28",
+      "hora": "00:30",
+      "canales": [
+        "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Colombiana",
+      "ronda": null,
+      "evento": "Deportivo Cali vs Bucaramanga",
+      "local": "Deportivo Cali",
+      "visitante": "Bucaramanga",
+      "fecha": "2026-11-28",
+      "hora": "00:35",
+      "canales": [
+        "RCN Nuestra Tele"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Primera Nacional Argentina",
       "ronda": null,
@@ -2967,6 +3108,19 @@
       ]
     },
     {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Wisconsin vs Minnesota",
+      "local": "Wisconsin",
+      "visitante": "Minnesota",
+      "fecha": "2026-11-28",
+      "hora": "01:30",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
       "deporte": "Ishockey",
       "competicion": "NHL",
       "ronda": "Liga Regular",
@@ -3019,6 +3173,19 @@
       ]
     },
     {
+      "deporte": "Baloncesto",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Northeastern vs Northwestern",
+      "local": "Northeastern",
+      "visitante": "Northwestern",
+      "fecha": "2026-11-28",
+      "hora": "02:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
       "deporte": "Ishockey",
       "competicion": "NHL",
       "ronda": "Liga Regular",
@@ -3042,6 +3209,19 @@
       "hora": "02:00",
       "canales": [
         "Disney+"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA AmeriCup",
+      "ronda": "Pre-Qualifiers",
+      "evento": "Nicaragua vs Guyana",
+      "local": "Nicaragua",
+      "visitante": "Guyana",
+      "fecha": "2026-11-28",
+      "hora": "02:00",
+      "canales": [
+        "FIBA YouTube"
       ]
     },
     {
@@ -3120,6 +3300,19 @@
       "hora": "02:40",
       "canales": [
         "RCN Nuestra Tele"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Utah Utes vs West Virginia",
+      "local": "Utah Utes",
+      "visitante": "West Virginia",
+      "fecha": "2026-11-28",
+      "hora": "03:00",
+      "canales": [
+        "DAZN (Ver en directo)"
       ]
     },
     {
@@ -3672,6 +3865,32 @@
       ]
     },
     {
+      "deporte": "Hockey Patines",
+      "competicion": "OK Liga Femenina",
+      "ronda": null,
+      "evento": "CH Mataró vs Marineda Hockey",
+      "local": "CH Mataró",
+      "visitante": "Marineda Hockey",
+      "fecha": "2026-11-28",
+      "hora": "13:00",
+      "canales": [
+        "Esport3 Web"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Campeonato Femenino",
+      "ronda": null,
+      "evento": "Ferro Carril Oeste Femenino vs SAT Femenino",
+      "local": "Ferro Carril Oeste Femenino",
+      "visitante": "SAT Femenino",
+      "fecha": "2026-11-28",
+      "hora": "13:00",
+      "canales": [
+        "LPF Play (plan plus)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Primera Federación",
       "ronda": "Grupo 1",
@@ -3698,6 +3917,7 @@
       "hora": "13:15",
       "canales": [
         "M+ Vamos 2 (51)",
+        "M+ #Vamos Bar (307)",
         "M+ Liga de Campeones (M60 O115)"
       ]
     },
@@ -3959,10 +4179,10 @@
         "MotoGP Videopass",
         "DAZN (Ver en directo)",
         "DAZN MotoGP (M71 O105)",
+        "BE MAD",
         "Mediaset Infinity",
         "Movistar Plus+ (M8): VER PARTIDO",
-        "DAZN App Gratis (Ver gratis)",
-        "Telecinco"
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
@@ -4358,7 +4578,9 @@
       "fecha": "2026-11-28",
       "hora": "16:00",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN 1 (M72)",
+        "DAZN 1 Bar (M148)"
       ]
     },
     {
@@ -4371,7 +4593,9 @@
       "fecha": "2026-11-28",
       "hora": "16:00",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN 2 (M73)",
+        "DAZN 2 Bar (M149)"
       ]
     },
     {
@@ -4444,19 +4668,6 @@
       "hora": "16:16",
       "canales": [
         "RugbyPass TV"
-      ]
-    },
-    {
-      "deporte": "Fútbol Sala",
-      "competicion": "Liga Prime",
-      "ronda": "Torneo Apertura",
-      "evento": "Jaén FS vs AD Sala 10 Zaragoza",
-      "local": "Jaén FS",
-      "visitante": "AD Sala 10 Zaragoza",
-      "fecha": "2026-11-28",
-      "hora": "16:30",
-      "canales": [
-        "DAZN (Ver en directo)"
       ]
     },
     {
@@ -4877,6 +5088,32 @@
       ]
     },
     {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Ohio State vs Michigan Athletics",
+      "local": "Ohio State",
+      "visitante": "Michigan Athletics",
+      "fecha": "2026-11-28",
+      "hora": "18:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Wyoming vs U Connecticut",
+      "local": "Wyoming",
+      "visitante": "U Connecticut",
+      "fecha": "2026-11-28",
+      "hora": "18:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "Liga Femenina Endesa",
       "ronda": "Liga Regular",
@@ -4900,7 +5137,8 @@
       "fecha": "2026-11-28",
       "hora": "18:00",
       "canales": [
-        "Teledeporte",
+        "La 2 TVE",
+        "La 2 Cat",
         "RTVE Play"
       ]
     },
@@ -5011,6 +5249,19 @@
       ]
     },
     {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Northwestern vs Illinois",
+      "local": "Northwestern",
+      "visitante": "Illinois",
+      "fecha": "2026-11-28",
+      "hora": "18:30",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
       "deporte": "Voleibol",
       "competicion": "Superliga Masculina",
       "ronda": null,
@@ -5070,6 +5321,19 @@
       ]
     },
     {
+      "deporte": "Fútbol Sala",
+      "competicion": "Segunda Federación Futsal",
+      "ronda": null,
+      "evento": "Club Sala 5 Martorell vs Aliança Mataró",
+      "local": "Club Sala 5 Martorell",
+      "visitante": "Aliança Mataró",
+      "fecha": "2026-11-28",
+      "hora": "18:30",
+      "canales": [
+        "FutsalRFEF YouTube"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Segunda Federación",
       "ronda": "Grupo 2",
@@ -5106,6 +5370,7 @@
       "hora": "18:30",
       "canales": [
         "M+ Vamos 3 (53)",
+        "M+ #Vamos Bar (307)",
         "M+ Liga de Campeones (M60 O115)"
       ]
     },
@@ -5132,7 +5397,9 @@
       "fecha": "2026-11-28",
       "hora": "18:30",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN 1 (M72)",
+        "DAZN 1 Bar (M148)"
       ]
     },
     {
@@ -5267,6 +5534,20 @@
     },
     {
       "deporte": "Boxeo",
+      "competicion": "Velada",
+      "ronda": null,
+      "evento": "Liga4Boxing",
+      "local": null,
+      "visitante": null,
+      "fecha": "2026-11-28",
+      "hora": "19:00",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
+      ]
+    },
+    {
+      "deporte": "Boxeo",
       "competicion": "Título Mundial",
       "ronda": "Peso Pesado",
       "evento": "A. Kabayel vs N. Hysa",
@@ -5275,7 +5556,8 @@
       "fecha": "2026-11-28",
       "hora": "19:00",
       "canales": [
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN 2 (M73)"
       ]
     },
     {
@@ -5519,6 +5801,19 @@
       "deporte": "Fútbol Sala",
       "competicion": "Liga Prime",
       "ronda": "Torneo Apertura",
+      "evento": "Jaén FS vs AD Sala 10 Zaragoza",
+      "local": "Jaén FS",
+      "visitante": "AD Sala 10 Zaragoza",
+      "fecha": "2026-11-28",
+      "hora": "20:30",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Sala",
+      "competicion": "Liga Prime",
+      "ronda": "Torneo Apertura",
       "evento": "O Parrulo Ferrol vs Córdoba FS",
       "local": "O Parrulo Ferrol",
       "visitante": "Córdoba FS",
@@ -5670,6 +5965,45 @@
       ]
     },
     {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "BYU Cougars vs Cincinnati Bearcats",
+      "local": "BYU Cougars",
+      "visitante": "Cincinnati Bearcats",
+      "fecha": "2026-11-28",
+      "hora": "21:30",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Maryland vs Penn State",
+      "local": "Maryland",
+      "visitante": "Penn State",
+      "fecha": "2026-11-28",
+      "hora": "21:30",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "UCLA vs USC",
+      "local": "UCLA",
+      "visitante": "USC",
+      "fecha": "2026-11-28",
+      "hora": "21:30",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
       "deporte": "Ishockey",
       "competicion": "NHL",
       "ronda": "Liga Regular",
@@ -5680,6 +6014,33 @@
       "hora": "22:00",
       "canales": [
         "Disney+"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA AmeriCup",
+      "ronda": "Pre-Qualifiers",
+      "evento": "Barbados vs Ecuador",
+      "local": "Barbados",
+      "visitante": "Ecuador",
+      "fecha": "2026-11-28",
+      "hora": "22:00",
+      "canales": [
+        "FIBA YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol Americano",
+      "competicion": "NCAA",
+      "ronda": null,
+      "evento": "Rutgers vs Michigan State",
+      "local": "Rutgers",
+      "visitante": "Michigan State",
+      "fecha": "2026-11-28",
+      "hora": "22:15",
+      "canales": [
+        "DAZN (Ver en directo)",
+        "DAZN App Gratis (Ver gratis)"
       ]
     },
     {
@@ -5750,6 +6111,19 @@
       ]
     },
     {
+      "deporte": "Fútbol Sala",
+      "competicion": "Primera División Futsal AFA",
+      "ronda": "Semifinales",
+      "evento": "Barracas Central FS vs América del Sud FS",
+      "local": "Barracas Central FS",
+      "visitante": "América del Sud FS",
+      "fecha": "2026-11-28",
+      "hora": "23:00",
+      "canales": [
+        "LPF Play (plan plus)"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "NBA",
       "ronda": "Liga Regular",
@@ -5760,7 +6134,21 @@
       "hora": "23:00",
       "canales": [
         "NBA League Pass",
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DAZN Baloncesto (M74 O126)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA AmeriCup",
+      "ronda": "Pre-Qualifiers",
+      "evento": "Guyana vs Jamaica",
+      "local": "Guyana",
+      "visitante": "Jamaica",
+      "fecha": "2026-11-28",
+      "hora": "23:30",
+      "canales": [
+        "FIBA YouTube"
       ]
     }
   ]
