@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-11-25T00:21:17"
+    "actualizado": "2026-11-26T06:55:52"
   },
   "config": {
     "puntos_por_tier": {
@@ -2347,6 +2347,16 @@
     },
     "Torneo Int. España Femenino": {
       "deporte": "Balonmano",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Sevens Series": {
+      "deporte": "Rugby U",
+      "tier": "C",
+      "por_revisar": true
+    },
+    "Sevens Series Femenino": {
+      "deporte": "Rugby U",
       "tier": "C",
       "por_revisar": true
     }
