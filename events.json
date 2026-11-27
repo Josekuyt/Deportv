@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-11-27T06:49:06",
+    "generado": "2026-11-27T17:50:28",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 499
+    "total_eventos": 537
   },
   "eventos": [
     {
@@ -310,6 +310,7 @@
       "fecha": "2026-11-27",
       "hora": "14:00",
       "canales": [
+        "Canal Sur Más",
         "Teledeporte",
         "RTVE Play",
         "Movistar Golf (M68)"
@@ -420,7 +421,8 @@
         "Liga U YouTube",
         "DAZN (Ver en directo)",
         "DAZN App Gratis (Ver gratis)",
-        "Aragón Play"
+        "Aragón Play",
+        "As.com"
       ]
     },
     {
@@ -548,6 +550,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Saudi Pro League",
+      "ronda": null,
+      "evento": "Al-Ittihad Jeddah Club vs NEOM SC",
+      "local": "Al-Ittihad Jeddah Club",
+      "visitante": "NEOM SC",
+      "fecha": "2026-11-27",
+      "hora": "18:30",
+      "canales": [
+        "OneFootball"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "FIBA Copa Mundial",
       "ronda": "Fase de Clasificación",
@@ -655,7 +670,8 @@
         "Liga U YouTube",
         "DAZN (Ver en directo)",
         "DAZN App Gratis (Ver gratis)",
-        "DAZN Baloncesto 2 (M75 O127)"
+        "DAZN Baloncesto 2 (M75 O127)",
+        "Marca YouTube"
       ]
     },
     {
@@ -913,7 +929,8 @@
       "fecha": "2026-11-27",
       "hora": "20:45",
       "canales": [
-        "M+ Baloncesto 3 (M194)"
+        "M+ Baloncesto 3 (M194)",
+        "DAZN (Ver en directo)"
       ]
     },
     {
@@ -1143,7 +1160,7 @@
       "fecha": "2026-11-27",
       "hora": "22:00",
       "canales": [
-        "Movidadeportivatv YouTube"
+        "Deportes TVCanaria YouTube"
       ]
     },
     {
@@ -1772,6 +1789,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "J1 League",
+      "ronda": null,
+      "evento": "Kyoto Sanga vs Cerezo Osaka",
+      "local": "Kyoto Sanga",
+      "visitante": "Cerezo Osaka",
+      "fecha": "2026-11-28",
+      "hora": "06:00",
+      "canales": [
+        "J.LEAGUE International YouTube"
+      ]
+    },
+    {
       "deporte": "Rugby U",
       "competicion": "Sevens Series Femenino",
       "ronda": null,
@@ -1899,6 +1929,32 @@
       "hora": "09:40",
       "canales": [
         "A-Leagues YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Preferente Benjamín",
+      "ronda": null,
+      "evento": "FC Barcelona Academy vs Vilanova Geltrú Academy",
+      "local": "FC Barcelona Academy",
+      "visitante": "Vilanova Geltrú Academy",
+      "fecha": "2026-11-28",
+      "hora": "10:00",
+      "canales": [
+        "FC Barcelona PPV YouTube"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "División Honor Infantil",
+      "ronda": "Grupo 1 (Madrid)",
+      "evento": "Real Madrid Academy vs Las Rozas Academy",
+      "local": "Real Madrid Academy",
+      "visitante": "Las Rozas Academy",
+      "fecha": "2026-11-28",
+      "hora": "10:00",
+      "canales": [
+        "Real Madrid TV"
       ]
     },
     {
@@ -2041,6 +2097,19 @@
       "hora": "11:55",
       "canales": [
         "RugbyPass TV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Preferente Alevín",
+      "ronda": null,
+      "evento": "FC Barcelona Academy vs Vilanova Geltrú Academy",
+      "local": "FC Barcelona Academy",
+      "visitante": "Vilanova Geltrú Academy",
+      "fecha": "2026-11-28",
+      "hora": "12:00",
+      "canales": [
+        "FC Barcelona PPV YouTube"
       ]
     },
     {
@@ -2211,6 +2280,19 @@
       ]
     },
     {
+      "deporte": "Rugby U",
+      "competicion": "Liga Iberdrola Femenina",
+      "ronda": null,
+      "evento": "CR Sant Cugat vs CR Olimpico de Pozuelo",
+      "local": "CR Sant Cugat",
+      "visitante": "CR Olimpico de Pozuelo",
+      "fecha": "2026-11-28",
+      "hora": "13:00",
+      "canales": [
+        "La Xarxa+"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Primera Federación",
       "ronda": "Grupo 1",
@@ -2224,6 +2306,19 @@
         "FANPLAY TV",
         "Primera Federación (M53 O125)",
         "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Liga Nacional Juvenil",
+      "ronda": "Grupo 12 (Madrid)",
+      "evento": "Real Madrid Academy vs Rayo Ciudad Alcobendas Academy",
+      "local": "Real Madrid Academy",
+      "visitante": "Rayo Ciudad Alcobendas Academy",
+      "fecha": "2026-11-28",
+      "hora": "13:00",
+      "canales": [
+        "Real Madrid TV"
       ]
     },
     {
@@ -2387,6 +2482,8 @@
       "fecha": "2026-11-28",
       "hora": "14:00",
       "canales": [
+        "Canal Sur Más",
+        "Teledeporte",
         "RTVE Play",
         "Movistar Golf (M68)"
       ]
@@ -2403,6 +2500,7 @@
       "canales": [
         "M+ LALIGA (M54 O110)",
         "M+ LALIGA HDR (M440 O111)",
+        "M+ LALIGA 2 (M57 O112)",
         "LaLiga TV Bar"
       ]
     },
@@ -2701,6 +2799,19 @@
       "hora": "15:52",
       "canales": [
         "RugbyPass TV"
+      ]
+    },
+    {
+      "deporte": "Hockey Patines",
+      "competicion": "OK Liga",
+      "ronda": null,
+      "evento": "CE Lleida Llista Blava vs CE Noia",
+      "local": "CE Lleida Llista Blava",
+      "visitante": "CE Noia",
+      "fecha": "2026-11-28",
+      "hora": "16:00",
+      "canales": [
+        "La Xarxa+"
       ]
     },
     {
@@ -3004,6 +3115,7 @@
       "fecha": "2026-11-28",
       "hora": "16:15",
       "canales": [
+        "Teledeporte",
         "RTVE Play"
       ]
     },
@@ -3030,7 +3142,8 @@
       "fecha": "2026-11-28",
       "hora": "16:30",
       "canales": [
-        "OneFootball PPV"
+        "OneFootball PPV",
+        "German Football YouTube"
       ]
     },
     {
@@ -3119,6 +3232,19 @@
       "canales": [
         "TV FootballClub (Acceder)",
         "FANPLAY TV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 18",
+      "evento": "CD Toledo vs CD Torrijos",
+      "local": "CD Toledo",
+      "visitante": "CD Torrijos",
+      "fecha": "2026-11-28",
+      "hora": "16:30",
+      "canales": [
+        "CMMPlay (Castilla-LM)"
       ]
     },
     {
@@ -3262,7 +3388,8 @@
       "fecha": "2026-11-28",
       "hora": "17:00",
       "canales": [
-        "TV FootballClub (Acceder)"
+        "TV FootballClub (Acceder)",
+        "CMMPlay (Castilla-LM)"
       ]
     },
     {
@@ -3276,6 +3403,19 @@
       "hora": "17:00",
       "canales": [
         "ASOBAL TV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 8",
+      "evento": "Arandina vs CD Villaralbo",
+      "local": "Arandina",
+      "visitante": "CD Villaralbo",
+      "fecha": "2026-11-28",
+      "hora": "17:00",
+      "canales": [
+        "El Fútbol Modesto YouTube"
       ]
     },
     {
@@ -3408,6 +3548,7 @@
       "hora": "17:30",
       "canales": [
         "TV FootballClub (Acceder)",
+        "FC Barcelona PPV YouTube",
         "Esport3 (Cataluña)"
       ]
     },
@@ -3517,7 +3658,8 @@
       "canales": [
         "TV FootballClub (Acceder)",
         "Canal 9 Soria",
-        "CANAL 9 SORIA YouTube"
+        "CANAL 9 SORIA YouTube",
+        "CMMPlay (Castilla-LM)"
       ]
     },
     {
@@ -3531,6 +3673,19 @@
       "hora": "18:00",
       "canales": [
         "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
+      "ronda": "Grupo 5",
+      "evento": "G. Segoviana vs CF Talavera",
+      "local": "G. Segoviana",
+      "visitante": "CF Talavera",
+      "fecha": "2026-11-28",
+      "hora": "18:00",
+      "canales": [
+        "Web Directo"
       ]
     },
     {
@@ -3583,6 +3738,20 @@
       "hora": "18:00",
       "canales": [
         "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 5",
+      "evento": "Cornellá vs Montañesa",
+      "local": "Cornellá",
+      "visitante": "Montañesa",
+      "fecha": "2026-11-28",
+      "hora": "18:15",
+      "canales": [
+        "Betevé (Barcelona)",
+        "La Xarxa+"
       ]
     },
     {
@@ -3652,6 +3821,7 @@
         "Movistar Plus+ (M8): VER PARTIDO",
         "Orange Fútbol 1 (107)",
         "M+ LALIGA HDR (M440 O111)",
+        "M+ LALIGA 2 (M57 O112)",
         "LaLiga TV Bar"
       ]
     },
@@ -3734,6 +3904,7 @@
       "fecha": "2026-11-28",
       "hora": "18:30",
       "canales": [
+        "Teledeporte",
         "RTVE Play"
       ]
     },
@@ -3976,6 +4147,19 @@
       "canales": [
         "TV FootballClub (Acceder)",
         "Canal Deporte TV (Síguelo en directo)"
+      ]
+    },
+    {
+      "deporte": "Hockey Patines",
+      "competicion": "WSE Women's Champions League",
+      "ronda": null,
+      "evento": "CP Vila-Sana vs CH Palau",
+      "local": "CP Vila-Sana",
+      "visitante": "CH Palau",
+      "fecha": "2026-11-28",
+      "hora": "19:00",
+      "canales": [
+        "La Xarxa+"
       ]
     },
     {
@@ -4266,6 +4450,7 @@
       "canales": [
         "M+ LALIGA (M54 O110)",
         "M+ LALIGA HDR (M440 O111)",
+        "M+ LALIGA 2 (M57 O112)",
         "LaLiga TV Bar",
         "LaLiga TV M3"
       ]
@@ -4538,6 +4723,19 @@
       "hora": "00:00",
       "canales": [
         "NBA League Pass"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Primera División Argentina",
+      "ronda": "1/4 de Final",
+      "evento": "Vélez Sarsfield vs Independiente",
+      "local": "Vélez Sarsfield",
+      "visitante": "Independiente",
+      "fecha": "2026-11-29",
+      "hora": "00:00",
+      "canales": [
+        "Fanatiz (Ver en directo)"
       ]
     },
     {
@@ -4816,6 +5014,20 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Primera División Argentina",
+      "ronda": "1/4 de Final",
+      "evento": "Instituto vs River Plate",
+      "local": "Instituto",
+      "visitante": "River Plate",
+      "fecha": "2026-11-29",
+      "hora": "02:00",
+      "canales": [
+        "Fanatiz (Ver en directo)",
+        "M+ Liga de Campeones (M60 O115)"
+      ]
+    },
+    {
       "deporte": "Baloncesto",
       "competicion": "NBA",
       "ronda": "Liga Regular",
@@ -4923,6 +5135,58 @@
       ]
     },
     {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Copa Mundial",
+      "ronda": "Fase de Clasificación",
+      "evento": "Siria vs Nueva Zelanda",
+      "local": "Siria",
+      "visitante": "Nueva Zelanda",
+      "fecha": "2026-11-29",
+      "hora": "07:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "J1 League",
+      "ronda": null,
+      "evento": "Machida Zelvia vs Tokyo Verdy Beleza",
+      "local": "Machida Zelvia",
+      "visitante": "Tokyo Verdy Beleza",
+      "fecha": "2026-11-29",
+      "hora": "08:00",
+      "canales": [
+        "J.LEAGUE International YouTube"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Copa Mundial",
+      "ronda": "Fase de Clasificación",
+      "evento": "Irán vs Filipinas",
+      "local": "Irán",
+      "visitante": "Filipinas",
+      "fecha": "2026-11-29",
+      "hora": "10:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "1ª Autonómica Juvenil",
+      "ronda": "Grupo 1 (Madrid)",
+      "evento": "Real Madrid Academy vs Deportivo Santa Ana Academy",
+      "local": "Real Madrid Academy",
+      "visitante": "Deportivo Santa Ana Academy",
+      "fecha": "2026-11-29",
+      "hora": "10:15",
+      "canales": [
+        "Real Madrid TV"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "2. Liga",
       "ronda": null,
@@ -4977,7 +5241,8 @@
       "fecha": "2026-11-29",
       "hora": "11:00",
       "canales": [
-        "TV FootballClub (Acceder)"
+        "TV FootballClub (Acceder)",
+        "CMMPlay (Castilla-LM)"
       ]
     },
     {
@@ -5017,6 +5282,23 @@
       "hora": "11:30",
       "canales": [
         "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "División Honor Juvenil",
+      "ronda": "Grupo 7",
+      "evento": "Villarreal Academy vs Mallorca Academy",
+      "local": "Villarreal Academy",
+      "visitante": "Mallorca Academy",
+      "fecha": "2026-11-29",
+      "hora": "11:30",
+      "canales": [
+        "Villarreal TV",
+        "VillarrealCF YouTube",
+        "Twitch VillarrealCF",
+        "Facebook Live Villarreal CF",
+        "Twitter Villarreal CF"
       ]
     },
     {
@@ -5084,7 +5366,8 @@
       "fecha": "2026-11-29",
       "hora": "12:00",
       "canales": [
-        "TV FootballClub (Acceder)"
+        "TV FootballClub (Acceder)",
+        "CMMPlay (Castilla-LM)"
       ]
     },
     {
@@ -5156,6 +5439,20 @@
     {
       "deporte": "Fútbol",
       "competicion": "Tercera Federación",
+      "ronda": "Grupo 5",
+      "evento": "L'Hospitalet vs Martinenc",
+      "local": "L'Hospitalet",
+      "visitante": "Martinenc",
+      "fecha": "2026-11-29",
+      "hora": "12:00",
+      "canales": [
+        "Betevé Web",
+        "Twitch btvesports"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
       "ronda": "Grupo 10",
       "evento": "Balompédica Linense vs Bollullos CF",
       "local": "Balompédica Linense",
@@ -5215,7 +5512,8 @@
       "fecha": "2026-11-29",
       "hora": "12:00",
       "canales": [
-        "TV FootballClub (Acceder)"
+        "TV FootballClub (Acceder)",
+        "Plaiz"
       ]
     },
     {
@@ -5234,6 +5532,19 @@
     {
       "deporte": "Fútbol",
       "competicion": "Tercera Federación",
+      "ronda": "Grupo 8",
+      "evento": "Virgen del Camino vs Palencia CF",
+      "local": "Virgen del Camino",
+      "visitante": "Palencia CF",
+      "fecha": "2026-11-29",
+      "hora": "12:00",
+      "canales": [
+        "La 7 (Castilla y León)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
       "ronda": "Grupo 9",
       "evento": "Cantoria 2017 CF vs Huétor Vega",
       "local": "Cantoria 2017 CF",
@@ -5242,6 +5553,19 @@
       "hora": "12:00",
       "canales": [
         "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "1ª División Alevín",
+      "ronda": null,
+      "evento": "FC Barcelona Academy vs Gavá Academy",
+      "local": "FC Barcelona Academy",
+      "visitante": "Gavá Academy",
+      "fecha": "2026-11-29",
+      "hora": "12:00",
+      "canales": [
+        "FC Barcelona PPV YouTube"
       ]
     },
     {
@@ -5294,6 +5618,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 17",
+      "evento": "CD Binéfar vs CD Brea",
+      "local": "CD Binéfar",
+      "visitante": "CD Brea",
+      "fecha": "2026-11-29",
+      "hora": "12:15",
+      "canales": [
+        "Lacronicadeportes.es"
+      ]
+    },
+    {
       "deporte": "Hockey Patines",
       "competicion": "OK Liga",
       "ronda": null,
@@ -5317,6 +5654,19 @@
       "hora": "12:30",
       "canales": [
         "TV FootballClub (Acceder)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 5",
+      "evento": "Mollerusa vs L'Escala",
+      "local": "Mollerusa",
+      "visitante": "L'Escala",
+      "fecha": "2026-11-29",
+      "hora": "12:30",
+      "canales": [
+        "La Xarxa+"
       ]
     },
     {
@@ -5348,6 +5698,19 @@
       ]
     },
     {
+      "deporte": "Fútbol",
+      "competicion": "División Honor Juvenil",
+      "ronda": "Grupo 5",
+      "evento": "Las Rozas Academy vs Real Madrid Academy",
+      "local": "Las Rozas Academy",
+      "visitante": "Real Madrid Academy",
+      "fecha": "2026-11-29",
+      "hora": "12:30",
+      "canales": [
+        "Real Madrid TV"
+      ]
+    },
+    {
       "deporte": "Ciclismo",
       "competicion": "Copa del Mundo Ciclocross",
       "ronda": null,
@@ -5359,6 +5722,19 @@
       "canales": [
         "HBO MAX",
         "RTVE Play"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Copa Mundial",
+      "ronda": "Fase de Clasificación",
+      "evento": "Jordania vs Australia",
+      "local": "Jordania",
+      "visitante": "Australia",
+      "fecha": "2026-11-29",
+      "hora": "13:00",
+      "canales": [
+        "DAZN (Ver en directo)"
       ]
     },
     {
@@ -5441,6 +5817,7 @@
       "fecha": "2026-11-29",
       "hora": "13:30",
       "canales": [
+        "Teledeporte",
         "RTVE Play"
       ]
     },
@@ -5510,6 +5887,19 @@
       ]
     },
     {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Copa Mundial",
+      "ronda": "Fase de Clasificación",
+      "evento": "Catar vs Japón",
+      "local": "Catar",
+      "visitante": "Japón",
+      "fecha": "2026-11-29",
+      "hora": "14:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
       "deporte": "Motociclismo",
       "competicion": "MotoGP",
       "ronda": null,
@@ -5538,6 +5928,7 @@
       "fecha": "2026-11-29",
       "hora": "14:00",
       "canales": [
+        "Canal Sur Más",
         "RTVE Play",
         "Movistar Golf (M68)"
       ]
@@ -5814,6 +6205,32 @@
     },
     {
       "deporte": "Fútbol",
+      "competicion": "Liga Élite Cataluña",
+      "ronda": null,
+      "evento": "CF Can Vidalet vs Manlleu",
+      "local": "CF Can Vidalet",
+      "visitante": "Manlleu",
+      "fecha": "2026-11-29",
+      "hora": "16:00",
+      "canales": [
+        "La Xarxa+"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 17",
+      "evento": "At. Monzón vs CF Illueca",
+      "local": "At. Monzón",
+      "visitante": "CF Illueca",
+      "fecha": "2026-11-29",
+      "hora": "16:00",
+      "canales": [
+        "Lacronicadeportes.es"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
       "competicion": "Jupiler Pro League",
       "ronda": null,
       "evento": "Antwerp vs Anderlecht",
@@ -5866,7 +6283,8 @@
       "fecha": "2026-11-29",
       "hora": "16:30",
       "canales": [
-        "M+ Baloncesto 2 (M67)"
+        "M+ Baloncesto 2 (M67)",
+        "DAZN (Ver en directo)"
       ]
     },
     {
@@ -5880,6 +6298,19 @@
       "hora": "16:30",
       "canales": [
         "OneFootball PPV"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 17",
+      "evento": "UD Fraga vs CD Sietamo",
+      "local": "UD Fraga",
+      "visitante": "CD Sietamo",
+      "fecha": "2026-11-29",
+      "hora": "16:30",
+      "canales": [
+        "Lacronicadeportes.es"
       ]
     },
     {
@@ -5937,6 +6368,19 @@
       ]
     },
     {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Copa Mundial",
+      "ronda": "Fase de Clasificación",
+      "evento": "Arabia Saudí vs Corea del Sur",
+      "local": "Arabia Saudí",
+      "visitante": "Corea del Sur",
+      "fecha": "2026-11-29",
+      "hora": "17:00",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
       "deporte": "Fútbol",
       "competicion": "Premier League Ucrania",
       "ronda": null,
@@ -5985,6 +6429,7 @@
       "fecha": "2026-11-29",
       "hora": "17:00",
       "canales": [
+        "FFCV YouTube",
         "La Ocho Mediterráneo"
       ]
     },
@@ -6068,6 +6513,32 @@
       "canales": [
         "M+ Baloncesto 3 (M194)",
         "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "División de Honor Sénior",
+      "ronda": "Grupo 1 (Andalucía)",
+      "evento": "Montilla CF vs CD Moguer",
+      "local": "Montilla CF",
+      "visitante": "CD Moguer",
+      "fecha": "2026-11-29",
+      "hora": "17:30",
+      "canales": [
+        "Web Directo"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 18",
+      "evento": "Villarrobledo vs AD Illescas",
+      "local": "Villarrobledo",
+      "visitante": "AD Illescas",
+      "fecha": "2026-11-29",
+      "hora": "17:30",
+      "canales": [
+        "CMMPlay (Castilla-LM)"
       ]
     },
     {
@@ -6168,7 +6639,8 @@
       "fecha": "2026-11-29",
       "hora": "18:00",
       "canales": [
-        "M+ Baloncesto 5 (M196)"
+        "M+ Baloncesto 5 (M196)",
+        "DAZN (Ver en directo)"
       ]
     },
     {
@@ -6185,7 +6657,20 @@
         "DAZN (Ver en directo)",
         "DAZN MotoGP (M71 O105)",
         "DAZN App Gratis (Ver gratis)",
-        "Esport3 (Cataluña)"
+        "Esport3 Web"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Segunda Federación",
+      "ronda": "Grupo 2",
+      "evento": "CE Manresa vs Girona B",
+      "local": "CE Manresa",
+      "visitante": "Girona B",
+      "fecha": "2026-11-29",
+      "hora": "18:00",
+      "canales": [
+        "La Xarxa+"
       ]
     },
     {
@@ -6199,6 +6684,19 @@
       "hora": "18:00",
       "canales": [
         "BeisbolPlay"
+      ]
+    },
+    {
+      "deporte": "Fútbol",
+      "competicion": "Tercera Federación",
+      "ronda": "Grupo 9",
+      "evento": "At. Porcuna vs Torre del Mar",
+      "local": "At. Porcuna",
+      "visitante": "Torre del Mar",
+      "fecha": "2026-11-29",
+      "hora": "18:00",
+      "canales": [
+        "Web Directo"
       ]
     },
     {
@@ -6243,6 +6741,7 @@
       "canales": [
         "M+ LALIGA (M54 O110)",
         "M+ LALIGA HDR (M440 O111)",
+        "M+ LALIGA 2 (M57 O112)",
         "LaLiga TV Bar"
       ]
     },
@@ -6412,6 +6911,19 @@
         "Orange Fútbol 3 (109)",
         "M+ Liga de Campeones (M60 O115)",
         "LaLiga TV M5"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Copa Mundial",
+      "ronda": "Fase de Clasificación",
+      "evento": "Líbano vs China",
+      "local": "Líbano",
+      "visitante": "China",
+      "fecha": "2026-11-29",
+      "hora": "20:00",
+      "canales": [
+        "DAZN (Ver en directo)"
       ]
     },
     {
@@ -6618,6 +7130,7 @@
         "LALIGA TV Hypermotion (M56 O120): VER PARTIDO",
         "DAZN (Ver en directo)",
         "Orange Fútbol 2 (108)",
+        "LALIGA TV Hypermotion 2 (M59 O121): VER PARTIDO",
         "LaLiga TV M2",
         "LaLiga TV M4"
       ]
@@ -6699,6 +7212,19 @@
       "visitante": "New England Patriots",
       "fecha": "2026-11-29",
       "hora": "22:05",
+      "canales": [
+        "DAZN (Ver en directo)"
+      ]
+    },
+    {
+      "deporte": "Baloncesto",
+      "competicion": "FIBA Copa Mundial",
+      "ronda": null,
+      "evento": "Argentina vs Canadá",
+      "local": "Argentina",
+      "visitante": "Canadá",
+      "fecha": "2026-11-29",
+      "hora": "22:10",
       "canales": [
         "DAZN (Ver en directo)"
       ]
