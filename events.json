@@ -1,9 +1,9 @@
 {
   "meta": {
     "fuente": "https://www.futbolenlatv.es/deporte",
-    "generado": "2026-11-28T06:23:20",
+    "generado": "2026-11-28T16:38:02",
     "descripcion": "Programacion deportiva en TV extraida de futbolenlatv.es. MVP 0.1.",
-    "total_eventos": 486
+    "total_eventos": 485
   },
   "eventos": [
     {
@@ -901,21 +901,6 @@
       ]
     },
     {
-      "deporte": "Tenis",
-      "competicion": "Davis Cup Finals",
-      "ronda": "Partido 1",
-      "evento": "Gran Bretaña vs España",
-      "local": "Gran Bretaña",
-      "visitante": "España",
-      "fecha": "2026-11-28",
-      "hora": "12:00",
-      "canales": [
-        "M+ Vamos (11 y 50)",
-        "M+ #Vamos Bar (307)",
-        "M+ Deportes 2 (64)"
-      ]
-    },
-    {
       "deporte": "Fútbol",
       "competicion": "Segunda Federación",
       "ronda": "Grupo 1",
@@ -939,6 +924,21 @@
       "hora": "12:17",
       "canales": [
         "RugbyPass TV"
+      ]
+    },
+    {
+      "deporte": "Tenis",
+      "competicion": "Davis Cup Finals",
+      "ronda": "Partido 1",
+      "evento": "Gran Bretaña vs España",
+      "local": "Gran Bretaña",
+      "visitante": "España",
+      "fecha": "2026-11-28",
+      "hora": "12:20",
+      "canales": [
+        "M+ Vamos (11 y 50)",
+        "M+ #Vamos Bar (307)",
+        "M+ Deportes 2 (64)"
       ]
     },
     {
@@ -1150,19 +1150,6 @@
       "evento": "Astoria Walldorf vs Kickers Offenbach",
       "local": "Astoria Walldorf",
       "visitante": "Kickers Offenbach",
-      "fecha": "2026-11-28",
-      "hora": "14:00",
-      "canales": [
-        "OneFootball PPV"
-      ]
-    },
-    {
-      "deporte": "Fútbol",
-      "competicion": "Regionalliga",
-      "ronda": null,
-      "evento": "TSV Steinbach vs Sandhausen",
-      "local": "TSV Steinbach",
-      "visitante": "Sandhausen",
       "fecha": "2026-11-28",
       "hora": "14:00",
       "canales": [
@@ -4807,10 +4794,10 @@
     {
       "deporte": "Tenis",
       "competicion": "Davis Cup Finals",
-      "ronda": null,
-      "evento": "Final",
-      "local": null,
-      "visitante": null,
+      "ronda": "Final",
+      "evento": "Italia vs España",
+      "local": "Italia",
+      "visitante": "España",
       "fecha": "2026-11-29",
       "hora": "15:00",
       "canales": [
