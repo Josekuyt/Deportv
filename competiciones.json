@@ -2,7 +2,7 @@
   "meta": {
     "descripcion": "Tier list de competiciones y configuracion de puntuacion para 'Destacados de hoy'. Editable a mano.",
     "instrucciones": "tier: S/A/B/C/D. Edita libremente. 'por_revisar':true marca competiciones anadidas automaticamente que conviene revisar; puedes quitar esa marca cuando la valides.",
-    "actualizado": "2026-11-27T17:50:28"
+    "actualizado": "2026-11-28T06:23:20"
   },
   "config": {
     "puntos_por_tier": {
@@ -2373,6 +2373,11 @@
     "WSE Women's Champions League": {
       "deporte": "Hockey Patines",
       "tier": "S",
+      "por_revisar": true
+    },
+    "Amistoso Femenino Sub-23": {
+      "deporte": "Fútbol",
+      "tier": "D",
       "por_revisar": true
     }
   }
